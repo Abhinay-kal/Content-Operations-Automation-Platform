@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "legacy-start": "node server.js",
-    "test": "npx playwright test"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
