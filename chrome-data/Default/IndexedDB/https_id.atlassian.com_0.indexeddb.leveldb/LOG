@@ -1,6 +1,0 @@
-2026/05/28-16:14:12.802 5ff601 Creating DB /Users/abhinaykalkhanday/Library/Application Support/Google/Chrome/Profile 3/IndexedDB/https_id.atlassian.com_0.indexeddb.leveldb since it was missing.
-2026/05/28-16:14:12.804 5ff601 Reusing MANIFEST /Users/abhinaykalkhanday/Library/Application Support/Google/Chrome/Profile 3/IndexedDB/https_id.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/28-16:14:18.015 5ff601 Level-0 table #5: started
-2026/05/28-16:14:18.017 5ff601 Level-0 table #5: 25266 bytes OK
-2026/05/28-16:14:18.020 5ff601 Delete type=0 #3
-2026/05/28-16:14:18.021 5ff601 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1198,10 +1198,5 @@
     "mtime": 1782408723.982274,
     "ast_hash": "e90eb8a18d6ba317bdd7eeadb2e38b88",
     "semantic_hash": ""
-  },
-  "AUDIT_REPORT.md": {
-    "mtime": 1782456965.58953,
-    "ast_hash": "44840e71580d646d1bba12473c25571c",
-    "semantic_hash": ""
   }
 }

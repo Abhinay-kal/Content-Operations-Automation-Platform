@@ -505,9 +505,9 @@
     "semantic_hash": "28a49e4c9e9bee71bd35dc5aa6633f82"
   },
   "README.md": {
-    "mtime": 1780656864.3482878,
-    "ast_hash": "cdce6d853a4bdc3a3ce46100825bdab7",
-    "semantic_hash": "cdce6d853a4bdc3a3ce46100825bdab7"
+    "mtime": 1782408379.0388587,
+    "ast_hash": "7b046381aa680bd3c0c4882062a23692",
+    "semantic_hash": ""
   },
   "SOAK_TEST_PLAN.md": {
     "mtime": 1781255115.9483914,
@@ -1192,6 +1192,11 @@
   "progress.md": {
     "mtime": 1782393047.2318547,
     "ast_hash": "ff43b5f921387c7824b8fc9b1ee1b653",
+    "semantic_hash": ""
+  },
+  "SYSTEM_DESIGN_AND_EVASION.md": {
+    "mtime": 1782408723.982274,
+    "ast_hash": "e90eb8a18d6ba317bdd7eeadb2e38b88",
     "semantic_hash": ""
   }
 }

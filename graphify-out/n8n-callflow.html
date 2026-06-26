@@ -60,24 +60,24 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>n8n — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 1069 nodes, 1310 edges, 124 communities. Commit: b53b262</p>
+<p class="subtitle">Generated from graphify knowledge graph: 1089 nodes, 1328 edges, 119 communities. Commit: ca782f6</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
     <a href="#extract-pipeline">Extraction Pipeline</a>
     <a href="#build-graph">Graph Build</a>
-    <a href="#analysis-clustering">Analysis &amp; Clustering</a>
+    <a href="#outputs-docs">Outputs &amp; Docs</a>
     <a href="#cli-skills">CLI &amp; Skill Installers</a>
     <a href="#ingest-cache-update">Ingestion &amp; Updates</a>
     <a href="#serve-api">Serving API</a>
     <a href="#tests-fixtures">Tests &amp; Fixtures</a>
-    <a href="#createclaudeerror-components">Createclaudeerror Components</a>
     <a href="#bootstrapmanager-components">Bootstrapmanager Components</a>
     <a href="#syncservice-components">Syncservice Components</a>
     <a href="#jobrepository-components">Jobrepository Components</a>
     <a href="#site-components">Site Components</a>
     <a href="#browsermanager-components">Browsermanager Components</a>
     <a href="#projectrepository-components">Projectrepository Components</a>
+    <a href="#wordpressrepository-components">Wordpressrepository Components</a>
     <a href="#other">Other</a>
 </div>
 
@@ -90,23 +90,21 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 flowchart LR
     EXTRACT_PIPELINE_5F350230("Extraction Pipeline<br/><small>16 nodes</small>")
     class EXTRACT_PIPELINE_5F350230 module;
-    BUILD_GRAPH_321CBB04("Graph Build<br/><small>24 nodes</small>")
+    BUILD_GRAPH_321CBB04("Graph Build<br/><small>59 nodes</small>")
     class BUILD_GRAPH_321CBB04 module;
-    ANALYSIS_CLUSTERING_C79796DA("Analysis &amp; Clustering<br/><small>12 nodes</small>")
-    class ANALYSIS_CLUSTERING_C79796DA module;
+    OUTPUTS_DOCS_ED82387C("Outputs &amp; Docs<br/><small>6 nodes</small>")
+    class OUTPUTS_DOCS_ED82387C module;
     CLI_SKILLS_9964CBB8("CLI &amp; Skill Installers<br/><small>357 nodes</small>")
     class CLI_SKILLS_9964CBB8 module;
     INGEST_CACHE_UPDATE_FF457338("Ingestion &amp; Updates<br/><small>24 nodes</small>")
     class INGEST_CACHE_UPDATE_FF457338 module;
     SERVE_API_35EC8E86("Serving API<br/><small>60 nodes</small>")
     class SERVE_API_35EC8E86 module;
-    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>80 nodes</small>")
+    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>139 nodes</small>")
     class TESTS_FIXTURES_B84B1DCC module;
-    CREATECLAUDEERROR_COMPONENTS_E352BCD7("Createclaudeerror Components<br/><small>33 nodes</small>")
-    class CREATECLAUDEERROR_COMPONENTS_E352BCD7 module;
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA("Bootstrapmanager Components<br/><small>30 nodes</small>")
     class BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA module;
-    SYNCSERVICE_COMPONENTS_651B7EA4("Syncservice Components<br/><small>22 nodes</small>")
+    SYNCSERVICE_COMPONENTS_651B7EA4("Syncservice Components<br/><small>29 nodes</small>")
     class SYNCSERVICE_COMPONENTS_651B7EA4 module;
     JOBREPOSITORY_COMPONENTS_A6220750("Jobrepository Components<br/><small>20 nodes</small>")
     class JOBREPOSITORY_COMPONENTS_A6220750 module;
@@ -116,20 +114,22 @@ flowchart LR
     class BROWSERMANAGER_COMPONENTS_2A3C6015 module;
     PROJECTREPOSITORY_COMPONENTS_6F11DF41("Projectrepository Components<br/><small>16 nodes</small>")
     class PROJECTREPOSITORY_COMPONENTS_6F11DF41 module;
-    OTHER_D0941E68("Other<br/><small>341 nodes</small>")
+    WORDPRESSREPOSITORY_COMPONENTS_8ACEF943("Wordpressrepository Components<br/><small>14 nodes</small>")
+    class WORDPRESSREPOSITORY_COMPONENTS_8ACEF943 module;
+    OTHER_D0941E68("Other<br/><small>285 nodes</small>")
     class OTHER_D0941E68 module;
-    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x39| OTHER_D0941E68
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x33| OTHER_D0941E68
     OTHER_D0941E68 -->|imports x8| TESTS_FIXTURES_B84B1DCC
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x5| CLI_SKILLS_9964CBB8
-    TESTS_FIXTURES_B84B1DCC -->|contains x5| OTHER_D0941E68
-    TESTS_FIXTURES_B84B1DCC -->|contains x5| ANALYSIS_CLUSTERING_C79796DA
+    TESTS_FIXTURES_B84B1DCC -->|imports x5| BUILD_GRAPH_321CBB04
     CLI_SKILLS_9964CBB8 -->|imports x4| SERVE_API_35EC8E86
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x3| TESTS_FIXTURES_B84B1DCC
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| JOBREPOSITORY_COMPONENTS_A6220750
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| SITE_COMPONENTS_CE1F1570
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| WORDPRESSREPOSITORY_COMPONENTS_8ACEF943
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| BUILD_GRAPH_321CBB04
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| SYNCSERVICE_COMPONENTS_651B7EA4
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| INGEST_CACHE_UPDATE_FF457338
-    TESTS_FIXTURES_B84B1DCC -->|contains x2| CREATECLAUDEERROR_COMPONENTS_E352BCD7
-    CREATECLAUDEERROR_COMPONENTS_E352BCD7 -->|imports x2| ANALYSIS_CLUSTERING_C79796DA
-    OTHER_D0941E68 -->|imports x2| ANALYSIS_CLUSTERING_C79796DA
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -146,19 +146,19 @@ flowchart LR
     <h4>Architecture Layers</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>Layer</th><th>Nodes</th><th>Communities</th></tr>
-      <tr><td>Extraction Pipeline</td><td>16</td><td><code>12</code></td></tr><tr><td>Graph Build</td><td>24</td><td><code>6</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>12</td><td><code>119</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>357</td><td><code>2, 39, 27, 34, 15, 57, 40, 85, 87, 59, 55, 107, 108, 110, 62, 111, 114, 35, 70, 71, 74, 112, 113, 41, 75, 115, 124, 77, 78, 90, 104, 105, 106, 61, 95, 109, 93</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>24</td><td><code>9, 69</code></td></tr><tr><td>Serving API</td><td>60</td><td><code>0, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>80</td><td><code>33, 3, 120, 37, 44, 45, 46, 47, 80, 81, 100, 101, 102, 103</code></td></tr><tr><td>Createclaudeerror Components</td><td>33</td><td><code>4</code></td></tr><tr><td>Bootstrapmanager Components</td><td>30</td><td><code>5</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Browsermanager Components</td><td>17</td><td><code>13</code></td></tr><tr><td>Projectrepository Components</td><td>16</td><td><code>11</code></td></tr><tr><td>Other</td><td>341</td><td><code>117, 14, 1, 16, 118, 17, 18, 19, 20, 21, 22, 58, 82, 23, 24, 83, 116, 25, 84, 26, 51, 86, 28, 29, 30, 31, 32, 36, 89, 94, 38, 42, 43, 48, 49, 88, 121, 122, 50, 52, 53, 54, 56, 60, 63, 64, 65, 66, 67, 68, 91, 92, 96, 97, 98, 99, 72, 73, 79</code></td></tr>
+      <tr><td>Extraction Pipeline</td><td>16</td><td><code>12</code></td></tr><tr><td>Graph Build</td><td>59</td><td><code>117, 6</code></td></tr><tr><td>Outputs &amp; Docs</td><td>6</td><td><code>51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>357</td><td><code>2, 39, 27, 34, 15, 57, 40, 85, 87, 59, 55, 107, 108, 110, 62, 111, 114, 35, 70, 71, 74, 112, 113, 41, 75, 115, 124, 77, 78, 90, 104, 105, 106, 61, 95, 109, 93</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>24</td><td><code>9, 69</code></td></tr><tr><td>Serving API</td><td>60</td><td><code>0, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>139</td><td><code>4, 33, 3, 37, 44, 45, 46, 47, 80, 81, 100, 101, 102, 103</code></td></tr><tr><td>Bootstrapmanager Components</td><td>30</td><td><code>5</code></td></tr><tr><td>Syncservice Components</td><td>29</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Browsermanager Components</td><td>17</td><td><code>13</code></td></tr><tr><td>Projectrepository Components</td><td>16</td><td><code>11</code></td></tr><tr><td>Wordpressrepository Components</td><td>14</td><td><code>14</code></td></tr><tr><td>Other</td><td>285</td><td><code>16, 17, 18, 19, 20, 1, 21, 22, 58, 82, 23, 24, 83, 116, 25, 84, 26, 86, 28, 29, 30, 31, 32, 36, 89, 94, 38, 42, 43, 48, 49, 88, 50, 52, 53, 54, 56, 60, 63, 64, 65, 66, 67, 68, 91, 92, 96, 97, 98, 99, 72, 73, 79</code></td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Core Flow</h4>
-    <div class="arrow-chain">Extraction Pipeline -&gt; Graph Build -&gt; Analysis &amp; Clustering -&gt; Tests &amp; Fixtures -&gt; Other -&gt; Syncservice Components -&gt; CLI &amp; Skill Installers</div>
+    <div class="arrow-chain">Extraction Pipeline -&gt; Graph Build -&gt; Outputs &amp; Docs -&gt; CLI &amp; Skill Installers -&gt; Serving API -&gt; Ingestion &amp; Updates -&gt; Tests &amp; Fixtures</div>
   </div>
 </div>
 <div class="grid">
   <div class="card">
     <h4>Graph Report Highlights</h4>
     <ul>
-      <li>1069 nodes · 1310 edges · 124 communities (47 shown, 77 thin omitted)</li>
+      <li>1089 nodes · 1328 edges · 119 communities (45 shown, 74 thin omitted)</li>
       <li>Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)</li>
       <li>Token cost: 0 input · 0 output</li>
       <li>1. `ClaudeManager` - 33 edges</li>
@@ -377,66 +377,69 @@ flowchart LR
 
 <!-- ====== 3. Graph Build ====== -->
 <h2 id="build-graph">3. Graph Build</h2>
-<p>Graph Build groups implementation around packagejson, playwright, start, test, mostly in package.json. This section covers 24 nodes and 23 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Graph Build groups implementation around packagejson, claudeworkerjs, services, utils, mostly in package.json, src/services/ClaudeWorker.js, src/utils/FailureClassifier.js. This section covers 59 nodes and 60 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Graph Build (24 nodes, 23 edges)
-    package_582681c2("package.json")
-    package_dependencies_c512ca5e("dependencies<br/><small>package.json</small>")
-    package_devdependencies_ff8711cc("devDependencies<br/><small>package.json</small>")
-    package_scripts_25cfc1ca("scripts<br/><small>package.json</small>")
-    package_author_4fa6ee59("author<br/><small>package.json</small>")
-    package_description_1bccacf3("description<br/><small>package.json</small>")
-    package_keywords_cbe22ea7("keywords<br/><small>package.json</small>")
-    package_license_16117eed("license<br/><small>package.json</small>")
-    package_main_4e9b6a0e("main<br/><small>package.json</small>")
-    package_name_b23e1232("name<br/><small>package.json</small>")
-    package_type_7bb9ccc5("type<br/><small>package.json</small>")
-    package_version_a7f3cb7e("version<br/><small>package.json</small>")
-    package_scripts_legacy_start_111ac6ce("legacy-start<br/><small>package.json</small>")
-    package_scripts_start_e2cf302c("start<br/><small>package.json</small>")
-    package_scripts_test_71544dc5("test<br/><small>package.json</small>")
-    package_devdependencies_jest_7fbb6a0f("jest<br/><small>package.json</small>")
-    package_devdependencies_playwright_test_e4a38424("@playwright/test<br/><small>package.json</small>")
-    package_devdependencies_types_node_04b141e9("@types/node<br/><small>package.json</small>")
-    package_582681c2 -->|contains| package_author_4fa6ee59
-    package_582681c2 -->|contains| package_dependencies_c512ca5e
-    package_582681c2 -->|contains| package_description_1bccacf3
-    package_582681c2 -->|contains| package_devdependencies_ff8711cc
-    package_582681c2 -->|contains| package_keywords_cbe22ea7
-    package_582681c2 -->|contains| package_license_16117eed
-    package_582681c2 -->|contains| package_main_4e9b6a0e
-    package_582681c2 -->|contains| package_name_b23e1232
-    package_582681c2 -->|contains| package_scripts_25cfc1ca
-    package_582681c2 -->|contains| package_type_7bb9ccc5
-    package_582681c2 -->|contains| package_version_a7f3cb7e
-    package_scripts_25cfc1ca -->|contains| package_scripts_legacy_start_111ac6ce
-    package_scripts_25cfc1ca -->|contains| package_scripts_start_e2cf302c
-    package_scripts_25cfc1ca -->|contains| package_scripts_test_71544dc5
-    package_devdependencies_ff8711cc -->|contains| package_devdependencies_jest_7fbb6a0f
-    package_devdependencies_ff8711cc -->|contains| package_devdependencies_playwright_test_e4a38424
-    package_devdependencies_ff8711cc -->|contains| package_devdependencies_types_node_04b141e9
-    %% Omitted for readability: 6 nodes, 0 edges
-    class package_582681c2 function;
-    class package_dependencies_c512ca5e function;
-    class package_devdependencies_ff8711cc function;
-    class package_scripts_25cfc1ca function;
-    class package_author_4fa6ee59 function;
-    class package_description_1bccacf3 function;
-    class package_keywords_cbe22ea7 function;
-    class package_license_16117eed function;
-    class package_main_4e9b6a0e function;
-    class package_name_b23e1232 function;
-    class package_type_7bb9ccc5 function;
-    class package_version_a7f3cb7e function;
-    class package_scripts_legacy_start_111ac6ce function;
-    class package_scripts_start_e2cf302c function;
-    class package_scripts_test_71544dc5 function;
-    class package_devdependencies_jest_7fbb6a0f function;
-    class package_devdependencies_playwright_test_e4a38424 function;
-    class package_devdependencies_types_node_04b141e9 function;
+    %% Section: Graph Build (59 nodes, 60 edges)
+    subgraph build_graph_src_services_ClaudeWorker_js_baeee966["src/services/ClaudeWorker.js"]
+        services_claudeworker_claudeworker_c12a2e46("ClaudeWorker<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_af4db479("ClaudeWorker.js")
+        services_claudeworker_claudeworker_processpendin_0a95349b("_processPendingJobs()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_constructor_b11e226f("constructor()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_executejob_0ea92bbc("executeJob()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_getqueuesize_95ae4018("getQueueSize()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_getstatussnap_0c1dbc05("getStatusSnapshot()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_initialize_df41eb31("initialize()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_ishealthy_7d41ae97("isHealthy()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_recordjobchat_e6fde756("_recordJobChat()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_resetworkerst_e3d08213("_resetWorkerState()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_rewrite_e02c3939("rewrite()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_saveresponse_1dff735b("_saveResponse()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_startprocessi_add6fadd("startProcessing()<br/><small>src/services/ClaudeWorker.js</small>")
+    end
+    subgraph build_graph_src_errors_ClaudeErrors_js_22a2dda8["src/errors/ClaudeErrors.js"]
+        errors_claudeerrors_contentunavailableerror_2d6d6134("ContentUnavailableError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_contentunavailableerror_cons_abe8ed75("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
+    end
+    utils_auditpromptbuilder_auditpromptbuilder_ce6ae882("AuditPromptBuilder<br/><small>src/utils/AuditPromptBuilder.js</small>")
+    utils_rewritepromptbuilder_rewritepromptbuilder_a8808043("RewritePromptBuilder<br/><small>src/utils/RewritePromptBuilder.js</small>")
+    errors_claudeerrors_contentunavailableerror_2d6d6134 -->|method| errors_claudeerrors_contentunavailableerror_cons_abe8ed75
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_constructor_b11e226f
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_executejob_0ea92bbc
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_getqueuesize_95ae4018
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_getstatussnap_0c1dbc05
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_initialize_df41eb31
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_ishealthy_7d41ae97
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_processpendin_0a95349b
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_recordjobchat_e6fde756
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_resetworkerst_e3d08213
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_rewrite_e02c3939
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_saveresponse_1dff735b
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_startprocessi_add6fadd
+    services_claudeworker_claudeworker_processpendin_0a95349b -->|calls| services_claudeworker_claudeworker_executejob_0ea92bbc
+    services_claudeworker_claudeworker_executejob_0ea92bbc -->|calls| services_claudeworker_claudeworker_rewrite_e02c3939
+    errors_claudeerrors_contentunavailableerror_2d6d6134 -->|imports| services_claudeworker_af4db479
+    %% Omitted for readability: 41 nodes, 0 edges
+    class services_claudeworker_claudeworker_c12a2e46 klass;
+    class services_claudeworker_af4db479 klass;
+    class services_claudeworker_claudeworker_processpendin_0a95349b function;
+    class services_claudeworker_claudeworker_constructor_b11e226f function;
+    class services_claudeworker_claudeworker_executejob_0ea92bbc function;
+    class services_claudeworker_claudeworker_getqueuesize_95ae4018 function;
+    class services_claudeworker_claudeworker_getstatussnap_0c1dbc05 function;
+    class services_claudeworker_claudeworker_initialize_df41eb31 function;
+    class services_claudeworker_claudeworker_ishealthy_7d41ae97 function;
+    class services_claudeworker_claudeworker_recordjobchat_e6fde756 function;
+    class services_claudeworker_claudeworker_resetworkerst_e3d08213 function;
+    class services_claudeworker_claudeworker_rewrite_e02c3939 function;
+    class services_claudeworker_claudeworker_saveresponse_1dff735b function;
+    class services_claudeworker_claudeworker_startprocessi_add6fadd function;
+    class errors_claudeerrors_contentunavailableerror_2d6d6134 klass;
+    class errors_claudeerrors_contentunavailableerror_cons_abe8ed75 function;
+    class utils_auditpromptbuilder_auditpromptbuilder_ce6ae882 klass;
+    class utils_rewritepromptbuilder_rewritepromptbuilder_a8808043 klass;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -460,195 +463,243 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>package.json</code><br><small style="color:var(--muted)">package.json</small></td>
-  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>package.json node in package.json.</td>
+  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>ContentUnavailableError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><code>name</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td>No direct outbound edge</td>
-  <td>name node in package.json.</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><code>version</code><br><small style="color:var(--muted)">package.json</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>version node in package.json.</td>
+  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><code>AuditPromptBuilder.js</code><br><small style="color:var(--muted)">src/utils/AuditPromptBuilder.js</small><br><code>FailureClassifier</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small><br><code>FailureClassifier.js</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small><br>+1 more</td>
+  <td>ClaudeWorker.js node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><code>description</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>fs</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>description node in package.json.</td>
+  <td>fs node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>5</td>
-  <td><code>main</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>path</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>main node in package.json.</td>
+  <td>path node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>6</td>
-  <td><code>scripts</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>scripts node in package.json.</td>
+  <td>{ WORKER_STATES } node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>7</td>
-  <td><code>start</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>{ PROJECT_STATUSES }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>start node in package.json.</td>
+  <td>{ PROJECT_STATUSES } node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>8</td>
-  <td><code>legacy-start</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>{ FailureClassifier }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>legacy-start node in package.json.</td>
+  <td>{ FailureClassifier } node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>9</td>
-  <td><code>test</code><br><small style="color:var(--muted)">package.json</small></td>
-  <td><span class="tag tag-func">Function</span></td>
+  <td><code>AuditPromptBuilder</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>Verifies imports, entry points, or version behavior.</td>
+  <td>Builds structured prompts for model calls.</td>
 </tr>
 <tr>
   <td>10</td>
-  <td><code>keywords</code><br><small style="color:var(--muted)">package.json</small></td>
-  <td><span class="tag tag-func">Function</span></td>
+  <td><code>RewritePromptBuilder</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>keywords node in package.json.</td>
+  <td>Builds structured prompts for model calls.</td>
 </tr>
 <tr>
   <td>11</td>
-  <td><code>author</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>{ ContentUnavailableError, InvalidProjectContentError }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>author node in package.json.</td>
+  <td>{ ContentUnavailableError, InvalidProjectContentError } node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>12</td>
-  <td><code>license</code><br><small style="color:var(--muted)">package.json</small></td>
-  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>license node in package.json.</td>
+  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>_recordJobChat()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>_resetWorkerState()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br>+10 more</td>
+  <td>ClaudeWorker node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>13</td>
-  <td><code>type</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>type node in package.json.</td>
+  <td>.constructor() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>14</td>
-  <td><code>devDependencies</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>.initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>devDependencies node in package.json.</td>
+  <td>.initialize() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>15</td>
-  <td><code>@playwright/test</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>.startProcessing()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Verifies imports, entry points, or version behavior.</td>
+  <td>.startProcessing() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>16</td>
-  <td><code>@types/node</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>.stopProcessing()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>@types/node node in package.json.</td>
+  <td>.stopProcessing() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>17</td>
-  <td><code>jest</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>._processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>jest node in package.json.</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>._processPendingJobs() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>18</td>
-  <td><code>dependencies</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>.executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>dependencies node in package.json.</td>
+  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>rewrite()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>.executeJob() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>19</td>
-  <td><code>better-sqlite3</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>._recordJobChat()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>better-sqlite3 node in package.json.</td>
+  <td>Supports retrieval-augmented Q&amp;A or streaming chat.</td>
 </tr>
 <tr>
   <td>20</td>
-  <td><code>dotenv</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>._saveResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>dotenv node in package.json.</td>
+  <td>._saveResponse() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>21</td>
-  <td><code>express</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>._resetWorkerState()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>express node in package.json.</td>
+  <td>._resetWorkerState() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>22</td>
-  <td><code>playwright</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>.getQueueSize()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>playwright node in package.json.</td>
+  <td>.getQueueSize() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>23</td>
-  <td><code>playwright-extra</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>.isHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>playwright-extra node in package.json.</td>
+  <td>.isHealthy() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>24</td>
-  <td><code>puppeteer-extra-plugin-stealth</code><br><small style="color:var(--muted)">package.json</small></td>
+  <td><code>.getStatusSnapshot()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getStatusSnapshot() node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td><code>.rewrite()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.rewrite() node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td><code>AuditPromptBuilder.js</code><br><small style="color:var(--muted)">src/utils/AuditPromptBuilder.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>Builds structured prompts for model calls.</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td><code>AuditPromptBuilder</code><br><small style="color:var(--muted)">src/utils/AuditPromptBuilder.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>build()</code><br><small style="color:var(--muted)">src/utils/AuditPromptBuilder.js</small></td>
+  <td>Builds structured prompts for model calls.</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td><code>.build()</code><br><small style="color:var(--muted)">src/utils/AuditPromptBuilder.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>AuditPromptBuilder</code><br><small style="color:var(--muted)">src/utils/AuditPromptBuilder.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.build() node in src/utils/AuditPromptBuilder.js.</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td><code>FailureClassifier.js</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>FailureClassifier.js node in src/utils/FailureClassifier.js.</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td><code>FAILURE_CATEGORIES</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>puppeteer-extra-plugin-stealth node in package.json.</td>
+  <td>FAILURE_CATEGORIES node in src/utils/FailureClassifier.js.</td>
 </tr>
 </table>
 
@@ -658,57 +709,45 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>package.json</code></td><td>24 nodes</td></tr>
+<tr><td><code>src/services/ClaudeWorker.js</code></td><td>23 nodes</td></tr>
+<tr><td><code>src/utils/FailureClassifier.js</code></td><td>4 nodes</td></tr>
+<tr><td><code>src/utils/AuditPromptBuilder.js</code></td><td>3 nodes</td></tr>
+<tr><td><code>src/utils/RewritePromptBuilder.js</code></td><td>3 nodes</td></tr>
+<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>2 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x23. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x36, method x17, imports x3, imports x2. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
-<!-- ====== 4. Analysis & Clustering ====== -->
-<h2 id="analysis-clustering">4. Analysis &amp; Clustering</h2>
-<p>Analysis &amp; Clustering groups implementation around claudemanagerjs, errors, claudeerrorsjs, services, mostly in src/errors/ClaudeErrors.js, src/services/ClaudeManager.js. This section covers 12 nodes and 11 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<!-- ====== 4. Outputs & Docs ====== -->
+<h2 id="outputs-docs">4. Outputs &amp; Docs</h2>
+<p>Outputs &amp; Docs groups implementation around audit, reportmd, phase, repository, mostly in AUDIT_REPORT.md. This section covers 6 nodes and 5 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Analysis &amp; Clustering (12 nodes, 11 edges)
-    subgraph analysis_clustering_src_errors_ClaudeErrors_js_27f08e0d["src/errors/ClaudeErrors.js"]
-        errors_claudeerrors_invalidprojectcontenterror_144aa5b9("InvalidProjectContentError<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_invalidresponsequalityerror_909acd1a("InvalidResponseQualityError<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_recoveryreport_416bd925("RecoveryReport<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_invalidprojectcontenterror_c_111f0234("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_invalidresponsequalityerror_e49849a7("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_recoveryreport_constructor_17cc09da("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
-    end
-    subgraph analysis_clustering_src_services_ClaudeManager_j_b5701f19["src/services/ClaudeManager.js"]
-        services_claudemanager_2e4631c7("ClaudeManager.js")
-        services_claudemanager_selectors_454bf656("SELECTORS<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_fs_85045cca("fs<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_path_3e93c9fd("path<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_validationerror_recoveryr_a500c955("ValidationError, RecoveryReport, Inva...<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_worker_states_66914e5e("WORKER_STATES<br/><small>src/services/ClaudeManager.js</small>")
-    end
-    errors_claudeerrors_invalidprojectcontenterror_144aa5b9 -->|method| errors_claudeerrors_invalidprojectcontenterror_c_111f0234
-    errors_claudeerrors_invalidresponsequalityerror_909acd1a -->|method| errors_claudeerrors_invalidresponsequalityerror_e49849a7
-    errors_claudeerrors_recoveryreport_416bd925 -->|method| errors_claudeerrors_recoveryreport_constructor_17cc09da
-    errors_claudeerrors_invalidprojectcontenterror_144aa5b9 -->|imports| services_claudemanager_2e4631c7
-    errors_claudeerrors_invalidresponsequalityerror_909acd1a -->|imports| services_claudemanager_2e4631c7
-    errors_claudeerrors_recoveryreport_416bd925 -->|imports| services_claudemanager_2e4631c7
-    class errors_claudeerrors_invalidprojectcontenterror_144aa5b9 klass;
-    class errors_claudeerrors_invalidresponsequalityerror_909acd1a klass;
-    class errors_claudeerrors_recoveryreport_416bd925 klass;
-    class errors_claudeerrors_invalidprojectcontenterror_c_111f0234 function;
-    class errors_claudeerrors_invalidresponsequalityerror_e49849a7 function;
-    class errors_claudeerrors_recoveryreport_constructor_17cc09da function;
-    class services_claudemanager_2e4631c7 klass;
-    class services_claudemanager_selectors_454bf656 klass;
-    class services_claudemanager_fs_85045cca function;
-    class services_claudemanager_path_3e93c9fd function;
-    class services_claudemanager_validationerror_recoveryr_a500c955 function;
-    class services_claudemanager_worker_states_66914e5e function;
+    %% Section: Outputs &amp; Docs (6 nodes, 5 edges)
+    audit_report_phase_1_repository_audit_report_0f9e25b9("Phase 1: Repository Audit Report<br/><small>AUDIT_REPORT.md</small>")
+    audit_report_a8ff8528("AUDIT_REPORT.md")
+    audit_report_1_directory_structure_orphaned_file_0c87dff8("1. Directory Structure &amp; Orphaned Files<br/><small>AUDIT_REPORT.md</small>")
+    audit_report_2_architecture_structural_improveme_ebcba126("2. Architecture &amp; Structural Improvements<br/><small>AUDIT_REPORT.md</small>")
+    audit_report_3_dependency_check_3a072378("3. Dependency Check<br/><small>AUDIT_REPORT.md</small>")
+    audit_report_4_security_configuration_0d3b263b("4. Security &amp; Configuration<br/><small>AUDIT_REPORT.md</small>")
+    audit_report_a8ff8528 -->|contains| audit_report_phase_1_repository_audit_report_0f9e25b9
+    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_1_directory_structure_orphaned_file_0c87dff8
+    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_2_architecture_structural_improveme_ebcba126
+    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_3_dependency_check_3a072378
+    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_4_security_configuration_0d3b263b
+    class audit_report_phase_1_repository_audit_report_0f9e25b9 concept;
+    class audit_report_a8ff8528 concept;
+    class audit_report_1_directory_structure_orphaned_file_0c87dff8 concept;
+    class audit_report_2_architecture_structural_improveme_ebcba126 concept;
+    class audit_report_3_dependency_check_3a072378 concept;
+    class audit_report_4_security_configuration_0d3b263b concept;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -732,113 +771,51 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>AUDIT_REPORT.md</code><br><small style="color:var(--muted)">AUDIT_REPORT.md</small></td>
+  <td><span class="tag tag-func">Concept</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td>InvalidProjectContentError node in src/errors/ClaudeErrors.js.</td>
+  <td>No direct outbound edge</td>
+  <td>Documentation node describing AUDIT_REPORT.md.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><code>Phase 1: Repository Audit Report</code><br><small style="color:var(--muted)">AUDIT_REPORT.md</small></td>
+  <td><span class="tag tag-func">Concept</span></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
+  <td>Documentation node describing Phase 1: Repository Audit Report.</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>1. Directory Structure &amp; Orphaned Files</code><br><small style="color:var(--muted)">AUDIT_REPORT.md</small></td>
+  <td><span class="tag tag-func">Concept</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td>InvalidResponseQualityError node in src/errors/ClaudeErrors.js.</td>
+  <td>No direct outbound edge</td>
+  <td>Documentation node describing 1. Directory Structure &amp; Orphaned Files.</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><code>2. Architecture &amp; Structural Improvements</code><br><small style="color:var(--muted)">AUDIT_REPORT.md</small></td>
+  <td><span class="tag tag-func">Concept</span></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
+  <td>Documentation node describing 2. Architecture &amp; Structural Improvements.</td>
 </tr>
 <tr>
   <td>5</td>
-  <td><code>RecoveryReport</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>3. Dependency Check</code><br><small style="color:var(--muted)">AUDIT_REPORT.md</small></td>
+  <td><span class="tag tag-func">Concept</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td>RecoveryReport node in src/errors/ClaudeErrors.js.</td>
+  <td>No direct outbound edge</td>
+  <td>Documentation node describing 3. Dependency Check.</td>
 </tr>
 <tr>
   <td>6</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>RecoveryReport</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>RecoveryReport</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>ClaudeManager.js node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>fs</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
+  <td><code>4. Security &amp; Configuration</code><br><small style="color:var(--muted)">AUDIT_REPORT.md</small></td>
+  <td><span class="tag tag-func">Concept</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>fs node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>path</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>path node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>{ 
-    ValidationError, 
-    RecoveryReport, 
-    InvalidProjectContentError, 
-    InvalidResponseQualityError, 
-    createClaudeError, 
-    normalizeError 
-}</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>{ 
-    ValidationError, 
-    RecoveryReport, 
-    InvalidProjectContentError, 
-    InvalidResponseQualityError, 
-    createClaudeError, 
-    normalizeError 
-} node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>{ WORKER_STATES } node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>SELECTORS</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>SELECTORS node in src/services/ClaudeManager.js.</td>
+  <td>Documentation node describing 4. Security &amp; Configuration.</td>
 </tr>
 </table>
 
@@ -847,13 +824,12 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>src/errors/ClaudeErrors.js</code></td><td>6 nodes</td></tr>
-<tr><td><code>src/services/ClaudeManager.js</code></td><td>6 nodes</td></tr>
+      <tr><td><code>AUDIT_REPORT.md</code></td><td>6 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x5, method x3, imports x3. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x5. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -1866,60 +1842,61 @@ flowchart LR
 
 <!-- ====== 8. Tests & Fixtures ====== -->
 <h2 id="tests-fixtures">8. Tests &amp; Fixtures</h2>
-<p>Tests &amp; Fixtures groups implementation around test, scripts, tests, readmemd, mostly in README.md, tests/stabilization.test.js, SOAK_TEST_PLAN.md. This section covers 80 nodes and 67 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Tests &amp; Fixtures groups implementation around test, services, claudemanagerjs, scripts, mostly in src/services/ClaudeManager.js, src/errors/ClaudeErrors.js, README.md. This section covers 139 nodes and 183 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Tests &amp; Fixtures (80 nodes, 67 edges)
+    %% Section: Tests &amp; Fixtures (139 nodes, 183 edges)
     subgraph tests_fixtures_src_errors_ClaudeErrors_js_5b59ac58["src/errors/ClaudeErrors.js"]
-        errors_claudeerrors_validationerror_f7e8533c("ValidationError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_createclaudeerror_07bee0f5("createClaudeError()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_e454675d("ClaudeErrors.js")
+        errors_claudeerrors_normalizeerror_68f137ec("normalizeError()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_validationerror_f7e8533c("ValidationError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_claudeerror_a5dc4ebb("ClaudeError<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_contentunavailableerror_2d6d6134("ContentUnavailableError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_claudeerror_constructor_0d940856("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_browsererror_9738120d("BrowserError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_browsererror_constructor_5ded3364("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_profilelockerror_6b4635a4("ProfileLockError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_profilelockerror_constructor_24bfd4e1("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_validationerror_constructor_3ea3ecd2("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_contentunavailableerror_cons_abe8ed75("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_invalidprojectcontenterror_144aa5b9("InvalidProjectContentError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_invalidprojectcontenterror_c_111f0234("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_invalidresponsequalityerror_909acd1a("InvalidResponseQualityError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_invalidresponsequalityerror_e49849a7("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_recoveryreport_416bd925("RecoveryReport<br/><small>src/errors/ClaudeErrors.js</small>")
     end
-    subgraph tests_fixtures_scripts_test_clipboard_js_e4dec43c["scripts/test_clipboard.js"]
-        scripts_test_clipboard_fs_c91ed15d("fs<br/><small>scripts/test_clipboard.js</small>")
-        scripts_test_clipboard_path_54683347("path<br/><small>scripts/test_clipboard.js</small>")
-        scripts_test_clipboard_testtyping_2c2b0044("testTyping()<br/><small>scripts/test_clipboard.js</small>")
-        scripts_test_clipboard_df1f5b62("test_clipboard.js")
-        scripts_test_clipboard_chromium_470709a9("chromium<br/><small>scripts/test_clipboard.js</small>")
+    subgraph tests_fixtures_src_services_ClaudeManager_js_ac9c43dd["src/services/ClaudeManager.js"]
+        services_claudemanager_claudemanager_82714a68("ClaudeManager<br/><small>src/services/ClaudeManager.js</small>")
+        services_claudemanager_claudemanager_sendprompto_d381983d("_sendPromptOnce()<br/><small>src/services/ClaudeManager.js</small>")
     end
-    subgraph tests_fixtures_scripts_test_input_selectors_js_3194f171["scripts/test_input_selectors.js"]
-        scripts_test_input_selectors_path_e159bfdf("path<br/><small>scripts/test_input_selectors.js</small>")
-        scripts_test_input_selectors_snapshot_1f9475f9("snapshot()<br/><small>scripts/test_input_selectors.js</small>")
-        scripts_test_input_selectors_63abea7f("test_input_selectors.js")
-        scripts_test_input_selectors_chromium_0b55492b("chromium<br/><small>scripts/test_input_selectors.js</small>")
-    end
-    scripts_test_selectors_path_ddb50f31("path<br/><small>scripts/test_selectors.js</small>")
-    tests_validation_test_7749c764("validation.test.js")
     errors_claudeerrors_claudeerror_a5dc4ebb -->|method| errors_claudeerrors_claudeerror_constructor_0d940856
+    errors_claudeerrors_browsererror_9738120d -->|method| errors_claudeerrors_browsererror_constructor_5ded3364
+    errors_claudeerrors_profilelockerror_6b4635a4 -->|method| errors_claudeerrors_profilelockerror_constructor_24bfd4e1
     errors_claudeerrors_validationerror_f7e8533c -->|method| errors_claudeerrors_validationerror_constructor_3ea3ecd2
-    errors_claudeerrors_contentunavailableerror_2d6d6134 -->|method| errors_claudeerrors_contentunavailableerror_cons_abe8ed75
-    errors_claudeerrors_e454675d -->|imports| tests_validation_test_7749c764
-    errors_claudeerrors_validationerror_f7e8533c -->|imports| tests_validation_test_7749c764
-    %% Omitted for readability: 62 nodes, 0 edges
-    class errors_claudeerrors_validationerror_f7e8533c klass;
+    errors_claudeerrors_invalidprojectcontenterror_144aa5b9 -->|method| errors_claudeerrors_invalidprojectcontenterror_c_111f0234
+    errors_claudeerrors_invalidresponsequalityerror_909acd1a -->|method| errors_claudeerrors_invalidresponsequalityerror_e49849a7
+    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_sendprompto_d381983d
+    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_sendprompto_d381983d
+    %% Omitted for readability: 121 nodes, 0 edges
+    class errors_claudeerrors_createclaudeerror_07bee0f5 function;
     class errors_claudeerrors_e454675d klass;
+    class errors_claudeerrors_normalizeerror_68f137ec function;
+    class errors_claudeerrors_validationerror_f7e8533c klass;
     class errors_claudeerrors_claudeerror_a5dc4ebb klass;
-    class errors_claudeerrors_contentunavailableerror_2d6d6134 klass;
     class errors_claudeerrors_claudeerror_constructor_0d940856 function;
+    class errors_claudeerrors_browsererror_9738120d klass;
+    class errors_claudeerrors_browsererror_constructor_5ded3364 function;
+    class errors_claudeerrors_profilelockerror_6b4635a4 klass;
+    class errors_claudeerrors_profilelockerror_constructor_24bfd4e1 function;
     class errors_claudeerrors_validationerror_constructor_3ea3ecd2 function;
-    class errors_claudeerrors_contentunavailableerror_cons_abe8ed75 function;
-    class scripts_test_clipboard_fs_c91ed15d test;
-    class scripts_test_clipboard_path_54683347 test;
-    class scripts_test_clipboard_testtyping_2c2b0044 test;
-    class scripts_test_clipboard_df1f5b62 test;
-    class scripts_test_clipboard_chromium_470709a9 test;
-    class scripts_test_input_selectors_path_e159bfdf test;
-    class scripts_test_input_selectors_snapshot_1f9475f9 test;
-    class scripts_test_input_selectors_63abea7f test;
-    class scripts_test_input_selectors_chromium_0b55492b test;
-    class scripts_test_selectors_path_ddb50f31 test;
-    class tests_validation_test_7749c764 test;
+    class errors_claudeerrors_invalidprojectcontenterror_144aa5b9 klass;
+    class errors_claudeerrors_invalidprojectcontenterror_c_111f0234 function;
+    class errors_claudeerrors_invalidresponsequalityerror_909acd1a klass;
+    class errors_claudeerrors_invalidresponsequalityerror_e49849a7 function;
+    class errors_claudeerrors_recoveryreport_416bd925 klass;
+    class services_claudemanager_claudemanager_82714a68 klass;
+    class services_claudemanager_claudemanager_sendprompto_d381983d function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -1943,601 +1920,257 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>README.md</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
+  <td><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing README.md.</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>validation.test.js</code><br><small style="color:var(--muted)">tests/validation.test.js</small></td>
+  <td>ClaudeErrors.js node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><code>Claude Worker Foundation</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
+  <td><code>ClaudeError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Claude Worker Foundation.</td>
+  <td><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>ClaudeError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><code>🌟 Overview</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Documentation node describing 🌟 Overview.</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><code>Key Features</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
+  <td><code>BrowserError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Key Features.</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>BrowserError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>5</td>
-  <td><code>🏛 Architecture</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BrowserError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Documentation node describing 🏛 Architecture.</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>6</td>
-  <td><code>📂 Project Structure</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
+  <td><code>ProfileLockError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing 📂 Project Structure.</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>ProfileLockError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>7</td>
-  <td><code>🚀 Getting Started</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ProfileLockError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Documentation node describing 🚀 Getting Started.</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>8</td>
-  <td><code>Installation</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
+  <td><code>ValidationError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Installation.</td>
+  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>validation.test.js</code><br><small style="color:var(--muted)">tests/validation.test.js</small></td>
+  <td>ValidationError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>9</td>
-  <td><code>Running the Server</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ValidationError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Documentation node describing Running the Server.</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>10</td>
-  <td><code>API Endpoints</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
+  <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing API Endpoints.</td>
+  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>InvalidProjectContentError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>11</td>
-  <td><code>🔄 Recovery Flow</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Documentation node describing 🔄 Recovery Flow.</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>12</td>
-  <td><code>🧪 Testing</code><br><small style="color:var(--muted)">README.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
+  <td><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing 🧪 Testing.</td>
+  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>InvalidResponseQualityError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>13</td>
-  <td><code>DEPLOYMENT_STAGING.md</code><br><small style="color:var(--muted)">DEPLOYMENT_STAGING.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Documentation node describing DEPLOYMENT_STAGING.md.</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>14</td>
-  <td><code>Staging Deployment Design</code><br><small style="color:var(--muted)">DEPLOYMENT_STAGING.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
+  <td><code>RecoveryReport</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Staging Deployment Design.</td>
+  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>RecoveryReport node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>15</td>
-  <td><code>Infrastructure</code><br><small style="color:var(--muted)">DEPLOYMENT_STAGING.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>RecoveryReport</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Documentation node describing Infrastructure.</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
   <td>16</td>
-  <td><code>Filesystem Layout</code><br><small style="color:var(--muted)">DEPLOYMENT_STAGING.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Filesystem Layout.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>PM2 Configuration (`ecosystem.config.js`)</code><br><small style="color:var(--muted)">DEPLOYMENT_STAGING.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing PM2 Configuration (`ecosystem.config.js`).</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>SOAK_TEST_PLAN.md</code><br><small style="color:var(--muted)">SOAK_TEST_PLAN.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing SOAK_TEST_PLAN.md.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>14-Day Soak Test Plan</code><br><small style="color:var(--muted)">SOAK_TEST_PLAN.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing 14-Day Soak Test Plan.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>Objective</code><br><small style="color:var(--muted)">SOAK_TEST_PLAN.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Objective.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>Duration &amp; Cadence</code><br><small style="color:var(--muted)">SOAK_TEST_PLAN.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Duration &amp; Cadence.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>Instrumented Metrics (via `/status` and Terminal Dashboard)</code><br><small style="color:var(--muted)">SOAK_TEST_PLAN.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Instrumented Metrics (via `/status` and Terminal Dashboard).</td>
-</tr>
-<tr>
-  <td>23</td>
-  <td><code>Validation Thresholds &amp; Pass Criteria</code><br><small style="color:var(--muted)">SOAK_TEST_PLAN.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Validation Thresholds &amp; Pass Criteria.</td>
-</tr>
-<tr>
-  <td>24</td>
-  <td><code>Failure Injection Scenarios (To be executed on Day 1 &amp; Day 7)</code><br><small style="color:var(--muted)">SOAK_TEST_PLAN.md</small></td>
-  <td><span class="tag tag-func">Concept</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Documentation node describing Failure Injection Scenarios (To be executed on Day 1 &amp; Day 7).</td>
-</tr>
-<tr>
-  <td>25</td>
-  <td><code>stabilization.test.js</code><br><small style="color:var(--muted)">tests/stabilization.test.js</small></td>
-  <td><span class="tag tag-func">Test</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Verifies imports, entry points, or version behavior.</td>
-</tr>
-<tr>
-  <td>26</td>
-  <td><code>DatabaseConnection</code><br><small style="color:var(--muted)">tests/stabilization.test.js</small></td>
-  <td><span class="tag tag-func">Test</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>DatabaseConnection node in tests/stabilization.test.js.</td>
-</tr>
-<tr>
-  <td>27</td>
-  <td><code>Migrations</code><br><small style="color:var(--muted)">tests/stabilization.test.js</small></td>
-  <td><span class="tag tag-func">Test</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Migrations node in tests/stabilization.test.js.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>{ JobRepository }</code><br><small style="color:var(--muted)">tests/stabilization.test.js</small></td>
-  <td><span class="tag tag-func">Test</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>{ JobRepository } node in tests/stabilization.test.js.</td>
-</tr>
-<tr>
-  <td>29</td>
-  <td><code>{ ProjectRepository }</code><br><small style="color:var(--muted)">tests/stabilization.test.js</small></td>
-  <td><span class="tag tag-func">Test</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>{ ProjectRepository } node in tests/stabilization.test.js.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>{ SiteRepository }</code><br><small style="color:var(--muted)">tests/stabilization.test.js</small></td>
-  <td><span class="tag tag-func">Test</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>{ SiteRepository } node in tests/stabilization.test.js.</td>
-</tr>
-</table>
-
-<div class="grid">
-  <div class="card">
-    <h4>Key Files</h4>
-    <table style="width:100%;font-size:0.85rem;">
-      <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>README.md</code></td><td>12 nodes</td></tr>
-<tr><td><code>tests/stabilization.test.js</code></td><td>11 nodes</td></tr>
-<tr><td><code>SOAK_TEST_PLAN.md</code></td><td>7 nodes</td></tr>
-<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>7 nodes</td></tr>
-<tr><td><code>DEPLOYMENT_STAGING.md</code></td><td>5 nodes</td></tr>
-<tr><td><code>scripts/test_clipboard.js</code></td><td>5 nodes</td></tr>
-<tr><td><code>scripts/test_input_selectors.js</code></td><td>4 nodes</td></tr>
-<tr><td><code>scripts/test_selectors.js</code></td><td>4 nodes</td></tr>
-    </table>
-  </div>
-  <div class="card">
-    <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x60, method x3, references x2, imports x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
-  </div>
-</div>
-<hr>
-
-<!-- ====== 9. Createclaudeerror Components ====== -->
-<h2 id="createclaudeerror-components">9. Createclaudeerror Components</h2>
-<p>Createclaudeerror Components groups implementation around services, claudemanagerjs, errors, claudeerrorsjs, mostly in src/services/ClaudeManager.js, src/errors/ClaudeErrors.js. This section covers 33 nodes and 74 internal edges; the diagram shows only representative relationships to stay readable.</p>
-
-<div class="mermaid">
-%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
-flowchart LR
-    %% Section: Createclaudeerror Components (33 nodes, 74 edges)
-    subgraph createclaudeerror_components_src_services_Claude_338207e4["src/services/ClaudeManager.js"]
-        services_claudemanager_claudemanager_82714a68("ClaudeManager<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_sendprompto_d381983d("_sendPromptOnce()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_waitforresp_bbec29d5("waitForResponse()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_attemptsubm_0f1fc211("_attemptSubmit()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_detecterror_29c63e39("detectErrors()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_ensurehealt_410feed0("ensureHealthy()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_retry_e9a5a30f("retry()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_sendprompt_cb1da74d("sendPrompt()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_capturediag_ca9e374a("_captureDiagnostics()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_constructor_ff887bfc("constructor()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_containsmea_515491b8("_containsMeaningfulContent()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_detectcompl_8fcfd1de("detectCompletion()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_ensureclaud_1b92ac31("_ensureClaudeHome()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_extractchat_a78dc2c2("_extractChatId()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_findfirstav_f592b058("findFirstAvailable()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_focusandcle_226b6ba0("_focusAndClearInput()<br/><small>src/services/ClaudeManager.js</small>")
-    end
-    subgraph createclaudeerror_components_src_errors_ClaudeEr_191c2cfd["src/errors/ClaudeErrors.js"]
-        errors_claudeerrors_createclaudeerror_07bee0f5("createClaudeError()<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_normalizeerror_68f137ec("normalizeError()<br/><small>src/errors/ClaudeErrors.js</small>")
-    end
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_detecterror_29c63e39
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_ensurehealt_410feed0
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_retry_e9a5a30f
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_sendprompt_cb1da74d
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_sendprompto_d381983d
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_waitforresp_bbec29d5
-    errors_claudeerrors_normalizeerror_68f137ec -->|calls| services_claudemanager_claudemanager_ensurehealt_410feed0
-    errors_claudeerrors_normalizeerror_68f137ec -->|calls| services_claudemanager_claudemanager_retry_e9a5a30f
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_attemptsubm_0f1fc211
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_capturediag_ca9e374a
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_constructor_ff887bfc
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_containsmea_515491b8
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_detectcompl_8fcfd1de
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_detecterror_29c63e39
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_ensureclaud_1b92ac31
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_ensurehealt_410feed0
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_extractchat_a78dc2c2
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_findfirstav_f592b058
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_focusandcle_226b6ba0
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_retry_e9a5a30f
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_sendprompt_cb1da74d
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_sendprompto_d381983d
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_waitforresp_bbec29d5
-    services_claudemanager_claudemanager_ensurehealt_410feed0 -->|calls| services_claudemanager_claudemanager_detecterror_29c63e39
-    %% Omitted for readability: 15 nodes, 9 edges
-    class services_claudemanager_claudemanager_82714a68 klass;
-    class services_claudemanager_claudemanager_sendprompto_d381983d function;
-    class services_claudemanager_claudemanager_waitforresp_bbec29d5 function;
-    class services_claudemanager_claudemanager_attemptsubm_0f1fc211 function;
-    class services_claudemanager_claudemanager_detecterror_29c63e39 function;
-    class services_claudemanager_claudemanager_ensurehealt_410feed0 function;
-    class services_claudemanager_claudemanager_retry_e9a5a30f function;
-    class services_claudemanager_claudemanager_sendprompt_cb1da74d function;
-    class services_claudemanager_claudemanager_capturediag_ca9e374a function;
-    class services_claudemanager_claudemanager_constructor_ff887bfc function;
-    class services_claudemanager_claudemanager_containsmea_515491b8 function;
-    class services_claudemanager_claudemanager_detectcompl_8fcfd1de function;
-    class services_claudemanager_claudemanager_ensureclaud_1b92ac31 function;
-    class services_claudemanager_claudemanager_extractchat_a78dc2c2 function;
-    class services_claudemanager_claudemanager_findfirstav_f592b058 function;
-    class services_claudemanager_claudemanager_focusandcle_226b6ba0 function;
-    class errors_claudeerrors_createclaudeerror_07bee0f5 function;
-    class errors_claudeerrors_normalizeerror_68f137ec function;
-    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
-    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
-    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
-    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
-    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
-    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
-    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
-    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
-    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
-</div>
-
-<h3>Call Details</h3>
-<table class="call-table">
-<tr>
-  <th style="width:5%">#</th>
-  <th style="width:28%">Node</th>
-  <th style="width:10%">Type</th>
-  <th style="width:17%">Caller</th>
-  <th style="width:20%">Callees</th>
-  <th style="width:20%">Description</th>
-</tr>
-<tr>
-  <td>1</td>
   <td><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+3 more</td>
+  <td><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+4 more</td>
   <td>createClaudeError() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>2</td>
+  <td>17</td>
   <td><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td>normalizeError() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>3</td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>18</td>
+  <td><code>WorkerState.js</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>_attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_captureDiagnostics()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_containsMeaningfulContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+27 more</td>
-  <td>ClaudeManager node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.constructor() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td><code>.initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_ensureClaudeHome()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.initialize() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td><code>.ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.ensureHealthy() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>.sendPrompt()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><code>retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>Builds structured prompts for model calls.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>._extractChatId()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>Supports retrieval-augmented Q&amp;A or streaming chat.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>.waitForResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><code>_readResponseState()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_sleep()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectCompletion()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+1 more</td>
-  <td>.waitForResponse() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>.detectCompletion()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>waitForResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_isInputReady()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>findFirstAvailable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>isAnyVisible()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.detectCompletion() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>.detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+2 more</td>
-  <td><code>_getPageSnapshot()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>SELECTORS_MATCH()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.detectErrors() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>.validateResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_containsMeaningfulContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.validateResponse() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>.retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+1 more</td>
-  <td><code>_isRetryable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_sleep()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.retry() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>.recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_captureDiagnostics()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.recover() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>.getStatus()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getStatus() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>._sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><code>_attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_focusAndClearInput()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_readInputValue()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+2 more</td>
-  <td>Builds structured prompts for model calls.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>._attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_sleep()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_submissionStarted()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>findFirstAvailable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>._attemptSubmit() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>._submissionStarted()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>_attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_readInputValue()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>findFirstAvailable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>isAnyVisible()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>._submissionStarted() node in src/services/ClaudeManager.js.</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>WorkerState.js node in src/models/WorkerState.js.</td>
 </tr>
 <tr>
   <td>19</td>
-  <td><code>._ensureClaudeHome()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_sleep()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>findFirstAvailable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>._ensureClaudeHome() node in src/services/ClaudeManager.js.</td>
+  <td><code>WORKER_STATES</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>WORKER_STATES node in src/models/WorkerState.js.</td>
 </tr>
 <tr>
   <td>20</td>
-  <td><code>.findFirstAvailable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>_attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_ensureClaudeHome()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+3 more</td>
-  <td><code>_isInputReady()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>isAnyVisible()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.findFirstAvailable() node in src/services/ClaudeManager.js.</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>BrowserError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ProfileLockError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+2 more</td>
+  <td>No direct outbound edge</td>
+  <td>BrowserManager.js node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
   <td>21</td>
-  <td><code>.isAnyVisible()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>{ chromium }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>_submissionStarted()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectCompletion()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+1 more</td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>.isAnyVisible() node in src/services/ClaudeManager.js.</td>
+  <td>{ chromium } node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
   <td>22</td>
-  <td><code>.SELECTORS_MATCH()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>stealth</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>.SELECTORS_MATCH() node in src/services/ClaudeManager.js.</td>
+  <td>stealth node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
   <td>23</td>
-  <td><code>._readResponseState()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>{ spawnSync }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>waitForResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_getLatestAssistantContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>._readResponseState() node in src/services/ClaudeManager.js.</td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ spawnSync } node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
   <td>24</td>
-  <td><code>._getPageSnapshot()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>Organizes documentation pages, navigation, or content lookup.</td>
+  <td>{ WORKER_STATES } node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
   <td>25</td>
-  <td><code>._getLatestAssistantContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>{ BrowserError, ProfileLockError }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>_readResponseState()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_getLatestAssistantText()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>Verifies imports, entry points, or version behavior.</td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ BrowserError, ProfileLockError } node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
   <td>26</td>
-  <td><code>._getLatestAssistantText()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>_getLatestAssistantContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>Verifies imports, entry points, or version behavior.</td>
+  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+6 more</td>
+  <td><code>validation.test.js</code><br><small style="color:var(--muted)">tests/validation.test.js</small></td>
+  <td>ClaudeManager.js node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
   <td>27</td>
-  <td><code>._readInputValue()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>fs</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_submissionStarted()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>._readInputValue() node in src/services/ClaudeManager.js.</td>
+  <td>fs node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
   <td>28</td>
-  <td><code>._focusAndClearInput()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>path</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>._focusAndClearInput() node in src/services/ClaudeManager.js.</td>
+  <td>path node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
   <td>29</td>
-  <td><code>._isInputReady()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>{ 
+    ValidationError, 
+    RecoveryReport, 
+    InvalidProjectContentError, 
+    InvalidResponseQualityError, 
+    createClaudeError, 
+    normalizeError 
+}</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectCompletion()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>findFirstAvailable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>._isInputReady() node in src/services/ClaudeManager.js.</td>
+  <td>{ 
+    ValidationError, 
+    RecoveryReport, 
+    InvalidProjectContentError, 
+    InvalidResponseQualityError, 
+    createClaudeError, 
+    normalizeError 
+} node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
   <td>30</td>
-  <td><code>._captureDiagnostics()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>._captureDiagnostics() node in src/services/ClaudeManager.js.</td>
+  <td>{ WORKER_STATES } node in src/services/ClaudeManager.js.</td>
 </tr>
 </table>
 
@@ -2546,19 +2179,25 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>src/services/ClaudeManager.js</code></td><td>31 nodes</td></tr>
-<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>2 nodes</td></tr>
+      <tr><td><code>src/services/ClaudeManager.js</code></td><td>37 nodes</td></tr>
+<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>17 nodes</td></tr>
+<tr><td><code>README.md</code></td><td>16 nodes</td></tr>
+<tr><td><code>tests/stabilization.test.js</code></td><td>11 nodes</td></tr>
+<tr><td><code>SOAK_TEST_PLAN.md</code></td><td>7 nodes</td></tr>
+<tr><td><code>src/services/BrowserManager.js</code></td><td>6 nodes</td></tr>
+<tr><td><code>DEPLOYMENT_STAGING.md</code></td><td>5 nodes</td></tr>
+<tr><td><code>scripts/test_clipboard.js</code></td><td>5 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: calls x44, method x30. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x82, calls x44, method x37, imports x12. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
-<!-- ====== 10. Bootstrapmanager Components ====== -->
-<h2 id="bootstrapmanager-components">10. Bootstrapmanager Components</h2>
+<!-- ====== 9. Bootstrapmanager Components ====== -->
+<h2 id="bootstrapmanager-components">9. Bootstrapmanager Components</h2>
 <p>Bootstrapmanager Components groups implementation around bootstrapmanagerjs, bootstrap, preflightvalidator, loadconfig, mostly in src/bootstrap/BootstrapManager.js. This section covers 30 nodes and 29 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -2897,36 +2536,41 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 11. Syncservice Components ====== -->
-<h2 id="syncservice-components">11. Syncservice Components</h2>
-<p>Syncservice Components groups implementation around services, wordpressclientjs, syncservicejs, wordpressclient, mostly in src/services/WordPressClient.js, src/services/SyncService.js. This section covers 22 nodes and 33 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<!-- ====== 10. Syncservice Components ====== -->
+<h2 id="syncservice-components">10. Syncservice Components</h2>
+<p>Syncservice Components groups implementation around services, wordpressclientjs, syncservicejs, publishingservicejs, mostly in src/services/WordPressClient.js, src/services/SyncService.js, src/services/PublishingService.js. This section covers 29 nodes and 40 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Syncservice Components (22 nodes, 33 edges)
+    %% Section: Syncservice Components (29 nodes, 40 edges)
     subgraph syncservice_components_src_services_WordPressCli_4b25b84d["src/services/WordPressClient.js"]
         services_wordpressclient_wordpressclient_20baef68("WordPressClient<br/><small>src/services/WordPressClient.js</small>")
         services_wordpressclient_wordpressclient_request_c2ab3341("_request()<br/><small>src/services/WordPressClient.js</small>")
-        services_wordpressclient_wordpressclient_gethead_73af9ccd("_getHeaders()<br/><small>src/services/WordPressClient.js</small>")
         services_wordpressclient_wordpressclient_constru_4978f948("constructor()<br/><small>src/services/WordPressClient.js</small>")
         services_wordpressclient_wordpressclient_created_3981d3ff("createDraft()<br/><small>src/services/WordPressClient.js</small>")
         services_wordpressclient_wordpressclient_createp_a622e59e("createPendingReview()<br/><small>src/services/WordPressClient.js</small>")
         services_wordpressclient_wordpressclient_getauth_46773825("getAuthors()<br/><small>src/services/WordPressClient.js</small>")
         services_wordpressclient_wordpressclient_getcate_8eb86f8f("getCategories()<br/><small>src/services/WordPressClient.js</small>")
-        services_wordpressclient_wordpressclient_getpage_e7b72e91("getPages()<br/><small>src/services/WordPressClient.js</small>")
-        services_wordpressclient_wordpressclient_getpost_990675dc("getPosts()<br/><small>src/services/WordPressClient.js</small>")
-        services_wordpressclient_wordpressclient_gettags_cfb4517e("getTags()<br/><small>src/services/WordPressClient.js</small>")
     end
     subgraph syncservice_components_src_services_SyncService_b3414924["src/services/SyncService.js"]
         services_syncservice_syncservice_fd9b6d79("SyncService<br/><small>src/services/SyncService.js</small>")
         services_syncservice_syncservice_syncsite_2daaff8b("syncSite()<br/><small>src/services/SyncService.js</small>")
-        services_syncservice_65868646("SyncService.js")
         services_syncservice_syncservice_constructor_88e79e7f("constructor()<br/><small>src/services/SyncService.js</small>")
         services_syncservice_syncservice_getauthorlocali_5f1cf3fb("_getAuthorLocalId()<br/><small>src/services/SyncService.js</small>")
         services_syncservice_syncservice_synctaxonomy_8c7f60ba("_syncTaxonomy()<br/><small>src/services/SyncService.js</small>")
         services_syncservice_syncservice_testconnection_af6fc406("testConnection()<br/><small>src/services/SyncService.js</small>")
     end
+    subgraph syncservice_components_src_services_PublishingSe_fbcd7cf9["src/services/PublishingService.js"]
+        services_publishingservice_publishingservice_ac5de463("PublishingService<br/><small>src/services/PublishingService.js</small>")
+        services_publishingservice_7447626e("PublishingService.js")
+        services_publishingservice_publishingservice_con_ade45150("constructor()<br/><small>src/services/PublishingService.js</small>")
+        services_publishingservice_publishingservice_get_e98e9313("getPublishingHistory()<br/><small>src/services/PublishingService.js</small>")
+        services_publishingservice_publishingservice_pub_a3d9fd31("publishToWordPress()<br/><small>src/services/PublishingService.js</small>")
+    end
+    services_publishingservice_publishingservice_ac5de463 -->|method| services_publishingservice_publishingservice_con_ade45150
+    services_publishingservice_publishingservice_ac5de463 -->|method| services_publishingservice_publishingservice_get_e98e9313
+    services_publishingservice_publishingservice_ac5de463 -->|method| services_publishingservice_publishingservice_pub_a3d9fd31
     services_syncservice_syncservice_fd9b6d79 -->|method| services_syncservice_syncservice_constructor_88e79e7f
     services_syncservice_syncservice_fd9b6d79 -->|method| services_syncservice_syncservice_getauthorlocali_5f1cf3fb
     services_syncservice_syncservice_fd9b6d79 -->|method| services_syncservice_syncservice_syncsite_2daaff8b
@@ -2939,37 +2583,30 @@ flowchart LR
     services_wordpressclient_wordpressclient_20baef68 -->|method| services_wordpressclient_wordpressclient_createp_a622e59e
     services_wordpressclient_wordpressclient_20baef68 -->|method| services_wordpressclient_wordpressclient_getauth_46773825
     services_wordpressclient_wordpressclient_20baef68 -->|method| services_wordpressclient_wordpressclient_getcate_8eb86f8f
-    services_wordpressclient_wordpressclient_20baef68 -->|method| services_wordpressclient_wordpressclient_gethead_73af9ccd
-    services_wordpressclient_wordpressclient_20baef68 -->|method| services_wordpressclient_wordpressclient_getpage_e7b72e91
-    services_wordpressclient_wordpressclient_20baef68 -->|method| services_wordpressclient_wordpressclient_getpost_990675dc
-    services_wordpressclient_wordpressclient_20baef68 -->|method| services_wordpressclient_wordpressclient_gettags_cfb4517e
     services_wordpressclient_wordpressclient_20baef68 -->|method| services_wordpressclient_wordpressclient_request_c2ab3341
-    services_wordpressclient_wordpressclient_gethead_73af9ccd -->|calls| services_wordpressclient_wordpressclient_request_c2ab3341
     services_wordpressclient_wordpressclient_request_c2ab3341 -->|calls| services_wordpressclient_wordpressclient_created_3981d3ff
     services_wordpressclient_wordpressclient_request_c2ab3341 -->|calls| services_wordpressclient_wordpressclient_createp_a622e59e
     services_wordpressclient_wordpressclient_request_c2ab3341 -->|calls| services_wordpressclient_wordpressclient_getauth_46773825
     services_wordpressclient_wordpressclient_request_c2ab3341 -->|calls| services_wordpressclient_wordpressclient_getcate_8eb86f8f
-    services_wordpressclient_wordpressclient_request_c2ab3341 -->|calls| services_wordpressclient_wordpressclient_getpage_e7b72e91
-    services_wordpressclient_wordpressclient_request_c2ab3341 -->|calls| services_wordpressclient_wordpressclient_getpost_990675dc
-    %% Omitted for readability: 4 nodes, 1 edges
+    %% Omitted for readability: 11 nodes, 0 edges
     class services_wordpressclient_wordpressclient_20baef68 entry;
     class services_wordpressclient_wordpressclient_request_c2ab3341 function;
-    class services_wordpressclient_wordpressclient_gethead_73af9ccd function;
     class services_wordpressclient_wordpressclient_constru_4978f948 function;
     class services_wordpressclient_wordpressclient_created_3981d3ff function;
     class services_wordpressclient_wordpressclient_createp_a622e59e function;
     class services_wordpressclient_wordpressclient_getauth_46773825 function;
     class services_wordpressclient_wordpressclient_getcate_8eb86f8f function;
-    class services_wordpressclient_wordpressclient_getpage_e7b72e91 function;
-    class services_wordpressclient_wordpressclient_getpost_990675dc function;
-    class services_wordpressclient_wordpressclient_gettags_cfb4517e function;
     class services_syncservice_syncservice_fd9b6d79 klass;
     class services_syncservice_syncservice_syncsite_2daaff8b function;
-    class services_syncservice_65868646 klass;
     class services_syncservice_syncservice_constructor_88e79e7f function;
     class services_syncservice_syncservice_getauthorlocali_5f1cf3fb function;
     class services_syncservice_syncservice_synctaxonomy_8c7f60ba function;
     class services_syncservice_syncservice_testconnection_af6fc406 function;
+    class services_publishingservice_publishingservice_ac5de463 klass;
+    class services_publishingservice_7447626e klass;
+    class services_publishingservice_publishingservice_con_ade45150 function;
+    class services_publishingservice_publishingservice_get_e98e9313 function;
+    class services_publishingservice_publishingservice_pub_a3d9fd31 function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -2993,6 +2630,62 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
+  <td><code>PublishingService.js</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>WordPressClient.js</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
+  <td>PublishingService.js node in src/services/PublishingService.js.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><code>{ PROJECT_STATUSES }</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ PROJECT_STATUSES } node in src/services/PublishingService.js.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td><span class="tag tag-cmd">Entry</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>WordPressClient node in src/services/PublishingService.js.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>PublishingService</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>constructor()</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small><br><code>getPublishingHistory()</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small><br><code>publishToWordPress()</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td>PublishingService node in src/services/PublishingService.js.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>PublishingService</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/services/PublishingService.js.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>.publishToWordPress()</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>PublishingService</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.publishToWordPress() node in src/services/PublishingService.js.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>.getPublishingHistory()</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>PublishingService</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getPublishingHistory() node in src/services/PublishingService.js.</td>
+</tr>
+<tr>
+  <td>8</td>
   <td><code>SyncService.js</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -3000,7 +2693,7 @@ flowchart LR
   <td>SyncService.js node in src/services/SyncService.js.</td>
 </tr>
 <tr>
-  <td>2</td>
+  <td>9</td>
   <td><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
   <td><span class="tag tag-cmd">Entry</span></td>
   <td>External entry / no inbound edge</td>
@@ -3008,7 +2701,7 @@ flowchart LR
   <td>WordPressClient node in src/services/SyncService.js.</td>
 </tr>
 <tr>
-  <td>3</td>
+  <td>10</td>
   <td><code>SyncService</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -3016,7 +2709,7 @@ flowchart LR
   <td>SyncService node in src/services/SyncService.js.</td>
 </tr>
 <tr>
-  <td>4</td>
+  <td>11</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>SyncService</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
@@ -3024,7 +2717,7 @@ flowchart LR
   <td>.constructor() node in src/services/SyncService.js.</td>
 </tr>
 <tr>
-  <td>5</td>
+  <td>12</td>
   <td><code>.testConnection()</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>SyncService</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
@@ -3032,7 +2725,7 @@ flowchart LR
   <td>Verifies imports, entry points, or version behavior.</td>
 </tr>
 <tr>
-  <td>6</td>
+  <td>13</td>
   <td><code>.syncSite()</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>SyncService</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
@@ -3040,7 +2733,7 @@ flowchart LR
   <td>.syncSite() node in src/services/SyncService.js.</td>
 </tr>
 <tr>
-  <td>7</td>
+  <td>14</td>
   <td><code>._syncTaxonomy()</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>SyncService</code><br><small style="color:var(--muted)">src/services/SyncService.js</small><br><code>syncSite()</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
@@ -3048,7 +2741,7 @@ flowchart LR
   <td>._syncTaxonomy() node in src/services/SyncService.js.</td>
 </tr>
 <tr>
-  <td>8</td>
+  <td>15</td>
   <td><code>._getAuthorLocalId()</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>SyncService</code><br><small style="color:var(--muted)">src/services/SyncService.js</small><br><code>syncSite()</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
@@ -3056,15 +2749,15 @@ flowchart LR
   <td>._getAuthorLocalId() node in src/services/SyncService.js.</td>
 </tr>
 <tr>
-  <td>9</td>
+  <td>16</td>
   <td><code>WordPressClient.js</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-cmd">Entry</span></td>
-  <td><code>SyncService.js</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
+  <td><code>PublishingService.js</code><br><small style="color:var(--muted)">src/services/PublishingService.js</small><br><code>SyncService.js</code><br><small style="color:var(--muted)">src/services/SyncService.js</small></td>
   <td>No direct outbound edge</td>
   <td>WordPressClient.js node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>10</td>
+  <td>17</td>
   <td><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-cmd">Entry</span></td>
   <td>External entry / no inbound edge</td>
@@ -3072,7 +2765,7 @@ flowchart LR
   <td>WordPressClient node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>11</td>
+  <td>18</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3080,7 +2773,7 @@ flowchart LR
   <td>.constructor() node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>12</td>
+  <td>19</td>
   <td><code>._getHeaders()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3088,7 +2781,7 @@ flowchart LR
   <td>._getHeaders() node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>13</td>
+  <td>20</td>
   <td><code>._request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_getHeaders()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3096,7 +2789,7 @@ flowchart LR
   <td>._request() node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>14</td>
+  <td>21</td>
   <td><code>.testConnection()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3104,7 +2797,7 @@ flowchart LR
   <td>Verifies imports, entry points, or version behavior.</td>
 </tr>
 <tr>
-  <td>15</td>
+  <td>22</td>
   <td><code>.getPosts()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3112,7 +2805,7 @@ flowchart LR
   <td>.getPosts() node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>16</td>
+  <td>23</td>
   <td><code>.getPages()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3120,7 +2813,7 @@ flowchart LR
   <td>Organizes documentation pages, navigation, or content lookup.</td>
 </tr>
 <tr>
-  <td>17</td>
+  <td>24</td>
   <td><code>.getCategories()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3128,7 +2821,7 @@ flowchart LR
   <td>.getCategories() node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>18</td>
+  <td>25</td>
   <td><code>.getTags()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3136,7 +2829,7 @@ flowchart LR
   <td>.getTags() node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>19</td>
+  <td>26</td>
   <td><code>.getAuthors()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3144,7 +2837,7 @@ flowchart LR
   <td>.getAuthors() node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>20</td>
+  <td>27</td>
   <td><code>.createDraft()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3152,7 +2845,7 @@ flowchart LR
   <td>.createDraft() node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>21</td>
+  <td>28</td>
   <td><code>.updateDraft()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3160,7 +2853,7 @@ flowchart LR
   <td>.updateDraft() node in src/services/WordPressClient.js.</td>
 </tr>
 <tr>
-  <td>22</td>
+  <td>29</td>
   <td><code>.createPendingReview()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_request()</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small><br><code>WordPressClient</code><br><small style="color:var(--muted)">src/services/WordPressClient.js</small></td>
@@ -3176,17 +2869,18 @@ flowchart LR
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>src/services/WordPressClient.js</code></td><td>14 nodes</td></tr>
 <tr><td><code>src/services/SyncService.js</code></td><td>8 nodes</td></tr>
+<tr><td><code>src/services/PublishingService.js</code></td><td>7 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: method x17, calls x12, contains x3, imports x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: method x20, calls x12, contains x6, imports x2. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
-<!-- ====== 12. Jobrepository Components ====== -->
-<h2 id="jobrepository-components">12. Jobrepository Components</h2>
+<!-- ====== 11. Jobrepository Components ====== -->
+<h2 id="jobrepository-components">11. Jobrepository Components</h2>
 <p>Jobrepository Components groups implementation around jobrepositoryjs, repositories, valid, statuses, mostly in src/repositories/JobRepository.js. This section covers 20 nodes and 26 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -3452,8 +3146,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 13. Site Components ====== -->
-<h2 id="site-components">13. Site Components</h2>
+<!-- ====== 12. Site Components ====== -->
+<h2 id="site-components">12. Site Components</h2>
 <p>Site Components groups implementation around siterepositoryjs, repositories, sitejs, models, mostly in src/repositories/SiteRepository.js, src/models/Site.js. This section covers 17 nodes and 21 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -3691,8 +3385,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 14. Browsermanager Components ====== -->
-<h2 id="browsermanager-components">14. Browsermanager Components</h2>
+<!-- ====== 13. Browsermanager Components ====== -->
+<h2 id="browsermanager-components">13. Browsermanager Components</h2>
 <p>Browsermanager Components groups implementation around services, browsermanagerjs, browsermanager, constructor, mostly in src/services/BrowserManager.js. This section covers 17 nodes and 32 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -3932,8 +3626,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 15. Projectrepository Components ====== -->
-<h2 id="projectrepository-components">15. Projectrepository Components</h2>
+<!-- ====== 14. Projectrepository Components ====== -->
+<h2 id="projectrepository-components">14. Projectrepository Components</h2>
 <p>Projectrepository Components groups implementation around repositories, projectrepositoryjs, projectrepository, constructor, mostly in src/repositories/ProjectRepository.js. This section covers 16 nodes and 20 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -4158,14 +3852,212 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 16. Other ====== -->
-<h2 id="other">16. Other</h2>
-<p>Other groups implementation around services, scripts, repositories, monitor, mostly in src/services/ClaudeWorker.js, src/services/JobService.js, src/services/ProjectService.js. This section covers 341 nodes and 336 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<!-- ====== 15. Wordpressrepository Components ====== -->
+<h2 id="wordpressrepository-components">15. Wordpressrepository Components</h2>
+<p>Wordpressrepository Components groups implementation around wordpressrepositoryjs, repositories, wordpressrepository, constructor, mostly in src/repositories/WordPressRepository.js. This section covers 14 nodes and 13 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Other (341 nodes, 336 edges)
+    %% Section: Wordpressrepository Components (14 nodes, 13 edges)
+    repositories_wordpressrepository_wordpressreposi_138aa21c("WordPressRepository<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_c5112a43("constructor()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_7eb34a6b("getAuthorsBySiteId()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_9c7680d2("getCategoriesBySiteId()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_f4e6aca4("getPostByWpId()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_9c4cc366("getPostsBySiteId()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_68ef5227("getTagsBySiteId()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_2bb4ae51("startSyncRun()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_c8631fef("updateSyncRun()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_7218a1b1("upsertAuthor()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_aa06b08d("upsertCategory()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_da39c178("upsertPost()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_a697e988("upsertTag()<br/><small>src/repositories/WordPressRepository.js</small>")
+    repositories_wordpressrepository_625190eb("WordPressRepository.js")
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_c5112a43
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_7eb34a6b
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_9c7680d2
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_f4e6aca4
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_9c4cc366
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_68ef5227
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_2bb4ae51
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_c8631fef
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_7218a1b1
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_aa06b08d
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_da39c178
+    repositories_wordpressrepository_wordpressreposi_138aa21c -->|method| repositories_wordpressrepository_wordpressreposi_a697e988
+    class repositories_wordpressrepository_wordpressreposi_138aa21c klass;
+    class repositories_wordpressrepository_wordpressreposi_c5112a43 function;
+    class repositories_wordpressrepository_wordpressreposi_7eb34a6b function;
+    class repositories_wordpressrepository_wordpressreposi_9c7680d2 function;
+    class repositories_wordpressrepository_wordpressreposi_f4e6aca4 function;
+    class repositories_wordpressrepository_wordpressreposi_9c4cc366 function;
+    class repositories_wordpressrepository_wordpressreposi_68ef5227 function;
+    class repositories_wordpressrepository_wordpressreposi_2bb4ae51 function;
+    class repositories_wordpressrepository_wordpressreposi_c8631fef function;
+    class repositories_wordpressrepository_wordpressreposi_7218a1b1 function;
+    class repositories_wordpressrepository_wordpressreposi_aa06b08d function;
+    class repositories_wordpressrepository_wordpressreposi_da39c178 function;
+    class repositories_wordpressrepository_wordpressreposi_a697e988 function;
+    class repositories_wordpressrepository_625190eb klass;
+    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
+    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
+    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
+    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
+    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
+    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
+    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
+    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
+    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
+</div>
+
+<h3>Call Details</h3>
+<table class="call-table">
+<tr>
+  <th style="width:5%">#</th>
+  <th style="width:28%">Node</th>
+  <th style="width:10%">Type</th>
+  <th style="width:17%">Caller</th>
+  <th style="width:20%">Callees</th>
+  <th style="width:20%">Description</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td><code>WordPressRepository.js</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>WordPressRepository.js node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>constructor()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small><br><code>getAuthorsBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small><br><code>getCategoriesBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small><br>+9 more</td>
+  <td>WordPressRepository node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>.upsertAuthor()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.upsertAuthor() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>.upsertCategory()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.upsertCategory() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>.upsertTag()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.upsertTag() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>.upsertPost()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.upsertPost() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>.startSyncRun()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.startSyncRun() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>.updateSyncRun()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.updateSyncRun() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>.getPostsBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getPostsBySiteId() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>.getPostByWpId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getPostByWpId() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>.getCategoriesBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getCategoriesBySiteId() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>.getTagsBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getTagsBySiteId() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>.getAuthorsBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getAuthorsBySiteId() node in src/repositories/WordPressRepository.js.</td>
+</tr>
+</table>
+
+<div class="grid">
+  <div class="card">
+    <h4>Key Files</h4>
+    <table style="width:100%;font-size:0.85rem;">
+      <tr><th>File</th><th>Coverage</th></tr>
+      <tr><td><code>src/repositories/WordPressRepository.js</code></td><td>14 nodes</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h4>Design Notes</h4>
+    <p>This section comes from graphify community clustering. Relationship summary: method x12, contains x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+  </div>
+</div>
+<hr>
+
+<!-- ====== 16. Other ====== -->
+<h2 id="other">16. Other</h2>
+<p>Other groups implementation around services, scripts, monitor, inspect, mostly in src/services/JobService.js, src/services/ProjectService.js, src/services/MetricsService.js. This section covers 285 nodes and 273 internal edges; the diagram shows only representative relationships to stay readable.</p>
+
+<div class="mermaid">
+%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
+flowchart LR
+    %% Section: Other (285 nodes, 273 edges)
     subgraph other_src_bootstrap_PreFlightValidator_js_a3e06368["src/bootstrap/PreFlightValidator.js"]
         bootstrap_preflightvalidator_preflightvalidator_c80e9f2b("PreFlightValidator<br/><small>src/bootstrap/PreFlightValidator.js</small>")
         bootstrap_preflightvalidator_preflightvalidator_4ebbaaed("constructor()<br/><small>src/bootstrap/PreFlightValidator.js</small>")
@@ -4181,10 +4073,12 @@ flowchart LR
         browser_browserrecovery_browserrecovery_construc_445e51b9("constructor()<br/><small>src/browser/BrowserRecovery.js</small>")
         browser_browserrecovery_browserrecovery_recover_bc2c42bf("recover()<br/><small>src/browser/BrowserRecovery.js</small>")
     end
-    db_database_databaseconnection_e2bdf6e9("DatabaseConnection<br/><small>src/db/database.js</small>")
+    subgraph other_src_db_database_js_18d9467c["src/db/database.js"]
+        db_database_databaseconnection_e2bdf6e9("DatabaseConnection<br/><small>src/db/database.js</small>")
+        db_database_databaseconnection_close_ad768009("close()<br/><small>src/db/database.js</small>")
+    end
     monitor_statemachine_statemachine_ecc9e687("StateMachine<br/><small>src/monitor/StateMachine.js</small>")
-    repositories_wordpressrepository_wordpressreposi_138aa21c("WordPressRepository<br/><small>src/repositories/WordPressRepository.js</small>")
-    services_claudeworker_claudeworker_c12a2e46("ClaudeWorker<br/><small>src/services/ClaudeWorker.js</small>")
+    services_dashboardservice_dashboardservice_3cf29a65("DashboardService<br/><small>src/services/DashboardService.js</small>")
     services_jobservice_jobservice_a9bacbfb("JobService<br/><small>src/services/JobService.js</small>")
     services_metricsservice_metricsservice_efffe9e2("MetricsService<br/><small>src/services/MetricsService.js</small>")
     services_projectservice_projectservice_9a982c56("ProjectService<br/><small>src/services/ProjectService.js</small>")
@@ -4197,7 +4091,8 @@ flowchart LR
     bootstrap_preflightvalidator_preflightvalidator_c80e9f2b -->|method| bootstrap_preflightvalidator_preflightvalidator_161b186e
     browser_browserrecovery_browserrecovery_815d8c03 -->|method| browser_browserrecovery_browserrecovery_construc_445e51b9
     browser_browserrecovery_browserrecovery_815d8c03 -->|method| browser_browserrecovery_browserrecovery_recover_bc2c42bf
-    %% Omitted for readability: 323 nodes, 0 edges
+    db_database_databaseconnection_e2bdf6e9 -->|method| db_database_databaseconnection_close_ad768009
+    %% Omitted for readability: 267 nodes, 0 edges
     class bootstrap_preflightvalidator_preflightvalidator_c80e9f2b klass;
     class bootstrap_preflightvalidator_preflightvalidator_4ebbaaed function;
     class bootstrap_preflightvalidator_preflightvalidator_0736785a function;
@@ -4210,9 +4105,9 @@ flowchart LR
     class browser_browserrecovery_browserrecovery_construc_445e51b9 function;
     class browser_browserrecovery_browserrecovery_recover_bc2c42bf function;
     class db_database_databaseconnection_e2bdf6e9 klass;
+    class db_database_databaseconnection_close_ad768009 function;
     class monitor_statemachine_statemachine_ecc9e687 klass;
-    class repositories_wordpressrepository_wordpressreposi_138aa21c klass;
-    class services_claudeworker_claudeworker_c12a2e46 klass;
+    class services_dashboardservice_dashboardservice_3cf29a65 klass;
     class services_jobservice_jobservice_a9bacbfb klass;
     class services_metricsservice_metricsservice_efffe9e2 async;
     class services_projectservice_projectservice_9a982c56 klass;
@@ -4239,243 +4134,243 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>_recordJobChat()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>_resetWorkerState()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br>+10 more</td>
-  <td>ClaudeWorker node in src/services/ClaudeWorker.js.</td>
+  <td><code>completeJob()</code><br><small style="color:var(--muted)">src/services/JobService.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/services/JobService.js</small><br><code>createJob()</code><br><small style="color:var(--muted)">src/services/JobService.js</small><br>+9 more</td>
+  <td>JobService node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.constructor() node in src/services/ClaudeWorker.js.</td>
+  <td>.constructor() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><code>.initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.createJob()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.initialize() node in src/services/ClaudeWorker.js.</td>
+  <td>.createJob() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><code>.startProcessing()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.getJobById()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.startProcessing() node in src/services/ClaudeWorker.js.</td>
+  <td>.getJobById() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>5</td>
-  <td><code>.stopProcessing()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.getJobsBySiteId()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.stopProcessing() node in src/services/ClaudeWorker.js.</td>
+  <td>.getJobsBySiteId() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>6</td>
-  <td><code>._processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.getPendingJobs()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td><code>executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td>._processPendingJobs() node in src/services/ClaudeWorker.js.</td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getPendingJobs() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>7</td>
-  <td><code>.executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.getQueueSummary()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td><code>rewrite()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td>.executeJob() node in src/services/ClaudeWorker.js.</td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getQueueSummary() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>8</td>
-  <td><code>._recordJobChat()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.getQueueStats()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Supports retrieval-augmented Q&amp;A or streaming chat.</td>
+  <td>.getQueueStats() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>9</td>
-  <td><code>._saveResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.getSiteQueue()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>._saveResponse() node in src/services/ClaudeWorker.js.</td>
+  <td>.getSiteQueue() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>10</td>
-  <td><code>._resetWorkerState()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.startJob()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>._resetWorkerState() node in src/services/ClaudeWorker.js.</td>
+  <td>.startJob() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>11</td>
-  <td><code>.getQueueSize()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.completeJob()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.getQueueSize() node in src/services/ClaudeWorker.js.</td>
+  <td>.completeJob() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>12</td>
-  <td><code>.isHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.failJob()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.isHealthy() node in src/services/ClaudeWorker.js.</td>
+  <td>.failJob() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>13</td>
-  <td><code>.getStatusSnapshot()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.recoverInterruptedJobs()</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>JobService</code><br><small style="color:var(--muted)">src/services/JobService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.getStatusSnapshot() node in src/services/ClaudeWorker.js.</td>
+  <td>.recoverInterruptedJobs() node in src/services/JobService.js.</td>
 </tr>
 <tr>
   <td>14</td>
-  <td><code>.rewrite()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>MetricsService.js</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
+  <td><span class="tag tag-async">Async</span></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>.rewrite() node in src/services/ClaudeWorker.js.</td>
+  <td>MetricsService.js node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>15</td>
-  <td><code>WordPressRepository.js</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
+  <td><span class="tag tag-async">Async</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>WordPressRepository.js node in src/repositories/WordPressRepository.js.</td>
+  <td><code>constructor()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small><br><code>getSnapshot()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small><br><code>recordIncident()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small><br>+7 more</td>
+  <td>MetricsService node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>16</td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>constructor()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small><br><code>getAuthorsBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small><br><code>getCategoriesBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small><br>+9 more</td>
-  <td>WordPressRepository node in src/repositories/WordPressRepository.js.</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>17</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>.start()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.constructor() node in src/repositories/WordPressRepository.js.</td>
+  <td>.start() node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>18</td>
-  <td><code>.upsertAuthor()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>.shutdown()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.upsertAuthor() node in src/repositories/WordPressRepository.js.</td>
+  <td>.shutdown() node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>19</td>
-  <td><code>.upsertCategory()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>.updateState()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.upsertCategory() node in src/repositories/WordPressRepository.js.</td>
+  <td>Verifies imports, entry points, or version behavior.</td>
 </tr>
 <tr>
   <td>20</td>
-  <td><code>.upsertTag()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>.recordIncident()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.upsertTag() node in src/repositories/WordPressRepository.js.</td>
+  <td>.recordIncident() node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>21</td>
-  <td><code>.upsertPost()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>.recordJobCompletion()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.upsertPost() node in src/repositories/WordPressRepository.js.</td>
+  <td>.recordJobCompletion() node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>22</td>
-  <td><code>.startSyncRun()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>.recordJobFailure()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.startSyncRun() node in src/repositories/WordPressRepository.js.</td>
+  <td>.recordJobFailure() node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>23</td>
-  <td><code>.updateSyncRun()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>.recordRecovery()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.updateSyncRun() node in src/repositories/WordPressRepository.js.</td>
+  <td>.recordRecovery() node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>24</td>
-  <td><code>.getPostsBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>.getSnapshot()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.getPostsBySiteId() node in src/repositories/WordPressRepository.js.</td>
+  <td>.getSnapshot() node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>25</td>
-  <td><code>.getPostByWpId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>.stop()</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>MetricsService</code><br><small style="color:var(--muted)">src/services/MetricsService.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.getPostByWpId() node in src/repositories/WordPressRepository.js.</td>
+  <td>.stop() node in src/services/MetricsService.js.</td>
 </tr>
 <tr>
   <td>26</td>
-  <td><code>.getCategoriesBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
+  <td><code>PreFlightValidator.js</code><br><small style="color:var(--muted)">src/bootstrap/PreFlightValidator.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>.getCategoriesBySiteId() node in src/repositories/WordPressRepository.js.</td>
+  <td>PreFlightValidator.js node in src/bootstrap/PreFlightValidator.js.</td>
 </tr>
 <tr>
   <td>27</td>
-  <td><code>.getTagsBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getTagsBySiteId() node in src/repositories/WordPressRepository.js.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>.getAuthorsBySiteId()</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>WordPressRepository</code><br><small style="color:var(--muted)">src/repositories/WordPressRepository.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getAuthorsBySiteId() node in src/repositories/WordPressRepository.js.</td>
-</tr>
-<tr>
-  <td>29</td>
-  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>ContentProject.js</code><br><small style="color:var(--muted)">src/models/ContentProject.js</small><br><code>PROJECT_STATUSES</code><br><small style="color:var(--muted)">src/models/ContentProject.js</small><br><code>WORKER_STATES</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small><br>+1 more</td>
-  <td><code>AuditPromptBuilder.js</code><br><small style="color:var(--muted)">src/utils/AuditPromptBuilder.js</small><br><code>FailureClassifier</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small><br><code>FailureClassifier.js</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small><br>+1 more</td>
-  <td>ClaudeWorker.js node in src/services/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>fs</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>fs</code><br><small style="color:var(--muted)">src/bootstrap/PreFlightValidator.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>fs node in src/services/ClaudeWorker.js.</td>
+  <td>fs node in src/bootstrap/PreFlightValidator.js.</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td><code>path</code><br><small style="color:var(--muted)">src/bootstrap/PreFlightValidator.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>path node in src/bootstrap/PreFlightValidator.js.</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td><code>PreFlightValidator</code><br><small style="color:var(--muted)">src/bootstrap/PreFlightValidator.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>constructor()</code><br><small style="color:var(--muted)">src/bootstrap/PreFlightValidator.js</small><br><code>ensureDirectories()</code><br><small style="color:var(--muted)">src/bootstrap/PreFlightValidator.js</small><br><code>getActions()</code><br><small style="color:var(--muted)">src/bootstrap/PreFlightValidator.js</small><br>+4 more</td>
+  <td>PreFlightValidator node in src/bootstrap/PreFlightValidator.js.</td>
+</tr>
+<tr>
+  <td>30</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/bootstrap/PreFlightValidator.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>PreFlightValidator</code><br><small style="color:var(--muted)">src/bootstrap/PreFlightValidator.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/bootstrap/PreFlightValidator.js.</td>
 </tr>
 </table>
 
@@ -4484,19 +4379,19 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>src/services/ClaudeWorker.js</code></td><td>23 nodes</td></tr>
-<tr><td><code>src/services/JobService.js</code></td><td>15 nodes</td></tr>
+      <tr><td><code>src/services/JobService.js</code></td><td>15 nodes</td></tr>
 <tr><td><code>src/services/ProjectService.js</code></td><td>15 nodes</td></tr>
-<tr><td><code>src/repositories/WordPressRepository.js</code></td><td>14 nodes</td></tr>
 <tr><td><code>src/services/MetricsService.js</code></td><td>12 nodes</td></tr>
 <tr><td><code>src/bootstrap/PreFlightValidator.js</code></td><td>11 nodes</td></tr>
 <tr><td><code>src/monitor/StateMachine.js</code></td><td>11 nodes</td></tr>
 <tr><td><code>DEPLOYMENT_COMMANDS.md</code></td><td>10 nodes</td></tr>
+<tr><td><code>SYSTEM_DESIGN_AND_EVASION.md</code></td><td>10 nodes</td></tr>
+<tr><td><code>src/repositories/LogRepository.js</code></td><td>10 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: method x140, contains x138, calls x35, imports x12. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x124, method x107, calls x33, imports x5. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4550,17 +4445,17 @@ flowchart LR
   <div class="card">
     <h4>Graph</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>Nodes</td><td>1069</td></tr>
-      <tr><td>Edges</td><td>1310</td></tr>
+      <tr><td>Nodes</td><td>1089</td></tr>
+      <tr><td>Edges</td><td>1328</td></tr>
       <tr><td>Hyperedges</td><td>4</td></tr>
-      <tr><td>Communities</td><td>124</td></tr>
+      <tr><td>Communities</td><td>119</td></tr>
       <tr><td>Documented Sections</td><td>15</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Edge Confidence</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>EXTRACTED</td><td>1305</td></tr>
+      <tr><td>EXTRACTED</td><td>1323</td></tr>
       <tr><td>INFERRED</td><td>5</td></tr>
       <tr><td>AMBIGUOUS</td><td>0</td></tr>
     </table>
@@ -4569,7 +4464,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>n8n — Architecture Documentation</p>
-  <p>Generated: 2026-06-25 17:26 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-06-26 06:56 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->

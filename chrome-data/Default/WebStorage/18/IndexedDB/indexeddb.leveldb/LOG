@@ -1,6 +1,0 @@
-2026/06/01-02:44:52.713 5ff60b Creating DB /Users/abhinaykalkhanday/Library/Application Support/Google/Chrome/Profile 3/WebStorage/18/IndexedDB/indexeddb.leveldb since it was missing.
-2026/06/01-02:44:52.719 5ff60b Reusing MANIFEST /Users/abhinaykalkhanday/Library/Application Support/Google/Chrome/Profile 3/WebStorage/18/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2026/06/01-02:45:20.931 5ff601 Level-0 table #5: started
-2026/06/01-02:45:20.933 5ff601 Level-0 table #5: 480 bytes OK
-2026/06/01-02:45:20.937 5ff601 Delete type=0 #3
-2026/06/01-02:45:20.937 5ff601 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

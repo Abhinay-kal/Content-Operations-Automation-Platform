@@ -1,7 +1,0 @@
-2026/05/31-14:56:20.879 5ff601 Reusing MANIFEST /Users/abhinaykalkhanday/Library/Application Support/Google/Chrome/Profile 3/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/31-14:56:20.879 5ff601 Recovering log #3
-2026/05/31-14:56:20.882 5ff601 Reusing old log /Users/abhinaykalkhanday/Library/Application Support/Google/Chrome/Profile 3/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
-2026/05/31-14:56:58.413 5ff601 Level-0 table #5: started
-2026/05/31-14:56:58.427 5ff601 Level-0 table #5: 591430 bytes OK
-2026/05/31-14:56:58.435 5ff601 Delete type=0 #3
-2026/05/31-14:56:58.437 5ff601 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
