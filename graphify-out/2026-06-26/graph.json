@@ -61,14 +61,74 @@
   },
   "nodes": [
     {
+      "label": "AUDIT_REPORT.md",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "audit_report",
+      "community": 51,
+      "norm_label": "audit_report.md"
+    },
+    {
+      "label": "Phase 1: Repository Audit Report",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "audit_report_phase_1_repository_audit_report",
+      "community": 51,
+      "norm_label": "phase 1: repository audit report"
+    },
+    {
+      "label": "1. Directory Structure & Orphaned Files",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "audit_report_1_directory_structure_orphaned_files",
+      "community": 51,
+      "norm_label": "1. directory structure & orphaned files"
+    },
+    {
+      "label": "2. Architecture & Structural Improvements",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "audit_report_2_architecture_structural_improvements",
+      "community": 51,
+      "norm_label": "2. architecture & structural improvements"
+    },
+    {
+      "label": "3. Dependency Check",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "audit_report_3_dependency_check",
+      "community": 51,
+      "norm_label": "3. dependency check"
+    },
+    {
+      "label": "4. Security & Configuration",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "audit_report_4_security_configuration",
+      "community": 51,
+      "norm_label": "4. security & configuration"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "readme",
       "community": 33,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "readme"
     },
     {
       "label": "Claude Worker Foundation",
@@ -76,9 +136,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "readme_claude_worker_foundation",
       "community": 33,
-      "norm_label": "claude worker foundation"
+      "norm_label": "claude worker foundation",
+      "id": "readme_claude_worker_foundation"
     },
     {
       "label": "\ud83c\udf1f Overview",
@@ -86,9 +146,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "readme_overview",
       "community": 33,
-      "norm_label": "\ud83c\udf1f overview"
+      "norm_label": "\ud83c\udf1f overview",
+      "id": "readme_overview"
     },
     {
       "label": "Key Features",
@@ -96,9 +156,9 @@
       "source_file": "README.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "readme_key_features",
       "community": 33,
-      "norm_label": "key features"
+      "norm_label": "key features",
+      "id": "readme_key_features"
     },
     {
       "label": "\ud83d\udee1\ufe0f Anti-Bot & Evasion Techniques",
@@ -106,9 +166,9 @@
       "source_file": "README.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "readme_anti_bot_evasion_techniques",
       "community": 33,
-      "norm_label": "\ud83d\udee1\ufe0f anti-bot & evasion techniques"
+      "norm_label": "\ud83d\udee1\ufe0f anti-bot & evasion techniques",
+      "id": "readme_anti_bot_evasion_techniques"
     },
     {
       "label": "1. Cloudflare Turnstile Evasion (Passive CDP Monitoring)",
@@ -116,9 +176,9 @@
       "source_file": "README.md",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "readme_1_cloudflare_turnstile_evasion_passive_cdp_monitoring",
       "community": 33,
-      "norm_label": "1. cloudflare turnstile evasion (passive cdp monitoring)"
+      "norm_label": "1. cloudflare turnstile evasion (passive cdp monitoring)",
+      "id": "readme_1_cloudflare_turnstile_evasion_passive_cdp_monitoring"
     },
     {
       "label": "2. Stealth Plugin Initialization Fix",
@@ -126,9 +186,9 @@
       "source_file": "README.md",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "readme_2_stealth_plugin_initialization_fix",
       "community": 33,
-      "norm_label": "2. stealth plugin initialization fix"
+      "norm_label": "2. stealth plugin initialization fix",
+      "id": "readme_2_stealth_plugin_initialization_fix"
     },
     {
       "label": "3. Chromium Launch Argument Hardening",
@@ -136,9 +196,9 @@
       "source_file": "README.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "readme_3_chromium_launch_argument_hardening",
       "community": 33,
-      "norm_label": "3. chromium launch argument hardening"
+      "norm_label": "3. chromium launch argument hardening",
+      "id": "readme_3_chromium_launch_argument_hardening"
     },
     {
       "label": "\ud83c\udfdb Architecture",
@@ -146,9 +206,9 @@
       "source_file": "README.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "readme_architecture",
       "community": 33,
-      "norm_label": "\ud83c\udfdb architecture"
+      "norm_label": "\ud83c\udfdb architecture",
+      "id": "readme_architecture"
     },
     {
       "label": "\ud83d\udcc2 Project Structure",
@@ -156,9 +216,9 @@
       "source_file": "README.md",
       "source_location": "L74",
       "_origin": "ast",
-      "id": "readme_project_structure",
       "community": 33,
-      "norm_label": "\ud83d\udcc2 project structure"
+      "norm_label": "\ud83d\udcc2 project structure",
+      "id": "readme_project_structure"
     },
     {
       "label": "\ud83d\ude80 Getting Started",
@@ -166,9 +226,9 @@
       "source_file": "README.md",
       "source_location": "L86",
       "_origin": "ast",
-      "id": "readme_getting_started",
       "community": 33,
-      "norm_label": "\ud83d\ude80 getting started"
+      "norm_label": "\ud83d\ude80 getting started",
+      "id": "readme_getting_started"
     },
     {
       "label": "Installation",
@@ -176,9 +236,9 @@
       "source_file": "README.md",
       "source_location": "L88",
       "_origin": "ast",
-      "id": "readme_installation",
       "community": 33,
-      "norm_label": "installation"
+      "norm_label": "installation",
+      "id": "readme_installation"
     },
     {
       "label": "Running the Server",
@@ -186,9 +246,9 @@
       "source_file": "README.md",
       "source_location": "L94",
       "_origin": "ast",
-      "id": "readme_running_the_server",
       "community": 33,
-      "norm_label": "running the server"
+      "norm_label": "running the server",
+      "id": "readme_running_the_server"
     },
     {
       "label": "API Endpoints",
@@ -196,9 +256,9 @@
       "source_file": "README.md",
       "source_location": "L101",
       "_origin": "ast",
-      "id": "readme_api_endpoints",
       "community": 33,
-      "norm_label": "api endpoints"
+      "norm_label": "api endpoints",
+      "id": "readme_api_endpoints"
     },
     {
       "label": "\ud83d\udd04 Recovery Flow",
@@ -206,9 +266,9 @@
       "source_file": "README.md",
       "source_location": "L116",
       "_origin": "ast",
-      "id": "readme_recovery_flow",
       "community": 33,
-      "norm_label": "\ud83d\udd04 recovery flow"
+      "norm_label": "\ud83d\udd04 recovery flow",
+      "id": "readme_recovery_flow"
     },
     {
       "label": "\ud83e\uddea Testing",
@@ -216,9 +276,9 @@
       "source_file": "README.md",
       "source_location": "L125",
       "_origin": "ast",
-      "id": "readme_testing",
       "community": 33,
-      "norm_label": "\ud83e\uddea testing"
+      "norm_label": "\ud83e\uddea testing",
+      "id": "readme_testing"
     },
     {
       "label": "SYSTEM_DESIGN_AND_EVASION.md",
@@ -5166,7 +5226,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "browsererror",
       "id": "errors_claudeerrors_browsererror"
     },
@@ -5176,7 +5236,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_browsererror_constructor"
     },
@@ -5186,7 +5246,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "profilelockerror",
       "id": "errors_claudeerrors_profilelockerror"
     },
@@ -5196,7 +5256,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_profilelockerror_constructor"
     },
@@ -5556,7 +5616,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "workerstate.js",
       "id": "models_workerstate"
     },
@@ -5566,7 +5626,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "worker_states",
       "id": "models_workerstate_worker_states"
     },
@@ -5576,7 +5636,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "persistentworkerstate",
       "id": "models_workerstate_persistentworkerstate"
     },
@@ -5586,7 +5646,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".constructor()",
       "id": "models_workerstate_persistentworkerstate_constructor"
     },
@@ -5596,7 +5656,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "._loadinitialstate()",
       "id": "models_workerstate_persistentworkerstate_loadinitialstate"
     },
@@ -5606,7 +5666,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".setstate()",
       "id": "models_workerstate_persistentworkerstate_setstate"
     },
@@ -5616,7 +5676,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".getstate()",
       "id": "models_workerstate_persistentworkerstate_getstate"
     },
@@ -5626,7 +5686,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".incrementrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_incrementrecoveryattempts"
     },
@@ -5636,7 +5696,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".resetrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_resetrecoveryattempts"
     },
@@ -5646,7 +5706,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".getsnapshot()",
       "id": "models_workerstate_persistentworkerstate_getsnapshot"
     },
@@ -7016,7 +7076,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "browsermanager.js",
       "id": "services_browsermanager"
     },
@@ -7026,7 +7086,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "{ chromium }",
       "id": "services_browsermanager_chromium"
     },
@@ -7036,7 +7096,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "stealth",
       "id": "services_browsermanager_stealth"
     },
@@ -7046,7 +7106,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "{ spawnsync }",
       "id": "services_browsermanager_spawnsync"
     },
@@ -7056,7 +7116,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "{ worker_states }",
       "id": "services_browsermanager_worker_states"
     },
@@ -7066,7 +7126,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 117,
+      "community": 4,
       "norm_label": "{ browsererror, profilelockerror }",
       "id": "services_browsermanager_browsererror_profilelockerror"
     },
@@ -7706,7 +7766,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": "claudeworker",
       "id": "services_claudeworker_claudeworker"
     },
@@ -7716,7 +7776,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": ".constructor()",
       "id": "services_claudeworker_claudeworker_constructor"
     },
@@ -7726,7 +7786,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": ".initialize()",
       "id": "services_claudeworker_claudeworker_initialize"
     },
@@ -7736,7 +7796,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": ".startprocessing()",
       "id": "services_claudeworker_claudeworker_startprocessing"
     },
@@ -7746,7 +7806,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L71",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": ".stopprocessing()",
       "id": "services_claudeworker_claudeworker_stopprocessing"
     },
@@ -7756,7 +7816,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L79",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": "._processpendingjobs()",
       "id": "services_claudeworker_claudeworker_processpendingjobs"
     },
@@ -7766,7 +7826,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L102",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": ".executejob()",
       "id": "services_claudeworker_claudeworker_executejob"
     },
@@ -7776,7 +7836,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L356",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": "._recordjobchat()",
       "id": "services_claudeworker_claudeworker_recordjobchat"
     },
@@ -7786,7 +7846,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L369",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": "._saveresponse()",
       "id": "services_claudeworker_claudeworker_saveresponse"
     },
@@ -7796,7 +7856,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L383",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": "._resetworkerstate()",
       "id": "services_claudeworker_claudeworker_resetworkerstate"
     },
@@ -7806,7 +7866,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L392",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": ".getqueuesize()",
       "id": "services_claudeworker_claudeworker_getqueuesize"
     },
@@ -7816,7 +7876,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L396",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": ".ishealthy()",
       "id": "services_claudeworker_claudeworker_ishealthy"
     },
@@ -7826,7 +7886,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L400",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": ".getstatussnapshot()",
       "id": "services_claudeworker_claudeworker_getstatussnapshot"
     },
@@ -7836,7 +7896,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L404",
       "_origin": "ast",
-      "community": 118,
+      "community": 117,
       "norm_label": ".rewrite()",
       "id": "services_claudeworker_claudeworker_rewrite"
     },
@@ -8366,7 +8426,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 51,
+      "community": 7,
       "norm_label": "publishingservice.js",
       "id": "services_publishingservice"
     },
@@ -8376,7 +8436,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 51,
+      "community": 7,
       "norm_label": "{ project_statuses }",
       "id": "services_publishingservice_project_statuses"
     },
@@ -8386,7 +8446,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 51,
+      "community": 7,
       "norm_label": "wordpressclient",
       "id": "services_publishingservice_wordpressclient"
     },
@@ -8396,7 +8456,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 51,
+      "community": 7,
       "norm_label": "publishingservice",
       "id": "services_publishingservice_publishingservice"
     },
@@ -8406,7 +8466,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 51,
+      "community": 7,
       "norm_label": ".constructor()",
       "id": "services_publishingservice_publishingservice_constructor"
     },
@@ -8416,7 +8476,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 51,
+      "community": 7,
       "norm_label": ".publishtowordpress()",
       "id": "services_publishingservice_publishingservice_publishtowordpress"
     },
@@ -8426,7 +8486,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L82",
       "_origin": "ast",
-      "community": 51,
+      "community": 7,
       "norm_label": ".getpublishinghistory()",
       "id": "services_publishingservice_publishingservice_getpublishinghistory"
     },
@@ -10962,6 +11022,56 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "audit_report",
+      "target": "audit_report_phase_1_repository_audit_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "audit_report_phase_1_repository_audit_report",
+      "target": "audit_report_1_directory_structure_orphaned_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "audit_report_phase_1_repository_audit_report",
+      "target": "audit_report_2_architecture_structural_improvements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "audit_report_phase_1_repository_audit_report",
+      "target": "audit_report_3_dependency_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "audit_report_phase_1_repository_audit_report",
+      "target": "audit_report_4_security_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -10985,9 +11095,9 @@
       "source_file": "README.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_claude_worker_foundation",
-      "target": "readme_anti_bot_evasion_techniques",
-      "confidence_score": 1.0
+      "target": "readme_anti_bot_evasion_techniques"
     },
     {
       "relation": "contains",
@@ -11075,9 +11185,9 @@
       "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_anti_bot_evasion_techniques",
-      "target": "readme_1_cloudflare_turnstile_evasion_passive_cdp_monitoring",
-      "confidence_score": 1.0
+      "target": "readme_1_cloudflare_turnstile_evasion_passive_cdp_monitoring"
     },
     {
       "relation": "contains",
@@ -11085,9 +11195,9 @@
       "source_file": "README.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_anti_bot_evasion_techniques",
-      "target": "readme_2_stealth_plugin_initialization_fix",
-      "confidence_score": 1.0
+      "target": "readme_2_stealth_plugin_initialization_fix"
     },
     {
       "relation": "contains",
@@ -11095,9 +11205,9 @@
       "source_file": "README.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_anti_bot_evasion_techniques",
-      "target": "readme_3_chromium_launch_argument_hardening",
-      "confidence_score": 1.0
+      "target": "readme_3_chromium_launch_argument_hardening"
     },
     {
       "relation": "contains",
@@ -24684,5 +24794,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "1779dd3cc1363bb0ceb47757d6f2e9000d8ad1e7"
+  "built_at_commit": "ca782f6d049710e645f529e96e23af87560aae9b"
 }

@@ -66,9 +66,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "audit_report",
       "community": 51,
-      "norm_label": "audit_report.md"
+      "norm_label": "audit_report.md",
+      "id": "audit_report"
     },
     {
       "label": "Phase 1: Repository Audit Report",
@@ -76,9 +76,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "audit_report_phase_1_repository_audit_report",
       "community": 51,
-      "norm_label": "phase 1: repository audit report"
+      "norm_label": "phase 1: repository audit report",
+      "id": "audit_report_phase_1_repository_audit_report"
     },
     {
       "label": "1. Directory Structure & Orphaned Files",
@@ -86,9 +86,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "audit_report_1_directory_structure_orphaned_files",
       "community": 51,
-      "norm_label": "1. directory structure & orphaned files"
+      "norm_label": "1. directory structure & orphaned files",
+      "id": "audit_report_1_directory_structure_orphaned_files"
     },
     {
       "label": "2. Architecture & Structural Improvements",
@@ -96,9 +96,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "audit_report_2_architecture_structural_improvements",
       "community": 51,
-      "norm_label": "2. architecture & structural improvements"
+      "norm_label": "2. architecture & structural improvements",
+      "id": "audit_report_2_architecture_structural_improvements"
     },
     {
       "label": "3. Dependency Check",
@@ -106,9 +106,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "audit_report_3_dependency_check",
       "community": 51,
-      "norm_label": "3. dependency check"
+      "norm_label": "3. dependency check",
+      "id": "audit_report_3_dependency_check"
     },
     {
       "label": "4. Security & Configuration",
@@ -116,9 +116,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "audit_report_4_security_configuration",
       "community": 51,
-      "norm_label": "4. security & configuration"
+      "norm_label": "4. security & configuration",
+      "id": "audit_report_4_security_configuration"
     },
     {
       "label": "README.md",
@@ -5636,7 +5636,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 2,
+      "community": 12,
       "norm_label": "persistentworkerstate",
       "id": "models_workerstate_persistentworkerstate"
     },
@@ -5646,7 +5646,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 2,
+      "community": 12,
       "norm_label": ".constructor()",
       "id": "models_workerstate_persistentworkerstate_constructor"
     },
@@ -5656,7 +5656,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 2,
+      "community": 12,
       "norm_label": "._loadinitialstate()",
       "id": "models_workerstate_persistentworkerstate_loadinitialstate"
     },
@@ -5666,7 +5666,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 2,
+      "community": 12,
       "norm_label": ".setstate()",
       "id": "models_workerstate_persistentworkerstate_setstate"
     },
@@ -5676,7 +5676,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 2,
+      "community": 12,
       "norm_label": ".getstate()",
       "id": "models_workerstate_persistentworkerstate_getstate"
     },
@@ -5686,7 +5686,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 2,
+      "community": 12,
       "norm_label": ".incrementrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_incrementrecoveryattempts"
     },
@@ -5696,7 +5696,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 2,
+      "community": 12,
       "norm_label": ".resetrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_resetrecoveryattempts"
     },
@@ -5706,7 +5706,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 2,
+      "community": 12,
       "norm_label": ".getsnapshot()",
       "id": "models_workerstate_persistentworkerstate_getsnapshot"
     },
@@ -7766,7 +7766,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "claudeworker",
       "id": "services_claudeworker_claudeworker"
     },
@@ -7776,7 +7776,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".constructor()",
       "id": "services_claudeworker_claudeworker_constructor"
     },
@@ -7786,7 +7786,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".initialize()",
       "id": "services_claudeworker_claudeworker_initialize"
     },
@@ -7796,7 +7796,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".startprocessing()",
       "id": "services_claudeworker_claudeworker_startprocessing"
     },
@@ -7806,7 +7806,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L71",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".stopprocessing()",
       "id": "services_claudeworker_claudeworker_stopprocessing"
     },
@@ -7816,7 +7816,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L79",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "._processpendingjobs()",
       "id": "services_claudeworker_claudeworker_processpendingjobs"
     },
@@ -7826,7 +7826,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L102",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".executejob()",
       "id": "services_claudeworker_claudeworker_executejob"
     },
@@ -7836,7 +7836,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L356",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "._recordjobchat()",
       "id": "services_claudeworker_claudeworker_recordjobchat"
     },
@@ -7846,7 +7846,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L369",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "._saveresponse()",
       "id": "services_claudeworker_claudeworker_saveresponse"
     },
@@ -7856,7 +7856,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L383",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "._resetworkerstate()",
       "id": "services_claudeworker_claudeworker_resetworkerstate"
     },
@@ -7866,7 +7866,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L392",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".getqueuesize()",
       "id": "services_claudeworker_claudeworker_getqueuesize"
     },
@@ -7876,7 +7876,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L396",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".ishealthy()",
       "id": "services_claudeworker_claudeworker_ishealthy"
     },
@@ -7886,7 +7886,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L400",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".getstatussnapshot()",
       "id": "services_claudeworker_claudeworker_getstatussnapshot"
     },
@@ -7896,7 +7896,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L404",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": ".rewrite()",
       "id": "services_claudeworker_claudeworker_rewrite"
     },
@@ -8426,7 +8426,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": "publishingservice.js",
       "id": "services_publishingservice"
     },
@@ -8436,7 +8436,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": "{ project_statuses }",
       "id": "services_publishingservice_project_statuses"
     },
@@ -8446,7 +8446,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": "wordpressclient",
       "id": "services_publishingservice_wordpressclient"
     },
@@ -8456,7 +8456,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": "publishingservice",
       "id": "services_publishingservice_publishingservice"
     },
@@ -8466,7 +8466,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": ".constructor()",
       "id": "services_publishingservice_publishingservice_constructor"
     },
@@ -8476,7 +8476,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": ".publishtowordpress()",
       "id": "services_publishingservice_publishingservice_publishtowordpress"
     },
@@ -8486,7 +8486,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L82",
       "_origin": "ast",
-      "community": 7,
+      "community": 68,
       "norm_label": ".getpublishinghistory()",
       "id": "services_publishingservice_publishingservice_getpublishinghistory"
     },
@@ -9427,296 +9427,6 @@
       "id": "users_abhinaykalkhanday_desktop_n8n_stop_sh__entry"
     },
     {
-      "label": "test2.js",
-      "file_type": "code",
-      "source_file": "test2.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 96,
-      "norm_label": "test2.js",
-      "id": "test2"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test2.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 96,
-      "norm_label": "{ chromium }",
-      "id": "test2_chromium"
-    },
-    {
-      "label": "test3.js",
-      "file_type": "code",
-      "source_file": "test3.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 97,
-      "norm_label": "test3.js",
-      "id": "test3"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test3.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 97,
-      "norm_label": "{ chromium }",
-      "id": "test3_chromium"
-    },
-    {
-      "label": "test4.js",
-      "file_type": "code",
-      "source_file": "test4.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 98,
-      "norm_label": "test4.js",
-      "id": "test4"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test4.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 98,
-      "norm_label": "{ chromium }",
-      "id": "test4_chromium"
-    },
-    {
-      "label": "test5.js",
-      "file_type": "code",
-      "source_file": "test5.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 99,
-      "norm_label": "test5.js",
-      "id": "test5"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test5.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 99,
-      "norm_label": "{ chromium }",
-      "id": "test5_chromium"
-    },
-    {
-      "label": "test_claude.js",
-      "file_type": "code",
-      "source_file": "test_claude.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 90,
-      "norm_label": "test_claude.js",
-      "id": "test_claude"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test_claude.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 90,
-      "norm_label": "{ chromium }",
-      "id": "test_claude_chromium"
-    },
-    {
-      "label": "fs",
-      "file_type": "code",
-      "source_file": "test_claude.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 90,
-      "norm_label": "fs",
-      "id": "test_claude_fs"
-    },
-    {
-      "label": "test_close.js",
-      "file_type": "code",
-      "source_file": "test_close.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 100,
-      "norm_label": "test_close.js",
-      "id": "test_close"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test_close.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 100,
-      "norm_label": "{ chromium }",
-      "id": "test_close_chromium"
-    },
-    {
-      "label": "test_idle.js",
-      "file_type": "code",
-      "source_file": "test_idle.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 101,
-      "norm_label": "test_idle.js",
-      "id": "test_idle"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test_idle.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 101,
-      "norm_label": "{ chromium }",
-      "id": "test_idle_chromium"
-    },
-    {
-      "label": "test_nocdc.js",
-      "file_type": "code",
-      "source_file": "test_nocdc.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 102,
-      "norm_label": "test_nocdc.js",
-      "id": "test_nocdc"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test_nocdc.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 102,
-      "norm_label": "{ chromium }",
-      "id": "test_nocdc_chromium"
-    },
-    {
-      "label": "test_nocdc2.js",
-      "file_type": "code",
-      "source_file": "test_nocdc2.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 103,
-      "norm_label": "test_nocdc2.js",
-      "id": "test_nocdc2"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test_nocdc2.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 103,
-      "norm_label": "{ chromium }",
-      "id": "test_nocdc2_chromium"
-    },
-    {
-      "label": "test_stealth.js",
-      "file_type": "code",
-      "source_file": "test_stealth.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 80,
-      "norm_label": "test_stealth.js",
-      "id": "test_stealth"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test_stealth.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 80,
-      "norm_label": "{ chromium }",
-      "id": "test_stealth_chromium"
-    },
-    {
-      "label": "stealth",
-      "file_type": "code",
-      "source_file": "test_stealth.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 80,
-      "norm_label": "stealth",
-      "id": "test_stealth_stealth"
-    },
-    {
-      "label": "test_stealth_mouse.js",
-      "file_type": "code",
-      "source_file": "test_stealth_mouse.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 81,
-      "norm_label": "test_stealth_mouse.js",
-      "id": "test_stealth_mouse"
-    },
-    {
-      "label": "{ chromium }",
-      "file_type": "code",
-      "source_file": "test_stealth_mouse.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 81,
-      "norm_label": "{ chromium }",
-      "id": "test_stealth_mouse_chromium"
-    },
-    {
-      "label": "stealth",
-      "file_type": "code",
-      "source_file": "test_stealth_mouse.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 81,
-      "norm_label": "stealth",
-      "id": "test_stealth_mouse_stealth"
-    },
-    {
-      "label": "test_update.js",
-      "file_type": "code",
-      "source_file": "test_update.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "test_update.js",
-      "id": "test_update"
-    },
-    {
-      "label": "Encryption",
-      "file_type": "code",
-      "source_file": "test_update.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "encryption",
-      "id": "test_update_encryption"
-    },
-    {
-      "label": "enc",
-      "file_type": "code",
-      "source_file": "test_update.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "enc",
-      "id": "test_update_enc"
-    },
-    {
-      "label": "encrypted",
-      "file_type": "code",
-      "source_file": "test_update.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "encrypted",
-      "id": "test_update_encrypted"
-    },
-    {
       "label": "stabilization.test.js",
       "file_type": "code",
       "source_file": "tests/stabilization.test.js",
@@ -9855,196 +9565,6 @@
       "community": 4,
       "norm_label": "{ validationerror }",
       "id": "tests_validation_test_validationerror"
-    },
-    {
-      "label": "tmp_script.js",
-      "file_type": "code",
-      "source_file": "tmp_script.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 68,
-      "norm_label": "tmp_script.js",
-      "id": "tmp_script"
-    },
-    {
-      "label": "showInfo()",
-      "file_type": "code",
-      "source_file": "tmp_script.js",
-      "source_location": "L102",
-      "_origin": "ast",
-      "community": 68,
-      "norm_label": "showinfo()",
-      "id": "tmp_script_showinfo"
-    },
-    {
-      "label": "tmp_tree_script.js",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "tmp_tree_script.js",
-      "id": "tmp_tree_script"
-    },
-    {
-      "label": "transformData()",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "transformdata()",
-      "id": "tmp_tree_script_transformdata"
-    },
-    {
-      "label": "treeData",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L44",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "treedata",
-      "id": "tmp_tree_script_treedata"
-    },
-    {
-      "label": "PALETTE",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L49",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "palette",
-      "id": "tmp_tree_script_palette"
-    },
-    {
-      "label": "phaseColors",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L59",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "phasecolors",
-      "id": "tmp_tree_script_phasecolors"
-    },
-    {
-      "label": "levelSpecificPalettes",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L66",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "levelspecificpalettes",
-      "id": "tmp_tree_script_levelspecificpalettes"
-    },
-    {
-      "label": "svgElement",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L76",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "svgelement",
-      "id": "tmp_tree_script_svgelement"
-    },
-    {
-      "label": "margin",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L79",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "margin",
-      "id": "tmp_tree_script_margin"
-    },
-    {
-      "label": "g",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L84",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "g",
-      "id": "tmp_tree_script_g"
-    },
-    {
-      "label": "treemap",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L85",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "treemap",
-      "id": "tmp_tree_script_treemap"
-    },
-    {
-      "label": "rootNode",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L86",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "rootnode",
-      "id": "tmp_tree_script_rootnode"
-    },
-    {
-      "label": "collapseBranch()",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L97",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "collapsebranch()",
-      "id": "tmp_tree_script_collapsebranch"
-    },
-    {
-      "label": "expandBranch()",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L98",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "expandbranch()",
-      "id": "tmp_tree_script_expandbranch"
-    },
-    {
-      "label": "updateTree()",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L103",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "updatetree()",
-      "id": "tmp_tree_script_updatetree"
-    },
-    {
-      "label": "diagonal()",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L188",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "diagonal()",
-      "id": "tmp_tree_script_diagonal"
-    },
-    {
-      "label": "wrapText()",
-      "file_type": "code",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L190",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "wraptext()",
-      "id": "tmp_tree_script_wraptext"
-    },
-    {
-      "label": "trace_claude.py",
-      "file_type": "code",
-      "source_file": "trace_claude.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 93,
-      "norm_label": "trace_claude.py",
-      "id": "trace_claude"
     },
     {
       "label": "update.sh",
@@ -11025,9 +10545,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audit_report",
-      "target": "audit_report_phase_1_repository_audit_report",
-      "confidence_score": 1.0
+      "target": "audit_report_phase_1_repository_audit_report"
     },
     {
       "relation": "contains",
@@ -11035,9 +10555,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audit_report_phase_1_repository_audit_report",
-      "target": "audit_report_1_directory_structure_orphaned_files",
-      "confidence_score": 1.0
+      "target": "audit_report_1_directory_structure_orphaned_files"
     },
     {
       "relation": "contains",
@@ -11045,9 +10565,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audit_report_phase_1_repository_audit_report",
-      "target": "audit_report_2_architecture_structural_improvements",
-      "confidence_score": 1.0
+      "target": "audit_report_2_architecture_structural_improvements"
     },
     {
       "relation": "contains",
@@ -11055,9 +10575,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audit_report_phase_1_repository_audit_report",
-      "target": "audit_report_3_dependency_check",
-      "confidence_score": 1.0
+      "target": "audit_report_3_dependency_check"
     },
     {
       "relation": "contains",
@@ -11065,9 +10585,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "audit_report_phase_1_repository_audit_report",
-      "target": "audit_report_4_security_configuration",
-      "confidence_score": 1.0
+      "target": "audit_report_4_security_configuration"
     },
     {
       "relation": "contains",
@@ -23326,17 +22846,6 @@
       "target": "utils_rewritepromptbuilder_rewritepromptbuilder_build"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "test_update.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_update",
-      "target": "utils_encryption"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/utils/encryption.js",
@@ -23470,176 +22979,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "test2.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test2",
-      "target": "test2_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test3.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test3",
-      "target": "test3_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test4.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test4",
-      "target": "test4_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test5.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test5",
-      "target": "test5_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_claude.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_claude",
-      "target": "test_claude_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_claude.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_claude",
-      "target": "test_claude_fs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_close.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_close",
-      "target": "test_close_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_idle.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_idle",
-      "target": "test_idle_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_nocdc.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_nocdc",
-      "target": "test_nocdc_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_nocdc2.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_nocdc2",
-      "target": "test_nocdc2_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_stealth.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_stealth",
-      "target": "test_stealth_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_stealth.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_stealth",
-      "target": "test_stealth_stealth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_stealth_mouse.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_stealth_mouse",
-      "target": "test_stealth_mouse_chromium"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_stealth_mouse.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_stealth_mouse",
-      "target": "test_stealth_mouse_stealth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_update.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_update",
-      "target": "test_update_enc"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_update.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_update",
-      "target": "test_update_encrypted"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "test_update.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "test_update",
-      "target": "test_update_encryption"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "tests/stabilization.test.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -23756,177 +23095,6 @@
       "confidence_score": 1.0,
       "source": "tests_validation_test",
       "target": "tests_validation_test_validationerror"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_script.js",
-      "source_location": "L102",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_script",
-      "target": "tmp_script_showinfo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L97",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_collapsebranch"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L188",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_diagonal"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L98",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_expandbranch"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L84",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_g"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_levelspecificpalettes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L79",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_margin"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_palette"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L59",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_phasecolors"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L86",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_rootnode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L76",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_svgelement"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_transformdata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_treedata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L85",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_treemap"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L103",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_updatetree"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L190",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script",
-      "target": "tmp_tree_script_wraptext"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tmp_tree_script.js",
-      "source_location": "L104",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tmp_tree_script_updatetree",
-      "target": "tmp_tree_script_treemap"
     },
     {
       "relation": "contains",
@@ -24794,5 +23962,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "ca782f6d049710e645f529e96e23af87560aae9b"
+  "built_at_commit": "2fa9c9f380f3d50dbb7faebf8ae9156f2b89f8a2"
 }
