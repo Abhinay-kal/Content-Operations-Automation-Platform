@@ -61,124 +61,154 @@
   },
   "nodes": [
     {
-      "label": "setup_p6.js",
+      "label": "setup_p7.js",
       "file_type": "code",
-      "source_file": "setup_p6.js",
+      "source_file": "setup_p7.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_p6",
-      "community": 68,
-      "norm_label": "setup_p6.js"
+      "id": "setup_p7",
+      "community": 80,
+      "norm_label": "setup_p7.js"
     },
     {
       "label": "fs",
       "file_type": "code",
-      "source_file": "setup_p6.js",
+      "source_file": "setup_p7.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_p6_fs",
-      "community": 68,
+      "id": "setup_p7_fs",
+      "community": 80,
       "norm_label": "fs"
     },
     {
       "label": "path",
       "file_type": "code",
-      "source_file": "setup_p6.js",
+      "source_file": "setup_p7.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "setup_p6_path",
-      "community": 68,
+      "id": "setup_p7_path",
+      "community": 80,
       "norm_label": "path"
     },
     {
       "label": "mkdirp()",
       "file_type": "code",
-      "source_file": "setup_p6.js",
-      "source_location": "L6",
+      "source_file": "setup_p7.js",
+      "source_location": "L7",
       "_origin": "ast",
-      "id": "setup_p6_mkdirp",
-      "community": 68,
+      "id": "setup_p7_mkdirp",
+      "community": 80,
       "norm_label": "mkdirp()"
     },
     {
       "label": "schemaPath",
       "file_type": "code",
-      "source_file": "setup_p6.js",
-      "source_location": "L195",
+      "source_file": "setup_p7.js",
+      "source_location": "L16",
       "_origin": "ast",
-      "id": "setup_p6_schemapath",
-      "community": 68,
+      "id": "setup_p7_schemapath",
+      "community": 80,
       "norm_label": "schemapath"
     },
     {
       "label": "schemaContent",
       "file_type": "code",
-      "source_file": "setup_p6.js",
-      "source_location": "L196",
+      "source_file": "setup_p7.js",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "setup_p6_schemacontent",
-      "community": 68,
+      "id": "setup_p7_schemacontent",
+      "community": 80,
       "norm_label": "schemacontent"
+    },
+    {
+      "label": "pluginRoutesPath",
+      "file_type": "code",
+      "source_file": "setup_p7.js",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "setup_p7_pluginroutespath",
+      "community": 80,
+      "norm_label": "pluginroutespath"
+    },
+    {
+      "label": "pluginRoutesContent",
+      "file_type": "code",
+      "source_file": "setup_p7.js",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "setup_p7_pluginroutescontent",
+      "community": 80,
+      "norm_label": "pluginroutescontent"
+    },
+    {
+      "label": "serverPath",
+      "file_type": "code",
+      "source_file": "setup_p7.js",
+      "source_location": "L193",
+      "_origin": "ast",
+      "id": "setup_p7_serverpath",
+      "community": 80,
+      "norm_label": "serverpath"
+    },
+    {
+      "label": "serverContent",
+      "file_type": "code",
+      "source_file": "setup_p7.js",
+      "source_location": "L194",
+      "_origin": "ast",
+      "id": "setup_p7_servercontent",
+      "community": 80,
+      "norm_label": "servercontent"
     },
     {
       "label": "bootstrapPath",
       "file_type": "code",
-      "source_file": "setup_p6.js",
-      "source_location": "L203",
+      "source_file": "setup_p7.js",
+      "source_location": "L204",
       "_origin": "ast",
-      "id": "setup_p6_bootstrappath",
-      "community": 68,
+      "id": "setup_p7_bootstrappath",
+      "community": 80,
       "norm_label": "bootstrappath"
     },
     {
-      "label": "bootstrap",
+      "label": "bootstrapContent",
       "file_type": "code",
-      "source_file": "setup_p6.js",
-      "source_location": "L204",
+      "source_file": "setup_p7.js",
+      "source_location": "L205",
       "_origin": "ast",
-      "id": "setup_p6_bootstrap",
-      "community": 68,
-      "norm_label": "bootstrap"
+      "id": "setup_p7_bootstrapcontent",
+      "community": 80,
+      "norm_label": "bootstrapcontent"
     },
     {
-      "label": "postEventHandlerPath",
+      "label": "pluginRoutes.js",
       "file_type": "code",
-      "source_file": "setup_p6.js",
-      "source_location": "L249",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_p6_posteventhandlerpath",
-      "community": 68,
-      "norm_label": "posteventhandlerpath"
+      "id": "api_pluginroutes",
+      "community": 100,
+      "norm_label": "pluginroutes.js"
     },
     {
-      "label": "postEventHandler",
+      "label": "express",
       "file_type": "code",
-      "source_file": "setup_p6.js",
-      "source_location": "L250",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_p6_posteventhandler",
-      "community": 68,
-      "norm_label": "posteventhandler"
+      "id": "api_pluginroutes_express",
+      "community": 100,
+      "norm_label": "express"
     },
     {
-      "label": "consumerPath",
+      "label": "createPluginRoutes()",
       "file_type": "code",
-      "source_file": "setup_p6.js",
-      "source_location": "L282",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L3",
       "_origin": "ast",
-      "id": "setup_p6_consumerpath",
-      "community": 68,
-      "norm_label": "consumerpath"
-    },
-    {
-      "label": "consumer",
-      "file_type": "code",
-      "source_file": "setup_p6.js",
-      "source_location": "L283",
-      "_origin": "ast",
-      "id": "setup_p6_consumer",
-      "community": 68,
-      "norm_label": "consumer"
+      "id": "api_pluginroutes_createpluginroutes",
+      "community": 100,
+      "norm_label": "createpluginroutes()"
     },
     {
       "label": "BootstrapManager.js",
@@ -341,10 +371,20 @@
       "norm_label": "{ pluginservice }"
     },
     {
+      "label": "{ WordPressOperationService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_wordpressoperationservice",
+      "community": 5,
+      "norm_label": "{ wordpressoperationservice }"
+    },
+    {
       "label": "{ WorkflowPolicyEngine }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_workflowpolicyengine",
       "community": 5,
@@ -354,7 +394,7 @@
       "label": "{ WorkflowScheduler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_workflowscheduler",
       "community": 5,
@@ -364,7 +404,7 @@
       "label": "{ WorkflowOrchestrator }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_workfloworchestrator",
       "community": 5,
@@ -374,7 +414,7 @@
       "label": "{ EventConsumerService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_eventconsumerservice",
       "community": 5,
@@ -384,7 +424,7 @@
       "label": "{ PostEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_posteventhandler",
       "community": 5,
@@ -394,7 +434,7 @@
       "label": "{ TaxonomyEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L22",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_taxonomyeventhandler",
       "community": 5,
@@ -404,7 +444,7 @@
       "label": "{ AuthorEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L23",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_authoreventhandler",
       "community": 5,
@@ -414,7 +454,7 @@
       "label": "{ MediaEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_mediaeventhandler",
       "community": 5,
@@ -424,7 +464,7 @@
       "label": "{ SiteEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L25",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_siteeventhandler",
       "community": 5,
@@ -434,7 +474,7 @@
       "label": "JobService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L27",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_jobservice",
       "community": 5,
@@ -444,7 +484,7 @@
       "label": "{ SiteService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L28",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_siteservice",
       "community": 5,
@@ -454,7 +494,7 @@
       "label": "{ ProjectService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L29",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_projectservice",
       "community": 5,
@@ -464,7 +504,7 @@
       "label": "SyncService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L30",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_syncservice",
       "community": 5,
@@ -474,7 +514,7 @@
       "label": "PublishingService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L31",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_publishingservice",
       "community": 5,
@@ -484,7 +524,7 @@
       "label": "{ StateMachine }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L34",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_statemachine",
       "community": 5,
@@ -494,7 +534,7 @@
       "label": "{ BrowserManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L35",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_browsermanager",
       "community": 5,
@@ -504,7 +544,7 @@
       "label": "{ ClaudeManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L36",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudemanager",
       "community": 5,
@@ -514,7 +554,7 @@
       "label": "{ MetricsService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L37",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_metricsservice",
       "community": 5,
@@ -524,7 +564,7 @@
       "label": "{ QueueService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L38",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_queueservice",
       "community": 5,
@@ -534,7 +574,7 @@
       "label": "{ ClaudeWorker }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L39",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudeworker",
       "community": 5,
@@ -544,7 +584,7 @@
       "label": "{ SessionMonitor }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L40",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessionmonitor",
       "community": 5,
@@ -554,7 +594,7 @@
       "label": "{ RecoveryManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L41",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_recoverymanager",
       "community": 5,
@@ -564,7 +604,7 @@
       "label": "{ SessionDetector }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L42",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessiondetector",
       "community": 5,
@@ -574,7 +614,7 @@
       "label": "{ SessionRecovery }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L43",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessionrecovery",
       "community": 5,
@@ -584,7 +624,7 @@
       "label": "{ ClaudeHealthCheck }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L44",
+      "source_location": "L45",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudehealthcheck",
       "community": 5,
@@ -594,7 +634,7 @@
       "label": "{ BrowserRecovery }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L45",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_browserrecovery",
       "community": 5,
@@ -604,7 +644,7 @@
       "label": "{ DashboardService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L46",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_dashboardservice",
       "community": 5,
@@ -614,7 +654,7 @@
       "label": "BootstrapManager",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L48",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager",
       "community": 2,
@@ -624,7 +664,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L49",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor",
       "community": 2,
@@ -634,7 +674,7 @@
       "label": ".run()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L68",
+      "source_location": "L69",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_run",
       "community": 2,
@@ -644,7 +684,7 @@
       "label": "._runPhase1()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L95",
+      "source_location": "L96",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
       "community": 2,
@@ -654,7 +694,7 @@
       "label": "._runPhase2()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L127",
+      "source_location": "L128",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2",
       "community": 2,
@@ -664,7 +704,7 @@
       "label": "._runPhase3()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L267",
+      "source_location": "L270",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3",
       "community": 2,
@@ -674,7 +714,7 @@
       "label": "._runPhase3_5()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L366",
+      "source_location": "L369",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5",
       "community": 2,
@@ -684,7 +724,7 @@
       "label": "._runPhase4()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L461",
+      "source_location": "L464",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
       "community": 2,
@@ -694,7 +734,7 @@
       "label": "._verifyReadiness()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L481",
+      "source_location": "L484",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness",
       "community": 2,
@@ -704,7 +744,7 @@
       "label": "._printHeader()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L525",
+      "source_location": "L528",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader",
       "community": 2,
@@ -714,11 +754,401 @@
       "label": "._reportFailures()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L532",
+      "source_location": "L535",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures",
       "community": 2,
       "norm_label": "._reportfailures()"
+    },
+    {
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_server",
+      "community": 0,
+      "norm_label": "server.js"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_server_express",
+      "community": 0,
+      "norm_label": "express"
+    },
+    {
+      "label": "{ createStatusRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "src_server_createstatusroutes",
+      "community": 0,
+      "norm_label": "{ createstatusroutes }"
+    },
+    {
+      "label": "{ createSiteRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "src_server_createsiteroutes",
+      "community": 0,
+      "norm_label": "{ createsiteroutes }"
+    },
+    {
+      "label": "{ createProjectRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "src_server_createprojectroutes",
+      "community": 0,
+      "norm_label": "{ createprojectroutes }"
+    },
+    {
+      "label": "{ createJobRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_server_createjobroutes",
+      "community": 0,
+      "norm_label": "{ createjobroutes }"
+    },
+    {
+      "label": "{ createAuditRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_server_createauditroutes",
+      "community": 0,
+      "norm_label": "{ createauditroutes }"
+    },
+    {
+      "label": "{ createRewriteRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_server_createrewriteroutes",
+      "community": 0,
+      "norm_label": "{ createrewriteroutes }"
+    },
+    {
+      "label": "{ createPublishingRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "src_server_createpublishingroutes",
+      "community": 0,
+      "norm_label": "{ createpublishingroutes }"
+    },
+    {
+      "label": "{ createWordPressRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_server_createwordpressroutes",
+      "community": 0,
+      "norm_label": "{ createwordpressroutes }"
+    },
+    {
+      "label": "createQueueRouter",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_server_createqueuerouter",
+      "community": 0,
+      "norm_label": "createqueuerouter"
+    },
+    {
+      "label": "{ loadSecurityConfig }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_server_loadsecurityconfig",
+      "community": 0,
+      "norm_label": "{ loadsecurityconfig }"
+    },
+    {
+      "label": "{ createAuthMiddleware }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_server_createauthmiddleware",
+      "community": 0,
+      "norm_label": "{ createauthmiddleware }"
+    },
+    {
+      "label": "{ createRateLimiter }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_server_createratelimiter",
+      "community": 0,
+      "norm_label": "{ createratelimiter }"
+    },
+    {
+      "label": "{ validateRewriteRequest }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_server_validaterewriterequest",
+      "community": 0,
+      "norm_label": "{ validaterewriterequest }"
+    },
+    {
+      "label": "{ secureHeaders }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_server_secureheaders",
+      "community": 0,
+      "norm_label": "{ secureheaders }"
+    },
+    {
+      "label": "createApp()",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_server_createapp",
+      "community": 0,
+      "norm_label": "createapp()"
+    },
+    {
+      "label": "WordPressOperationService.js",
+      "file_type": "code",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_wordpressoperationservice",
+      "community": 121,
+      "norm_label": "wordpressoperationservice.js"
+    },
+    {
+      "label": "crypto",
+      "file_type": "code",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_wordpressoperationservice_crypto",
+      "community": 121,
+      "norm_label": "crypto"
+    },
+    {
+      "label": "WordPressOperationService",
+      "file_type": "code",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "services_wordpressoperationservice_wordpressoperationservice",
+      "community": 121,
+      "norm_label": "wordpressoperationservice"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_constructor",
+      "community": 121,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".createOperation()",
+      "file_type": "code",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_createoperation",
+      "community": 121,
+      "norm_label": ".createoperation()"
+    },
+    {
+      "label": ".getPendingOperations()",
+      "file_type": "code",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_getpendingoperations",
+      "community": 121,
+      "norm_label": ".getpendingoperations()"
+    },
+    {
+      "label": ".markDelivered()",
+      "file_type": "code",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_markdelivered",
+      "community": 121,
+      "norm_label": ".markdelivered()"
+    },
+    {
+      "label": ".acknowledge()",
+      "file_type": "code",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_acknowledge",
+      "community": 121,
+      "norm_label": ".acknowledge()"
+    },
+    {
+      "label": "CreateDraftOperation.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "operations_createdraftoperation",
+      "community": 130,
+      "norm_label": "createdraftoperation.php"
+    },
+    {
+      "label": "CreateDraftOperation",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "operations_createdraftoperation_createdraftoperation",
+      "community": 130,
+      "norm_label": "createdraftoperation"
+    },
+    {
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "operations_createdraftoperation_createdraftoperation_execute",
+      "community": 130,
+      "norm_label": ".execute()"
+    },
+    {
+      "label": "FetchPostOperation.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "operations_fetchpostoperation",
+      "community": 131,
+      "norm_label": "fetchpostoperation.php"
+    },
+    {
+      "label": "FetchPostOperation",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "operations_fetchpostoperation_fetchpostoperation",
+      "community": 131,
+      "norm_label": "fetchpostoperation"
+    },
+    {
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "operations_fetchpostoperation_fetchpostoperation_execute",
+      "community": 131,
+      "norm_label": ".execute()"
+    },
+    {
+      "label": "PingOperation.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "operations_pingoperation",
+      "community": 132,
+      "norm_label": "pingoperation.php"
+    },
+    {
+      "label": "PingOperation",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "operations_pingoperation_pingoperation",
+      "community": 132,
+      "norm_label": "pingoperation"
+    },
+    {
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "operations_pingoperation_pingoperation_execute",
+      "community": 132,
+      "norm_label": ".execute()"
+    },
+    {
+      "label": "OperationExecutor.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_operationexecutor",
+      "community": 123,
+      "norm_label": "operationexecutor.php"
+    },
+    {
+      "label": "OperationExecutor",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "services_operationexecutor_operationexecutor",
+      "community": 123,
+      "norm_label": "operationexecutor"
+    },
+    {
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "services_operationexecutor_operationexecutor_construct",
+      "community": 123,
+      "norm_label": ".__construct()"
+    },
+    {
+      "label": ".processOperations()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "services_operationexecutor_operationexecutor_processoperations",
+      "community": 123,
+      "norm_label": ".processoperations()"
+    },
+    {
+      "label": ".sendAcknowledgements()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "services_operationexecutor_operationexecutor_sendacknowledgements",
+      "community": 123,
+      "norm_label": ".sendacknowledgements()"
     },
     {
       "label": "EventConsumerService.js",
@@ -726,9 +1156,9 @@
       "source_file": "src/services/EventConsumerService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_eventconsumerservice",
       "community": 122,
-      "norm_label": "eventconsumerservice.js"
+      "norm_label": "eventconsumerservice.js",
+      "id": "services_eventconsumerservice"
     },
     {
       "label": "EventConsumerService",
@@ -736,9 +1166,9 @@
       "source_file": "src/services/EventConsumerService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_eventconsumerservice_eventconsumerservice",
       "community": 122,
-      "norm_label": "eventconsumerservice"
+      "norm_label": "eventconsumerservice",
+      "id": "services_eventconsumerservice_eventconsumerservice"
     },
     {
       "label": ".constructor()",
@@ -746,9 +1176,9 @@
       "source_file": "src/services/EventConsumerService.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "services_eventconsumerservice_eventconsumerservice_constructor",
       "community": 122,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "services_eventconsumerservice_eventconsumerservice_constructor"
     },
     {
       "label": ".processPendingEvents()",
@@ -756,9 +1186,9 @@
       "source_file": "src/services/EventConsumerService.js",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "services_eventconsumerservice_eventconsumerservice_processpendingevents",
       "community": 122,
-      "norm_label": ".processpendingevents()"
+      "norm_label": ".processpendingevents()",
+      "id": "services_eventconsumerservice_eventconsumerservice_processpendingevents"
     },
     {
       "label": ".processEvent()",
@@ -766,9 +1196,9 @@
       "source_file": "src/services/EventConsumerService.js",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "services_eventconsumerservice_eventconsumerservice_processevent",
       "community": 122,
-      "norm_label": ".processevent()"
+      "norm_label": ".processevent()",
+      "id": "services_eventconsumerservice_eventconsumerservice_processevent"
     },
     {
       "label": ".replayEvent()",
@@ -776,9 +1206,9 @@
       "source_file": "src/services/EventConsumerService.js",
       "source_location": "L46",
       "_origin": "ast",
-      "id": "services_eventconsumerservice_eventconsumerservice_replayevent",
       "community": 122,
-      "norm_label": ".replayevent()"
+      "norm_label": ".replayevent()",
+      "id": "services_eventconsumerservice_eventconsumerservice_replayevent"
     },
     {
       "label": "PostEventHandler.js",
@@ -786,9 +1216,9 @@
       "source_file": "src/services/eventHandlers/PostEventHandler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "eventhandlers_posteventhandler",
       "community": 127,
-      "norm_label": "posteventhandler.js"
+      "norm_label": "posteventhandler.js",
+      "id": "eventhandlers_posteventhandler"
     },
     {
       "label": "PostEventHandler",
@@ -796,9 +1226,9 @@
       "source_file": "src/services/eventHandlers/PostEventHandler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "eventhandlers_posteventhandler_posteventhandler",
       "community": 127,
-      "norm_label": "posteventhandler"
+      "norm_label": "posteventhandler",
+      "id": "eventhandlers_posteventhandler_posteventhandler"
     },
     {
       "label": ".constructor()",
@@ -806,9 +1236,9 @@
       "source_file": "src/services/eventHandlers/PostEventHandler.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "eventhandlers_posteventhandler_posteventhandler_constructor",
       "community": 127,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "eventhandlers_posteventhandler_posteventhandler_constructor"
     },
     {
       "label": ".handle()",
@@ -816,9 +1246,9 @@
       "source_file": "src/services/eventHandlers/PostEventHandler.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "eventhandlers_posteventhandler_posteventhandler_handle",
       "community": 127,
-      "norm_label": ".handle()"
+      "norm_label": ".handle()",
+      "id": "eventhandlers_posteventhandler_posteventhandler_handle"
     },
     {
       "label": "WorkflowOrchestrator.js",
@@ -826,9 +1256,9 @@
       "source_file": "src/services/workflow/WorkflowOrchestrator.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workflow_workfloworchestrator",
       "community": 101,
-      "norm_label": "workfloworchestrator.js"
+      "norm_label": "workfloworchestrator.js",
+      "id": "workflow_workfloworchestrator"
     },
     {
       "label": "WorkflowOrchestrator",
@@ -836,9 +1266,9 @@
       "source_file": "src/services/workflow/WorkflowOrchestrator.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workflow_workfloworchestrator_workfloworchestrator",
       "community": 101,
-      "norm_label": "workfloworchestrator"
+      "norm_label": "workfloworchestrator",
+      "id": "workflow_workfloworchestrator_workfloworchestrator"
     },
     {
       "label": ".constructor()",
@@ -846,9 +1276,9 @@
       "source_file": "src/services/workflow/WorkflowOrchestrator.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "workflow_workfloworchestrator_workfloworchestrator_constructor",
       "community": 101,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_constructor"
     },
     {
       "label": ".evaluateProject()",
@@ -856,9 +1286,9 @@
       "source_file": "src/services/workflow/WorkflowOrchestrator.js",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
       "community": 101,
-      "norm_label": ".evaluateproject()"
+      "norm_label": ".evaluateproject()",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject"
     },
     {
       "label": ".updateWorkflowState()",
@@ -866,9 +1296,9 @@
       "source_file": "src/services/workflow/WorkflowOrchestrator.js",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate",
       "community": 101,
-      "norm_label": ".updateworkflowstate()"
+      "norm_label": ".updateworkflowstate()",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate"
     },
     {
       "label": ".logEvent()",
@@ -876,9 +1306,9 @@
       "source_file": "src/services/workflow/WorkflowOrchestrator.js",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "workflow_workfloworchestrator_workfloworchestrator_logevent",
       "community": 101,
-      "norm_label": ".logevent()"
+      "norm_label": ".logevent()",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_logevent"
     },
     {
       "label": ".reconcile()",
@@ -886,9 +1316,9 @@
       "source_file": "src/services/workflow/WorkflowOrchestrator.js",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "workflow_workfloworchestrator_workfloworchestrator_reconcile",
       "community": 101,
-      "norm_label": ".reconcile()"
+      "norm_label": ".reconcile()",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_reconcile"
     },
     {
       "label": "WorkflowPolicyEngine.js",
@@ -896,9 +1326,9 @@
       "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workflow_workflowpolicyengine",
       "community": 117,
-      "norm_label": "workflowpolicyengine.js"
+      "norm_label": "workflowpolicyengine.js",
+      "id": "workflow_workflowpolicyengine"
     },
     {
       "label": "WorkflowPolicyEngine",
@@ -906,9 +1336,9 @@
       "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workflow_workflowpolicyengine_workflowpolicyengine",
       "community": 117,
-      "norm_label": "workflowpolicyengine"
+      "norm_label": "workflowpolicyengine",
+      "id": "workflow_workflowpolicyengine_workflowpolicyengine"
     },
     {
       "label": ".constructor()",
@@ -916,9 +1346,9 @@
       "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "workflow_workflowpolicyengine_workflowpolicyengine_constructor",
       "community": 117,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "workflow_workflowpolicyengine_workflowpolicyengine_constructor"
     },
     {
       "label": ".getSiteSettings()",
@@ -926,9 +1356,9 @@
       "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "workflow_workflowpolicyengine_workflowpolicyengine_getsitesettings",
       "community": 117,
-      "norm_label": ".getsitesettings()"
+      "norm_label": ".getsitesettings()",
+      "id": "workflow_workflowpolicyengine_workflowpolicyengine_getsitesettings"
     },
     {
       "label": ".evaluate()",
@@ -936,9 +1366,9 @@
       "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "workflow_workflowpolicyengine_workflowpolicyengine_evaluate",
       "community": 117,
-      "norm_label": ".evaluate()"
+      "norm_label": ".evaluate()",
+      "id": "workflow_workflowpolicyengine_workflowpolicyengine_evaluate"
     },
     {
       "label": "WorkflowRules.js",
@@ -946,9 +1376,9 @@
       "source_file": "src/services/workflow/WorkflowRules.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workflow_workflowrules",
       "community": 120,
-      "norm_label": "workflowrules.js"
+      "norm_label": "workflowrules.js",
+      "id": "workflow_workflowrules"
     },
     {
       "label": "WorkflowRules",
@@ -956,9 +1386,9 @@
       "source_file": "src/services/workflow/WorkflowRules.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workflow_workflowrules_workflowrules",
       "community": 120,
-      "norm_label": "workflowrules"
+      "norm_label": "workflowrules",
+      "id": "workflow_workflowrules_workflowrules"
     },
     {
       "label": "WorkflowScheduler.js",
@@ -966,9 +1396,9 @@
       "source_file": "src/services/workflow/WorkflowScheduler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workflow_workflowscheduler",
       "community": 119,
-      "norm_label": "workflowscheduler.js"
+      "norm_label": "workflowscheduler.js",
+      "id": "workflow_workflowscheduler"
     },
     {
       "label": "WorkflowScheduler",
@@ -976,9 +1406,9 @@
       "source_file": "src/services/workflow/WorkflowScheduler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workflow_workflowscheduler_workflowscheduler",
       "community": 119,
-      "norm_label": "workflowscheduler"
+      "norm_label": "workflowscheduler",
+      "id": "workflow_workflowscheduler_workflowscheduler"
     },
     {
       "label": ".constructor()",
@@ -986,9 +1416,9 @@
       "source_file": "src/services/workflow/WorkflowScheduler.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "workflow_workflowscheduler_workflowscheduler_constructor",
       "community": 119,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "workflow_workflowscheduler_workflowscheduler_constructor"
     },
     {
       "label": ".scheduleJob()",
@@ -996,9 +1426,9 @@
       "source_file": "src/services/workflow/WorkflowScheduler.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "workflow_workflowscheduler_workflowscheduler_schedulejob",
       "community": 119,
-      "norm_label": ".schedulejob()"
+      "norm_label": ".schedulejob()",
+      "id": "workflow_workflowscheduler_workflowscheduler_schedulejob"
     },
     {
       "label": "PluginRepository.js",
@@ -1459,36 +1889,6 @@
       "community": 129,
       "norm_label": ".handle()",
       "id": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_handle"
-    },
-    {
-      "label": "pluginRoutes.js",
-      "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 100,
-      "norm_label": "pluginroutes.js",
-      "id": "api_pluginroutes"
-    },
-    {
-      "label": "express",
-      "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 100,
-      "norm_label": "express",
-      "id": "api_pluginroutes_express"
-    },
-    {
-      "label": "createPluginRoutes()",
-      "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 100,
-      "norm_label": "createpluginroutes()",
-      "id": "api_pluginroutes_createpluginroutes"
     },
     {
       "label": "AuthorChangedEvent.php",
@@ -2049,176 +2449,6 @@
       "community": 97,
       "norm_label": ".onsitechanged()",
       "id": "services_eventlistenerservice_eventlistenerservice_onsitechanged"
-    },
-    {
-      "label": "server.js",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "server.js",
-      "id": "src_server"
-    },
-    {
-      "label": "express",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "express",
-      "id": "src_server_express"
-    },
-    {
-      "label": "{ createStatusRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createstatusroutes }",
-      "id": "src_server_createstatusroutes"
-    },
-    {
-      "label": "{ createSiteRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createsiteroutes }",
-      "id": "src_server_createsiteroutes"
-    },
-    {
-      "label": "{ createProjectRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createprojectroutes }",
-      "id": "src_server_createprojectroutes"
-    },
-    {
-      "label": "{ createJobRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createjobroutes }",
-      "id": "src_server_createjobroutes"
-    },
-    {
-      "label": "{ createAuditRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createauditroutes }",
-      "id": "src_server_createauditroutes"
-    },
-    {
-      "label": "{ createRewriteRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createrewriteroutes }",
-      "id": "src_server_createrewriteroutes"
-    },
-    {
-      "label": "{ createPublishingRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createpublishingroutes }",
-      "id": "src_server_createpublishingroutes"
-    },
-    {
-      "label": "{ createWordPressRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createwordpressroutes }",
-      "id": "src_server_createwordpressroutes"
-    },
-    {
-      "label": "createQueueRouter",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "createqueuerouter",
-      "id": "src_server_createqueuerouter"
-    },
-    {
-      "label": "{ loadSecurityConfig }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ loadsecurityconfig }",
-      "id": "src_server_loadsecurityconfig"
-    },
-    {
-      "label": "{ createAuthMiddleware }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createauthmiddleware }",
-      "id": "src_server_createauthmiddleware"
-    },
-    {
-      "label": "{ createRateLimiter }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ createratelimiter }",
-      "id": "src_server_createratelimiter"
-    },
-    {
-      "label": "{ validateRewriteRequest }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ validaterewriterequest }",
-      "id": "src_server_validaterewriterequest"
-    },
-    {
-      "label": "{ secureHeaders }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "{ secureheaders }",
-      "id": "src_server_secureheaders"
-    },
-    {
-      "label": "createApp()",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L22",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "createapp()",
-      "id": "src_server_createapp"
     },
     {
       "label": "CompatibilityService.js",
@@ -2856,7 +3086,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": "claudeworker",
       "id": "workers_claudeworker_claudeworker"
     },
@@ -2866,7 +3096,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": ".constructor()",
       "id": "workers_claudeworker_claudeworker_constructor"
     },
@@ -2876,7 +3106,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": ".initialize()",
       "id": "workers_claudeworker_claudeworker_initialize"
     },
@@ -2886,7 +3116,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": ".startprocessing()",
       "id": "workers_claudeworker_claudeworker_startprocessing"
     },
@@ -2896,7 +3126,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L71",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": ".stopprocessing()",
       "id": "workers_claudeworker_claudeworker_stopprocessing"
     },
@@ -2906,7 +3136,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L79",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": "._processpendingjobs()",
       "id": "workers_claudeworker_claudeworker_processpendingjobs"
     },
@@ -2916,7 +3146,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L102",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": ".executejob()",
       "id": "workers_claudeworker_claudeworker_executejob"
     },
@@ -2926,7 +3156,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L356",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": "._recordjobchat()",
       "id": "workers_claudeworker_claudeworker_recordjobchat"
     },
@@ -2936,7 +3166,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L369",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": "._saveresponse()",
       "id": "workers_claudeworker_claudeworker_saveresponse"
     },
@@ -2946,7 +3176,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L383",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": "._resetworkerstate()",
       "id": "workers_claudeworker_claudeworker_resetworkerstate"
     },
@@ -2956,7 +3186,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L392",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": ".getqueuesize()",
       "id": "workers_claudeworker_claudeworker_getqueuesize"
     },
@@ -2966,7 +3196,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L396",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": ".ishealthy()",
       "id": "workers_claudeworker_claudeworker_ishealthy"
     },
@@ -2976,7 +3206,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L400",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": ".getstatussnapshot()",
       "id": "workers_claudeworker_claudeworker_getstatussnapshot"
     },
@@ -2986,7 +3216,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L404",
       "_origin": "ast",
-      "community": 81,
+      "community": 68,
       "norm_label": ".rewrite()",
       "id": "workers_claudeworker_claudeworker_rewrite"
     },
@@ -7806,7 +8036,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 81,
+      "community": 4,
       "norm_label": "invalidprojectcontenterror",
       "id": "errors_claudeerrors_invalidprojectcontenterror"
     },
@@ -7816,7 +8046,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 81,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidprojectcontenterror_constructor"
     },
@@ -8116,7 +8346,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 81,
+      "community": 4,
       "norm_label": "workerstate.js",
       "id": "models_workerstate"
     },
@@ -8126,7 +8356,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 81,
+      "community": 4,
       "norm_label": "worker_states",
       "id": "models_workerstate_worker_states"
     },
@@ -9916,7 +10146,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": "claudeworker",
       "id": "services_claudeworker_claudeworker"
     },
@@ -9926,7 +10156,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": ".constructor()",
       "id": "services_claudeworker_claudeworker_constructor"
     },
@@ -9936,7 +10166,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": ".initialize()",
       "id": "services_claudeworker_claudeworker_initialize"
     },
@@ -9946,7 +10176,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": ".startprocessing()",
       "id": "services_claudeworker_claudeworker_startprocessing"
     },
@@ -9956,7 +10186,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L71",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": ".stopprocessing()",
       "id": "services_claudeworker_claudeworker_stopprocessing"
     },
@@ -9966,7 +10196,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L79",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": "._processpendingjobs()",
       "id": "services_claudeworker_claudeworker_processpendingjobs"
     },
@@ -9976,7 +10206,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L102",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": ".executejob()",
       "id": "services_claudeworker_claudeworker_executejob"
     },
@@ -9986,7 +10216,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L356",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": "._recordjobchat()",
       "id": "services_claudeworker_claudeworker_recordjobchat"
     },
@@ -9996,7 +10226,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L369",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": "._saveresponse()",
       "id": "services_claudeworker_claudeworker_saveresponse"
     },
@@ -10006,7 +10236,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L383",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": "._resetworkerstate()",
       "id": "services_claudeworker_claudeworker_resetworkerstate"
     },
@@ -10016,7 +10246,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L392",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": ".getqueuesize()",
       "id": "services_claudeworker_claudeworker_getqueuesize"
     },
@@ -10026,7 +10256,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L396",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": ".ishealthy()",
       "id": "services_claudeworker_claudeworker_ishealthy"
     },
@@ -10036,7 +10266,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L400",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": ".getstatussnapshot()",
       "id": "services_claudeworker_claudeworker_getstatussnapshot"
     },
@@ -10046,7 +10276,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L404",
       "_origin": "ast",
-      "community": 80,
+      "community": 81,
       "norm_label": ".rewrite()",
       "id": "services_claudeworker_claudeworker_rewrite"
     },
@@ -12452,112 +12682,132 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
+      "source_file": "setup_p7.js",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "setup_p7",
+      "target": "setup_p7_bootstrapcontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p7.js",
       "source_location": "L204",
       "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_bootstrap",
+      "source": "setup_p7",
+      "target": "setup_p7_bootstrappath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
-      "source_location": "L203",
-      "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_bootstrappath",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
-      "source_location": "L283",
-      "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_consumer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
-      "source_location": "L282",
-      "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_consumerpath",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
+      "source_file": "setup_p7.js",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_fs",
+      "source": "setup_p7",
+      "target": "setup_p7_fs",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
-      "source_location": "L6",
+      "source_file": "setup_p7.js",
+      "source_location": "L7",
       "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_mkdirp",
+      "source": "setup_p7",
+      "target": "setup_p7_mkdirp",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
+      "source_file": "setup_p7.js",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_path",
+      "source": "setup_p7",
+      "target": "setup_p7_path",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
-      "source_location": "L250",
+      "source_file": "setup_p7.js",
+      "source_location": "L118",
       "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_posteventhandler",
+      "source": "setup_p7",
+      "target": "setup_p7_pluginroutescontent",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
-      "source_location": "L249",
+      "source_file": "setup_p7.js",
+      "source_location": "L117",
       "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_posteventhandlerpath",
+      "source": "setup_p7",
+      "target": "setup_p7_pluginroutespath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
-      "source_location": "L196",
+      "source_file": "setup_p7.js",
+      "source_location": "L17",
       "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_schemacontent",
+      "source": "setup_p7",
+      "target": "setup_p7_schemacontent",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p6.js",
-      "source_location": "L195",
+      "source_file": "setup_p7.js",
+      "source_location": "L16",
       "weight": 1.0,
-      "source": "setup_p6",
-      "target": "setup_p6_schemapath",
+      "source": "setup_p7",
+      "target": "setup_p7_schemapath",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p7.js",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "setup_p7",
+      "target": "setup_p7_servercontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p7.js",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "setup_p7",
+      "target": "setup_p7_serverpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_pluginroutes",
+      "target": "api_pluginroutes_createpluginroutes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_pluginroutes",
+      "target": "api_pluginroutes_express"
     },
     {
       "relation": "contains",
@@ -12953,6 +13203,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_wordpressoperationservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -12965,9 +13225,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_workfloworchestrator",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_workfloworchestrator"
     },
     {
       "relation": "contains",
@@ -12975,9 +13235,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_workflowpolicyengine",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_workflowpolicyengine"
     },
     {
       "relation": "contains",
@@ -12985,9 +13245,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_workflowscheduler",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_workflowscheduler"
     },
     {
       "relation": "imports_from",
@@ -13687,6 +13947,28 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_wordpressoperationservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_wordpressoperationservice_wordpressoperationservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L29",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -13799,9 +14081,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workfloworchestrator",
-      "confidence_score": 1.0
+      "target": "workflow_workfloworchestrator"
     },
     {
       "relation": "imports",
@@ -13810,9 +14092,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workfloworchestrator_workfloworchestrator",
-      "confidence_score": 1.0
+      "target": "workflow_workfloworchestrator_workfloworchestrator"
     },
     {
       "relation": "imports_from",
@@ -13821,9 +14103,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workflowpolicyengine",
-      "confidence_score": 1.0
+      "target": "workflow_workflowpolicyengine"
     },
     {
       "relation": "imports",
@@ -13832,9 +14114,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workflowpolicyengine_workflowpolicyengine",
-      "confidence_score": 1.0
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine"
     },
     {
       "relation": "imports_from",
@@ -13843,9 +14125,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workflowscheduler",
-      "confidence_score": 1.0
+      "target": "workflow_workflowscheduler"
     },
     {
       "relation": "imports",
@@ -13854,9 +14136,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workflowscheduler_workflowscheduler",
-      "confidence_score": 1.0
+      "target": "workflow_workflowscheduler_workflowscheduler"
     },
     {
       "relation": "imports_from",
@@ -14089,1433 +14371,6 @@
       "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
       "target": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice_processevent"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice_processpendingevents"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice_replayevent"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice_processpendingevents",
-      "target": "services_eventconsumerservice_eventconsumerservice_processevent"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L48",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice_replayevent",
-      "target": "services_eventconsumerservice_eventconsumerservice_processevent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/PostEventHandler.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_posteventhandler",
-      "target": "eventhandlers_posteventhandler_posteventhandler"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/PostEventHandler.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_posteventhandler_posteventhandler",
-      "target": "eventhandlers_posteventhandler_posteventhandler_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/PostEventHandler.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_posteventhandler_posteventhandler",
-      "target": "eventhandlers_posteventhandler_posteventhandler_handle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "workflow_workfloworchestrator",
-      "target": "workflow_workfloworchestrator_workfloworchestrator",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "workflow_workfloworchestrator_workfloworchestrator",
-      "target": "workflow_workfloworchestrator_workfloworchestrator_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "workflow_workfloworchestrator_workfloworchestrator",
-      "target": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "workflow_workfloworchestrator_workfloworchestrator",
-      "target": "workflow_workfloworchestrator_workfloworchestrator_logevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
-      "source_location": "L58",
-      "weight": 1.0,
-      "source": "workflow_workfloworchestrator_workfloworchestrator",
-      "target": "workflow_workfloworchestrator_workfloworchestrator_reconcile",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "workflow_workfloworchestrator_workfloworchestrator",
-      "target": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
-      "target": "workflow_workfloworchestrator_workfloworchestrator_logevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
-      "target": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "workflow_workfloworchestrator_workfloworchestrator_reconcile",
-      "target": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "workflow_workflowpolicyengine",
-      "target": "workflow_workflowpolicyengine_workflowpolicyengine",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "workflow_workflowpolicyengine_workflowpolicyengine",
-      "target": "workflow_workflowpolicyengine_workflowpolicyengine_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "workflow_workflowpolicyengine_workflowpolicyengine",
-      "target": "workflow_workflowpolicyengine_workflowpolicyengine_evaluate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "workflow_workflowpolicyengine_workflowpolicyengine",
-      "target": "workflow_workflowpolicyengine_workflowpolicyengine_getsitesettings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "workflow_workflowpolicyengine_workflowpolicyengine_evaluate",
-      "target": "workflow_workflowpolicyengine_workflowpolicyengine_getsitesettings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowRules.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "workflow_workflowrules",
-      "target": "workflow_workflowrules_workflowrules",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowScheduler.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "workflow_workflowscheduler",
-      "target": "workflow_workflowscheduler_workflowscheduler",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowScheduler.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "workflow_workflowscheduler_workflowscheduler",
-      "target": "workflow_workflowscheduler_workflowscheduler_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/workflow/WorkflowScheduler.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "workflow_workflowscheduler_workflowscheduler",
-      "target": "workflow_workflowscheduler_workflowscheduler_schedulejob",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_createinstallation"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_findbyinstallationid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_findbytoken"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_findbyuuid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_updatecapabilities"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_updateheartbeat"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_updateinstallation"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L54",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_updatepresence"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository",
-      "target": "models_contentproject"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository",
-      "target": "models_contentproject_contentproject"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository",
-      "target": "models_contentproject_project_statuses"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository",
-      "target": "repositories_projectrepository_contentproject_project_statuses"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository",
-      "target": "repositories_projectrepository_projectrepository"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/stabilization.test.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_stabilization_test",
-      "target": "repositories_projectrepository"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L79",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_createaudit"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_createproject"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L113",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_createrewrite"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_createversion"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_findbywppostid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L90",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_getauditbyid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_getauditsbyprojectid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L52",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_getlatestversion"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_getprojectbyid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_getprojectbywppostid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_getprojectsbystatus"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L124",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_getrewritebyid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L100",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_getrewritesbyprojectid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_getversionsbyprojectid"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L134",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_updatestatus"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/stabilization.test.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_stabilization_test",
-      "target": "repositories_projectrepository_projectrepository"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository_createproject",
-      "target": "repositories_projectrepository_projectrepository_getprojectbyid"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository_createproject",
-      "target": "repositories_projectrepository_projectrepository_getprojectbywppostid"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L135",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository_updatestatus",
-      "target": "repositories_projectrepository_projectrepository_getprojectbyid"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L87",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository_createaudit",
-      "target": "repositories_projectrepository_projectrepository_getauditbyid"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L121",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repositories_projectrepository_projectrepository_createrewrite",
-      "target": "repositories_projectrepository_projectrepository_getrewritebyid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_authoreventhandler",
-      "target": "eventhandlers_authoreventhandler_authoreventhandler"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_authoreventhandler_authoreventhandler",
-      "target": "eventhandlers_authoreventhandler_authoreventhandler_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_authoreventhandler_authoreventhandler",
-      "target": "eventhandlers_authoreventhandler_authoreventhandler_handle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_mediaeventhandler",
-      "target": "eventhandlers_mediaeventhandler_mediaeventhandler"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_mediaeventhandler_mediaeventhandler",
-      "target": "eventhandlers_mediaeventhandler_mediaeventhandler_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_mediaeventhandler_mediaeventhandler",
-      "target": "eventhandlers_mediaeventhandler_mediaeventhandler_handle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/SiteEventHandler.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_siteeventhandler",
-      "target": "eventhandlers_siteeventhandler_siteeventhandler"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/SiteEventHandler.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_siteeventhandler_siteeventhandler",
-      "target": "eventhandlers_siteeventhandler_siteeventhandler_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/SiteEventHandler.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_siteeventhandler_siteeventhandler",
-      "target": "eventhandlers_siteeventhandler_siteeventhandler_handle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_taxonomyeventhandler",
-      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler",
-      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler",
-      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_handle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "api_pluginroutes",
-      "target": "api_pluginroutes_createpluginroutes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "api_pluginroutes",
-      "target": "api_pluginroutes_express"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_authorchangedevent",
-      "target": "events_authorchangedevent_authorchangedevent"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_authorchangedevent_authorchangedevent",
-      "target": "events_authorchangedevent_authorchangedevent_geteventtypename"
-    },
-    {
-      "relation": "inherits",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_authorchangedevent_authorchangedevent",
-      "target": "events_baseevent_baseevent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_baseevent",
-      "target": "events_baseevent_baseevent"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_baseevent_baseevent",
-      "target": "events_baseevent_baseevent_construct"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_baseevent_baseevent",
-      "target": "events_baseevent_baseevent_geteventtypename"
-    },
-    {
-      "relation": "inherits",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_categorychangedevent_categorychangedevent",
-      "target": "events_baseevent_baseevent"
-    },
-    {
-      "relation": "inherits",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_mediachangedevent_mediachangedevent",
-      "target": "events_baseevent_baseevent"
-    },
-    {
-      "relation": "inherits",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_postchangedevent_postchangedevent",
-      "target": "events_baseevent_baseevent"
-    },
-    {
-      "relation": "inherits",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_sitechangedevent_sitechangedevent",
-      "target": "events_baseevent_baseevent"
-    },
-    {
-      "relation": "inherits",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_tagchangedevent_tagchangedevent",
-      "target": "events_baseevent_baseevent"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_baseevent_baseevent_construct",
-      "target": "events_baseevent_baseevent_geteventtypename"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_categorychangedevent",
-      "target": "events_categorychangedevent_categorychangedevent"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_categorychangedevent_categorychangedevent",
-      "target": "events_categorychangedevent_categorychangedevent_geteventtypename"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_mediachangedevent",
-      "target": "events_mediachangedevent_mediachangedevent"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_mediachangedevent_mediachangedevent",
-      "target": "events_mediachangedevent_mediachangedevent_geteventtypename"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_postchangedevent",
-      "target": "events_postchangedevent_postchangedevent"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_postchangedevent_postchangedevent",
-      "target": "events_postchangedevent_postchangedevent_geteventtypename"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_sitechangedevent",
-      "target": "events_sitechangedevent_sitechangedevent"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_sitechangedevent_sitechangedevent",
-      "target": "events_sitechangedevent_sitechangedevent_geteventtypename"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_tagchangedevent",
-      "target": "events_tagchangedevent_tagchangedevent"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_tagchangedevent_tagchangedevent",
-      "target": "events_tagchangedevent_tagchangedevent_geteventtypename"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_eventserializer",
-      "target": "events_eventserializer_eventserializer"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_eventserializer_eventserializer",
-      "target": "events_eventserializer_eventserializer_deserialize"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "events_eventserializer_eventserializer",
-      "target": "events_eventserializer_eventserializer_serialize"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository",
-      "target": "repository_eventqueuerepository_eventqueuerepository"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository",
-      "target": "repository_eventqueuerepository_eventqueuerepository_getpending"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository",
-      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L102",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository",
-      "target": "repository_eventqueuerepository_eventqueuerepository_getretrydelay"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository",
-      "target": "repository_eventqueuerepository_eventqueuerepository_push"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository",
-      "target": "repository_eventqueuerepository_eventqueuerepository_savequeue"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L72",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository",
-      "target": "repository_eventqueuerepository_eventqueuerepository_updatestatuses"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L51",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository_getpending",
-      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository_push",
-      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L73",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository_updatestatuses",
-      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L46",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository_push",
-      "target": "repository_eventqueuerepository_eventqueuerepository_savequeue"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L99",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository_updatestatuses",
-      "target": "repository_eventqueuerepository_eventqueuerepository_savequeue"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
-      "source_location": "L60",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "repository_eventqueuerepository_eventqueuerepository_getpending",
-      "target": "repository_eventqueuerepository_eventqueuerepository_getretrydelay"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventdeliveryservice",
-      "target": "services_eventdeliveryservice_eventdeliveryservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventdeliveryservice",
-      "target": "wordpress_agent_plugin_services_eventdeliveryservice_php_eventqueuerepository"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventdeliveryservice_eventdeliveryservice",
-      "target": "services_eventdeliveryservice_eventdeliveryservice_construct"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventdeliveryservice_eventdeliveryservice",
-      "target": "services_eventdeliveryservice_eventdeliveryservice_deliverevents"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "confidence_score": 1.0,
-      "source": "services_eventdeliveryservice_eventdeliveryservice_construct",
-      "target": "wordpress_agent_plugin_services_eventdeliveryservice_php_eventqueuerepository"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice",
-      "target": "wordpress_agent_plugin_services_eventlistenerservice_php_eventqueuerepository"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_construct"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L55",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_onbeforedeletepost"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L91",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_onmediachanged"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L95",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_onmediadeleted"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_onsavepost"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L99",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_onsitechanged"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L67",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_ontermchanged"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_ontermdeleted"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_ontransitionpoststatus"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L59",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_ontrashedpost"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L63",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_onuntrashedpost"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L83",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_onuserchanged"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L87",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_onuserdeleted"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice",
-      "target": "services_eventlistenerservice_eventlistenerservice_registerhooks"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
-      "source_location": "L16",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "confidence_score": 1.0,
-      "source": "services_eventlistenerservice_eventlistenerservice_construct",
-      "target": "wordpress_agent_plugin_services_eventlistenerservice_php_eventqueuerepository"
     },
     {
       "relation": "imports_from",
@@ -16149,6 +15004,1594 @@
       "weight": 1.0,
       "source": "src_server_createapp",
       "target": "middleware_ratelimiter_createratelimiter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_wordpressoperationservice",
+      "target": "services_wordpressoperationservice_crypto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "services_wordpressoperationservice",
+      "target": "services_wordpressoperationservice_wordpressoperationservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "services_wordpressoperationservice_wordpressoperationservice",
+      "target": "services_wordpressoperationservice_wordpressoperationservice_acknowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_wordpressoperationservice_wordpressoperationservice",
+      "target": "services_wordpressoperationservice_wordpressoperationservice_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_wordpressoperationservice_wordpressoperationservice",
+      "target": "services_wordpressoperationservice_wordpressoperationservice_createoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "services_wordpressoperationservice_wordpressoperationservice",
+      "target": "services_wordpressoperationservice_wordpressoperationservice_getpendingoperations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/WordPressOperationService.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "services_wordpressoperationservice_wordpressoperationservice",
+      "target": "services_wordpressoperationservice_wordpressoperationservice_markdelivered",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "operations_createdraftoperation",
+      "target": "operations_createdraftoperation_createdraftoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "operations_createdraftoperation_createdraftoperation",
+      "target": "operations_createdraftoperation_createdraftoperation_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "operations_fetchpostoperation",
+      "target": "operations_fetchpostoperation_fetchpostoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "operations_fetchpostoperation_fetchpostoperation",
+      "target": "operations_fetchpostoperation_fetchpostoperation_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "operations_pingoperation",
+      "target": "operations_pingoperation_pingoperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "operations_pingoperation_pingoperation",
+      "target": "operations_pingoperation_pingoperation_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_operationexecutor",
+      "target": "services_operationexecutor_operationexecutor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "services_operationexecutor_operationexecutor",
+      "target": "services_operationexecutor_operationexecutor_construct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "services_operationexecutor_operationexecutor",
+      "target": "services_operationexecutor_operationexecutor_processoperations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "services_operationexecutor_operationexecutor",
+      "target": "services_operationexecutor_operationexecutor_sendacknowledgements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "services_operationexecutor_operationexecutor_processoperations",
+      "target": "services_operationexecutor_operationexecutor_sendacknowledgements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice_processevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice_processpendingevents"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice_replayevent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice_processpendingevents",
+      "target": "services_eventconsumerservice_eventconsumerservice_processevent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice_replayevent",
+      "target": "services_eventconsumerservice_eventconsumerservice_processevent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/PostEventHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_posteventhandler",
+      "target": "eventhandlers_posteventhandler_posteventhandler"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/PostEventHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_posteventhandler_posteventhandler",
+      "target": "eventhandlers_posteventhandler_posteventhandler_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/PostEventHandler.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_posteventhandler_posteventhandler",
+      "target": "eventhandlers_posteventhandler_posteventhandler_handle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_logevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_reconcile"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_logevent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator_reconcile",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowpolicyengine",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowpolicyengine_workflowpolicyengine",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowpolicyengine_workflowpolicyengine",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine_evaluate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowpolicyengine_workflowpolicyengine",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine_getsitesettings"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowpolicyengine_workflowpolicyengine_evaluate",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine_getsitesettings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowRules.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowrules",
+      "target": "workflow_workflowrules_workflowrules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowscheduler",
+      "target": "workflow_workflowscheduler_workflowscheduler"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowscheduler_workflowscheduler",
+      "target": "workflow_workflowscheduler_workflowscheduler_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowscheduler_workflowscheduler",
+      "target": "workflow_workflowscheduler_workflowscheduler_schedulejob"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository_createinstallation"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository_findbyinstallationid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository_findbytoken"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository_findbyuuid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository_updatecapabilities"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository_updateheartbeat"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository_updateinstallation"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_pluginrepository_pluginrepository",
+      "target": "repositories_pluginrepository_pluginrepository_updatepresence"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository",
+      "target": "models_contentproject"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository",
+      "target": "models_contentproject_contentproject"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository",
+      "target": "models_contentproject_project_statuses"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository",
+      "target": "repositories_projectrepository_contentproject_project_statuses"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository",
+      "target": "repositories_projectrepository_projectrepository"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/stabilization.test.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_stabilization_test",
+      "target": "repositories_projectrepository"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_createaudit"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_createproject"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_createrewrite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_createversion"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_findbywppostid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_getauditbyid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_getauditsbyprojectid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_getlatestversion"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_getprojectbyid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_getprojectbywppostid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_getprojectsbystatus"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_getrewritebyid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_getrewritesbyprojectid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_getversionsbyprojectid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository",
+      "target": "repositories_projectrepository_projectrepository_updatestatus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/stabilization.test.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_stabilization_test",
+      "target": "repositories_projectrepository_projectrepository"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository_createproject",
+      "target": "repositories_projectrepository_projectrepository_getprojectbyid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository_createproject",
+      "target": "repositories_projectrepository_projectrepository_getprojectbywppostid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L135",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository_updatestatus",
+      "target": "repositories_projectrepository_projectrepository_getprojectbyid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository_createaudit",
+      "target": "repositories_projectrepository_projectrepository_getauditbyid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repositories_projectrepository_projectrepository_createrewrite",
+      "target": "repositories_projectrepository_projectrepository_getrewritebyid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_authoreventhandler",
+      "target": "eventhandlers_authoreventhandler_authoreventhandler"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_authoreventhandler_authoreventhandler",
+      "target": "eventhandlers_authoreventhandler_authoreventhandler_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_authoreventhandler_authoreventhandler",
+      "target": "eventhandlers_authoreventhandler_authoreventhandler_handle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_mediaeventhandler",
+      "target": "eventhandlers_mediaeventhandler_mediaeventhandler"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_mediaeventhandler_mediaeventhandler",
+      "target": "eventhandlers_mediaeventhandler_mediaeventhandler_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_mediaeventhandler_mediaeventhandler",
+      "target": "eventhandlers_mediaeventhandler_mediaeventhandler_handle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/SiteEventHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_siteeventhandler",
+      "target": "eventhandlers_siteeventhandler_siteeventhandler"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/SiteEventHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_siteeventhandler_siteeventhandler",
+      "target": "eventhandlers_siteeventhandler_siteeventhandler_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/SiteEventHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_siteeventhandler_siteeventhandler",
+      "target": "eventhandlers_siteeventhandler_siteeventhandler_handle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_taxonomyeventhandler",
+      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler",
+      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler",
+      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_handle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_authorchangedevent",
+      "target": "events_authorchangedevent_authorchangedevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_authorchangedevent_authorchangedevent",
+      "target": "events_authorchangedevent_authorchangedevent_geteventtypename"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_authorchangedevent_authorchangedevent",
+      "target": "events_baseevent_baseevent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_baseevent",
+      "target": "events_baseevent_baseevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_baseevent_baseevent",
+      "target": "events_baseevent_baseevent_construct"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_baseevent_baseevent",
+      "target": "events_baseevent_baseevent_geteventtypename"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_categorychangedevent_categorychangedevent",
+      "target": "events_baseevent_baseevent"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_mediachangedevent_mediachangedevent",
+      "target": "events_baseevent_baseevent"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_postchangedevent_postchangedevent",
+      "target": "events_baseevent_baseevent"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_sitechangedevent_sitechangedevent",
+      "target": "events_baseevent_baseevent"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_tagchangedevent_tagchangedevent",
+      "target": "events_baseevent_baseevent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_baseevent_baseevent_construct",
+      "target": "events_baseevent_baseevent_geteventtypename"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_categorychangedevent",
+      "target": "events_categorychangedevent_categorychangedevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_categorychangedevent_categorychangedevent",
+      "target": "events_categorychangedevent_categorychangedevent_geteventtypename"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_mediachangedevent",
+      "target": "events_mediachangedevent_mediachangedevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_mediachangedevent_mediachangedevent",
+      "target": "events_mediachangedevent_mediachangedevent_geteventtypename"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_postchangedevent",
+      "target": "events_postchangedevent_postchangedevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_postchangedevent_postchangedevent",
+      "target": "events_postchangedevent_postchangedevent_geteventtypename"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_sitechangedevent",
+      "target": "events_sitechangedevent_sitechangedevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_sitechangedevent_sitechangedevent",
+      "target": "events_sitechangedevent_sitechangedevent_geteventtypename"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_tagchangedevent",
+      "target": "events_tagchangedevent_tagchangedevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_tagchangedevent_tagchangedevent",
+      "target": "events_tagchangedevent_tagchangedevent_geteventtypename"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_eventserializer",
+      "target": "events_eventserializer_eventserializer"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_eventserializer_eventserializer",
+      "target": "events_eventserializer_eventserializer_deserialize"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "events_eventserializer_eventserializer",
+      "target": "events_eventserializer_eventserializer_serialize"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getpending"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getretrydelay"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_push"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_savequeue"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_updatestatuses"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_getpending",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_push",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_updatestatuses",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_push",
+      "target": "repository_eventqueuerepository_eventqueuerepository_savequeue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_updatestatuses",
+      "target": "repository_eventqueuerepository_eventqueuerepository_savequeue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_getpending",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getretrydelay"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventdeliveryservice",
+      "target": "services_eventdeliveryservice_eventdeliveryservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventdeliveryservice",
+      "target": "wordpress_agent_plugin_services_eventdeliveryservice_php_eventqueuerepository"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventdeliveryservice_eventdeliveryservice",
+      "target": "services_eventdeliveryservice_eventdeliveryservice_construct"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventdeliveryservice_eventdeliveryservice",
+      "target": "services_eventdeliveryservice_eventdeliveryservice_deliverevents"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "services_eventdeliveryservice_eventdeliveryservice_construct",
+      "target": "wordpress_agent_plugin_services_eventdeliveryservice_php_eventqueuerepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice",
+      "target": "wordpress_agent_plugin_services_eventlistenerservice_php_eventqueuerepository"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_construct"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onbeforedeletepost"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onmediachanged"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onmediadeleted"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onsavepost"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onsitechanged"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_ontermchanged"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_ontermdeleted"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_ontransitionpoststatus"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_ontrashedpost"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onuntrashedpost"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onuserchanged"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onuserdeleted"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_registerhooks"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice_construct",
+      "target": "wordpress_agent_plugin_services_eventlistenerservice_php_eventqueuerepository"
     },
     {
       "relation": "contains",
@@ -28103,5 +28546,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "0a0203df60580673c96890a3fe681bc10ed50c88"
+  "built_at_commit": "36483dc7b3e19fc89dbd194e512fb58089c58c16"
 }

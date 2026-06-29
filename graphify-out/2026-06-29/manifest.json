@@ -180,8 +180,8 @@
     "semantic_hash": "da47d4a21d7de3faab0b84c42520c1c0"
   },
   "src/bootstrap/BootstrapManager.js": {
-    "mtime": 1782709501.9284577,
-    "ast_hash": "df15ae4941464bc9b0215802b58d2332",
+    "mtime": 1782710183.8422449,
+    "ast_hash": "72337c688c51fc3b988383b78049daa7",
     "semantic_hash": ""
   },
   "src/bootstrap/PreFlightValidator.js": {
@@ -325,8 +325,8 @@
     "semantic_hash": "87beee9d1701c3dbf30ab31e28f3e107"
   },
   "src/server.js": {
-    "mtime": 1782704900.734149,
-    "ast_hash": "8c23d69a5bcc97ed867b2aaff68bfc30",
+    "mtime": 1782710183.841097,
+    "ast_hash": "63d850e47d5050c8fae380897fc6d5fc",
     "semantic_hash": ""
   },
   "src/services/BrowserManager.js": {
@@ -845,8 +845,8 @@
     "semantic_hash": ""
   },
   "schema.sql": {
-    "mtime": 1782709501.9252057,
-    "ast_hash": "a2539c34166b5f99d5ca238dfb96a3b5",
+    "mtime": 1782710183.83913,
+    "ast_hash": "59233d5211e0ab3a7687f4339f4cc4da",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/admin/Menu.php": {
@@ -1145,8 +1145,8 @@
     "semantic_hash": ""
   },
   "src/api/pluginRoutes.js": {
-    "mtime": 1782705647.7762241,
-    "ast_hash": "bdabfcc58250e9d1f67beee2118ed436",
+    "mtime": 1782710183.8402834,
+    "ast_hash": "25711d68068605d781cf2d31d040513e",
     "semantic_hash": ""
   },
   "src/repositories/PluginRepository.js": {
@@ -1254,11 +1254,6 @@
     "ast_hash": "632e22fb43e5672f4007fd5897863c6e",
     "semantic_hash": ""
   },
-  "setup_p6.js": {
-    "mtime": 1782709496.9644072,
-    "ast_hash": "82fe5134ae82ff3c7e8a10d3e77da5eb",
-    "semantic_hash": ""
-  },
   "src/services/workflow/WorkflowOrchestrator.js": {
     "mtime": 1782709501.923917,
     "ast_hash": "8986b1d103b183b48df85f60b69bf828",
@@ -1277,6 +1272,36 @@
   "src/services/workflow/WorkflowScheduler.js": {
     "mtime": 1782709501.923757,
     "ast_hash": "c3b8e23b2a6191100383cb10d7585863",
+    "semantic_hash": ""
+  },
+  "setup_p7.js": {
+    "mtime": 1782710175.8349154,
+    "ast_hash": "ee80f93c3c7d56a656aa76fa10739b83",
+    "semantic_hash": ""
+  },
+  "src/services/WordPressOperationService.js": {
+    "mtime": 1782710183.8394477,
+    "ast_hash": "a30cdb55f0df5a9366555543fa5a8ca2",
+    "semantic_hash": ""
+  },
+  "wordpress-agent-plugin/operations/CreateDraftOperation.php": {
+    "mtime": 1782710183.842845,
+    "ast_hash": "f359f61e2a1a027674686b33aafc108d",
+    "semantic_hash": ""
+  },
+  "wordpress-agent-plugin/operations/FetchPostOperation.php": {
+    "mtime": 1782710183.8427303,
+    "ast_hash": "4df22ee80900385d5a2157589e19ff52",
+    "semantic_hash": ""
+  },
+  "wordpress-agent-plugin/operations/PingOperation.php": {
+    "mtime": 1782710183.8429751,
+    "ast_hash": "a9d7054bdf5a7ec23d771d53dd26ecb3",
+    "semantic_hash": ""
+  },
+  "wordpress-agent-plugin/services/OperationExecutor.php": {
+    "mtime": 1782710183.8425453,
+    "ast_hash": "dcb21eda40c51c478a2147f977e56db2",
     "semantic_hash": ""
   }
 }

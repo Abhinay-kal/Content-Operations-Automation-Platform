@@ -61,154 +61,134 @@
   },
   "nodes": [
     {
-      "label": "setup_p7.js",
+      "label": "setup_16.js",
       "file_type": "code",
-      "source_file": "setup_p7.js",
+      "source_file": "setup_16.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_p7",
-      "community": 80,
-      "norm_label": "setup_p7.js"
+      "id": "setup_16",
+      "community": 142,
+      "norm_label": "setup_16.js"
     },
     {
       "label": "fs",
       "file_type": "code",
-      "source_file": "setup_p7.js",
+      "source_file": "setup_16.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_p7_fs",
-      "community": 80,
+      "id": "setup_16_fs",
+      "community": 142,
       "norm_label": "fs"
     },
     {
       "label": "path",
       "file_type": "code",
-      "source_file": "setup_p7.js",
+      "source_file": "setup_16.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "setup_p7_path",
-      "community": 80,
+      "id": "setup_16_path",
+      "community": 142,
       "norm_label": "path"
     },
     {
       "label": "mkdirp()",
       "file_type": "code",
-      "source_file": "setup_p7.js",
-      "source_location": "L7",
+      "source_file": "setup_16.js",
+      "source_location": "L6",
       "_origin": "ast",
-      "id": "setup_p7_mkdirp",
-      "community": 80,
+      "id": "setup_16_mkdirp",
+      "community": 142,
       "norm_label": "mkdirp()"
-    },
-    {
-      "label": "schemaPath",
-      "file_type": "code",
-      "source_file": "setup_p7.js",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "setup_p7_schemapath",
-      "community": 80,
-      "norm_label": "schemapath"
-    },
-    {
-      "label": "schemaContent",
-      "file_type": "code",
-      "source_file": "setup_p7.js",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "setup_p7_schemacontent",
-      "community": 80,
-      "norm_label": "schemacontent"
-    },
-    {
-      "label": "pluginRoutesPath",
-      "file_type": "code",
-      "source_file": "setup_p7.js",
-      "source_location": "L117",
-      "_origin": "ast",
-      "id": "setup_p7_pluginroutespath",
-      "community": 80,
-      "norm_label": "pluginroutespath"
-    },
-    {
-      "label": "pluginRoutesContent",
-      "file_type": "code",
-      "source_file": "setup_p7.js",
-      "source_location": "L118",
-      "_origin": "ast",
-      "id": "setup_p7_pluginroutescontent",
-      "community": 80,
-      "norm_label": "pluginroutescontent"
     },
     {
       "label": "serverPath",
       "file_type": "code",
-      "source_file": "setup_p7.js",
-      "source_location": "L193",
+      "source_file": "setup_16.js",
+      "source_location": "L358",
       "_origin": "ast",
-      "id": "setup_p7_serverpath",
-      "community": 80,
+      "id": "setup_16_serverpath",
+      "community": 142,
       "norm_label": "serverpath"
     },
     {
       "label": "serverContent",
       "file_type": "code",
-      "source_file": "setup_p7.js",
-      "source_location": "L194",
+      "source_file": "setup_16.js",
+      "source_location": "L359",
       "_origin": "ast",
-      "id": "setup_p7_servercontent",
-      "community": 80,
+      "id": "setup_16_servercontent",
+      "community": 142,
       "norm_label": "servercontent"
     },
     {
       "label": "bootstrapPath",
       "file_type": "code",
-      "source_file": "setup_p7.js",
-      "source_location": "L204",
+      "source_file": "setup_16.js",
+      "source_location": "L381",
       "_origin": "ast",
-      "id": "setup_p7_bootstrappath",
-      "community": 80,
+      "id": "setup_16_bootstrappath",
+      "community": 142,
       "norm_label": "bootstrappath"
     },
     {
-      "label": "bootstrapContent",
+      "label": "bootstrap",
       "file_type": "code",
-      "source_file": "setup_p7.js",
-      "source_location": "L205",
+      "source_file": "setup_16.js",
+      "source_location": "L382",
       "_origin": "ast",
-      "id": "setup_p7_bootstrapcontent",
-      "community": 80,
-      "norm_label": "bootstrapcontent"
+      "id": "setup_16_bootstrap",
+      "community": 142,
+      "norm_label": "bootstrap"
     },
     {
-      "label": "pluginRoutes.js",
+      "label": "dashboardRoutes.js",
       "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
+      "source_file": "src/api/dashboardRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "api_pluginroutes",
-      "community": 100,
-      "norm_label": "pluginroutes.js"
+      "id": "api_dashboardroutes",
+      "community": 134,
+      "norm_label": "dashboardroutes.js"
     },
     {
       "label": "express",
       "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
+      "source_file": "src/api/dashboardRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "api_pluginroutes_express",
-      "community": 100,
+      "id": "api_dashboardroutes_express",
+      "community": 134,
       "norm_label": "express"
     },
     {
-      "label": "createPluginRoutes()",
+      "label": "{ sendSuccess, sendError, parsePagination }",
       "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "api_dashboardroutes_sendsuccess_senderror_parsepagination",
+      "community": 134,
+      "norm_label": "{ sendsuccess, senderror, parsepagination }"
+    },
+    {
+      "label": "{ ApiError, ErrorCodes }",
+      "file_type": "code",
+      "source_file": "src/api/dashboardRoutes.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "api_pluginroutes_createpluginroutes",
-      "community": 100,
-      "norm_label": "createpluginroutes()"
+      "id": "api_dashboardroutes_apierror_errorcodes",
+      "community": 134,
+      "norm_label": "{ apierror, errorcodes }"
+    },
+    {
+      "label": "createDashboardRoutes()",
+      "file_type": "code",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "api_dashboardroutes_createdashboardroutes",
+      "community": 134,
+      "norm_label": "createdashboardroutes()"
     },
     {
       "label": "BootstrapManager.js",
@@ -381,10 +361,20 @@
       "norm_label": "{ wordpressoperationservice }"
     },
     {
+      "label": "{ DashboardReadService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_dashboardreadservice",
+      "community": 5,
+      "norm_label": "{ dashboardreadservice }"
+    },
+    {
       "label": "{ WorkflowPolicyEngine }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_workflowpolicyengine",
       "community": 5,
@@ -394,7 +384,7 @@
       "label": "{ WorkflowScheduler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_workflowscheduler",
       "community": 5,
@@ -404,7 +394,7 @@
       "label": "{ WorkflowOrchestrator }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_workfloworchestrator",
       "community": 5,
@@ -414,7 +404,7 @@
       "label": "{ EventConsumerService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_eventconsumerservice",
       "community": 5,
@@ -424,7 +414,7 @@
       "label": "{ PostEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L22",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_posteventhandler",
       "community": 5,
@@ -434,7 +424,7 @@
       "label": "{ TaxonomyEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L23",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_taxonomyeventhandler",
       "community": 5,
@@ -444,7 +434,7 @@
       "label": "{ AuthorEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_authoreventhandler",
       "community": 5,
@@ -454,7 +444,7 @@
       "label": "{ MediaEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L25",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_mediaeventhandler",
       "community": 5,
@@ -464,7 +454,7 @@
       "label": "{ SiteEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L26",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_siteeventhandler",
       "community": 5,
@@ -474,7 +464,7 @@
       "label": "JobService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L28",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_jobservice",
       "community": 5,
@@ -484,7 +474,7 @@
       "label": "{ SiteService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L29",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_siteservice",
       "community": 5,
@@ -494,7 +484,7 @@
       "label": "{ ProjectService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L30",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_projectservice",
       "community": 5,
@@ -504,7 +494,7 @@
       "label": "SyncService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L31",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_syncservice",
       "community": 5,
@@ -514,7 +504,7 @@
       "label": "PublishingService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L32",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_publishingservice",
       "community": 5,
@@ -524,7 +514,7 @@
       "label": "{ StateMachine }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L35",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_statemachine",
       "community": 5,
@@ -534,7 +524,7 @@
       "label": "{ BrowserManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L36",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_browsermanager",
       "community": 5,
@@ -544,7 +534,7 @@
       "label": "{ ClaudeManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L37",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudemanager",
       "community": 5,
@@ -554,7 +544,7 @@
       "label": "{ MetricsService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L38",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_metricsservice",
       "community": 5,
@@ -564,7 +554,7 @@
       "label": "{ QueueService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L39",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_queueservice",
       "community": 5,
@@ -574,7 +564,7 @@
       "label": "{ ClaudeWorker }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L40",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudeworker",
       "community": 5,
@@ -584,7 +574,7 @@
       "label": "{ SessionMonitor }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L41",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessionmonitor",
       "community": 5,
@@ -594,7 +584,7 @@
       "label": "{ RecoveryManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L42",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_recoverymanager",
       "community": 5,
@@ -604,7 +594,7 @@
       "label": "{ SessionDetector }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L43",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessiondetector",
       "community": 5,
@@ -614,7 +604,7 @@
       "label": "{ SessionRecovery }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L44",
+      "source_location": "L45",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessionrecovery",
       "community": 5,
@@ -624,7 +614,7 @@
       "label": "{ ClaudeHealthCheck }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L45",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudehealthcheck",
       "community": 5,
@@ -634,7 +624,7 @@
       "label": "{ BrowserRecovery }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L46",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_browserrecovery",
       "community": 5,
@@ -644,7 +634,7 @@
       "label": "{ DashboardService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L47",
+      "source_location": "L48",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_dashboardservice",
       "community": 5,
@@ -654,110 +644,110 @@
       "label": "BootstrapManager",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L49",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "community": 2,
+      "community": 140,
       "norm_label": "bootstrapmanager"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L50",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor",
-      "community": 2,
+      "community": 136,
       "norm_label": ".constructor()"
     },
     {
       "label": ".run()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L69",
+      "source_location": "L70",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_run",
-      "community": 2,
+      "community": 140,
       "norm_label": ".run()"
     },
     {
       "label": "._runPhase1()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L96",
+      "source_location": "L97",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
-      "community": 2,
+      "community": 140,
       "norm_label": "._runphase1()"
     },
     {
       "label": "._runPhase2()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L128",
+      "source_location": "L129",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2",
-      "community": 2,
+      "community": 140,
       "norm_label": "._runphase2()"
     },
     {
       "label": "._runPhase3()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L270",
+      "source_location": "L273",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3",
-      "community": 2,
+      "community": 140,
       "norm_label": "._runphase3()"
     },
     {
       "label": "._runPhase3_5()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L369",
+      "source_location": "L372",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5",
-      "community": 2,
+      "community": 140,
       "norm_label": "._runphase3_5()"
     },
     {
       "label": "._runPhase4()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L464",
+      "source_location": "L467",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
-      "community": 2,
+      "community": 140,
       "norm_label": "._runphase4()"
     },
     {
       "label": "._verifyReadiness()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L484",
+      "source_location": "L487",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness",
-      "community": 2,
+      "community": 140,
       "norm_label": "._verifyreadiness()"
     },
     {
       "label": "._printHeader()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L528",
+      "source_location": "L531",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader",
-      "community": 2,
+      "community": 140,
       "norm_label": "._printheader()"
     },
     {
       "label": "._reportFailures()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L535",
+      "source_location": "L538",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures",
-      "community": 2,
+      "community": 140,
       "norm_label": "._reportfailures()"
     },
     {
@@ -777,7 +767,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_server_express",
-      "community": 0,
+      "community": 139,
       "norm_label": "express"
     },
     {
@@ -861,20 +851,30 @@
       "norm_label": "{ createwordpressroutes }"
     },
     {
-      "label": "createQueueRouter",
+      "label": "{ createDashboardRoutes }",
       "file_type": "code",
       "source_file": "src/server.js",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "src_server_createqueuerouter",
+      "id": "src_server_createdashboardroutes",
       "community": 0,
+      "norm_label": "{ createdashboardroutes }"
+    },
+    {
+      "label": "createQueueRouter",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_server_createqueuerouter",
+      "community": 139,
       "norm_label": "createqueuerouter"
     },
     {
       "label": "{ loadSecurityConfig }",
       "file_type": "code",
       "source_file": "src/server.js",
-      "source_location": "L11",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "src_server_loadsecurityconfig",
       "community": 0,
@@ -884,7 +884,7 @@
       "label": "{ createAuthMiddleware }",
       "file_type": "code",
       "source_file": "src/server.js",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "src_server_createauthmiddleware",
       "community": 0,
@@ -894,7 +894,7 @@
       "label": "{ createRateLimiter }",
       "file_type": "code",
       "source_file": "src/server.js",
-      "source_location": "L13",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "src_server_createratelimiter",
       "community": 0,
@@ -904,7 +904,7 @@
       "label": "{ validateRewriteRequest }",
       "file_type": "code",
       "source_file": "src/server.js",
-      "source_location": "L14",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "src_server_validaterewriterequest",
       "community": 0,
@@ -914,7 +914,7 @@
       "label": "{ secureHeaders }",
       "file_type": "code",
       "source_file": "src/server.js",
-      "source_location": "L15",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "src_server_secureheaders",
       "community": 0,
@@ -924,11 +924,231 @@
       "label": "createApp()",
       "file_type": "code",
       "source_file": "src/server.js",
-      "source_location": "L22",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "src_server_createapp",
-      "community": 0,
+      "community": 139,
       "norm_label": "createapp()"
+    },
+    {
+      "label": "DashboardReadService.js",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice",
+      "community": 138,
+      "norm_label": "dashboardreadservice.js"
+    },
+    {
+      "label": "DashboardReadService",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice",
+      "community": 138,
+      "norm_label": "dashboardreadservice"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_constructor",
+      "community": 138,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".getOverview()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getoverview",
+      "community": 138,
+      "norm_label": ".getoverview()"
+    },
+    {
+      "label": ".getSites()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getsites",
+      "community": 138,
+      "norm_label": ".getsites()"
+    },
+    {
+      "label": ".getProjects()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getprojects",
+      "community": 138,
+      "norm_label": ".getprojects()"
+    },
+    {
+      "label": ".getProjectById()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getprojectbyid",
+      "community": 138,
+      "norm_label": ".getprojectbyid()"
+    },
+    {
+      "label": ".getJobs()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getjobs",
+      "community": 138,
+      "norm_label": ".getjobs()"
+    },
+    {
+      "label": ".getEvents()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L125",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getevents",
+      "community": 138,
+      "norm_label": ".getevents()"
+    },
+    {
+      "label": ".getOperations()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L136",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getoperations",
+      "community": 138,
+      "norm_label": ".getoperations()"
+    },
+    {
+      "label": ".mapProjectDto()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_mapprojectdto",
+      "community": 138,
+      "norm_label": ".mapprojectdto()"
+    },
+    {
+      "label": "errors.js",
+      "file_type": "code",
+      "source_file": "src/utils/errors.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "utils_errors",
+      "community": 134,
+      "norm_label": "errors.js"
+    },
+    {
+      "label": "ErrorCodes",
+      "file_type": "code",
+      "source_file": "src/utils/errors.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "utils_errors_errorcodes",
+      "community": 134,
+      "norm_label": "errorcodes"
+    },
+    {
+      "label": "ApiError",
+      "file_type": "code",
+      "source_file": "src/utils/errors.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "utils_errors_apierror",
+      "community": 134,
+      "norm_label": "apierror"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/utils/errors.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "utils_errors_apierror_constructor",
+      "community": 134,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": "response.js",
+      "file_type": "code",
+      "source_file": "src/utils/response.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "utils_response",
+      "community": 134,
+      "norm_label": "response.js"
+    },
+    {
+      "label": "sendSuccess()",
+      "file_type": "code",
+      "source_file": "src/utils/response.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "utils_response_sendsuccess",
+      "community": 134,
+      "norm_label": "sendsuccess()"
+    },
+    {
+      "label": "sendError()",
+      "file_type": "code",
+      "source_file": "src/utils/response.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "utils_response_senderror",
+      "community": 134,
+      "norm_label": "senderror()"
+    },
+    {
+      "label": "parsePagination()",
+      "file_type": "code",
+      "source_file": "src/utils/response.js",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "utils_response_parsepagination",
+      "community": 134,
+      "norm_label": "parsepagination()"
+    },
+    {
+      "label": "pluginRoutes.js",
+      "file_type": "code",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 100,
+      "norm_label": "pluginroutes.js",
+      "id": "api_pluginroutes"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 100,
+      "norm_label": "express",
+      "id": "api_pluginroutes_express"
+    },
+    {
+      "label": "createPluginRoutes()",
+      "file_type": "code",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 100,
+      "norm_label": "createpluginroutes()",
+      "id": "api_pluginroutes_createpluginroutes"
     },
     {
       "label": "WordPressOperationService.js",
@@ -936,9 +1156,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_wordpressoperationservice",
       "community": 121,
-      "norm_label": "wordpressoperationservice.js"
+      "norm_label": "wordpressoperationservice.js",
+      "id": "services_wordpressoperationservice"
     },
     {
       "label": "crypto",
@@ -946,9 +1166,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_wordpressoperationservice_crypto",
       "community": 121,
-      "norm_label": "crypto"
+      "norm_label": "crypto",
+      "id": "services_wordpressoperationservice_crypto"
     },
     {
       "label": "WordPressOperationService",
@@ -956,9 +1176,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "services_wordpressoperationservice_wordpressoperationservice",
       "community": 121,
-      "norm_label": "wordpressoperationservice"
+      "norm_label": "wordpressoperationservice",
+      "id": "services_wordpressoperationservice_wordpressoperationservice"
     },
     {
       "label": ".constructor()",
@@ -966,9 +1186,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "services_wordpressoperationservice_wordpressoperationservice_constructor",
       "community": 121,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_constructor"
     },
     {
       "label": ".createOperation()",
@@ -976,9 +1196,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "services_wordpressoperationservice_wordpressoperationservice_createoperation",
       "community": 121,
-      "norm_label": ".createoperation()"
+      "norm_label": ".createoperation()",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_createoperation"
     },
     {
       "label": ".getPendingOperations()",
@@ -986,9 +1206,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "services_wordpressoperationservice_wordpressoperationservice_getpendingoperations",
       "community": 121,
-      "norm_label": ".getpendingoperations()"
+      "norm_label": ".getpendingoperations()",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_getpendingoperations"
     },
     {
       "label": ".markDelivered()",
@@ -996,9 +1216,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "services_wordpressoperationservice_wordpressoperationservice_markdelivered",
       "community": 121,
-      "norm_label": ".markdelivered()"
+      "norm_label": ".markdelivered()",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_markdelivered"
     },
     {
       "label": ".acknowledge()",
@@ -1006,9 +1226,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "services_wordpressoperationservice_wordpressoperationservice_acknowledge",
       "community": 121,
-      "norm_label": ".acknowledge()"
+      "norm_label": ".acknowledge()",
+      "id": "services_wordpressoperationservice_wordpressoperationservice_acknowledge"
     },
     {
       "label": "CreateDraftOperation.php",
@@ -1016,9 +1236,9 @@
       "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "operations_createdraftoperation",
       "community": 130,
-      "norm_label": "createdraftoperation.php"
+      "norm_label": "createdraftoperation.php",
+      "id": "operations_createdraftoperation"
     },
     {
       "label": "CreateDraftOperation",
@@ -1026,9 +1246,9 @@
       "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "operations_createdraftoperation_createdraftoperation",
       "community": 130,
-      "norm_label": "createdraftoperation"
+      "norm_label": "createdraftoperation",
+      "id": "operations_createdraftoperation_createdraftoperation"
     },
     {
       "label": ".execute()",
@@ -1036,9 +1256,9 @@
       "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "operations_createdraftoperation_createdraftoperation_execute",
       "community": 130,
-      "norm_label": ".execute()"
+      "norm_label": ".execute()",
+      "id": "operations_createdraftoperation_createdraftoperation_execute"
     },
     {
       "label": "FetchPostOperation.php",
@@ -1046,9 +1266,9 @@
       "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "operations_fetchpostoperation",
       "community": 131,
-      "norm_label": "fetchpostoperation.php"
+      "norm_label": "fetchpostoperation.php",
+      "id": "operations_fetchpostoperation"
     },
     {
       "label": "FetchPostOperation",
@@ -1056,9 +1276,9 @@
       "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "operations_fetchpostoperation_fetchpostoperation",
       "community": 131,
-      "norm_label": "fetchpostoperation"
+      "norm_label": "fetchpostoperation",
+      "id": "operations_fetchpostoperation_fetchpostoperation"
     },
     {
       "label": ".execute()",
@@ -1066,9 +1286,9 @@
       "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "operations_fetchpostoperation_fetchpostoperation_execute",
       "community": 131,
-      "norm_label": ".execute()"
+      "norm_label": ".execute()",
+      "id": "operations_fetchpostoperation_fetchpostoperation_execute"
     },
     {
       "label": "PingOperation.php",
@@ -1076,9 +1296,9 @@
       "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "operations_pingoperation",
       "community": 132,
-      "norm_label": "pingoperation.php"
+      "norm_label": "pingoperation.php",
+      "id": "operations_pingoperation"
     },
     {
       "label": "PingOperation",
@@ -1086,9 +1306,9 @@
       "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "operations_pingoperation_pingoperation",
       "community": 132,
-      "norm_label": "pingoperation"
+      "norm_label": "pingoperation",
+      "id": "operations_pingoperation_pingoperation"
     },
     {
       "label": ".execute()",
@@ -1096,9 +1316,9 @@
       "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "operations_pingoperation_pingoperation_execute",
       "community": 132,
-      "norm_label": ".execute()"
+      "norm_label": ".execute()",
+      "id": "operations_pingoperation_pingoperation_execute"
     },
     {
       "label": "OperationExecutor.php",
@@ -1106,9 +1326,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_operationexecutor",
       "community": 123,
-      "norm_label": "operationexecutor.php"
+      "norm_label": "operationexecutor.php",
+      "id": "services_operationexecutor"
     },
     {
       "label": "OperationExecutor",
@@ -1116,9 +1336,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "services_operationexecutor_operationexecutor",
       "community": 123,
-      "norm_label": "operationexecutor"
+      "norm_label": "operationexecutor",
+      "id": "services_operationexecutor_operationexecutor"
     },
     {
       "label": ".__construct()",
@@ -1126,9 +1346,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "services_operationexecutor_operationexecutor_construct",
       "community": 123,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "services_operationexecutor_operationexecutor_construct"
     },
     {
       "label": ".processOperations()",
@@ -1136,9 +1356,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "services_operationexecutor_operationexecutor_processoperations",
       "community": 123,
-      "norm_label": ".processoperations()"
+      "norm_label": ".processoperations()",
+      "id": "services_operationexecutor_operationexecutor_processoperations"
     },
     {
       "label": ".sendAcknowledgements()",
@@ -1146,9 +1366,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L43",
       "_origin": "ast",
-      "id": "services_operationexecutor_operationexecutor_sendacknowledgements",
       "community": 123,
-      "norm_label": ".sendacknowledgements()"
+      "norm_label": ".sendacknowledgements()",
+      "id": "services_operationexecutor_operationexecutor_sendacknowledgements"
     },
     {
       "label": "EventConsumerService.js",
@@ -2996,7 +3216,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "claudeworker.js",
       "id": "workers_claudeworker"
     },
@@ -3006,7 +3226,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "fs",
       "id": "workers_claudeworker_fs"
     },
@@ -3016,7 +3236,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "path",
       "id": "workers_claudeworker_path"
     },
@@ -3026,7 +3246,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "{ worker_states }",
       "id": "workers_claudeworker_worker_states"
     },
@@ -3036,7 +3256,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "{ project_statuses }",
       "id": "workers_claudeworker_project_statuses"
     },
@@ -3046,7 +3266,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "{ failureclassifier }",
       "id": "workers_claudeworker_failureclassifier"
     },
@@ -3056,7 +3276,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "auditpromptbuilder",
       "id": "workers_claudeworker_auditpromptbuilder"
     },
@@ -3066,7 +3286,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "rewritepromptbuilder",
       "id": "workers_claudeworker_rewritepromptbuilder"
     },
@@ -3076,7 +3296,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "{ contentunavailableerror, invalidprojectcontenterror }",
       "id": "workers_claudeworker_contentunavailableerror_invalidprojectcontenterror"
     },
@@ -6716,7 +6936,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "claude.js",
       "id": "scripts_claude"
     },
@@ -6726,7 +6946,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "{ loadconfig }",
       "id": "scripts_claude_loadconfig"
     },
@@ -6736,7 +6956,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "{ createlogger }",
       "id": "scripts_claude_createlogger"
     },
@@ -6746,7 +6966,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "{ persistentworkerstate: workerstate }",
       "id": "scripts_claude_persistentworkerstate_workerstate"
     },
@@ -6756,7 +6976,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "{ browsermanager }",
       "id": "scripts_claude_browsermanager"
     },
@@ -6766,7 +6986,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "{ sessionmonitor }",
       "id": "scripts_claude_sessionmonitor"
     },
@@ -6776,7 +6996,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "{ claudeworker }",
       "id": "scripts_claude_claudeworker"
     },
@@ -6786,7 +7006,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "getsingletonworker()",
       "id": "scripts_claude_getsingletonworker"
     },
@@ -6796,7 +7016,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "runclaude()",
       "id": "scripts_claude_runclaude"
     },
@@ -7316,7 +7536,7 @@
       "source_file": "src/api/auditRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 139,
       "norm_label": "auditroutes.js",
       "id": "api_auditroutes"
     },
@@ -7326,7 +7546,7 @@
       "source_file": "src/api/auditRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 139,
       "norm_label": "express",
       "id": "api_auditroutes_express"
     },
@@ -7336,7 +7556,7 @@
       "source_file": "src/api/auditRoutes.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 139,
       "norm_label": "createauditroutes()",
       "id": "api_auditroutes_createauditroutes"
     },
@@ -7346,7 +7566,7 @@
       "source_file": "src/api/jobRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 144,
       "norm_label": "jobroutes.js",
       "id": "api_jobroutes"
     },
@@ -7356,7 +7576,7 @@
       "source_file": "src/api/jobRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 144,
       "norm_label": "express",
       "id": "api_jobroutes_express"
     },
@@ -7366,7 +7586,7 @@
       "source_file": "src/api/jobRoutes.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 144,
       "norm_label": "createjobroutes()",
       "id": "api_jobroutes_createjobroutes"
     },
@@ -7376,7 +7596,7 @@
       "source_file": "src/api/projectRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 145,
       "norm_label": "projectroutes.js",
       "id": "api_projectroutes"
     },
@@ -7386,7 +7606,7 @@
       "source_file": "src/api/projectRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 145,
       "norm_label": "express",
       "id": "api_projectroutes_express"
     },
@@ -7396,7 +7616,7 @@
       "source_file": "src/api/projectRoutes.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 145,
       "norm_label": "createprojectroutes()",
       "id": "api_projectroutes_createprojectroutes"
     },
@@ -7406,7 +7626,7 @@
       "source_file": "src/api/publishingRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 146,
       "norm_label": "publishingroutes.js",
       "id": "api_publishingroutes"
     },
@@ -7416,7 +7636,7 @@
       "source_file": "src/api/publishingRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 146,
       "norm_label": "express",
       "id": "api_publishingroutes_express"
     },
@@ -7426,7 +7646,7 @@
       "source_file": "src/api/publishingRoutes.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 146,
       "norm_label": "createpublishingroutes()",
       "id": "api_publishingroutes_createpublishingroutes"
     },
@@ -7436,7 +7656,7 @@
       "source_file": "src/api/rewriteRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 147,
       "norm_label": "rewriteroutes.js",
       "id": "api_rewriteroutes"
     },
@@ -7446,7 +7666,7 @@
       "source_file": "src/api/rewriteRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 147,
       "norm_label": "express",
       "id": "api_rewriteroutes_express"
     },
@@ -7456,7 +7676,7 @@
       "source_file": "src/api/rewriteRoutes.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 147,
       "norm_label": "createrewriteroutes()",
       "id": "api_rewriteroutes_createrewriteroutes"
     },
@@ -7466,7 +7686,7 @@
       "source_file": "src/api/siteRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 148,
       "norm_label": "siteroutes.js",
       "id": "api_siteroutes"
     },
@@ -7476,7 +7696,7 @@
       "source_file": "src/api/siteRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 148,
       "norm_label": "express",
       "id": "api_siteroutes_express"
     },
@@ -7486,7 +7706,7 @@
       "source_file": "src/api/siteRoutes.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 148,
       "norm_label": "createsiteroutes()",
       "id": "api_siteroutes_createsiteroutes"
     },
@@ -7496,7 +7716,7 @@
       "source_file": "src/api/statusRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 149,
       "norm_label": "statusroutes.js",
       "id": "api_statusroutes"
     },
@@ -7506,7 +7726,7 @@
       "source_file": "src/api/statusRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 149,
       "norm_label": "express",
       "id": "api_statusroutes_express"
     },
@@ -7516,7 +7736,7 @@
       "source_file": "src/api/statusRoutes.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 0,
+      "community": 149,
       "norm_label": "createstatusroutes()",
       "id": "api_statusroutes_createstatusroutes"
     },
@@ -7526,7 +7746,7 @@
       "source_file": "src/api/wordpressRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 150,
       "norm_label": "wordpressroutes.js",
       "id": "api_wordpressroutes"
     },
@@ -7536,7 +7756,7 @@
       "source_file": "src/api/wordpressRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 150,
       "norm_label": "express",
       "id": "api_wordpressroutes_express"
     },
@@ -7546,7 +7766,7 @@
       "source_file": "src/api/wordpressRoutes.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 150,
       "norm_label": "createwordpressroutes()",
       "id": "api_wordpressroutes_createwordpressroutes"
     },
@@ -7926,7 +8146,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "claudeerrors.js",
       "id": "errors_claudeerrors"
     },
@@ -7936,7 +8156,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "claudeerror",
       "id": "errors_claudeerrors_claudeerror"
     },
@@ -7946,7 +8166,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_claudeerror_constructor"
     },
@@ -7956,7 +8176,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "browsererror",
       "id": "errors_claudeerrors_browsererror"
     },
@@ -7966,7 +8186,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_browsererror_constructor"
     },
@@ -7976,7 +8196,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "profilelockerror",
       "id": "errors_claudeerrors_profilelockerror"
     },
@@ -7986,7 +8206,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_profilelockerror_constructor"
     },
@@ -7996,7 +8216,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "validationerror",
       "id": "errors_claudeerrors_validationerror"
     },
@@ -8006,7 +8226,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_validationerror_constructor"
     },
@@ -8016,7 +8236,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": "contentunavailableerror",
       "id": "errors_claudeerrors_contentunavailableerror"
     },
@@ -8026,7 +8246,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 81,
+      "community": 137,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_contentunavailableerror_constructor"
     },
@@ -8036,7 +8256,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "invalidprojectcontenterror",
       "id": "errors_claudeerrors_invalidprojectcontenterror"
     },
@@ -8046,7 +8266,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidprojectcontenterror_constructor"
     },
@@ -8056,7 +8276,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "invalidresponsequalityerror",
       "id": "errors_claudeerrors_invalidresponsequalityerror"
     },
@@ -8066,7 +8286,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidresponsequalityerror_constructor"
     },
@@ -8076,7 +8296,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "recoveryreport",
       "id": "errors_claudeerrors_recoveryreport"
     },
@@ -8086,7 +8306,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_recoveryreport_constructor"
     },
@@ -8106,7 +8326,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "normalizeerror()",
       "id": "errors_claudeerrors_normalizeerror"
     },
@@ -8116,7 +8336,7 @@
       "source_file": "src/index.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 139,
       "norm_label": "index.js",
       "id": "src_index"
     },
@@ -8126,7 +8346,7 @@
       "source_file": "src/index.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 139,
       "norm_label": "{ bootstrapmanager }",
       "id": "src_index_bootstrapmanager"
     },
@@ -8136,7 +8356,7 @@
       "source_file": "src/index.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 0,
+      "community": 139,
       "norm_label": "{ createapp }",
       "id": "src_index_createapp"
     },
@@ -8146,7 +8366,7 @@
       "source_file": "src/index.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 0,
+      "community": 139,
       "norm_label": "main()",
       "id": "src_index_main"
     },
@@ -8156,7 +8376,7 @@
       "source_file": "src/middleware/auth.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 151,
       "norm_label": "auth.js",
       "id": "middleware_auth"
     },
@@ -8166,7 +8386,7 @@
       "source_file": "src/middleware/auth.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 151,
       "norm_label": "crypto",
       "id": "middleware_auth_crypto"
     },
@@ -8176,7 +8396,7 @@
       "source_file": "src/middleware/auth.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 151,
       "norm_label": "createauthmiddleware()",
       "id": "middleware_auth_createauthmiddleware"
     },
@@ -8346,7 +8566,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "workerstate.js",
       "id": "models_workerstate"
     },
@@ -8356,7 +8576,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "worker_states",
       "id": "models_workerstate_worker_states"
     },
@@ -8366,7 +8586,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 2,
+      "community": 141,
       "norm_label": "persistentworkerstate",
       "id": "models_workerstate_persistentworkerstate"
     },
@@ -8376,7 +8596,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 2,
+      "community": 141,
       "norm_label": ".constructor()",
       "id": "models_workerstate_persistentworkerstate_constructor"
     },
@@ -8386,7 +8606,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 2,
+      "community": 141,
       "norm_label": "._loadinitialstate()",
       "id": "models_workerstate_persistentworkerstate_loadinitialstate"
     },
@@ -8396,7 +8616,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 2,
+      "community": 141,
       "norm_label": ".setstate()",
       "id": "models_workerstate_persistentworkerstate_setstate"
     },
@@ -8406,7 +8626,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 2,
+      "community": 141,
       "norm_label": ".getstate()",
       "id": "models_workerstate_persistentworkerstate_getstate"
     },
@@ -8416,7 +8636,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 2,
+      "community": 141,
       "norm_label": ".incrementrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_incrementrecoveryattempts"
     },
@@ -8426,7 +8646,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 2,
+      "community": 141,
       "norm_label": ".resetrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_resetrecoveryattempts"
     },
@@ -8436,7 +8656,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 2,
+      "community": 141,
       "norm_label": ".getsnapshot()",
       "id": "models_workerstate_persistentworkerstate_getsnapshot"
     },
@@ -9366,7 +9586,7 @@
       "source_file": "src/routes/queue.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 152,
       "norm_label": "queue.js",
       "id": "routes_queue"
     },
@@ -9376,7 +9596,7 @@
       "source_file": "src/routes/queue.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 152,
       "norm_label": "express",
       "id": "routes_queue_express"
     },
@@ -9386,7 +9606,7 @@
       "source_file": "src/routes/queue.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 152,
       "norm_label": "createqueuerouter()",
       "id": "routes_queue_createqueuerouter"
     },
@@ -9456,7 +9676,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "browsermanager.js",
       "id": "services_browsermanager"
     },
@@ -9466,7 +9686,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "{ chromium }",
       "id": "services_browsermanager_chromium"
     },
@@ -9476,7 +9696,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "stealth",
       "id": "services_browsermanager_stealth"
     },
@@ -9486,7 +9706,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "{ spawnsync }",
       "id": "services_browsermanager_spawnsync"
     },
@@ -9496,7 +9716,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "{ worker_states }",
       "id": "services_browsermanager_worker_states"
     },
@@ -9506,7 +9726,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 4,
+      "community": 135,
       "norm_label": "{ browsererror, profilelockerror }",
       "id": "services_browsermanager_browsererror_profilelockerror"
     },
@@ -9686,7 +9906,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "claudemanager.js",
       "id": "services_claudemanager"
     },
@@ -9696,7 +9916,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "fs",
       "id": "services_claudemanager_fs"
     },
@@ -9706,7 +9926,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "path",
       "id": "services_claudemanager_path"
     },
@@ -9716,7 +9936,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "{ \n    validationerror, \n    recoveryreport, \n    invalidprojectcontenterror, \n    invalidresponsequalityerror, \n    createclaudeerror, \n    normalizeerror \n}",
       "id": "services_claudemanager_validationerror_recoveryreport_invalidprojectcontenterror_invalidresponsequalityerror_createclaudeerror_normalizeerror"
     },
@@ -9726,7 +9946,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "{ worker_states }",
       "id": "services_claudemanager_worker_states"
     },
@@ -9736,7 +9956,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "selectors",
       "id": "services_claudemanager_selectors"
     },
@@ -10146,7 +10366,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": "claudeworker",
       "id": "services_claudeworker_claudeworker"
     },
@@ -10156,7 +10376,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": ".constructor()",
       "id": "services_claudeworker_claudeworker_constructor"
     },
@@ -10166,7 +10386,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": ".initialize()",
       "id": "services_claudeworker_claudeworker_initialize"
     },
@@ -10176,7 +10396,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": ".startprocessing()",
       "id": "services_claudeworker_claudeworker_startprocessing"
     },
@@ -10186,7 +10406,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L71",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": ".stopprocessing()",
       "id": "services_claudeworker_claudeworker_stopprocessing"
     },
@@ -10196,7 +10416,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L79",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": "._processpendingjobs()",
       "id": "services_claudeworker_claudeworker_processpendingjobs"
     },
@@ -10206,7 +10426,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L102",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": ".executejob()",
       "id": "services_claudeworker_claudeworker_executejob"
     },
@@ -10216,7 +10436,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L356",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": "._recordjobchat()",
       "id": "services_claudeworker_claudeworker_recordjobchat"
     },
@@ -10226,7 +10446,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L369",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": "._saveresponse()",
       "id": "services_claudeworker_claudeworker_saveresponse"
     },
@@ -10236,7 +10456,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L383",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": "._resetworkerstate()",
       "id": "services_claudeworker_claudeworker_resetworkerstate"
     },
@@ -10246,7 +10466,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L392",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": ".getqueuesize()",
       "id": "services_claudeworker_claudeworker_getqueuesize"
     },
@@ -10256,7 +10476,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L396",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": ".ishealthy()",
       "id": "services_claudeworker_claudeworker_ishealthy"
     },
@@ -10266,7 +10486,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L400",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": ".getstatussnapshot()",
       "id": "services_claudeworker_claudeworker_getstatussnapshot"
     },
@@ -10276,7 +10496,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L404",
       "_origin": "ast",
-      "community": 81,
+      "community": 133,
       "norm_label": ".rewrite()",
       "id": "services_claudeworker_claudeworker_rewrite"
     },
@@ -10806,7 +11026,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 82,
+      "community": 118,
       "norm_label": "publishingservice.js",
       "id": "services_publishingservice"
     },
@@ -10816,7 +11036,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 82,
+      "community": 118,
       "norm_label": "{ project_statuses }",
       "id": "services_publishingservice_project_statuses"
     },
@@ -10826,7 +11046,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 82,
+      "community": 118,
       "norm_label": "wordpressclient",
       "id": "services_publishingservice_wordpressclient"
     },
@@ -11696,7 +11916,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 143,
       "norm_label": "logger.js",
       "id": "utils_logger"
     },
@@ -11706,7 +11926,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 143,
       "norm_label": "sensitive_keys",
       "id": "utils_logger_sensitive_keys"
     },
@@ -11716,7 +11936,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 2,
+      "community": 143,
       "norm_label": "redact()",
       "id": "utils_logger_redact"
     },
@@ -11726,7 +11946,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 2,
+      "community": 143,
       "norm_label": "normalizepayload()",
       "id": "utils_logger_normalizepayload"
     },
@@ -11736,7 +11956,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 2,
+      "community": 143,
       "norm_label": "write()",
       "id": "utils_logger_write"
     },
@@ -11746,7 +11966,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L62",
       "_origin": "ast",
-      "community": 2,
+      "community": 136,
       "norm_label": "createlogger()",
       "id": "utils_logger_createlogger"
     },
@@ -11922,7 +12142,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "validation.test.js",
       "id": "tests_validation_test"
     },
@@ -11932,7 +12152,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "{ claudemanager }",
       "id": "tests_validation_test_claudemanager"
     },
@@ -11942,7 +12162,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 4,
+      "community": 80,
       "norm_label": "{ validationerror }",
       "id": "tests_validation_test_validationerror"
     },
@@ -12682,132 +12902,222 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
-      "source_location": "L205",
+      "source_file": "setup_16.js",
+      "source_location": "L382",
       "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_bootstrapcontent",
+      "source": "setup_16",
+      "target": "setup_16_bootstrap",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
-      "source_location": "L204",
+      "source_file": "setup_16.js",
+      "source_location": "L381",
       "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_bootstrappath",
+      "source": "setup_16",
+      "target": "setup_16_bootstrappath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
+      "source_file": "setup_16.js",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_fs",
+      "source": "setup_16",
+      "target": "setup_16_fs",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
-      "source_location": "L7",
+      "source_file": "setup_16.js",
+      "source_location": "L6",
       "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_mkdirp",
+      "source": "setup_16",
+      "target": "setup_16_mkdirp",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
+      "source_file": "setup_16.js",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_path",
+      "source": "setup_16",
+      "target": "setup_16_path",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
-      "source_location": "L118",
+      "source_file": "setup_16.js",
+      "source_location": "L359",
       "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_pluginroutescontent",
+      "source": "setup_16",
+      "target": "setup_16_servercontent",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
-      "source_location": "L117",
+      "source_file": "setup_16.js",
+      "source_location": "L358",
       "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_pluginroutespath",
+      "source": "setup_16",
+      "target": "setup_16_serverpath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_schemacontent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_schemapath",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
-      "source_location": "L194",
-      "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_servercontent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_p7.js",
-      "source_location": "L193",
-      "weight": 1.0,
-      "source": "setup_p7",
-      "target": "setup_p7_serverpath",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/api/pluginRoutes.js",
+      "source_file": "src/api/dashboardRoutes.js",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "api_pluginroutes",
-      "target": "api_pluginroutes_createpluginroutes"
+      "source": "api_dashboardroutes",
+      "target": "api_dashboardroutes_apierror_errorcodes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/api/pluginRoutes.js",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "api_dashboardroutes_createdashboardroutes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/dashboardRoutes.js",
       "source_location": "L1",
       "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "api_dashboardroutes_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "api_dashboardroutes_sendsuccess_senderror_parsepagination",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "utils_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "utils_errors_apierror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "utils_errors_errorcodes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "utils_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "utils_response_parsepagination",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "utils_response_senderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/dashboardRoutes.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "api_dashboardroutes",
+      "target": "utils_response_sendsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_server",
+      "target": "api_dashboardroutes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_server",
+      "target": "api_dashboardroutes_createdashboardroutes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source": "api_pluginroutes",
-      "target": "api_pluginroutes_express"
+      "source_file": "src/server.js",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "src_server_createapp",
+      "target": "api_dashboardroutes_createdashboardroutes"
     },
     {
       "relation": "contains",
@@ -12898,6 +13208,16 @@
       "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
       "target": "bootstrap_bootstrapmanager_createlogger"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_dashboardreadservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13205,9 +13525,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_wordpressoperationservice",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_wordpressoperationservice"
     },
     {
       "relation": "contains",
@@ -13760,6 +14080,28 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_dashboardreadservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_dashboardreadservice_dashboardreadservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L31",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -13949,9 +14291,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "services_wordpressoperationservice",
-      "confidence_score": 1.0
+      "target": "services_wordpressoperationservice"
     },
     {
       "relation": "imports",
@@ -13960,9 +14302,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "services_wordpressoperationservice_wordpressoperationservice",
-      "confidence_score": 1.0
+      "target": "services_wordpressoperationservice_wordpressoperationservice"
     },
     {
       "relation": "imports_from",
@@ -14714,6 +15056,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/server.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_server",
+      "target": "src_server_createdashboardroutes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.js",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -15008,12 +15360,203 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getjobs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getoperations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getoverview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getprojectbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getprojects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getsites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_mapprojectdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice_getprojectbyid",
+      "target": "services_dashboardreadservice_dashboardreadservice_mapprojectdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/errors.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "utils_errors",
+      "target": "utils_errors_apierror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/errors.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "utils_errors",
+      "target": "utils_errors_errorcodes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/errors.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "utils_errors_apierror",
+      "target": "utils_errors_apierror_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/response.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "utils_response",
+      "target": "utils_response_parsepagination",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/response.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "utils_response",
+      "target": "utils_response_senderror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/utils/response.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "utils_response",
+      "target": "utils_response_sendsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_pluginroutes",
+      "target": "api_pluginroutes_createpluginroutes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_pluginroutes",
+      "target": "api_pluginroutes_express"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_wordpressoperationservice",
-      "target": "services_wordpressoperationservice_crypto",
-      "confidence_score": 1.0
+      "target": "services_wordpressoperationservice_crypto"
     },
     {
       "relation": "contains",
@@ -15021,9 +15564,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_wordpressoperationservice",
-      "target": "services_wordpressoperationservice_wordpressoperationservice",
-      "confidence_score": 1.0
+      "target": "services_wordpressoperationservice_wordpressoperationservice"
     },
     {
       "relation": "method",
@@ -15031,9 +15574,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_wordpressoperationservice_wordpressoperationservice",
-      "target": "services_wordpressoperationservice_wordpressoperationservice_acknowledge",
-      "confidence_score": 1.0
+      "target": "services_wordpressoperationservice_wordpressoperationservice_acknowledge"
     },
     {
       "relation": "method",
@@ -15041,9 +15584,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_wordpressoperationservice_wordpressoperationservice",
-      "target": "services_wordpressoperationservice_wordpressoperationservice_constructor",
-      "confidence_score": 1.0
+      "target": "services_wordpressoperationservice_wordpressoperationservice_constructor"
     },
     {
       "relation": "method",
@@ -15051,9 +15594,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_wordpressoperationservice_wordpressoperationservice",
-      "target": "services_wordpressoperationservice_wordpressoperationservice_createoperation",
-      "confidence_score": 1.0
+      "target": "services_wordpressoperationservice_wordpressoperationservice_createoperation"
     },
     {
       "relation": "method",
@@ -15061,9 +15604,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_wordpressoperationservice_wordpressoperationservice",
-      "target": "services_wordpressoperationservice_wordpressoperationservice_getpendingoperations",
-      "confidence_score": 1.0
+      "target": "services_wordpressoperationservice_wordpressoperationservice_getpendingoperations"
     },
     {
       "relation": "method",
@@ -15071,9 +15614,9 @@
       "source_file": "src/services/WordPressOperationService.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_wordpressoperationservice_wordpressoperationservice",
-      "target": "services_wordpressoperationservice_wordpressoperationservice_markdelivered",
-      "confidence_score": 1.0
+      "target": "services_wordpressoperationservice_wordpressoperationservice_markdelivered"
     },
     {
       "relation": "contains",
@@ -15081,9 +15624,9 @@
       "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operations_createdraftoperation",
-      "target": "operations_createdraftoperation_createdraftoperation",
-      "confidence_score": 1.0
+      "target": "operations_createdraftoperation_createdraftoperation"
     },
     {
       "relation": "method",
@@ -15091,9 +15634,9 @@
       "source_file": "wordpress-agent-plugin/operations/CreateDraftOperation.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operations_createdraftoperation_createdraftoperation",
-      "target": "operations_createdraftoperation_createdraftoperation_execute",
-      "confidence_score": 1.0
+      "target": "operations_createdraftoperation_createdraftoperation_execute"
     },
     {
       "relation": "contains",
@@ -15101,9 +15644,9 @@
       "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operations_fetchpostoperation",
-      "target": "operations_fetchpostoperation_fetchpostoperation",
-      "confidence_score": 1.0
+      "target": "operations_fetchpostoperation_fetchpostoperation"
     },
     {
       "relation": "method",
@@ -15111,9 +15654,9 @@
       "source_file": "wordpress-agent-plugin/operations/FetchPostOperation.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operations_fetchpostoperation_fetchpostoperation",
-      "target": "operations_fetchpostoperation_fetchpostoperation_execute",
-      "confidence_score": 1.0
+      "target": "operations_fetchpostoperation_fetchpostoperation_execute"
     },
     {
       "relation": "contains",
@@ -15121,9 +15664,9 @@
       "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operations_pingoperation",
-      "target": "operations_pingoperation_pingoperation",
-      "confidence_score": 1.0
+      "target": "operations_pingoperation_pingoperation"
     },
     {
       "relation": "method",
@@ -15131,9 +15674,9 @@
       "source_file": "wordpress-agent-plugin/operations/PingOperation.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operations_pingoperation_pingoperation",
-      "target": "operations_pingoperation_pingoperation_execute",
-      "confidence_score": 1.0
+      "target": "operations_pingoperation_pingoperation_execute"
     },
     {
       "relation": "contains",
@@ -15141,9 +15684,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_operationexecutor",
-      "target": "services_operationexecutor_operationexecutor",
-      "confidence_score": 1.0
+      "target": "services_operationexecutor_operationexecutor"
     },
     {
       "relation": "method",
@@ -15151,9 +15694,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_operationexecutor_operationexecutor",
-      "target": "services_operationexecutor_operationexecutor_construct",
-      "confidence_score": 1.0
+      "target": "services_operationexecutor_operationexecutor_construct"
     },
     {
       "relation": "method",
@@ -15161,9 +15704,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_operationexecutor_operationexecutor",
-      "target": "services_operationexecutor_operationexecutor_processoperations",
-      "confidence_score": 1.0
+      "target": "services_operationexecutor_operationexecutor_processoperations"
     },
     {
       "relation": "method",
@@ -15171,9 +15714,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_operationexecutor_operationexecutor",
-      "target": "services_operationexecutor_operationexecutor_sendacknowledgements",
-      "confidence_score": 1.0
+      "target": "services_operationexecutor_operationexecutor_sendacknowledgements"
     },
     {
       "relation": "calls",
@@ -15182,9 +15725,9 @@
       "source_file": "wordpress-agent-plugin/services/OperationExecutor.php",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_operationexecutor_operationexecutor_processoperations",
-      "target": "services_operationexecutor_operationexecutor_sendacknowledgements",
-      "confidence_score": 1.0
+      "target": "services_operationexecutor_operationexecutor_sendacknowledgements"
     },
     {
       "relation": "contains",
@@ -28546,5 +29089,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "36483dc7b3e19fc89dbd194e512fb58089c58c16"
+  "built_at_commit": "a88a0ca81472f882352faaf7600e3f87ef87b5be"
 }

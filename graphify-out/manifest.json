@@ -180,8 +180,8 @@
     "semantic_hash": "da47d4a21d7de3faab0b84c42520c1c0"
   },
   "src/bootstrap/BootstrapManager.js": {
-    "mtime": 1782710183.8422449,
-    "ast_hash": "72337c688c51fc3b988383b78049daa7",
+    "mtime": 1782710450.6299005,
+    "ast_hash": "30f5d4c7c52ec454cefa880e7aecc4fb",
     "semantic_hash": ""
   },
   "src/bootstrap/PreFlightValidator.js": {
@@ -325,8 +325,8 @@
     "semantic_hash": "87beee9d1701c3dbf30ab31e28f3e107"
   },
   "src/server.js": {
-    "mtime": 1782710183.841097,
-    "ast_hash": "63d850e47d5050c8fae380897fc6d5fc",
+    "mtime": 1782710450.62869,
+    "ast_hash": "48156657861a4d76b93e75e43894896a",
     "semantic_hash": ""
   },
   "src/services/BrowserManager.js": {
@@ -1274,11 +1274,6 @@
     "ast_hash": "c3b8e23b2a6191100383cb10d7585863",
     "semantic_hash": ""
   },
-  "setup_p7.js": {
-    "mtime": 1782710175.8349154,
-    "ast_hash": "ee80f93c3c7d56a656aa76fa10739b83",
-    "semantic_hash": ""
-  },
   "src/services/WordPressOperationService.js": {
     "mtime": 1782710183.8394477,
     "ast_hash": "a30cdb55f0df5a9366555543fa5a8ca2",
@@ -1302,6 +1297,31 @@
   "wordpress-agent-plugin/services/OperationExecutor.php": {
     "mtime": 1782710183.8425453,
     "ast_hash": "dcb21eda40c51c478a2147f977e56db2",
+    "semantic_hash": ""
+  },
+  "setup_16.js": {
+    "mtime": 1782710443.4818492,
+    "ast_hash": "16314c70639cb1a5f2fd287fd9718f8c",
+    "semantic_hash": ""
+  },
+  "src/api/dashboardRoutes.js": {
+    "mtime": 1782710450.6278646,
+    "ast_hash": "ad1f0c13b487f825d6e8a1baa0432cfc",
+    "semantic_hash": ""
+  },
+  "src/services/DashboardReadService.js": {
+    "mtime": 1782710450.6273272,
+    "ast_hash": "dcbcfd21cd3286a3d6a62666ca36ec14",
+    "semantic_hash": ""
+  },
+  "src/utils/errors.js": {
+    "mtime": 1782710450.6269429,
+    "ast_hash": "fbab40b5b8178eb98aa3b57c73a87699",
+    "semantic_hash": ""
+  },
+  "src/utils/response.js": {
+    "mtime": 1782710450.6270828,
+    "ast_hash": "ef946bc3efc5c199a68231c64d746a57",
     "semantic_hash": ""
   }
 }
