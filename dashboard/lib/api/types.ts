@@ -128,3 +128,30 @@ export interface ProjectFilters {
     workflowState?: string;
     search?: string;
 }
+
+export interface AuditIssue {
+    category: string;
+    priority: string;
+    description: string;
+}
+
+export interface AuditDto {
+    id: number;
+    projectId: number;
+    siteId: number;
+    jobId: number;
+    status: string;
+    seoScore: number | null;
+    intentScore: number | null;
+    eeatScore: number | null;
+    readabilityScore: number | null;
+    issues: AuditIssue[];
+    recommendations: string[];
+    promptVersion: string;
+    promptHash: string;
+    claudeChatId: string;
+    runtimeMs: number;
+    failureReason: string;
+    createdAt: string;
+    postTitle: string;
+}

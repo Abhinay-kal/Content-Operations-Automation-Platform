@@ -48,6 +48,26 @@ function createDashboardRoutes({ dashboardReadService, logger }) {
     });
 
     
+    
+    router.get('/dashboard/audits/:id', (req, res) => {
+        try {
+            const data = dashboardReadService.getAuditById(req.params.id);
+            if (!data) return sendError(res, new ApiError(ErrorCodes.PROJECT_NOT_FOUND, 'Audit not found', 404));
+            return sendSuccess(res, data);
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    router.get('/dashboard/projects/:id/audits', (req, res) => {
+        try {
+            const data = dashboardReadService.getProjectAudits(req.params.id);
+            return sendSuccess(res, data);
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
     router.get('/dashboard/projects/:id/history', (req, res) => {
         try {
             const p = parsePagination(req);

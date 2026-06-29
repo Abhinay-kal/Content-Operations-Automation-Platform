@@ -1300,13 +1300,13 @@
     "semantic_hash": ""
   },
   "src/api/dashboardRoutes.js": {
-    "mtime": 1782724718.4747634,
-    "ast_hash": "84d5e5b66cfc89d94a91789ac019c284",
+    "mtime": 1782725119.4928677,
+    "ast_hash": "866ba66a3cf37ae55ffa92dff982dc28",
     "semantic_hash": ""
   },
   "src/services/DashboardReadService.js": {
-    "mtime": 1782724718.4740143,
-    "ast_hash": "267ad327cb066a2d54b682c08c162d8b",
+    "mtime": 1782725119.4918094,
+    "ast_hash": "f623d2229c1ff8a7dc0742b3b5e54cec",
     "semantic_hash": ""
   },
   "src/utils/errors.js": {
@@ -1370,8 +1370,8 @@
     "semantic_hash": ""
   },
   "dashboard/hooks/useProjects.ts": {
-    "mtime": 1782710693.1965976,
-    "ast_hash": "cfc719468c7388a1f862cf9cae54187a",
+    "mtime": 1782725119.494342,
+    "ast_hash": "7725ad8e504fbc5f2a7530db6a3531f6",
     "semantic_hash": ""
   },
   "dashboard/hooks/useSites.ts": {
@@ -1390,8 +1390,8 @@
     "semantic_hash": ""
   },
   "dashboard/lib/api/types.ts": {
-    "mtime": 1782724718.4763427,
-    "ast_hash": "7d2820c6d5d2795f1ba579e6abde8080",
+    "mtime": 1782725119.4939473,
+    "ast_hash": "4b9c52d5cd51bc71310ff442edf1a323",
     "semantic_hash": ""
   },
   "dashboard/lib/utils.ts": {
@@ -1539,9 +1539,29 @@
     "ast_hash": "21ee5098ce25912af39efbee35dd1167",
     "semantic_hash": ""
   },
-  "setup_d3.js": {
-    "mtime": 1782724712.416147,
-    "ast_hash": "d336fb8501624281249c1874906d0830",
+  "dashboard/app/projects/[projectId]/page.tsx": {
+    "mtime": 1782725119.4953887,
+    "ast_hash": "262a0c860e507cc7c0eb2f6136eb45a9",
+    "semantic_hash": ""
+  },
+  "dashboard/app/projects/page.tsx": {
+    "mtime": 1782725119.4947994,
+    "ast_hash": "e7452355ab3cc50350aa521b479cf944",
+    "semantic_hash": ""
+  },
+  "dashboard/components/workflow/WorkflowStepper.tsx": {
+    "mtime": 1782725119.494595,
+    "ast_hash": "352b9f391fb3ebf0f0dd83d989ac00cd",
+    "semantic_hash": ""
+  },
+  "dashboard/hooks/useProjectDetails.ts": {
+    "mtime": 1782725119.494481,
+    "ast_hash": "7cfb85494b76ea7185da5dd1eec01793",
+    "semantic_hash": ""
+  },
+  "setup_d4.js": {
+    "mtime": 1782725112.6289728,
+    "ast_hash": "59e8cc5588645c3d099ad232e538c3c8",
     "semantic_hash": ""
   }
 }

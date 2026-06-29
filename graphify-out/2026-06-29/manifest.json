@@ -1300,13 +1300,13 @@
     "semantic_hash": ""
   },
   "src/api/dashboardRoutes.js": {
-    "mtime": 1782710450.6278646,
-    "ast_hash": "ad1f0c13b487f825d6e8a1baa0432cfc",
+    "mtime": 1782724718.4747634,
+    "ast_hash": "84d5e5b66cfc89d94a91789ac019c284",
     "semantic_hash": ""
   },
   "src/services/DashboardReadService.js": {
-    "mtime": 1782710450.6273272,
-    "ast_hash": "dcbcfd21cd3286a3d6a62666ca36ec14",
+    "mtime": 1782724718.4740143,
+    "ast_hash": "267ad327cb066a2d54b682c08c162d8b",
     "semantic_hash": ""
   },
   "src/utils/errors.js": {
@@ -1390,8 +1390,8 @@
     "semantic_hash": ""
   },
   "dashboard/lib/api/types.ts": {
-    "mtime": 1782710693.1957822,
-    "ast_hash": "baeacf69d789ea27f97f6fa3e5531d0c",
+    "mtime": 1782724718.4763427,
+    "ast_hash": "7d2820c6d5d2795f1ba579e6abde8080",
     "semantic_hash": ""
   },
   "dashboard/lib/utils.ts": {
@@ -1509,9 +1509,39 @@
     "ast_hash": "b52f00859b71467d6380063e1d3eed63",
     "semantic_hash": ""
   },
-  "setup_d2.js": {
-    "mtime": 1782724531.308614,
-    "ast_hash": "2e22718916388ec5e15077639cb8bae8",
+  "dashboard/app/sites/[siteId]/layout.tsx": {
+    "mtime": 1782724718.4768586,
+    "ast_hash": "2549c10e8cc7eb7672d2f4fbcb303299",
+    "semantic_hash": ""
+  },
+  "dashboard/app/sites/[siteId]/page.tsx": {
+    "mtime": 1782724718.4769611,
+    "ast_hash": "c12dfc1d9307af0eb51ca2861fc0009d",
+    "semantic_hash": ""
+  },
+  "dashboard/app/sites/[siteId]/plugin/page.tsx": {
+    "mtime": 1782724718.4770634,
+    "ast_hash": "66d9b5ce1d7ee4d0858c4aa03f25f56d",
+    "semantic_hash": ""
+  },
+  "dashboard/app/sites/[siteId]/settings/page.tsx": {
+    "mtime": 1782724718.4773467,
+    "ast_hash": "df6566e36cd668a02bd80044f8a31f03",
+    "semantic_hash": ""
+  },
+  "dashboard/app/sites/page.tsx": {
+    "mtime": 1782724718.4767423,
+    "ast_hash": "3ab8a7b94a3817796f7b6b434cfdb3e1",
+    "semantic_hash": ""
+  },
+  "dashboard/hooks/useSiteDetails.ts": {
+    "mtime": 1782724718.476565,
+    "ast_hash": "21ee5098ce25912af39efbee35dd1167",
+    "semantic_hash": ""
+  },
+  "setup_d3.js": {
+    "mtime": 1782724712.416147,
+    "ast_hash": "d336fb8501624281249c1874906d0830",
     "semantic_hash": ""
   }
 }

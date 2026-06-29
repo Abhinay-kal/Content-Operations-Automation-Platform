@@ -286,3 +286,24 @@ CREATE TABLE wordpress_operations (
     created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE seo_audits (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_id INTEGER NOT NULL,
+    site_id INTEGER NOT NULL,
+    job_id INTEGER,
+    status TEXT DEFAULT 'COMPLETED',
+    seo_score INTEGER,
+    intent_score INTEGER,
+    eeat_score INTEGER,
+    readability_score INTEGER,
+    issues TEXT, -- JSON array
+    recommendations TEXT, -- JSON array
+    prompt_version TEXT,
+    prompt_hash TEXT,
+    claude_chat_id TEXT,
+    runtime_ms INTEGER,
+    failure_reason TEXT,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

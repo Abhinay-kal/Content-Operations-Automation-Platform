@@ -51,7 +51,9 @@ export default function ProjectDetail({ params }: { params: Promise<{projectId: 
                     </div>
                     <div>
                         <div className="text-xs text-gray-500 uppercase tracking-wide">Audit Score</div>
-                        <div className="font-semibold text-lg mt-1 text-blue-600">{project.auditScore || 'N/A'}</div>
+                        <div className="font-semibold text-lg mt-1 text-blue-600">
+                            {project.latestAuditId ? <Link href={`/audits/${project.latestAuditId}`} className="hover:underline">{project.auditScore || 'View Audit'}</Link> : (project.auditScore || 'N/A')}
+                        </div>
                     </div>
                     <div>
                         <div className="text-xs text-gray-500 uppercase tracking-wide">Created At</div>

@@ -133,6 +133,49 @@ class DashboardReadService {
         }
     }
 
+    
+    getAuditById(id) {
+        try {
+            const r = this.db.prepare('SELECT * FROM seo_audits WHERE id = ?').get(id);
+            if (!r) return null;
+            return this.mapAuditDto(r);
+        } catch(e) {
+            return null;
+        }
+    }
+
+    getProjectAudits(projectId) {
+        try {
+            const rows = this.db.prepare('SELECT * FROM seo_audits WHERE project_id = ? ORDER BY created_at DESC').all(projectId);
+            return rows.map(r => this.mapAuditDto(r));
+        } catch(e) {
+            return [];
+        }
+    }
+
+    mapAuditDto(row) {
+        return {
+            id: row.id,
+            projectId: row.project_id,
+            siteId: row.site_id,
+            jobId: row.job_id,
+            status: row.status,
+            seoScore: row.seo_score,
+            intentScore: row.intent_score,
+            eeatScore: row.eeat_score,
+            readabilityScore: row.readability_score,
+            issues: JSON.parse(row.issues || '[]'),
+            recommendations: JSON.parse(row.recommendations || '[]'),
+            promptVersion: row.prompt_version,
+            promptHash: row.prompt_hash,
+            claudeChatId: row.claude_chat_id,
+            runtimeMs: row.runtime_ms,
+            failureReason: row.failure_reason,
+            createdAt: row.created_at,
+            postTitle: 'Placeholder Title'
+        };
+    }
+
     getProjectById(id) {
         const row = this.db.prepare('SELECT * FROM content_projects WHERE id = ?').get(id);
         if (!row) return null;
