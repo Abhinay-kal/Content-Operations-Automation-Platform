@@ -1,5 +1,8 @@
 jQuery(document).ready(function($) {
-    function handleAction($btn, actionName, isHeartbeat = false) {
+    console.log("SEO Opt Agent: admin.js loaded successfully!");
+    
+    function handleAction($btn, actionName, isHeartbeat) {
+        isHeartbeat = isHeartbeat || false;
         var originalText = $btn.text();
         $btn.text(seoOptAgentObj.loading_text).prop('disabled', true);
         $('#seo-opt-notices-container').html('');
@@ -8,6 +11,7 @@ jQuery(document).ready(function($) {
             action: actionName,
             nonce: seoOptAgentObj.nonce
         }, function(response) {
+            console.log("SEO Opt Agent AJAX Response:", response);
             var noticeClass = response.success ? 'notice-success' : 'notice-error';
             var html = '<div class="notice ' + noticeClass + ' is-dismissible"><p>' + response.data.message + '</p></div>';
             $('#seo-opt-notices-container').html(html);
@@ -26,8 +30,9 @@ jQuery(document).ready(function($) {
             } else {
                 $('#seo-opt-last-error').text(response.data.last_error || 'Unknown Error').css('color', '#d63638');
             }
-        }).fail(function() {
-            $('#seo-opt-notices-container').html('<div class="notice notice-error is-dismissible"><p>Network error occurred.</p></div>');
+        }).fail(function(xhr, status, error) {
+            console.error("SEO Opt Agent AJAX Error:", status, error);
+            $('#seo-opt-notices-container').html('<div class="notice notice-error is-dismissible"><p>Network error occurred. Check browser console.</p></div>');
         }).always(function() {
             $btn.text(originalText).prop('disabled', false);
         });
@@ -35,6 +40,7 @@ jQuery(document).ready(function($) {
 
     $('#seo-opt-handshake').on('click', function(e) {
         e.preventDefault();
+        console.log("Handshake clicked");
         handleAction($(this), 'seo_opt_handshake');
     });
 
