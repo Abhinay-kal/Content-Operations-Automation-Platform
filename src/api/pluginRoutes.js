@@ -69,7 +69,48 @@ function createPluginRoutes({ pluginService, logger }) {
         res.json({ success: true, data: { capabilities: ['basic'] } });
     });
 
-    return router;
+    
+    router.post('/plugin/events', authenticate, (req, res) => {
+        try {
+            const events = req.body.events;
+            if (!events || !Array.isArray(events)) {
+                return res.status(400).json({ success: false, error: 'Invalid payload schema' });
+            }
+            
+            if (pluginService.pluginRepository) {
+                const stmt = pluginService.pluginRepository.db.prepare(`
+                    INSERT INTO event_ingestion (
+                        installation_id, event_id, event_type, entity_type, entity_id, payload, received_at
+                    ) VALUES (
+                        @installation_id, @event_id, @event_type, @entity_type, @entity_id, @payload, CURRENT_TIMESTAMP
+                    )
+                `);
+                
+                const installation = pluginService.pluginRepository.findByToken(req.pluginToken);
+                
+                for (const event of events) {
+                    try {
+                        stmt.run({
+                            installation_id: installation.id,
+                            event_id: event.eventId || '',
+                            event_type: event.eventType || '',
+                            entity_type: event.entityType || '',
+                            entity_id: String(event.entityId || ''),
+                            payload: JSON.stringify(event)
+                        });
+                    } catch(e) {
+                        if(logger) logger.error('Error inserting event', { error: e.message });
+                    }
+                }
+            }
+
+            res.json({ success: true, processed: events.length });
+        } catch (err) {
+            if(logger) logger.error('Event ingestion error', { error: err.message });
+            res.status(400).json({ success: false, error: err.message });
+        }
+    });
+\n    return router;
 }
 
 module.exports = { createPluginRoutes };

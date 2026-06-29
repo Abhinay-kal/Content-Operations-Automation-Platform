@@ -192,3 +192,13 @@
 {"timestamp":"2026-06-29T03:52:27.128Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_goto"}
 {"timestamp":"2026-06-29T03:52:27.129Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_human_emulation"}
 {"timestamp":"2026-06-29T03:52:27.129Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"starting_url_check"}
+{"timestamp":"2026-06-29T03:52:42.136Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_url_check","url":"https://claude.ai/new"}
+{"timestamp":"2026-06-29T03:52:45.149Z","scope":"ClaudeWorker","level":"error","event":"FIND_FIRST_AVAILABLE_ERROR","error":"All promises were rejected"}
+{"timestamp":"2026-06-29T03:52:45.149Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_promise_race"}
+{"timestamp":"2026-06-29T03:52:46.158Z","scope":"ClaudeWorker","level":"info","event":"INIT_COMPLETE"}
+{"timestamp":"2026-06-29T03:52:46.159Z","scope":"ClaudeWorker","level":"info","event":"WORKER_INITIALIZING"}
+{"timestamp":"2026-06-29T03:52:46.160Z","scope":"ClaudeWorker","level":"info","event":"WORKER_PROCESSING_START"}
+{"timestamp":"2026-06-29T03:52:46.160Z","scope":"SessionMonitor","level":"info","event":"SESSION_MONITOR_START"}
+{"timestamp":"2026-06-29T03:52:46.186Z","scope":"Server","level":"info","message":"listening","port":3000}
+{"timestamp":"2026-06-29T03:52:46.187Z","scope":"Server","level":"info","message":"dashboard_skipped","reason":"not_a_tty"}
+{"timestamp":"2026-06-29T03:52:47.133Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"READY","to":"HEALTHY","reason":"state_update"}

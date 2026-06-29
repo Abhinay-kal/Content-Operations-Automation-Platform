@@ -240,3 +240,17 @@ CREATE TABLE plugin_installations (
     updated_at DATETIME NOT NULL,
     FOREIGN KEY(site_id) REFERENCES sites(id) ON DELETE CASCADE
 );
+
+CREATE TABLE event_ingestion (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    installation_id INTEGER,
+    event_id TEXT NOT NULL,
+    event_type TEXT NOT NULL,
+    entity_type TEXT NOT NULL,
+    entity_id TEXT NOT NULL,
+    payload TEXT,
+    received_at DATETIME NOT NULL,
+    processed INTEGER DEFAULT 0,
+    processed_at DATETIME,
+    error TEXT
+);
