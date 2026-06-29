@@ -1,16 +1,16 @@
 # Graph Report - n8n  (2026-06-29)
 
 ## Corpus Check
-- 219 files · ~126,457 words
+- 228 files · ~127,942 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1396 nodes · 1693 edges · 161 communities (56 shown, 105 thin omitted)
+- 1419 nodes · 1735 edges · 157 communities (55 shown, 102 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `849b222c`
+- Built from commit: `356bbc49`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -145,7 +145,6 @@
 - [[_COMMUNITY_Community 134|Community 134]]
 - [[_COMMUNITY_Community 135|Community 135]]
 - [[_COMMUNITY_Community 136|Community 136]]
-- [[_COMMUNITY_Community 137|Community 137]]
 - [[_COMMUNITY_Community 138|Community 138]]
 - [[_COMMUNITY_Community 139|Community 139]]
 - [[_COMMUNITY_Community 140|Community 140]]
@@ -161,9 +160,6 @@
 - [[_COMMUNITY_Community 150|Community 150]]
 - [[_COMMUNITY_Community 151|Community 151]]
 - [[_COMMUNITY_Community 152|Community 152]]
-- [[_COMMUNITY_Community 153|Community 153]]
-- [[_COMMUNITY_Community 154|Community 154]]
-- [[_COMMUNITY_Community 155|Community 155]]
 - [[_COMMUNITY_Community 156|Community 156]]
 - [[_COMMUNITY_Community 157|Community 157]]
 - [[_COMMUNITY_Community 158|Community 158]]
@@ -202,7 +198,7 @@
 - **Junior vs Senior Engineer Differences** — failure_junior_engineer, failure_senior_engineer, failure_scope_of_thinking, failure_handling_ambiguity, failure_impact_vs_output [EXTRACTED 0.75]
 - **Junior vs Senior Comparison** — failure1780489233782_junior_engineer, failure1780489233782_senior_engineer, failure1780489233782_scope_of_thinking [EXTRACTED 1.00]
 
-## Communities (161 total, 105 thin omitted)
+## Communities (157 total, 102 thin omitted)
 
 ### Community 0 - "Auditroutes Components"
 Cohesion: 0.11
@@ -312,17 +308,21 @@ Nodes (9): 1. Fresh Installation, 2. Update Deployment, 3. Lifecycle Management,
 Cohesion: 0.31
 Nodes (7): AdminModule, ModuleInterface, ConfigService, HeartbeatService, Loader, Notices, RegistrationService
 
+### Community 68 - "Script Components"
+Cohesion: 0.05
+Nodes (22): ContentUnavailableError, AuditPromptBuilder, { ContentUnavailableError, InvalidProjectContentError }, { FailureClassifier }, fs, path, { PROJECT_STATUSES }, RewritePromptBuilder (+14 more)
+
 ### Community 80 - "Community 80"
 Cohesion: 0.06
 Nodes (30): dependencies, @base-ui/react, class-variance-authority, clsx, lucide-react, next, react, react-dom (+22 more)
 
 ### Community 81 - "Community 81"
-Cohesion: 0.17
-Nodes (10): AuditPromptBuilder, { ContentUnavailableError, InvalidProjectContentError }, { FailureClassifier }, fs, path, { PROJECT_STATUSES }, RewritePromptBuilder, { WORKER_STATES } (+2 more)
+Cohesion: 0.33
+Nodes (4): fs, path, useSitesCode, useSitesHookPath
 
 ### Community 82 - "Community 82"
-Cohesion: 0.27
-Nodes (5): ContentProject, PROJECT_STATUSES, VALID_PROJECT_TRANSITIONS, { ContentProject, PROJECT_STATUSES }, { PROJECT_STATUSES }
+Cohesion: 0.21
+Nodes (7): ContentProject, PROJECT_STATUSES, VALID_PROJECT_TRANSITIONS, { ContentProject, PROJECT_STATUSES }, { PROJECT_STATUSES }, { PROJECT_STATUSES }, WordPressClient
 
 ### Community 83 - "Community 83"
 Cohesion: 0.22
@@ -356,25 +356,17 @@ Nodes (4): Agent Rules, Auto-Commit Rule, Continuous Documentation Rule, Mandato
 Cohesion: 0.25
 Nodes (7): 🚧 Blockers & Issues, 📊 Current Status, 🎯 Immediate To-Do (Next Up), 📅 Progress Log, [Project Name] - Progress Tracker, [YYYY-MM-DD], [YYYY-MM-DD]
 
-### Community 118 - "Community 118"
-Cohesion: 0.29
-Nodes (3): { PROJECT_STATUSES }, PublishingService, WordPressClient
-
 ### Community 134 - "Community 134"
 Cohesion: 0.22
 Nodes (9): { ApiError, ErrorCodes }, createDashboardRoutes(), express, { sendSuccess, sendError, parsePagination }, ApiError, ErrorCodes, parsePagination(), sendError() (+1 more)
 
 ### Community 135 - "Community 135"
-Cohesion: 0.16
-Nodes (10): apiClient(), ApiError, ApiErrorResponse, ApiResponse, JobDto, OverviewDto, ProjectDto, SiteDto (+2 more)
+Cohesion: 0.09
+Nodes (24): apiClient(), ApiError, ApiErrorResponse, ApiResponse, JobDto, OverviewDto, ProjectDto, SiteDto (+16 more)
 
 ### Community 136 - "Community 136"
 Cohesion: 0.09
 Nodes (21): aliases, components, hooks, lib, ui, utils, iconLibrary, menuAccent (+13 more)
-
-### Community 137 - "Community 137"
-Cohesion: 0.18
-Nodes (9): ContentUnavailableError, AuditPromptBuilder, { ContentUnavailableError, InvalidProjectContentError }, { FailureClassifier }, fs, path, { PROJECT_STATUSES }, RewritePromptBuilder (+1 more)
 
 ### Community 139 - "Community 139"
 Cohesion: 0.22
@@ -397,21 +389,21 @@ Cohesion: 0.50
 Nodes (3): Deploy on Vercel, Getting Started, Learn More
 
 ## Knowledge Gaps
-- **366 isolated node(s):** `This is NOT the Next.js you know`, `Getting Started`, `Learn More`, `Deploy on Vercel`, `inter` (+361 more)
+- **371 isolated node(s):** `KPICardProps`, `EventDto`, `ReviewDto`, `fs`, `path` (+366 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **105 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **102 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ClaudeManager` connect `Createclaudeerror Components` to `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
-- **Why does `ClaudeWorker` connect `Script Components` to `Community 137`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **Why does `BrowserManager` connect `Browsermanager Components` to `Bootstrapmanager Components`, `Createclaudeerror Components`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `This is NOT the Next.js you know`, `Getting Started`, `Learn More` to the rest of the system?**
-  _366 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+- **Why does `ProjectRepository` connect `Projectrepository Components` to `Community 82`, `Migrations Components`, `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+- **Why does `ClaudeWorker` connect `Script Components` to `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **What connects `KPICardProps`, `EventDto`, `ReviewDto` to the rest of the system?**
+  _371 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Auditroutes Components` be split into smaller, more focused modules?**
   _Cohesion score 0.10952380952380952 - nodes in this community are weakly interconnected._
 - **Should `Bootstrapmanager Components` be split into smaller, more focused modules?**

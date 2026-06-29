@@ -81,3 +81,34 @@ export interface OverviewDto {
     operations_pending: number;
     drafts_waiting_review: number;
 }
+
+export interface PluginHealthDto {
+    version: string;
+    protocol: string;
+    backendVersion: string;
+    registrationStatus: string;
+    tokenStatus: string;
+    lastHeartbeat: string;
+    consecutiveFailures: number;
+    presence: string;
+}
+
+export interface SiteSettingsDto {
+    auditThreshold: number;
+    rewriteThreshold: number;
+    autoReauditDays: number;
+    autoRewriteEnabled: boolean;
+    autoPublishEnabled: boolean;
+}
+
+export interface OperationDto {
+    id: number;
+    site_id: number;
+    operation_uuid: string;
+    operation_type: string;
+    payload: string;
+    priority: string;
+    status: string;
+    attempt_count: number;
+    created_at: string;
+}

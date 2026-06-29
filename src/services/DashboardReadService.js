@@ -144,6 +144,104 @@ class DashboardReadService {
         return { data: rows, total };
     }
 
+    
+    getSiteById(id) {
+        const r = this.db.prepare('SELECT * FROM sites WHERE id = ?').get(id);
+        if (!r) return null;
+        return {
+            id: r.id,
+            name: r.name,
+            domain: r.domain,
+            active: !!r.active,
+            postsCount: 0,
+            projectsCount: 0,
+            pendingAudits: 0,
+            pendingRewrites: 0,
+            pendingReviews: 0,
+            lastHeartbeat: "",
+            presence: "ONLINE",
+            createdAt: r.created_at
+        };
+    }
+
+    getSitePlugin(siteId) {
+        // mock for UI unblocking, real implementation would join plugin_installations
+        return {
+            version: '1.0.0',
+            protocol: 'v1',
+            backendVersion: '1.0.0',
+            registrationStatus: 'REGISTERED',
+            tokenStatus: 'VALID',
+            lastHeartbeat: new Date().toISOString(),
+            consecutiveFailures: 0,
+            presence: 'ONLINE'
+        };
+    }
+
+    getSiteSettings(siteId) {
+        let settings = this.db.prepare('SELECT * FROM site_workflow_settings WHERE site_id = ?').get(siteId);
+        if (!settings) {
+            settings = {
+                site_id: siteId,
+                audit_threshold: 75,
+                rewrite_threshold: 70,
+                auto_reaudit_days: 30,
+                auto_rewrite_enabled: 0,
+                auto_publish_enabled: 0
+            };
+        }
+        return {
+            auditThreshold: settings.audit_threshold,
+            rewriteThreshold: settings.rewrite_threshold,
+            autoReauditDays: settings.auto_reaudit_days,
+            autoRewriteEnabled: !!settings.auto_rewrite_enabled,
+            autoPublishEnabled: !!settings.auto_publish_enabled
+        };
+    }
+
+    updateSiteSettings(siteId, data) {
+        const current = this.db.prepare('SELECT * FROM site_workflow_settings WHERE site_id = ?').get(siteId);
+        if (current) {
+            this.db.prepare(`
+                UPDATE site_workflow_settings SET
+                    audit_threshold = ?,
+                    rewrite_threshold = ?,
+                    auto_reaudit_days = ?,
+                    auto_rewrite_enabled = ?,
+                    auto_publish_enabled = ?,
+                    updated_at = CURRENT_TIMESTAMP
+                WHERE site_id = ?
+            `).run(
+                data.auditThreshold, data.rewriteThreshold, data.autoReauditDays, 
+                data.autoRewriteEnabled ? 1 : 0, data.autoPublishEnabled ? 1 : 0, siteId
+            );
+        } else {
+            this.db.prepare(`
+                INSERT INTO site_workflow_settings (site_id, audit_threshold, rewrite_threshold, auto_reaudit_days, auto_rewrite_enabled, auto_publish_enabled)
+                VALUES (?, ?, ?, ?, ?, ?)
+            `).run(
+                siteId, data.auditThreshold, data.rewriteThreshold, data.autoReauditDays, 
+                data.autoRewriteEnabled ? 1 : 0, data.autoPublishEnabled ? 1 : 0
+            );
+        }
+    }
+
+    getSiteOperations(siteId, pagination) {
+        const rows = this.db.prepare(`
+            SELECT * FROM wordpress_operations WHERE site_id = ?
+            ORDER BY ${pagination.sort} ${pagination.direction}
+            LIMIT ? OFFSET ?
+        `).all(siteId, pagination.limit, pagination.offset);
+        const total = this.db.prepare('SELECT COUNT(*) as c FROM wordpress_operations WHERE site_id = ?').get(siteId).c;
+        return { data: rows, total };
+    }
+
+    getSiteEvents(siteId, pagination) {
+        // mock site events using project events or ingestion
+        // Since we don't have a site_id in event_ingestion cleanly mapped in this mock phase, we'll return empty for now
+        return { data: [], total: 0 };
+    }
+
     mapProjectDto(row) {
         let meta = {};
         try { meta = JSON.parse(row.metadata || '{}'); } catch(e) {}

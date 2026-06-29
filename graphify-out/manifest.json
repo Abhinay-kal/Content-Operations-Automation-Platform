@@ -1325,8 +1325,8 @@
     "semantic_hash": ""
   },
   "dashboard/app/page.tsx": {
-    "mtime": 1782710693.197603,
-    "ast_hash": "e0c1c6567a0500b32ad64ad0ad37d421",
+    "mtime": 1782724538.7038264,
+    "ast_hash": "e2ef6179782be9c05a8be8615b48bebd",
     "semantic_hash": ""
   },
   "dashboard/app/providers.tsx": {
@@ -1375,8 +1375,8 @@
     "semantic_hash": ""
   },
   "dashboard/hooks/useSites.ts": {
-    "mtime": 1782710693.1964276,
-    "ast_hash": "3021767d2ee5c5a76e02cdec1d5d27e7",
+    "mtime": 1782724538.7019768,
+    "ast_hash": "8e03fe072aea3210cc19fc1a77bf5e29",
     "semantic_hash": ""
   },
   "dashboard/lib/api/client.ts": {
@@ -1424,11 +1424,6 @@
     "ast_hash": "02fc19ad21338c2ab820a70136310db4",
     "semantic_hash": ""
   },
-  "setup_d1.js": {
-    "mtime": 1782710687.8452995,
-    "ast_hash": "a31ff01cdf1a90e967b5aaf17ef0c89a",
-    "semantic_hash": ""
-  },
   "dashboard/AGENTS.md": {
     "mtime": 1782710617.0171776,
     "ast_hash": "9e09241799026ac05be315a2f0b50055",
@@ -1467,6 +1462,56 @@
   "dashboard/public/window.svg": {
     "mtime": 1782710559.8186486,
     "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  },
+  "dashboard/components/dashboard/EventFeed.tsx": {
+    "mtime": 1782724538.7028437,
+    "ast_hash": "1cb21c9dc5d4959fbe8fee3601341d2a",
+    "semantic_hash": ""
+  },
+  "dashboard/components/dashboard/KPICard.tsx": {
+    "mtime": 1782724538.7021415,
+    "ast_hash": "b9d508d66b93b62c3e3fa5dff8671599",
+    "semantic_hash": ""
+  },
+  "dashboard/components/dashboard/KPIGrid.tsx": {
+    "mtime": 1782724538.7022662,
+    "ast_hash": "533ab5c83a7a089c70a7fd28629df6a8",
+    "semantic_hash": ""
+  },
+  "dashboard/components/dashboard/QueueWidget.tsx": {
+    "mtime": 1782724538.7026143,
+    "ast_hash": "ae269826c1fe2bd9776fe70e226f08de",
+    "semantic_hash": ""
+  },
+  "dashboard/components/dashboard/ReviewWidget.tsx": {
+    "mtime": 1782724538.702735,
+    "ast_hash": "f465d0a101d2a945fc85b1f705be931d",
+    "semantic_hash": ""
+  },
+  "dashboard/components/dashboard/SiteCard.tsx": {
+    "mtime": 1782724538.7023933,
+    "ast_hash": "6facca260a69be447c285ba67e7c4733",
+    "semantic_hash": ""
+  },
+  "dashboard/components/dashboard/SiteHealthGrid.tsx": {
+    "mtime": 1782724538.7025054,
+    "ast_hash": "18e69268611e6211f59d1d4dc99ac835",
+    "semantic_hash": ""
+  },
+  "dashboard/hooks/useEvents.ts": {
+    "mtime": 1782724538.7008755,
+    "ast_hash": "e5a0e2d45058dbe8d99dcb89ca673b43",
+    "semantic_hash": ""
+  },
+  "dashboard/hooks/useReviews.ts": {
+    "mtime": 1782724538.7010927,
+    "ast_hash": "b52f00859b71467d6380063e1d3eed63",
+    "semantic_hash": ""
+  },
+  "setup_d2.js": {
+    "mtime": 1782724531.308614,
+    "ast_hash": "2e22718916388ec5e15077639cb8bae8",
     "semantic_hash": ""
   }
 }
