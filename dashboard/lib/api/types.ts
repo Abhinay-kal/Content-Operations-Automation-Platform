@@ -195,3 +195,34 @@ export interface VersionDto {
     content: string;
     created_at: string;
 }
+
+export interface ReviewListDto {
+    id: number;
+    projectId: number;
+    siteId: number;
+    rewriteId: number;
+    status: string;
+    projectTitle: string;
+    auditScore: number | null;
+    rewriteSeverity: string;
+    reviewerId: string | null;
+    createdAt: string;
+    updatedAt: string;
+}
+
+export interface ReviewDetailDto {
+    id: number;
+    projectId: number;
+    siteId: number;
+    rewriteId: number;
+    status: string;
+    projectTitle: string;
+    reviewerId: string | null;
+    assignedAt: string | null;
+    assignedBy: string | null;
+    auditScoreChange: number;
+    intentImprovement: number;
+    eeatImprovement: number;
+    createdAt: string;
+    updatedAt: string;
+}

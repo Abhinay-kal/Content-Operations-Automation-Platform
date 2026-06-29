@@ -63,6 +63,26 @@
     {
       "label": "page.tsx",
       "file_type": "code",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "auditid_page",
+      "community": 155,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "AuditDetail()",
+      "file_type": "code",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "auditid_page_auditdetail",
+      "community": 155,
+      "norm_label": "auditdetail()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
       "source_file": "dashboard/app/projects/[projectId]/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
@@ -81,114 +101,134 @@
       "norm_label": "projectdetail()"
     },
     {
-      "label": "page.tsx",
+      "label": "AuditHeader.tsx",
       "file_type": "code",
-      "source_file": "dashboard/app/projects/page.tsx",
+      "source_file": "dashboard/components/audits/AuditHeader.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "projects_page",
-      "community": 153,
-      "norm_label": "page.tsx"
+      "id": "audits_auditheader",
+      "community": 155,
+      "norm_label": "auditheader.tsx"
     },
     {
-      "label": "ProjectsList()",
+      "label": "AuditHeader()",
       "file_type": "code",
-      "source_file": "dashboard/app/projects/page.tsx",
+      "source_file": "dashboard/components/audits/AuditHeader.tsx",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "projects_page_projectslist",
-      "community": 153,
-      "norm_label": "projectslist()"
+      "id": "audits_auditheader_auditheader",
+      "community": 155,
+      "norm_label": "auditheader()"
     },
     {
-      "label": "WorkflowStepper.tsx",
+      "label": "AuditMetadata.tsx",
       "file_type": "code",
-      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_file": "dashboard/components/audits/AuditMetadata.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workflow_workflowstepper",
-      "community": 162,
-      "norm_label": "workflowstepper.tsx"
+      "id": "audits_auditmetadata",
+      "community": 155,
+      "norm_label": "auditmetadata.tsx"
     },
     {
-      "label": "WorkflowStepperProps",
+      "label": "AuditMetadata()",
       "file_type": "code",
-      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_file": "dashboard/components/audits/AuditMetadata.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "audits_auditmetadata_auditmetadata",
+      "community": 155,
+      "norm_label": "auditmetadata()"
+    },
+    {
+      "label": "AuditTimeline.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/components/audits/AuditTimeline.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "audits_audittimeline",
+      "community": 155,
+      "norm_label": "audittimeline.tsx"
+    },
+    {
+      "label": "AuditTimeline()",
+      "file_type": "code",
+      "source_file": "dashboard/components/audits/AuditTimeline.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "audits_audittimeline_audittimeline",
+      "community": 155,
+      "norm_label": "audittimeline()"
+    },
+    {
+      "label": "IssueGroups.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/components/audits/IssueGroups.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "audits_issuegroups",
+      "community": 155,
+      "norm_label": "issuegroups.tsx"
+    },
+    {
+      "label": "IssueGroups()",
+      "file_type": "code",
+      "source_file": "dashboard/components/audits/IssueGroups.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "audits_issuegroups_issuegroups",
+      "community": 155,
+      "norm_label": "issuegroups()"
+    },
+    {
+      "label": "ScoreCards.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/components/audits/ScoreCards.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "audits_scorecards",
+      "community": 155,
+      "norm_label": "scorecards.tsx"
+    },
+    {
+      "label": "ScoreCards()",
+      "file_type": "code",
+      "source_file": "dashboard/components/audits/ScoreCards.tsx",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "workflow_workflowstepper_workflowstepperprops",
-      "community": 162,
-      "norm_label": "workflowstepperprops"
+      "id": "audits_scorecards_scorecards",
+      "community": 155,
+      "norm_label": "scorecards()"
     },
     {
-      "label": "STAGES",
+      "label": "useAudits.ts",
       "file_type": "code",
-      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "workflow_workflowstepper_stages",
-      "community": 162,
-      "norm_label": "stages"
-    },
-    {
-      "label": "WorkflowStepper()",
-      "file_type": "code",
-      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "workflow_workflowstepper_workflowstepper",
-      "community": 162,
-      "norm_label": "workflowstepper()"
-    },
-    {
-      "label": "useProjectDetails.ts",
-      "file_type": "code",
-      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_file": "dashboard/hooks/useAudits.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "hooks_useprojectdetails",
-      "community": 162,
-      "norm_label": "useprojectdetails.ts"
+      "id": "hooks_useaudits",
+      "community": 155,
+      "norm_label": "useaudits.ts"
     },
     {
-      "label": "useProject()",
+      "label": "useAudit()",
       "file_type": "code",
-      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_file": "dashboard/hooks/useAudits.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "hooks_useprojectdetails_useproject",
-      "community": 162,
-      "norm_label": "useproject()"
+      "id": "hooks_useaudits_useaudit",
+      "community": 155,
+      "norm_label": "useaudit()"
     },
     {
-      "label": "useProjectHistory()",
+      "label": "useProjectAudits()",
       "file_type": "code",
-      "source_file": "dashboard/hooks/useProjectDetails.ts",
-      "source_location": "L16",
+      "source_file": "dashboard/hooks/useAudits.ts",
+      "source_location": "L18",
       "_origin": "ast",
-      "id": "hooks_useprojectdetails_useprojecthistory",
-      "community": 162,
-      "norm_label": "useprojecthistory()"
-    },
-    {
-      "label": "useProjects.ts",
-      "file_type": "code",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "hooks_useprojects",
-      "community": 153,
-      "norm_label": "useprojects.ts"
-    },
-    {
-      "label": "useProjects()",
-      "file_type": "code",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "hooks_useprojects_useprojects",
-      "community": 153,
-      "norm_label": "useprojects()"
+      "id": "hooks_useaudits_useprojectaudits",
+      "community": 155,
+      "norm_label": "useprojectaudits()"
     },
     {
       "label": "types.ts",
@@ -237,7 +277,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "api_types_projectdto",
-      "community": 153,
+      "community": 166,
       "norm_label": "projectdto"
     },
     {
@@ -247,7 +287,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "api_types_jobdto",
-      "community": 166,
+      "community": 153,
       "norm_label": "jobdto"
     },
     {
@@ -307,118 +347,168 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "api_types_projectfilters",
-      "community": 153,
+      "community": 166,
       "norm_label": "projectfilters"
     },
     {
-      "label": "setup_d4.js",
+      "label": "AuditIssue",
       "file_type": "code",
-      "source_file": "setup_d4.js",
+      "source_file": "dashboard/lib/api/types.ts",
+      "source_location": "L132",
+      "_origin": "ast",
+      "id": "api_types_auditissue",
+      "community": 57,
+      "norm_label": "auditissue"
+    },
+    {
+      "label": "AuditDto",
+      "file_type": "code",
+      "source_file": "dashboard/lib/api/types.ts",
+      "source_location": "L138",
+      "_origin": "ast",
+      "id": "api_types_auditdto",
+      "community": 155,
+      "norm_label": "auditdto"
+    },
+    {
+      "label": "setup_d5.js",
+      "file_type": "code",
+      "source_file": "setup_d5.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_d4",
-      "community": 161,
-      "norm_label": "setup_d4.js"
+      "id": "setup_d5",
+      "community": 164,
+      "norm_label": "setup_d5.js"
     },
     {
       "label": "fs",
       "file_type": "code",
-      "source_file": "setup_d4.js",
+      "source_file": "setup_d5.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_d4_fs",
-      "community": 161,
+      "id": "setup_d5_fs",
+      "community": 164,
       "norm_label": "fs"
     },
     {
       "label": "path",
       "file_type": "code",
-      "source_file": "setup_d4.js",
+      "source_file": "setup_d5.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "setup_d4_path",
-      "community": 161,
+      "id": "setup_d5_path",
+      "community": 164,
       "norm_label": "path"
     },
     {
       "label": "frontendDir",
       "file_type": "code",
-      "source_file": "setup_d4.js",
+      "source_file": "setup_d5.js",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "setup_d4_frontenddir",
-      "community": 161,
+      "id": "setup_d5_frontenddir",
+      "community": 164,
       "norm_label": "frontenddir"
     },
     {
       "label": "mkdirp()",
       "file_type": "code",
-      "source_file": "setup_d4.js",
+      "source_file": "setup_d5.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "setup_d4_mkdirp",
-      "community": 161,
+      "id": "setup_d5_mkdirp",
+      "community": 164,
       "norm_label": "mkdirp()"
+    },
+    {
+      "label": "schemaPath",
+      "file_type": "code",
+      "source_file": "setup_d5.js",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "setup_d5_schemapath",
+      "community": 164,
+      "norm_label": "schemapath"
+    },
+    {
+      "label": "schemaContent",
+      "file_type": "code",
+      "source_file": "setup_d5.js",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "setup_d5_schemacontent",
+      "community": 164,
+      "norm_label": "schemacontent"
     },
     {
       "label": "readServicePath",
       "file_type": "code",
-      "source_file": "setup_d4.js",
-      "source_location": "L17",
+      "source_file": "setup_d5.js",
+      "source_location": "L47",
       "_origin": "ast",
-      "id": "setup_d4_readservicepath",
-      "community": 161,
+      "id": "setup_d5_readservicepath",
+      "community": 164,
       "norm_label": "readservicepath"
     },
     {
       "label": "readServiceCode",
       "file_type": "code",
-      "source_file": "setup_d4.js",
-      "source_location": "L18",
+      "source_file": "setup_d5.js",
+      "source_location": "L48",
       "_origin": "ast",
-      "id": "setup_d4_readservicecode",
-      "community": 161,
+      "id": "setup_d5_readservicecode",
+      "community": 164,
       "norm_label": "readservicecode"
     },
     {
       "label": "routesPath",
       "file_type": "code",
-      "source_file": "setup_d4.js",
-      "source_location": "L96",
+      "source_file": "setup_d5.js",
+      "source_location": "L102",
       "_origin": "ast",
-      "id": "setup_d4_routespath",
-      "community": 161,
+      "id": "setup_d5_routespath",
+      "community": 164,
       "norm_label": "routespath"
     },
     {
       "label": "routesCode",
       "file_type": "code",
-      "source_file": "setup_d4.js",
-      "source_location": "L97",
+      "source_file": "setup_d5.js",
+      "source_location": "L103",
       "_origin": "ast",
-      "id": "setup_d4_routescode",
-      "community": 161,
+      "id": "setup_d5_routescode",
+      "community": 164,
       "norm_label": "routescode"
     },
     {
       "label": "apiTypesPath",
       "file_type": "code",
-      "source_file": "setup_d4.js",
-      "source_location": "L126",
+      "source_file": "setup_d5.js",
+      "source_location": "L135",
       "_origin": "ast",
-      "id": "setup_d4_apitypespath",
-      "community": 161,
+      "id": "setup_d5_apitypespath",
+      "community": 164,
       "norm_label": "apitypespath"
     },
     {
       "label": "apiTypesCode",
       "file_type": "code",
-      "source_file": "setup_d4.js",
-      "source_location": "L127",
+      "source_file": "setup_d5.js",
+      "source_location": "L136",
       "_origin": "ast",
-      "id": "setup_d4_apitypescode",
-      "community": 161,
+      "id": "setup_d5_apitypescode",
+      "community": 164,
       "norm_label": "apitypescode"
+    },
+    {
+      "label": "projectDetailCode",
+      "file_type": "code",
+      "source_file": "setup_d5.js",
+      "source_location": "L434",
+      "_origin": "ast",
+      "id": "setup_d5_projectdetailcode",
+      "community": 164,
+      "norm_label": "projectdetailcode"
     },
     {
       "label": "dashboardRoutes.js",
@@ -541,10 +631,40 @@
       "norm_label": ".getprojecthistory()"
     },
     {
+      "label": ".getAuditById()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L137",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getauditbyid",
+      "community": 138,
+      "norm_label": ".getauditbyid()"
+    },
+    {
+      "label": ".getProjectAudits()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getprojectaudits",
+      "community": 138,
+      "norm_label": ".getprojectaudits()"
+    },
+    {
+      "label": ".mapAuditDto()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L156",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_mapauditdto",
+      "community": 138,
+      "norm_label": ".mapauditdto()"
+    },
+    {
       "label": ".getProjectById()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L136",
+      "source_location": "L179",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getprojectbyid",
       "community": 138,
@@ -554,7 +674,7 @@
       "label": ".getJobs()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L142",
+      "source_location": "L185",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getjobs",
       "community": 138,
@@ -564,7 +684,7 @@
       "label": ".getEvents()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L167",
+      "source_location": "L210",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getevents",
       "community": 138,
@@ -574,7 +694,7 @@
       "label": ".getOperations()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L178",
+      "source_location": "L221",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getoperations",
       "community": 138,
@@ -584,7 +704,7 @@
       "label": ".getSiteById()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L190",
+      "source_location": "L233",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsitebyid",
       "community": 138,
@@ -594,7 +714,7 @@
       "label": ".getSitePlugin()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L209",
+      "source_location": "L252",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsiteplugin",
       "community": 138,
@@ -604,7 +724,7 @@
       "label": ".getSiteSettings()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L223",
+      "source_location": "L266",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsitesettings",
       "community": 138,
@@ -614,7 +734,7 @@
       "label": ".updateSiteSettings()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L244",
+      "source_location": "L287",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_updatesitesettings",
       "community": 138,
@@ -624,7 +744,7 @@
       "label": ".getSiteOperations()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L271",
+      "source_location": "L314",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsiteoperations",
       "community": 138,
@@ -634,7 +754,7 @@
       "label": ".getSiteEvents()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L281",
+      "source_location": "L324",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsiteevents",
       "community": 138,
@@ -644,11 +764,121 @@
       "label": ".mapProjectDto()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L287",
+      "source_location": "L330",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_mapprojectdto",
       "community": 138,
       "norm_label": ".mapprojectdto()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 166,
+      "norm_label": "page.tsx",
+      "id": "projects_page"
+    },
+    {
+      "label": "ProjectsList()",
+      "file_type": "code",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 166,
+      "norm_label": "projectslist()",
+      "id": "projects_page_projectslist"
+    },
+    {
+      "label": "WorkflowStepper.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 162,
+      "norm_label": "workflowstepper.tsx",
+      "id": "workflow_workflowstepper"
+    },
+    {
+      "label": "WorkflowStepperProps",
+      "file_type": "code",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 162,
+      "norm_label": "workflowstepperprops",
+      "id": "workflow_workflowstepper_workflowstepperprops"
+    },
+    {
+      "label": "STAGES",
+      "file_type": "code",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 162,
+      "norm_label": "stages",
+      "id": "workflow_workflowstepper_stages"
+    },
+    {
+      "label": "WorkflowStepper()",
+      "file_type": "code",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 162,
+      "norm_label": "workflowstepper()",
+      "id": "workflow_workflowstepper_workflowstepper"
+    },
+    {
+      "label": "useProjectDetails.ts",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 162,
+      "norm_label": "useprojectdetails.ts",
+      "id": "hooks_useprojectdetails"
+    },
+    {
+      "label": "useProject()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 162,
+      "norm_label": "useproject()",
+      "id": "hooks_useprojectdetails_useproject"
+    },
+    {
+      "label": "useProjectHistory()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 162,
+      "norm_label": "useprojecthistory()",
+      "id": "hooks_useprojectdetails_useprojecthistory"
+    },
+    {
+      "label": "useProjects.ts",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 166,
+      "norm_label": "useprojects.ts",
+      "id": "hooks_useprojects"
+    },
+    {
+      "label": "useProjects()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 166,
+      "norm_label": "useprojects()",
+      "id": "hooks_useprojects_useprojects"
     },
     {
       "label": "layout.tsx",
@@ -656,7 +886,7 @@
       "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 165,
+      "community": 57,
       "norm_label": "layout.tsx",
       "id": "siteid_layout"
     },
@@ -666,7 +896,7 @@
       "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 165,
+      "community": 57,
       "norm_label": "sitelayout()",
       "id": "siteid_layout_sitelayout"
     },
@@ -676,7 +906,7 @@
       "source_file": "dashboard/app/sites/[siteId]/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 165,
+      "community": 57,
       "norm_label": "page.tsx",
       "id": "siteid_page"
     },
@@ -686,7 +916,7 @@
       "source_file": "dashboard/app/sites/[siteId]/page.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 165,
+      "community": 57,
       "norm_label": "siteoverview()",
       "id": "siteid_page_siteoverview"
     },
@@ -766,7 +996,7 @@
       "source_file": "dashboard/hooks/useSiteDetails.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 165,
+      "community": 57,
       "norm_label": "usesite()",
       "id": "hooks_usesitedetails_usesite"
     },
@@ -806,7 +1036,7 @@
       "source_file": "dashboard/hooks/useSiteDetails.ts",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 165,
+      "community": 57,
       "norm_label": "usesiteoperations()",
       "id": "hooks_usesitedetails_usesiteoperations"
     },
@@ -916,7 +1146,7 @@
       "source_file": "dashboard/components/dashboard/QueueWidget.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 166,
+      "community": 135,
       "norm_label": "queuewidget.tsx",
       "id": "dashboard_queuewidget"
     },
@@ -926,7 +1156,7 @@
       "source_file": "dashboard/components/dashboard/QueueWidget.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 166,
+      "community": 135,
       "norm_label": "queuewidget()",
       "id": "dashboard_queuewidget_queuewidget"
     },
@@ -936,7 +1166,7 @@
       "source_file": "dashboard/components/dashboard/ReviewWidget.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 164,
+      "community": 153,
       "norm_label": "reviewwidget.tsx",
       "id": "dashboard_reviewwidget"
     },
@@ -946,7 +1176,7 @@
       "source_file": "dashboard/components/dashboard/ReviewWidget.tsx",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 164,
+      "community": 153,
       "norm_label": "reviewwidget()",
       "id": "dashboard_reviewwidget_reviewwidget"
     },
@@ -1026,7 +1256,7 @@
       "source_file": "dashboard/hooks/useReviews.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 164,
+      "community": 153,
       "norm_label": "usereviews.ts",
       "id": "hooks_usereviews"
     },
@@ -1036,7 +1266,7 @@
       "source_file": "dashboard/hooks/useReviews.ts",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 164,
+      "community": 153,
       "norm_label": "reviewdto",
       "id": "hooks_usereviews_reviewdto"
     },
@@ -1046,7 +1276,7 @@
       "source_file": "dashboard/hooks/useReviews.ts",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 164,
+      "community": 153,
       "norm_label": "usereviews()",
       "id": "hooks_usereviews_usereviews"
     },
@@ -1516,7 +1746,7 @@
       "source_file": "dashboard/hooks/useJobs.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 166,
+      "community": 153,
       "norm_label": "usejobs.ts",
       "id": "hooks_usejobs"
     },
@@ -1526,7 +1756,7 @@
       "source_file": "dashboard/hooks/useJobs.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 166,
+      "community": 135,
       "norm_label": "usejobs()",
       "id": "hooks_usejobs_usejobs"
     },
@@ -1566,7 +1796,7 @@
       "source_file": "dashboard/lib/api/client.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 164,
+      "community": 153,
       "norm_label": "apiclient()",
       "id": "api_client_apiclient"
     },
@@ -6066,7 +6296,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": "cronmanager.php",
       "id": "bootstrap_cronmanager"
     },
@@ -6076,7 +6306,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": "cronmanager",
       "id": "bootstrap_cronmanager_cronmanager"
     },
@@ -6086,7 +6316,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".registerhooks()",
       "id": "bootstrap_cronmanager_cronmanager_registerhooks"
     },
@@ -6096,7 +6326,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": "loader",
       "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_loader"
     },
@@ -6106,7 +6336,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": "heartbeatservice",
       "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_heartbeatservice"
     },
@@ -6116,7 +6346,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".addcustomschedules()",
       "id": "bootstrap_cronmanager_cronmanager_addcustomschedules"
     },
@@ -6126,7 +6356,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".scheduleevents()",
       "id": "bootstrap_cronmanager_cronmanager_scheduleevents"
     },
@@ -6136,7 +6366,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".clearevents()",
       "id": "bootstrap_cronmanager_cronmanager_clearevents"
     },
@@ -6156,7 +6386,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": "plugin",
       "id": "bootstrap_plugin_plugin"
     },
@@ -6166,7 +6396,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".__construct()",
       "id": "bootstrap_plugin_plugin_construct"
     },
@@ -6176,7 +6406,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L23",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".initializeconstants()",
       "id": "bootstrap_plugin_plugin_initializeconstants"
     },
@@ -6186,7 +6416,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".sethooks()",
       "id": "bootstrap_plugin_plugin_sethooks"
     },
@@ -6196,7 +6426,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".activate()",
       "id": "bootstrap_plugin_plugin_activate"
     },
@@ -6206,7 +6436,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L70",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".deactivate()",
       "id": "bootstrap_plugin_plugin_deactivate"
     },
@@ -6216,7 +6446,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L75",
       "_origin": "ast",
-      "community": 27,
+      "community": 161,
       "norm_label": ".run()",
       "id": "bootstrap_plugin_plugin_run"
     },
@@ -10016,7 +10246,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "claudeerrors.js",
       "id": "errors_claudeerrors"
     },
@@ -10026,7 +10256,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "claudeerror",
       "id": "errors_claudeerrors_claudeerror"
     },
@@ -10036,7 +10266,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_claudeerror_constructor"
     },
@@ -10046,7 +10276,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "browsererror",
       "id": "errors_claudeerrors_browsererror"
     },
@@ -10056,7 +10286,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_browsererror_constructor"
     },
@@ -10066,7 +10296,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "profilelockerror",
       "id": "errors_claudeerrors_profilelockerror"
     },
@@ -10076,7 +10306,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_profilelockerror_constructor"
     },
@@ -10086,7 +10316,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "validationerror",
       "id": "errors_claudeerrors_validationerror"
     },
@@ -10096,7 +10326,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_validationerror_constructor"
     },
@@ -10126,7 +10356,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "invalidprojectcontenterror",
       "id": "errors_claudeerrors_invalidprojectcontenterror"
     },
@@ -10136,7 +10366,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidprojectcontenterror_constructor"
     },
@@ -10146,7 +10376,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "invalidresponsequalityerror",
       "id": "errors_claudeerrors_invalidresponsequalityerror"
     },
@@ -10156,7 +10386,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidresponsequalityerror_constructor"
     },
@@ -10166,7 +10396,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "recoveryreport",
       "id": "errors_claudeerrors_recoveryreport"
     },
@@ -10176,7 +10406,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_recoveryreport_constructor"
     },
@@ -10196,7 +10426,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "normalizeerror()",
       "id": "errors_claudeerrors_normalizeerror"
     },
@@ -10436,7 +10666,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "workerstate.js",
       "id": "models_workerstate"
     },
@@ -10446,7 +10676,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "worker_states",
       "id": "models_workerstate_worker_states"
     },
@@ -11546,7 +11776,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "browsermanager.js",
       "id": "services_browsermanager"
     },
@@ -11556,7 +11786,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "{ chromium }",
       "id": "services_browsermanager_chromium"
     },
@@ -11566,7 +11796,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "stealth",
       "id": "services_browsermanager_stealth"
     },
@@ -11576,7 +11806,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "{ spawnsync }",
       "id": "services_browsermanager_spawnsync"
     },
@@ -11586,7 +11816,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "{ worker_states }",
       "id": "services_browsermanager_worker_states"
     },
@@ -11596,7 +11826,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 4,
+      "community": 165,
       "norm_label": "{ browsererror, profilelockerror }",
       "id": "services_browsermanager_browsererror_profilelockerror"
     },
@@ -11776,7 +12006,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "claudemanager.js",
       "id": "services_claudemanager"
     },
@@ -11786,7 +12016,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "fs",
       "id": "services_claudemanager_fs"
     },
@@ -11796,7 +12026,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "path",
       "id": "services_claudemanager_path"
     },
@@ -11806,7 +12036,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "{ \n    validationerror, \n    recoveryreport, \n    invalidprojectcontenterror, \n    invalidresponsequalityerror, \n    createclaudeerror, \n    normalizeerror \n}",
       "id": "services_claudemanager_validationerror_recoveryreport_invalidprojectcontenterror_invalidresponsequalityerror_createclaudeerror_normalizeerror"
     },
@@ -11816,7 +12046,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "{ worker_states }",
       "id": "services_claudemanager_worker_states"
     },
@@ -11826,7 +12056,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "selectors",
       "id": "services_claudemanager_selectors"
     },
@@ -13586,7 +13816,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 154,
+      "community": 81,
       "norm_label": "auditpromptbuilder.js",
       "id": "utils_auditpromptbuilder"
     },
@@ -13596,7 +13826,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 154,
+      "community": 81,
       "norm_label": "auditpromptbuilder",
       "id": "utils_auditpromptbuilder_auditpromptbuilder"
     },
@@ -13606,7 +13836,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 154,
+      "community": 81,
       "norm_label": ".build()",
       "id": "utils_auditpromptbuilder_auditpromptbuilder_build"
     },
@@ -13696,7 +13926,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 155,
+      "community": 81,
       "norm_label": "rewritepromptbuilder.js",
       "id": "utils_rewritepromptbuilder"
     },
@@ -13706,7 +13936,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 155,
+      "community": 81,
       "norm_label": "rewritepromptbuilder",
       "id": "utils_rewritepromptbuilder_rewritepromptbuilder"
     },
@@ -13716,7 +13946,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 155,
+      "community": 81,
       "norm_label": ".build()",
       "id": "utils_rewritepromptbuilder_rewritepromptbuilder_build"
     },
@@ -14012,7 +14242,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "validation.test.js",
       "id": "tests_validation_test"
     },
@@ -14022,7 +14252,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "{ claudemanager }",
       "id": "tests_validation_test_claudemanager"
     },
@@ -14032,7 +14262,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 4,
+      "community": 154,
       "norm_label": "{ validationerror }",
       "id": "tests_validation_test_validationerror"
     },
@@ -14770,15 +15000,168 @@
   ],
   "links": [
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "auditid_page_auditdetail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_auditheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_auditheader_auditheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_auditmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_auditmetadata_auditmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_audittimeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_audittimeline_audittimeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_issuegroups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_issuegroups_issuegroups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_scorecards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "audits_scorecards_scorecards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "hooks_useaudits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "auditid_page",
+      "target": "hooks_useaudits_useaudit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dashboard/app/audits/[auditId]/page.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "auditid_page_auditdetail",
+      "target": "hooks_useaudits_useaudit"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "dashboard/app/projects/[projectId]/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "projectid_page",
-      "target": "hooks_useprojectdetails",
-      "confidence_score": 1.0
+      "target": "hooks_useprojectdetails"
     },
     {
       "relation": "imports",
@@ -14787,9 +15170,9 @@
       "source_file": "dashboard/app/projects/[projectId]/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "projectid_page",
-      "target": "hooks_useprojectdetails_useproject",
-      "confidence_score": 1.0
+      "target": "hooks_useprojectdetails_useproject"
     },
     {
       "relation": "imports",
@@ -14798,9 +15181,9 @@
       "source_file": "dashboard/app/projects/[projectId]/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "projectid_page",
-      "target": "hooks_useprojectdetails_useprojecthistory",
-      "confidence_score": 1.0
+      "target": "hooks_useprojectdetails_useprojecthistory"
     },
     {
       "relation": "contains",
@@ -14808,9 +15191,9 @@
       "source_file": "dashboard/app/projects/[projectId]/page.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "projectid_page",
-      "target": "projectid_page_projectdetail",
-      "confidence_score": 1.0
+      "target": "projectid_page_projectdetail"
     },
     {
       "relation": "imports_from",
@@ -14819,9 +15202,9 @@
       "source_file": "dashboard/app/projects/[projectId]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "projectid_page",
-      "target": "workflow_workflowstepper",
-      "confidence_score": 1.0
+      "target": "workflow_workflowstepper"
     },
     {
       "relation": "imports",
@@ -14830,9 +15213,9 @@
       "source_file": "dashboard/app/projects/[projectId]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "projectid_page",
-      "target": "workflow_workflowstepper_workflowstepper",
-      "confidence_score": 1.0
+      "target": "workflow_workflowstepper_workflowstepper"
     },
     {
       "relation": "calls",
@@ -14860,94 +15243,10 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/projects/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "projects_page",
-      "target": "hooks_useprojects",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/projects/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "projects_page",
-      "target": "hooks_useprojects_useprojects",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/projects/page.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "projects_page",
-      "target": "projects_page_projectslist",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "dashboard/app/projects/page.tsx",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "projects_page_projectslist",
-      "target": "hooks_useprojects_useprojects"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "workflow_workflowstepper",
-      "target": "workflow_workflowstepper_stages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "workflow_workflowstepper",
-      "target": "workflow_workflowstepper_workflowstepper",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "workflow_workflowstepper",
-      "target": "workflow_workflowstepper_workflowstepperprops",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_file": "dashboard/components/audits/AuditHeader.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "hooks_useprojectdetails",
-      "target": "api_client_apiclient",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjectDetails.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "hooks_useprojectdetails",
+      "source": "audits_auditheader",
       "target": "api_types",
       "confidence_score": 1.0
     },
@@ -14955,108 +15254,214 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjectDetails.ts",
-      "source_location": "L3",
+      "source_file": "dashboard/components/audits/AuditHeader.tsx",
+      "source_location": "L2",
       "weight": 1.0,
-      "source": "hooks_useprojectdetails",
-      "target": "api_types_projectdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjectDetails.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "hooks_useprojectdetails",
-      "target": "api_types_projecthistorydto",
+      "source": "audits_auditheader",
+      "target": "api_types_auditdto",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjectDetails.ts",
-      "source_location": "L5",
+      "source_file": "dashboard/components/audits/AuditHeader.tsx",
+      "source_location": "L6",
       "weight": 1.0,
-      "source": "hooks_useprojectdetails",
-      "target": "hooks_useprojectdetails_useproject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjectDetails.ts",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "hooks_useprojectdetails",
-      "target": "hooks_useprojectdetails_useprojecthistory",
+      "source": "audits_auditheader",
+      "target": "audits_auditheader_auditheader",
       "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_file": "dashboard/components/audits/AuditMetadata.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useprojects",
-      "target": "api_client"
+      "source": "audits_auditmetadata",
+      "target": "api_types",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_file": "dashboard/components/audits/AuditMetadata.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useprojects",
-      "target": "api_client_apiclient"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useprojects",
-      "target": "api_types"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useprojects",
-      "target": "api_types_projectdto"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "hooks_useprojects",
-      "target": "api_types_projectfilters",
+      "source": "audits_auditmetadata",
+      "target": "api_types_auditdto",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_file": "dashboard/components/audits/AuditMetadata.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "source": "audits_auditmetadata",
+      "target": "audits_auditmetadata_auditmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/audits/AuditTimeline.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "audits_audittimeline",
+      "target": "audits_audittimeline_audittimeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/audits/AuditTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "audits_audittimeline",
+      "target": "hooks_useaudits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/audits/AuditTimeline.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "audits_audittimeline",
+      "target": "hooks_useaudits_useprojectaudits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source": "hooks_useprojects",
-      "target": "hooks_useprojects_useprojects"
+      "source_file": "dashboard/components/audits/AuditTimeline.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "audits_audittimeline_audittimeline",
+      "target": "hooks_useaudits_useprojectaudits"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/audits/IssueGroups.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "audits_issuegroups",
+      "target": "api_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/audits/IssueGroups.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "audits_issuegroups",
+      "target": "api_types_auditdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/audits/IssueGroups.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "audits_issuegroups",
+      "target": "audits_issuegroups_issuegroups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/audits/ScoreCards.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "audits_scorecards",
+      "target": "api_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/audits/ScoreCards.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "audits_scorecards",
+      "target": "api_types_auditdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/audits/ScoreCards.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "audits_scorecards",
+      "target": "audits_scorecards_scorecards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useAudits.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "hooks_useaudits",
+      "target": "api_client_apiclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useAudits.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "hooks_useaudits",
+      "target": "api_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useAudits.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "hooks_useaudits",
+      "target": "api_types_auditdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useAudits.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "hooks_useaudits",
+      "target": "hooks_useaudits_useaudit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useAudits.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "hooks_useaudits",
+      "target": "hooks_useaudits_useprojectaudits",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -15088,6 +15493,26 @@
       "confidence_score": 1.0,
       "source": "api_types",
       "target": "api_types_apiresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/lib/api/types.ts",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "api_types",
+      "target": "api_types_auditdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/lib/api/types.ts",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "api_types",
+      "target": "api_types_auditissue",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15145,9 +15570,9 @@
       "source_file": "dashboard/lib/api/types.ts",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_types",
-      "target": "api_types_projectfilters",
-      "confidence_score": 1.0
+      "target": "api_types_projectfilters"
     },
     {
       "relation": "contains",
@@ -15155,9 +15580,9 @@
       "source_file": "dashboard/lib/api/types.ts",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_types",
-      "target": "api_types_projecthistorydto",
-      "confidence_score": 1.0
+      "target": "api_types_projecthistorydto"
     },
     {
       "relation": "contains",
@@ -15199,6 +15624,28 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "hooks_useoverview",
+      "target": "api_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojectdetails",
+      "target": "api_types"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
       "target": "api_types"
     },
     {
@@ -15282,6 +15729,28 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojectdetails",
+      "target": "api_types_projectdto"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "api_types_projectdto"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "dashboard/hooks/useJobs.ts",
       "source_location": "L3",
       "weight": 1.0,
@@ -15334,103 +15803,155 @@
       "target": "api_types_operationdto"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojectdetails",
+      "target": "api_types_projecthistorydto"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "api_types_projectfilters"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
-      "source_location": "L127",
+      "source_file": "setup_d5.js",
+      "source_location": "L136",
       "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_apitypescode",
+      "source": "setup_d5",
+      "target": "setup_d5_apitypescode",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
-      "source_location": "L126",
+      "source_file": "setup_d5.js",
+      "source_location": "L135",
       "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_apitypespath",
+      "source": "setup_d5",
+      "target": "setup_d5_apitypespath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
+      "source_file": "setup_d5.js",
       "source_location": "L5",
       "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_frontenddir",
+      "source": "setup_d5",
+      "target": "setup_d5_frontenddir",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
+      "source_file": "setup_d5.js",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_fs",
+      "source": "setup_d5",
+      "target": "setup_d5_fs",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
+      "source_file": "setup_d5.js",
       "source_location": "L7",
       "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_mkdirp",
+      "source": "setup_d5",
+      "target": "setup_d5_mkdirp",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
+      "source_file": "setup_d5.js",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_path",
+      "source": "setup_d5",
+      "target": "setup_d5_path",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
+      "source_file": "setup_d5.js",
+      "source_location": "L434",
+      "weight": 1.0,
+      "source": "setup_d5",
+      "target": "setup_d5_projectdetailcode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_d5.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "setup_d5",
+      "target": "setup_d5_readservicecode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_d5.js",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "setup_d5",
+      "target": "setup_d5_readservicepath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_d5.js",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "setup_d5",
+      "target": "setup_d5_routescode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_d5.js",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "setup_d5",
+      "target": "setup_d5_routespath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_d5.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "setup_d5",
+      "target": "setup_d5_schemacontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_d5.js",
       "source_location": "L18",
       "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_readservicecode",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_readservicepath",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
-      "source_location": "L97",
-      "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_routescode",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d4.js",
-      "source_location": "L96",
-      "weight": 1.0,
-      "source": "setup_d4",
-      "target": "setup_d4_routespath",
+      "source": "setup_d5",
+      "target": "setup_d5_schemapath",
       "confidence_score": 1.0
     },
     {
@@ -15629,6 +16150,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getauditbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
       "source_location": "L125",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -15669,6 +16200,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getprojectaudits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
       "source_location": "L94",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -15681,9 +16222,9 @@
       "source_file": "src/services/DashboardReadService.js",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_dashboardreadservice_dashboardreadservice",
-      "target": "services_dashboardreadservice_dashboardreadservice_getprojecthistory",
-      "confidence_score": 1.0
+      "target": "services_dashboardreadservice_dashboardreadservice_getprojecthistory"
     },
     {
       "relation": "method",
@@ -15759,6 +16300,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_mapauditdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
       "source_location": "L147",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -15780,11 +16331,158 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice_getauditbyid",
+      "target": "services_dashboardreadservice_dashboardreadservice_mapauditdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
       "source_location": "L97",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "services_dashboardreadservice_dashboardreadservice_getprojectbyid",
       "target": "services_dashboardreadservice_dashboardreadservice_mapprojectdto"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "projects_page",
+      "target": "hooks_useprojects"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "projects_page",
+      "target": "hooks_useprojects_useprojects"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "projects_page",
+      "target": "projects_page_projectslist"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "projects_page_projectslist",
+      "target": "hooks_useprojects_useprojects"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowstepper",
+      "target": "workflow_workflowstepper_stages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowstepper",
+      "target": "workflow_workflowstepper_workflowstepper"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "workflow_workflowstepper",
+      "target": "workflow_workflowstepper_workflowstepperprops"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojectdetails",
+      "target": "api_client_apiclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojectdetails",
+      "target": "hooks_useprojectdetails_useproject"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojectdetails",
+      "target": "hooks_useprojectdetails_useprojecthistory"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "api_client"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "api_client_apiclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "hooks_useprojects_useprojects"
     },
     {
       "relation": "imports_from",
@@ -33509,5 +34207,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "f623a99b63df72802b6b7dca1471209d5066ecb9"
+  "built_at_commit": "adcedcf98cbe30cd673e42a168a33bbe3ccd40cc"
 }

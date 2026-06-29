@@ -335,3 +335,19 @@ CREATE TABLE content_versions (
     content TEXT NOT NULL,
     created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE content_reviews (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_id INTEGER NOT NULL,
+    site_id INTEGER NOT NULL,
+    rewrite_id INTEGER NOT NULL,
+    status TEXT DEFAULT 'REVIEW_PENDING', -- REVIEW_PENDING, IN_REVIEW, APPROVED, REJECTED, NEEDS_REVISION, PUBLISHED
+    reviewer_id TEXT,
+    assigned_at DATETIME,
+    assigned_by TEXT,
+    audit_score_change INTEGER DEFAULT 0,
+    intent_improvement INTEGER DEFAULT 0,
+    eeat_improvement INTEGER DEFAULT 0,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

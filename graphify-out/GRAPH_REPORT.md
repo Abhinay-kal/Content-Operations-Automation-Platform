@@ -1,16 +1,16 @@
 # Graph Report - n8n  (2026-06-29)
 
 ## Corpus Check
-- 245 files · ~132,218 words
+- 254 files · ~134,195 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1487 nodes · 1852 edges · 167 communities (63 shown, 104 thin omitted)
+- 1516 nodes · 1908 edges · 167 communities (64 shown, 103 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `adcedcf9`
+- Built from commit: `b712b866`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -178,8 +178,8 @@
 ## God Nodes (most connected - your core abstractions)
 1. `ClaudeManager` - 33 edges
 2. `ConfigService` - 28 edges
-3. `PluginIdentity` - 24 edges
-4. `DashboardReadService` - 21 edges
+3. `DashboardReadService` - 26 edges
+4. `PluginIdentity` - 24 edges
 5. `JobRepository` - 20 edges
 6. `ProjectRepository` - 19 edges
 7. `BrowserManager` - 19 edges
@@ -208,7 +208,7 @@
 - **Junior vs Senior Engineer Differences** — failure_junior_engineer, failure_senior_engineer, failure_scope_of_thinking, failure_handling_ambiguity, failure_impact_vs_output [EXTRACTED 0.75]
 - **Junior vs Senior Comparison** — failure1780489233782_junior_engineer, failure1780489233782_senior_engineer, failure1780489233782_scope_of_thinking [EXTRACTED 1.00]
 
-## Communities (167 total, 104 thin omitted)
+## Communities (167 total, 103 thin omitted)
 
 ### Community 0 - "Auditroutes Components"
 Cohesion: 0.11
@@ -225,6 +225,10 @@ Nodes (23): BootstrapManager, fs, loadConfig(), parseBoolean(), parseInteger(), 
 ### Community 3 - "Migrations Components"
 Cohesion: 0.18
 Nodes (10): DatabaseConnection, fs, { JobRepository }, JobService, Migrations, path, { PROJECT_STATUSES }, { ProjectRepository } (+2 more)
+
+### Community 4 - "Createclaudeerror Components"
+Cohesion: 0.14
+Nodes (3): createClaudeError(), normalizeError(), ClaudeManager
 
 ### Community 5 - "Bootstrapmanager Components"
 Cohesion: 0.04
@@ -303,8 +307,8 @@ Cohesion: 0.33
 Nodes (5): 1. Directory Structure & Orphaned Files, 2. Architecture & Structural Improvements, 3. Dependency Check, 4. Security & Configuration, Phase 1: Repository Audit Report
 
 ### Community 57 - "Community 57"
-Cohesion: 0.18
-Nodes (13): AuditIssue, OperationDto, PluginHealthDto, SiteSettingsDto, useSite(), useSiteOperations(), useSitePlugin(), useSiteSettings() (+5 more)
+Cohesion: 0.19
+Nodes (12): OperationDto, PluginHealthDto, SiteSettingsDto, useSite(), useSiteOperations(), useSitePlugin(), useSiteSettings(), useUpdateSiteSettings() (+4 more)
 
 ### Community 58 - "Lifecycle Components"
 Cohesion: 0.20
@@ -363,8 +367,8 @@ Cohesion: 0.22
 Nodes (9): { ApiError, ErrorCodes }, createDashboardRoutes(), express, { sendSuccess, sendError, parsePagination }, ApiError, ErrorCodes, parsePagination(), sendError() (+1 more)
 
 ### Community 135 - "Community 135"
-Cohesion: 0.17
-Nodes (11): OverviewDto, Dashboard(), EventFeed(), KPICard(), KPICardProps, KPIGrid(), QueueWidget(), EventDto (+3 more)
+Cohesion: 0.13
+Nodes (14): OverviewDto, Dashboard(), EventFeed(), KPICard(), KPICardProps, KPIGrid(), QueueWidget(), ReviewWidget() (+6 more)
 
 ### Community 136 - "Community 136"
 Cohesion: 0.09
@@ -395,12 +399,12 @@ Cohesion: 0.50
 Nodes (3): Deploy on Vercel, Getting Started, Learn More
 
 ### Community 153 - "Community 153"
-Cohesion: 0.19
-Nodes (8): apiClient(), ApiError, ApiErrorResponse, ApiResponse, JobDto, ReviewWidget(), ReviewDto, useReviews()
+Cohesion: 0.17
+Nodes (13): apiClient(), ApiError, ApiErrorResponse, ApiResponse, AuditIssue, JobDto, ProjectDto, ProjectFilters (+5 more)
 
 ### Community 154 - "Community 154"
 Cohesion: 0.13
-Nodes (13): ClaudeError, InvalidProjectContentError, InvalidResponseQualityError, normalizeError(), RecoveryReport, ValidationError, fs, path (+5 more)
+Nodes (12): ClaudeError, InvalidProjectContentError, InvalidResponseQualityError, RecoveryReport, ValidationError, fs, path, SELECTORS (+4 more)
 
 ### Community 155 - "Community 155"
 Cohesion: 0.24
@@ -415,40 +419,40 @@ Cohesion: 0.31
 Nodes (7): ProjectHistoryDto, useProject(), useProjectHistory(), ProjectDetail(), STAGES, WorkflowStepper(), WorkflowStepperProps
 
 ### Community 163 - "Community 163"
-Cohesion: 0.33
-Nodes (4): SiteDto, SiteCard(), SiteHealthGrid(), useSites()
+Cohesion: 0.38
+Nodes (3): SiteCard(), SiteHealthGrid(), useSites()
 
 ### Community 164 - "Community 164"
-Cohesion: 0.14
-Nodes (12): apiTypesCode, apiTypesPath, frontendDir, fs, path, projectDetailCode, readServiceCode, readServicePath (+4 more)
+Cohesion: 0.17
+Nodes (13): RewriteDto, VersionDto, useProjectRewrites(), useProjectVersions(), useRewrite(), RewriteDetail(), DiffViewer(), RewriteHeader() (+5 more)
 
 ### Community 165 - "Community 165"
 Cohesion: 0.18
 Nodes (8): BrowserError, ProfileLockError, WORKER_STATES, { BrowserError, ProfileLockError }, { chromium }, { spawnSync }, stealth, { WORKER_STATES }
 
 ### Community 166 - "Community 166"
-Cohesion: 0.47
-Nodes (4): ProjectDto, ProjectFilters, useProjects(), ProjectsList()
+Cohesion: 0.14
+Nodes (12): apiTypesCode, apiTypesPath, frontendDir, fs, path, projectDetailCode, readServiceCode, readServicePath (+4 more)
 
 ## Knowledge Gaps
-- **382 isolated node(s):** `AuditIssue`, `fs`, `path`, `frontendDir`, `schemaPath` (+377 more)
+- **384 isolated node(s):** `AuditIssue`, `SectionDiffDto`, `RewriteSummaryDto`, `fs`, `path` (+379 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **104 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **103 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DashboardReadService` connect `Community 138` to `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **Why does `ClaudeManager` connect `Createclaudeerror Components` to `Community 154`, `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **Why does `DashboardReadService` connect `Community 138` to `Bootstrapmanager Components`?**
   _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **Why does `ProjectService` connect `Projectservice Components` to `Migrations Components`, `Community 84`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.013) - this node is a cross-community bridge._
-- **What connects `AuditIssue`, `fs`, `path` to the rest of the system?**
-  _382 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `BrowserManager` connect `Browsermanager Components` to `Bootstrapmanager Components`, `Bootstrapmanager Components`, `Community 165`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+- **What connects `AuditIssue`, `SectionDiffDto`, `RewriteSummaryDto` to the rest of the system?**
+  _384 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Auditroutes Components` be split into smaller, more focused modules?**
   _Cohesion score 0.10952380952380952 - nodes in this community are weakly interconnected._
 - **Should `Bootstrapmanager Components` be split into smaller, more focused modules?**
   _Cohesion score 0.06086956521739131 - nodes in this community are weakly interconnected._
 - **Should `Createclaudeerror Components` be split into smaller, more focused modules?**
-  _Cohesion score 0.14516129032258066 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.14015151515151514 - nodes in this community are weakly interconnected._

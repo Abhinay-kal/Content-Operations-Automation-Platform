@@ -164,6 +164,97 @@ class DashboardReadService {
         }
     }
 
+    
+    getReviews(pagination, filters = {}) {
+        let query = 'SELECT r.*, p.title as project_title, s.change_severity as rewrite_severity, a.seo_score as audit_score FROM content_reviews r LEFT JOIN content_projects p ON r.project_id = p.id LEFT JOIN seo_rewrites s ON r.rewrite_id = s.id LEFT JOIN seo_audits a ON s.source_audit_id = a.id WHERE 1=1';
+        let countQuery = 'SELECT COUNT(*) as c FROM content_reviews r LEFT JOIN content_projects p ON r.project_id = p.id LEFT JOIN seo_rewrites s ON r.rewrite_id = s.id WHERE 1=1';
+        const params = [];
+        
+        if (filters.siteId) {
+            query += ' AND r.site_id = ?';
+            countQuery += ' AND r.site_id = ?';
+            params.push(filters.siteId);
+        }
+        if (filters.status) {
+            query += ' AND r.status = ?';
+            countQuery += ' AND r.status = ?';
+            params.push(filters.status);
+        }
+        if (filters.changeSeverity) {
+            query += ' AND s.change_severity = ?';
+            countQuery += ' AND s.change_severity = ?';
+            params.push(filters.changeSeverity);
+        }
+        if (filters.assignment === 'MINE') {
+            query += ' AND r.reviewer_id = ?';
+            countQuery += ' AND r.reviewer_id = ?';
+            params.push(filters.userId || 'current_user'); // mockup current user
+        } else if (filters.assignment === 'UNASSIGNED') {
+            query += ' AND r.reviewer_id IS NULL';
+            countQuery += ' AND r.reviewer_id IS NULL';
+        }
+
+        query += ` ORDER BY r.${pagination.sort} ${pagination.direction} LIMIT ? OFFSET ?`;
+        
+        const rows = this.db.prepare(query).all(...params, pagination.limit, pagination.offset);
+        const total = this.db.prepare(countQuery).get(...params).c;
+        
+        return { data: rows.map(r => this.mapReviewListDto(r)), total };
+    }
+
+    getReviewById(id) {
+        try {
+            const r = this.db.prepare('SELECT r.*, p.title as project_title FROM content_reviews r LEFT JOIN content_projects p ON r.project_id = p.id WHERE r.id = ?').get(id);
+            if (!r) return null;
+            return this.mapReviewDetailDto(r);
+        } catch(e) {
+            return null;
+        }
+    }
+
+    updateReviewStatus(id, status) {
+        this.db.prepare('UPDATE content_reviews SET status = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?').run(status, id);
+    }
+
+    assignReviewer(id, reviewerId) {
+        this.db.prepare('UPDATE content_reviews SET reviewer_id = ?, assigned_at = CURRENT_TIMESTAMP WHERE id = ?').run(reviewerId, id);
+    }
+
+    mapReviewListDto(row) {
+        return {
+            id: row.id,
+            projectId: row.project_id,
+            siteId: row.site_id,
+            rewriteId: row.rewrite_id,
+            status: row.status,
+            projectTitle: row.project_title || 'Unknown Project',
+            auditScore: row.audit_score || null,
+            rewriteSeverity: row.rewrite_severity || 'MODERATE_CHANGE',
+            reviewerId: row.reviewer_id,
+            createdAt: row.created_at,
+            updatedAt: row.updated_at
+        };
+    }
+
+    mapReviewDetailDto(row) {
+        return {
+            id: row.id,
+            projectId: row.project_id,
+            siteId: row.site_id,
+            rewriteId: row.rewrite_id,
+            status: row.status,
+            projectTitle: row.project_title || 'Unknown Project',
+            reviewerId: row.reviewer_id,
+            assignedAt: row.assigned_at,
+            assignedBy: row.assigned_by,
+            auditScoreChange: row.audit_score_change,
+            intentImprovement: row.intent_improvement,
+            eeatImprovement: row.eeat_improvement,
+            createdAt: row.created_at,
+            updatedAt: row.updated_at
+        };
+    }
+
     getVersionById(id) {
         try {
             return this.db.prepare('SELECT * FROM content_versions WHERE id = ?').get(id);

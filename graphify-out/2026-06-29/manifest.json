@@ -845,8 +845,8 @@
     "semantic_hash": ""
   },
   "schema.sql": {
-    "mtime": 1782710183.83913,
-    "ast_hash": "59233d5211e0ab3a7687f4339f4cc4da",
+    "mtime": 1782725250.0048006,
+    "ast_hash": "07b9481ce8f2bdba4ba0889e2236a012",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/admin/Menu.php": {
@@ -1300,13 +1300,13 @@
     "semantic_hash": ""
   },
   "src/api/dashboardRoutes.js": {
-    "mtime": 1782725119.4928677,
-    "ast_hash": "866ba66a3cf37ae55ffa92dff982dc28",
+    "mtime": 1782725250.0065615,
+    "ast_hash": "91ac37cfeed4b09341a91960df9eafba",
     "semantic_hash": ""
   },
   "src/services/DashboardReadService.js": {
-    "mtime": 1782725119.4918094,
-    "ast_hash": "f623d2229c1ff8a7dc0742b3b5e54cec",
+    "mtime": 1782725250.0056903,
+    "ast_hash": "e2bb81c5d76e6592fed4fc16faad6cf9",
     "semantic_hash": ""
   },
   "src/utils/errors.js": {
@@ -1390,8 +1390,8 @@
     "semantic_hash": ""
   },
   "dashboard/lib/api/types.ts": {
-    "mtime": 1782725119.4939473,
-    "ast_hash": "4b9c52d5cd51bc71310ff442edf1a323",
+    "mtime": 1782725250.0070872,
+    "ast_hash": "f5c13d6955d5435d52f6d3cefc93c3a1",
     "semantic_hash": ""
   },
   "dashboard/lib/utils.ts": {
@@ -1540,8 +1540,8 @@
     "semantic_hash": ""
   },
   "dashboard/app/projects/[projectId]/page.tsx": {
-    "mtime": 1782725119.4953887,
-    "ast_hash": "262a0c860e507cc7c0eb2f6136eb45a9",
+    "mtime": 1782725250.008458,
+    "ast_hash": "74a6f7669148adc5eff16f55da9a6a3c",
     "semantic_hash": ""
   },
   "dashboard/app/projects/page.tsx": {
@@ -1559,9 +1559,44 @@
     "ast_hash": "7cfb85494b76ea7185da5dd1eec01793",
     "semantic_hash": ""
   },
-  "setup_d4.js": {
-    "mtime": 1782725112.6289728,
-    "ast_hash": "59e8cc5588645c3d099ad232e538c3c8",
+  "dashboard/app/audits/[auditId]/page.tsx": {
+    "mtime": 1782725250.0079541,
+    "ast_hash": "1908f73e3fdae436b2ab19603dab2c80",
+    "semantic_hash": ""
+  },
+  "dashboard/components/audits/AuditHeader.tsx": {
+    "mtime": 1782725250.007365,
+    "ast_hash": "2206f627f208628736618bcfcafdf0b1",
+    "semantic_hash": ""
+  },
+  "dashboard/components/audits/AuditMetadata.tsx": {
+    "mtime": 1782725250.0076885,
+    "ast_hash": "ab3adf9f96f646ffd4af19c8f8d0d7dc",
+    "semantic_hash": ""
+  },
+  "dashboard/components/audits/AuditTimeline.tsx": {
+    "mtime": 1782725250.0078218,
+    "ast_hash": "b2a1f7d11bb6ac7274014ea4bbdcbabb",
+    "semantic_hash": ""
+  },
+  "dashboard/components/audits/IssueGroups.tsx": {
+    "mtime": 1782725250.0075736,
+    "ast_hash": "a58aa3850976ff9afbbe1ddc5017ef1f",
+    "semantic_hash": ""
+  },
+  "dashboard/components/audits/ScoreCards.tsx": {
+    "mtime": 1782725250.007472,
+    "ast_hash": "94f0255d766132c2244d8988fc19bced",
+    "semantic_hash": ""
+  },
+  "dashboard/hooks/useAudits.ts": {
+    "mtime": 1782725250.0072541,
+    "ast_hash": "bb1f43e7302e81dc5eec2e727fdd367a",
+    "semantic_hash": ""
+  },
+  "setup_d5.js": {
+    "mtime": 1782725243.3422043,
+    "ast_hash": "f6a1f50fac7bcb9162ad5e3728d6df13",
     "semantic_hash": ""
   }
 }

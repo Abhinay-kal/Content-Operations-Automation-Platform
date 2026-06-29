@@ -79,6 +79,81 @@ function createDashboardRoutes({ dashboardReadService, logger }) {
         }
     });
 
+    
+    router.get('/dashboard/reviews', (req, res) => {
+        try {
+            const p = parsePagination(req);
+            const filters = { 
+                siteId: req.query.siteId, 
+                status: req.query.status, 
+                changeSeverity: req.query.changeSeverity,
+                assignment: req.query.assignment,
+                userId: req.query.userId
+            };
+            const { data, total } = dashboardReadService.getReviews(p, filters);
+            return sendSuccess(res, data, { ...p, total, pages: Math.ceil(total / p.limit) });
+        } catch(e) {
+            // fallback for missing schema in fresh run
+            return sendSuccess(res, [], { ...p, total: 0, pages: 0 });
+        }
+    });
+
+    router.get('/dashboard/reviews/:id', (req, res) => {
+        try {
+            const data = dashboardReadService.getReviewById(req.params.id);
+            if (!data) return sendError(res, new ApiError(ErrorCodes.PROJECT_NOT_FOUND, 'Review not found', 404));
+            return sendSuccess(res, data);
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    router.post('/dashboard/reviews/:id/approve', (req, res) => {
+        try {
+            dashboardReadService.updateReviewStatus(req.params.id, 'APPROVED');
+            return sendSuccess(res, { status: 'APPROVED' });
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    router.post('/dashboard/reviews/:id/reject', (req, res) => {
+        try {
+            dashboardReadService.updateReviewStatus(req.params.id, 'REJECTED');
+            return sendSuccess(res, { status: 'REJECTED' });
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    router.post('/dashboard/reviews/:id/request-changes', (req, res) => {
+        try {
+            dashboardReadService.updateReviewStatus(req.params.id, 'NEEDS_REVISION');
+            return sendSuccess(res, { status: 'NEEDS_REVISION' });
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    router.post('/dashboard/reviews/:id/publish', (req, res) => {
+        try {
+            dashboardReadService.updateReviewStatus(req.params.id, 'PUBLISHED');
+            // publish workflow hook would go here
+            return sendSuccess(res, { status: 'PUBLISHED' });
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    router.post('/dashboard/reviews/:id/assign', express.json(), (req, res) => {
+        try {
+            dashboardReadService.assignReviewer(req.params.id, req.body.reviewerId);
+            return sendSuccess(res, dashboardReadService.getReviewById(req.params.id));
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
     router.get('/dashboard/versions/:id', (req, res) => {
         try {
             const data = dashboardReadService.getVersionById(req.params.id);
@@ -147,11 +222,7 @@ function createDashboardRoutes({ dashboardReadService, logger }) {
         }
     });
     
-    router.get('/dashboard/reviews', (req, res) => {
-        try {
-            const p = parsePagination(req);
-            // reviews mock to unblock UI
-            return sendSuccess(res, [], { ...p, total: 0, pages: 0 });
+    
         } catch(e) {
             return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
         }

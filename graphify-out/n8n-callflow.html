@@ -60,7 +60,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>n8n — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 1487 nodes, 1852 edges, 167 communities. Commit: adcedcf</p>
+<p class="subtitle">Generated from graphify knowledge graph: 1516 nodes, 1908 edges, 167 communities. Commit: b712b86</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
@@ -73,11 +73,11 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
     <a href="#tests-fixtures">Tests &amp; Fixtures</a>
     <a href="#bootstrapmanager-components">Bootstrapmanager Components</a>
     <a href="#createclaudeerror-components">Createclaudeerror Components</a>
+    <a href="#community-138">Community 138</a>
+    <a href="#community-135">Community 135</a>
     <a href="#syncservice-components">Syncservice Components</a>
     <a href="#auditroutes-components">Auditroutes Components</a>
-    <a href="#community-138">Community 138</a>
     <a href="#jobrepository-components">Jobrepository Components</a>
-    <a href="#community-135">Community 135</a>
     <a href="#other">Other</a>
 </div>
 
@@ -98,38 +98,38 @@ flowchart LR
     class CLI_SKILLS_9964CBB8 module;
     INGEST_CACHE_UPDATE_FF457338("Ingestion &amp; Updates<br/><small>2 nodes</small>")
     class INGEST_CACHE_UPDATE_FF457338 module;
-    SERVE_API_35EC8E86("Serving API<br/><small>90 nodes</small>")
+    SERVE_API_35EC8E86("Serving API<br/><small>111 nodes</small>")
     class SERVE_API_35EC8E86 module;
-    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>81 nodes</small>")
+    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>80 nodes</small>")
     class TESTS_FIXTURES_B84B1DCC module;
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA("Bootstrapmanager Components<br/><small>45 nodes</small>")
     class BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA module;
-    CREATECLAUDEERROR_COMPONENTS_E352BCD7("Createclaudeerror Components<br/><small>32 nodes</small>")
+    CREATECLAUDEERROR_COMPONENTS_E352BCD7("Createclaudeerror Components<br/><small>33 nodes</small>")
     class CREATECLAUDEERROR_COMPONENTS_E352BCD7 module;
+    COMMUNITY_138_B63E6FD2("Community 138<br/><small>26 nodes</small>")
+    class COMMUNITY_138_B63E6FD2 module;
+    COMMUNITY_135_C8D1C598("Community 135<br/><small>23 nodes</small>")
+    class COMMUNITY_135_C8D1C598 module;
     SYNCSERVICE_COMPONENTS_651B7EA4("Syncservice Components<br/><small>22 nodes</small>")
     class SYNCSERVICE_COMPONENTS_651B7EA4 module;
     AUDITROUTES_COMPONENTS_7DD59280("Auditroutes Components<br/><small>21 nodes</small>")
     class AUDITROUTES_COMPONENTS_7DD59280 module;
-    COMMUNITY_138_B63E6FD2("Community 138<br/><small>21 nodes</small>")
-    class COMMUNITY_138_B63E6FD2 module;
     JOBREPOSITORY_COMPONENTS_A6220750("Jobrepository Components<br/><small>20 nodes</small>")
     class JOBREPOSITORY_COMPONENTS_A6220750 module;
-    COMMUNITY_135_C8D1C598("Community 135<br/><small>18 nodes</small>")
-    class COMMUNITY_135_C8D1C598 module;
-    OTHER_D0941E68("Other<br/><small>558 nodes</small>")
+    OTHER_D0941E68("Other<br/><small>556 nodes</small>")
     class OTHER_D0941E68 module;
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x70| OTHER_D0941E68
     AUDITROUTES_COMPONENTS_7DD59280 -->|imports x20| SERVE_API_35EC8E86
     OTHER_D0941E68 -->|imports x13| TESTS_FIXTURES_B84B1DCC
-    OTHER_D0941E68 -->|imports x10| SERVE_API_35EC8E86
-    SERVE_API_35EC8E86 -->|contains x7| OTHER_D0941E68
-    COMMUNITY_135_C8D1C598 -->|imports x5| SERVE_API_35EC8E86
+    SERVE_API_35EC8E86 -->|imports x12| OTHER_D0941E68
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x5| CLI_SKILLS_9964CBB8
-    TESTS_FIXTURES_B84B1DCC -->|contains x4| CREATECLAUDEERROR_COMPONENTS_E352BCD7
+    COMMUNITY_135_C8D1C598 -->|imports x4| SERVE_API_35EC8E86
     OTHER_D0941E68 -->|imports x4| BUILD_GRAPH_321CBB04
     SERVE_API_35EC8E86 -->|contains x3| COMMUNITY_135_C8D1C598
     SERVE_API_35EC8E86 -->|imports x3| AUDITROUTES_COMPONENTS_7DD59280
+    OTHER_D0941E68 -->|imports x3| SERVE_API_35EC8E86
     AUDITROUTES_COMPONENTS_7DD59280 -->|imports x3| OTHER_D0941E68
+    ANALYSIS_CLUSTERING_C79796DA -->|imports x3| OTHER_D0941E68
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -146,7 +146,7 @@ flowchart LR
     <h4>Architecture Layers</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>Layer</th><th>Nodes</th><th>Communities</th></tr>
-      <tr><td>Graph Build</td><td>116</td><td><code>80, 6, 136, 140, 81</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>25</td><td><code>164, 137</code></td></tr><tr><td>Outputs &amp; Docs</td><td>15</td><td><code>12, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>421</td><td><code>2, 39, 27, 34, 15, 93, 97, 161, 40, 85, 87, 59, 55, 107, 108, 98, 110, 62, 102, 111, 114, 123, 35, 70, 71, 74, 103, 112, 113, 41, 75, 115, 130, 131, 132, 77, 78, 104, 105, 106, 61, 95, 109, 160</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>90</td><td><code>57, 153, 134, 139, 166, 100, 144, 145, 146, 147, 148, 149, 150, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>81</td><td><code>33, 154, 3, 37, 44, 45, 46, 47</code></td></tr><tr><td>Bootstrapmanager Components</td><td>45</td><td><code>5</code></td></tr><tr><td>Createclaudeerror Components</td><td>32</td><td><code>4</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Auditroutes Components</td><td>21</td><td><code>0</code></td></tr><tr><td>Community 138</td><td>21</td><td><code>138</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Community 135</td><td>18</td><td><code>135</code></td></tr><tr><td>Other</td><td>558</td><td><code>9, 10, 11, 13, 155, 133, 14, 68, 16, 82, 165, 17, 18, 19, 20, 90, 1, 141, 162, 21, 22, 58, 163, 23, 24, 83, 96, 116, 121, 25, 84, 99, 101, 26, 86, 122, 28, 29, 30, 31, 32, 117, 124, 142, 36, 89, 94, 118, 119, 125, 126, 127, 128, 129, 143, 38, 42, 43, 48, 49, 88, 151, 152, 50, 52, 53, 54, 120, 156, 157, 158, 159, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
+      <tr><td>Graph Build</td><td>116</td><td><code>80, 6, 136, 140, 81</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>25</td><td><code>166, 137</code></td></tr><tr><td>Outputs &amp; Docs</td><td>15</td><td><code>12, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>421</td><td><code>2, 39, 27, 34, 15, 93, 97, 161, 40, 85, 87, 59, 55, 107, 108, 98, 110, 62, 102, 111, 114, 123, 35, 70, 71, 74, 103, 112, 113, 41, 75, 115, 130, 131, 132, 77, 78, 104, 105, 106, 61, 95, 109, 160</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>111</td><td><code>164, 153, 57, 134, 139, 100, 144, 145, 146, 147, 148, 149, 150, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>80</td><td><code>33, 154, 3, 37, 44, 45, 46, 47</code></td></tr><tr><td>Bootstrapmanager Components</td><td>45</td><td><code>5</code></td></tr><tr><td>Createclaudeerror Components</td><td>33</td><td><code>4</code></td></tr><tr><td>Community 138</td><td>26</td><td><code>138</code></td></tr><tr><td>Community 135</td><td>23</td><td><code>135</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Auditroutes Components</td><td>21</td><td><code>0</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Other</td><td>556</td><td><code>9, 10, 11, 13, 155, 133, 14, 68, 16, 82, 165, 17, 18, 19, 20, 90, 1, 141, 162, 21, 22, 58, 23, 24, 83, 96, 116, 121, 25, 84, 99, 101, 163, 26, 86, 122, 28, 29, 30, 31, 32, 117, 124, 142, 36, 89, 94, 118, 119, 125, 126, 127, 128, 129, 143, 38, 42, 43, 48, 49, 88, 151, 152, 50, 52, 53, 54, 120, 156, 157, 158, 159, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
     </table>
   </div>
   <div class="card">
@@ -158,12 +158,12 @@ flowchart LR
   <div class="card">
     <h4>Graph Report Highlights</h4>
     <ul>
-      <li>1487 nodes · 1852 edges · 167 communities (63 shown, 104 thin omitted)</li>
+      <li>1516 nodes · 1908 edges · 167 communities (64 shown, 103 thin omitted)</li>
       <li>Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)</li>
       <li>Token cost: 0 input · 0 output</li>
       <li>1. `ClaudeManager` - 33 edges</li>
       <li>2. `ConfigService` - 28 edges</li>
-      <li>3. `PluginIdentity` - 24 edges</li>
+      <li>3. `DashboardReadService` - 26 edges</li>
     </ul>
   </div>
 </div>
@@ -515,27 +515,27 @@ flowchart LR
 
 <!-- ====== 3. Analysis & Clustering ====== -->
 <h2 id="analysis-clustering">3. Analysis &amp; Clustering</h2>
-<p>Analysis &amp; Clustering groups implementation around setup, d5js, claudeworkerjs, workers, mostly in setup_d5.js, src/workers/ClaudeWorker.js, src/errors/ClaudeErrors.js. This section covers 25 nodes and 23 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Analysis &amp; Clustering groups implementation around setup, d6js, claudeworkerjs, workers, mostly in setup_d6.js, src/workers/ClaudeWorker.js, src/errors/ClaudeErrors.js. This section covers 25 nodes and 23 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
     %% Section: Analysis &amp; Clustering (25 nodes, 23 edges)
-    subgraph analysis_clustering_setup_d5_js_a47315c1["setup_d5.js"]
-        setup_d5_apitypescode_201cef91("apiTypesCode<br/><small>setup_d5.js</small>")
-        setup_d5_apitypespath_18fdcfdd("apiTypesPath<br/><small>setup_d5.js</small>")
-        setup_d5_frontenddir_cdb6bead("frontendDir<br/><small>setup_d5.js</small>")
-        setup_d5_fs_01adb436("fs<br/><small>setup_d5.js</small>")
-        setup_d5_mkdirp_7bd29563("mkdirp()<br/><small>setup_d5.js</small>")
-        setup_d5_path_7520d1b2("path<br/><small>setup_d5.js</small>")
-        setup_d5_projectdetailcode_0fc51f6f("projectDetailCode<br/><small>setup_d5.js</small>")
-        setup_d5_readservicecode_762bebeb("readServiceCode<br/><small>setup_d5.js</small>")
-        setup_d5_readservicepath_b753d3b5("readServicePath<br/><small>setup_d5.js</small>")
-        setup_d5_routescode_27c69f31("routesCode<br/><small>setup_d5.js</small>")
-        setup_d5_routespath_9b3a888d("routesPath<br/><small>setup_d5.js</small>")
-        setup_d5_schemacontent_8b089430("schemaContent<br/><small>setup_d5.js</small>")
-        setup_d5_schemapath_51ed0856("schemaPath<br/><small>setup_d5.js</small>")
-        setup_d5_62d43f01("setup_d5.js")
+    subgraph analysis_clustering_setup_d6_js_65315784["setup_d6.js"]
+        setup_d6_apitypescode_81406aa8("apiTypesCode<br/><small>setup_d6.js</small>")
+        setup_d6_apitypespath_d8f95786("apiTypesPath<br/><small>setup_d6.js</small>")
+        setup_d6_frontenddir_84b5cd7e("frontendDir<br/><small>setup_d6.js</small>")
+        setup_d6_fs_904bc667("fs<br/><small>setup_d6.js</small>")
+        setup_d6_mkdirp_6988c4ff("mkdirp()<br/><small>setup_d6.js</small>")
+        setup_d6_path_f883dc55("path<br/><small>setup_d6.js</small>")
+        setup_d6_projectdetailcode_9412db97("projectDetailCode<br/><small>setup_d6.js</small>")
+        setup_d6_readservicecode_d49c204b("readServiceCode<br/><small>setup_d6.js</small>")
+        setup_d6_readservicepath_97682b9f("readServicePath<br/><small>setup_d6.js</small>")
+        setup_d6_routescode_20795f0e("routesCode<br/><small>setup_d6.js</small>")
+        setup_d6_routespath_277bb6f8("routesPath<br/><small>setup_d6.js</small>")
+        setup_d6_schemacontent_19e8c35b("schemaContent<br/><small>setup_d6.js</small>")
+        setup_d6_schemapath_d81e8543("schemaPath<br/><small>setup_d6.js</small>")
+        setup_d6_2efa0378("setup_d6.js")
     end
     subgraph analysis_clustering_src_errors_ClaudeErrors_js_27f08e0d["src/errors/ClaudeErrors.js"]
         errors_claudeerrors_contentunavailableerror_2d6d6134("ContentUnavailableError<br/><small>src/errors/ClaudeErrors.js</small>")
@@ -548,20 +548,20 @@ flowchart LR
     errors_claudeerrors_contentunavailableerror_2d6d6134 -->|method| errors_claudeerrors_contentunavailableerror_cons_abe8ed75
     workers_claudeworker_d6c37514 -->|imports| errors_claudeerrors_contentunavailableerror_2d6d6134
     %% Omitted for readability: 7 nodes, 0 edges
-    class setup_d5_apitypescode_201cef91 api;
-    class setup_d5_apitypespath_18fdcfdd api;
-    class setup_d5_frontenddir_cdb6bead function;
-    class setup_d5_fs_01adb436 function;
-    class setup_d5_mkdirp_7bd29563 function;
-    class setup_d5_path_7520d1b2 function;
-    class setup_d5_projectdetailcode_0fc51f6f function;
-    class setup_d5_readservicecode_762bebeb function;
-    class setup_d5_readservicepath_b753d3b5 function;
-    class setup_d5_routescode_27c69f31 api;
-    class setup_d5_routespath_9b3a888d api;
-    class setup_d5_schemacontent_8b089430 function;
-    class setup_d5_schemapath_51ed0856 function;
-    class setup_d5_62d43f01 module;
+    class setup_d6_apitypescode_81406aa8 api;
+    class setup_d6_apitypespath_d8f95786 api;
+    class setup_d6_frontenddir_84b5cd7e function;
+    class setup_d6_fs_904bc667 function;
+    class setup_d6_mkdirp_6988c4ff function;
+    class setup_d6_path_f883dc55 function;
+    class setup_d6_projectdetailcode_9412db97 function;
+    class setup_d6_readservicecode_d49c204b function;
+    class setup_d6_readservicepath_97682b9f function;
+    class setup_d6_routescode_20795f0e api;
+    class setup_d6_routespath_277bb6f8 api;
+    class setup_d6_schemacontent_19e8c35b function;
+    class setup_d6_schemapath_d81e8543 function;
+    class setup_d6_2efa0378 module;
     class errors_claudeerrors_contentunavailableerror_2d6d6134 klass;
     class errors_claudeerrors_contentunavailableerror_cons_abe8ed75 function;
     class workers_claudeworker_d6c37514 klass;
@@ -589,115 +589,115 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>setup_d5.js</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>setup_d6.js</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-class">Module</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>setup_d5.js node in setup_d5.js.</td>
+  <td>setup_d6.js node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><code>fs</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>fs</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>fs node in setup_d5.js.</td>
+  <td>fs node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><code>path</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>path</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>path node in setup_d5.js.</td>
+  <td>path node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><code>frontendDir</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>frontendDir</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>frontendDir node in setup_d5.js.</td>
+  <td>frontendDir node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>5</td>
-  <td><code>mkdirp()</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>mkdirp()</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>mkdirp() node in setup_d5.js.</td>
+  <td>mkdirp() node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>6</td>
-  <td><code>schemaPath</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>schemaPath</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>schemaPath node in setup_d5.js.</td>
+  <td>schemaPath node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>7</td>
-  <td><code>schemaContent</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>schemaContent</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>schemaContent node in setup_d5.js.</td>
+  <td>schemaContent node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>8</td>
-  <td><code>readServicePath</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>readServicePath</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>readServicePath node in setup_d5.js.</td>
+  <td>readServicePath node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>9</td>
-  <td><code>readServiceCode</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>readServiceCode</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>readServiceCode node in setup_d5.js.</td>
+  <td>readServiceCode node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>10</td>
-  <td><code>routesPath</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>routesPath</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>routesPath node in setup_d5.js.</td>
+  <td>routesPath node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>11</td>
-  <td><code>routesCode</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>routesCode</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>routesCode node in setup_d5.js.</td>
+  <td>routesCode node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>12</td>
-  <td><code>apiTypesPath</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>apiTypesPath</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>apiTypesPath node in setup_d5.js.</td>
+  <td>apiTypesPath node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>13</td>
-  <td><code>apiTypesCode</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>apiTypesCode</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>apiTypesCode node in setup_d5.js.</td>
+  <td>apiTypesCode node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>14</td>
-  <td><code>projectDetailCode</code><br><small style="color:var(--muted)">setup_d5.js</small></td>
+  <td><code>projectDetailCode</code><br><small style="color:var(--muted)">setup_d6.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>projectDetailCode node in setup_d5.js.</td>
+  <td>projectDetailCode node in setup_d6.js.</td>
 </tr>
 <tr>
   <td>15</td>
@@ -794,7 +794,7 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>setup_d5.js</code></td><td>14 nodes</td></tr>
+      <tr><td><code>setup_d6.js</code></td><td>14 nodes</td></tr>
 <tr><td><code>src/workers/ClaudeWorker.js</code></td><td>9 nodes</td></tr>
 <tr><td><code>src/errors/ClaudeErrors.js</code></td><td>2 nodes</td></tr>
     </table>
@@ -1441,22 +1441,20 @@ flowchart LR
 
 <!-- ====== 7. Serving API ====== -->
 <h2 id="serve-api">7. Serving API</h2>
-<p>Serving API groups implementation around api, dashboard, hooks, pagetsx, mostly in lib/api/types.ts, dashboard/hooks/useSiteDetails.ts, src/api/dashboardRoutes.js. This section covers 90 nodes and 122 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Serving API groups implementation around dashboard, api, rewrites, typests, mostly in lib/api/types.ts, dashboard/hooks/useSiteDetails.ts, src/api/dashboardRoutes.js. This section covers 111 nodes and 171 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Serving API (90 nodes, 122 edges)
-    subgraph serve_api_dashboard_hooks_useSiteDetails_ts_7f405ac7["dashboard/hooks/useSiteDetails.ts"]
-        hooks_usesitedetails_usesite_59d2030c("useSite()<br/><small>dashboard/hooks/useSiteDetails.ts</small>")
-        hooks_usesitedetails_usesiteoperations_771d9e07("useSiteOperations()<br/><small>dashboard/hooks/useSiteDetails.ts</small>")
-        hooks_usesitedetails_usesiteplugin_3e161c65("useSitePlugin()<br/><small>dashboard/hooks/useSiteDetails.ts</small>")
-        hooks_usesitedetails_usesitesettings_9f1394ea("useSiteSettings()<br/><small>dashboard/hooks/useSiteDetails.ts</small>")
-        hooks_usesitedetails_useupdatesitesettings_1dc177ed("useUpdateSiteSettings()<br/><small>dashboard/hooks/useSiteDetails.ts</small>")
+    %% Section: Serving API (111 nodes, 171 edges)
+    subgraph serve_api_dashboard_hooks_useRewrites_ts_e011f17d["dashboard/hooks/useRewrites.ts"]
+        hooks_userewrites_userewrite_eb5f3f06("useRewrite()<br/><small>dashboard/hooks/useRewrites.ts</small>")
+        hooks_userewrites_useprojectrewrites_0e4b2af4("useProjectRewrites()<br/><small>dashboard/hooks/useRewrites.ts</small>")
+        hooks_userewrites_useprojectversions_8912b142("useProjectVersions()<br/><small>dashboard/hooks/useRewrites.ts</small>")
     end
-    subgraph serve_api_siteId_settings_page_tsx_01078758["[siteId]/settings/page.tsx"]
-        settings_page_f734b8a7("page.tsx")
-        settings_page_workflowsettings_68aca4ae("WorkflowSettings()<br/><small>[siteId]/settings/page.tsx</small>")
+    subgraph serve_api_rewrites_rewriteId_page_tsx_8d44eef4["rewrites/[rewriteId]/page.tsx"]
+        rewriteid_page_309eb334("page.tsx")
+        rewriteid_page_rewritedetail_a036f4d8("RewriteDetail()<br/><small>rewrites/[rewriteId]/page.tsx</small>")
     end
     subgraph serve_api_sites_siteId_page_tsx_e7757376["sites/[siteId]/page.tsx"]
         siteid_page_6eee8d90("page.tsx")
@@ -1466,42 +1464,43 @@ flowchart LR
         api_dashboardroutes_5b37dfb1("dashboardRoutes.js")
         api_dashboardroutes_createdashboardroutes_29ec3134("createDashboardRoutes()<br/><small>src/api/dashboardRoutes.js</small>")
     end
-    plugin_page_pluginhealth_b23bcd7e("PluginHealth()<br/><small>[siteId]/plugin/page.tsx</small>")
+    settings_page_f734b8a7("page.tsx")
     projects_page_projectslist_7b8deb51("ProjectsList()<br/><small>app/projects/page.tsx</small>")
-    dashboard_reviewwidget_e0de03b8("ReviewWidget.tsx")
+    rewrites_rewritetimeline_rewritetimeline_fb86472a("RewriteTimeline()<br/><small>components/rewrites/RewriteTimeline.tsx</small>")
+    rewrites_versionbrowser_versionbrowser_acfa57b2("VersionBrowser()<br/><small>components/rewrites/VersionBrowser.tsx</small>")
     hooks_useprojects_useprojects_1b3112d0("useProjects()<br/><small>dashboard/hooks/useProjects.ts</small>")
-    api_types_8591a0ff("types.ts")
+    hooks_usesitedetails_usesite_59d2030c("useSite()<br/><small>dashboard/hooks/useSiteDetails.ts</small>")
+    api_types_sitedto_e9624ccb("SiteDto<br/><small>lib/api/types.ts</small>")
     siteid_layout_sitelayout_18076b0f("SiteLayout()<br/><small>sites/[siteId]/layout.tsx</small>")
     src_server_createapp_01c7056f("createApp()<br/><small>src/server.js</small>")
+    rewriteid_page_rewritedetail_a036f4d8 -->|calls| hooks_userewrites_userewrite_eb5f3f06
+    rewrites_rewritetimeline_rewritetimeline_fb86472a -->|calls| hooks_userewrites_useprojectrewrites_0e4b2af4
+    rewrites_versionbrowser_versionbrowser_acfa57b2 -->|calls| hooks_userewrites_useprojectversions_8912b142
     api_dashboardroutes_createdashboardroutes_29ec3134 -->|calls| src_server_createapp_01c7056f
     projects_page_projectslist_7b8deb51 -->|calls| hooks_useprojects_useprojects_1b3112d0
     siteid_layout_sitelayout_18076b0f -->|calls| hooks_usesitedetails_usesite_59d2030c
     siteid_page_siteoverview_fd1c9048 -->|calls| hooks_usesitedetails_usesite_59d2030c
-    siteid_page_siteoverview_fd1c9048 -->|calls| hooks_usesitedetails_usesiteoperations_771d9e07
-    plugin_page_pluginhealth_b23bcd7e -->|calls| hooks_usesitedetails_usesiteplugin_3e161c65
-    settings_page_workflowsettings_68aca4ae -->|calls| hooks_usesitedetails_usesitesettings_9f1394ea
-    settings_page_workflowsettings_68aca4ae -->|calls| hooks_usesitedetails_useupdatesitesettings_1dc177ed
+    rewriteid_page_309eb334 -->|imports| hooks_userewrites_userewrite_eb5f3f06
+    rewriteid_page_309eb334 -->|imports| rewrites_rewritetimeline_rewritetimeline_fb86472a
+    rewriteid_page_309eb334 -->|imports| rewrites_versionbrowser_versionbrowser_acfa57b2
     siteid_page_6eee8d90 -->|imports| hooks_usesitedetails_usesite_59d2030c
-    siteid_page_6eee8d90 -->|imports| hooks_usesitedetails_usesiteoperations_771d9e07
-    settings_page_f734b8a7 -->|imports| hooks_usesitedetails_usesitesettings_9f1394ea
-    settings_page_f734b8a7 -->|imports| hooks_usesitedetails_useupdatesitesettings_1dc177ed
-    %% Omitted for readability: 72 nodes, 0 edges
-    class hooks_usesitedetails_usesite_59d2030c ui;
-    class hooks_usesitedetails_usesiteoperations_771d9e07 ui;
-    class hooks_usesitedetails_usesiteplugin_3e161c65 ui;
-    class hooks_usesitedetails_usesitesettings_9f1394ea ui;
-    class hooks_usesitedetails_useupdatesitesettings_1dc177ed ui;
-    class settings_page_f734b8a7 ui;
-    class settings_page_workflowsettings_68aca4ae ui;
+    %% Omitted for readability: 93 nodes, 0 edges
+    class hooks_userewrites_userewrite_eb5f3f06 ui;
+    class hooks_userewrites_useprojectrewrites_0e4b2af4 ui;
+    class hooks_userewrites_useprojectversions_8912b142 ui;
+    class rewriteid_page_309eb334 ui;
+    class rewriteid_page_rewritedetail_a036f4d8 ui;
     class siteid_page_6eee8d90 ui;
     class siteid_page_siteoverview_fd1c9048 ui;
     class api_dashboardroutes_5b37dfb1 api;
     class api_dashboardroutes_createdashboardroutes_29ec3134 api;
-    class plugin_page_pluginhealth_b23bcd7e ui;
+    class settings_page_f734b8a7 ui;
     class projects_page_projectslist_7b8deb51 ui;
-    class dashboard_reviewwidget_e0de03b8 ui;
+    class rewrites_rewritetimeline_rewritetimeline_fb86472a ui;
+    class rewrites_versionbrowser_versionbrowser_acfa57b2 ui;
     class hooks_useprojects_useprojects_1b3112d0 ui;
-    class api_types_8591a0ff module;
+    class hooks_usesitedetails_usesite_59d2030c ui;
+    class api_types_sitedto_e9624ccb klass;
     class siteid_layout_sitelayout_18076b0f ui;
     class src_server_createapp_01c7056f function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
@@ -1527,166 +1526,190 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
-  <td><span class="tag tag-class">Module</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>client.ts</code><br><small style="color:var(--muted)">lib/api/client.ts</small><br><code>useJobs.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useJobs.ts</small><br><code>useProjects.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useProjects.ts</small><br>+1 more</td>
-  <td>Module file in lib/api/types.ts.</td>
+  <td><code>DiffViewer()</code><br><small style="color:var(--muted)">components/rewrites/DiffViewer.tsx</small><br><code>DiffViewer.tsx</code><br><small style="color:var(--muted)">components/rewrites/DiffViewer.tsx</small><br><code>RewriteHeader()</code><br><small style="color:var(--muted)">components/rewrites/RewriteHeader.tsx</small><br>+11 more</td>
+  <td>Module file in rewrites/[rewriteId]/page.tsx.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><code>PluginHealthDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>RewriteDetail()</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>useSiteDetails.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>PluginHealthDto node in lib/api/types.ts.</td>
+  <td><code>useRewrite()</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
+  <td>RewriteDetail() node in rewrites/[rewriteId]/page.tsx.</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><code>SiteSettingsDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useSiteDetails.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>SiteSettingsDto node in lib/api/types.ts.</td>
+  <td><code>DiffViewer.tsx</code><br><small style="color:var(--muted)">components/rewrites/DiffViewer.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td>Module file in components/rewrites/DiffViewer.tsx.</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><code>OperationDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useSiteDetails.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>OperationDto node in lib/api/types.ts.</td>
+  <td><code>DiffViewer()</code><br><small style="color:var(--muted)">components/rewrites/DiffViewer.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>DiffViewer() node in components/rewrites/DiffViewer.tsx.</td>
 </tr>
 <tr>
   <td>5</td>
-  <td><code>AuditIssue</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>AuditIssue node in lib/api/types.ts.</td>
+  <td><code>RewriteHeader.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteHeader.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td>Module file in components/rewrites/RewriteHeader.tsx.</td>
 </tr>
 <tr>
   <td>6</td>
-  <td><code>layout.tsx</code><br><small style="color:var(--muted)">sites/[siteId]/layout.tsx</small></td>
+  <td><code>RewriteHeader()</code><br><small style="color:var(--muted)">components/rewrites/RewriteHeader.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useSite()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small><br><code>useSiteDetails.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>Module file in sites/[siteId]/layout.tsx.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>RewriteHeader() node in components/rewrites/RewriteHeader.tsx.</td>
 </tr>
 <tr>
   <td>7</td>
-  <td><code>SiteLayout()</code><br><small style="color:var(--muted)">sites/[siteId]/layout.tsx</small></td>
+  <td><code>RewriteHealthBadge.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteHealthBadge.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>useSite()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>SiteLayout() node in sites/[siteId]/layout.tsx.</td>
+  <td><code>RewriteMetrics.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteMetrics.tsx</small></td>
+  <td>Module file in components/rewrites/RewriteHealthBadge.tsx.</td>
 </tr>
 <tr>
   <td>8</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">sites/[siteId]/page.tsx</small></td>
+  <td><code>RewriteHealthBadge()</code><br><small style="color:var(--muted)">components/rewrites/RewriteHealthBadge.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>useSite()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small><br><code>useSiteDetails.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small><br><code>useSiteOperations()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>Module file in sites/[siteId]/page.tsx.</td>
+  <td><code>RewriteMetrics.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteMetrics.tsx</small></td>
+  <td>RewriteHealthBadge() node in components/rewrites/RewriteHealthBadge.tsx.</td>
 </tr>
 <tr>
   <td>9</td>
-  <td><code>SiteOverview()</code><br><small style="color:var(--muted)">sites/[siteId]/page.tsx</small></td>
+  <td><code>RewriteMetrics.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteMetrics.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useSite()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small><br><code>useSiteOperations()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>SiteOverview() node in sites/[siteId]/page.tsx.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small><br><code>RewriteHealthBadge()</code><br><small style="color:var(--muted)">components/rewrites/RewriteHealthBadge.tsx</small><br><code>RewriteHealthBadge.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteHealthBadge.tsx</small></td>
+  <td><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td>Module file in components/rewrites/RewriteMetrics.tsx.</td>
 </tr>
 <tr>
   <td>10</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">[siteId]/plugin/page.tsx</small></td>
+  <td><code>RewriteMetrics()</code><br><small style="color:var(--muted)">components/rewrites/RewriteMetrics.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useSiteDetails.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small><br><code>useSitePlugin()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>Module file in [siteId]/plugin/page.tsx.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>RewriteMetrics() node in components/rewrites/RewriteMetrics.tsx.</td>
 </tr>
 <tr>
   <td>11</td>
-  <td><code>PluginHealth()</code><br><small style="color:var(--muted)">[siteId]/plugin/page.tsx</small></td>
+  <td><code>RewriteSummary.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteSummary.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useSitePlugin()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>PluginHealth() node in [siteId]/plugin/page.tsx.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td>Module file in components/rewrites/RewriteSummary.tsx.</td>
 </tr>
 <tr>
   <td>12</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">[siteId]/settings/page.tsx</small></td>
+  <td><code>RewriteSummary()</code><br><small style="color:var(--muted)">components/rewrites/RewriteSummary.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useSiteDetails.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small><br><code>useSiteSettings()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small><br><code>useUpdateSiteSettings()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>Module file in [siteId]/settings/page.tsx.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>RewriteSummary() node in components/rewrites/RewriteSummary.tsx.</td>
 </tr>
 <tr>
   <td>13</td>
-  <td><code>WorkflowSettings()</code><br><small style="color:var(--muted)">[siteId]/settings/page.tsx</small></td>
+  <td><code>RewriteTimeline.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteTimeline.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useSiteSettings()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small><br><code>useUpdateSiteSettings()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
-  <td>WorkflowSettings() node in [siteId]/settings/page.tsx.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td><code>useProjectRewrites()</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small><br><code>useRewrites.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
+  <td>Module file in components/rewrites/RewriteTimeline.tsx.</td>
 </tr>
 <tr>
   <td>14</td>
-  <td><code>useSiteDetails.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
+  <td><code>RewriteTimeline()</code><br><small style="color:var(--muted)">components/rewrites/RewriteTimeline.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td><code>layout.tsx</code><br><small style="color:var(--muted)">sites/[siteId]/layout.tsx</small><br><code>OperationDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>page.tsx</code><br><small style="color:var(--muted)">sites/[siteId]/page.tsx</small><br>+5 more</td>
-  <td><code>apiClient()</code><br><small style="color:var(--muted)">lib/api/client.ts</small></td>
-  <td>Module file in dashboard/hooks/useSiteDetails.ts.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td><code>useProjectRewrites()</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
+  <td>RewriteTimeline() node in components/rewrites/RewriteTimeline.tsx.</td>
 </tr>
 <tr>
   <td>15</td>
-  <td><code>useSite()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
+  <td><code>VersionBrowser.tsx</code><br><small style="color:var(--muted)">components/rewrites/VersionBrowser.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td><code>layout.tsx</code><br><small style="color:var(--muted)">sites/[siteId]/layout.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">sites/[siteId]/page.tsx</small><br><code>SiteLayout()</code><br><small style="color:var(--muted)">sites/[siteId]/layout.tsx</small><br>+1 more</td>
-  <td>No direct outbound edge</td>
-  <td>useSite() node in dashboard/hooks/useSiteDetails.ts.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td><code>useProjectVersions()</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small><br><code>useRewrites.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
+  <td>Module file in components/rewrites/VersionBrowser.tsx.</td>
 </tr>
 <tr>
   <td>16</td>
-  <td><code>useSitePlugin()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
+  <td><code>VersionBrowser()</code><br><small style="color:var(--muted)">components/rewrites/VersionBrowser.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">[siteId]/plugin/page.tsx</small><br><code>PluginHealth()</code><br><small style="color:var(--muted)">[siteId]/plugin/page.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>useSitePlugin() node in dashboard/hooks/useSiteDetails.ts.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
+  <td><code>useProjectVersions()</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
+  <td>VersionBrowser() node in components/rewrites/VersionBrowser.tsx.</td>
 </tr>
 <tr>
   <td>17</td>
-  <td><code>useSiteSettings()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
+  <td><code>useRewrites.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">[siteId]/settings/page.tsx</small><br><code>WorkflowSettings()</code><br><small style="color:var(--muted)">[siteId]/settings/page.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>useSiteSettings() node in dashboard/hooks/useSiteDetails.ts.</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small><br><code>RewriteTimeline.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteTimeline.tsx</small><br><code>VersionBrowser.tsx</code><br><small style="color:var(--muted)">components/rewrites/VersionBrowser.tsx</small></td>
+  <td><code>apiClient()</code><br><small style="color:var(--muted)">lib/api/client.ts</small><br><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br>+1 more</td>
+  <td>Module file in dashboard/hooks/useRewrites.ts.</td>
 </tr>
 <tr>
   <td>18</td>
-  <td><code>useUpdateSiteSettings()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
+  <td><code>useRewrite()</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">[siteId]/settings/page.tsx</small><br><code>WorkflowSettings()</code><br><small style="color:var(--muted)">[siteId]/settings/page.tsx</small></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small><br><code>RewriteDetail()</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
   <td>No direct outbound edge</td>
-  <td>useUpdateSiteSettings() node in dashboard/hooks/useSiteDetails.ts.</td>
+  <td>useRewrite() node in dashboard/hooks/useRewrites.ts.</td>
 </tr>
 <tr>
   <td>19</td>
-  <td><code>useSiteOperations()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
+  <td><code>useProjectRewrites()</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">sites/[siteId]/page.tsx</small><br><code>SiteOverview()</code><br><small style="color:var(--muted)">sites/[siteId]/page.tsx</small></td>
+  <td><code>RewriteTimeline()</code><br><small style="color:var(--muted)">components/rewrites/RewriteTimeline.tsx</small><br><code>RewriteTimeline.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteTimeline.tsx</small></td>
   <td>No direct outbound edge</td>
-  <td>useSiteOperations() node in dashboard/hooks/useSiteDetails.ts.</td>
+  <td>useProjectRewrites() node in dashboard/hooks/useRewrites.ts.</td>
 </tr>
 <tr>
   <td>20</td>
-  <td><code>useSiteEvents()</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small></td>
+  <td><code>useProjectVersions()</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
   <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>VersionBrowser()</code><br><small style="color:var(--muted)">components/rewrites/VersionBrowser.tsx</small><br><code>VersionBrowser.tsx</code><br><small style="color:var(--muted)">components/rewrites/VersionBrowser.tsx</small></td>
   <td>No direct outbound edge</td>
-  <td>useSiteEvents() node in dashboard/hooks/useSiteDetails.ts.</td>
+  <td>useProjectVersions() node in dashboard/hooks/useRewrites.ts.</td>
 </tr>
 <tr>
   <td>21</td>
+  <td><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>DiffViewer.tsx</code><br><small style="color:var(--muted)">components/rewrites/DiffViewer.tsx</small><br><code>RewriteHeader.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteHeader.tsx</small><br><code>RewriteMetrics.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteMetrics.tsx</small><br>+2 more</td>
+  <td>No direct outbound edge</td>
+  <td>RewriteDto node in lib/api/types.ts.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>VersionDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>useRewrites.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useRewrites.ts</small></td>
+  <td>No direct outbound edge</td>
+  <td>VersionDto node in lib/api/types.ts.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td><code>DiffViewer.tsx</code><br><small style="color:var(--muted)">components/rewrites/DiffViewer.tsx</small><br><code>RewriteHeader.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteHeader.tsx</small><br><code>RewriteMetrics.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteMetrics.tsx</small><br>+2 more</td>
+  <td><code>client.ts</code><br><small style="color:var(--muted)">lib/api/client.ts</small><br><code>useJobs.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useJobs.ts</small><br><code>useProjects.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useProjects.ts</small><br>+2 more</td>
+  <td>Module file in lib/api/types.ts.</td>
+</tr>
+<tr>
+  <td>24</td>
   <td><code>ApiResponse</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
@@ -1694,7 +1717,7 @@ flowchart LR
   <td>ApiResponse node in lib/api/types.ts.</td>
 </tr>
 <tr>
-  <td>22</td>
+  <td>25</td>
   <td><code>ApiErrorResponse</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
   <td>External entry / no inbound edge</td>
@@ -1702,7 +1725,23 @@ flowchart LR
   <td>ApiErrorResponse node in lib/api/types.ts.</td>
 </tr>
 <tr>
-  <td>23</td>
+  <td>26</td>
+  <td><code>SiteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>useSiteDetails.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSiteDetails.ts</small><br><code>useSites.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useSites.ts</small></td>
+  <td>SiteDto node in lib/api/types.ts.</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td><code>ProjectDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>useProjects.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useProjects.ts</small></td>
+  <td>ProjectDto node in lib/api/types.ts.</td>
+</tr>
+<tr>
+  <td>28</td>
   <td><code>JobDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1710,60 +1749,20 @@ flowchart LR
   <td>JobDto node in lib/api/types.ts.</td>
 </tr>
 <tr>
-  <td>24</td>
-  <td><code>ReviewWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useReviews()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small><br><code>useReviews.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
-  <td>Module file in components/dashboard/ReviewWidget.tsx.</td>
-</tr>
-<tr>
-  <td>25</td>
-  <td><code>ReviewWidget()</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useReviews()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
-  <td>ReviewWidget() node in components/dashboard/ReviewWidget.tsx.</td>
-</tr>
-<tr>
-  <td>26</td>
-  <td><code>useReviews.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>ReviewWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
-  <td><code>apiClient()</code><br><small style="color:var(--muted)">lib/api/client.ts</small></td>
-  <td>Module file in dashboard/hooks/useReviews.ts.</td>
-</tr>
-<tr>
-  <td>27</td>
-  <td><code>ReviewDto</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
+  <td>29</td>
+  <td><code>ProjectFilters</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>ReviewDto node in dashboard/hooks/useReviews.ts.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>useReviews()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>ReviewWidget()</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small><br><code>ReviewWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>useReviews() node in dashboard/hooks/useReviews.ts.</td>
-</tr>
-<tr>
-  <td>29</td>
-  <td><code>useJobs.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useJobs.ts</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>JobDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
-  <td><code>apiClient()</code><br><small style="color:var(--muted)">lib/api/client.ts</small><br><code>client.ts</code><br><small style="color:var(--muted)">lib/api/client.ts</small></td>
-  <td>Module file in dashboard/hooks/useJobs.ts.</td>
+  <td><code>useProjects.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useProjects.ts</small></td>
+  <td>ProjectFilters node in lib/api/types.ts.</td>
 </tr>
 <tr>
   <td>30</td>
-  <td><code>client.ts</code><br><small style="color:var(--muted)">lib/api/client.ts</small></td>
-  <td><span class="tag tag-cmd">Entry</span></td>
-  <td><code>ApiErrorResponse</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>ApiResponse</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br>+2 more</td>
-  <td><code>ApiError</code><br><small style="color:var(--muted)">lib/api/errors.ts</small><br><code>errors.ts</code><br><small style="color:var(--muted)">lib/api/errors.ts</small></td>
-  <td>Module file in lib/api/client.ts.</td>
+  <td><code>AuditIssue</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>AuditIssue node in lib/api/types.ts.</td>
 </tr>
 </table>
 
@@ -1772,31 +1771,31 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>lib/api/types.ts</code></td><td>10 nodes</td></tr>
+      <tr><td><code>lib/api/types.ts</code></td><td>15 nodes</td></tr>
 <tr><td><code>dashboard/hooks/useSiteDetails.ts</code></td><td>7 nodes</td></tr>
 <tr><td><code>src/api/dashboardRoutes.js</code></td><td>5 nodes</td></tr>
+<tr><td><code>dashboard/hooks/useRewrites.ts</code></td><td>4 nodes</td></tr>
 <tr><td><code>src/index.js</code></td><td>4 nodes</td></tr>
 <tr><td><code>src/utils/errors.js</code></td><td>4 nodes</td></tr>
 <tr><td><code>src/utils/response.js</code></td><td>4 nodes</td></tr>
-<tr><td><code>dashboard/hooks/useReviews.ts</code></td><td>3 nodes</td></tr>
 <tr><td><code>lib/api/errors.ts</code></td><td>3 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x57, imports x27, calls x20, imports x15. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x70, imports x45, imports x31, calls x22. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
 <!-- ====== 8. Tests & Fixtures ====== -->
 <h2 id="tests-fixtures">8. Tests &amp; Fixtures</h2>
-<p>Tests &amp; Fixtures groups implementation around test, scripts, readmemd, tests, mostly in README.md, src/errors/ClaudeErrors.js, tests/stabilization.test.js. This section covers 81 nodes and 80 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Tests &amp; Fixtures groups implementation around test, scripts, readmemd, tests, mostly in README.md, src/errors/ClaudeErrors.js, tests/stabilization.test.js. This section covers 80 nodes and 78 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Tests &amp; Fixtures (81 nodes, 80 edges)
+    %% Section: Tests &amp; Fixtures (80 nodes, 78 edges)
     subgraph tests_fixtures_src_errors_ClaudeErrors_js_5b59ac58["src/errors/ClaudeErrors.js"]
         errors_claudeerrors_validationerror_f7e8533c("ValidationError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_e454675d("ClaudeErrors.js")
@@ -1809,13 +1808,13 @@ flowchart LR
         errors_claudeerrors_invalidprojectcontenterror_c_111f0234("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_invalidresponsequalityerror_e49849a7("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_recoveryreport_constructor_17cc09da("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_normalizeerror_68f137ec("normalizeError()<br/><small>src/errors/ClaudeErrors.js</small>")
     end
     subgraph tests_fixtures_scripts_test_clipboard_js_e4dec43c["scripts/test_clipboard.js"]
         scripts_test_clipboard_fs_c91ed15d("fs<br/><small>scripts/test_clipboard.js</small>")
         scripts_test_clipboard_path_54683347("path<br/><small>scripts/test_clipboard.js</small>")
         scripts_test_clipboard_testtyping_2c2b0044("testTyping()<br/><small>scripts/test_clipboard.js</small>")
         scripts_test_clipboard_df1f5b62("test_clipboard.js")
+        scripts_test_clipboard_chromium_470709a9("chromium<br/><small>scripts/test_clipboard.js</small>")
     end
     services_claudemanager_2e4631c7("ClaudeManager.js")
     tests_validation_test_7749c764("validation.test.js")
@@ -1831,9 +1830,8 @@ flowchart LR
     errors_claudeerrors_invalidprojectcontenterror_144aa5b9 -->|imports| services_claudemanager_2e4631c7
     errors_claudeerrors_invalidresponsequalityerror_909acd1a -->|imports| services_claudemanager_2e4631c7
     errors_claudeerrors_recoveryreport_416bd925 -->|imports| services_claudemanager_2e4631c7
-    errors_claudeerrors_normalizeerror_68f137ec -->|imports| services_claudemanager_2e4631c7
     services_claudemanager_2e4631c7 -->|imports| tests_validation_test_7749c764
-    %% Omitted for readability: 63 nodes, 0 edges
+    %% Omitted for readability: 62 nodes, 0 edges
     class errors_claudeerrors_validationerror_f7e8533c klass;
     class errors_claudeerrors_e454675d klass;
     class errors_claudeerrors_invalidprojectcontenterror_144aa5b9 klass;
@@ -1845,11 +1843,11 @@ flowchart LR
     class errors_claudeerrors_invalidprojectcontenterror_c_111f0234 function;
     class errors_claudeerrors_invalidresponsequalityerror_e49849a7 function;
     class errors_claudeerrors_recoveryreport_constructor_17cc09da function;
-    class errors_claudeerrors_normalizeerror_68f137ec function;
     class scripts_test_clipboard_fs_c91ed15d test;
     class scripts_test_clipboard_path_54683347 test;
     class scripts_test_clipboard_testtyping_2c2b0044 test;
     class scripts_test_clipboard_df1f5b62 test;
+    class scripts_test_clipboard_chromium_470709a9 test;
     class services_claudemanager_2e4631c7 klass;
     class tests_validation_test_7749c764 test;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
@@ -2121,7 +2119,7 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>README.md</code></td><td>16 nodes</td></tr>
-<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>12 nodes</td></tr>
+<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>11 nodes</td></tr>
 <tr><td><code>tests/stabilization.test.js</code></td><td>11 nodes</td></tr>
 <tr><td><code>SOAK_TEST_PLAN.md</code></td><td>7 nodes</td></tr>
 <tr><td><code>src/services/ClaudeManager.js</code></td><td>6 nodes</td></tr>
@@ -2132,7 +2130,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x64, imports x6, method x5, imports x3. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x63, method x5, imports x5, imports x3. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -2479,18 +2477,17 @@ flowchart LR
 
 <!-- ====== 10. Createclaudeerror Components ====== -->
 <h2 id="createclaudeerror-components">10. Createclaudeerror Components</h2>
-<p>Createclaudeerror Components groups implementation around services, claudemanagerjs, createclaudeerror, errors, mostly in src/services/ClaudeManager.js, src/errors/ClaudeErrors.js. This section covers 32 nodes and 72 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Createclaudeerror Components groups implementation around services, claudemanagerjs, errors, claudeerrorsjs, mostly in src/services/ClaudeManager.js, src/errors/ClaudeErrors.js. This section covers 33 nodes and 74 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Createclaudeerror Components (32 nodes, 72 edges)
+    %% Section: Createclaudeerror Components (33 nodes, 74 edges)
     subgraph createclaudeerror_components_src_services_Claude_338207e4["src/services/ClaudeManager.js"]
         services_claudemanager_claudemanager_82714a68("ClaudeManager<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_sendprompto_d381983d("_sendPromptOnce()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_waitforresp_bbec29d5("waitForResponse()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_attemptsubm_0f1fc211("_attemptSubmit()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_detectcompl_8fcfd1de("detectCompletion()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_detecterror_29c63e39("detectErrors()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_ensurehealt_410feed0("ensureHealthy()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_retry_e9a5a30f("retry()<br/><small>src/services/ClaudeManager.js</small>")
@@ -2498,19 +2495,24 @@ flowchart LR
         services_claudemanager_claudemanager_capturediag_ca9e374a("_captureDiagnostics()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_constructor_ff887bfc("constructor()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_containsmea_515491b8("_containsMeaningfulContent()<br/><small>src/services/ClaudeManager.js</small>")
+        services_claudemanager_claudemanager_detectcompl_8fcfd1de("detectCompletion()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_ensureclaud_1b92ac31("_ensureClaudeHome()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_extractchat_a78dc2c2("_extractChatId()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_findfirstav_f592b058("findFirstAvailable()<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_focusandcle_226b6ba0("_focusAndClearInput()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_getlatestas_ebcccc80("_getLatestAssistantContent()<br/><small>src/services/ClaudeManager.js</small>")
     end
-    errors_claudeerrors_createclaudeerror_07bee0f5("createClaudeError()<br/><small>src/errors/ClaudeErrors.js</small>")
+    subgraph createclaudeerror_components_src_errors_ClaudeEr_191c2cfd["src/errors/ClaudeErrors.js"]
+        errors_claudeerrors_createclaudeerror_07bee0f5("createClaudeError()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_normalizeerror_68f137ec("normalizeError()<br/><small>src/errors/ClaudeErrors.js</small>")
+    end
     errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_detecterror_29c63e39
     errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_ensurehealt_410feed0
     errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_retry_e9a5a30f
     errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_sendprompt_cb1da74d
     errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_sendprompto_d381983d
     errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_waitforresp_bbec29d5
+    errors_claudeerrors_normalizeerror_68f137ec -->|calls| services_claudemanager_claudemanager_ensurehealt_410feed0
+    errors_claudeerrors_normalizeerror_68f137ec -->|calls| services_claudemanager_claudemanager_retry_e9a5a30f
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_attemptsubm_0f1fc211
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_capturediag_ca9e374a
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_constructor_ff887bfc
@@ -2522,19 +2524,16 @@ flowchart LR
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_extractchat_a78dc2c2
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_findfirstav_f592b058
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_focusandcle_226b6ba0
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_getlatestas_ebcccc80
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_retry_e9a5a30f
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_sendprompt_cb1da74d
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_sendprompto_d381983d
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_waitforresp_bbec29d5
     services_claudemanager_claudemanager_ensurehealt_410feed0 -->|calls| services_claudemanager_claudemanager_detecterror_29c63e39
-    services_claudemanager_claudemanager_sendprompt_cb1da74d -->|calls| services_claudemanager_claudemanager_retry_e9a5a30f
-    %% Omitted for readability: 14 nodes, 8 edges
+    %% Omitted for readability: 15 nodes, 9 edges
     class services_claudemanager_claudemanager_82714a68 klass;
     class services_claudemanager_claudemanager_sendprompto_d381983d function;
     class services_claudemanager_claudemanager_waitforresp_bbec29d5 function;
     class services_claudemanager_claudemanager_attemptsubm_0f1fc211 function;
-    class services_claudemanager_claudemanager_detectcompl_8fcfd1de function;
     class services_claudemanager_claudemanager_detecterror_29c63e39 function;
     class services_claudemanager_claudemanager_ensurehealt_410feed0 function;
     class services_claudemanager_claudemanager_retry_e9a5a30f function;
@@ -2542,12 +2541,13 @@ flowchart LR
     class services_claudemanager_claudemanager_capturediag_ca9e374a function;
     class services_claudemanager_claudemanager_constructor_ff887bfc function;
     class services_claudemanager_claudemanager_containsmea_515491b8 function;
+    class services_claudemanager_claudemanager_detectcompl_8fcfd1de function;
     class services_claudemanager_claudemanager_ensureclaud_1b92ac31 function;
     class services_claudemanager_claudemanager_extractchat_a78dc2c2 function;
     class services_claudemanager_claudemanager_findfirstav_f592b058 function;
     class services_claudemanager_claudemanager_focusandcle_226b6ba0 function;
-    class services_claudemanager_claudemanager_getlatestas_ebcccc80 function;
     class errors_claudeerrors_createclaudeerror_07bee0f5 function;
+    class errors_claudeerrors_normalizeerror_68f137ec function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -2579,6 +2579,14 @@ flowchart LR
 </tr>
 <tr>
   <td>2</td>
+  <td><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>normalizeError() node in src/errors/ClaudeErrors.js.</td>
+</tr>
+<tr>
+  <td>3</td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -2586,7 +2594,7 @@ flowchart LR
   <td>ClaudeManager node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>3</td>
+  <td>4</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2594,7 +2602,7 @@ flowchart LR
   <td>.constructor() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>4</td>
+  <td>5</td>
   <td><code>.initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2602,15 +2610,15 @@ flowchart LR
   <td>.initialize() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>5</td>
+  <td>6</td>
   <td><code>.ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td>.ensureHealthy() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>6</td>
+  <td>7</td>
   <td><code>.sendPrompt()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -2618,7 +2626,7 @@ flowchart LR
   <td>Builds structured prompts for model calls.</td>
 </tr>
 <tr>
-  <td>7</td>
+  <td>8</td>
   <td><code>._extractChatId()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2626,7 +2634,7 @@ flowchart LR
   <td>Supports retrieval-augmented Q&amp;A or streaming chat.</td>
 </tr>
 <tr>
-  <td>8</td>
+  <td>9</td>
   <td><code>.waitForResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -2634,7 +2642,7 @@ flowchart LR
   <td>.waitForResponse() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>9</td>
+  <td>10</td>
   <td><code>.detectCompletion()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>waitForResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2642,7 +2650,7 @@ flowchart LR
   <td>.detectCompletion() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>10</td>
+  <td>11</td>
   <td><code>.detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+2 more</td>
@@ -2650,7 +2658,7 @@ flowchart LR
   <td>.detectErrors() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>11</td>
+  <td>12</td>
   <td><code>.validateResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2658,15 +2666,15 @@ flowchart LR
   <td>.validateResponse() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>12</td>
+  <td>13</td>
   <td><code>.retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>sendPrompt()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+1 more</td>
   <td><code>_isRetryable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_sleep()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td>.retry() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>13</td>
+  <td>14</td>
   <td><code>.recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2674,7 +2682,7 @@ flowchart LR
   <td>.recover() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>14</td>
+  <td>15</td>
   <td><code>.getStatus()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2682,7 +2690,7 @@ flowchart LR
   <td>.getStatus() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>15</td>
+  <td>16</td>
   <td><code>._sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -2690,7 +2698,7 @@ flowchart LR
   <td>Builds structured prompts for model calls.</td>
 </tr>
 <tr>
-  <td>16</td>
+  <td>17</td>
   <td><code>._attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2698,7 +2706,7 @@ flowchart LR
   <td>._attemptSubmit() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>17</td>
+  <td>18</td>
   <td><code>._submissionStarted()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2706,7 +2714,7 @@ flowchart LR
   <td>._submissionStarted() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>18</td>
+  <td>19</td>
   <td><code>._ensureClaudeHome()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2714,7 +2722,7 @@ flowchart LR
   <td>._ensureClaudeHome() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>19</td>
+  <td>20</td>
   <td><code>.findFirstAvailable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_ensureClaudeHome()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+3 more</td>
@@ -2722,7 +2730,7 @@ flowchart LR
   <td>.findFirstAvailable() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>20</td>
+  <td>21</td>
   <td><code>.isAnyVisible()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_submissionStarted()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectCompletion()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+1 more</td>
@@ -2730,7 +2738,7 @@ flowchart LR
   <td>.isAnyVisible() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>21</td>
+  <td>22</td>
   <td><code>.SELECTORS_MATCH()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2738,7 +2746,7 @@ flowchart LR
   <td>.SELECTORS_MATCH() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>22</td>
+  <td>23</td>
   <td><code>._readResponseState()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>waitForResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2746,7 +2754,7 @@ flowchart LR
   <td>._readResponseState() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>23</td>
+  <td>24</td>
   <td><code>._getPageSnapshot()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2754,7 +2762,7 @@ flowchart LR
   <td>Organizes documentation pages, navigation, or content lookup.</td>
 </tr>
 <tr>
-  <td>24</td>
+  <td>25</td>
   <td><code>._getLatestAssistantContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_readResponseState()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2762,7 +2770,7 @@ flowchart LR
   <td>Verifies imports, entry points, or version behavior.</td>
 </tr>
 <tr>
-  <td>25</td>
+  <td>26</td>
   <td><code>._getLatestAssistantText()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_getLatestAssistantContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2770,7 +2778,7 @@ flowchart LR
   <td>Verifies imports, entry points, or version behavior.</td>
 </tr>
 <tr>
-  <td>26</td>
+  <td>27</td>
   <td><code>._readInputValue()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_submissionStarted()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2778,7 +2786,7 @@ flowchart LR
   <td>._readInputValue() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>27</td>
+  <td>28</td>
   <td><code>._focusAndClearInput()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>_sendPromptOnce()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2786,7 +2794,7 @@ flowchart LR
   <td>._focusAndClearInput() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>28</td>
+  <td>29</td>
   <td><code>._isInputReady()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectCompletion()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>findFirstAvailable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
@@ -2794,20 +2802,12 @@ flowchart LR
   <td>._isInputReady() node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>29</td>
+  <td>30</td>
   <td><code>._captureDiagnostics()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td>No direct outbound edge</td>
   <td>._captureDiagnostics() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>._containsMeaningfulContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>validateResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>._containsMeaningfulContent() node in src/services/ClaudeManager.js.</td>
 </tr>
 </table>
 
@@ -2817,18 +2817,636 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>src/services/ClaudeManager.js</code></td><td>31 nodes</td></tr>
-<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>1 nodes</td></tr>
+<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>2 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: calls x42, method x30. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: calls x44, method x30. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
-<!-- ====== 11. Syncservice Components ====== -->
-<h2 id="syncservice-components">11. Syncservice Components</h2>
+<!-- ====== 11. Community 138 ====== -->
+<h2 id="community-138">11. Community 138</h2>
+<p>Community 138 groups implementation around dashboardreadservicejs, services, dashboardreadservice, constructor, mostly in src/services/DashboardReadService.js. This section covers 26 nodes and 28 internal edges; the diagram shows only representative relationships to stay readable.</p>
+
+<div class="mermaid">
+%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
+flowchart LR
+    %% Section: Community 138 (26 nodes, 28 edges)
+    services_dashboardreadservice_dashboardreadservi_8f086ecc("DashboardReadService<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_bc8b37de("getAuditById()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_03b41c16("getProjectById()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_8152ba95("getRewriteById()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_8f934712("constructor()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_78eeb7cd("getEvents()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_057b036a("getJobs()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_00c1f5c9("getOperations()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_3ea11edb("getOverview()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_ff9b97e3("getProjectAudits()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_fc127817("getProjectHistory()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_986756f6("getProjectRewrites()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_1026cd7e("getProjects()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_438331cb("getProjectVersions()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_9ac5a450("getSiteById()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_3651097e("getSiteEvents()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_6648a8ee("getSiteOperations()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_03415e85("getSitePlugin()<br/><small>src/services/DashboardReadService.js</small>")
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_8f934712
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_bc8b37de
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_78eeb7cd
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_057b036a
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_00c1f5c9
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_3ea11edb
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_ff9b97e3
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_03b41c16
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_fc127817
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_986756f6
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_1026cd7e
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_438331cb
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_8152ba95
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_9ac5a450
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_3651097e
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_6648a8ee
+    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_03415e85
+    %% Omitted for readability: 8 nodes, 0 edges
+    class services_dashboardreadservice_dashboardreadservi_8f086ecc klass;
+    class services_dashboardreadservice_dashboardreadservi_bc8b37de function;
+    class services_dashboardreadservice_dashboardreadservi_03b41c16 function;
+    class services_dashboardreadservice_dashboardreadservi_8152ba95 function;
+    class services_dashboardreadservice_dashboardreadservi_8f934712 function;
+    class services_dashboardreadservice_dashboardreadservi_78eeb7cd function;
+    class services_dashboardreadservice_dashboardreadservi_057b036a function;
+    class services_dashboardreadservice_dashboardreadservi_00c1f5c9 function;
+    class services_dashboardreadservice_dashboardreadservi_3ea11edb function;
+    class services_dashboardreadservice_dashboardreadservi_ff9b97e3 function;
+    class services_dashboardreadservice_dashboardreadservi_fc127817 function;
+    class services_dashboardreadservice_dashboardreadservi_986756f6 function;
+    class services_dashboardreadservice_dashboardreadservi_1026cd7e function;
+    class services_dashboardreadservice_dashboardreadservi_438331cb function;
+    class services_dashboardreadservice_dashboardreadservi_9ac5a450 function;
+    class services_dashboardreadservice_dashboardreadservi_3651097e function;
+    class services_dashboardreadservice_dashboardreadservi_6648a8ee function;
+    class services_dashboardreadservice_dashboardreadservi_03415e85 function;
+    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
+    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
+    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
+    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
+    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
+    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
+    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
+    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
+    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
+</div>
+
+<h3>Call Details</h3>
+<table class="call-table">
+<tr>
+  <th style="width:5%">#</th>
+  <th style="width:28%">Node</th>
+  <th style="width:10%">Type</th>
+  <th style="width:17%">Caller</th>
+  <th style="width:20%">Callees</th>
+  <th style="width:20%">Description</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td><code>DashboardReadService.js</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>DashboardReadService.js node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>constructor()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br><code>getAuditById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br><code>getEvents()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br>+21 more</td>
+  <td>DashboardReadService node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>.getOverview()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getOverview() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>.getSites()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getSites() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>.getProjects()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getProjects() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>.getProjectHistory()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getProjectHistory() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>.getAuditById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><code>mapAuditDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>.getAuditById() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>.getRewriteById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><code>mapRewriteDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>.getRewriteById() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>.getProjectRewrites()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getProjectRewrites() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>.getVersionById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getVersionById() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>.getProjectVersions()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getProjectVersions() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>.mapRewriteDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br><code>getRewriteById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.mapRewriteDto() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>.getProjectAudits()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getProjectAudits() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>.mapAuditDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br><code>getAuditById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.mapAuditDto() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>.getProjectById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><code>mapProjectDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>.getProjectById() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>.getJobs()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getJobs() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>.getEvents()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getEvents() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>.getOperations()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getOperations() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>.getSiteById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getSiteById() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>.getSitePlugin()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getSitePlugin() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>.getSiteSettings()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getSiteSettings() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>.updateSiteSettings()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.updateSiteSettings() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td><code>.getSiteOperations()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getSiteOperations() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td><code>.getSiteEvents()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.getSiteEvents() node in src/services/DashboardReadService.js.</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td><code>.mapProjectDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br><code>getProjectById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.mapProjectDto() node in src/services/DashboardReadService.js.</td>
+</tr>
+</table>
+
+<div class="grid">
+  <div class="card">
+    <h4>Key Files</h4>
+    <table style="width:100%;font-size:0.85rem;">
+      <tr><th>File</th><th>Coverage</th></tr>
+      <tr><td><code>src/services/DashboardReadService.js</code></td><td>26 nodes</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h4>Design Notes</h4>
+    <p>This section comes from graphify community clustering. Relationship summary: method x24, calls x3, contains x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+  </div>
+</div>
+<hr>
+
+<!-- ====== 12. Community 135 ====== -->
+<h2 id="community-135">12. Community 135</h2>
+<p>Community 135 groups implementation around dashboard, components, hooks, kpicardtsx, mostly in components/dashboard/KPICard.tsx, dashboard/hooks/useEvents.ts, dashboard/hooks/useReviews.ts. This section covers 23 nodes and 34 internal edges; the diagram shows only representative relationships to stay readable.</p>
+
+<div class="mermaid">
+%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
+flowchart LR
+    %% Section: Community 135 (23 nodes, 34 edges)
+    subgraph community_135_components_dashboard_EventFeed_tsx_1485f805["components/dashboard/EventFeed.tsx"]
+        dashboard_eventfeed_26dc021f("EventFeed.tsx")
+        dashboard_eventfeed_eventfeed_547eee60("EventFeed()<br/><small>components/dashboard/EventFeed.tsx</small>")
+    end
+    subgraph community_135_components_dashboard_KPICard_tsx_4647d61f["components/dashboard/KPICard.tsx"]
+        dashboard_kpicard_6bd074da("KPICard.tsx")
+        dashboard_kpicard_kpicard_0e844683("KPICard()<br/><small>components/dashboard/KPICard.tsx</small>")
+    end
+    subgraph community_135_components_dashboard_KPIGrid_tsx_82b9602b["components/dashboard/KPIGrid.tsx"]
+        dashboard_kpigrid_e33888ef("KPIGrid.tsx")
+        dashboard_kpigrid_kpigrid_84de95bb("KPIGrid()<br/><small>components/dashboard/KPIGrid.tsx</small>")
+    end
+    subgraph community_135_components_dashboard_QueueWidget_t_d8ca167f["components/dashboard/QueueWidget.tsx"]
+        dashboard_queuewidget_4b077d06("QueueWidget.tsx")
+        dashboard_queuewidget_queuewidget_f21346a7("QueueWidget()<br/><small>components/dashboard/QueueWidget.tsx</small>")
+    end
+    subgraph community_135_components_dashboard_ReviewWidget_9fa323a2["components/dashboard/ReviewWidget.tsx"]
+        dashboard_reviewwidget_e0de03b8("ReviewWidget.tsx")
+        dashboard_reviewwidget_reviewwidget_ade56da5("ReviewWidget()<br/><small>components/dashboard/ReviewWidget.tsx</small>")
+    end
+    subgraph community_135_dashboard_app_page_tsx_478b0e98["dashboard/app/page.tsx"]
+        app_page_c77e992c("page.tsx")
+        app_page_dashboard_c64941d4("Dashboard()<br/><small>dashboard/app/page.tsx</small>")
+    end
+    subgraph community_135_dashboard_hooks_useEvents_ts_242096a4["dashboard/hooks/useEvents.ts"]
+        hooks_useevents_useevents_953ccac5("useEvents()<br/><small>dashboard/hooks/useEvents.ts</small>")
+        hooks_useevents_53e61900("useEvents.ts")
+    end
+    subgraph community_135_dashboard_hooks_useOverview_ts_54748048["dashboard/hooks/useOverview.ts"]
+        hooks_useoverview_useoverview_0ac0d789("useOverview()<br/><small>dashboard/hooks/useOverview.ts</small>")
+        hooks_useoverview_69d630cd("useOverview.ts")
+    end
+    hooks_usereviews_usereviews_92a3bfb1("useReviews()<br/><small>dashboard/hooks/useReviews.ts</small>")
+    api_types_overviewdto_e75bbdfe("OverviewDto<br/><small>lib/api/types.ts</small>")
+    app_page_dashboard_c64941d4 -->|calls| hooks_useoverview_useoverview_0ac0d789
+    dashboard_eventfeed_eventfeed_547eee60 -->|calls| hooks_useevents_useevents_953ccac5
+    dashboard_reviewwidget_reviewwidget_ade56da5 -->|calls| hooks_usereviews_usereviews_92a3bfb1
+    api_types_overviewdto_e75bbdfe -->|imports| hooks_useoverview_69d630cd
+    app_page_c77e992c -->|imports| dashboard_eventfeed_26dc021f
+    app_page_c77e992c -->|imports| dashboard_eventfeed_eventfeed_547eee60
+    app_page_c77e992c -->|imports| dashboard_kpigrid_e33888ef
+    app_page_c77e992c -->|imports| dashboard_kpigrid_kpigrid_84de95bb
+    app_page_c77e992c -->|imports| dashboard_queuewidget_4b077d06
+    app_page_c77e992c -->|imports| dashboard_queuewidget_queuewidget_f21346a7
+    app_page_c77e992c -->|imports| dashboard_reviewwidget_e0de03b8
+    app_page_c77e992c -->|imports| dashboard_reviewwidget_reviewwidget_ade56da5
+    app_page_c77e992c -->|imports| hooks_useoverview_69d630cd
+    app_page_c77e992c -->|imports| hooks_useoverview_useoverview_0ac0d789
+    dashboard_eventfeed_26dc021f -->|imports| hooks_useevents_53e61900
+    dashboard_eventfeed_26dc021f -->|imports| hooks_useevents_useevents_953ccac5
+    dashboard_kpicard_6bd074da -->|imports| dashboard_kpigrid_e33888ef
+    dashboard_kpicard_kpicard_0e844683 -->|imports| dashboard_kpigrid_e33888ef
+    dashboard_kpigrid_e33888ef -->|imports| hooks_useoverview_useoverview_0ac0d789
+    dashboard_reviewwidget_e0de03b8 -->|imports| hooks_usereviews_usereviews_92a3bfb1
+    %% Omitted for readability: 5 nodes, 0 edges
+    class dashboard_eventfeed_26dc021f ui;
+    class dashboard_eventfeed_eventfeed_547eee60 ui;
+    class dashboard_kpicard_6bd074da ui;
+    class dashboard_kpicard_kpicard_0e844683 ui;
+    class dashboard_kpigrid_e33888ef ui;
+    class dashboard_kpigrid_kpigrid_84de95bb ui;
+    class dashboard_queuewidget_4b077d06 ui;
+    class dashboard_queuewidget_queuewidget_f21346a7 ui;
+    class dashboard_reviewwidget_e0de03b8 ui;
+    class dashboard_reviewwidget_reviewwidget_ade56da5 ui;
+    class app_page_c77e992c ui;
+    class app_page_dashboard_c64941d4 ui;
+    class hooks_useevents_useevents_953ccac5 ui;
+    class hooks_useevents_53e61900 ui;
+    class hooks_useoverview_useoverview_0ac0d789 ui;
+    class hooks_useoverview_69d630cd ui;
+    class hooks_usereviews_usereviews_92a3bfb1 ui;
+    class api_types_overviewdto_e75bbdfe klass;
+    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
+    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
+    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
+    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
+    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
+    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
+    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
+    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
+    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
+</div>
+
+<h3>Call Details</h3>
+<table class="call-table">
+<tr>
+  <th style="width:5%">#</th>
+  <th style="width:28%">Node</th>
+  <th style="width:10%">Type</th>
+  <th style="width:17%">Caller</th>
+  <th style="width:20%">Callees</th>
+  <th style="width:20%">Description</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td><code>OverviewDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>useOverview.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
+  <td>OverviewDto node in lib/api/types.ts.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>EventFeed()</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small><br><code>EventFeed.tsx</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small><br><code>KPIGrid()</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small><br>+7 more</td>
+  <td>Module file in dashboard/app/page.tsx.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>Dashboard()</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>useOverview()</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
+  <td>Dashboard() node in dashboard/app/page.tsx.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>EventFeed.tsx</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td><code>useEvents()</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small><br><code>useEvents.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
+  <td>Module file in components/dashboard/EventFeed.tsx.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>EventFeed()</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td><code>useEvents()</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
+  <td>EventFeed() node in components/dashboard/EventFeed.tsx.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>KPICard.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>KPIGrid.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small></td>
+  <td>Module file in components/dashboard/KPICard.tsx.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>KPICardProps</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>KPICardProps node in components/dashboard/KPICard.tsx.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>KPICard()</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>KPIGrid.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small></td>
+  <td>KPICard() node in components/dashboard/KPICard.tsx.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>KPIGrid.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>KPICard()</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small><br><code>KPICard.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td><code>useOverview()</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
+  <td>Module file in components/dashboard/KPIGrid.tsx.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>KPIGrid()</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>KPIGrid() node in components/dashboard/KPIGrid.tsx.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>QueueWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/QueueWidget.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td><code>useJobs()</code><br><small style="color:var(--muted)">dashboard/hooks/useJobs.ts</small></td>
+  <td>Module file in components/dashboard/QueueWidget.tsx.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>QueueWidget()</code><br><small style="color:var(--muted)">components/dashboard/QueueWidget.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>QueueWidget() node in components/dashboard/QueueWidget.tsx.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>ReviewWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td><code>useReviews()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small><br><code>useReviews.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
+  <td>Module file in components/dashboard/ReviewWidget.tsx.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>ReviewWidget()</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td><code>useReviews()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
+  <td>ReviewWidget() node in components/dashboard/ReviewWidget.tsx.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>useEvents.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>EventFeed.tsx</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>Module file in dashboard/hooks/useEvents.ts.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>EventDto</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>EventDto node in dashboard/hooks/useEvents.ts.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>useEvents()</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>EventFeed()</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small><br><code>EventFeed.tsx</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>useEvents() node in dashboard/hooks/useEvents.ts.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>useReviews.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>ReviewWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>Module file in dashboard/hooks/useReviews.ts.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>ReviewDto</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>ReviewDto node in dashboard/hooks/useReviews.ts.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>useReviews()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>ReviewWidget()</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small><br><code>ReviewWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>useReviews() node in dashboard/hooks/useReviews.ts.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>useJobs()</code><br><small style="color:var(--muted)">dashboard/hooks/useJobs.ts</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>QueueWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/QueueWidget.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>useJobs() node in dashboard/hooks/useJobs.ts.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>useOverview.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>OverviewDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>Module file in dashboard/hooks/useOverview.ts.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>useOverview()</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td><code>Dashboard()</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small><br><code>KPIGrid.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
+  <td>No direct outbound edge</td>
+  <td>useOverview() node in dashboard/hooks/useOverview.ts.</td>
+</tr>
+</table>
+
+<div class="grid">
+  <div class="card">
+    <h4>Key Files</h4>
+    <table style="width:100%;font-size:0.85rem;">
+      <tr><th>File</th><th>Coverage</th></tr>
+      <tr><td><code>components/dashboard/KPICard.tsx</code></td><td>3 nodes</td></tr>
+<tr><td><code>dashboard/hooks/useEvents.ts</code></td><td>3 nodes</td></tr>
+<tr><td><code>dashboard/hooks/useReviews.ts</code></td><td>3 nodes</td></tr>
+<tr><td><code>dashboard/app/page.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>components/dashboard/EventFeed.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>components/dashboard/KPIGrid.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>components/dashboard/QueueWidget.tsx</code></td><td>2 nodes</td></tr>
+<tr><td><code>components/dashboard/ReviewWidget.tsx</code></td><td>2 nodes</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h4>Design Notes</h4>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x12, imports x11, imports x8, calls x3. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+  </div>
+</div>
+<hr>
+
+<!-- ====== 13. Syncservice Components ====== -->
+<h2 id="syncservice-components">13. Syncservice Components</h2>
 <p>Syncservice Components groups implementation around services, wordpressclientjs, syncservicejs, wordpressclient, mostly in src/services/WordPressClient.js, src/services/SyncService.js. This section covers 22 nodes and 33 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -3115,8 +3733,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 12. Auditroutes Components ====== -->
-<h2 id="auditroutes-components">12. Auditroutes Components</h2>
+<!-- ====== 14. Auditroutes Components ====== -->
+<h2 id="auditroutes-components">14. Auditroutes Components</h2>
 <p>Auditroutes Components groups implementation around serverjs, middleware, ratelimiterjs, secureheadersjs, mostly in src/server.js, src/middleware/rateLimiter.js, src/middleware/secureHeaders.js. This section covers 21 nodes and 23 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -3383,277 +4001,8 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 13. Community 138 ====== -->
-<h2 id="community-138">13. Community 138</h2>
-<p>Community 138 groups implementation around dashboardreadservicejs, services, dashboardreadservice, constructor, mostly in src/services/DashboardReadService.js. This section covers 21 nodes and 22 internal edges; the diagram shows only representative relationships to stay readable.</p>
-
-<div class="mermaid">
-%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
-flowchart LR
-    %% Section: Community 138 (21 nodes, 22 edges)
-    services_dashboardreadservice_dashboardreadservi_8f086ecc("DashboardReadService<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_bc8b37de("getAuditById()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_03b41c16("getProjectById()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_8f934712("constructor()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_78eeb7cd("getEvents()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_057b036a("getJobs()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_00c1f5c9("getOperations()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_3ea11edb("getOverview()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_ff9b97e3("getProjectAudits()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_fc127817("getProjectHistory()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_1026cd7e("getProjects()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_9ac5a450("getSiteById()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_3651097e("getSiteEvents()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_6648a8ee("getSiteOperations()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_03415e85("getSitePlugin()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_b504ce35("getSites()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_acebaad6("getSiteSettings()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_52e7fae8("mapAuditDto()<br/><small>src/services/DashboardReadService.js</small>")
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_8f934712
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_bc8b37de
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_78eeb7cd
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_057b036a
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_00c1f5c9
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_3ea11edb
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_ff9b97e3
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_03b41c16
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_fc127817
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_1026cd7e
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_9ac5a450
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_3651097e
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_6648a8ee
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_03415e85
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_b504ce35
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_acebaad6
-    services_dashboardreadservice_dashboardreadservi_8f086ecc -->|method| services_dashboardreadservice_dashboardreadservi_52e7fae8
-    services_dashboardreadservice_dashboardreadservi_bc8b37de -->|calls| services_dashboardreadservice_dashboardreadservi_52e7fae8
-    %% Omitted for readability: 3 nodes, 0 edges
-    class services_dashboardreadservice_dashboardreadservi_8f086ecc klass;
-    class services_dashboardreadservice_dashboardreadservi_bc8b37de function;
-    class services_dashboardreadservice_dashboardreadservi_03b41c16 function;
-    class services_dashboardreadservice_dashboardreadservi_8f934712 function;
-    class services_dashboardreadservice_dashboardreadservi_78eeb7cd function;
-    class services_dashboardreadservice_dashboardreadservi_057b036a function;
-    class services_dashboardreadservice_dashboardreadservi_00c1f5c9 function;
-    class services_dashboardreadservice_dashboardreadservi_3ea11edb function;
-    class services_dashboardreadservice_dashboardreadservi_ff9b97e3 function;
-    class services_dashboardreadservice_dashboardreadservi_fc127817 function;
-    class services_dashboardreadservice_dashboardreadservi_1026cd7e function;
-    class services_dashboardreadservice_dashboardreadservi_9ac5a450 function;
-    class services_dashboardreadservice_dashboardreadservi_3651097e function;
-    class services_dashboardreadservice_dashboardreadservi_6648a8ee function;
-    class services_dashboardreadservice_dashboardreadservi_03415e85 function;
-    class services_dashboardreadservice_dashboardreadservi_b504ce35 function;
-    class services_dashboardreadservice_dashboardreadservi_acebaad6 function;
-    class services_dashboardreadservice_dashboardreadservi_52e7fae8 function;
-    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
-    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
-    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
-    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
-    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
-    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
-    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
-    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
-    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
-</div>
-
-<h3>Call Details</h3>
-<table class="call-table">
-<tr>
-  <th style="width:5%">#</th>
-  <th style="width:28%">Node</th>
-  <th style="width:10%">Type</th>
-  <th style="width:17%">Caller</th>
-  <th style="width:20%">Callees</th>
-  <th style="width:20%">Description</th>
-</tr>
-<tr>
-  <td>1</td>
-  <td><code>DashboardReadService.js</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>DashboardReadService.js node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>constructor()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br><code>getAuditById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br><code>getEvents()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br>+16 more</td>
-  <td>DashboardReadService node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.constructor() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td><code>.getOverview()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getOverview() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td><code>.getSites()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getSites() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td><code>.getProjects()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getProjects() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>.getProjectHistory()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getProjectHistory() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>.getAuditById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><code>mapAuditDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>.getAuditById() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>.getProjectAudits()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getProjectAudits() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>.mapAuditDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br><code>getAuditById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.mapAuditDto() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>.getProjectById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><code>mapProjectDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>.getProjectById() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>.getJobs()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getJobs() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>.getEvents()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getEvents() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>.getOperations()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getOperations() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>.getSiteById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getSiteById() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>.getSitePlugin()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getSitePlugin() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>.getSiteSettings()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getSiteSettings() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>.updateSiteSettings()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.updateSiteSettings() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>.getSiteOperations()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getSiteOperations() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>.getSiteEvents()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getSiteEvents() node in src/services/DashboardReadService.js.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>.mapProjectDto()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>DashboardReadService</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small><br><code>getProjectById()</code><br><small style="color:var(--muted)">src/services/DashboardReadService.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.mapProjectDto() node in src/services/DashboardReadService.js.</td>
-</tr>
-</table>
-
-<div class="grid">
-  <div class="card">
-    <h4>Key Files</h4>
-    <table style="width:100%;font-size:0.85rem;">
-      <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>src/services/DashboardReadService.js</code></td><td>21 nodes</td></tr>
-    </table>
-  </div>
-  <div class="card">
-    <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: method x19, calls x2, contains x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
-  </div>
-</div>
-<hr>
-
-<!-- ====== 14. Jobrepository Components ====== -->
-<h2 id="jobrepository-components">14. Jobrepository Components</h2>
+<!-- ====== 15. Jobrepository Components ====== -->
+<h2 id="jobrepository-components">15. Jobrepository Components</h2>
 <p>Jobrepository Components groups implementation around jobrepositoryjs, repositories, valid, statuses, mostly in src/repositories/JobRepository.js. This section covers 20 nodes and 26 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
@@ -3919,278 +4268,14 @@ flowchart LR
 </div>
 <hr>
 
-<!-- ====== 15. Community 135 ====== -->
-<h2 id="community-135">15. Community 135</h2>
-<p>Community 135 groups implementation around dashboard, components, hooks, kpicardtsx, mostly in components/dashboard/KPICard.tsx, dashboard/hooks/useEvents.ts, dashboard/app/page.tsx. This section covers 18 nodes and 26 internal edges; the diagram shows only representative relationships to stay readable.</p>
-
-<div class="mermaid">
-%%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
-flowchart LR
-    %% Section: Community 135 (18 nodes, 26 edges)
-    subgraph community_135_components_dashboard_KPICard_tsx_4647d61f["components/dashboard/KPICard.tsx"]
-        dashboard_kpicard_6bd074da("KPICard.tsx")
-        dashboard_kpicard_kpicard_0e844683("KPICard()<br/><small>components/dashboard/KPICard.tsx</small>")
-        dashboard_kpicard_kpicardprops_be833453("KPICardProps<br/><small>components/dashboard/KPICard.tsx</small>")
-    end
-    subgraph community_135_dashboard_hooks_useEvents_ts_242096a4["dashboard/hooks/useEvents.ts"]
-        hooks_useevents_useevents_953ccac5("useEvents()<br/><small>dashboard/hooks/useEvents.ts</small>")
-        hooks_useevents_53e61900("useEvents.ts")
-        hooks_useevents_eventdto_1c2a7a63("EventDto<br/><small>dashboard/hooks/useEvents.ts</small>")
-    end
-    subgraph community_135_components_dashboard_EventFeed_tsx_1485f805["components/dashboard/EventFeed.tsx"]
-        dashboard_eventfeed_26dc021f("EventFeed.tsx")
-        dashboard_eventfeed_eventfeed_547eee60("EventFeed()<br/><small>components/dashboard/EventFeed.tsx</small>")
-    end
-    subgraph community_135_components_dashboard_KPIGrid_tsx_82b9602b["components/dashboard/KPIGrid.tsx"]
-        dashboard_kpigrid_e33888ef("KPIGrid.tsx")
-        dashboard_kpigrid_kpigrid_84de95bb("KPIGrid()<br/><small>components/dashboard/KPIGrid.tsx</small>")
-    end
-    subgraph community_135_components_dashboard_QueueWidget_t_d8ca167f["components/dashboard/QueueWidget.tsx"]
-        dashboard_queuewidget_4b077d06("QueueWidget.tsx")
-        dashboard_queuewidget_queuewidget_f21346a7("QueueWidget()<br/><small>components/dashboard/QueueWidget.tsx</small>")
-    end
-    subgraph community_135_dashboard_app_page_tsx_478b0e98["dashboard/app/page.tsx"]
-        app_page_c77e992c("page.tsx")
-        app_page_dashboard_c64941d4("Dashboard()<br/><small>dashboard/app/page.tsx</small>")
-    end
-    subgraph community_135_dashboard_hooks_useOverview_ts_54748048["dashboard/hooks/useOverview.ts"]
-        hooks_useoverview_useoverview_0ac0d789("useOverview()<br/><small>dashboard/hooks/useOverview.ts</small>")
-        hooks_useoverview_69d630cd("useOverview.ts")
-    end
-    hooks_usejobs_usejobs_140a1888("useJobs()<br/><small>dashboard/hooks/useJobs.ts</small>")
-    api_types_overviewdto_e75bbdfe("OverviewDto<br/><small>lib/api/types.ts</small>")
-    app_page_dashboard_c64941d4 -->|calls| hooks_useoverview_useoverview_0ac0d789
-    dashboard_eventfeed_eventfeed_547eee60 -->|calls| hooks_useevents_useevents_953ccac5
-    api_types_overviewdto_e75bbdfe -->|imports| hooks_useoverview_69d630cd
-    app_page_c77e992c -->|imports| dashboard_eventfeed_26dc021f
-    app_page_c77e992c -->|imports| dashboard_eventfeed_eventfeed_547eee60
-    app_page_c77e992c -->|imports| dashboard_kpigrid_e33888ef
-    app_page_c77e992c -->|imports| dashboard_kpigrid_kpigrid_84de95bb
-    app_page_c77e992c -->|imports| dashboard_queuewidget_4b077d06
-    app_page_c77e992c -->|imports| dashboard_queuewidget_queuewidget_f21346a7
-    app_page_c77e992c -->|imports| hooks_useoverview_69d630cd
-    app_page_c77e992c -->|imports| hooks_useoverview_useoverview_0ac0d789
-    dashboard_eventfeed_26dc021f -->|imports| hooks_useevents_53e61900
-    dashboard_eventfeed_26dc021f -->|imports| hooks_useevents_useevents_953ccac5
-    dashboard_kpicard_6bd074da -->|imports| dashboard_kpigrid_e33888ef
-    dashboard_kpicard_kpicard_0e844683 -->|imports| dashboard_kpigrid_e33888ef
-    dashboard_kpigrid_e33888ef -->|imports| hooks_useoverview_useoverview_0ac0d789
-    dashboard_queuewidget_4b077d06 -->|imports| hooks_usejobs_usejobs_140a1888
-    class dashboard_kpicard_6bd074da ui;
-    class dashboard_kpicard_kpicard_0e844683 ui;
-    class dashboard_kpicard_kpicardprops_be833453 ui;
-    class hooks_useevents_useevents_953ccac5 ui;
-    class hooks_useevents_53e61900 ui;
-    class hooks_useevents_eventdto_1c2a7a63 klass;
-    class dashboard_eventfeed_26dc021f ui;
-    class dashboard_eventfeed_eventfeed_547eee60 ui;
-    class dashboard_kpigrid_e33888ef ui;
-    class dashboard_kpigrid_kpigrid_84de95bb ui;
-    class dashboard_queuewidget_4b077d06 ui;
-    class dashboard_queuewidget_queuewidget_f21346a7 ui;
-    class app_page_c77e992c ui;
-    class app_page_dashboard_c64941d4 ui;
-    class hooks_useoverview_useoverview_0ac0d789 ui;
-    class hooks_useoverview_69d630cd ui;
-    class hooks_usejobs_usejobs_140a1888 ui;
-    class api_types_overviewdto_e75bbdfe klass;
-    classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
-    classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
-    classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
-    classDef klass fill:#064e3b,stroke:#34d399,color:#d1fae5,stroke-width:1px;
-    classDef ui fill:#831843,stroke:#f472b6,color:#fce7f3,stroke-width:1px;
-    classDef module fill:#172554,stroke:#60a5fa,color:#dbeafe,stroke-width:1px;
-    classDef test fill:#3f3f46,stroke:#a1a1aa,color:#f4f4f5,stroke-width:1px;
-    classDef concept fill:#292524,stroke:#a8a29e,color:#fafaf9,stroke-dasharray:4 3;
-    classDef function fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:1px;
-</div>
-
-<h3>Call Details</h3>
-<table class="call-table">
-<tr>
-  <th style="width:5%">#</th>
-  <th style="width:28%">Node</th>
-  <th style="width:10%">Type</th>
-  <th style="width:17%">Caller</th>
-  <th style="width:20%">Callees</th>
-  <th style="width:20%">Description</th>
-</tr>
-<tr>
-  <td>1</td>
-  <td><code>OverviewDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useOverview.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
-  <td>OverviewDto node in lib/api/types.ts.</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>EventFeed()</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small><br><code>EventFeed.tsx</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small><br><code>KPIGrid()</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small><br>+5 more</td>
-  <td>Module file in dashboard/app/page.tsx.</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td><code>Dashboard()</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>useOverview()</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
-  <td>Dashboard() node in dashboard/app/page.tsx.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td><code>EventFeed.tsx</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td><code>useEvents()</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small><br><code>useEvents.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
-  <td>Module file in components/dashboard/EventFeed.tsx.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td><code>EventFeed()</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td><code>useEvents()</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
-  <td>EventFeed() node in components/dashboard/EventFeed.tsx.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td><code>KPICard.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>KPIGrid.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small></td>
-  <td>Module file in components/dashboard/KPICard.tsx.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>KPICardProps</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>KPICardProps node in components/dashboard/KPICard.tsx.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>KPICard()</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>KPIGrid.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small></td>
-  <td>KPICard() node in components/dashboard/KPICard.tsx.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>KPIGrid.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>KPICard()</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small><br><code>KPICard.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPICard.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td><code>useOverview()</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
-  <td>Module file in components/dashboard/KPIGrid.tsx.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>KPIGrid()</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>KPIGrid() node in components/dashboard/KPIGrid.tsx.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>QueueWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/QueueWidget.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td><code>useJobs()</code><br><small style="color:var(--muted)">dashboard/hooks/useJobs.ts</small></td>
-  <td>Module file in components/dashboard/QueueWidget.tsx.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>QueueWidget()</code><br><small style="color:var(--muted)">components/dashboard/QueueWidget.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>QueueWidget() node in components/dashboard/QueueWidget.tsx.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>useEvents.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>EventFeed.tsx</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>Module file in dashboard/hooks/useEvents.ts.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>EventDto</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>EventDto node in dashboard/hooks/useEvents.ts.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>useEvents()</code><br><small style="color:var(--muted)">dashboard/hooks/useEvents.ts</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>EventFeed()</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small><br><code>EventFeed.tsx</code><br><small style="color:var(--muted)">components/dashboard/EventFeed.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>useEvents() node in dashboard/hooks/useEvents.ts.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>useJobs()</code><br><small style="color:var(--muted)">dashboard/hooks/useJobs.ts</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>QueueWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/QueueWidget.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>useJobs() node in dashboard/hooks/useJobs.ts.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>useOverview.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>OverviewDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>Module file in dashboard/hooks/useOverview.ts.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>useOverview()</code><br><small style="color:var(--muted)">dashboard/hooks/useOverview.ts</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>Dashboard()</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small><br><code>KPIGrid.tsx</code><br><small style="color:var(--muted)">components/dashboard/KPIGrid.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">dashboard/app/page.tsx</small></td>
-  <td>No direct outbound edge</td>
-  <td>useOverview() node in dashboard/hooks/useOverview.ts.</td>
-</tr>
-</table>
-
-<div class="grid">
-  <div class="card">
-    <h4>Key Files</h4>
-    <table style="width:100%;font-size:0.85rem;">
-      <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>components/dashboard/KPICard.tsx</code></td><td>3 nodes</td></tr>
-<tr><td><code>dashboard/hooks/useEvents.ts</code></td><td>3 nodes</td></tr>
-<tr><td><code>dashboard/app/page.tsx</code></td><td>2 nodes</td></tr>
-<tr><td><code>components/dashboard/EventFeed.tsx</code></td><td>2 nodes</td></tr>
-<tr><td><code>components/dashboard/KPIGrid.tsx</code></td><td>2 nodes</td></tr>
-<tr><td><code>components/dashboard/QueueWidget.tsx</code></td><td>2 nodes</td></tr>
-<tr><td><code>dashboard/hooks/useOverview.ts</code></td><td>2 nodes</td></tr>
-<tr><td><code>dashboard/hooks/useJobs.ts</code></td><td>1 nodes</td></tr>
-    </table>
-  </div>
-  <div class="card">
-    <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: imports x9, contains x9, imports x6, calls x2. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
-  </div>
-</div>
-<hr>
-
 <!-- ====== 16. Other ====== -->
 <h2 id="other">16. Other</h2>
-<p>Other groups implementation around services, repositories, dashboard, constructor, mostly in src/services/BrowserManager.js, src/repositories/ProjectRepository.js, src/services/JobService.js. This section covers 558 nodes and 588 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Other groups implementation around services, repositories, dashboard, constructor, mostly in src/services/BrowserManager.js, src/repositories/ProjectRepository.js, src/services/JobService.js. This section covers 556 nodes and 584 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Other (558 nodes, 588 edges)
+    %% Section: Other (556 nodes, 584 edges)
     subgraph other_audits_auditId_page_tsx_39854d3f["audits/[auditId]/page.tsx"]
         auditid_page_861c009a("page.tsx")
         auditid_page_auditdetail_49a0e6bd("AuditDetail()<br/><small>audits/[auditId]/page.tsx</small>")
@@ -4217,16 +4302,16 @@ flowchart LR
     services_browsermanager_browsermanager_212dcea7("BrowserManager<br/><small>src/services/BrowserManager.js</small>")
     services_claudeworker_claudeworker_c12a2e46("ClaudeWorker<br/><small>src/services/ClaudeWorker.js</small>")
     workers_claudeworker_claudeworker_059ee0ad("ClaudeWorker<br/><small>src/workers/ClaudeWorker.js</small>")
-    auditid_page_auditdetail_49a0e6bd -->|calls| hooks_useaudits_useaudit_6655f714
     projectid_page_projectdetail_196cd6d8 -->|calls| hooks_useprojectdetails_useproject_5a7ecd42
     projectid_page_projectdetail_196cd6d8 -->|calls| hooks_useprojectdetails_useprojecthistory_f4bf56a1
+    auditid_page_auditdetail_49a0e6bd -->|calls| hooks_useaudits_useaudit_6655f714
     audits_audittimeline_audittimeline_a74ed417 -->|calls| hooks_useaudits_useprojectaudits_fb942c0c
     dashboard_sitehealthgrid_sitehealthgrid_81165325 -->|calls| hooks_usesites_usesites_f2ea1866
     ui_button_buttonvariants_a1d3986d -->|calls| ui_button_button_e9ca2d52
     ui_button_button_e9ca2d52 -->|calls| lib_utils_cn_b8743bb6
     auditid_page_861c009a -->|imports| audits_audittimeline_audittimeline_a74ed417
     auditid_page_861c009a -->|imports| hooks_useaudits_useaudit_6655f714
-    %% Omitted for readability: 540 nodes, 0 edges
+    %% Omitted for readability: 538 nodes, 0 edges
     class auditid_page_861c009a ui;
     class auditid_page_auditdetail_49a0e6bd ui;
     class ui_button_buttonvariants_a1d3986d ui;
@@ -4525,7 +4610,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: method x259, contains x193, calls x78, imports x34. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: method x259, contains x192, calls x78, imports x32. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4579,8 +4664,8 @@ flowchart LR
   <div class="card">
     <h4>Graph</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>Nodes</td><td>1487</td></tr>
-      <tr><td>Edges</td><td>1852</td></tr>
+      <tr><td>Nodes</td><td>1516</td></tr>
+      <tr><td>Edges</td><td>1908</td></tr>
       <tr><td>Hyperedges</td><td>4</td></tr>
       <tr><td>Communities</td><td>167</td></tr>
       <tr><td>Documented Sections</td><td>15</td></tr>
@@ -4589,7 +4674,7 @@ flowchart LR
   <div class="card">
     <h4>Edge Confidence</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>EXTRACTED</td><td>1847</td></tr>
+      <tr><td>EXTRACTED</td><td>1903</td></tr>
       <tr><td>INFERRED</td><td>5</td></tr>
       <tr><td>AMBIGUOUS</td><td>0</td></tr>
     </table>
@@ -4598,7 +4683,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>n8n — Architecture Documentation</p>
-  <p>Generated: 2026-06-29 09:27 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-06-29 09:35 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->
