@@ -61,174 +61,134 @@
   },
   "nodes": [
     {
-      "label": "layout.tsx",
+      "label": "page.tsx",
       "file_type": "code",
-      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "siteid_layout",
-      "community": 135,
-      "norm_label": "layout.tsx"
+      "id": "projectid_page",
+      "community": 162,
+      "norm_label": "page.tsx"
     },
     {
-      "label": "SiteLayout()",
+      "label": "ProjectDetail()",
       "file_type": "code",
-      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
-      "source_location": "L7",
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
+      "source_location": "L8",
       "_origin": "ast",
-      "id": "siteid_layout_sitelayout",
-      "community": 135,
-      "norm_label": "sitelayout()"
+      "id": "projectid_page_projectdetail",
+      "community": 162,
+      "norm_label": "projectdetail()"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
-      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_file": "dashboard/app/projects/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "siteid_page",
-      "community": 135,
+      "id": "projects_page",
+      "community": 153,
       "norm_label": "page.tsx"
     },
     {
-      "label": "SiteOverview()",
+      "label": "ProjectsList()",
       "file_type": "code",
-      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
-      "source_location": "L5",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L6",
       "_origin": "ast",
-      "id": "siteid_page_siteoverview",
-      "community": 135,
-      "norm_label": "siteoverview()"
+      "id": "projects_page_projectslist",
+      "community": 153,
+      "norm_label": "projectslist()"
     },
     {
-      "label": "page.tsx",
+      "label": "WorkflowStepper.tsx",
       "file_type": "code",
-      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "plugin_page",
-      "community": 135,
-      "norm_label": "page.tsx"
+      "id": "workflow_workflowstepper",
+      "community": 162,
+      "norm_label": "workflowstepper.tsx"
     },
     {
-      "label": "PluginHealth()",
+      "label": "WorkflowStepperProps",
       "file_type": "code",
-      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
-      "source_location": "L5",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L4",
       "_origin": "ast",
-      "id": "plugin_page_pluginhealth",
-      "community": 135,
-      "norm_label": "pluginhealth()"
+      "id": "workflow_workflowstepper_workflowstepperprops",
+      "community": 162,
+      "norm_label": "workflowstepperprops"
     },
     {
-      "label": "page.tsx",
+      "label": "STAGES",
       "file_type": "code",
-      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
-      "source_location": "L1",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L8",
       "_origin": "ast",
-      "id": "settings_page",
-      "community": 135,
-      "norm_label": "page.tsx"
+      "id": "workflow_workflowstepper_stages",
+      "community": 162,
+      "norm_label": "stages"
     },
     {
-      "label": "WorkflowSettings()",
+      "label": "WorkflowStepper()",
       "file_type": "code",
-      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "settings_page_workflowsettings",
-      "community": 135,
-      "norm_label": "workflowsettings()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "dashboard/app/sites/page.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "sites_page",
-      "community": 135,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "SitesList()",
-      "file_type": "code",
-      "source_file": "dashboard/app/sites/page.tsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "sites_page_siteslist",
-      "community": 135,
-      "norm_label": "siteslist()"
-    },
-    {
-      "label": "useSiteDetails.ts",
-      "file_type": "code",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "hooks_usesitedetails",
-      "community": 135,
-      "norm_label": "usesitedetails.ts"
-    },
-    {
-      "label": "useSite()",
-      "file_type": "code",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "hooks_usesitedetails_usesite",
-      "community": 135,
-      "norm_label": "usesite()"
-    },
-    {
-      "label": "useSitePlugin()",
-      "file_type": "code",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "hooks_usesitedetails_usesiteplugin",
-      "community": 135,
-      "norm_label": "usesiteplugin()"
+      "id": "workflow_workflowstepper_workflowstepper",
+      "community": 162,
+      "norm_label": "workflowstepper()"
     },
     {
-      "label": "useSiteSettings()",
+      "label": "useProjectDetails.ts",
       "file_type": "code",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L27",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L1",
       "_origin": "ast",
-      "id": "hooks_usesitedetails_usesitesettings",
-      "community": 135,
-      "norm_label": "usesitesettings()"
+      "id": "hooks_useprojectdetails",
+      "community": 162,
+      "norm_label": "useprojectdetails.ts"
     },
     {
-      "label": "useUpdateSiteSettings()",
+      "label": "useProject()",
       "file_type": "code",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L37",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L5",
       "_origin": "ast",
-      "id": "hooks_usesitedetails_useupdatesitesettings",
-      "community": 135,
-      "norm_label": "useupdatesitesettings()"
+      "id": "hooks_useprojectdetails_useproject",
+      "community": 162,
+      "norm_label": "useproject()"
     },
     {
-      "label": "useSiteOperations()",
+      "label": "useProjectHistory()",
       "file_type": "code",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L53",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
+      "source_location": "L16",
       "_origin": "ast",
-      "id": "hooks_usesitedetails_usesiteoperations",
-      "community": 135,
-      "norm_label": "usesiteoperations()"
+      "id": "hooks_useprojectdetails_useprojecthistory",
+      "community": 162,
+      "norm_label": "useprojecthistory()"
     },
     {
-      "label": "useSiteEvents()",
+      "label": "useProjects.ts",
       "file_type": "code",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L64",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L1",
       "_origin": "ast",
-      "id": "hooks_usesitedetails_usesiteevents",
-      "community": 135,
-      "norm_label": "usesiteevents()"
+      "id": "hooks_useprojects",
+      "community": 153,
+      "norm_label": "useprojects.ts"
+    },
+    {
+      "label": "useProjects()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "hooks_useprojects_useprojects",
+      "community": 153,
+      "norm_label": "useprojects()"
     },
     {
       "label": "types.ts",
@@ -237,7 +197,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "api_types",
-      "community": 135,
+      "community": 57,
       "norm_label": "types.ts"
     },
     {
@@ -247,7 +207,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "api_types_apiresponse",
-      "community": 135,
+      "community": 153,
       "norm_label": "apiresponse"
     },
     {
@@ -257,7 +217,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "api_types_apierrorresponse",
-      "community": 135,
+      "community": 153,
       "norm_label": "apierrorresponse"
     },
     {
@@ -267,7 +227,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "api_types_sitedto",
-      "community": 135,
+      "community": 163,
       "norm_label": "sitedto"
     },
     {
@@ -277,7 +237,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "api_types_projectdto",
-      "community": 135,
+      "community": 153,
       "norm_label": "projectdto"
     },
     {
@@ -287,7 +247,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "api_types_jobdto",
-      "community": 135,
+      "community": 166,
       "norm_label": "jobdto"
     },
     {
@@ -307,7 +267,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "api_types_pluginhealthdto",
-      "community": 135,
+      "community": 57,
       "norm_label": "pluginhealthdto"
     },
     {
@@ -317,7 +277,7 @@
       "source_location": "L96",
       "_origin": "ast",
       "id": "api_types_sitesettingsdto",
-      "community": 135,
+      "community": 57,
       "norm_label": "sitesettingsdto"
     },
     {
@@ -327,117 +287,137 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "api_types_operationdto",
-      "community": 135,
+      "community": 57,
       "norm_label": "operationdto"
     },
     {
-      "label": "setup_d3.js",
+      "label": "ProjectHistoryDto",
       "file_type": "code",
-      "source_file": "setup_d3.js",
+      "source_file": "dashboard/lib/api/types.ts",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "api_types_projecthistorydto",
+      "community": 162,
+      "norm_label": "projecthistorydto"
+    },
+    {
+      "label": "ProjectFilters",
+      "file_type": "code",
+      "source_file": "dashboard/lib/api/types.ts",
+      "source_location": "L125",
+      "_origin": "ast",
+      "id": "api_types_projectfilters",
+      "community": 153,
+      "norm_label": "projectfilters"
+    },
+    {
+      "label": "setup_d4.js",
+      "file_type": "code",
+      "source_file": "setup_d4.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_d3",
-      "community": 153,
-      "norm_label": "setup_d3.js"
+      "id": "setup_d4",
+      "community": 161,
+      "norm_label": "setup_d4.js"
     },
     {
       "label": "fs",
       "file_type": "code",
-      "source_file": "setup_d3.js",
+      "source_file": "setup_d4.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_d3_fs",
-      "community": 153,
+      "id": "setup_d4_fs",
+      "community": 161,
       "norm_label": "fs"
     },
     {
       "label": "path",
       "file_type": "code",
-      "source_file": "setup_d3.js",
+      "source_file": "setup_d4.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "setup_d3_path",
-      "community": 153,
+      "id": "setup_d4_path",
+      "community": 161,
       "norm_label": "path"
     },
     {
       "label": "frontendDir",
       "file_type": "code",
-      "source_file": "setup_d3.js",
+      "source_file": "setup_d4.js",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "setup_d3_frontenddir",
-      "community": 153,
+      "id": "setup_d4_frontenddir",
+      "community": 161,
       "norm_label": "frontenddir"
     },
     {
       "label": "mkdirp()",
       "file_type": "code",
-      "source_file": "setup_d3.js",
+      "source_file": "setup_d4.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "setup_d3_mkdirp",
-      "community": 153,
+      "id": "setup_d4_mkdirp",
+      "community": 161,
       "norm_label": "mkdirp()"
     },
     {
       "label": "readServicePath",
       "file_type": "code",
-      "source_file": "setup_d3.js",
-      "source_location": "L18",
+      "source_file": "setup_d4.js",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "setup_d3_readservicepath",
-      "community": 153,
+      "id": "setup_d4_readservicepath",
+      "community": 161,
       "norm_label": "readservicepath"
     },
     {
       "label": "readServiceCode",
       "file_type": "code",
-      "source_file": "setup_d3.js",
-      "source_location": "L19",
+      "source_file": "setup_d4.js",
+      "source_location": "L18",
       "_origin": "ast",
-      "id": "setup_d3_readservicecode",
-      "community": 153,
+      "id": "setup_d4_readservicecode",
+      "community": 161,
       "norm_label": "readservicecode"
     },
     {
       "label": "routesPath",
       "file_type": "code",
-      "source_file": "setup_d3.js",
-      "source_location": "L128",
+      "source_file": "setup_d4.js",
+      "source_location": "L96",
       "_origin": "ast",
-      "id": "setup_d3_routespath",
-      "community": 153,
+      "id": "setup_d4_routespath",
+      "community": 161,
       "norm_label": "routespath"
     },
     {
       "label": "routesCode",
       "file_type": "code",
-      "source_file": "setup_d3.js",
-      "source_location": "L129",
+      "source_file": "setup_d4.js",
+      "source_location": "L97",
       "_origin": "ast",
-      "id": "setup_d3_routescode",
-      "community": 153,
+      "id": "setup_d4_routescode",
+      "community": 161,
       "norm_label": "routescode"
     },
     {
       "label": "apiTypesPath",
       "file_type": "code",
-      "source_file": "setup_d3.js",
-      "source_location": "L198",
+      "source_file": "setup_d4.js",
+      "source_location": "L126",
       "_origin": "ast",
-      "id": "setup_d3_apitypespath",
-      "community": 153,
+      "id": "setup_d4_apitypespath",
+      "community": 161,
       "norm_label": "apitypespath"
     },
     {
       "label": "apiTypesCode",
       "file_type": "code",
-      "source_file": "setup_d3.js",
-      "source_location": "L199",
+      "source_file": "setup_d4.js",
+      "source_location": "L127",
       "_origin": "ast",
-      "id": "setup_d3_apitypescode",
-      "community": 153,
+      "id": "setup_d4_apitypescode",
+      "community": 161,
       "norm_label": "apitypescode"
     },
     {
@@ -551,10 +531,20 @@
       "norm_label": ".getprojects()"
     },
     {
+      "label": ".getProjectHistory()",
+      "file_type": "code",
+      "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L119",
+      "_origin": "ast",
+      "id": "services_dashboardreadservice_dashboardreadservice_getprojecthistory",
+      "community": 138,
+      "norm_label": ".getprojecthistory()"
+    },
+    {
       "label": ".getProjectById()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L94",
+      "source_location": "L136",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getprojectbyid",
       "community": 138,
@@ -564,7 +554,7 @@
       "label": ".getJobs()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L100",
+      "source_location": "L142",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getjobs",
       "community": 138,
@@ -574,7 +564,7 @@
       "label": ".getEvents()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L125",
+      "source_location": "L167",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getevents",
       "community": 138,
@@ -584,7 +574,7 @@
       "label": ".getOperations()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L136",
+      "source_location": "L178",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getoperations",
       "community": 138,
@@ -594,7 +584,7 @@
       "label": ".getSiteById()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L148",
+      "source_location": "L190",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsitebyid",
       "community": 138,
@@ -604,7 +594,7 @@
       "label": ".getSitePlugin()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L167",
+      "source_location": "L209",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsiteplugin",
       "community": 138,
@@ -614,7 +604,7 @@
       "label": ".getSiteSettings()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L181",
+      "source_location": "L223",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsitesettings",
       "community": 138,
@@ -624,7 +614,7 @@
       "label": ".updateSiteSettings()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L202",
+      "source_location": "L244",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_updatesitesettings",
       "community": 138,
@@ -634,7 +624,7 @@
       "label": ".getSiteOperations()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L229",
+      "source_location": "L271",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsiteoperations",
       "community": 138,
@@ -644,7 +634,7 @@
       "label": ".getSiteEvents()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L239",
+      "source_location": "L281",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_getsiteevents",
       "community": 138,
@@ -654,11 +644,181 @@
       "label": ".mapProjectDto()",
       "file_type": "code",
       "source_file": "src/services/DashboardReadService.js",
-      "source_location": "L245",
+      "source_location": "L287",
       "_origin": "ast",
       "id": "services_dashboardreadservice_dashboardreadservice_mapprojectdto",
       "community": 138,
       "norm_label": ".mapprojectdto()"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 165,
+      "norm_label": "layout.tsx",
+      "id": "siteid_layout"
+    },
+    {
+      "label": "SiteLayout()",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 165,
+      "norm_label": "sitelayout()",
+      "id": "siteid_layout_sitelayout"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 165,
+      "norm_label": "page.tsx",
+      "id": "siteid_page"
+    },
+    {
+      "label": "SiteOverview()",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 165,
+      "norm_label": "siteoverview()",
+      "id": "siteid_page_siteoverview"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 57,
+      "norm_label": "page.tsx",
+      "id": "plugin_page"
+    },
+    {
+      "label": "PluginHealth()",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 57,
+      "norm_label": "pluginhealth()",
+      "id": "plugin_page_pluginhealth"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 57,
+      "norm_label": "page.tsx",
+      "id": "settings_page"
+    },
+    {
+      "label": "WorkflowSettings()",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 57,
+      "norm_label": "workflowsettings()",
+      "id": "settings_page_workflowsettings"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/page.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 163,
+      "norm_label": "page.tsx",
+      "id": "sites_page"
+    },
+    {
+      "label": "SitesList()",
+      "file_type": "code",
+      "source_file": "dashboard/app/sites/page.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 163,
+      "norm_label": "siteslist()",
+      "id": "sites_page_siteslist"
+    },
+    {
+      "label": "useSiteDetails.ts",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 57,
+      "norm_label": "usesitedetails.ts",
+      "id": "hooks_usesitedetails"
+    },
+    {
+      "label": "useSite()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 165,
+      "norm_label": "usesite()",
+      "id": "hooks_usesitedetails_usesite"
+    },
+    {
+      "label": "useSitePlugin()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 57,
+      "norm_label": "usesiteplugin()",
+      "id": "hooks_usesitedetails_usesiteplugin"
+    },
+    {
+      "label": "useSiteSettings()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 57,
+      "norm_label": "usesitesettings()",
+      "id": "hooks_usesitedetails_usesitesettings"
+    },
+    {
+      "label": "useUpdateSiteSettings()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L37",
+      "_origin": "ast",
+      "community": 57,
+      "norm_label": "useupdatesitesettings()",
+      "id": "hooks_usesitedetails_useupdatesitesettings"
+    },
+    {
+      "label": "useSiteOperations()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L53",
+      "_origin": "ast",
+      "community": 165,
+      "norm_label": "usesiteoperations()",
+      "id": "hooks_usesitedetails_usesiteoperations"
+    },
+    {
+      "label": "useSiteEvents()",
+      "file_type": "code",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L64",
+      "_origin": "ast",
+      "community": 57,
+      "norm_label": "usesiteevents()",
+      "id": "hooks_usesitedetails_usesiteevents"
     },
     {
       "label": "page.tsx",
@@ -756,7 +916,7 @@
       "source_file": "dashboard/components/dashboard/QueueWidget.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 166,
       "norm_label": "queuewidget.tsx",
       "id": "dashboard_queuewidget"
     },
@@ -766,7 +926,7 @@
       "source_file": "dashboard/components/dashboard/QueueWidget.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 135,
+      "community": 166,
       "norm_label": "queuewidget()",
       "id": "dashboard_queuewidget_queuewidget"
     },
@@ -776,7 +936,7 @@
       "source_file": "dashboard/components/dashboard/ReviewWidget.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 164,
       "norm_label": "reviewwidget.tsx",
       "id": "dashboard_reviewwidget"
     },
@@ -786,7 +946,7 @@
       "source_file": "dashboard/components/dashboard/ReviewWidget.tsx",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 135,
+      "community": 164,
       "norm_label": "reviewwidget()",
       "id": "dashboard_reviewwidget_reviewwidget"
     },
@@ -796,7 +956,7 @@
       "source_file": "dashboard/components/dashboard/SiteCard.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 163,
       "norm_label": "sitecard.tsx",
       "id": "dashboard_sitecard"
     },
@@ -806,7 +966,7 @@
       "source_file": "dashboard/components/dashboard/SiteCard.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 135,
+      "community": 163,
       "norm_label": "sitecard()",
       "id": "dashboard_sitecard_sitecard"
     },
@@ -816,7 +976,7 @@
       "source_file": "dashboard/components/dashboard/SiteHealthGrid.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 163,
       "norm_label": "sitehealthgrid.tsx",
       "id": "dashboard_sitehealthgrid"
     },
@@ -826,7 +986,7 @@
       "source_file": "dashboard/components/dashboard/SiteHealthGrid.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 135,
+      "community": 163,
       "norm_label": "sitehealthgrid()",
       "id": "dashboard_sitehealthgrid_sitehealthgrid"
     },
@@ -866,7 +1026,7 @@
       "source_file": "dashboard/hooks/useReviews.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 164,
       "norm_label": "usereviews.ts",
       "id": "hooks_usereviews"
     },
@@ -876,7 +1036,7 @@
       "source_file": "dashboard/hooks/useReviews.ts",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 135,
+      "community": 164,
       "norm_label": "reviewdto",
       "id": "hooks_usereviews_reviewdto"
     },
@@ -886,7 +1046,7 @@
       "source_file": "dashboard/hooks/useReviews.ts",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 135,
+      "community": 164,
       "norm_label": "usereviews()",
       "id": "hooks_usereviews_usereviews"
     },
@@ -896,7 +1056,7 @@
       "source_file": "dashboard/hooks/useSites.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 163,
       "norm_label": "usesites.ts",
       "id": "hooks_usesites"
     },
@@ -906,7 +1066,7 @@
       "source_file": "dashboard/hooks/useSites.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 135,
+      "community": 163,
       "norm_label": "usesites()",
       "id": "hooks_usesites_usesites"
     },
@@ -1356,7 +1516,7 @@
       "source_file": "dashboard/hooks/useJobs.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 166,
       "norm_label": "usejobs.ts",
       "id": "hooks_usejobs"
     },
@@ -1366,7 +1526,7 @@
       "source_file": "dashboard/hooks/useJobs.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 135,
+      "community": 166,
       "norm_label": "usejobs()",
       "id": "hooks_usejobs_usejobs"
     },
@@ -1391,32 +1551,12 @@
       "id": "hooks_useoverview_useoverview"
     },
     {
-      "label": "useProjects.ts",
-      "file_type": "code",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 135,
-      "norm_label": "useprojects.ts",
-      "id": "hooks_useprojects"
-    },
-    {
-      "label": "useProjects()",
-      "file_type": "code",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 135,
-      "norm_label": "useprojects()",
-      "id": "hooks_useprojects_useprojects"
-    },
-    {
       "label": "client.ts",
       "file_type": "code",
       "source_file": "dashboard/lib/api/client.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 153,
       "norm_label": "client.ts",
       "id": "api_client"
     },
@@ -1426,7 +1566,7 @@
       "source_file": "dashboard/lib/api/client.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 135,
+      "community": 164,
       "norm_label": "apiclient()",
       "id": "api_client_apiclient"
     },
@@ -1436,7 +1576,7 @@
       "source_file": "dashboard/lib/api/errors.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 153,
       "norm_label": "errors.ts",
       "id": "api_errors"
     },
@@ -1446,7 +1586,7 @@
       "source_file": "dashboard/lib/api/errors.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 153,
       "norm_label": "apierror",
       "id": "api_errors_apierror"
     },
@@ -1456,7 +1596,7 @@
       "source_file": "dashboard/lib/api/errors.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 135,
+      "community": 153,
       "norm_label": ".constructor()",
       "id": "api_errors_apierror_constructor"
     },
@@ -5926,7 +6066,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": "cronmanager.php",
       "id": "bootstrap_cronmanager"
     },
@@ -5936,7 +6076,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": "cronmanager",
       "id": "bootstrap_cronmanager_cronmanager"
     },
@@ -5946,7 +6086,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".registerhooks()",
       "id": "bootstrap_cronmanager_cronmanager_registerhooks"
     },
@@ -5956,7 +6096,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": "loader",
       "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_loader"
     },
@@ -5966,7 +6106,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": "heartbeatservice",
       "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_heartbeatservice"
     },
@@ -5976,7 +6116,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".addcustomschedules()",
       "id": "bootstrap_cronmanager_cronmanager_addcustomschedules"
     },
@@ -5986,7 +6126,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".scheduleevents()",
       "id": "bootstrap_cronmanager_cronmanager_scheduleevents"
     },
@@ -5996,7 +6136,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".clearevents()",
       "id": "bootstrap_cronmanager_cronmanager_clearevents"
     },
@@ -6016,7 +6156,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": "plugin",
       "id": "bootstrap_plugin_plugin"
     },
@@ -6026,7 +6166,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".__construct()",
       "id": "bootstrap_plugin_plugin_construct"
     },
@@ -6036,7 +6176,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L23",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".initializeconstants()",
       "id": "bootstrap_plugin_plugin_initializeconstants"
     },
@@ -6046,7 +6186,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".sethooks()",
       "id": "bootstrap_plugin_plugin_sethooks"
     },
@@ -6056,7 +6196,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".activate()",
       "id": "bootstrap_plugin_plugin_activate"
     },
@@ -6066,7 +6206,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L70",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".deactivate()",
       "id": "bootstrap_plugin_plugin_deactivate"
     },
@@ -6076,7 +6216,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L75",
       "_origin": "ast",
-      "community": 57,
+      "community": 27,
       "norm_label": ".run()",
       "id": "bootstrap_plugin_plugin_run"
     },
@@ -14633,140 +14773,65 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
-      "source_location": "L4",
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
+      "source_location": "L2",
       "weight": 1.0,
-      "source": "siteid_layout",
-      "target": "hooks_usesitedetails",
+      "source": "projectid_page",
+      "target": "hooks_useprojectdetails",
       "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
-      "source_location": "L4",
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
+      "source_location": "L2",
       "weight": 1.0,
-      "source": "siteid_layout",
-      "target": "hooks_usesitedetails_usesite",
+      "source": "projectid_page",
+      "target": "hooks_useprojectdetails_useproject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "projectid_page",
+      "target": "hooks_useprojectdetails_useprojecthistory",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "siteid_layout",
-      "target": "siteid_layout_sitelayout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "siteid_layout_sitelayout",
-      "target": "hooks_usesitedetails_usesite"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "siteid_page",
-      "target": "hooks_usesitedetails",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "siteid_page",
-      "target": "hooks_usesitedetails_usesite",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "siteid_page",
-      "target": "hooks_usesitedetails_usesiteoperations",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "siteid_page",
-      "target": "siteid_page_siteoverview",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "siteid_page_siteoverview",
-      "target": "hooks_usesitedetails_usesite"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "source": "siteid_page_siteoverview",
-      "target": "hooks_usesitedetails_usesiteoperations"
+      "source": "projectid_page",
+      "target": "projectid_page_projectdetail",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
-      "source_location": "L2",
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "plugin_page",
-      "target": "hooks_usesitedetails",
+      "source": "projectid_page",
+      "target": "workflow_workflowstepper",
       "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
-      "source_location": "L2",
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "plugin_page",
-      "target": "hooks_usesitedetails_usesiteplugin",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "plugin_page",
-      "target": "plugin_page_pluginhealth",
+      "source": "projectid_page",
+      "target": "workflow_workflowstepper_workflowstepper",
       "confidence_score": 1.0
     },
     {
@@ -14774,53 +14839,53 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
-      "source_location": "L7",
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
+      "source_location": "L10",
       "weight": 1.0,
-      "source": "plugin_page_pluginhealth",
-      "target": "hooks_usesitedetails_usesiteplugin"
+      "source": "projectid_page_projectdetail",
+      "target": "hooks_useprojectdetails_useproject"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dashboard/app/projects/[projectId]/page.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "projectid_page_projectdetail",
+      "target": "hooks_useprojectdetails_useprojecthistory"
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
-      "source_location": "L2",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "settings_page",
-      "target": "hooks_usesitedetails",
+      "source": "projects_page",
+      "target": "hooks_useprojects",
       "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
-      "source_location": "L2",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "settings_page",
-      "target": "hooks_usesitedetails_usesitesettings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "settings_page",
-      "target": "hooks_usesitedetails_useupdatesitesettings",
+      "source": "projects_page",
+      "target": "hooks_useprojects_useprojects",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
-      "source_location": "L5",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L6",
       "weight": 1.0,
-      "source": "settings_page",
-      "target": "settings_page_workflowsettings",
+      "source": "projects_page",
+      "target": "projects_page_projectslist",
       "confidence_score": 1.0
     },
     {
@@ -14828,52 +14893,50 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
-      "source_location": "L7",
+      "source_file": "dashboard/app/projects/page.tsx",
+      "source_location": "L15",
       "weight": 1.0,
-      "source": "settings_page_workflowsettings",
-      "target": "hooks_usesitedetails_usesitesettings"
+      "source": "projects_page_projectslist",
+      "target": "hooks_useprojects_useprojects"
     },
     {
-      "relation": "calls",
-      "context": "call",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "source": "settings_page_workflowsettings",
-      "target": "hooks_usesitedetails_useupdatesitesettings"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "sites_page",
-      "target": "hooks_usesites_usesites",
+      "source": "workflow_workflowstepper",
+      "target": "workflow_workflowstepper_stages",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/app/sites/page.tsx",
-      "source_location": "L5",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L16",
       "weight": 1.0,
-      "source": "sites_page",
-      "target": "sites_page_siteslist",
+      "source": "workflow_workflowstepper",
+      "target": "workflow_workflowstepper_workflowstepper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/components/workflow/WorkflowStepper.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "workflow_workflowstepper",
+      "target": "workflow_workflowstepper_workflowstepperprops",
       "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "hooks_usesitedetails",
+      "source": "hooks_useprojectdetails",
       "target": "api_client_apiclient",
       "confidence_score": 1.0
     },
@@ -14881,10 +14944,10 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "hooks_usesitedetails",
+      "source": "hooks_useprojectdetails",
       "target": "api_types",
       "confidence_score": 1.0
     },
@@ -14892,105 +14955,108 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "api_types_operationdto",
+      "source": "hooks_useprojectdetails",
+      "target": "api_types_projectdto",
       "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "api_types_pluginhealthdto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "api_types_sitedto",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "api_types_sitesettingsdto",
+      "source": "hooks_useprojectdetails",
+      "target": "api_types_projecthistorydto",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "hooks_usesitedetails_usesite",
+      "source": "hooks_useprojectdetails",
+      "target": "hooks_useprojectdetails_useproject",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L64",
-      "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "hooks_usesitedetails_usesiteevents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "hooks_usesitedetails_usesiteoperations",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_file": "dashboard/hooks/useProjectDetails.ts",
       "source_location": "L16",
       "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "hooks_usesitedetails_usesiteplugin",
+      "source": "hooks_useprojectdetails",
+      "target": "hooks_useprojectdetails_useprojecthistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "api_client"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "api_client_apiclient"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "api_types"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "api_types_projectdto"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "hooks_useprojects",
+      "target": "api_types_projectfilters",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L27",
+      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_location": "L5",
       "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "hooks_usesitedetails_usesitesettings",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSiteDetails.ts",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "hooks_usesitedetails",
-      "target": "hooks_usesitedetails_useupdatesitesettings",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "hooks_useprojects",
+      "target": "hooks_useprojects_useprojects"
     },
     {
       "relation": "imports_from",
@@ -15039,9 +15105,9 @@
       "source_file": "dashboard/lib/api/types.ts",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_types",
-      "target": "api_types_operationdto",
-      "confidence_score": 1.0
+      "target": "api_types_operationdto"
     },
     {
       "relation": "contains",
@@ -15059,9 +15125,9 @@
       "source_file": "dashboard/lib/api/types.ts",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_types",
-      "target": "api_types_pluginhealthdto",
-      "confidence_score": 1.0
+      "target": "api_types_pluginhealthdto"
     },
     {
       "relation": "contains",
@@ -15072,6 +15138,26 @@
       "confidence_score": 1.0,
       "source": "api_types",
       "target": "api_types_projectdto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/lib/api/types.ts",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "api_types",
+      "target": "api_types_projectfilters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/lib/api/types.ts",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "api_types",
+      "target": "api_types_projecthistorydto",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15089,9 +15175,9 @@
       "source_file": "dashboard/lib/api/types.ts",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_types",
-      "target": "api_types_sitesettingsdto",
-      "confidence_score": 1.0
+      "target": "api_types_sitesettingsdto"
     },
     {
       "relation": "imports_from",
@@ -15119,11 +15205,11 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "hooks_useprojects",
+      "source": "hooks_usesitedetails",
       "target": "api_types"
     },
     {
@@ -15174,23 +15260,23 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useSites.ts",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "hooks_usesites",
+      "source": "hooks_usesitedetails",
       "target": "api_types_sitedto"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
+      "source_file": "dashboard/hooks/useSites.ts",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "hooks_useprojects",
-      "target": "api_types_projectdto"
+      "source": "hooks_usesites",
+      "target": "api_types_sitedto"
     },
     {
       "relation": "imports",
@@ -15215,103 +15301,136 @@
       "target": "api_types_overviewdto"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "api_types_pluginhealthdto"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "api_types_sitesettingsdto"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "api_types_operationdto"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
-      "source_location": "L199",
+      "source_file": "setup_d4.js",
+      "source_location": "L127",
       "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_apitypescode",
+      "source": "setup_d4",
+      "target": "setup_d4_apitypescode",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
-      "source_location": "L198",
+      "source_file": "setup_d4.js",
+      "source_location": "L126",
       "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_apitypespath",
+      "source": "setup_d4",
+      "target": "setup_d4_apitypespath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
+      "source_file": "setup_d4.js",
       "source_location": "L5",
       "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_frontenddir",
+      "source": "setup_d4",
+      "target": "setup_d4_frontenddir",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
+      "source_file": "setup_d4.js",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_fs",
+      "source": "setup_d4",
+      "target": "setup_d4_fs",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
+      "source_file": "setup_d4.js",
       "source_location": "L7",
       "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_mkdirp",
+      "source": "setup_d4",
+      "target": "setup_d4_mkdirp",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
+      "source_file": "setup_d4.js",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_path",
+      "source": "setup_d4",
+      "target": "setup_d4_path",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_readservicecode",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
+      "source_file": "setup_d4.js",
       "source_location": "L18",
       "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_readservicepath",
+      "source": "setup_d4",
+      "target": "setup_d4_readservicecode",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
-      "source_location": "L129",
+      "source_file": "setup_d4.js",
+      "source_location": "L17",
       "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_routescode",
+      "source": "setup_d4",
+      "target": "setup_d4_readservicepath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_d3.js",
-      "source_location": "L128",
+      "source_file": "setup_d4.js",
+      "source_location": "L97",
       "weight": 1.0,
-      "source": "setup_d3",
-      "target": "setup_d3_routespath",
+      "source": "setup_d4",
+      "target": "setup_d4_routescode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_d4.js",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "setup_d4",
+      "target": "setup_d4_routespath",
       "confidence_score": 1.0
     },
     {
@@ -15560,6 +15679,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/services/DashboardReadService.js",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "services_dashboardreadservice_dashboardreadservice",
+      "target": "services_dashboardreadservice_dashboardreadservice_getprojecthistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/DashboardReadService.js",
       "source_location": "L80",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -15572,9 +15701,9 @@
       "source_file": "src/services/DashboardReadService.js",
       "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_dashboardreadservice_dashboardreadservice",
-      "target": "services_dashboardreadservice_dashboardreadservice_getsitebyid",
-      "confidence_score": 1.0
+      "target": "services_dashboardreadservice_dashboardreadservice_getsitebyid"
     },
     {
       "relation": "method",
@@ -15582,9 +15711,9 @@
       "source_file": "src/services/DashboardReadService.js",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_dashboardreadservice_dashboardreadservice",
-      "target": "services_dashboardreadservice_dashboardreadservice_getsiteevents",
-      "confidence_score": 1.0
+      "target": "services_dashboardreadservice_dashboardreadservice_getsiteevents"
     },
     {
       "relation": "method",
@@ -15592,9 +15721,9 @@
       "source_file": "src/services/DashboardReadService.js",
       "source_location": "L229",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_dashboardreadservice_dashboardreadservice",
-      "target": "services_dashboardreadservice_dashboardreadservice_getsiteoperations",
-      "confidence_score": 1.0
+      "target": "services_dashboardreadservice_dashboardreadservice_getsiteoperations"
     },
     {
       "relation": "method",
@@ -15602,9 +15731,9 @@
       "source_file": "src/services/DashboardReadService.js",
       "source_location": "L167",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_dashboardreadservice_dashboardreadservice",
-      "target": "services_dashboardreadservice_dashboardreadservice_getsiteplugin",
-      "confidence_score": 1.0
+      "target": "services_dashboardreadservice_dashboardreadservice_getsiteplugin"
     },
     {
       "relation": "method",
@@ -15622,9 +15751,9 @@
       "source_file": "src/services/DashboardReadService.js",
       "source_location": "L181",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_dashboardreadservice_dashboardreadservice",
-      "target": "services_dashboardreadservice_dashboardreadservice_getsitesettings",
-      "confidence_score": 1.0
+      "target": "services_dashboardreadservice_dashboardreadservice_getsitesettings"
     },
     {
       "relation": "method",
@@ -15642,9 +15771,9 @@
       "source_file": "src/services/DashboardReadService.js",
       "source_location": "L202",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_dashboardreadservice_dashboardreadservice",
-      "target": "services_dashboardreadservice_dashboardreadservice_updatesitesettings",
-      "confidence_score": 1.0
+      "target": "services_dashboardreadservice_dashboardreadservice_updatesitesettings"
     },
     {
       "relation": "calls",
@@ -15656,6 +15785,314 @@
       "confidence_score": 1.0,
       "source": "services_dashboardreadservice_dashboardreadservice_getprojectbyid",
       "target": "services_dashboardreadservice_dashboardreadservice_mapprojectdto"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "siteid_layout",
+      "target": "hooks_usesitedetails"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "siteid_layout",
+      "target": "hooks_usesitedetails_usesite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "siteid_layout",
+      "target": "siteid_layout_sitelayout"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dashboard/app/sites/[siteId]/layout.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "siteid_layout_sitelayout",
+      "target": "hooks_usesitedetails_usesite"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "siteid_page",
+      "target": "hooks_usesitedetails"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "siteid_page",
+      "target": "hooks_usesitedetails_usesite"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "siteid_page",
+      "target": "hooks_usesitedetails_usesiteoperations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "siteid_page",
+      "target": "siteid_page_siteoverview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "siteid_page_siteoverview",
+      "target": "hooks_usesitedetails_usesite"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dashboard/app/sites/[siteId]/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "siteid_page_siteoverview",
+      "target": "hooks_usesitedetails_usesiteoperations"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "plugin_page",
+      "target": "hooks_usesitedetails"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "plugin_page",
+      "target": "hooks_usesitedetails_usesiteplugin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "plugin_page",
+      "target": "plugin_page_pluginhealth"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dashboard/app/sites/[siteId]/plugin/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "plugin_page_pluginhealth",
+      "target": "hooks_usesitedetails_usesiteplugin"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "settings_page",
+      "target": "hooks_usesitedetails"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "settings_page",
+      "target": "hooks_usesitedetails_usesitesettings"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "settings_page",
+      "target": "hooks_usesitedetails_useupdatesitesettings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "settings_page",
+      "target": "settings_page_workflowsettings"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "settings_page_workflowsettings",
+      "target": "hooks_usesitedetails_usesitesettings"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "dashboard/app/sites/[siteId]/settings/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "settings_page_workflowsettings",
+      "target": "hooks_usesitedetails_useupdatesitesettings"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sites_page",
+      "target": "hooks_usesites_usesites"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/app/sites/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sites_page",
+      "target": "sites_page_siteslist"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "api_client_apiclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "hooks_usesitedetails_usesite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "hooks_usesitedetails_usesiteevents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "hooks_usesitedetails_usesiteoperations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "hooks_usesitedetails_usesiteplugin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "hooks_usesitedetails_usesitesettings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/hooks/useSiteDetails.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hooks_usesitedetails",
+      "target": "hooks_usesitedetails_useupdatesitesettings"
     },
     {
       "relation": "contains",
@@ -16662,38 +17099,6 @@
       "confidence_score": 1.0,
       "source": "hooks_useoverview",
       "target": "hooks_useoverview_useoverview"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useprojects",
-      "target": "api_client"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useprojects",
-      "target": "api_client_apiclient"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "dashboard/hooks/useProjects.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "hooks_useprojects",
-      "target": "hooks_useprojects_useprojects"
     },
     {
       "relation": "contains",
@@ -33104,5 +33509,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "672d1b4ba05451b8cd8f789c17d885b473f63bdc"
+  "built_at_commit": "f623a99b63df72802b6b7dca1471209d5066ecb9"
 }

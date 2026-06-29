@@ -155,3 +155,43 @@ export interface AuditDto {
     createdAt: string;
     postTitle: string;
 }
+
+export interface SectionDiffDto {
+    sectionName: string;
+    diffType: string;
+    content: string;
+}
+
+export interface RewriteSummaryDto {
+    added: string[];
+    improved: string[];
+    removed: string[];
+}
+
+export interface RewriteDto {
+    id: number;
+    projectId: number;
+    siteId: number;
+    sourceAuditId: number;
+    status: string;
+    originalWordCount: number;
+    rewrittenWordCount: number;
+    wordsAdded: number;
+    wordsRemoved: number;
+    changePercentage: number;
+    changeSeverity: string;
+    summary: RewriteSummaryDto;
+    sectionDiffs: SectionDiffDto[];
+    runtimeMs: number;
+    createdAt: string;
+}
+
+export interface VersionDto {
+    id: number;
+    project_id: number;
+    rewrite_id: number | null;
+    version_number: number;
+    version_type: string;
+    content: string;
+    created_at: string;
+}

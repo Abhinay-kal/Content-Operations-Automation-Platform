@@ -144,6 +144,62 @@ class DashboardReadService {
         }
     }
 
+    
+    getRewriteById(id) {
+        try {
+            const r = this.db.prepare('SELECT * FROM seo_rewrites WHERE id = ?').get(id);
+            if (!r) return null;
+            return this.mapRewriteDto(r);
+        } catch(e) {
+            return null;
+        }
+    }
+
+    getProjectRewrites(projectId) {
+        try {
+            const rows = this.db.prepare('SELECT * FROM seo_rewrites WHERE project_id = ? ORDER BY created_at DESC').all(projectId);
+            return rows.map(r => this.mapRewriteDto(r));
+        } catch(e) {
+            return [];
+        }
+    }
+
+    getVersionById(id) {
+        try {
+            return this.db.prepare('SELECT * FROM content_versions WHERE id = ?').get(id);
+        } catch(e) {
+            return null;
+        }
+    }
+
+    getProjectVersions(projectId) {
+        try {
+            return this.db.prepare('SELECT * FROM content_versions WHERE project_id = ? ORDER BY version_number ASC').all(projectId);
+        } catch(e) {
+            return [];
+        }
+    }
+
+    mapRewriteDto(row) {
+        return {
+            id: row.id,
+            projectId: row.project_id,
+            siteId: row.site_id,
+            sourceAuditId: row.source_audit_id,
+            status: row.status,
+            originalWordCount: row.original_word_count || 0,
+            rewrittenWordCount: row.rewritten_word_count || 0,
+            wordsAdded: row.words_added || 0,
+            wordsRemoved: row.words_removed || 0,
+            changePercentage: row.change_percentage || 0,
+            changeSeverity: row.change_severity || 'MODERATE_CHANGE',
+            summary: JSON.parse(row.summary || '{"added":[],"improved":[],"removed":[]}'),
+            sectionDiffs: JSON.parse(row.section_diffs || '[]'),
+            runtimeMs: row.runtime_ms || 0,
+            createdAt: row.created_at
+        };
+    }
+
     getProjectAudits(projectId) {
         try {
             const rows = this.db.prepare('SELECT * FROM seo_audits WHERE project_id = ? ORDER BY created_at DESC').all(projectId);

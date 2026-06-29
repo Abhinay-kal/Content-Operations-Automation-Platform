@@ -31,6 +31,7 @@ export default function ProjectDetail({ params }: { params: Promise<{projectId: 
                             <span>Project #{project.id}</span>
                             <span>Site #{project.siteId}</span>
                             <span>WP Post ID {project.wpPostId}</span>
+                            {project.latestRewriteId && <span className="px-2 border-l ml-2 pl-4"><Link href={`/rewrites/${project.latestRewriteId}`} className="text-blue-600 hover:underline">View Latest Rewrite</Link></span>}
                         </div>
                     </div>
                     <div className="flex gap-2">

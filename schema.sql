@@ -307,3 +307,31 @@ CREATE TABLE seo_audits (
     created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE seo_rewrites (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_id INTEGER NOT NULL,
+    site_id INTEGER NOT NULL,
+    source_audit_id INTEGER,
+    status TEXT DEFAULT 'COMPLETED',
+    original_word_count INTEGER,
+    rewritten_word_count INTEGER,
+    words_added INTEGER,
+    words_removed INTEGER,
+    change_percentage REAL,
+    change_severity TEXT, -- MINIMAL_CHANGE, MODERATE_CHANGE, MAJOR_REWRITE, COMPLETE_REWRITE
+    summary TEXT, -- JSON structure { added: [], improved: [], removed: [] }
+    section_diffs TEXT, -- JSON array of section diffs
+    runtime_ms INTEGER,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE content_versions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_id INTEGER NOT NULL,
+    rewrite_id INTEGER,
+    version_number INTEGER NOT NULL,
+    version_type TEXT, -- ORIGINAL, REWRITE, EDITOR_CHANGES
+    content TEXT NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

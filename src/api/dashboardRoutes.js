@@ -59,6 +59,45 @@ function createDashboardRoutes({ dashboardReadService, logger }) {
         }
     });
 
+    
+    router.get('/dashboard/rewrites/:id', (req, res) => {
+        try {
+            const data = dashboardReadService.getRewriteById(req.params.id);
+            if (!data) return sendError(res, new ApiError(ErrorCodes.PROJECT_NOT_FOUND, 'Rewrite not found', 404));
+            return sendSuccess(res, data);
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    router.get('/dashboard/projects/:id/rewrites', (req, res) => {
+        try {
+            const data = dashboardReadService.getProjectRewrites(req.params.id);
+            return sendSuccess(res, data);
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    router.get('/dashboard/versions/:id', (req, res) => {
+        try {
+            const data = dashboardReadService.getVersionById(req.params.id);
+            if (!data) return sendError(res, new ApiError(ErrorCodes.PROJECT_NOT_FOUND, 'Version not found', 404));
+            return sendSuccess(res, data);
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    router.get('/dashboard/projects/:id/versions', (req, res) => {
+        try {
+            const data = dashboardReadService.getProjectVersions(req.params.id);
+            return sendSuccess(res, data);
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
     router.get('/dashboard/projects/:id/audits', (req, res) => {
         try {
             const data = dashboardReadService.getProjectAudits(req.params.id);
