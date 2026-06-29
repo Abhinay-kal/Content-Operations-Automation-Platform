@@ -61,454 +61,84 @@
   },
   "nodes": [
     {
-      "label": "BootstrapManager.js",
+      "label": "setup_p4.js",
       "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_file": "setup_p4.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager",
-      "community": 5,
-      "norm_label": "bootstrapmanager.js"
+      "id": "setup_p4",
+      "community": 101,
+      "norm_label": "setup_p4.js"
     },
     {
-      "label": "{ PreFlightValidator }",
+      "label": "fs",
       "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_file": "setup_p4.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_preflightvalidator",
-      "community": 5,
-      "norm_label": "{ preflightvalidator }"
+      "id": "setup_p4_fs",
+      "community": 101,
+      "norm_label": "fs"
     },
     {
-      "label": "{ loadConfig }",
+      "label": "path",
       "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_file": "setup_p4.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_loadconfig",
-      "community": 5,
-      "norm_label": "{ loadconfig }"
+      "id": "setup_p4_path",
+      "community": 101,
+      "norm_label": "path"
     },
     {
-      "label": "{ createLogger }",
+      "label": "mkdirp()",
       "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_createlogger",
-      "community": 5,
-      "norm_label": "{ createlogger }"
-    },
-    {
-      "label": "DatabaseConnection",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_databaseconnection",
-      "community": 5,
-      "norm_label": "databaseconnection"
-    },
-    {
-      "label": "Migrations",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_migrations",
-      "community": 5,
-      "norm_label": "migrations"
-    },
-    {
-      "label": "{ JobRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_jobrepository",
-      "community": 5,
-      "norm_label": "{ jobrepository }"
-    },
-    {
-      "label": "{ SiteRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_file": "setup_p4.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_siterepository",
-      "community": 5,
-      "norm_label": "{ siterepository }"
+      "id": "setup_p4_mkdirp",
+      "community": 101,
+      "norm_label": "mkdirp()"
     },
     {
-      "label": "{ ProjectRepository }",
+      "label": "schemaPath",
       "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L8",
+      "source_file": "setup_p4.js",
+      "source_location": "L411",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_projectrepository",
-      "community": 5,
-      "norm_label": "{ projectrepository }"
+      "id": "setup_p4_schemapath",
+      "community": 101,
+      "norm_label": "schemapath"
     },
     {
-      "label": "{ LogRepository, EventRepository }",
+      "label": "schemaContent",
       "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L9",
+      "source_file": "setup_p4.js",
+      "source_location": "L412",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_logrepository_eventrepository",
-      "community": 5,
-      "norm_label": "{ logrepository, eventrepository }"
+      "id": "setup_p4_schemacontent",
+      "community": 101,
+      "norm_label": "schemacontent"
     },
     {
-      "label": "{ WordPressRepository }",
+      "label": "pluginRoutesPath",
       "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L10",
+      "source_file": "setup_p4.js",
+      "source_location": "L418",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_wordpressrepository",
-      "community": 5,
-      "norm_label": "{ wordpressrepository }"
+      "id": "setup_p4_pluginroutespath",
+      "community": 101,
+      "norm_label": "pluginroutespath"
     },
     {
-      "label": "{ PublishingRepository }",
+      "label": "pluginRoutesContent",
       "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L11",
+      "source_file": "setup_p4.js",
+      "source_location": "L419",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_publishingrepository",
-      "community": 5,
-      "norm_label": "{ publishingrepository }"
-    },
-    {
-      "label": "{ PluginRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_pluginrepository",
-      "community": 5,
-      "norm_label": "{ pluginrepository }"
-    },
-    {
-      "label": "{ TokenService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_tokenservice",
-      "community": 5,
-      "norm_label": "{ tokenservice }"
-    },
-    {
-      "label": "{ CompatibilityService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_compatibilityservice",
-      "community": 5,
-      "norm_label": "{ compatibilityservice }"
-    },
-    {
-      "label": "{ PluginService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_pluginservice",
-      "community": 5,
-      "norm_label": "{ pluginservice }"
-    },
-    {
-      "label": "JobService",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_jobservice",
-      "community": 5,
-      "norm_label": "jobservice"
-    },
-    {
-      "label": "{ SiteService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_siteservice",
-      "community": 5,
-      "norm_label": "{ siteservice }"
-    },
-    {
-      "label": "{ ProjectService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_projectservice",
-      "community": 5,
-      "norm_label": "{ projectservice }"
-    },
-    {
-      "label": "SyncService",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_syncservice",
-      "community": 5,
-      "norm_label": "syncservice"
-    },
-    {
-      "label": "PublishingService",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_publishingservice",
-      "community": 5,
-      "norm_label": "publishingservice"
-    },
-    {
-      "label": "{ StateMachine }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L23",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_statemachine",
-      "community": 5,
-      "norm_label": "{ statemachine }"
-    },
-    {
-      "label": "{ BrowserManager }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_browsermanager",
-      "community": 5,
-      "norm_label": "{ browsermanager }"
-    },
-    {
-      "label": "{ ClaudeManager }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_claudemanager",
-      "community": 5,
-      "norm_label": "{ claudemanager }"
-    },
-    {
-      "label": "{ MetricsService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_metricsservice",
-      "community": 5,
-      "norm_label": "{ metricsservice }"
-    },
-    {
-      "label": "{ QueueService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_queueservice",
-      "community": 5,
-      "norm_label": "{ queueservice }"
-    },
-    {
-      "label": "{ ClaudeWorker }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_claudeworker",
-      "community": 5,
-      "norm_label": "{ claudeworker }"
-    },
-    {
-      "label": "{ SessionMonitor }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L29",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_sessionmonitor",
-      "community": 5,
-      "norm_label": "{ sessionmonitor }"
-    },
-    {
-      "label": "{ RecoveryManager }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L30",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_recoverymanager",
-      "community": 5,
-      "norm_label": "{ recoverymanager }"
-    },
-    {
-      "label": "{ SessionDetector }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L31",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_sessiondetector",
-      "community": 5,
-      "norm_label": "{ sessiondetector }"
-    },
-    {
-      "label": "{ SessionRecovery }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_sessionrecovery",
-      "community": 5,
-      "norm_label": "{ sessionrecovery }"
-    },
-    {
-      "label": "{ ClaudeHealthCheck }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L33",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_claudehealthcheck",
-      "community": 5,
-      "norm_label": "{ claudehealthcheck }"
-    },
-    {
-      "label": "{ BrowserRecovery }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L34",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_browserrecovery",
-      "community": 5,
-      "norm_label": "{ browserrecovery }"
-    },
-    {
-      "label": "{ DashboardService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_dashboardservice",
-      "community": 5,
-      "norm_label": "{ dashboardservice }"
-    },
-    {
-      "label": "BootstrapManager",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "community": 2,
-      "norm_label": "bootstrapmanager"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L38",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor",
-      "community": 2,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".run()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L57",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_run",
-      "community": 2,
-      "norm_label": ".run()"
-    },
-    {
-      "label": "._runPhase1()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L84",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
-      "community": 2,
-      "norm_label": "._runphase1()"
-    },
-    {
-      "label": "._runPhase2()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L116",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2",
-      "community": 2,
-      "norm_label": "._runphase2()"
-    },
-    {
-      "label": "._runPhase3()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L222",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3",
-      "community": 2,
-      "norm_label": "._runphase3()"
-    },
-    {
-      "label": "._runPhase3_5()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L321",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5",
-      "community": 2,
-      "norm_label": "._runphase3_5()"
-    },
-    {
-      "label": "._runPhase4()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L416",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
-      "community": 2,
-      "norm_label": "._runphase4()"
-    },
-    {
-      "label": "._verifyReadiness()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L436",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness",
-      "community": 2,
-      "norm_label": "._verifyreadiness()"
-    },
-    {
-      "label": "._printHeader()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L480",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader",
-      "community": 2,
-      "norm_label": "._printheader()"
-    },
-    {
-      "label": "._reportFailures()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L487",
-      "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures",
-      "community": 2,
-      "norm_label": "._reportfailures()"
+      "id": "setup_p4_pluginroutescontent",
+      "community": 101,
+      "norm_label": "pluginroutescontent"
     },
     {
       "label": "pluginRoutes.js",
@@ -516,9 +146,9 @@
       "source_file": "src/api/pluginRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "api_pluginroutes",
       "community": 100,
-      "norm_label": "pluginroutes.js",
-      "id": "api_pluginroutes"
+      "norm_label": "pluginroutes.js"
     },
     {
       "label": "express",
@@ -526,9 +156,9 @@
       "source_file": "src/api/pluginRoutes.js",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "api_pluginroutes_express",
       "community": 100,
-      "norm_label": "express",
-      "id": "api_pluginroutes_express"
+      "norm_label": "express"
     },
     {
       "label": "createPluginRoutes()",
@@ -536,9 +166,1019 @@
       "source_file": "src/api/pluginRoutes.js",
       "source_location": "L3",
       "_origin": "ast",
+      "id": "api_pluginroutes_createpluginroutes",
       "community": 100,
-      "norm_label": "createpluginroutes()",
-      "id": "api_pluginroutes_createpluginroutes"
+      "norm_label": "createpluginroutes()"
+    },
+    {
+      "label": "AuthorChangedEvent.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "events_authorchangedevent",
+      "community": 93,
+      "norm_label": "authorchangedevent.php"
+    },
+    {
+      "label": "AuthorChangedEvent",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "events_authorchangedevent_authorchangedevent",
+      "community": 93,
+      "norm_label": "authorchangedevent"
+    },
+    {
+      "label": ".getEventTypeName()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "events_authorchangedevent_authorchangedevent_geteventtypename",
+      "community": 93,
+      "norm_label": ".geteventtypename()"
+    },
+    {
+      "label": "BaseEvent.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "events_baseevent",
+      "community": 93,
+      "norm_label": "baseevent.php"
+    },
+    {
+      "label": "BaseEvent",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "events_baseevent_baseevent",
+      "community": 93,
+      "norm_label": "baseevent"
+    },
+    {
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "events_baseevent_baseevent_construct",
+      "community": 93,
+      "norm_label": ".__construct()"
+    },
+    {
+      "label": ".getEventTypeName()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "events_baseevent_baseevent_geteventtypename",
+      "community": 93,
+      "norm_label": ".geteventtypename()"
+    },
+    {
+      "label": "CategoryChangedEvent.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "events_categorychangedevent",
+      "community": 93,
+      "norm_label": "categorychangedevent.php"
+    },
+    {
+      "label": "CategoryChangedEvent",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "events_categorychangedevent_categorychangedevent",
+      "community": 93,
+      "norm_label": "categorychangedevent"
+    },
+    {
+      "label": ".getEventTypeName()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "events_categorychangedevent_categorychangedevent_geteventtypename",
+      "community": 93,
+      "norm_label": ".geteventtypename()"
+    },
+    {
+      "label": "MediaChangedEvent.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "events_mediachangedevent",
+      "community": 93,
+      "norm_label": "mediachangedevent.php"
+    },
+    {
+      "label": "MediaChangedEvent",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "events_mediachangedevent_mediachangedevent",
+      "community": 93,
+      "norm_label": "mediachangedevent"
+    },
+    {
+      "label": ".getEventTypeName()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "events_mediachangedevent_mediachangedevent_geteventtypename",
+      "community": 93,
+      "norm_label": ".geteventtypename()"
+    },
+    {
+      "label": "PostChangedEvent.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "events_postchangedevent",
+      "community": 93,
+      "norm_label": "postchangedevent.php"
+    },
+    {
+      "label": "PostChangedEvent",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "events_postchangedevent_postchangedevent",
+      "community": 93,
+      "norm_label": "postchangedevent"
+    },
+    {
+      "label": ".getEventTypeName()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "events_postchangedevent_postchangedevent_geteventtypename",
+      "community": 93,
+      "norm_label": ".geteventtypename()"
+    },
+    {
+      "label": "SiteChangedEvent.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "events_sitechangedevent",
+      "community": 93,
+      "norm_label": "sitechangedevent.php"
+    },
+    {
+      "label": "SiteChangedEvent",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "events_sitechangedevent_sitechangedevent",
+      "community": 93,
+      "norm_label": "sitechangedevent"
+    },
+    {
+      "label": ".getEventTypeName()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "events_sitechangedevent_sitechangedevent_geteventtypename",
+      "community": 93,
+      "norm_label": ".geteventtypename()"
+    },
+    {
+      "label": "TagChangedEvent.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "events_tagchangedevent",
+      "community": 93,
+      "norm_label": "tagchangedevent.php"
+    },
+    {
+      "label": "TagChangedEvent",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "events_tagchangedevent_tagchangedevent",
+      "community": 93,
+      "norm_label": "tagchangedevent"
+    },
+    {
+      "label": ".getEventTypeName()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "events_tagchangedevent_tagchangedevent_geteventtypename",
+      "community": 93,
+      "norm_label": ".geteventtypename()"
+    },
+    {
+      "label": "EventSerializer.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "events_eventserializer",
+      "community": 103,
+      "norm_label": "eventserializer.php"
+    },
+    {
+      "label": "EventSerializer",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "events_eventserializer_eventserializer",
+      "community": 103,
+      "norm_label": "eventserializer"
+    },
+    {
+      "label": ".serialize()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "events_eventserializer_eventserializer_serialize",
+      "community": 103,
+      "norm_label": ".serialize()"
+    },
+    {
+      "label": ".deserialize()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "events_eventserializer_eventserializer_deserialize",
+      "community": 103,
+      "norm_label": ".deserialize()"
+    },
+    {
+      "label": "EventQueueRepository.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "repository_eventqueuerepository",
+      "community": 98,
+      "norm_label": "eventqueuerepository.php"
+    },
+    {
+      "label": "EventQueueRepository",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "repository_eventqueuerepository_eventqueuerepository",
+      "community": 98,
+      "norm_label": "eventqueuerepository"
+    },
+    {
+      "label": ".getQueue()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "repository_eventqueuerepository_eventqueuerepository_getqueue",
+      "community": 98,
+      "norm_label": ".getqueue()"
+    },
+    {
+      "label": ".saveQueue()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "repository_eventqueuerepository_eventqueuerepository_savequeue",
+      "community": 98,
+      "norm_label": ".savequeue()"
+    },
+    {
+      "label": ".push()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "repository_eventqueuerepository_eventqueuerepository_push",
+      "community": 98,
+      "norm_label": ".push()"
+    },
+    {
+      "label": ".getPending()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "repository_eventqueuerepository_eventqueuerepository_getpending",
+      "community": 98,
+      "norm_label": ".getpending()"
+    },
+    {
+      "label": ".updateStatuses()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "repository_eventqueuerepository_eventqueuerepository_updatestatuses",
+      "community": 98,
+      "norm_label": ".updatestatuses()"
+    },
+    {
+      "label": ".getRetryDelay()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "repository_eventqueuerepository_eventqueuerepository_getretrydelay",
+      "community": 98,
+      "norm_label": ".getretrydelay()"
+    },
+    {
+      "label": "EventDeliveryService.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_eventdeliveryservice",
+      "community": 102,
+      "norm_label": "eventdeliveryservice.php"
+    },
+    {
+      "label": "EventDeliveryService",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "services_eventdeliveryservice_eventdeliveryservice",
+      "community": 102,
+      "norm_label": "eventdeliveryservice"
+    },
+    {
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "services_eventdeliveryservice_eventdeliveryservice_construct",
+      "community": 102,
+      "norm_label": ".__construct()"
+    },
+    {
+      "label": "EventQueueRepository",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "wordpress_agent_plugin_services_eventdeliveryservice_php_eventqueuerepository",
+      "community": 102,
+      "norm_label": "eventqueuerepository"
+    },
+    {
+      "label": ".deliverEvents()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "services_eventdeliveryservice_eventdeliveryservice_deliverevents",
+      "community": 102,
+      "norm_label": ".deliverevents()"
+    },
+    {
+      "label": "EventListenerService.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice",
+      "community": 97,
+      "norm_label": "eventlistenerservice.php"
+    },
+    {
+      "label": "EventListenerService",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice",
+      "community": 97,
+      "norm_label": "eventlistenerservice"
+    },
+    {
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_construct",
+      "community": 97,
+      "norm_label": ".__construct()"
+    },
+    {
+      "label": "EventQueueRepository",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "wordpress_agent_plugin_services_eventlistenerservice_php_eventqueuerepository",
+      "community": 97,
+      "norm_label": "eventqueuerepository"
+    },
+    {
+      "label": ".registerHooks()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_registerhooks",
+      "community": 97,
+      "norm_label": ".registerhooks()"
+    },
+    {
+      "label": ".onSavePost()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_onsavepost",
+      "community": 97,
+      "norm_label": ".onsavepost()"
+    },
+    {
+      "label": ".onTransitionPostStatus()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_ontransitionpoststatus",
+      "community": 97,
+      "norm_label": ".ontransitionpoststatus()"
+    },
+    {
+      "label": ".onBeforeDeletePost()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_onbeforedeletepost",
+      "community": 97,
+      "norm_label": ".onbeforedeletepost()"
+    },
+    {
+      "label": ".onTrashedPost()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_ontrashedpost",
+      "community": 97,
+      "norm_label": ".ontrashedpost()"
+    },
+    {
+      "label": ".onUntrashedPost()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_onuntrashedpost",
+      "community": 97,
+      "norm_label": ".onuntrashedpost()"
+    },
+    {
+      "label": ".onTermChanged()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_ontermchanged",
+      "community": 97,
+      "norm_label": ".ontermchanged()"
+    },
+    {
+      "label": ".onTermDeleted()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_ontermdeleted",
+      "community": 97,
+      "norm_label": ".ontermdeleted()"
+    },
+    {
+      "label": ".onUserChanged()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_onuserchanged",
+      "community": 97,
+      "norm_label": ".onuserchanged()"
+    },
+    {
+      "label": ".onUserDeleted()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_onuserdeleted",
+      "community": 97,
+      "norm_label": ".onuserdeleted()"
+    },
+    {
+      "label": ".onMediaChanged()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L91",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_onmediachanged",
+      "community": 97,
+      "norm_label": ".onmediachanged()"
+    },
+    {
+      "label": ".onMediaDeleted()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_onmediadeleted",
+      "community": 97,
+      "norm_label": ".onmediadeleted()"
+    },
+    {
+      "label": ".onSiteChanged()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "services_eventlistenerservice_eventlistenerservice_onsitechanged",
+      "community": 97,
+      "norm_label": ".onsitechanged()"
+    },
+    {
+      "label": "BootstrapManager.js",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "bootstrapmanager.js",
+      "id": "bootstrap_bootstrapmanager"
+    },
+    {
+      "label": "{ PreFlightValidator }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ preflightvalidator }",
+      "id": "bootstrap_bootstrapmanager_preflightvalidator"
+    },
+    {
+      "label": "{ loadConfig }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ loadconfig }",
+      "id": "bootstrap_bootstrapmanager_loadconfig"
+    },
+    {
+      "label": "{ createLogger }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ createlogger }",
+      "id": "bootstrap_bootstrapmanager_createlogger"
+    },
+    {
+      "label": "DatabaseConnection",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "databaseconnection",
+      "id": "bootstrap_bootstrapmanager_databaseconnection"
+    },
+    {
+      "label": "Migrations",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "migrations",
+      "id": "bootstrap_bootstrapmanager_migrations"
+    },
+    {
+      "label": "{ JobRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ jobrepository }",
+      "id": "bootstrap_bootstrapmanager_jobrepository"
+    },
+    {
+      "label": "{ SiteRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ siterepository }",
+      "id": "bootstrap_bootstrapmanager_siterepository"
+    },
+    {
+      "label": "{ ProjectRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ projectrepository }",
+      "id": "bootstrap_bootstrapmanager_projectrepository"
+    },
+    {
+      "label": "{ LogRepository, EventRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ logrepository, eventrepository }",
+      "id": "bootstrap_bootstrapmanager_logrepository_eventrepository"
+    },
+    {
+      "label": "{ WordPressRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ wordpressrepository }",
+      "id": "bootstrap_bootstrapmanager_wordpressrepository"
+    },
+    {
+      "label": "{ PublishingRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ publishingrepository }",
+      "id": "bootstrap_bootstrapmanager_publishingrepository"
+    },
+    {
+      "label": "{ PluginRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ pluginrepository }",
+      "id": "bootstrap_bootstrapmanager_pluginrepository"
+    },
+    {
+      "label": "{ TokenService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ tokenservice }",
+      "id": "bootstrap_bootstrapmanager_tokenservice"
+    },
+    {
+      "label": "{ CompatibilityService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ compatibilityservice }",
+      "id": "bootstrap_bootstrapmanager_compatibilityservice"
+    },
+    {
+      "label": "{ PluginService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ pluginservice }",
+      "id": "bootstrap_bootstrapmanager_pluginservice"
+    },
+    {
+      "label": "JobService",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "jobservice",
+      "id": "bootstrap_bootstrapmanager_jobservice"
+    },
+    {
+      "label": "{ SiteService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ siteservice }",
+      "id": "bootstrap_bootstrapmanager_siteservice"
+    },
+    {
+      "label": "{ ProjectService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ projectservice }",
+      "id": "bootstrap_bootstrapmanager_projectservice"
+    },
+    {
+      "label": "SyncService",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "syncservice",
+      "id": "bootstrap_bootstrapmanager_syncservice"
+    },
+    {
+      "label": "PublishingService",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L20",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "publishingservice",
+      "id": "bootstrap_bootstrapmanager_publishingservice"
+    },
+    {
+      "label": "{ StateMachine }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ statemachine }",
+      "id": "bootstrap_bootstrapmanager_statemachine"
+    },
+    {
+      "label": "{ BrowserManager }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ browsermanager }",
+      "id": "bootstrap_bootstrapmanager_browsermanager"
+    },
+    {
+      "label": "{ ClaudeManager }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L25",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ claudemanager }",
+      "id": "bootstrap_bootstrapmanager_claudemanager"
+    },
+    {
+      "label": "{ MetricsService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ metricsservice }",
+      "id": "bootstrap_bootstrapmanager_metricsservice"
+    },
+    {
+      "label": "{ QueueService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ queueservice }",
+      "id": "bootstrap_bootstrapmanager_queueservice"
+    },
+    {
+      "label": "{ ClaudeWorker }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L28",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ claudeworker }",
+      "id": "bootstrap_bootstrapmanager_claudeworker"
+    },
+    {
+      "label": "{ SessionMonitor }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L29",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ sessionmonitor }",
+      "id": "bootstrap_bootstrapmanager_sessionmonitor"
+    },
+    {
+      "label": "{ RecoveryManager }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L30",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ recoverymanager }",
+      "id": "bootstrap_bootstrapmanager_recoverymanager"
+    },
+    {
+      "label": "{ SessionDetector }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ sessiondetector }",
+      "id": "bootstrap_bootstrapmanager_sessiondetector"
+    },
+    {
+      "label": "{ SessionRecovery }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L32",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ sessionrecovery }",
+      "id": "bootstrap_bootstrapmanager_sessionrecovery"
+    },
+    {
+      "label": "{ ClaudeHealthCheck }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L33",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ claudehealthcheck }",
+      "id": "bootstrap_bootstrapmanager_claudehealthcheck"
+    },
+    {
+      "label": "{ BrowserRecovery }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ browserrecovery }",
+      "id": "bootstrap_bootstrapmanager_browserrecovery"
+    },
+    {
+      "label": "{ DashboardService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "{ dashboardservice }",
+      "id": "bootstrap_bootstrapmanager_dashboardservice"
+    },
+    {
+      "label": "BootstrapManager",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L37",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "bootstrapmanager",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L38",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".constructor()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L57",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".run()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_run"
+    },
+    {
+      "label": "._runPhase1()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L84",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._runphase1()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1"
+    },
+    {
+      "label": "._runPhase2()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L116",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._runphase2()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2"
+    },
+    {
+      "label": "._runPhase3()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L222",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._runphase3()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3"
+    },
+    {
+      "label": "._runPhase3_5()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L321",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._runphase3_5()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5"
+    },
+    {
+      "label": "._runPhase4()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L416",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._runphase4()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4"
+    },
+    {
+      "label": "._verifyReadiness()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L436",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._verifyreadiness()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness"
+    },
+    {
+      "label": "._printHeader()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L480",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._printheader()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader"
+    },
+    {
+      "label": "._reportFailures()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L487",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._reportfailures()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures"
     },
     {
       "label": "PluginRepository.js",
@@ -1356,7 +1996,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "claudeworker.js",
       "id": "workers_claudeworker"
     },
@@ -1366,7 +2006,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "fs",
       "id": "workers_claudeworker_fs"
     },
@@ -1376,7 +2016,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "path",
       "id": "workers_claudeworker_path"
     },
@@ -1386,7 +2026,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "{ worker_states }",
       "id": "workers_claudeworker_worker_states"
     },
@@ -1396,7 +2036,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "{ project_statuses }",
       "id": "workers_claudeworker_project_statuses"
     },
@@ -1406,7 +2046,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "{ failureclassifier }",
       "id": "workers_claudeworker_failureclassifier"
     },
@@ -1416,7 +2056,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "auditpromptbuilder",
       "id": "workers_claudeworker_auditpromptbuilder"
     },
@@ -1426,7 +2066,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "rewritepromptbuilder",
       "id": "workers_claudeworker_rewritepromptbuilder"
     },
@@ -1436,7 +2076,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "{ contentunavailableerror, invalidprojectcontenterror }",
       "id": "workers_claudeworker_contentunavailableerror_invalidprojectcontenterror"
     },
@@ -6286,7 +6926,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "claudeerrors.js",
       "id": "errors_claudeerrors"
     },
@@ -6296,7 +6936,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "claudeerror",
       "id": "errors_claudeerrors_claudeerror"
     },
@@ -6306,7 +6946,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_claudeerror_constructor"
     },
@@ -6316,7 +6956,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "browsererror",
       "id": "errors_claudeerrors_browsererror"
     },
@@ -6326,7 +6966,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_browsererror_constructor"
     },
@@ -6336,7 +6976,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "profilelockerror",
       "id": "errors_claudeerrors_profilelockerror"
     },
@@ -6346,7 +6986,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_profilelockerror_constructor"
     },
@@ -6356,7 +6996,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "validationerror",
       "id": "errors_claudeerrors_validationerror"
     },
@@ -6366,7 +7006,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_validationerror_constructor"
     },
@@ -6376,7 +7016,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": "contentunavailableerror",
       "id": "errors_claudeerrors_contentunavailableerror"
     },
@@ -6386,7 +7026,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 93,
+      "community": 80,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_contentunavailableerror_constructor"
     },
@@ -6396,7 +7036,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "invalidprojectcontenterror",
       "id": "errors_claudeerrors_invalidprojectcontenterror"
     },
@@ -6406,7 +7046,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidprojectcontenterror_constructor"
     },
@@ -6416,7 +7056,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "invalidresponsequalityerror",
       "id": "errors_claudeerrors_invalidresponsequalityerror"
     },
@@ -6426,7 +7066,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidresponsequalityerror_constructor"
     },
@@ -6436,7 +7076,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "recoveryreport",
       "id": "errors_claudeerrors_recoveryreport"
     },
@@ -6446,7 +7086,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_recoveryreport_constructor"
     },
@@ -6466,7 +7106,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "normalizeerror()",
       "id": "errors_claudeerrors_normalizeerror"
     },
@@ -6706,7 +7346,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "workerstate.js",
       "id": "models_workerstate"
     },
@@ -6716,7 +7356,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "worker_states",
       "id": "models_workerstate_worker_states"
     },
@@ -7996,7 +8636,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "browsermanager.js",
       "id": "services_browsermanager"
     },
@@ -8006,7 +8646,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "{ chromium }",
       "id": "services_browsermanager_chromium"
     },
@@ -8016,7 +8656,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "stealth",
       "id": "services_browsermanager_stealth"
     },
@@ -8026,7 +8666,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "{ spawnsync }",
       "id": "services_browsermanager_spawnsync"
     },
@@ -8036,7 +8676,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "{ worker_states }",
       "id": "services_browsermanager_worker_states"
     },
@@ -8046,7 +8686,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 102,
+      "community": 4,
       "norm_label": "{ browsererror, profilelockerror }",
       "id": "services_browsermanager_browsererror_profilelockerror"
     },
@@ -8226,7 +8866,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "claudemanager.js",
       "id": "services_claudemanager"
     },
@@ -8236,7 +8876,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "fs",
       "id": "services_claudemanager_fs"
     },
@@ -8246,7 +8886,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "path",
       "id": "services_claudemanager_path"
     },
@@ -8256,7 +8896,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "{ \n    validationerror, \n    recoveryreport, \n    invalidprojectcontenterror, \n    invalidresponsequalityerror, \n    createclaudeerror, \n    normalizeerror \n}",
       "id": "services_claudemanager_validationerror_recoveryreport_invalidprojectcontenterror_invalidresponsequalityerror_createclaudeerror_normalizeerror"
     },
@@ -8266,7 +8906,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "{ worker_states }",
       "id": "services_claudemanager_worker_states"
     },
@@ -8276,7 +8916,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "selectors",
       "id": "services_claudemanager_selectors"
     },
@@ -8596,7 +9236,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "claudeworker.js",
       "id": "services_claudeworker"
     },
@@ -8606,7 +9246,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "fs",
       "id": "services_claudeworker_fs"
     },
@@ -8616,7 +9256,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "path",
       "id": "services_claudeworker_path"
     },
@@ -8626,7 +9266,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "{ worker_states }",
       "id": "services_claudeworker_worker_states"
     },
@@ -8636,7 +9276,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "{ project_statuses }",
       "id": "services_claudeworker_project_statuses"
     },
@@ -8646,7 +9286,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "{ failureclassifier }",
       "id": "services_claudeworker_failureclassifier"
     },
@@ -8656,7 +9296,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "auditpromptbuilder",
       "id": "services_claudeworker_auditpromptbuilder"
     },
@@ -8666,7 +9306,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "rewritepromptbuilder",
       "id": "services_claudeworker_rewritepromptbuilder"
     },
@@ -8676,7 +9316,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "{ contentunavailableerror, invalidprojectcontenterror }",
       "id": "services_claudeworker_contentunavailableerror_invalidprojectcontenterror"
     },
@@ -10036,7 +10676,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 97,
+      "community": 80,
       "norm_label": "auditpromptbuilder.js",
       "id": "utils_auditpromptbuilder"
     },
@@ -10046,7 +10686,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 97,
+      "community": 80,
       "norm_label": "auditpromptbuilder",
       "id": "utils_auditpromptbuilder_auditpromptbuilder"
     },
@@ -10056,7 +10696,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 97,
+      "community": 80,
       "norm_label": ".build()",
       "id": "utils_auditpromptbuilder_auditpromptbuilder_build"
     },
@@ -10106,7 +10746,7 @@
       "source_file": "src/utils/FailureClassifier.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "failureclassifier.js",
       "id": "utils_failureclassifier"
     },
@@ -10116,7 +10756,7 @@
       "source_file": "src/utils/FailureClassifier.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "failure_categories",
       "id": "utils_failureclassifier_failure_categories"
     },
@@ -10126,7 +10766,7 @@
       "source_file": "src/utils/FailureClassifier.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": "failureclassifier",
       "id": "utils_failureclassifier_failureclassifier"
     },
@@ -10136,7 +10776,7 @@
       "source_file": "src/utils/FailureClassifier.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 117,
+      "community": 80,
       "norm_label": ".classify()",
       "id": "utils_failureclassifier_failureclassifier_classify"
     },
@@ -10146,7 +10786,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 98,
+      "community": 80,
       "norm_label": "rewritepromptbuilder.js",
       "id": "utils_rewritepromptbuilder"
     },
@@ -10156,7 +10796,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 98,
+      "community": 80,
       "norm_label": "rewritepromptbuilder",
       "id": "utils_rewritepromptbuilder_rewritepromptbuilder"
     },
@@ -10166,7 +10806,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 98,
+      "community": 80,
       "norm_label": ".build()",
       "id": "utils_rewritepromptbuilder_rewritepromptbuilder_build"
     },
@@ -10462,7 +11102,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "validation.test.js",
       "id": "tests_validation_test"
     },
@@ -10472,7 +11112,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "{ claudemanager }",
       "id": "tests_validation_test_claudemanager"
     },
@@ -10482,7 +11122,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "{ validationerror }",
       "id": "tests_validation_test_validationerror"
     },
@@ -11222,6 +11862,707 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "setup_p4.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "setup_p4",
+      "target": "setup_p4_fs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p4.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "setup_p4",
+      "target": "setup_p4_mkdirp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p4.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "setup_p4",
+      "target": "setup_p4_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p4.js",
+      "source_location": "L419",
+      "weight": 1.0,
+      "source": "setup_p4",
+      "target": "setup_p4_pluginroutescontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p4.js",
+      "source_location": "L418",
+      "weight": 1.0,
+      "source": "setup_p4",
+      "target": "setup_p4_pluginroutespath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p4.js",
+      "source_location": "L412",
+      "weight": 1.0,
+      "source": "setup_p4",
+      "target": "setup_p4_schemacontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p4.js",
+      "source_location": "L411",
+      "weight": 1.0,
+      "source": "setup_p4",
+      "target": "setup_p4_schemapath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_pluginroutes",
+      "target": "api_pluginroutes_createpluginroutes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_pluginroutes",
+      "target": "api_pluginroutes_express"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_authorchangedevent",
+      "target": "events_authorchangedevent_authorchangedevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "events_authorchangedevent_authorchangedevent",
+      "target": "events_authorchangedevent_authorchangedevent_geteventtypename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/AuthorChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_authorchangedevent_authorchangedevent",
+      "target": "events_baseevent_baseevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_baseevent",
+      "target": "events_baseevent_baseevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "events_baseevent_baseevent",
+      "target": "events_baseevent_baseevent_construct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "events_baseevent_baseevent",
+      "target": "events_baseevent_baseevent_geteventtypename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_categorychangedevent_categorychangedevent",
+      "target": "events_baseevent_baseevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_mediachangedevent_mediachangedevent",
+      "target": "events_baseevent_baseevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_postchangedevent_postchangedevent",
+      "target": "events_baseevent_baseevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_sitechangedevent_sitechangedevent",
+      "target": "events_baseevent_baseevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_tagchangedevent_tagchangedevent",
+      "target": "events_baseevent_baseevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/BaseEvent.php",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "events_baseevent_baseevent_construct",
+      "target": "events_baseevent_baseevent_geteventtypename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_categorychangedevent",
+      "target": "events_categorychangedevent_categorychangedevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/CategoryChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "events_categorychangedevent_categorychangedevent",
+      "target": "events_categorychangedevent_categorychangedevent_geteventtypename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_mediachangedevent",
+      "target": "events_mediachangedevent_mediachangedevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/MediaChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "events_mediachangedevent_mediachangedevent",
+      "target": "events_mediachangedevent_mediachangedevent_geteventtypename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_postchangedevent",
+      "target": "events_postchangedevent_postchangedevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/PostChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "events_postchangedevent_postchangedevent",
+      "target": "events_postchangedevent_postchangedevent_geteventtypename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_sitechangedevent",
+      "target": "events_sitechangedevent_sitechangedevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/SiteChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "events_sitechangedevent_sitechangedevent",
+      "target": "events_sitechangedevent_sitechangedevent_geteventtypename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_tagchangedevent",
+      "target": "events_tagchangedevent_tagchangedevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/models/events/TagChangedEvent.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "events_tagchangedevent_tagchangedevent",
+      "target": "events_tagchangedevent_tagchangedevent_geteventtypename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "events_eventserializer",
+      "target": "events_eventserializer_eventserializer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "events_eventserializer_eventserializer",
+      "target": "events_eventserializer_eventserializer_deserialize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/protocol/events/EventSerializer.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "events_eventserializer_eventserializer",
+      "target": "events_eventserializer_eventserializer_serialize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getpending",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getretrydelay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_push",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_savequeue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository",
+      "target": "repository_eventqueuerepository_eventqueuerepository_updatestatuses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_getpending",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_push",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_updatestatuses",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getqueue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_push",
+      "target": "repository_eventqueuerepository_eventqueuerepository_savequeue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_updatestatuses",
+      "target": "repository_eventqueuerepository_eventqueuerepository_savequeue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/repository/EventQueueRepository.php",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "repository_eventqueuerepository_eventqueuerepository_getpending",
+      "target": "repository_eventqueuerepository_eventqueuerepository_getretrydelay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "services_eventdeliveryservice",
+      "target": "services_eventdeliveryservice_eventdeliveryservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "services_eventdeliveryservice",
+      "target": "wordpress_agent_plugin_services_eventdeliveryservice_php_eventqueuerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "services_eventdeliveryservice_eventdeliveryservice",
+      "target": "services_eventdeliveryservice_eventdeliveryservice_construct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "services_eventdeliveryservice_eventdeliveryservice",
+      "target": "services_eventdeliveryservice_eventdeliveryservice_deliverevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventDeliveryService.php",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "services_eventdeliveryservice_eventdeliveryservice_construct",
+      "target": "wordpress_agent_plugin_services_eventdeliveryservice_php_eventqueuerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice",
+      "target": "wordpress_agent_plugin_services_eventlistenerservice_php_eventqueuerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_construct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onbeforedeletepost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onmediachanged",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onmediadeleted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onsavepost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onsitechanged",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_ontermchanged",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_ontermdeleted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_ontransitionpoststatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_ontrashedpost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onuntrashedpost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onuserchanged",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_onuserdeleted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "services_eventlistenerservice_eventlistenerservice",
+      "target": "services_eventlistenerservice_eventlistenerservice_registerhooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/EventListenerService.php",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "services_eventlistenerservice_eventlistenerservice_construct",
+      "target": "wordpress_agent_plugin_services_eventlistenerservice_php_eventqueuerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L33",
       "weight": 1.0,
@@ -11285,9 +12626,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_compatibilityservice",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_compatibilityservice"
     },
     {
       "relation": "contains",
@@ -11385,9 +12726,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_pluginrepository",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_pluginrepository"
     },
     {
       "relation": "contains",
@@ -11395,9 +12736,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_pluginservice",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_pluginservice"
     },
     {
       "relation": "contains",
@@ -11545,9 +12886,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_tokenservice",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_tokenservice"
     },
     {
       "relation": "contains",
@@ -11775,9 +13116,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_pluginrepository_pluginrepository",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository"
     },
     {
       "relation": "imports_from",
@@ -11940,9 +13281,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "services_compatibilityservice_compatibilityservice",
-      "confidence_score": 1.0
+      "target": "services_compatibilityservice_compatibilityservice"
     },
     {
       "relation": "imports_from",
@@ -12006,9 +13347,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "services_pluginservice_pluginservice",
-      "confidence_score": 1.0
+      "target": "services_pluginservice_pluginservice"
     },
     {
       "relation": "imports_from",
@@ -12105,9 +13446,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "services_tokenservice_tokenservice",
-      "confidence_score": 1.0
+      "target": "services_tokenservice_tokenservice"
     },
     {
       "relation": "imports_from",
@@ -12450,26 +13791,6 @@
       "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
       "target": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "api_pluginroutes",
-      "target": "api_pluginroutes_createpluginroutes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "api_pluginroutes",
-      "target": "api_pluginroutes_express"
     },
     {
       "relation": "contains",
@@ -25427,5 +26748,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "25eb4873aa278a34673f815bffaf44d226f3f27e"
+  "built_at_commit": "7165a4f80f25d9642c2357da707eac36f0bdb381"
 }

@@ -61,36 +61,6 @@
   },
   "nodes": [
     {
-      "label": "pluginRoutes.js",
-      "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "api_pluginroutes",
-      "community": 100,
-      "norm_label": "pluginroutes.js"
-    },
-    {
-      "label": "express",
-      "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "api_pluginroutes_express",
-      "community": 100,
-      "norm_label": "express"
-    },
-    {
-      "label": "createPluginRoutes()",
-      "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "api_pluginroutes_createpluginroutes",
-      "community": 100,
-      "norm_label": "createpluginroutes()"
-    },
-    {
       "label": "BootstrapManager.js",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
@@ -211,10 +181,50 @@
       "norm_label": "{ publishingrepository }"
     },
     {
-      "label": "JobService",
+      "label": "{ PluginRepository }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L12",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_pluginrepository",
+      "community": 5,
+      "norm_label": "{ pluginrepository }"
+    },
+    {
+      "label": "{ TokenService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_tokenservice",
+      "community": 5,
+      "norm_label": "{ tokenservice }"
+    },
+    {
+      "label": "{ CompatibilityService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_compatibilityservice",
+      "community": 5,
+      "norm_label": "{ compatibilityservice }"
+    },
+    {
+      "label": "{ PluginService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_pluginservice",
+      "community": 5,
+      "norm_label": "{ pluginservice }"
+    },
+    {
+      "label": "JobService",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_jobservice",
       "community": 5,
@@ -224,7 +234,7 @@
       "label": "{ SiteService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L13",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_siteservice",
       "community": 5,
@@ -234,7 +244,7 @@
       "label": "{ ProjectService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L14",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_projectservice",
       "community": 5,
@@ -244,7 +254,7 @@
       "label": "SyncService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L15",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_syncservice",
       "community": 5,
@@ -254,7 +264,7 @@
       "label": "PublishingService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_publishingservice",
       "community": 5,
@@ -264,7 +274,7 @@
       "label": "{ StateMachine }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_statemachine",
       "community": 5,
@@ -274,7 +284,7 @@
       "label": "{ BrowserManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_browsermanager",
       "community": 5,
@@ -284,7 +294,7 @@
       "label": "{ ClaudeManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudemanager",
       "community": 5,
@@ -294,7 +304,7 @@
       "label": "{ MetricsService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L22",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_metricsservice",
       "community": 5,
@@ -304,7 +314,7 @@
       "label": "{ QueueService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L23",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_queueservice",
       "community": 5,
@@ -314,7 +324,7 @@
       "label": "{ ClaudeWorker }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudeworker",
       "community": 5,
@@ -324,7 +334,7 @@
       "label": "{ SessionMonitor }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L25",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessionmonitor",
       "community": 5,
@@ -334,7 +344,7 @@
       "label": "{ RecoveryManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L26",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_recoverymanager",
       "community": 5,
@@ -344,7 +354,7 @@
       "label": "{ SessionDetector }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L27",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessiondetector",
       "community": 5,
@@ -354,7 +364,7 @@
       "label": "{ SessionRecovery }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L28",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessionrecovery",
       "community": 5,
@@ -364,7 +374,7 @@
       "label": "{ ClaudeHealthCheck }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L29",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudehealthcheck",
       "community": 5,
@@ -374,7 +384,7 @@
       "label": "{ BrowserRecovery }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L30",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_browserrecovery",
       "community": 5,
@@ -384,7 +394,7 @@
       "label": "{ DashboardService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L31",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_dashboardservice",
       "community": 5,
@@ -394,7 +404,7 @@
       "label": "BootstrapManager",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L33",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager",
       "community": 2,
@@ -404,7 +414,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L34",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor",
       "community": 2,
@@ -414,7 +424,7 @@
       "label": ".run()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L53",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_run",
       "community": 2,
@@ -424,7 +434,7 @@
       "label": "._runPhase1()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L80",
+      "source_location": "L84",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
       "community": 2,
@@ -434,7 +444,7 @@
       "label": "._runPhase2()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L112",
+      "source_location": "L116",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2",
       "community": 2,
@@ -444,7 +454,7 @@
       "label": "._runPhase3()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L210",
+      "source_location": "L222",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3",
       "community": 2,
@@ -454,7 +464,7 @@
       "label": "._runPhase3_5()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L309",
+      "source_location": "L321",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5",
       "community": 2,
@@ -464,7 +474,7 @@
       "label": "._runPhase4()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L404",
+      "source_location": "L416",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
       "community": 2,
@@ -474,7 +484,7 @@
       "label": "._verifyReadiness()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L424",
+      "source_location": "L436",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness",
       "community": 2,
@@ -484,7 +494,7 @@
       "label": "._printHeader()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L468",
+      "source_location": "L480",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader",
       "community": 2,
@@ -494,11 +504,41 @@
       "label": "._reportFailures()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L475",
+      "source_location": "L487",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures",
       "community": 2,
       "norm_label": "._reportfailures()"
+    },
+    {
+      "label": "pluginRoutes.js",
+      "file_type": "code",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 100,
+      "norm_label": "pluginroutes.js",
+      "id": "api_pluginroutes"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 100,
+      "norm_label": "express",
+      "id": "api_pluginroutes_express"
+    },
+    {
+      "label": "createPluginRoutes()",
+      "file_type": "code",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 100,
+      "norm_label": "createpluginroutes()",
+      "id": "api_pluginroutes_createpluginroutes"
     },
     {
       "label": "PluginRepository.js",
@@ -506,9 +546,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "repositories_pluginrepository",
       "community": 90,
-      "norm_label": "pluginrepository.js"
+      "norm_label": "pluginrepository.js",
+      "id": "repositories_pluginrepository"
     },
     {
       "label": "PluginRepository",
@@ -516,9 +556,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository",
       "community": 90,
-      "norm_label": "pluginrepository"
+      "norm_label": "pluginrepository",
+      "id": "repositories_pluginrepository_pluginrepository"
     },
     {
       "label": ".constructor()",
@@ -526,9 +566,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_constructor",
       "community": 90,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "repositories_pluginrepository_pluginrepository_constructor"
     },
     {
       "label": ".createInstallation()",
@@ -536,9 +576,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_createinstallation",
       "community": 90,
-      "norm_label": ".createinstallation()"
+      "norm_label": ".createinstallation()",
+      "id": "repositories_pluginrepository_pluginrepository_createinstallation"
     },
     {
       "label": ".updateInstallation()",
@@ -546,9 +586,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_updateinstallation",
       "community": 90,
-      "norm_label": ".updateinstallation()"
+      "norm_label": ".updateinstallation()",
+      "id": "repositories_pluginrepository_pluginrepository_updateinstallation"
     },
     {
       "label": ".findByUuid()",
@@ -556,9 +596,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_findbyuuid",
       "community": 90,
-      "norm_label": ".findbyuuid()"
+      "norm_label": ".findbyuuid()",
+      "id": "repositories_pluginrepository_pluginrepository_findbyuuid"
     },
     {
       "label": ".findByToken()",
@@ -566,9 +606,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_findbytoken",
       "community": 90,
-      "norm_label": ".findbytoken()"
+      "norm_label": ".findbytoken()",
+      "id": "repositories_pluginrepository_pluginrepository_findbytoken"
     },
     {
       "label": ".updateHeartbeat()",
@@ -576,9 +616,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_updateheartbeat",
       "community": 90,
-      "norm_label": ".updateheartbeat()"
+      "norm_label": ".updateheartbeat()",
+      "id": "repositories_pluginrepository_pluginrepository_updateheartbeat"
     },
     {
       "label": ".updateCapabilities()",
@@ -586,9 +626,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_updatecapabilities",
       "community": 90,
-      "norm_label": ".updatecapabilities()"
+      "norm_label": ".updatecapabilities()",
+      "id": "repositories_pluginrepository_pluginrepository_updatecapabilities"
     },
     {
       "label": ".updatePresence()",
@@ -596,9 +636,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_updatepresence",
       "community": 90,
-      "norm_label": ".updatepresence()"
+      "norm_label": ".updatepresence()",
+      "id": "repositories_pluginrepository_pluginrepository_updatepresence"
     },
     {
       "label": "server.js",
@@ -606,9 +646,9 @@
       "source_file": "src/server.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_server",
       "community": 0,
-      "norm_label": "server.js"
+      "norm_label": "server.js",
+      "id": "src_server"
     },
     {
       "label": "express",
@@ -616,9 +656,9 @@
       "source_file": "src/server.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_server_express",
       "community": 0,
-      "norm_label": "express"
+      "norm_label": "express",
+      "id": "src_server_express"
     },
     {
       "label": "{ createStatusRoutes }",
@@ -626,9 +666,9 @@
       "source_file": "src/server.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "src_server_createstatusroutes",
       "community": 0,
-      "norm_label": "{ createstatusroutes }"
+      "norm_label": "{ createstatusroutes }",
+      "id": "src_server_createstatusroutes"
     },
     {
       "label": "{ createSiteRoutes }",
@@ -636,9 +676,9 @@
       "source_file": "src/server.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "src_server_createsiteroutes",
       "community": 0,
-      "norm_label": "{ createsiteroutes }"
+      "norm_label": "{ createsiteroutes }",
+      "id": "src_server_createsiteroutes"
     },
     {
       "label": "{ createProjectRoutes }",
@@ -646,9 +686,9 @@
       "source_file": "src/server.js",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "src_server_createprojectroutes",
       "community": 0,
-      "norm_label": "{ createprojectroutes }"
+      "norm_label": "{ createprojectroutes }",
+      "id": "src_server_createprojectroutes"
     },
     {
       "label": "{ createJobRoutes }",
@@ -656,9 +696,9 @@
       "source_file": "src/server.js",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "src_server_createjobroutes",
       "community": 0,
-      "norm_label": "{ createjobroutes }"
+      "norm_label": "{ createjobroutes }",
+      "id": "src_server_createjobroutes"
     },
     {
       "label": "{ createAuditRoutes }",
@@ -666,9 +706,9 @@
       "source_file": "src/server.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "src_server_createauditroutes",
       "community": 0,
-      "norm_label": "{ createauditroutes }"
+      "norm_label": "{ createauditroutes }",
+      "id": "src_server_createauditroutes"
     },
     {
       "label": "{ createRewriteRoutes }",
@@ -676,9 +716,9 @@
       "source_file": "src/server.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "src_server_createrewriteroutes",
       "community": 0,
-      "norm_label": "{ createrewriteroutes }"
+      "norm_label": "{ createrewriteroutes }",
+      "id": "src_server_createrewriteroutes"
     },
     {
       "label": "{ createPublishingRoutes }",
@@ -686,9 +726,9 @@
       "source_file": "src/server.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "src_server_createpublishingroutes",
       "community": 0,
-      "norm_label": "{ createpublishingroutes }"
+      "norm_label": "{ createpublishingroutes }",
+      "id": "src_server_createpublishingroutes"
     },
     {
       "label": "{ createWordPressRoutes }",
@@ -696,9 +736,9 @@
       "source_file": "src/server.js",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "src_server_createwordpressroutes",
       "community": 0,
-      "norm_label": "{ createwordpressroutes }"
+      "norm_label": "{ createwordpressroutes }",
+      "id": "src_server_createwordpressroutes"
     },
     {
       "label": "createQueueRouter",
@@ -706,9 +746,9 @@
       "source_file": "src/server.js",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "src_server_createqueuerouter",
       "community": 0,
-      "norm_label": "createqueuerouter"
+      "norm_label": "createqueuerouter",
+      "id": "src_server_createqueuerouter"
     },
     {
       "label": "{ loadSecurityConfig }",
@@ -716,9 +756,9 @@
       "source_file": "src/server.js",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "src_server_loadsecurityconfig",
       "community": 0,
-      "norm_label": "{ loadsecurityconfig }"
+      "norm_label": "{ loadsecurityconfig }",
+      "id": "src_server_loadsecurityconfig"
     },
     {
       "label": "{ createAuthMiddleware }",
@@ -726,9 +766,9 @@
       "source_file": "src/server.js",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "src_server_createauthmiddleware",
       "community": 0,
-      "norm_label": "{ createauthmiddleware }"
+      "norm_label": "{ createauthmiddleware }",
+      "id": "src_server_createauthmiddleware"
     },
     {
       "label": "{ createRateLimiter }",
@@ -736,9 +776,9 @@
       "source_file": "src/server.js",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "src_server_createratelimiter",
       "community": 0,
-      "norm_label": "{ createratelimiter }"
+      "norm_label": "{ createratelimiter }",
+      "id": "src_server_createratelimiter"
     },
     {
       "label": "{ validateRewriteRequest }",
@@ -746,9 +786,9 @@
       "source_file": "src/server.js",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "src_server_validaterewriterequest",
       "community": 0,
-      "norm_label": "{ validaterewriterequest }"
+      "norm_label": "{ validaterewriterequest }",
+      "id": "src_server_validaterewriterequest"
     },
     {
       "label": "{ secureHeaders }",
@@ -756,9 +796,9 @@
       "source_file": "src/server.js",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "src_server_secureheaders",
       "community": 0,
-      "norm_label": "{ secureheaders }"
+      "norm_label": "{ secureheaders }",
+      "id": "src_server_secureheaders"
     },
     {
       "label": "createApp()",
@@ -766,9 +806,9 @@
       "source_file": "src/server.js",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "src_server_createapp",
       "community": 0,
-      "norm_label": "createapp()"
+      "norm_label": "createapp()",
+      "id": "src_server_createapp"
     },
     {
       "label": "CompatibilityService.js",
@@ -776,9 +816,9 @@
       "source_file": "src/services/CompatibilityService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_compatibilityservice",
       "community": 124,
-      "norm_label": "compatibilityservice.js"
+      "norm_label": "compatibilityservice.js",
+      "id": "services_compatibilityservice"
     },
     {
       "label": "CompatibilityService",
@@ -786,9 +826,9 @@
       "source_file": "src/services/CompatibilityService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_compatibilityservice_compatibilityservice",
       "community": 124,
-      "norm_label": "compatibilityservice"
+      "norm_label": "compatibilityservice",
+      "id": "services_compatibilityservice_compatibilityservice"
     },
     {
       "label": ".compare()",
@@ -796,9 +836,9 @@
       "source_file": "src/services/CompatibilityService.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "services_compatibilityservice_compatibilityservice_compare",
       "community": 124,
-      "norm_label": ".compare()"
+      "norm_label": ".compare()",
+      "id": "services_compatibilityservice_compatibilityservice_compare"
     },
     {
       "label": "._compareVersions()",
@@ -806,9 +846,9 @@
       "source_file": "src/services/CompatibilityService.js",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "services_compatibilityservice_compatibilityservice_compareversions",
       "community": 124,
-      "norm_label": "._compareversions()"
+      "norm_label": "._compareversions()",
+      "id": "services_compatibilityservice_compatibilityservice_compareversions"
     },
     {
       "label": "PluginService.js",
@@ -816,9 +856,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_pluginservice",
       "community": 96,
-      "norm_label": "pluginservice.js"
+      "norm_label": "pluginservice.js",
+      "id": "services_pluginservice"
     },
     {
       "label": "PluginService",
@@ -826,9 +866,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_pluginservice_pluginservice",
       "community": 96,
-      "norm_label": "pluginservice"
+      "norm_label": "pluginservice",
+      "id": "services_pluginservice_pluginservice"
     },
     {
       "label": ".constructor()",
@@ -836,9 +876,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "services_pluginservice_pluginservice_constructor",
       "community": 96,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "services_pluginservice_pluginservice_constructor"
     },
     {
       "label": ".handshake()",
@@ -846,9 +886,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "services_pluginservice_pluginservice_handshake",
       "community": 96,
-      "norm_label": ".handshake()"
+      "norm_label": ".handshake()",
+      "id": "services_pluginservice_pluginservice_handshake"
     },
     {
       "label": ".register()",
@@ -856,9 +896,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "services_pluginservice_pluginservice_register",
       "community": 96,
-      "norm_label": ".register()"
+      "norm_label": ".register()",
+      "id": "services_pluginservice_pluginservice_register"
     },
     {
       "label": ".renew()",
@@ -866,9 +906,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L53",
       "_origin": "ast",
-      "id": "services_pluginservice_pluginservice_renew",
       "community": 96,
-      "norm_label": ".renew()"
+      "norm_label": ".renew()",
+      "id": "services_pluginservice_pluginservice_renew"
     },
     {
       "label": ".disconnect()",
@@ -876,9 +916,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L64",
       "_origin": "ast",
-      "id": "services_pluginservice_pluginservice_disconnect",
       "community": 96,
-      "norm_label": ".disconnect()"
+      "norm_label": ".disconnect()",
+      "id": "services_pluginservice_pluginservice_disconnect"
     },
     {
       "label": ".heartbeat()",
@@ -886,9 +926,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L72",
       "_origin": "ast",
-      "id": "services_pluginservice_pluginservice_heartbeat",
       "community": 96,
-      "norm_label": ".heartbeat()"
+      "norm_label": ".heartbeat()",
+      "id": "services_pluginservice_pluginservice_heartbeat"
     },
     {
       "label": ".validate()",
@@ -896,9 +936,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L92",
       "_origin": "ast",
-      "id": "services_pluginservice_pluginservice_validate",
       "community": 96,
-      "norm_label": ".validate()"
+      "norm_label": ".validate()",
+      "id": "services_pluginservice_pluginservice_validate"
     },
     {
       "label": "TokenService.js",
@@ -906,9 +946,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_tokenservice",
       "community": 99,
-      "norm_label": "tokenservice.js"
+      "norm_label": "tokenservice.js",
+      "id": "services_tokenservice"
     },
     {
       "label": "crypto",
@@ -916,9 +956,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_tokenservice_crypto",
       "community": 99,
-      "norm_label": "crypto"
+      "norm_label": "crypto",
+      "id": "services_tokenservice_crypto"
     },
     {
       "label": "TokenService",
@@ -926,9 +966,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "services_tokenservice_tokenservice",
       "community": 99,
-      "norm_label": "tokenservice"
+      "norm_label": "tokenservice",
+      "id": "services_tokenservice_tokenservice"
     },
     {
       "label": ".generateToken()",
@@ -936,9 +976,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "services_tokenservice_tokenservice_generatetoken",
       "community": 99,
-      "norm_label": ".generatetoken()"
+      "norm_label": ".generatetoken()",
+      "id": "services_tokenservice_tokenservice_generatetoken"
     },
     {
       "label": ".rotateToken()",
@@ -946,9 +986,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "services_tokenservice_tokenservice_rotatetoken",
       "community": 99,
-      "norm_label": ".rotatetoken()"
+      "norm_label": ".rotatetoken()",
+      "id": "services_tokenservice_tokenservice_rotatetoken"
     },
     {
       "label": ".validateToken()",
@@ -956,9 +996,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "services_tokenservice_tokenservice_validatetoken",
       "community": 99,
-      "norm_label": ".validatetoken()"
+      "norm_label": ".validatetoken()",
+      "id": "services_tokenservice_tokenservice_validatetoken"
     },
     {
       "label": ".revokeToken()",
@@ -966,9 +1006,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "services_tokenservice_tokenservice_revoketoken",
       "community": 99,
-      "norm_label": ".revoketoken()"
+      "norm_label": ".revoketoken()",
+      "id": "services_tokenservice_tokenservice_revoketoken"
     },
     {
       "label": ".expireToken()",
@@ -976,9 +1016,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "services_tokenservice_tokenservice_expiretoken",
       "community": 99,
-      "norm_label": ".expiretoken()"
+      "norm_label": ".expiretoken()",
+      "id": "services_tokenservice_tokenservice_expiretoken"
     },
     {
       "label": "CLEANUP_DELIVERABLE_REPORT.md",
@@ -6246,7 +6286,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "claudeerrors.js",
       "id": "errors_claudeerrors"
     },
@@ -6256,7 +6296,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "claudeerror",
       "id": "errors_claudeerrors_claudeerror"
     },
@@ -6266,7 +6306,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_claudeerror_constructor"
     },
@@ -6276,7 +6316,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "browsererror",
       "id": "errors_claudeerrors_browsererror"
     },
@@ -6286,7 +6326,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_browsererror_constructor"
     },
@@ -6296,7 +6336,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "profilelockerror",
       "id": "errors_claudeerrors_profilelockerror"
     },
@@ -6306,7 +6346,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_profilelockerror_constructor"
     },
@@ -6316,7 +6356,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "validationerror",
       "id": "errors_claudeerrors_validationerror"
     },
@@ -6326,7 +6366,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_validationerror_constructor"
     },
@@ -6356,7 +6396,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "invalidprojectcontenterror",
       "id": "errors_claudeerrors_invalidprojectcontenterror"
     },
@@ -6366,7 +6406,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidprojectcontenterror_constructor"
     },
@@ -6376,7 +6416,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "invalidresponsequalityerror",
       "id": "errors_claudeerrors_invalidresponsequalityerror"
     },
@@ -6386,7 +6426,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidresponsequalityerror_constructor"
     },
@@ -6396,7 +6436,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "recoveryreport",
       "id": "errors_claudeerrors_recoveryreport"
     },
@@ -6406,7 +6446,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_recoveryreport_constructor"
     },
@@ -6426,7 +6466,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "normalizeerror()",
       "id": "errors_claudeerrors_normalizeerror"
     },
@@ -6666,7 +6706,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "workerstate.js",
       "id": "models_workerstate"
     },
@@ -6676,7 +6716,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "worker_states",
       "id": "models_workerstate_worker_states"
     },
@@ -7956,7 +7996,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "browsermanager.js",
       "id": "services_browsermanager"
     },
@@ -7966,7 +8006,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "{ chromium }",
       "id": "services_browsermanager_chromium"
     },
@@ -7976,7 +8016,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "stealth",
       "id": "services_browsermanager_stealth"
     },
@@ -7986,7 +8026,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "{ spawnsync }",
       "id": "services_browsermanager_spawnsync"
     },
@@ -7996,7 +8036,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "{ worker_states }",
       "id": "services_browsermanager_worker_states"
     },
@@ -8006,7 +8046,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 4,
+      "community": 102,
       "norm_label": "{ browsererror, profilelockerror }",
       "id": "services_browsermanager_browsererror_profilelockerror"
     },
@@ -8186,7 +8226,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "claudemanager.js",
       "id": "services_claudemanager"
     },
@@ -8196,7 +8236,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "fs",
       "id": "services_claudemanager_fs"
     },
@@ -8206,7 +8246,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "path",
       "id": "services_claudemanager_path"
     },
@@ -8216,7 +8256,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "{ \n    validationerror, \n    recoveryreport, \n    invalidprojectcontenterror, \n    invalidresponsequalityerror, \n    createclaudeerror, \n    normalizeerror \n}",
       "id": "services_claudemanager_validationerror_recoveryreport_invalidprojectcontenterror_invalidresponsequalityerror_createclaudeerror_normalizeerror"
     },
@@ -8226,7 +8266,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "{ worker_states }",
       "id": "services_claudemanager_worker_states"
     },
@@ -8236,7 +8276,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "selectors",
       "id": "services_claudemanager_selectors"
     },
@@ -10422,7 +10462,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "validation.test.js",
       "id": "tests_validation_test"
     },
@@ -10432,7 +10472,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "{ claudemanager }",
       "id": "tests_validation_test_claudemanager"
     },
@@ -10442,7 +10482,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 4,
+      "community": 101,
       "norm_label": "{ validationerror }",
       "id": "tests_validation_test_validationerror"
     },
@@ -11182,26 +11222,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "api_pluginroutes",
-      "target": "api_pluginroutes_createpluginroutes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "api_pluginroutes",
-      "target": "api_pluginroutes_express",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L33",
       "weight": 1.0,
@@ -11258,6 +11278,16 @@
       "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
       "target": "bootstrap_bootstrapmanager_claudeworker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_compatibilityservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11348,6 +11378,26 @@
       "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
       "target": "bootstrap_bootstrapmanager_migrations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_pluginrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_pluginservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11488,6 +11538,16 @@
       "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
       "target": "bootstrap_bootstrapmanager_syncservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_tokenservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11709,6 +11769,17 @@
       "target": "repositories_logrepository_logrepository"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_pluginrepository_pluginrepository",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -11863,6 +11934,17 @@
       "target": "services_claudeworker_claudeworker"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_compatibilityservice_compatibilityservice",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -11916,6 +11998,17 @@
       "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
       "target": "services_metricsservice_metricsservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_pluginservice_pluginservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -12004,6 +12097,17 @@
       "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
       "target": "services_syncservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_tokenservice_tokenservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -12350,12 +12454,32 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_pluginroutes",
+      "target": "api_pluginroutes_createpluginroutes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_pluginroutes",
+      "target": "api_pluginroutes_express"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository"
     },
     {
       "relation": "method",
@@ -12363,9 +12487,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_constructor",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository_constructor"
     },
     {
       "relation": "method",
@@ -12373,9 +12497,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_createinstallation",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository_createinstallation"
     },
     {
       "relation": "method",
@@ -12383,9 +12507,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_findbytoken",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository_findbytoken"
     },
     {
       "relation": "method",
@@ -12393,9 +12517,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_findbyuuid",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository_findbyuuid"
     },
     {
       "relation": "method",
@@ -12403,9 +12527,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_updatecapabilities",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository_updatecapabilities"
     },
     {
       "relation": "method",
@@ -12413,9 +12537,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_updateheartbeat",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository_updateheartbeat"
     },
     {
       "relation": "method",
@@ -12423,9 +12547,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_updateinstallation",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository_updateinstallation"
     },
     {
       "relation": "method",
@@ -12433,9 +12557,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_updatepresence",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository_updatepresence"
     },
     {
       "relation": "imports_from",
@@ -13086,9 +13210,9 @@
       "source_file": "src/services/CompatibilityService.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_compatibilityservice_compatibilityservice",
-      "target": "services_compatibilityservice_compatibilityservice_compare",
-      "confidence_score": 1.0
+      "target": "services_compatibilityservice_compatibilityservice_compare"
     },
     {
       "relation": "method",
@@ -13096,9 +13220,9 @@
       "source_file": "src/services/CompatibilityService.js",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_compatibilityservice_compatibilityservice",
-      "target": "services_compatibilityservice_compatibilityservice_compareversions",
-      "confidence_score": 1.0
+      "target": "services_compatibilityservice_compatibilityservice_compareversions"
     },
     {
       "relation": "method",
@@ -13117,9 +13241,9 @@
       "source_file": "src/services/CompatibilityService.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_compatibilityservice_compatibilityservice_compare",
-      "target": "services_compatibilityservice_compatibilityservice_compareversions",
-      "confidence_score": 1.0
+      "target": "services_compatibilityservice_compatibilityservice_compareversions"
     },
     {
       "relation": "contains",
@@ -13127,9 +13251,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_pluginservice",
-      "target": "services_pluginservice_pluginservice",
-      "confidence_score": 1.0
+      "target": "services_pluginservice_pluginservice"
     },
     {
       "relation": "method",
@@ -13137,9 +13261,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_pluginservice_pluginservice",
-      "target": "services_pluginservice_pluginservice_constructor",
-      "confidence_score": 1.0
+      "target": "services_pluginservice_pluginservice_constructor"
     },
     {
       "relation": "method",
@@ -13147,9 +13271,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_pluginservice_pluginservice",
-      "target": "services_pluginservice_pluginservice_disconnect",
-      "confidence_score": 1.0
+      "target": "services_pluginservice_pluginservice_disconnect"
     },
     {
       "relation": "method",
@@ -13157,9 +13281,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_pluginservice_pluginservice",
-      "target": "services_pluginservice_pluginservice_handshake",
-      "confidence_score": 1.0
+      "target": "services_pluginservice_pluginservice_handshake"
     },
     {
       "relation": "method",
@@ -13167,9 +13291,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_pluginservice_pluginservice",
-      "target": "services_pluginservice_pluginservice_heartbeat",
-      "confidence_score": 1.0
+      "target": "services_pluginservice_pluginservice_heartbeat"
     },
     {
       "relation": "method",
@@ -13177,9 +13301,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_pluginservice_pluginservice",
-      "target": "services_pluginservice_pluginservice_register",
-      "confidence_score": 1.0
+      "target": "services_pluginservice_pluginservice_register"
     },
     {
       "relation": "method",
@@ -13187,9 +13311,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_pluginservice_pluginservice",
-      "target": "services_pluginservice_pluginservice_renew",
-      "confidence_score": 1.0
+      "target": "services_pluginservice_pluginservice_renew"
     },
     {
       "relation": "method",
@@ -13197,9 +13321,9 @@
       "source_file": "src/services/PluginService.js",
       "source_location": "L92",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_pluginservice_pluginservice",
-      "target": "services_pluginservice_pluginservice_validate",
-      "confidence_score": 1.0
+      "target": "services_pluginservice_pluginservice_validate"
     },
     {
       "relation": "contains",
@@ -13207,9 +13331,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_tokenservice",
-      "target": "services_tokenservice_crypto",
-      "confidence_score": 1.0
+      "target": "services_tokenservice_crypto"
     },
     {
       "relation": "contains",
@@ -13217,9 +13341,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_tokenservice",
-      "target": "services_tokenservice_tokenservice",
-      "confidence_score": 1.0
+      "target": "services_tokenservice_tokenservice"
     },
     {
       "relation": "method",
@@ -13227,9 +13351,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_tokenservice_tokenservice",
-      "target": "services_tokenservice_tokenservice_expiretoken",
-      "confidence_score": 1.0
+      "target": "services_tokenservice_tokenservice_expiretoken"
     },
     {
       "relation": "method",
@@ -13237,9 +13361,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_tokenservice_tokenservice",
-      "target": "services_tokenservice_tokenservice_generatetoken",
-      "confidence_score": 1.0
+      "target": "services_tokenservice_tokenservice_generatetoken"
     },
     {
       "relation": "method",
@@ -13247,9 +13371,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_tokenservice_tokenservice",
-      "target": "services_tokenservice_tokenservice_revoketoken",
-      "confidence_score": 1.0
+      "target": "services_tokenservice_tokenservice_revoketoken"
     },
     {
       "relation": "method",
@@ -13257,9 +13381,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_tokenservice_tokenservice",
-      "target": "services_tokenservice_tokenservice_rotatetoken",
-      "confidence_score": 1.0
+      "target": "services_tokenservice_tokenservice_rotatetoken"
     },
     {
       "relation": "method",
@@ -13267,9 +13391,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_tokenservice_tokenservice",
-      "target": "services_tokenservice_tokenservice_validatetoken",
-      "confidence_score": 1.0
+      "target": "services_tokenservice_tokenservice_validatetoken"
     },
     {
       "relation": "calls",
@@ -13278,9 +13402,9 @@
       "source_file": "src/services/TokenService.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_tokenservice_tokenservice_rotatetoken",
-      "target": "services_tokenservice_tokenservice_generatetoken",
-      "confidence_score": 1.0
+      "target": "services_tokenservice_tokenservice_generatetoken"
     },
     {
       "relation": "contains",
@@ -25303,5 +25427,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "11bffeb42c7966294930ccf52e50da15fddd4f64"
+  "built_at_commit": "25eb4873aa278a34673f815bffaf44d226f3f27e"
 }

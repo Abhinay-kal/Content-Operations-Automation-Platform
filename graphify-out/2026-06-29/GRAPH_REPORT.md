@@ -1,16 +1,16 @@
 # Graph Report - n8n  (2026-06-29)
 
 ## Corpus Check
-- 164 files · ~118,805 words
+- 164 files · ~118,809 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1105 nodes · 1362 edges · 116 communities (45 shown, 71 thin omitted)
+- 1109 nodes · 1370 edges · 118 communities (46 shown, 72 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `11bffeb4`
+- Built from commit: `25eb4873`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -114,6 +114,8 @@
 - [[_COMMUNITY_Community 98|Community 98]]
 - [[_COMMUNITY_Community 99|Community 99]]
 - [[_COMMUNITY_Community 100|Community 100]]
+- [[_COMMUNITY_Community 101|Community 101]]
+- [[_COMMUNITY_Community 102|Community 102]]
 - [[_COMMUNITY_Community 107|Community 107]]
 - [[_COMMUNITY_Community 108|Community 108]]
 - [[_COMMUNITY_Community 110|Community 110]]
@@ -158,7 +160,7 @@
 - **Junior vs Senior Engineer Differences** — failure_junior_engineer, failure_senior_engineer, failure_scope_of_thinking, failure_handling_ambiguity, failure_impact_vs_output [EXTRACTED 0.75]
 - **Junior vs Senior Comparison** — failure1780489233782_junior_engineer, failure1780489233782_senior_engineer, failure1780489233782_scope_of_thinking [EXTRACTED 1.00]
 
-## Communities (116 total, 71 thin omitted)
+## Communities (118 total, 72 thin omitted)
 
 ### Community 0 - "Auditroutes Components"
 Cohesion: 0.05
@@ -176,13 +178,9 @@ Nodes (23): BootstrapManager, fs, loadConfig(), parseBoolean(), parseInteger(), 
 Cohesion: 0.18
 Nodes (10): DatabaseConnection, fs, { JobRepository }, JobService, Migrations, path, { PROJECT_STATUSES }, { ProjectRepository } (+2 more)
 
-### Community 4 - "Createclaudeerror Components"
-Cohesion: 0.06
-Nodes (23): BrowserError, ClaudeError, createClaudeError(), InvalidProjectContentError, InvalidResponseQualityError, normalizeError(), ProfileLockError, RecoveryReport (+15 more)
-
 ### Community 5 - "Bootstrapmanager Components"
-Cohesion: 0.07
-Nodes (29): { BrowserManager }, { BrowserRecovery }, { ClaudeHealthCheck }, { ClaudeManager }, { ClaudeWorker }, { createLogger }, { DashboardService }, DatabaseConnection (+21 more)
+Cohesion: 0.06
+Nodes (33): { BrowserManager }, { BrowserRecovery }, { ClaudeHealthCheck }, { ClaudeManager }, { ClaudeWorker }, { CompatibilityService }, { createLogger }, { DashboardService } (+25 more)
 
 ### Community 6 - "Package Components"
 Cohesion: 0.08
@@ -304,6 +302,14 @@ Nodes (9): ContentUnavailableError, AuditPromptBuilder, { ContentUnavailableErro
 Cohesion: 0.40
 Nodes (4): Agent Rules, Auto-Commit Rule, Continuous Documentation Rule, Mandatory Error Handling Standard
 
+### Community 101 - "Community 101"
+Cohesion: 0.13
+Nodes (13): ClaudeError, InvalidProjectContentError, InvalidResponseQualityError, normalizeError(), RecoveryReport, ValidationError, fs, path (+5 more)
+
+### Community 102 - "Community 102"
+Cohesion: 0.18
+Nodes (8): BrowserError, ProfileLockError, WORKER_STATES, { BrowserError, ProfileLockError }, { chromium }, { spawnSync }, stealth, { WORKER_STATES }
+
 ### Community 116 - "Community 116"
 Cohesion: 0.25
 Nodes (7): 🚧 Blockers & Issues, 📊 Current Status, 🎯 Immediate To-Do (Next Up), 📅 Progress Log, [Project Name] - Progress Tracker, [YYYY-MM-DD], [YYYY-MM-DD]
@@ -313,24 +319,24 @@ Cohesion: 0.17
 Nodes (10): AuditPromptBuilder, { ContentUnavailableError, InvalidProjectContentError }, { FailureClassifier }, fs, path, { PROJECT_STATUSES }, RewritePromptBuilder, { WORKER_STATES } (+2 more)
 
 ## Knowledge Gaps
-- **271 isolated node(s):** `express`, `{ PreFlightValidator }`, `{ loadConfig }`, `{ createLogger }`, `DatabaseConnection` (+266 more)
+- **275 isolated node(s):** `{ PreFlightValidator }`, `{ loadConfig }`, `{ createLogger }`, `DatabaseConnection`, `Migrations` (+270 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **71 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **72 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ClaudeWorker` connect `Community 80` to `Bootstrapmanager Components`, `Community 117`, `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **Why does `ProjectRepository` connect `Projectrepository Components` to `Community 82`, `Migrations Components`, `Bootstrapmanager Components`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Why does `ClaudeManager` connect `Createclaudeerror Components` to `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
-- **Why does `ClaudeWorker` connect `Community 81` to `Community 93`, `Bootstrapmanager Components`?**
+- **Why does `ClaudeManager` connect `Createclaudeerror Components` to `Community 101`, `Bootstrapmanager Components`?**
   _High betweenness centrality (0.020) - this node is a cross-community bridge._
-- **What connects `express`, `{ PreFlightValidator }`, `{ loadConfig }` to the rest of the system?**
-  _271 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `{ PreFlightValidator }`, `{ loadConfig }`, `{ createLogger }` to the rest of the system?**
+  _275 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Auditroutes Components` be split into smaller, more focused modules?**
   _Cohesion score 0.05137844611528822 - nodes in this community are weakly interconnected._
 - **Should `Bootstrapmanager Components` be split into smaller, more focused modules?**
   _Cohesion score 0.06086956521739131 - nodes in this community are weakly interconnected._
 - **Should `Createclaudeerror Components` be split into smaller, more focused modules?**
-  _Cohesion score 0.058653846153846154 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.14516129032258066 - nodes in this community are weakly interconnected._

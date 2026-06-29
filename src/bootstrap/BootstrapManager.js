@@ -13,6 +13,13 @@ const { PluginRepository } = require('../repositories/PluginRepository');
 const { TokenService } = require('../services/TokenService');
 const { CompatibilityService } = require('../services/CompatibilityService');
 const { PluginService } = require('../services/PluginService');
+const { EventConsumerService } = require('../services/EventConsumerService');
+const { PostEventHandler } = require('../services/eventHandlers/PostEventHandler');
+const { TaxonomyEventHandler } = require('../services/eventHandlers/TaxonomyEventHandler');
+const { AuthorEventHandler } = require('../services/eventHandlers/AuthorEventHandler');
+const { MediaEventHandler } = require('../services/eventHandlers/MediaEventHandler');
+const { SiteEventHandler } = require('../services/eventHandlers/SiteEventHandler');
+
 const JobService = require('../services/JobService');
 const { SiteService } = require('../services/SiteService');
 const { ProjectService } = require('../services/ProjectService');
@@ -136,6 +143,23 @@ class BootstrapManager {
             const tokenService = new TokenService();
             const compatibilityService = new CompatibilityService();
             const pluginService = new PluginService({ pluginRepository, tokenService, compatibilityService, logger: this.logger.db });
+            const postEventHandler = new PostEventHandler({ projectRepository, logger: this.logger.db });
+            const eventHandlers = {
+                'PostChangedEvent': postEventHandler,
+                'CategoryChangedEvent': new TaxonomyEventHandler({ logger: this.logger.db }),
+                'TagChangedEvent': new TaxonomyEventHandler({ logger: this.logger.db }),
+                'AuthorChangedEvent': new AuthorEventHandler({ logger: this.logger.db }),
+                'MediaChangedEvent': new MediaEventHandler({ logger: this.logger.db }),
+                'SiteChangedEvent': new SiteEventHandler({ logger: this.logger.db }),
+            };
+            const eventConsumerService = new EventConsumerService({
+                db: this.db,
+                pluginRepository,
+                projectRepository,
+                eventHandlers,
+                logger: this.logger.db
+            });
+
             
             const siteService = new SiteService({ siteRepository, logger: this.logger.db, config: this.config });
             const syncService = new SyncService({ siteService, wordpressRepository, logger: this.logger.db });
@@ -163,6 +187,7 @@ class BootstrapManager {
                 tokenService,
                 compatibilityService,
                 pluginService,
+                eventConsumerService,
                 eventRepository,
                 logger: this.logger.db
             });

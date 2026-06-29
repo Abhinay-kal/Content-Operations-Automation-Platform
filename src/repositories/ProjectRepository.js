@@ -1,6 +1,10 @@
 const { ContentProject, PROJECT_STATUSES } = require('../models/ContentProject');
 
 class ProjectRepository {
+    findByWpPostId(siteId, wpPostId) {
+        return this.db.prepare(`SELECT * FROM content_projects WHERE site_id = ? AND wp_post_id = ?`).get(siteId, wpPostId);
+    }
+
     constructor(db) {
         this.db = db;
     }

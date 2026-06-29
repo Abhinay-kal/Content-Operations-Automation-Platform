@@ -33,6 +33,10 @@ class PluginRepository {
         return this.db.prepare(`SELECT * FROM plugin_installations WHERE installation_uuid = ?`).get(installation_uuid);
     }
 
+    findByInstallationId(id) {
+        return this.db.prepare(`SELECT * FROM plugin_installations WHERE id = ?`).get(id);
+    }
+
     findByToken(registration_token) {
         return this.db.prepare(`SELECT * FROM plugin_installations WHERE registration_token = ?`).get(registration_token);
     }
