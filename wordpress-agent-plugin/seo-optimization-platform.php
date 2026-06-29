@@ -16,6 +16,10 @@ if ( ! defined( 'WPINC' ) ) {
     die;
 }
 
+if (!defined('SEO_OPT_AGENT_VERSION')) {
+    define('SEO_OPT_AGENT_VERSION', '1.0.3');
+}
+
 spl_autoload_register(function ($class) {
     $prefixes = ['SeoOptAgent\\', 'SeoPlatform\\'];
     $base_dir = plugin_dir_path(__FILE__);

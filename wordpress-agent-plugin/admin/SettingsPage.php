@@ -47,7 +47,7 @@ class SettingsPage {
 
     public function enqueueAssets($hook) {
         $page = isset($_GET['page']) ? $_GET['page'] : '';
-        if (strpos($hook, 'seo-opt-agent') === false && strpos($page, 'seo-opt-agent') === false) {
+        if (strpos($page, 'seo-opt-agent') === false) {
             return;
         }
         wp_enqueue_script('seo-opt-admin-js', SEO_OPT_AGENT_URL . 'assets/js/admin.js', ['jquery'], SEO_OPT_AGENT_VERSION, true);
