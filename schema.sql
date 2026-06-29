@@ -254,3 +254,16 @@ CREATE TABLE event_ingestion (
     processed_at DATETIME,
     error TEXT
 );
+
+CREATE TABLE site_workflow_settings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    site_id INTEGER NOT NULL,
+    audit_threshold INTEGER DEFAULT 75,
+    rewrite_threshold INTEGER DEFAULT 70,
+    auto_reaudit_days INTEGER DEFAULT 30,
+    auto_rewrite_enabled INTEGER DEFAULT 0,
+    auto_publish_enabled INTEGER DEFAULT 0,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY(site_id) REFERENCES sites(id) ON DELETE CASCADE
+);

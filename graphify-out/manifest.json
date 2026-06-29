@@ -180,8 +180,8 @@
     "semantic_hash": "da47d4a21d7de3faab0b84c42520c1c0"
   },
   "src/bootstrap/BootstrapManager.js": {
-    "mtime": 1782705138.0372775,
-    "ast_hash": "f2b1cc2cc133601fd1e930fbfd9082fd",
+    "mtime": 1782708376.9995027,
+    "ast_hash": "d7881c260bfb8e49378abc49a1220ff6",
     "semantic_hash": ""
   },
   "src/bootstrap/PreFlightValidator.js": {
@@ -285,9 +285,9 @@
     "semantic_hash": "584de239e40a0cfaab84d7d203a65b93"
   },
   "src/repositories/ProjectRepository.js": {
-    "mtime": 1781502638.7335463,
-    "ast_hash": "3c9999b999284bbb74adac234508afc9",
-    "semantic_hash": "3c9999b999284bbb74adac234508afc9"
+    "mtime": 1782708376.998385,
+    "ast_hash": "f381f293a6fcbc7dcf84efe1e995aebd",
+    "semantic_hash": ""
   },
   "src/repositories/PublishingRepository.js": {
     "mtime": 1781504827.1623626,
@@ -1150,8 +1150,8 @@
     "semantic_hash": ""
   },
   "src/repositories/PluginRepository.js": {
-    "mtime": 1782704900.7302613,
-    "ast_hash": "20dec03b0b47340d9884b79423772d0f",
+    "mtime": 1782708376.9946036,
+    "ast_hash": "e8fa33eae99eed7167fd31a91c0949fa",
     "semantic_hash": ""
   },
   "src/services/CompatibilityService.js": {
@@ -1167,11 +1167,6 @@
   "src/services/TokenService.js": {
     "mtime": 1782704900.7308505,
     "ast_hash": "5efdc4f1a4c44eb540da90d4577f9749",
-    "semantic_hash": ""
-  },
-  "setup_p4.js": {
-    "mtime": 1782705642.4372234,
-    "ast_hash": "191ab48bc788995177239767757721c3",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/models/events/AuthorChangedEvent.php": {
@@ -1227,6 +1222,41 @@
   "wordpress-agent-plugin/services/EventListenerService.php": {
     "mtime": 1782705647.7738733,
     "ast_hash": "e0b67a11eb8f3092bb45b3e96011af89",
+    "semantic_hash": ""
+  },
+  "setup_p5.js": {
+    "mtime": 1782708370.3104818,
+    "ast_hash": "ff66bca176beafe5ba20d9d00f06dc8e",
+    "semantic_hash": ""
+  },
+  "src/services/EventConsumerService.js": {
+    "mtime": 1782708376.990129,
+    "ast_hash": "7436d341a75ebdf6d973a35a48466b3f",
+    "semantic_hash": ""
+  },
+  "src/services/eventHandlers/AuthorEventHandler.js": {
+    "mtime": 1782708376.9891684,
+    "ast_hash": "62e1e021269e313527e2917eb805b2f8",
+    "semantic_hash": ""
+  },
+  "src/services/eventHandlers/MediaEventHandler.js": {
+    "mtime": 1782708376.9893432,
+    "ast_hash": "ebd4c496a9366c2ec25a6cac6a8470b8",
+    "semantic_hash": ""
+  },
+  "src/services/eventHandlers/PostEventHandler.js": {
+    "mtime": 1782708376.988568,
+    "ast_hash": "3e7dcd2bb3b459e04adfb76832f5d795",
+    "semantic_hash": ""
+  },
+  "src/services/eventHandlers/SiteEventHandler.js": {
+    "mtime": 1782708376.989986,
+    "ast_hash": "f6c3db075d6f09cdb73ecc6d3995f68f",
+    "semantic_hash": ""
+  },
+  "src/services/eventHandlers/TaxonomyEventHandler.js": {
+    "mtime": 1782708376.9888604,
+    "ast_hash": "632e22fb43e5672f4007fd5897863c6e",
     "semantic_hash": ""
   }
 }

@@ -13,6 +13,10 @@ const { PluginRepository } = require('../repositories/PluginRepository');
 const { TokenService } = require('../services/TokenService');
 const { CompatibilityService } = require('../services/CompatibilityService');
 const { PluginService } = require('../services/PluginService');
+
+const { WorkflowPolicyEngine } = require('../services/workflow/WorkflowPolicyEngine');
+const { WorkflowScheduler } = require('../services/workflow/WorkflowScheduler');
+const { WorkflowOrchestrator } = require('../services/workflow/WorkflowOrchestrator');
 const { EventConsumerService } = require('../services/EventConsumerService');
 const { PostEventHandler } = require('../services/eventHandlers/PostEventHandler');
 const { TaxonomyEventHandler } = require('../services/eventHandlers/TaxonomyEventHandler');
@@ -143,7 +147,7 @@ class BootstrapManager {
             const tokenService = new TokenService();
             const compatibilityService = new CompatibilityService();
             const pluginService = new PluginService({ pluginRepository, tokenService, compatibilityService, logger: this.logger.db });
-            const postEventHandler = new PostEventHandler({ projectRepository, logger: this.logger.db });
+            const postEventHandler = new PostEventHandler({ projectRepository, workflowOrchestrator, logger: this.logger.db });
             const eventHandlers = {
                 'PostChangedEvent': postEventHandler,
                 'CategoryChangedEvent': new TaxonomyEventHandler({ logger: this.logger.db }),
@@ -152,11 +156,26 @@ class BootstrapManager {
                 'MediaChangedEvent': new MediaEventHandler({ logger: this.logger.db }),
                 'SiteChangedEvent': new SiteEventHandler({ logger: this.logger.db }),
             };
+            
+            const workflowPolicyEngine = new WorkflowPolicyEngine({ db: this.db, logger: this.logger.db });
+            const workflowScheduler = new WorkflowScheduler({ jobRepository, db: this.db, logger: this.logger.db });
+            const workflowOrchestrator = new WorkflowOrchestrator({
+                policyEngine: workflowPolicyEngine,
+                scheduler: workflowScheduler,
+                db: this.db,
+                eventRepository,
+                logger: this.logger.db
+            });
+            
+            // Reconcile stuck workflows on boot
+            workflowOrchestrator.reconcile();
+
             const eventConsumerService = new EventConsumerService({
                 db: this.db,
                 pluginRepository,
                 projectRepository,
                 eventHandlers,
+                workflowOrchestrator,
                 logger: this.logger.db
             });
 
@@ -188,6 +207,7 @@ class BootstrapManager {
                 compatibilityService,
                 pluginService,
                 eventConsumerService,
+                workflowOrchestrator,
                 eventRepository,
                 logger: this.logger.db
             });

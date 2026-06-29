@@ -1,5 +1,6 @@
 class EventConsumerService {
-    constructor({ db, pluginRepository, projectRepository, eventHandlers, logger }) {
+    constructor({ db, pluginRepository, projectRepository, eventHandlers, workflowOrchestrator, logger }) {
+        this.workflowOrchestrator = workflowOrchestrator;
         this.db = db;
         this.pluginRepository = pluginRepository;
         this.projectRepository = projectRepository;

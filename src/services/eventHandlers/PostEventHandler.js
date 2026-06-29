@@ -1,5 +1,6 @@
 class PostEventHandler {
-    constructor({ projectRepository, logger }) {
+    constructor({ projectRepository, workflowOrchestrator, logger }) {
+        this.workflowOrchestrator = workflowOrchestrator;
         this.projectRepository = projectRepository;
         this.logger = logger;
     }
@@ -53,12 +54,20 @@ class PostEventHandler {
                 metadata: JSON.stringify(metadata)
             });
             this.logger.info('Created new project from event', { siteId, wpPostId });
+            if (this.workflowOrchestrator) {
+                const newProj = this.projectRepository.findByWpPostId(siteId, wpPostId);
+                this.workflowOrchestrator.evaluateProject(newProj, newStatus);
+            }
         } else if (project) {
             this.projectRepository.update(project.id, {
                 status: newStatus,
                 metadata: JSON.stringify(metadata)
             });
             this.logger.info('Updated project from event', { projectId: project.id, newStatus });
+            if (this.workflowOrchestrator) {
+                const updatedProj = this.projectRepository.findByWpPostId(siteId, wpPostId);
+                this.workflowOrchestrator.evaluateProject(updatedProj, newStatus);
+            }
         }
     }
 }
