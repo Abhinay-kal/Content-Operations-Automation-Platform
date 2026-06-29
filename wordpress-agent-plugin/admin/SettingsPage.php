@@ -138,6 +138,56 @@ class SettingsPage {
                     <button type="button" id="seo-opt-heartbeat" class="button button-secondary"><?php esc_html_e('Send Heartbeat', 'seo-opt-agent'); ?></button>
                 </p>
             </form>
+            
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    console.log("Inline diagnostic script loaded!");
+                    
+                    var btn = document.getElementById('seo-opt-handshake');
+                    if (btn) {
+                        console.log("Handshake button found in DOM.");
+                        btn.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            alert("Inline Handshake click detected! If you see this, the button works but the AJAX script is broken.");
+                            
+                            // Let's attempt the AJAX manually to bypass admin.js entirely
+                            var loadingText = "Processing...";
+                            var originalText = btn.innerText;
+                            btn.innerText = loadingText;
+                            
+                            var formData = new URLSearchParams();
+                            formData.append('action', 'seo_opt_handshake');
+                            // We grab the nonce from the localized object if it exists, otherwise we're missing it
+                            if (typeof seoOptAgentObj !== 'undefined') {
+                                formData.append('nonce', seoOptAgentObj.nonce);
+                                
+                                fetch(seoOptAgentObj.ajax_url, {
+                                    method: 'POST',
+                                    body: formData,
+                                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+                                })
+                                .then(response => response.json())
+                                .then(data => {
+                                    alert("AJAX Response: " + JSON.stringify(data));
+                                    btn.innerText = originalText;
+                                    if(data.success) {
+                                        window.location.reload();
+                                    }
+                                })
+                                .catch(error => {
+                                    alert("Fetch error: " + error);
+                                    btn.innerText = originalText;
+                                });
+                            } else {
+                                alert("seoOptAgentObj is NOT defined! This means wp_localize_script failed.");
+                                btn.innerText = originalText;
+                            }
+                        });
+                    } else {
+                        console.error("Handshake button NOT found!");
+                    }
+                });
+            </script>
         </div>
         <?php
     }
