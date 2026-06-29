@@ -60,7 +60,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>n8n — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 1073 nodes, 1332 edges, 114 communities. Commit: 0b1634d</p>
+<p class="subtitle">Generated from graphify knowledge graph: 1105 nodes, 1362 edges, 116 communities. Commit: 11bffeb</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
@@ -94,13 +94,13 @@ flowchart LR
     class ANALYSIS_CLUSTERING_C79796DA module;
     OUTPUTS_DOCS_ED82387C("Outputs &amp; Docs<br/><small>15 nodes</small>")
     class OUTPUTS_DOCS_ED82387C module;
-    CLI_SKILLS_9964CBB8("CLI &amp; Skill Installers<br/><small>345 nodes</small>")
+    CLI_SKILLS_9964CBB8("CLI &amp; Skill Installers<br/><small>350 nodes</small>")
     class CLI_SKILLS_9964CBB8 module;
     INGEST_CACHE_UPDATE_FF457338("Ingestion &amp; Updates<br/><small>2 nodes</small>")
     class INGEST_CACHE_UPDATE_FF457338 module;
-    SERVE_API_35EC8E86("Serving API<br/><small>60 nodes</small>")
+    SERVE_API_35EC8E86("Serving API<br/><small>63 nodes</small>")
     class SERVE_API_35EC8E86 module;
-    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>113 nodes</small>")
+    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>125 nodes</small>")
     class TESTS_FIXTURES_B84B1DCC module;
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA("Bootstrapmanager Components<br/><small>30 nodes</small>")
     class BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA module;
@@ -116,20 +116,20 @@ flowchart LR
     class BROWSERMANAGER_COMPONENTS_2A3C6015 module;
     PROJECTREPOSITORY_COMPONENTS_6F11DF41("Projectrepository Components<br/><small>16 nodes</small>")
     class PROJECTREPOSITORY_COMPONENTS_6F11DF41 module;
-    OTHER_D0941E68("Other<br/><small>350 nodes</small>")
+    OTHER_D0941E68("Other<br/><small>362 nodes</small>")
     class OTHER_D0941E68 module;
-    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x39| OTHER_D0941E68
-    OTHER_D0941E68 -->|imports x10| TESTS_FIXTURES_B84B1DCC
-    ANALYSIS_CLUSTERING_C79796DA -->|imports x6| OTHER_D0941E68
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x38| OTHER_D0941E68
+    OTHER_D0941E68 -->|imports x8| TESTS_FIXTURES_B84B1DCC
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x5| CLI_SKILLS_9964CBB8
-    CLI_SKILLS_9964CBB8 -->|imports x4| SERVE_API_35EC8E86
-    OTHER_D0941E68 -->|imports x4| ANALYSIS_CLUSTERING_C79796DA
-    TESTS_FIXTURES_B84B1DCC -->|contains x3| OTHER_D0941E68
-    TESTS_FIXTURES_B84B1DCC -->|contains x3| ANALYSIS_CLUSTERING_C79796DA
+    ANALYSIS_CLUSTERING_C79796DA -->|contains x5| OTHER_D0941E68
+    TESTS_FIXTURES_B84B1DCC -->|imports x5| ANALYSIS_CLUSTERING_C79796DA
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x3| TESTS_FIXTURES_B84B1DCC
+    SERVE_API_35EC8E86 -->|imports x3| CLI_SKILLS_9964CBB8
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| JOBREPOSITORY_COMPONENTS_A6220750
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| SITE_COMPONENTS_CE1F1570
-    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| TESTS_FIXTURES_B84B1DCC
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| ANALYSIS_CLUSTERING_C79796DA
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| SITESERVICE_COMPONENTS_C9C2CB72
+    ANALYSIS_CLUSTERING_C79796DA -->|imports x2| TESTS_FIXTURES_B84B1DCC
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -146,19 +146,19 @@ flowchart LR
     <h4>Architecture Layers</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>Layer</th><th>Nodes</th><th>Communities</th></tr>
-      <tr><td>Graph Build</td><td>24</td><td><code>6</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>24</td><td><code>117, 93</code></td></tr><tr><td>Outputs &amp; Docs</td><td>15</td><td><code>12, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>345</td><td><code>39, 2, 27, 34, 15, 57, 40, 85, 87, 59, 55, 107, 108, 110, 62, 111, 114, 35, 70, 71, 74, 112, 113, 41, 75, 115, 124, 77, 78, 104, 105, 106, 61, 95, 109</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>60</td><td><code>0, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>113</td><td><code>4, 33, 3, 37, 44, 45, 46, 47</code></td></tr><tr><td>Bootstrapmanager Components</td><td>30</td><td><code>5</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Siteservice Components</td><td>18</td><td><code>9</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Browsermanager Components</td><td>17</td><td><code>13</code></td></tr><tr><td>Projectrepository Components</td><td>16</td><td><code>11</code></td></tr><tr><td>Other</td><td>350</td><td><code>14, 80, 81, 16, 17, 90, 18, 19, 20, 1, 21, 22, 58, 82, 23, 24, 83, 116, 25, 84, 96, 26, 68, 86, 28, 29, 30, 31, 32, 36, 89, 94, 38, 42, 43, 48, 49, 88, 50, 52, 53, 54, 97, 98, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
+      <tr><td>Graph Build</td><td>24</td><td><code>6</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>24</td><td><code>117, 93</code></td></tr><tr><td>Outputs &amp; Docs</td><td>15</td><td><code>12, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>350</td><td><code>2, 39, 27, 34, 15, 57, 40, 85, 87, 59, 55, 107, 108, 110, 62, 111, 114, 35, 70, 71, 74, 112, 113, 41, 75, 115, 77, 78, 104, 105, 106, 61, 95, 109</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>63</td><td><code>0, 100, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>125</td><td><code>4, 33, 3, 37, 44, 45, 46, 47</code></td></tr><tr><td>Bootstrapmanager Components</td><td>30</td><td><code>5</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Siteservice Components</td><td>18</td><td><code>9</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Browsermanager Components</td><td>17</td><td><code>13</code></td></tr><tr><td>Projectrepository Components</td><td>16</td><td><code>11</code></td></tr><tr><td>Other</td><td>362</td><td><code>14, 80, 81, 16, 17, 18, 19, 20, 1, 21, 22, 58, 82, 90, 23, 24, 83, 96, 116, 25, 84, 99, 26, 68, 86, 28, 29, 30, 31, 32, 124, 36, 89, 94, 38, 42, 43, 48, 49, 88, 50, 52, 53, 54, 97, 98, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Core Flow</h4>
-    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Other -&gt; Tests &amp; Fixtures -&gt; Outputs &amp; Docs -&gt; CLI &amp; Skill Installers -&gt; Serving API</div>
+    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Other -&gt; Tests &amp; Fixtures -&gt; CLI &amp; Skill Installers -&gt; Serving API -&gt; Outputs &amp; Docs</div>
   </div>
 </div>
 <div class="grid">
   <div class="card">
     <h4>Graph Report Highlights</h4>
     <ul>
-      <li>1073 nodes · 1332 edges · 114 communities (46 shown, 68 thin omitted)</li>
+      <li>1105 nodes · 1362 edges · 116 communities (45 shown, 71 thin omitted)</li>
       <li>Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)</li>
       <li>Token cost: 0 input · 0 output</li>
       <li>1. `ClaudeManager` - 33 edges</li>
@@ -969,12 +969,12 @@ flowchart LR
 
 <!-- ====== 5. CLI & Skill Installers ====== -->
 <h2 id="cli-skills">5. CLI &amp; Skill Installers</h2>
-<p>CLI &amp; Skill Installers groups implementation around agent, plugin, wordpress, models, mostly in wordpress-agent-plugin/services/ConfigService.php, wordpress-agent-plugin/models/PluginIdentity.php, wordpress-agent-plugin/admin/SettingsPage.php. This section covers 345 nodes and 405 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>CLI &amp; Skill Installers groups implementation around agent, plugin, wordpress, models, mostly in wordpress-agent-plugin/services/ConfigService.php, wordpress-agent-plugin/models/PluginIdentity.php, wordpress-agent-plugin/admin/SettingsPage.php. This section covers 350 nodes and 412 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: CLI &amp; Skill Installers (345 nodes, 405 edges)
+    %% Section: CLI &amp; Skill Installers (350 nodes, 412 edges)
     subgraph cli_skills_src_bootstrap_BootstrapManager_js_c0def98e["src/bootstrap/BootstrapManager.js"]
         bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3("BootstrapManager<br/><small>src/bootstrap/BootstrapManager.js</small>")
         bootstrap_bootstrapmanager_bootstrapmanager_cons_7e8cd264("constructor()<br/><small>src/bootstrap/BootstrapManager.js</small>")
@@ -1018,7 +1018,7 @@ flowchart LR
     bootstrap_bootstrapmanager_bootstrapmanager_runp_f1af04e7 -->|calls| config_config_loadconfig_a426fd18
     bootstrap_bootstrapmanager_bootstrapmanager_runp_41817228 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_veri_1e505071
     services_configservice_configservice_f0e37e08 -->|method| services_configservice_configservice_save_c4b72b48
-    %% Omitted for readability: 327 nodes, 0 edges
+    %% Omitted for readability: 332 nodes, 0 edges
     class bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 klass;
     class bootstrap_bootstrapmanager_bootstrapmanager_cons_7e8cd264 function;
     class bootstrap_bootstrapmanager_bootstrapmanager_prin_d0884815 function;
@@ -1060,243 +1060,243 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>BackendClient</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br><code>CompatibilityService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>DiagnosticsService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br>+3 more</td>
-  <td>ServiceContainer.php node in wordpress-agent-plugin/bootstrap/ServiceContainer.php.</td>
+  <td><code>_printHeader()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>_reportFailures()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>_runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br>+7 more</td>
+  <td>BootstrapManager node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><code>ServiceContainer</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>registerServices()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td>ServiceContainer node in wordpress-agent-plugin/bootstrap/ServiceContainer.php.</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><code>createLogger()</code><br><small style="color:var(--muted)">src/utils/logger.js</small></td>
+  <td>.constructor() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><code>.registerServices()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
+  <td><code>.run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ServiceContainer</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>.registerServices() node in wordpress-agent-plugin/bootstrap/ServiceContainer.php.</td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><code>_printHeader()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>_runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>_runPhase2()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br>+3 more</td>
+  <td>.run() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><code>Loader</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>Loader node in wordpress-agent-plugin/bootstrap/ServiceContainer.php.</td>
+  <td><code>._runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><code>_reportFailures()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td>._runPhase1() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>5</td>
-  <td><code>HeartbeatService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>RegistrationStatus</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/ConfigService.php</small></td>
-  <td><code>BackendClient</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br><code>HeartbeatResult</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br><code>LoggerInterface</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td>HeartbeatService.php node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
+  <td><code>._runPhase2()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._runPhase2() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>6</td>
-  <td><code>HeartbeatService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>__construct()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br><code>runHeartbeat()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br><code>sendPayload()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td>HeartbeatService node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
+  <td><code>._runPhase3()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._runPhase3() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>7</td>
-  <td><code>.__construct()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
+  <td><code>._runPhase3_5()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>HeartbeatService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.__construct() node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
+  <td>._runPhase3_5() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>8</td>
-  <td><code>BackendClient</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><span class="tag tag-cmd">Entry</span></td>
-  <td><code>HeartbeatService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td><code>ConnectionService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/ConnectionService.php</small><br><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>BackendClient node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
+  <td><code>._runPhase4()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><code>_verifyReadiness()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>._runPhase4() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>9</td>
-  <td><code>ConfigService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>._verifyReadiness()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>_runPhase4()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Reads, resolves, or persists project configuration.</td>
+  <td>._verifyReadiness() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>10</td>
-  <td><code>DiagnosticsService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><span class="tag tag-async">Async</span></td>
-  <td><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
+  <td><code>._printHeader()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td>No direct outbound edge</td>
-  <td>DiagnosticsService node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
+  <td>._printHeader() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>11</td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>._reportFailures()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>_runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td>No direct outbound edge</td>
-  <td>RegistrationService node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
+  <td>._reportFailures() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>12</td>
-  <td><code>LoggerInterface</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>HeartbeatService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>LoggerInterface node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
+  <td><code>check_config.js</code><br><small style="color:var(--muted)">scripts/check_config.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
   <td>13</td>
-  <td><code>.runHeartbeat()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
+  <td><code>{ loadConfig }</code><br><small style="color:var(--muted)">scripts/check_config.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>HeartbeatService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><code>sendPayload()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td>.runHeartbeat() node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>HeartbeatResult</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>HeartbeatService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>HeartbeatResult node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>.sendPayload()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>HeartbeatService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br><code>runHeartbeat()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>.sendPayload() node in wordpress-agent-plugin/services/HeartbeatService.php.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>BackendClient</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br><code>BackendIdentity</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/ConfigService.php</small><br><code>LoggerInterface</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td><code>HandshakeResult</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>RegistrationResult</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>RegistrationService.php node in wordpress-agent-plugin/services/RegistrationService.php.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>__construct()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>determineFailureState()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>disconnect()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br>+4 more</td>
-  <td>RegistrationService node in wordpress-agent-plugin/services/RegistrationService.php.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>.__construct()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>.__construct() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>ConfigService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
   <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
-  <td>20</td>
-  <td><code>CompatibilityService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
+  <td>14</td>
+  <td><code>config</code><br><small style="color:var(--muted)">scripts/check_config.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>CompatibilityService node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>Reads, resolves, or persists project configuration.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>claude.js</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>createLogger()</code><br><small style="color:var(--muted)">src/utils/logger.js</small><br><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small><br><code>PersistentWorkerState</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
+  <td>claude.js node in scripts/claude.js.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>{ loadConfig }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Reads, resolves, or persists project configuration.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>{ createLogger }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createLogger } node in scripts/claude.js.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>{ PersistentWorkerState: WorkerState }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ PersistentWorkerState: WorkerState } node in scripts/claude.js.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>{ BrowserManager }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ BrowserManager } node in scripts/claude.js.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>{ SessionMonitor }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ SessionMonitor } node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>21</td>
-  <td><code>.handshake()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>{ ClaudeWorker }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><code>handleHandshakeFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>.handshake() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ ClaudeWorker } node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>22</td>
-  <td><code>HandshakeResult</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>HandshakeResult node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td><code>getSingletonWorker()</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>createLogger()</code><br><small style="color:var(--muted)">src/utils/logger.js</small><br><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small><br><code>runClaude()</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td>getSingletonWorker() node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>23</td>
-  <td><code>.register()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>runClaude()</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><code>handleRegistrationFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>.register() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td><code>getSingletonWorker()</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>runClaude() node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>24</td>
-  <td><code>RegistrationResult</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>RegistrationResult node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td><code>config.js</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>security.js</code><br><small style="color:var(--muted)">src/config/security.js</small></td>
+  <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
   <td>25</td>
-  <td><code>.disconnect()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>fs</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>.disconnect() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>fs node in src/config/config.js.</td>
 </tr>
 <tr>
   <td>26</td>
-  <td><code>.handleHandshakeFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>path</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>handshake()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><code>determineFailureState()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>.handleHandshakeFailure() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>path node in src/config/config.js.</td>
 </tr>
 <tr>
   <td>27</td>
-  <td><code>.handleRegistrationFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>parseInteger()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>register()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><code>determineFailureState()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>.handleRegistrationFailure() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>External entry / no inbound edge</td>
+  <td><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small><br><code>loadSecurityConfig()</code><br><small style="color:var(--muted)">src/config/security.js</small><br><code>security.js</code><br><small style="color:var(--muted)">src/config/security.js</small></td>
+  <td>parseInteger() node in src/config/config.js.</td>
 </tr>
 <tr>
   <td>28</td>
-  <td><code>.determineFailureState()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>parseBoolean()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>handleHandshakeFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>handleRegistrationFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>.determineFailureState() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>External entry / no inbound edge</td>
+  <td><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td>parseBoolean() node in src/config/config.js.</td>
 </tr>
 <tr>
   <td>29</td>
-  <td><code>BackendClient.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/api/BackendClient.php</small></td>
-  <td><span class="tag tag-cmd">Entry</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>ConfigService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/api/BackendClient.php</small></td>
-  <td>BackendClient.php node in wordpress-agent-plugin/api/BackendClient.php.</td>
+  <td><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>_runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>check_config.js</code><br><small style="color:var(--muted)">scripts/check_config.js</small><br><code>claude.js</code><br><small style="color:var(--muted)">scripts/claude.js</small><br>+3 more</td>
+  <td>No direct outbound edge</td>
+  <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
   <td>30</td>
-  <td><code>BackendClient</code><br><small style="color:var(--muted)">wordpress-agent-plugin/api/BackendClient.php</small></td>
-  <td><span class="tag tag-cmd">Entry</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>__construct()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/api/BackendClient.php</small><br><code>get()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/api/BackendClient.php</small><br><code>post()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/api/BackendClient.php</small><br>+1 more</td>
-  <td>BackendClient node in wordpress-agent-plugin/api/BackendClient.php.</td>
+  <td><code>security.js</code><br><small style="color:var(--muted)">src/config/security.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td><code>config.js</code><br><small style="color:var(--muted)">src/config/config.js</small><br><code>parseInteger()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>security.js node in src/config/security.js.</td>
 </tr>
 </table>
 
@@ -1317,7 +1317,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: method x181, contains x71, references x56, calls x43. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: method x187, contains x70, references x56, calls x44. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -1391,26 +1391,27 @@ flowchart LR
 
 <!-- ====== 7. Serving API ====== -->
 <h2 id="serve-api">7. Serving API</h2>
-<p>Serving API groups implementation around api, serverjs, express, middleware, mostly in src/server.js, src/index.js, src/api/auditRoutes.js. This section covers 60 nodes and 84 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Serving API groups implementation around api, serverjs, express, middleware, mostly in src/server.js, src/index.js, src/api/auditRoutes.js. This section covers 63 nodes and 86 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Serving API (60 nodes, 84 edges)
+    %% Section: Serving API (63 nodes, 86 edges)
     subgraph serve_api_src_server_js_e66fcfd5["src/server.js"]
-        src_server_createapp_01c7056f("createApp()<br/><small>src/server.js</small>")
-        src_server_express_b55b655b("express<br/><small>src/server.js</small>")
-        src_server_createqueuerouter_c5394ad3("createQueueRouter<br/><small>src/server.js</small>")
         src_server_87d42fc7("server.js")
+        src_server_createapp_01c7056f("createApp()<br/><small>src/server.js</small>")
+        src_server_createqueuerouter_c5394ad3("createQueueRouter<br/><small>src/server.js</small>")
+        src_server_express_b55b655b("express<br/><small>src/server.js</small>")
     end
-    subgraph serve_api_src_api_auditRoutes_js_4e3abb42["src/api/auditRoutes.js"]
-        api_auditroutes_createauditroutes_5ab6232e("createAuditRoutes()<br/><small>src/api/auditRoutes.js</small>")
-        api_auditroutes_8b044ee0("auditRoutes.js")
+    subgraph serve_api_src_index_js_87c917c5["src/index.js"]
+        src_index_main_fa40efad("main()<br/><small>src/index.js</small>")
+        src_index_811cdc82("index.js")
     end
     subgraph serve_api_wordpress_agent_plugin_api_HttpClient_46d1bb78["wordpress-agent-plugin/api/HttpClient.php"]
         api_httpclient_httpclient_6136c1e1("HttpClient<br/><small>wordpress-agent-plugin/api/HttpClient.php</small>")
         api_httpclient_httpclient_request_2f705e2e("request()<br/><small>wordpress-agent-plugin/api/HttpClient.php</small>")
     end
+    api_auditroutes_createauditroutes_5ab6232e("createAuditRoutes()<br/><small>src/api/auditRoutes.js</small>")
     api_jobroutes_createjobroutes_5536329c("createJobRoutes()<br/><small>src/api/jobRoutes.js</small>")
     api_projectroutes_createprojectroutes_94d54574("createProjectRoutes()<br/><small>src/api/projectRoutes.js</small>")
     api_publishingroutes_createpublishingroutes_7f0ae22a("createPublishingRoutes()<br/><small>src/api/publishingRoutes.js</small>")
@@ -1418,42 +1419,42 @@ flowchart LR
     api_siteroutes_createsiteroutes_bd71ba7a("createSiteRoutes()<br/><small>src/api/siteRoutes.js</small>")
     api_statusroutes_createstatusroutes_f6c6fcdf("createStatusRoutes()<br/><small>src/api/statusRoutes.js</small>")
     api_wordpressroutes_createwordpressroutes_5d891f33("createWordPressRoutes()<br/><small>src/api/wordpressRoutes.js</small>")
-    src_index_main_fa40efad("main()<br/><small>src/index.js</small>")
     middleware_auth_createauthmiddleware_ed0174ed("createAuthMiddleware()<br/><small>src/middleware/auth.js</small>")
     middleware_ratelimiter_createratelimiter_ffe3ad15("createRateLimiter()<br/><small>src/middleware/rateLimiter.js</small>")
-    api_httpclient_httpclient_6136c1e1 -->|method| api_httpclient_httpclient_request_2f705e2e
-    api_auditroutes_createauditroutes_5ab6232e -->|calls| src_server_createapp_01c7056f
-    api_jobroutes_createjobroutes_5536329c -->|calls| src_server_createapp_01c7056f
-    api_projectroutes_createprojectroutes_94d54574 -->|calls| src_server_createapp_01c7056f
-    api_publishingroutes_createpublishingroutes_7f0ae22a -->|calls| src_server_createapp_01c7056f
-    api_rewriteroutes_createrewriteroutes_3b789aec -->|calls| src_server_createapp_01c7056f
-    api_siteroutes_createsiteroutes_bd71ba7a -->|calls| src_server_createapp_01c7056f
-    api_statusroutes_createstatusroutes_f6c6fcdf -->|calls| src_server_createapp_01c7056f
-    api_wordpressroutes_createwordpressroutes_5d891f33 -->|calls| src_server_createapp_01c7056f
-    src_index_main_fa40efad -->|calls| src_server_createapp_01c7056f
-    middleware_auth_createauthmiddleware_ed0174ed -->|calls| src_server_createapp_01c7056f
-    middleware_ratelimiter_createratelimiter_ffe3ad15 -->|calls| src_server_createapp_01c7056f
     src_server_express_b55b655b -->|calls| src_server_createapp_01c7056f
     src_server_createqueuerouter_c5394ad3 -->|calls| src_server_createapp_01c7056f
-    api_auditroutes_8b044ee0 -->|imports| src_server_87d42fc7
-    api_auditroutes_createauditroutes_5ab6232e -->|imports| src_server_87d42fc7
-    api_jobroutes_createjobroutes_5536329c -->|imports| src_server_87d42fc7
-    api_projectroutes_createprojectroutes_94d54574 -->|imports| src_server_87d42fc7
-    api_publishingroutes_createpublishingroutes_7f0ae22a -->|imports| src_server_87d42fc7
-    api_rewriteroutes_createrewriteroutes_3b789aec -->|imports| src_server_87d42fc7
-    api_siteroutes_createsiteroutes_bd71ba7a -->|imports| src_server_87d42fc7
-    api_statusroutes_createstatusroutes_f6c6fcdf -->|imports| src_server_87d42fc7
-    api_wordpressroutes_createwordpressroutes_5d891f33 -->|imports| src_server_87d42fc7
-    middleware_auth_createauthmiddleware_ed0174ed -->|imports| src_server_87d42fc7
-    %% Omitted for readability: 42 nodes, 1 edges
-    class src_server_createapp_01c7056f function;
-    class src_server_express_b55b655b function;
-    class src_server_createqueuerouter_c5394ad3 api;
+    src_server_createapp_01c7056f -->|calls| src_index_main_fa40efad
+    src_server_createapp_01c7056f -->|calls| api_auditroutes_createauditroutes_5ab6232e
+    src_server_createapp_01c7056f -->|calls| api_jobroutes_createjobroutes_5536329c
+    src_server_createapp_01c7056f -->|calls| api_projectroutes_createprojectroutes_94d54574
+    src_server_createapp_01c7056f -->|calls| api_publishingroutes_createpublishingroutes_7f0ae22a
+    src_server_createapp_01c7056f -->|calls| api_rewriteroutes_createrewriteroutes_3b789aec
+    src_server_createapp_01c7056f -->|calls| api_siteroutes_createsiteroutes_bd71ba7a
+    src_server_createapp_01c7056f -->|calls| api_statusroutes_createstatusroutes_f6c6fcdf
+    src_server_createapp_01c7056f -->|calls| api_wordpressroutes_createwordpressroutes_5d891f33
+    src_server_createapp_01c7056f -->|calls| middleware_auth_createauthmiddleware_ed0174ed
+    src_server_createapp_01c7056f -->|calls| middleware_ratelimiter_createratelimiter_ffe3ad15
+    api_httpclient_httpclient_6136c1e1 -->|method| api_httpclient_httpclient_request_2f705e2e
+    src_server_87d42fc7 -->|imports| src_index_811cdc82
+    src_server_87d42fc7 -->|imports| api_auditroutes_createauditroutes_5ab6232e
+    src_server_87d42fc7 -->|imports| api_jobroutes_createjobroutes_5536329c
+    src_server_87d42fc7 -->|imports| api_projectroutes_createprojectroutes_94d54574
+    src_server_87d42fc7 -->|imports| api_publishingroutes_createpublishingroutes_7f0ae22a
+    src_server_87d42fc7 -->|imports| api_rewriteroutes_createrewriteroutes_3b789aec
+    src_server_87d42fc7 -->|imports| api_siteroutes_createsiteroutes_bd71ba7a
+    src_server_87d42fc7 -->|imports| api_statusroutes_createstatusroutes_f6c6fcdf
+    src_server_87d42fc7 -->|imports| api_wordpressroutes_createwordpressroutes_5d891f33
+    src_server_87d42fc7 -->|imports| middleware_auth_createauthmiddleware_ed0174ed
+    %% Omitted for readability: 45 nodes, 2 edges
     class src_server_87d42fc7 module;
-    class api_auditroutes_createauditroutes_5ab6232e api;
-    class api_auditroutes_8b044ee0 api;
+    class src_server_createapp_01c7056f function;
+    class src_server_createqueuerouter_c5394ad3 api;
+    class src_server_express_b55b655b function;
+    class src_index_main_fa40efad function;
+    class src_index_811cdc82 module;
     class api_httpclient_httpclient_6136c1e1 entry;
     class api_httpclient_httpclient_request_2f705e2e function;
+    class api_auditroutes_createauditroutes_5ab6232e api;
     class api_jobroutes_createjobroutes_5536329c api;
     class api_projectroutes_createprojectroutes_94d54574 api;
     class api_publishingroutes_createpublishingroutes_7f0ae22a api;
@@ -1461,7 +1462,6 @@ flowchart LR
     class api_siteroutes_createsiteroutes_bd71ba7a api;
     class api_statusroutes_createstatusroutes_f6c6fcdf api;
     class api_wordpressroutes_createwordpressroutes_5d891f33 api;
-    class src_index_main_fa40efad function;
     class middleware_auth_createauthmiddleware_ed0174ed function;
     class middleware_ratelimiter_createratelimiter_ffe3ad15 function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
@@ -1487,14 +1487,150 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>auditRoutes.js</code><br><small style="color:var(--muted)">src/api/auditRoutes.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
   <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>auditRoutes.js node in src/api/auditRoutes.js.</td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>auditRoutes.js</code><br><small style="color:var(--muted)">src/api/auditRoutes.js</small><br><code>auth.js</code><br><small style="color:var(--muted)">src/middleware/auth.js</small><br><code>createAuditRoutes()</code><br><small style="color:var(--muted)">src/api/auditRoutes.js</small><br>+23 more</td>
+  <td>server.js node in src/server.js.</td>
 </tr>
 <tr>
   <td>2</td>
+  <td><code>express</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>express node in src/server.js.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><code>{ createStatusRoutes }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Verifies imports, entry points, or version behavior.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><code>{ createSiteRoutes }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createSiteRoutes } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>{ createProjectRoutes }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createProjectRoutes } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>{ createJobRoutes }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createJobRoutes } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>{ createAuditRoutes }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createAuditRoutes } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>{ createRewriteRoutes }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createRewriteRoutes } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>{ createPublishingRoutes }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createPublishingRoutes } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>{ createWordPressRoutes }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createWordPressRoutes } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>createQueueRouter</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>createQueueRouter node in src/server.js.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>{ loadSecurityConfig }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Reads, resolves, or persists project configuration.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>{ createAuthMiddleware }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createAuthMiddleware } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>{ createRateLimiter }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createRateLimiter } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>{ validateRewriteRequest }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ validateRewriteRequest } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>{ secureHeaders }</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ secureHeaders } node in src/server.js.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>createQueueRouter</code><br><small style="color:var(--muted)">src/server.js</small><br><code>express</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td><code>createAuditRoutes()</code><br><small style="color:var(--muted)">src/api/auditRoutes.js</small><br><code>createAuthMiddleware()</code><br><small style="color:var(--muted)">src/middleware/auth.js</small><br><code>createJobRoutes()</code><br><small style="color:var(--muted)">src/api/jobRoutes.js</small><br>+9 more</td>
+  <td>createApp() node in src/server.js.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>auditRoutes.js</code><br><small style="color:var(--muted)">src/api/auditRoutes.js</small></td>
+  <td><span class="tag tag-endpoint">API</span></td>
+  <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>auditRoutes.js node in src/api/auditRoutes.js.</td>
+</tr>
+<tr>
+  <td>19</td>
   <td><code>express</code><br><small style="color:var(--muted)">src/api/auditRoutes.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1502,23 +1638,23 @@ flowchart LR
   <td>express node in src/api/auditRoutes.js.</td>
 </tr>
 <tr>
-  <td>3</td>
+  <td>20</td>
   <td><code>createAuditRoutes()</code><br><small style="color:var(--muted)">src/api/auditRoutes.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
   <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small><br><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>No direct outbound edge</td>
   <td>createAuditRoutes() node in src/api/auditRoutes.js.</td>
 </tr>
 <tr>
-  <td>4</td>
+  <td>21</td>
   <td><code>jobRoutes.js</code><br><small style="color:var(--muted)">src/api/jobRoutes.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
   <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>No direct outbound edge</td>
   <td>jobRoutes.js node in src/api/jobRoutes.js.</td>
 </tr>
 <tr>
-  <td>5</td>
+  <td>22</td>
   <td><code>express</code><br><small style="color:var(--muted)">src/api/jobRoutes.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1526,23 +1662,23 @@ flowchart LR
   <td>express node in src/api/jobRoutes.js.</td>
 </tr>
 <tr>
-  <td>6</td>
+  <td>23</td>
   <td><code>createJobRoutes()</code><br><small style="color:var(--muted)">src/api/jobRoutes.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
   <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small><br><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>No direct outbound edge</td>
   <td>createJobRoutes() node in src/api/jobRoutes.js.</td>
 </tr>
 <tr>
-  <td>7</td>
+  <td>24</td>
   <td><code>projectRoutes.js</code><br><small style="color:var(--muted)">src/api/projectRoutes.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
   <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>No direct outbound edge</td>
   <td>projectRoutes.js node in src/api/projectRoutes.js.</td>
 </tr>
 <tr>
-  <td>8</td>
+  <td>25</td>
   <td><code>express</code><br><small style="color:var(--muted)">src/api/projectRoutes.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1550,23 +1686,23 @@ flowchart LR
   <td>express node in src/api/projectRoutes.js.</td>
 </tr>
 <tr>
-  <td>9</td>
+  <td>26</td>
   <td><code>createProjectRoutes()</code><br><small style="color:var(--muted)">src/api/projectRoutes.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
   <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small><br><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>No direct outbound edge</td>
   <td>createProjectRoutes() node in src/api/projectRoutes.js.</td>
 </tr>
 <tr>
-  <td>10</td>
+  <td>27</td>
   <td><code>publishingRoutes.js</code><br><small style="color:var(--muted)">src/api/publishingRoutes.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
   <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>No direct outbound edge</td>
   <td>publishingRoutes.js node in src/api/publishingRoutes.js.</td>
 </tr>
 <tr>
-  <td>11</td>
+  <td>28</td>
   <td><code>express</code><br><small style="color:var(--muted)">src/api/publishingRoutes.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1574,156 +1710,20 @@ flowchart LR
   <td>express node in src/api/publishingRoutes.js.</td>
 </tr>
 <tr>
-  <td>12</td>
+  <td>29</td>
   <td><code>createPublishingRoutes()</code><br><small style="color:var(--muted)">src/api/publishingRoutes.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
   <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small><br><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>No direct outbound edge</td>
   <td>createPublishingRoutes() node in src/api/publishingRoutes.js.</td>
 </tr>
 <tr>
-  <td>13</td>
+  <td>30</td>
   <td><code>rewriteRoutes.js</code><br><small style="color:var(--muted)">src/api/rewriteRoutes.js</small></td>
   <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
   <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
+  <td>No direct outbound edge</td>
   <td>rewriteRoutes.js node in src/api/rewriteRoutes.js.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>express</code><br><small style="color:var(--muted)">src/api/rewriteRoutes.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>express node in src/api/rewriteRoutes.js.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>createRewriteRoutes()</code><br><small style="color:var(--muted)">src/api/rewriteRoutes.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small><br><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>createRewriteRoutes() node in src/api/rewriteRoutes.js.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>siteRoutes.js</code><br><small style="color:var(--muted)">src/api/siteRoutes.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>siteRoutes.js node in src/api/siteRoutes.js.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>express</code><br><small style="color:var(--muted)">src/api/siteRoutes.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>express node in src/api/siteRoutes.js.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>createSiteRoutes()</code><br><small style="color:var(--muted)">src/api/siteRoutes.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small><br><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>createSiteRoutes() node in src/api/siteRoutes.js.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>statusRoutes.js</code><br><small style="color:var(--muted)">src/api/statusRoutes.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>statusRoutes.js node in src/api/statusRoutes.js.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>express</code><br><small style="color:var(--muted)">src/api/statusRoutes.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>express node in src/api/statusRoutes.js.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>createStatusRoutes()</code><br><small style="color:var(--muted)">src/api/statusRoutes.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small><br><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>Verifies imports, entry points, or version behavior.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>wordpressRoutes.js</code><br><small style="color:var(--muted)">src/api/wordpressRoutes.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>wordpressRoutes.js node in src/api/wordpressRoutes.js.</td>
-</tr>
-<tr>
-  <td>23</td>
-  <td><code>express</code><br><small style="color:var(--muted)">src/api/wordpressRoutes.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>express node in src/api/wordpressRoutes.js.</td>
-</tr>
-<tr>
-  <td>24</td>
-  <td><code>createWordPressRoutes()</code><br><small style="color:var(--muted)">src/api/wordpressRoutes.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small><br><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>createWordPressRoutes() node in src/api/wordpressRoutes.js.</td>
-</tr>
-<tr>
-  <td>25</td>
-  <td><code>index.js</code><br><small style="color:var(--muted)">src/index.js</small></td>
-  <td><span class="tag tag-class">Module</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small><br><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>index.js node in src/index.js.</td>
-</tr>
-<tr>
-  <td>26</td>
-  <td><code>{ BootstrapManager }</code><br><small style="color:var(--muted)">src/index.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>{ BootstrapManager } node in src/index.js.</td>
-</tr>
-<tr>
-  <td>27</td>
-  <td><code>{ createApp }</code><br><small style="color:var(--muted)">src/index.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>{ createApp } node in src/index.js.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>main()</code><br><small style="color:var(--muted)">src/index.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>createApp()</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>main() node in src/index.js.</td>
-</tr>
-<tr>
-  <td>29</td>
-  <td><code>auth.js</code><br><small style="color:var(--muted)">src/middleware/auth.js</small></td>
-  <td><span class="tag tag-class">Module</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>server.js</code><br><small style="color:var(--muted)">src/server.js</small></td>
-  <td>auth.js node in src/middleware/auth.js.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>crypto</code><br><small style="color:var(--muted)">src/middleware/auth.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>crypto node in src/middleware/auth.js.</td>
 </tr>
 </table>
 
@@ -1736,87 +1736,76 @@ flowchart LR
 <tr><td><code>src/index.js</code></td><td>4 nodes</td></tr>
 <tr><td><code>src/api/auditRoutes.js</code></td><td>3 nodes</td></tr>
 <tr><td><code>src/api/jobRoutes.js</code></td><td>3 nodes</td></tr>
+<tr><td><code>src/api/pluginRoutes.js</code></td><td>3 nodes</td></tr>
 <tr><td><code>src/api/projectRoutes.js</code></td><td>3 nodes</td></tr>
 <tr><td><code>src/api/publishingRoutes.js</code></td><td>3 nodes</td></tr>
 <tr><td><code>src/api/rewriteRoutes.js</code></td><td>3 nodes</td></tr>
-<tr><td><code>src/api/siteRoutes.js</code></td><td>3 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x43, imports x14, imports x13, calls x13. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x45, imports x14, imports x13, calls x13. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
 <!-- ====== 8. Tests & Fixtures ====== -->
 <h2 id="tests-fixtures">8. Tests &amp; Fixtures</h2>
-<p>Tests &amp; Fixtures groups implementation around claudemanagerjs, services, test, scripts, mostly in src/services/ClaudeManager.js, README.md, src/errors/ClaudeErrors.js. This section covers 113 nodes and 158 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Tests &amp; Fixtures groups implementation around services, claudemanagerjs, test, scripts, mostly in src/services/ClaudeManager.js, src/errors/ClaudeErrors.js, README.md. This section covers 125 nodes and 175 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Tests &amp; Fixtures (113 nodes, 158 edges)
+    %% Section: Tests &amp; Fixtures (125 nodes, 175 edges)
     subgraph tests_fixtures_src_errors_ClaudeErrors_js_5b59ac58["src/errors/ClaudeErrors.js"]
         errors_claudeerrors_createclaudeerror_07bee0f5("createClaudeError()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_e454675d("ClaudeErrors.js")
         errors_claudeerrors_normalizeerror_68f137ec("normalizeError()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_validationerror_f7e8533c("ValidationError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_claudeerror_a5dc4ebb("ClaudeError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_claudeerror_constructor_0d940856("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_browsererror_9738120d("BrowserError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_browsererror_constructor_5ded3364("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_profilelockerror_6b4635a4("ProfileLockError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_profilelockerror_constructor_24bfd4e1("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_validationerror_constructor_3ea3ecd2("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_invalidprojectcontenterror_144aa5b9("InvalidProjectContentError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_invalidprojectcontenterror_c_111f0234("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_invalidresponsequalityerror_909acd1a("InvalidResponseQualityError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_invalidresponsequalityerror_e49849a7("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_recoveryreport_416bd925("RecoveryReport<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_recoveryreport_constructor_17cc09da("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
     end
     subgraph tests_fixtures_src_services_ClaudeManager_js_ac9c43dd["src/services/ClaudeManager.js"]
         services_claudemanager_claudemanager_82714a68("ClaudeManager<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_sendprompto_d381983d("_sendPromptOnce()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_waitforresp_bbec29d5("waitForResponse()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_detecterror_29c63e39("detectErrors()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_ensurehealt_410feed0("ensureHealthy()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_retry_e9a5a30f("retry()<br/><small>src/services/ClaudeManager.js</small>")
     end
     errors_claudeerrors_claudeerror_a5dc4ebb -->|method| errors_claudeerrors_claudeerror_constructor_0d940856
+    errors_claudeerrors_browsererror_9738120d -->|method| errors_claudeerrors_browsererror_constructor_5ded3364
+    errors_claudeerrors_profilelockerror_6b4635a4 -->|method| errors_claudeerrors_profilelockerror_constructor_24bfd4e1
     errors_claudeerrors_validationerror_f7e8533c -->|method| errors_claudeerrors_validationerror_constructor_3ea3ecd2
     errors_claudeerrors_invalidprojectcontenterror_144aa5b9 -->|method| errors_claudeerrors_invalidprojectcontenterror_c_111f0234
     errors_claudeerrors_invalidresponsequalityerror_909acd1a -->|method| errors_claudeerrors_invalidresponsequalityerror_e49849a7
-    errors_claudeerrors_recoveryreport_416bd925 -->|method| errors_claudeerrors_recoveryreport_constructor_17cc09da
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_detecterror_29c63e39
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_ensurehealt_410feed0
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_retry_e9a5a30f
     errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_sendprompto_d381983d
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_waitforresp_bbec29d5
-    errors_claudeerrors_normalizeerror_68f137ec -->|calls| services_claudemanager_claudemanager_ensurehealt_410feed0
-    errors_claudeerrors_normalizeerror_68f137ec -->|calls| services_claudemanager_claudemanager_retry_e9a5a30f
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_detecterror_29c63e39
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_ensurehealt_410feed0
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_retry_e9a5a30f
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_sendprompto_d381983d
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_waitforresp_bbec29d5
-    services_claudemanager_claudemanager_ensurehealt_410feed0 -->|calls| services_claudemanager_claudemanager_detecterror_29c63e39
-    services_claudemanager_claudemanager_waitforresp_bbec29d5 -->|calls| services_claudemanager_claudemanager_detecterror_29c63e39
-    %% Omitted for readability: 95 nodes, 0 edges
+    %% Omitted for readability: 107 nodes, 0 edges
     class errors_claudeerrors_createclaudeerror_07bee0f5 function;
+    class errors_claudeerrors_e454675d klass;
     class errors_claudeerrors_normalizeerror_68f137ec function;
     class errors_claudeerrors_validationerror_f7e8533c klass;
     class errors_claudeerrors_claudeerror_a5dc4ebb klass;
     class errors_claudeerrors_claudeerror_constructor_0d940856 function;
+    class errors_claudeerrors_browsererror_9738120d klass;
+    class errors_claudeerrors_browsererror_constructor_5ded3364 function;
+    class errors_claudeerrors_profilelockerror_6b4635a4 klass;
+    class errors_claudeerrors_profilelockerror_constructor_24bfd4e1 function;
     class errors_claudeerrors_validationerror_constructor_3ea3ecd2 function;
     class errors_claudeerrors_invalidprojectcontenterror_144aa5b9 klass;
     class errors_claudeerrors_invalidprojectcontenterror_c_111f0234 function;
     class errors_claudeerrors_invalidresponsequalityerror_909acd1a klass;
     class errors_claudeerrors_invalidresponsequalityerror_e49849a7 function;
     class errors_claudeerrors_recoveryreport_416bd925 klass;
-    class errors_claudeerrors_recoveryreport_constructor_17cc09da function;
     class services_claudemanager_claudemanager_82714a68 klass;
     class services_claudemanager_claudemanager_sendprompto_d381983d function;
-    class services_claudemanager_claudemanager_waitforresp_bbec29d5 function;
-    class services_claudemanager_claudemanager_detecterror_29c63e39 function;
-    class services_claudemanager_claudemanager_ensurehealt_410feed0 function;
-    class services_claudemanager_claudemanager_retry_e9a5a30f function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -1843,7 +1832,7 @@ flowchart LR
   <td><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>validation.test.js</code><br><small style="color:var(--muted)">tests/validation.test.js</small></td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>validation.test.js</code><br><small style="color:var(--muted)">tests/validation.test.js</small></td>
   <td>ClaudeErrors.js node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
@@ -1864,6 +1853,38 @@ flowchart LR
 </tr>
 <tr>
   <td>4</td>
+  <td><code>BrowserError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>BrowserError node in src/errors/ClaudeErrors.js.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BrowserError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>ProfileLockError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>ProfileLockError node in src/errors/ClaudeErrors.js.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ProfileLockError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
+</tr>
+<tr>
+  <td>8</td>
   <td><code>ValidationError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1871,7 +1892,7 @@ flowchart LR
   <td>ValidationError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>5</td>
+  <td>9</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ValidationError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -1879,7 +1900,7 @@ flowchart LR
   <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>6</td>
+  <td>10</td>
   <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1887,7 +1908,7 @@ flowchart LR
   <td>InvalidProjectContentError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>7</td>
+  <td>11</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -1895,7 +1916,7 @@ flowchart LR
   <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>8</td>
+  <td>12</td>
   <td><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1903,7 +1924,7 @@ flowchart LR
   <td>InvalidResponseQualityError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>9</td>
+  <td>13</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -1911,7 +1932,7 @@ flowchart LR
   <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>10</td>
+  <td>14</td>
   <td><code>RecoveryReport</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1919,7 +1940,7 @@ flowchart LR
   <td>RecoveryReport node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>11</td>
+  <td>15</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>RecoveryReport</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -1927,7 +1948,7 @@ flowchart LR
   <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>12</td>
+  <td>16</td>
   <td><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1935,7 +1956,7 @@ flowchart LR
   <td>createClaudeError() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>13</td>
+  <td>17</td>
   <td><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1943,15 +1964,79 @@ flowchart LR
   <td>normalizeError() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>14</td>
+  <td>18</td>
+  <td><code>WorkerState.js</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>WorkerState.js node in src/models/WorkerState.js.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>WORKER_STATES</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>WORKER_STATES node in src/models/WorkerState.js.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>BrowserError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ProfileLockError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+2 more</td>
+  <td>No direct outbound edge</td>
+  <td>BrowserManager.js node in src/services/BrowserManager.js.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>{ chromium }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ chromium } node in src/services/BrowserManager.js.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>stealth</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>stealth node in src/services/BrowserManager.js.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>{ spawnSync }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ spawnSync } node in src/services/BrowserManager.js.</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ WORKER_STATES } node in src/services/BrowserManager.js.</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td><code>{ BrowserError, ProfileLockError }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ BrowserError, ProfileLockError } node in src/services/BrowserManager.js.</td>
+</tr>
+<tr>
+  <td>26</td>
   <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
-  <td><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+4 more</td>
+  <td><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+6 more</td>
   <td><code>validation.test.js</code><br><small style="color:var(--muted)">tests/validation.test.js</small></td>
   <td>ClaudeManager.js node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>15</td>
+  <td>27</td>
   <td><code>fs</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1959,7 +2044,7 @@ flowchart LR
   <td>fs node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>16</td>
+  <td>28</td>
   <td><code>path</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1967,7 +2052,7 @@ flowchart LR
   <td>path node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>17</td>
+  <td>29</td>
   <td><code>{ 
     ValidationError, 
     RecoveryReport, 
@@ -1989,108 +2074,12 @@ flowchart LR
 } node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>18</td>
+  <td>30</td>
   <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
   <td>{ WORKER_STATES } node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>SELECTORS</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>SELECTORS node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>_attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_captureDiagnostics()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_containsMeaningfulContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+28 more</td>
-  <td>ClaudeManager node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.constructor() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>.initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_ensureClaudeHome()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.initialize() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>23</td>
-  <td><code>.ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.ensureHealthy() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>24</td>
-  <td><code>.sendPrompt()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><code>retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>Builds structured prompts for model calls.</td>
-</tr>
-<tr>
-  <td>25</td>
-  <td><code>._extractChatId()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>Supports retrieval-augmented Q&amp;A or streaming chat.</td>
-</tr>
-<tr>
-  <td>26</td>
-  <td><code>.waitForResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td><code>_readResponseState()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_sleep()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectCompletion()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+1 more</td>
-  <td>.waitForResponse() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>27</td>
-  <td><code>.detectCompletion()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>waitForResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_isInputReady()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>findFirstAvailable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>isAnyVisible()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.detectCompletion() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>.detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ensureHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+2 more</td>
-  <td><code>_getPageSnapshot()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>SELECTORS_MATCH()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.detectErrors() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>29</td>
-  <td><code>.validateResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_containsMeaningfulContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.validateResponse() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>.retry()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+1 more</td>
-  <td><code>_isRetryable()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_sleep()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>recover()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.retry() node in src/services/ClaudeManager.js.</td>
 </tr>
 </table>
 
@@ -2100,18 +2089,18 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>src/services/ClaudeManager.js</code></td><td>37 nodes</td></tr>
+<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>17 nodes</td></tr>
 <tr><td><code>README.md</code></td><td>16 nodes</td></tr>
-<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>13 nodes</td></tr>
 <tr><td><code>tests/stabilization.test.js</code></td><td>11 nodes</td></tr>
 <tr><td><code>SOAK_TEST_PLAN.md</code></td><td>7 nodes</td></tr>
+<tr><td><code>src/services/BrowserManager.js</code></td><td>6 nodes</td></tr>
 <tr><td><code>DEPLOYMENT_STAGING.md</code></td><td>5 nodes</td></tr>
 <tr><td><code>scripts/test_clipboard.js</code></td><td>5 nodes</td></tr>
-<tr><td><code>scripts/test_input_selectors.js</code></td><td>4 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x66, calls x44, method x35, imports x8. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x74, calls x44, method x37, imports x12. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -3964,65 +3953,64 @@ flowchart LR
 
 <!-- ====== 16. Other ====== -->
 <h2 id="other">16. Other</h2>
-<p>Other groups implementation around services, scripts, repositories, claudeworkerjs, mostly in src/services/JobService.js, src/services/ProjectService.js, src/repositories/WordPressRepository.js. This section covers 350 nodes and 344 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Other groups implementation around services, repositories, scripts, claudeworkerjs, mostly in src/services/JobService.js, src/services/ProjectService.js, src/repositories/WordPressRepository.js. This section covers 362 nodes and 353 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Other (350 nodes, 344 edges)
-    subgraph other_src_workers_ClaudeWorker_js_f29ca355["src/workers/ClaudeWorker.js"]
-        workers_claudeworker_claudeworker_059ee0ad("ClaudeWorker<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_constructor_7a72a9db("constructor()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_executejob_b308bfb8("executeJob()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_getqueuesize_dbd4147f("getQueueSize()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_getstatussnaps_d7f48959("getStatusSnapshot()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_initialize_48fb9c89("initialize()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_ishealthy_28d1e3a1("isHealthy()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_processpending_d90b0e14("_processPendingJobs()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_recordjobchat_8ac494e5("_recordJobChat()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_resetworkersta_42db8229("_resetWorkerState()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_rewrite_33b41255("rewrite()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_saveresponse_0bbb63ae("_saveResponse()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_startprocessin_7287b1b1("startProcessing()<br/><small>src/workers/ClaudeWorker.js</small>")
+    %% Section: Other (362 nodes, 353 edges)
+    subgraph other_src_repositories_PluginRepository_js_f04dd16c["src/repositories/PluginRepository.js"]
+        repositories_pluginrepository_pluginrepository_bf8a60f2("PluginRepository<br/><small>src/repositories/PluginRepository.js</small>")
+        repositories_pluginrepository_pluginrepository_c_b57c70df("constructor()<br/><small>src/repositories/PluginRepository.js</small>")
+        repositories_pluginrepository_pluginrepository_c_3db901da("createInstallation()<br/><small>src/repositories/PluginRepository.js</small>")
+        repositories_pluginrepository_pluginrepository_f_8d2004ac("findByToken()<br/><small>src/repositories/PluginRepository.js</small>")
+        repositories_pluginrepository_pluginrepository_f_d81584e7("findByUuid()<br/><small>src/repositories/PluginRepository.js</small>")
+        repositories_pluginrepository_pluginrepository_u_e3dd2678("updateCapabilities()<br/><small>src/repositories/PluginRepository.js</small>")
+        repositories_pluginrepository_pluginrepository_u_5872a158("updateHeartbeat()<br/><small>src/repositories/PluginRepository.js</small>")
+        repositories_pluginrepository_pluginrepository_u_4b2df2a5("updateInstallation()<br/><small>src/repositories/PluginRepository.js</small>")
+        repositories_pluginrepository_pluginrepository_u_580b791b("updatePresence()<br/><small>src/repositories/PluginRepository.js</small>")
+    end
+    subgraph other_src_services_CompatibilityService_js_67f43027["src/services/CompatibilityService.js"]
+        services_compatibilityservice_compatibilityservi_101cc142("CompatibilityService<br/><small>src/services/CompatibilityService.js</small>")
+        services_compatibilityservice_compatibilityservi_742e7bff("compare()<br/><small>src/services/CompatibilityService.js</small>")
+        services_compatibilityservice_compatibilityservi_897ee348("_compareVersions()<br/><small>src/services/CompatibilityService.js</small>")
     end
     repositories_wordpressrepository_wordpressreposi_138aa21c("WordPressRepository<br/><small>src/repositories/WordPressRepository.js</small>")
     services_claudeworker_claudeworker_c12a2e46("ClaudeWorker<br/><small>src/services/ClaudeWorker.js</small>")
     services_jobservice_jobservice_a9bacbfb("JobService<br/><small>src/services/JobService.js</small>")
     services_metricsservice_metricsservice_efffe9e2("MetricsService<br/><small>src/services/MetricsService.js</small>")
     services_projectservice_projectservice_9a982c56("ProjectService<br/><small>src/services/ProjectService.js</small>")
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_constructor_7a72a9db
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_executejob_b308bfb8
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_getqueuesize_dbd4147f
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_getstatussnaps_d7f48959
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_initialize_48fb9c89
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_ishealthy_28d1e3a1
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_processpending_d90b0e14
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_recordjobchat_8ac494e5
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_resetworkersta_42db8229
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_rewrite_33b41255
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_saveresponse_0bbb63ae
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_startprocessin_7287b1b1
-    workers_claudeworker_claudeworker_processpending_d90b0e14 -->|calls| workers_claudeworker_claudeworker_executejob_b308bfb8
-    workers_claudeworker_claudeworker_executejob_b308bfb8 -->|calls| workers_claudeworker_claudeworker_rewrite_33b41255
-    %% Omitted for readability: 332 nodes, 0 edges
-    class workers_claudeworker_claudeworker_059ee0ad klass;
-    class workers_claudeworker_claudeworker_constructor_7a72a9db function;
-    class workers_claudeworker_claudeworker_executejob_b308bfb8 function;
-    class workers_claudeworker_claudeworker_getqueuesize_dbd4147f function;
-    class workers_claudeworker_claudeworker_getstatussnaps_d7f48959 function;
-    class workers_claudeworker_claudeworker_initialize_48fb9c89 function;
-    class workers_claudeworker_claudeworker_ishealthy_28d1e3a1 function;
-    class workers_claudeworker_claudeworker_processpending_d90b0e14 function;
-    class workers_claudeworker_claudeworker_recordjobchat_8ac494e5 function;
-    class workers_claudeworker_claudeworker_resetworkersta_42db8229 function;
-    class workers_claudeworker_claudeworker_rewrite_33b41255 function;
-    class workers_claudeworker_claudeworker_saveresponse_0bbb63ae function;
-    class workers_claudeworker_claudeworker_startprocessin_7287b1b1 function;
+    workers_claudeworker_claudeworker_059ee0ad("ClaudeWorker<br/><small>src/workers/ClaudeWorker.js</small>")
+    repositories_pluginrepository_pluginrepository_bf8a60f2 -->|method| repositories_pluginrepository_pluginrepository_c_b57c70df
+    repositories_pluginrepository_pluginrepository_bf8a60f2 -->|method| repositories_pluginrepository_pluginrepository_c_3db901da
+    repositories_pluginrepository_pluginrepository_bf8a60f2 -->|method| repositories_pluginrepository_pluginrepository_f_8d2004ac
+    repositories_pluginrepository_pluginrepository_bf8a60f2 -->|method| repositories_pluginrepository_pluginrepository_f_d81584e7
+    repositories_pluginrepository_pluginrepository_bf8a60f2 -->|method| repositories_pluginrepository_pluginrepository_u_e3dd2678
+    repositories_pluginrepository_pluginrepository_bf8a60f2 -->|method| repositories_pluginrepository_pluginrepository_u_5872a158
+    repositories_pluginrepository_pluginrepository_bf8a60f2 -->|method| repositories_pluginrepository_pluginrepository_u_4b2df2a5
+    repositories_pluginrepository_pluginrepository_bf8a60f2 -->|method| repositories_pluginrepository_pluginrepository_u_580b791b
+    services_compatibilityservice_compatibilityservi_101cc142 -->|method| services_compatibilityservice_compatibilityservi_742e7bff
+    services_compatibilityservice_compatibilityservi_101cc142 -->|method| services_compatibilityservice_compatibilityservi_897ee348
+    services_compatibilityservice_compatibilityservi_742e7bff -->|calls| services_compatibilityservice_compatibilityservi_897ee348
+    %% Omitted for readability: 344 nodes, 0 edges
+    class repositories_pluginrepository_pluginrepository_bf8a60f2 klass;
+    class repositories_pluginrepository_pluginrepository_c_b57c70df function;
+    class repositories_pluginrepository_pluginrepository_c_3db901da function;
+    class repositories_pluginrepository_pluginrepository_f_8d2004ac function;
+    class repositories_pluginrepository_pluginrepository_f_d81584e7 function;
+    class repositories_pluginrepository_pluginrepository_u_e3dd2678 function;
+    class repositories_pluginrepository_pluginrepository_u_5872a158 function;
+    class repositories_pluginrepository_pluginrepository_u_4b2df2a5 function;
+    class repositories_pluginrepository_pluginrepository_u_580b791b function;
+    class services_compatibilityservice_compatibilityservi_101cc142 klass;
+    class services_compatibilityservice_compatibilityservi_742e7bff function;
+    class services_compatibilityservice_compatibilityservi_897ee348 function;
     class repositories_wordpressrepository_wordpressreposi_138aa21c klass;
     class services_claudeworker_claudeworker_c12a2e46 klass;
     class services_jobservice_jobservice_a9bacbfb klass;
     class services_metricsservice_metricsservice_efffe9e2 async;
     class services_projectservice_projectservice_9a982c56 klass;
+    class workers_claudeworker_claudeworker_059ee0ad klass;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -4303,7 +4291,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: method x159, contains x132, calls x38, imports x8. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: method x173, contains x130, calls x39, imports x6. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4357,17 +4345,17 @@ flowchart LR
   <div class="card">
     <h4>Graph</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>Nodes</td><td>1073</td></tr>
-      <tr><td>Edges</td><td>1332</td></tr>
+      <tr><td>Nodes</td><td>1105</td></tr>
+      <tr><td>Edges</td><td>1362</td></tr>
       <tr><td>Hyperedges</td><td>4</td></tr>
-      <tr><td>Communities</td><td>114</td></tr>
+      <tr><td>Communities</td><td>116</td></tr>
       <tr><td>Documented Sections</td><td>15</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Edge Confidence</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>EXTRACTED</td><td>1327</td></tr>
+      <tr><td>EXTRACTED</td><td>1357</td></tr>
       <tr><td>INFERRED</td><td>5</td></tr>
       <tr><td>AMBIGUOUS</td><td>0</td></tr>
     </table>
@@ -4376,7 +4364,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>n8n — Architecture Documentation</p>
-  <p>Generated: 2026-06-26 07:01 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-06-29 03:48 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->

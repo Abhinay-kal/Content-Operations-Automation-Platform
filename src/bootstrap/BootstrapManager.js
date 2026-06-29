@@ -8,7 +8,11 @@ const { SiteRepository } = require('../repositories/SiteRepository');
 const { ProjectRepository } = require('../repositories/ProjectRepository');
 const { LogRepository, EventRepository } = require('../repositories/LogRepository');
 const { WordPressRepository } = require('../repositories/WordPressRepository');
-const { PublishingRepository } = require('../repositories/PublishingRepository'); // Import Publishing repository\nconst { PluginRepository } = require('../repositories/PluginRepository');\nconst { TokenService } = require('../services/TokenService');\nconst { CompatibilityService } = require('../services/CompatibilityService');\nconst { PluginService } = require('../services/PluginService');
+const { PublishingRepository } = require('../repositories/PublishingRepository'); // Import Publishing repository
+const { PluginRepository } = require('../repositories/PluginRepository');
+const { TokenService } = require('../services/TokenService');
+const { CompatibilityService } = require('../services/CompatibilityService');
+const { PluginService } = require('../services/PluginService');
 const JobService = require('../services/JobService');
 const { SiteService } = require('../services/SiteService');
 const { ProjectService } = require('../services/ProjectService');
@@ -127,7 +131,11 @@ class BootstrapManager {
             const logRepository = new LogRepository(this.db);
             const eventRepository = new EventRepository(this.db);
             const wordpressRepository = new WordPressRepository(this.db);
-            const publishingRepository = new PublishingRepository(this.db);\n            const pluginRepository = new PluginRepository(this.db);\n            const tokenService = new TokenService();\n            const compatibilityService = new CompatibilityService();\n            const pluginService = new PluginService({ pluginRepository, tokenService, compatibilityService, logger: this.logger.db });
+            const publishingRepository = new PublishingRepository(this.db);
+            const pluginRepository = new PluginRepository(this.db);
+            const tokenService = new TokenService();
+            const compatibilityService = new CompatibilityService();
+            const pluginService = new PluginService({ pluginRepository, tokenService, compatibilityService, logger: this.logger.db });
             
             const siteService = new SiteService({ siteRepository, logger: this.logger.db, config: this.config });
             const syncService = new SyncService({ siteService, wordpressRepository, logger: this.logger.db });
@@ -150,7 +158,11 @@ class BootstrapManager {
             const publishingService = new PublishingService({
                 siteService,
                 projectService,
-                publishingRepository,\n                pluginRepository,\n                tokenService,\n                compatibilityService,\n                pluginService,
+                publishingRepository,
+                pluginRepository,
+                tokenService,
+                compatibilityService,
+                pluginService,
                 eventRepository,
                 logger: this.logger.db
             });

@@ -180,8 +180,8 @@
     "semantic_hash": "da47d4a21d7de3faab0b84c42520c1c0"
   },
   "src/bootstrap/BootstrapManager.js": {
-    "mtime": 1782704900.7333786,
-    "ast_hash": "3635b9eb2eddabe75edad716fb19e640",
+    "mtime": 1782457235.06875,
+    "ast_hash": "3fbae0ea77016ac6505b1926cbf11e34",
     "semantic_hash": ""
   },
   "src/bootstrap/PreFlightValidator.js": {
@@ -325,9 +325,9 @@
     "semantic_hash": "87beee9d1701c3dbf30ab31e28f3e107"
   },
   "src/server.js": {
-    "mtime": 1782704900.734149,
-    "ast_hash": "8c23d69a5bcc97ed867b2aaff68bfc30",
-    "semantic_hash": ""
+    "mtime": 1781503497.7638776,
+    "ast_hash": "ef94090a5c07477de6a616a43f11a6e6",
+    "semantic_hash": "ef94090a5c07477de6a616a43f11a6e6"
   },
   "src/services/BrowserManager.js": {
     "mtime": 1782300449.1194663,
@@ -845,8 +845,8 @@
     "semantic_hash": ""
   },
   "schema.sql": {
-    "mtime": 1782704900.7322302,
-    "ast_hash": "be1abdff35dc5ccf3b173e2b376f9959",
+    "mtime": 1782387632.5709953,
+    "ast_hash": "705bb903679b549d0dd1d653fe0a6829",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/admin/Menu.php": {
@@ -1087,86 +1087,6 @@
   "CLEANUP_DELIVERABLE_REPORT.md": {
     "mtime": 1782457280.340713,
     "ast_hash": "ebc5b6373b0429e32345deff8d3f771b",
-    "semantic_hash": ""
-  },
-  ".understand-anything/.trash-1782584330/assembled-graph.json": {
-    "mtime": 1782584288.5630338,
-    "ast_hash": "3a3676c4674542abdb7adb9018503b27",
-    "semantic_hash": ""
-  },
-  ".understand-anything/.trash-1782584330/batch-1.json": {
-    "mtime": 1782584288.499808,
-    "ast_hash": "031237a183b48d87839af33a06364e45",
-    "semantic_hash": ""
-  },
-  ".understand-anything/.trash-1782584330/batches.json": {
-    "mtime": 1782582211.6157763,
-    "ast_hash": "3d6cc98e7e42b181f0337042c29c3edc",
-    "semantic_hash": ""
-  },
-  ".understand-anything/.trash-1782584330/fingerprint-input.json": {
-    "mtime": 1782584310.6742136,
-    "ast_hash": "12a63b80b97a1d05f6cbab328f4adda0",
-    "semantic_hash": ""
-  },
-  ".understand-anything/.trash-1782584330/layers.json": {
-    "mtime": 1782584295.8323324,
-    "ast_hash": "2368dfcafa6c01f54ea648ce38d76093",
-    "semantic_hash": ""
-  },
-  ".understand-anything/.trash-1782584330/tmp/ua-scan-files.json": {
-    "mtime": 1782584273.4279878,
-    "ast_hash": "119e399f23eaef4e140ec227cfcf1794",
-    "semantic_hash": ""
-  },
-  ".understand-anything/.trash-1782584330/tour.json": {
-    "mtime": 1782584295.8359027,
-    "ast_hash": "36ab5343b499ad6f07335ea8e9576703",
-    "semantic_hash": ""
-  },
-  ".understand-anything/fingerprints.json": {
-    "mtime": 1782584317.1459894,
-    "ast_hash": "218a2fd28ed404f0270596c55f60e448",
-    "semantic_hash": ""
-  },
-  ".understand-anything/intermediate/scan-result.json": {
-    "mtime": 1782582204.751111,
-    "ast_hash": "994add61a585b03f1dd45417eb5d262e",
-    "semantic_hash": ""
-  },
-  ".understand-anything/knowledge-graph.json": {
-    "mtime": 1782584305.044303,
-    "ast_hash": "94e0edd3b3934d6f8ea4f5da33202b6a",
-    "semantic_hash": ""
-  },
-  ".understand-anything/meta.json": {
-    "mtime": 1782584323.6753888,
-    "ast_hash": "42b521e5d239b19856e70032c7d924b6",
-    "semantic_hash": ""
-  },
-  "src/api/pluginRoutes.js": {
-    "mtime": 1782704900.7315998,
-    "ast_hash": "6fd77e0080a02690b5f100831d23d29a",
-    "semantic_hash": ""
-  },
-  "src/repositories/PluginRepository.js": {
-    "mtime": 1782704900.7302613,
-    "ast_hash": "20dec03b0b47340d9884b79423772d0f",
-    "semantic_hash": ""
-  },
-  "src/services/CompatibilityService.js": {
-    "mtime": 1782704900.730913,
-    "ast_hash": "00621c043963ac410088ceb7cb53ffd9",
-    "semantic_hash": ""
-  },
-  "src/services/PluginService.js": {
-    "mtime": 1782704900.7309682,
-    "ast_hash": "5fe3b653c9d4159ed162ec6e824fc379",
-    "semantic_hash": ""
-  },
-  "src/services/TokenService.js": {
-    "mtime": 1782704900.7308505,
-    "ast_hash": "5efdc4f1a4c44eb540da90d4577f9749",
     "semantic_hash": ""
   }
 }
