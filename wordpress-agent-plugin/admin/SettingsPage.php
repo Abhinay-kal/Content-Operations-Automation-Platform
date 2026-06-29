@@ -36,7 +36,10 @@ class SettingsPage {
         if (isset($input['api_key'])) {
             $newKey = sanitize_text_field($input['api_key']);
             if (strpos($newKey, '****') === false && !empty($newKey)) {
-                $this->config->setApiKey($newKey);
+                if (!isset($sanitized['secrets'])) {
+                    $sanitized['secrets'] = [];
+                }
+                $sanitized['secrets']['api_key'] = $newKey;
             }
         }
         return $sanitized;
@@ -203,4 +206,4 @@ class SettingsPage {
             wp_send_json_error($response);
         }
     }
-}\n
+}
