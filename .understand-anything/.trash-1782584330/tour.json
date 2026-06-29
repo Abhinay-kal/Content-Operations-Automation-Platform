@@ -1,0 +1,14 @@
+[
+  {
+    "order": 1,
+    "title": "Project Overview",
+    "description": "Read the README to understand the project architecture.",
+    "nodeIds": ["file:README.md"]
+  },
+  {
+    "order": 2,
+    "title": "Application Entry Point",
+    "description": "The main entry point for the application.",
+    "nodeIds": ["file:src/index.js"]
+  }
+]

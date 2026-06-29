@@ -217,3 +217,26 @@ CREATE TABLE incidents (
                 );
 CREATE INDEX idx_incidents_type ON incidents(type);
 CREATE INDEX idx_incidents_created_at ON incidents(created_at);
+
+CREATE TABLE plugin_installations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    site_id INTEGER NOT NULL,
+    plugin_uuid TEXT NOT NULL,
+    installation_uuid TEXT NOT NULL,
+    registration_token TEXT NOT NULL,
+    plugin_version TEXT,
+    protocol_version TEXT,
+    backend_version TEXT,
+    capabilities TEXT,
+    connection_status TEXT,
+    registration_status TEXT,
+    presence_status TEXT,
+    last_seen DATETIME,
+    last_heartbeat DATETIME,
+    last_ip TEXT,
+    last_user_agent TEXT,
+    metadata TEXT,
+    created_at DATETIME NOT NULL,
+    updated_at DATETIME NOT NULL,
+    FOREIGN KEY(site_id) REFERENCES sites(id) ON DELETE CASCADE
+);

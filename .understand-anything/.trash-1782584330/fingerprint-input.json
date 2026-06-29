@@ -1,0 +1,8 @@
+{
+  "projectRoot": "/Users/abhinaykalkhanday/Desktop/n8n",
+  "sourceFilePaths": [
+    "src/index.js",
+    "README.md"
+  ],
+  "gitCommitHash": "d1f4fab125b6e199791feebcd273f24eb91c9aa7"
+}

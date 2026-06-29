@@ -61,14 +61,344 @@
   },
   "nodes": [
     {
+      "label": "CLEANUP_DELIVERABLE_REPORT.md",
+      "file_type": "document",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "cleanup_deliverable_report",
+      "community": 12,
+      "norm_label": "cleanup_deliverable_report.md"
+    },
+    {
+      "label": "Repository Cleanup & Hygiene Pass: Deliverables Report",
+      "file_type": "document",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "cleanup_deliverable_report_repository_cleanup_hygiene_pass_deliverables_report",
+      "community": 12,
+      "norm_label": "repository cleanup & hygiene pass: deliverables report"
+    },
+    {
+      "label": "Files Modified",
+      "file_type": "document",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "cleanup_deliverable_report_files_modified",
+      "community": 12,
+      "norm_label": "files modified"
+    },
+    {
+      "label": "Files Removed",
+      "file_type": "document",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "cleanup_deliverable_report_files_removed",
+      "community": 12,
+      "norm_label": "files removed"
+    },
+    {
+      "label": "Files Moved",
+      "file_type": "document",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "cleanup_deliverable_report_files_moved",
+      "community": 12,
+      "norm_label": "files moved"
+    },
+    {
+      "label": "Dependencies Removed",
+      "file_type": "document",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "cleanup_deliverable_report_dependencies_removed",
+      "community": 12,
+      "norm_label": "dependencies removed"
+    },
+    {
+      "label": "Architecture Improvements",
+      "file_type": "document",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "cleanup_deliverable_report_architecture_improvements",
+      "community": 12,
+      "norm_label": "architecture improvements"
+    },
+    {
+      "label": "Remaining Technical Debt",
+      "file_type": "document",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "cleanup_deliverable_report_remaining_technical_debt",
+      "community": 12,
+      "norm_label": "remaining technical debt"
+    },
+    {
+      "label": "Repository Health Score",
+      "file_type": "document",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "cleanup_deliverable_report_repository_health_score",
+      "community": 12,
+      "norm_label": "repository health score"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 6,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 6,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 6,
+      "norm_label": "version"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_description",
+      "community": 6,
+      "norm_label": "description"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_main",
+      "community": 6,
+      "norm_label": "main"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 6,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 6,
+      "norm_label": "start"
+    },
+    {
+      "label": "legacy-start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_legacy_start",
+      "community": 6,
+      "norm_label": "legacy-start"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_test",
+      "community": 6,
+      "norm_label": "test"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_keywords",
+      "community": 6,
+      "norm_label": "keywords"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_author",
+      "community": 6,
+      "norm_label": "author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_license",
+      "community": 6,
+      "norm_label": "license"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 6,
+      "norm_label": "type"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 6,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@playwright/test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_devdependencies_playwright_test",
+      "community": 6,
+      "norm_label": "@playwright/test"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_node",
+      "community": 6,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "jest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "package_devdependencies_jest",
+      "community": 6,
+      "norm_label": "jest"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 6,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "better-sqlite3",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_dependencies_better_sqlite3",
+      "community": 6,
+      "norm_label": "better-sqlite3"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "package_dependencies_dotenv",
+      "community": 6,
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "package_dependencies_express",
+      "community": 6,
+      "norm_label": "express"
+    },
+    {
+      "label": "playwright",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "package_dependencies_playwright",
+      "community": 6,
+      "norm_label": "playwright"
+    },
+    {
+      "label": "playwright-extra",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "package_dependencies_playwright_extra",
+      "community": 6,
+      "norm_label": "playwright-extra"
+    },
+    {
+      "label": "puppeteer-extra-plugin-stealth",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "package_dependencies_puppeteer_extra_plugin_stealth",
+      "community": 6,
+      "norm_label": "puppeteer-extra-plugin-stealth"
+    },
+    {
       "label": "BootstrapManager.js",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager",
       "community": 5,
-      "norm_label": "bootstrapmanager.js"
+      "norm_label": "bootstrapmanager.js",
+      "id": "bootstrap_bootstrapmanager"
     },
     {
       "label": "{ PreFlightValidator }",
@@ -76,9 +406,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_preflightvalidator",
       "community": 5,
-      "norm_label": "{ preflightvalidator }"
+      "norm_label": "{ preflightvalidator }",
+      "id": "bootstrap_bootstrapmanager_preflightvalidator"
     },
     {
       "label": "{ loadConfig }",
@@ -86,9 +416,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_loadconfig",
       "community": 5,
-      "norm_label": "{ loadconfig }"
+      "norm_label": "{ loadconfig }",
+      "id": "bootstrap_bootstrapmanager_loadconfig"
     },
     {
       "label": "{ createLogger }",
@@ -96,9 +426,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_createlogger",
       "community": 5,
-      "norm_label": "{ createlogger }"
+      "norm_label": "{ createlogger }",
+      "id": "bootstrap_bootstrapmanager_createlogger"
     },
     {
       "label": "DatabaseConnection",
@@ -106,9 +436,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_databaseconnection",
       "community": 5,
-      "norm_label": "databaseconnection"
+      "norm_label": "databaseconnection",
+      "id": "bootstrap_bootstrapmanager_databaseconnection"
     },
     {
       "label": "Migrations",
@@ -116,9 +446,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_migrations",
       "community": 5,
-      "norm_label": "migrations"
+      "norm_label": "migrations",
+      "id": "bootstrap_bootstrapmanager_migrations"
     },
     {
       "label": "{ JobRepository }",
@@ -126,9 +456,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_jobrepository",
       "community": 5,
-      "norm_label": "{ jobrepository }"
+      "norm_label": "{ jobrepository }",
+      "id": "bootstrap_bootstrapmanager_jobrepository"
     },
     {
       "label": "{ SiteRepository }",
@@ -136,9 +466,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_siterepository",
       "community": 5,
-      "norm_label": "{ siterepository }"
+      "norm_label": "{ siterepository }",
+      "id": "bootstrap_bootstrapmanager_siterepository"
     },
     {
       "label": "{ ProjectRepository }",
@@ -146,9 +476,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_projectrepository",
       "community": 5,
-      "norm_label": "{ projectrepository }"
+      "norm_label": "{ projectrepository }",
+      "id": "bootstrap_bootstrapmanager_projectrepository"
     },
     {
       "label": "{ LogRepository, EventRepository }",
@@ -156,9 +486,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_logrepository_eventrepository",
       "community": 5,
-      "norm_label": "{ logrepository, eventrepository }"
+      "norm_label": "{ logrepository, eventrepository }",
+      "id": "bootstrap_bootstrapmanager_logrepository_eventrepository"
     },
     {
       "label": "{ WordPressRepository }",
@@ -166,9 +496,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_wordpressrepository",
       "community": 5,
-      "norm_label": "{ wordpressrepository }"
+      "norm_label": "{ wordpressrepository }",
+      "id": "bootstrap_bootstrapmanager_wordpressrepository"
     },
     {
       "label": "{ PublishingRepository }",
@@ -176,9 +506,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_publishingrepository",
       "community": 5,
-      "norm_label": "{ publishingrepository }"
+      "norm_label": "{ publishingrepository }",
+      "id": "bootstrap_bootstrapmanager_publishingrepository"
     },
     {
       "label": "JobService",
@@ -186,9 +516,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_jobservice",
       "community": 5,
-      "norm_label": "jobservice"
+      "norm_label": "jobservice",
+      "id": "bootstrap_bootstrapmanager_jobservice"
     },
     {
       "label": "{ SiteService }",
@@ -196,9 +526,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_siteservice",
       "community": 5,
-      "norm_label": "{ siteservice }"
+      "norm_label": "{ siteservice }",
+      "id": "bootstrap_bootstrapmanager_siteservice"
     },
     {
       "label": "{ ProjectService }",
@@ -206,9 +536,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_projectservice",
       "community": 5,
-      "norm_label": "{ projectservice }"
+      "norm_label": "{ projectservice }",
+      "id": "bootstrap_bootstrapmanager_projectservice"
     },
     {
       "label": "SyncService",
@@ -216,9 +546,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_syncservice",
       "community": 5,
-      "norm_label": "syncservice"
+      "norm_label": "syncservice",
+      "id": "bootstrap_bootstrapmanager_syncservice"
     },
     {
       "label": "PublishingService",
@@ -226,9 +556,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_publishingservice",
       "community": 5,
-      "norm_label": "publishingservice"
+      "norm_label": "publishingservice",
+      "id": "bootstrap_bootstrapmanager_publishingservice"
     },
     {
       "label": "{ StateMachine }",
@@ -236,9 +566,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_statemachine",
       "community": 5,
-      "norm_label": "{ statemachine }"
+      "norm_label": "{ statemachine }",
+      "id": "bootstrap_bootstrapmanager_statemachine"
     },
     {
       "label": "{ BrowserManager }",
@@ -246,9 +576,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_browsermanager",
       "community": 5,
-      "norm_label": "{ browsermanager }"
+      "norm_label": "{ browsermanager }",
+      "id": "bootstrap_bootstrapmanager_browsermanager"
     },
     {
       "label": "{ ClaudeManager }",
@@ -256,9 +586,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_claudemanager",
       "community": 5,
-      "norm_label": "{ claudemanager }"
+      "norm_label": "{ claudemanager }",
+      "id": "bootstrap_bootstrapmanager_claudemanager"
     },
     {
       "label": "{ MetricsService }",
@@ -266,9 +596,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_metricsservice",
       "community": 5,
-      "norm_label": "{ metricsservice }"
+      "norm_label": "{ metricsservice }",
+      "id": "bootstrap_bootstrapmanager_metricsservice"
     },
     {
       "label": "{ QueueService }",
@@ -276,9 +606,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_queueservice",
       "community": 5,
-      "norm_label": "{ queueservice }"
+      "norm_label": "{ queueservice }",
+      "id": "bootstrap_bootstrapmanager_queueservice"
     },
     {
       "label": "{ ClaudeWorker }",
@@ -286,9 +616,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_claudeworker",
       "community": 5,
-      "norm_label": "{ claudeworker }"
+      "norm_label": "{ claudeworker }",
+      "id": "bootstrap_bootstrapmanager_claudeworker"
     },
     {
       "label": "{ SessionMonitor }",
@@ -296,9 +626,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_sessionmonitor",
       "community": 5,
-      "norm_label": "{ sessionmonitor }"
+      "norm_label": "{ sessionmonitor }",
+      "id": "bootstrap_bootstrapmanager_sessionmonitor"
     },
     {
       "label": "{ RecoveryManager }",
@@ -306,9 +636,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_recoverymanager",
       "community": 5,
-      "norm_label": "{ recoverymanager }"
+      "norm_label": "{ recoverymanager }",
+      "id": "bootstrap_bootstrapmanager_recoverymanager"
     },
     {
       "label": "{ SessionDetector }",
@@ -316,9 +646,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_sessiondetector",
       "community": 5,
-      "norm_label": "{ sessiondetector }"
+      "norm_label": "{ sessiondetector }",
+      "id": "bootstrap_bootstrapmanager_sessiondetector"
     },
     {
       "label": "{ SessionRecovery }",
@@ -326,9 +656,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_sessionrecovery",
       "community": 5,
-      "norm_label": "{ sessionrecovery }"
+      "norm_label": "{ sessionrecovery }",
+      "id": "bootstrap_bootstrapmanager_sessionrecovery"
     },
     {
       "label": "{ ClaudeHealthCheck }",
@@ -336,9 +666,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_claudehealthcheck",
       "community": 5,
-      "norm_label": "{ claudehealthcheck }"
+      "norm_label": "{ claudehealthcheck }",
+      "id": "bootstrap_bootstrapmanager_claudehealthcheck"
     },
     {
       "label": "{ BrowserRecovery }",
@@ -346,9 +676,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_browserrecovery",
       "community": 5,
-      "norm_label": "{ browserrecovery }"
+      "norm_label": "{ browserrecovery }",
+      "id": "bootstrap_bootstrapmanager_browserrecovery"
     },
     {
       "label": "{ DashboardService }",
@@ -356,9 +686,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_dashboardservice",
       "community": 5,
-      "norm_label": "{ dashboardservice }"
+      "norm_label": "{ dashboardservice }",
+      "id": "bootstrap_bootstrapmanager_dashboardservice"
     },
     {
       "label": "BootstrapManager",
@@ -366,9 +696,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager",
       "community": 2,
-      "norm_label": "bootstrapmanager"
+      "norm_label": "bootstrapmanager",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager"
     },
     {
       "label": ".constructor()",
@@ -376,9 +706,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor",
       "community": 2,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor"
     },
     {
       "label": ".run()",
@@ -386,9 +716,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L53",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_run",
       "community": 2,
-      "norm_label": ".run()"
+      "norm_label": ".run()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_run"
     },
     {
       "label": "._runPhase1()",
@@ -396,9 +726,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L80",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
       "community": 2,
-      "norm_label": "._runphase1()"
+      "norm_label": "._runphase1()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1"
     },
     {
       "label": "._runPhase2()",
@@ -406,9 +736,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L112",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2",
       "community": 2,
-      "norm_label": "._runphase2()"
+      "norm_label": "._runphase2()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2"
     },
     {
       "label": "._runPhase3()",
@@ -416,9 +746,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L210",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3",
       "community": 2,
-      "norm_label": "._runphase3()"
+      "norm_label": "._runphase3()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3"
     },
     {
       "label": "._runPhase3_5()",
@@ -426,9 +756,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L309",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5",
       "community": 2,
-      "norm_label": "._runphase3_5()"
+      "norm_label": "._runphase3_5()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5"
     },
     {
       "label": "._runPhase4()",
@@ -436,9 +766,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L404",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
       "community": 2,
-      "norm_label": "._runphase4()"
+      "norm_label": "._runphase4()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4"
     },
     {
       "label": "._verifyReadiness()",
@@ -446,9 +776,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L424",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness",
       "community": 2,
-      "norm_label": "._verifyreadiness()"
+      "norm_label": "._verifyreadiness()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness"
     },
     {
       "label": "._printHeader()",
@@ -456,9 +786,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L468",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader",
       "community": 2,
-      "norm_label": "._printheader()"
+      "norm_label": "._printheader()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader"
     },
     {
       "label": "._reportFailures()",
@@ -466,9 +796,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L475",
       "_origin": "ast",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures",
       "community": 2,
-      "norm_label": "._reportfailures()"
+      "norm_label": "._reportfailures()",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures"
     },
     {
       "label": "ClaudeWorker.js",
@@ -476,9 +806,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workers_claudeworker",
       "community": 93,
-      "norm_label": "claudeworker.js"
+      "norm_label": "claudeworker.js",
+      "id": "workers_claudeworker"
     },
     {
       "label": "fs",
@@ -486,9 +816,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "workers_claudeworker_fs",
       "community": 93,
-      "norm_label": "fs"
+      "norm_label": "fs",
+      "id": "workers_claudeworker_fs"
     },
     {
       "label": "path",
@@ -496,9 +826,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "workers_claudeworker_path",
       "community": 93,
-      "norm_label": "path"
+      "norm_label": "path",
+      "id": "workers_claudeworker_path"
     },
     {
       "label": "{ WORKER_STATES }",
@@ -506,9 +836,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "workers_claudeworker_worker_states",
       "community": 93,
-      "norm_label": "{ worker_states }"
+      "norm_label": "{ worker_states }",
+      "id": "workers_claudeworker_worker_states"
     },
     {
       "label": "{ PROJECT_STATUSES }",
@@ -516,9 +846,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "workers_claudeworker_project_statuses",
       "community": 93,
-      "norm_label": "{ project_statuses }"
+      "norm_label": "{ project_statuses }",
+      "id": "workers_claudeworker_project_statuses"
     },
     {
       "label": "{ FailureClassifier }",
@@ -526,9 +856,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "workers_claudeworker_failureclassifier",
       "community": 93,
-      "norm_label": "{ failureclassifier }"
+      "norm_label": "{ failureclassifier }",
+      "id": "workers_claudeworker_failureclassifier"
     },
     {
       "label": "AuditPromptBuilder",
@@ -536,9 +866,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "workers_claudeworker_auditpromptbuilder",
       "community": 93,
-      "norm_label": "auditpromptbuilder"
+      "norm_label": "auditpromptbuilder",
+      "id": "workers_claudeworker_auditpromptbuilder"
     },
     {
       "label": "RewritePromptBuilder",
@@ -546,9 +876,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "workers_claudeworker_rewritepromptbuilder",
       "community": 93,
-      "norm_label": "rewritepromptbuilder"
+      "norm_label": "rewritepromptbuilder",
+      "id": "workers_claudeworker_rewritepromptbuilder"
     },
     {
       "label": "{ ContentUnavailableError, InvalidProjectContentError }",
@@ -556,9 +886,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "workers_claudeworker_contentunavailableerror_invalidprojectcontenterror",
       "community": 93,
-      "norm_label": "{ contentunavailableerror, invalidprojectcontenterror }"
+      "norm_label": "{ contentunavailableerror, invalidprojectcontenterror }",
+      "id": "workers_claudeworker_contentunavailableerror_invalidprojectcontenterror"
     },
     {
       "label": "ClaudeWorker",
@@ -566,9 +896,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker",
       "community": 81,
-      "norm_label": "claudeworker"
+      "norm_label": "claudeworker",
+      "id": "workers_claudeworker_claudeworker"
     },
     {
       "label": ".constructor()",
@@ -576,9 +906,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_constructor",
       "community": 81,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "workers_claudeworker_claudeworker_constructor"
     },
     {
       "label": ".initialize()",
@@ -586,9 +916,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_initialize",
       "community": 81,
-      "norm_label": ".initialize()"
+      "norm_label": ".initialize()",
+      "id": "workers_claudeworker_claudeworker_initialize"
     },
     {
       "label": ".startProcessing()",
@@ -596,9 +926,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L53",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_startprocessing",
       "community": 81,
-      "norm_label": ".startprocessing()"
+      "norm_label": ".startprocessing()",
+      "id": "workers_claudeworker_claudeworker_startprocessing"
     },
     {
       "label": ".stopProcessing()",
@@ -606,9 +936,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L71",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_stopprocessing",
       "community": 81,
-      "norm_label": ".stopprocessing()"
+      "norm_label": ".stopprocessing()",
+      "id": "workers_claudeworker_claudeworker_stopprocessing"
     },
     {
       "label": "._processPendingJobs()",
@@ -616,9 +946,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L79",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_processpendingjobs",
       "community": 81,
-      "norm_label": "._processpendingjobs()"
+      "norm_label": "._processpendingjobs()",
+      "id": "workers_claudeworker_claudeworker_processpendingjobs"
     },
     {
       "label": ".executeJob()",
@@ -626,9 +956,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L102",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_executejob",
       "community": 81,
-      "norm_label": ".executejob()"
+      "norm_label": ".executejob()",
+      "id": "workers_claudeworker_claudeworker_executejob"
     },
     {
       "label": "._recordJobChat()",
@@ -636,9 +966,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L356",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_recordjobchat",
       "community": 81,
-      "norm_label": "._recordjobchat()"
+      "norm_label": "._recordjobchat()",
+      "id": "workers_claudeworker_claudeworker_recordjobchat"
     },
     {
       "label": "._saveResponse()",
@@ -646,9 +976,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L369",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_saveresponse",
       "community": 81,
-      "norm_label": "._saveresponse()"
+      "norm_label": "._saveresponse()",
+      "id": "workers_claudeworker_claudeworker_saveresponse"
     },
     {
       "label": "._resetWorkerState()",
@@ -656,9 +986,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L383",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_resetworkerstate",
       "community": 81,
-      "norm_label": "._resetworkerstate()"
+      "norm_label": "._resetworkerstate()",
+      "id": "workers_claudeworker_claudeworker_resetworkerstate"
     },
     {
       "label": ".getQueueSize()",
@@ -666,9 +996,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L392",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_getqueuesize",
       "community": 81,
-      "norm_label": ".getqueuesize()"
+      "norm_label": ".getqueuesize()",
+      "id": "workers_claudeworker_claudeworker_getqueuesize"
     },
     {
       "label": ".isHealthy()",
@@ -676,9 +1006,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L396",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_ishealthy",
       "community": 81,
-      "norm_label": ".ishealthy()"
+      "norm_label": ".ishealthy()",
+      "id": "workers_claudeworker_claudeworker_ishealthy"
     },
     {
       "label": ".getStatusSnapshot()",
@@ -686,9 +1016,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L400",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_getstatussnapshot",
       "community": 81,
-      "norm_label": ".getstatussnapshot()"
+      "norm_label": ".getstatussnapshot()",
+      "id": "workers_claudeworker_claudeworker_getstatussnapshot"
     },
     {
       "label": ".rewrite()",
@@ -696,9 +1026,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L404",
       "_origin": "ast",
-      "id": "workers_claudeworker_claudeworker_rewrite",
       "community": 81,
-      "norm_label": ".rewrite()"
+      "norm_label": ".rewrite()",
+      "id": "workers_claudeworker_claudeworker_rewrite"
     },
     {
       "label": "AUDIT_REPORT.md",
@@ -5426,7 +5756,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "claudeerrors.js",
       "id": "errors_claudeerrors"
     },
@@ -5436,7 +5766,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "claudeerror",
       "id": "errors_claudeerrors_claudeerror"
     },
@@ -5446,7 +5776,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_claudeerror_constructor"
     },
@@ -5496,7 +5826,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "validationerror",
       "id": "errors_claudeerrors_validationerror"
     },
@@ -5506,7 +5836,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_validationerror_constructor"
     },
@@ -5536,7 +5866,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "invalidprojectcontenterror",
       "id": "errors_claudeerrors_invalidprojectcontenterror"
     },
@@ -5546,7 +5876,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidprojectcontenterror_constructor"
     },
@@ -5556,7 +5886,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "invalidresponsequalityerror",
       "id": "errors_claudeerrors_invalidresponsequalityerror"
     },
@@ -5566,7 +5896,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidresponsequalityerror_constructor"
     },
@@ -5576,7 +5906,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "recoveryreport",
       "id": "errors_claudeerrors_recoveryreport"
     },
@@ -5586,7 +5916,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_recoveryreport_constructor"
     },
@@ -5606,7 +5936,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "normalizeerror()",
       "id": "errors_claudeerrors_normalizeerror"
     },
@@ -5866,7 +6196,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 2,
+      "community": 96,
       "norm_label": "persistentworkerstate",
       "id": "models_workerstate_persistentworkerstate"
     },
@@ -5876,7 +6206,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 2,
+      "community": 96,
       "norm_label": ".constructor()",
       "id": "models_workerstate_persistentworkerstate_constructor"
     },
@@ -5886,7 +6216,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 2,
+      "community": 96,
       "norm_label": "._loadinitialstate()",
       "id": "models_workerstate_persistentworkerstate_loadinitialstate"
     },
@@ -5896,7 +6226,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 2,
+      "community": 96,
       "norm_label": ".setstate()",
       "id": "models_workerstate_persistentworkerstate_setstate"
     },
@@ -5906,7 +6236,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 2,
+      "community": 96,
       "norm_label": ".getstate()",
       "id": "models_workerstate_persistentworkerstate_getstate"
     },
@@ -5916,7 +6246,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 2,
+      "community": 96,
       "norm_label": ".incrementrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_incrementrecoveryattempts"
     },
@@ -5926,7 +6256,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 2,
+      "community": 96,
       "norm_label": ".resetrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_resetrecoveryattempts"
     },
@@ -5936,7 +6266,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 2,
+      "community": 96,
       "norm_label": ".getsnapshot()",
       "id": "models_workerstate_persistentworkerstate_getsnapshot"
     },
@@ -7536,7 +7866,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "claudemanager.js",
       "id": "services_claudemanager"
     },
@@ -7546,7 +7876,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "fs",
       "id": "services_claudemanager_fs"
     },
@@ -7556,7 +7886,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "path",
       "id": "services_claudemanager_path"
     },
@@ -7566,7 +7896,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "{ \n    validationerror, \n    recoveryreport, \n    invalidprojectcontenterror, \n    invalidresponsequalityerror, \n    createclaudeerror, \n    normalizeerror \n}",
       "id": "services_claudemanager_validationerror_recoveryreport_invalidprojectcontenterror_invalidresponsequalityerror_createclaudeerror_normalizeerror"
     },
@@ -7576,7 +7906,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "{ worker_states }",
       "id": "services_claudemanager_worker_states"
     },
@@ -7586,7 +7916,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "selectors",
       "id": "services_claudemanager_selectors"
     },
@@ -9346,7 +9676,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 97,
       "norm_label": "auditpromptbuilder.js",
       "id": "utils_auditpromptbuilder"
     },
@@ -9356,7 +9686,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 117,
+      "community": 97,
       "norm_label": "auditpromptbuilder",
       "id": "utils_auditpromptbuilder_auditpromptbuilder"
     },
@@ -9366,7 +9696,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 117,
+      "community": 97,
       "norm_label": ".build()",
       "id": "utils_auditpromptbuilder_auditpromptbuilder_build"
     },
@@ -9456,7 +9786,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 98,
       "norm_label": "rewritepromptbuilder.js",
       "id": "utils_rewritepromptbuilder"
     },
@@ -9466,7 +9796,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 117,
+      "community": 98,
       "norm_label": "rewritepromptbuilder",
       "id": "utils_rewritepromptbuilder_rewritepromptbuilder"
     },
@@ -9476,7 +9806,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 117,
+      "community": 98,
       "norm_label": ".build()",
       "id": "utils_rewritepromptbuilder_rewritepromptbuilder_build"
     },
@@ -9772,7 +10102,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "validation.test.js",
       "id": "tests_validation_test"
     },
@@ -9782,7 +10112,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "{ claudemanager }",
       "id": "tests_validation_test_claudemanager"
     },
@@ -9792,7 +10122,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "{ validationerror }",
       "id": "tests_validation_test_validationerror"
     },
@@ -10475,246 +10805,6 @@
       "id": "utils_nulllogger_nulllogger_log"
     },
     {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "package.json",
-      "id": "package"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "name",
-      "id": "package_name"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "version",
-      "id": "package_version"
-    },
-    {
-      "label": "description",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "description",
-      "id": "package_description"
-    },
-    {
-      "label": "main",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "main",
-      "id": "package_main"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "scripts",
-      "id": "package_scripts"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "start",
-      "id": "package_scripts_start"
-    },
-    {
-      "label": "legacy-start",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "legacy-start",
-      "id": "package_scripts_legacy_start"
-    },
-    {
-      "label": "test",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "test",
-      "id": "package_scripts_test"
-    },
-    {
-      "label": "keywords",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "keywords",
-      "id": "package_keywords"
-    },
-    {
-      "label": "author",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "author",
-      "id": "package_author"
-    },
-    {
-      "label": "license",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "license",
-      "id": "package_license"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "type",
-      "id": "package_type"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "devdependencies",
-      "id": "package_devdependencies"
-    },
-    {
-      "label": "@playwright/test",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "@playwright/test",
-      "id": "package_devdependencies_playwright_test"
-    },
-    {
-      "label": "@types/node",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "@types/node",
-      "id": "package_devdependencies_types_node"
-    },
-    {
-      "label": "jest",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "jest",
-      "id": "package_devdependencies_jest"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "dependencies",
-      "id": "package_dependencies"
-    },
-    {
-      "label": "better-sqlite3",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "better-sqlite3",
-      "id": "package_dependencies_better_sqlite3"
-    },
-    {
-      "label": "dotenv",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "dotenv",
-      "id": "package_dependencies_dotenv"
-    },
-    {
-      "label": "express",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "express",
-      "id": "package_dependencies_express"
-    },
-    {
-      "label": "playwright",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "playwright",
-      "id": "package_dependencies_playwright"
-    },
-    {
-      "label": "playwright-extra",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "playwright-extra",
-      "id": "package_dependencies_playwright_extra"
-    },
-    {
-      "label": "puppeteer-extra-plugin-stealth",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "puppeteer-extra-plugin-stealth",
-      "id": "package_dependencies_puppeteer_extra_plugin_stealth"
-    },
-    {
       "label": "example.spec.js",
       "file_type": "code",
       "source_file": "e2e/example.spec.js",
@@ -10769,6 +10859,316 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "cleanup_deliverable_report",
+      "target": "cleanup_deliverable_report_repository_cleanup_hygiene_pass_deliverables_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "cleanup_deliverable_report_repository_cleanup_hygiene_pass_deliverables_report",
+      "target": "cleanup_deliverable_report_architecture_improvements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "cleanup_deliverable_report_repository_cleanup_hygiene_pass_deliverables_report",
+      "target": "cleanup_deliverable_report_dependencies_removed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "cleanup_deliverable_report_repository_cleanup_hygiene_pass_deliverables_report",
+      "target": "cleanup_deliverable_report_files_modified",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "cleanup_deliverable_report_repository_cleanup_hygiene_pass_deliverables_report",
+      "target": "cleanup_deliverable_report_files_moved",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "cleanup_deliverable_report_repository_cleanup_hygiene_pass_deliverables_report",
+      "target": "cleanup_deliverable_report_files_removed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "cleanup_deliverable_report_repository_cleanup_hygiene_pass_deliverables_report",
+      "target": "cleanup_deliverable_report_remaining_technical_debt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLEANUP_DELIVERABLE_REPORT.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "cleanup_deliverable_report_repository_cleanup_hygiene_pass_deliverables_report",
+      "target": "cleanup_deliverable_report_repository_health_score",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_author"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_description"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_keywords"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_license"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_legacy_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_jest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_playwright_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_better_sqlite3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_dotenv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_express"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_playwright"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_playwright_extra"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_puppeteer_extra_plugin_stealth"
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -11670,9 +12070,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "workers_claudeworker",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker"
     },
     {
       "relation": "imports",
@@ -11681,9 +12081,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "workers_claudeworker_claudeworker",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker"
     },
     {
       "relation": "imports_from",
@@ -11924,9 +12324,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "errors_claudeerrors_contentunavailableerror",
-      "confidence_score": 1.0
+      "target": "errors_claudeerrors_contentunavailableerror"
     },
     {
       "relation": "imports",
@@ -11935,9 +12335,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "errors_claudeerrors_invalidprojectcontenterror",
-      "confidence_score": 1.0
+      "target": "errors_claudeerrors_invalidprojectcontenterror"
     },
     {
       "relation": "imports",
@@ -11946,9 +12346,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "models_contentproject_project_statuses",
-      "confidence_score": 1.0
+      "target": "models_contentproject_project_statuses"
     },
     {
       "relation": "imports",
@@ -11957,9 +12357,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "models_workerstate_worker_states",
-      "confidence_score": 1.0
+      "target": "models_workerstate_worker_states"
     },
     {
       "relation": "imports",
@@ -11968,9 +12368,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "utils_failureclassifier_failureclassifier",
-      "confidence_score": 1.0
+      "target": "utils_failureclassifier_failureclassifier"
     },
     {
       "relation": "contains",
@@ -11978,9 +12378,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "workers_claudeworker_auditpromptbuilder",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_auditpromptbuilder"
     },
     {
       "relation": "contains",
@@ -11988,9 +12388,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "workers_claudeworker_claudeworker",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker"
     },
     {
       "relation": "contains",
@@ -11998,9 +12398,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "workers_claudeworker_contentunavailableerror_invalidprojectcontenterror",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_contentunavailableerror_invalidprojectcontenterror"
     },
     {
       "relation": "contains",
@@ -12008,9 +12408,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "workers_claudeworker_failureclassifier",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_failureclassifier"
     },
     {
       "relation": "contains",
@@ -12018,9 +12418,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "workers_claudeworker_fs",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_fs"
     },
     {
       "relation": "contains",
@@ -12028,9 +12428,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "workers_claudeworker_path",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_path"
     },
     {
       "relation": "contains",
@@ -12038,9 +12438,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "workers_claudeworker_project_statuses",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_project_statuses"
     },
     {
       "relation": "contains",
@@ -12048,9 +12448,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "workers_claudeworker_rewritepromptbuilder",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_rewritepromptbuilder"
     },
     {
       "relation": "contains",
@@ -12058,9 +12458,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker",
-      "target": "workers_claudeworker_worker_states",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_worker_states"
     },
     {
       "relation": "method",
@@ -12068,9 +12468,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_constructor",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_constructor"
     },
     {
       "relation": "method",
@@ -12078,9 +12478,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_executejob",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_executejob"
     },
     {
       "relation": "method",
@@ -12088,9 +12488,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L392",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_getqueuesize",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_getqueuesize"
     },
     {
       "relation": "method",
@@ -12098,9 +12498,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L400",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_getstatussnapshot",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_getstatussnapshot"
     },
     {
       "relation": "method",
@@ -12108,9 +12508,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_initialize",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_initialize"
     },
     {
       "relation": "method",
@@ -12118,9 +12518,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L396",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_ishealthy",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_ishealthy"
     },
     {
       "relation": "method",
@@ -12128,9 +12528,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_processpendingjobs",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_processpendingjobs"
     },
     {
       "relation": "method",
@@ -12138,9 +12538,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L356",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_recordjobchat",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_recordjobchat"
     },
     {
       "relation": "method",
@@ -12148,9 +12548,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L383",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_resetworkerstate",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_resetworkerstate"
     },
     {
       "relation": "method",
@@ -12158,9 +12558,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L404",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_rewrite",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_rewrite"
     },
     {
       "relation": "method",
@@ -12168,9 +12568,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L369",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_saveresponse",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_saveresponse"
     },
     {
       "relation": "method",
@@ -12178,9 +12578,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_startprocessing",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_startprocessing"
     },
     {
       "relation": "method",
@@ -12188,9 +12588,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker",
-      "target": "workers_claudeworker_claudeworker_stopprocessing",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_stopprocessing"
     },
     {
       "relation": "calls",
@@ -12199,9 +12599,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker_processpendingjobs",
-      "target": "workers_claudeworker_claudeworker_executejob",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_executejob"
     },
     {
       "relation": "calls",
@@ -12210,9 +12610,9 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker_rewrite",
-      "target": "workers_claudeworker_claudeworker_executejob",
-      "confidence_score": 1.0
+      "target": "workers_claudeworker_claudeworker_executejob"
     },
     {
       "relation": "contains",
@@ -24207,236 +24607,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_author"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_dependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_description"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_devdependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_keywords"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_license"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_main"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_name"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_scripts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_type"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_version"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_legacy_start"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_start"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_test"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_jest"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_playwright_test"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_types_node"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_better_sqlite3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_dotenv"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_express"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_playwright"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_playwright_extra"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_puppeteer_extra_plugin_stealth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "e2e/workflow.spec.js",
       "source_location": "L2",
       "weight": 1.0,
@@ -24511,5 +24681,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "a602dc355b593aa590d504d6cbe0585fd3f8ae47"
+  "built_at_commit": "0b1634dc59039768360687f9cd813b3182c70446"
 }

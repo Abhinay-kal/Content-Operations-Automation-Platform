@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "d1f4fab125b6e199791feebcd273f24eb91c9aa7",
+  "generatedAt": "2026-06-27T18:18:37.136Z",
+  "files": {
+    "src/index.js": {
+      "filePath": "src/index.js",
+      "contentHash": "a60b2e99abec4205c302772af57dbcf9dc267234f666d04fde189eb384c7b56f",
+      "functions": [
+        {
+          "name": "main",
+          "params": [],
+          "exported": false,
+          "lineCount": 89
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 95,
+      "hasStructuralAnalysis": true
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "283c098c28462b149b8ec9a16d7b97fd6b3e45a564b03074f323d969f1964762",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 132,
+      "hasStructuralAnalysis": true
+    }
+  }
+}

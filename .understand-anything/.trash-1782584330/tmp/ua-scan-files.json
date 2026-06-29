@@ -1,0 +1,7032 @@
+{
+  "scriptCompleted": true,
+  "files": [
+    {
+      "path": ".agents/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".agents/AGENTS.md",
+      "language": "markdown",
+      "sizeLines": 10,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".agents/rules/graphify.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".agents/workflows/graphify.md",
+      "language": "markdown",
+      "sizeLines": 10,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".DS_Store",
+      "language": "unknown",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".github/workflows/playwright.yml",
+      "language": "yaml",
+      "sizeLines": 27,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".understand-anything/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "archive/claude_response.html",
+      "language": "html",
+      "sizeLines": 3,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "archive/index.html",
+      "language": "html",
+      "sizeLines": 67,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "AUDIT_REPORT.md",
+      "language": "markdown",
+      "sizeLines": 43,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "backup.sh",
+      "language": "shell",
+      "sizeLines": 39,
+      "fileCategory": "script"
+    },
+    {
+      "path": "chrome-profile/.com.google.Chrome.p7MhYy",
+      "language": "p7mhyy",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/BrowserMetrics-spare.pma",
+      "language": "pma",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/BrowserMetrics/BrowserMetrics-6A3280BE-1192B.pma",
+      "language": "pma",
+      "sizeLines": 714,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/BrowserMetrics/BrowserMetrics-6A32818B-126BE.pma",
+      "language": "pma",
+      "sizeLines": 714,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/ChromeFeatureState",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/component_crx_cache/metadata.json",
+      "language": "json",
+      "sizeLines": 0,
+      "fileCategory": "config"
+    },
+    {
+      "path": "chrome-profile/Default/Account Web Data",
+      "language": "unknown",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Account Web Data-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Affiliation Database",
+      "language": "unknown",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Affiliation Database-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillAiModelCache/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillAiModelCache/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillAiModelCache/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillAiModelCache/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillAiModelCache/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillAiModelCache/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillAiModelCache/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillAiModelCache/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillAiModelCache/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillStrikeDatabase/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillStrikeDatabase/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillStrikeDatabase/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillStrikeDatabase/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillStrikeDatabase/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillStrikeDatabase/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillStrikeDatabase/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillStrikeDatabase/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/AutofillStrikeDatabase/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BookmarkMergedSurfaceOrdering",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BudgetDatabase/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BudgetDatabase/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BudgetDatabase/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BudgetDatabase/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BudgetDatabase/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BudgetDatabase/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BudgetDatabase/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BudgetDatabase/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/BudgetDatabase/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOG 8",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/chrome_cart_db/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOG 8",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ClientCertificates/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/00f5d9b3d122615c_0",
+      "language": "unknown",
+      "sizeLines": 393,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/01042cadaaa743b9_0",
+      "language": "unknown",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0185112f8b34a083_0",
+      "language": "unknown",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/01b26fd2702e64fd_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/02970540927bc76e_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/02a055746c0c3de8_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/044e4ae680c052dc_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/04545d0d43b28786_0",
+      "language": "unknown",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/04702819de579687_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/051c8ee380ba245c_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0569687af7beb5ff_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/06072f322e36b050_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0649ec746d488a97_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/06c549e5f23deadb_0",
+      "language": "unknown",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/07b5a44a7c2a7a88_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/07f6107eb75c9577_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/089d68d0572c96d0_0",
+      "language": "unknown",
+      "sizeLines": 12266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/08d364c29b2fd87e_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0947ad7bb038bd4e_0",
+      "language": "unknown",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/09a0610186c6be5c_0",
+      "language": "unknown",
+      "sizeLines": 702,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0a031a8ed34e1167_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0a4646af207243ea_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0b1761bb84388554_0",
+      "language": "unknown",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0b4250de1454750f_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0b59a475a04e0cad_0",
+      "language": "unknown",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0c3dc4c563582407_0",
+      "language": "unknown",
+      "sizeLines": 287,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0d09697a74280b74_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/0eafa46d0b2eebbd_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/133af8317eee711b_0",
+      "language": "unknown",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/135ddd85a34299a2_0",
+      "language": "unknown",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1362e8215befff78_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/144fa9954cb4bf2a_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/15bc45ee03a3359a_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/16e73fa2ae926cdc_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1735cdc904aa6cb9_0",
+      "language": "unknown",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1754e9325f7f7bfd_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1772ff4b6f7413f8_0",
+      "language": "unknown",
+      "sizeLines": 4915,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/19c5df7a23afc8d4_0",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1a2f3c8606daa0a7_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1a84eab75f686250_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1aff7100eb138560_0",
+      "language": "unknown",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1d6427667b53bfd1_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1d908a8b7fb106a6_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1fbae2796a338745_0",
+      "language": "unknown",
+      "sizeLines": 230,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/1fc8365bf434a705_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/20e3cb46b7758a60_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/25d0e64daebbffc9_0",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/25d14144eccc67c4_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/267a9a91681ffadd_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2ab065e42af2d0b2_0",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2ab065e42af2d0b2_0 2",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2ab065e42af2d0b2_0 3",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2abfc53947aff18c_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2ac1b7ab1714bc0c_0",
+      "language": "unknown",
+      "sizeLines": 279,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2b8ccd4edf6dcdb0_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2c8a18e4a4e2f772_0",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2d1d7d8cc7e7e442_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2e05ecd75fa07e2e_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2e4046e100880c94_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2eaa45331ca789de_0",
+      "language": "unknown",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/2ff846c7458b1a55_0",
+      "language": "unknown",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/3027bf05e2c0abe4_0",
+      "language": "unknown",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/3146ea30d57e280a_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/31483017bdec6586_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/314bf46c44f67bbd_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/329d146e2431e58d_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/336125a6d0971410_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/34784b56262626af_0",
+      "language": "unknown",
+      "sizeLines": 1465,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/362551c9eab1d92d_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/39261645920c656c_0",
+      "language": "unknown",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/393a58ab7189f358_0",
+      "language": "unknown",
+      "sizeLines": 692,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/39ba727665b7c941_0",
+      "language": "unknown",
+      "sizeLines": 737,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/3a59cb7b077ea1c0_0",
+      "language": "unknown",
+      "sizeLines": 354,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/3a5d6482626a62a3_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/3c08ec9a4ca9bbff_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/3c5456f7bbd6109d_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/3e1eb1f38ea42e01_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/40cfe939b0589018_0",
+      "language": "unknown",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4135964bea1acb28_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/420edf7569c6a665_0",
+      "language": "unknown",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4236141ff5f1bd02_0",
+      "language": "unknown",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/42e7a7d573df0ec8_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4307f184fe1fae10_0",
+      "language": "unknown",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/43eb80b3cae31614_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/476652188474f950_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/478a800337516f47_0",
+      "language": "unknown",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4814f5ad22e3bee5_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/48860fb4a5142f2f_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4a2bb2c4988117d4_0",
+      "language": "unknown",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4b3579bfa86a9a0c_0",
+      "language": "unknown",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4b35b2ac9149d489_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4be3e6a49ee68a32_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4c149c549247fb83_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4c30327a45c5c890_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4cb406d09826d551_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4cda5d9dd17ffdd1_0",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4d98f4cc8cebe767_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4dbc45cb7fa79d11_0",
+      "language": "unknown",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4e4024beefa2681d_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4e6abb4a16b0a044_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/4f31491998547fed_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/51bf5bb2e2794496_0",
+      "language": "unknown",
+      "sizeLines": 1083,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/51c24c53ace3ddcc_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/52ad5baca9306810_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/537e9ab2392948a2_0",
+      "language": "unknown",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/54600e85b1197e55_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/54a04ffb4f207a33_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/54e2d957955620a1_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/550ada711a3cba89_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/57d23eb0af954e09_0",
+      "language": "unknown",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/58401bad33d430f9_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/5a6c971788fe3127_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/5be3bc71530e43fb_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/5d38aea3541cb9c4_0",
+      "language": "unknown",
+      "sizeLines": 575,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/5d7714142bfca69a_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/5deaa4704a1fc7c1_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/5f5e315b8cf68a43_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/5fd30ba741203524_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/60315e18538e0ccd_0",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/60c63165adf867a2_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/61b0e5039e90cb21_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/637f800e9883ab74_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/63f5b9fe7aea5fd3_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/646bda2c4b7e84de_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6573f9c73179751d_0",
+      "language": "unknown",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/657f991047210f9e_0",
+      "language": "unknown",
+      "sizeLines": 306,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/667f2838982c12f6_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/66dcbc921c5d0bba_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6730ef58134441aa_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6736489f23ae16c1_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/67a1a4b25944f109_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/67b3b64026ec8ac1_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/67cf566ba0cdc4bc_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/67ea0bb3170c0a34_0",
+      "language": "unknown",
+      "sizeLines": 463,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/68ecfeb21525e2ad_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/694e3a1d6d77c041_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6b3990a53379f402_0",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6ba583b208be9510_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6c28fa2a10e1e538_0",
+      "language": "unknown",
+      "sizeLines": 922,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6d7d8c9a4a4da895_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6dfa23288b062de9_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6e99635b5c8762cf_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6f0ccb4d535f5214_0",
+      "language": "unknown",
+      "sizeLines": 962,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/6fbb9686d012d519_0",
+      "language": "unknown",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/701054710bf1eac1_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/704dc78a3ac53f66_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/717990debf68681b_0",
+      "language": "unknown",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7228c4abeabf05f4_0",
+      "language": "unknown",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7228c4abeabf05f4_0 2",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7228c4abeabf05f4_0 3",
+      "language": "unknown",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7228c4abeabf05f4_0 4",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7228c4abeabf05f4_0 5",
+      "language": "unknown",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/727d6eaacfcae1f9_0",
+      "language": "unknown",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/72fc107ff713dbe2_0",
+      "language": "unknown",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/73cb96dc4eab8019_0",
+      "language": "unknown",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7429b91944dbecaf_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/75172af66511a6db_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/761b087afc203010_0",
+      "language": "unknown",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/769c7baea3323fa8_0",
+      "language": "unknown",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/79e12f91d1c218fe_0",
+      "language": "unknown",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7a55b71734ee1656_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7b25c7dbedcfd613_0",
+      "language": "unknown",
+      "sizeLines": 918,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7b333881e99a916b_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7b73043fc206322a_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7bc176f385a4478e_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7c41dfbe55276126_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7c560b7a114dd79c_0",
+      "language": "unknown",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7c9292aeb7d0c685_0",
+      "language": "unknown",
+      "sizeLines": 567,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7ccf4594511e1bb9_0",
+      "language": "unknown",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7d184ccf55ee3464_0",
+      "language": "unknown",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7d3a7901f9eef45b_0",
+      "language": "unknown",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7da60b1236173df2_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7dd8a39c36bcc7aa_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7e3608c17a21f147_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7eb6da71885b275f_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7eee231fab76faae_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7f35126c2ecb1a0c_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7f4aaaa922757c1f_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7f935c6f5ad3275c_0",
+      "language": "unknown",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7fc35d76d243f936_0",
+      "language": "unknown",
+      "sizeLines": 10428,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/7ffc9357d8eabbad_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/800d401c327839a1_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8118eaac86e3055c_0",
+      "language": "unknown",
+      "sizeLines": 2115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/81ad21a52200fcd1_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/81bd79ba887dafac_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/81f42ff7a687a784_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/834ab7a6e02bcfde_0",
+      "language": "unknown",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/83aca5b26a5ab3bc_0",
+      "language": "unknown",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/83cd99f298e3451a_0",
+      "language": "unknown",
+      "sizeLines": 777,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/85706cdc75f68d32_0",
+      "language": "unknown",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/87d414d46b9e9c7c_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8833bb97fd27fa5e_0",
+      "language": "unknown",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/89ef039a56f3ca95_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8a240c7399ba155b_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8aa42b87bba2e8f1_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8dcd02af2c933bfd_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8e476a13558511d7_0",
+      "language": "unknown",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8e9296c05a39e5ac_0",
+      "language": "unknown",
+      "sizeLines": 926,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8ed4e2a2c71b44c1_0",
+      "language": "unknown",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8ed72cb1bd4d7be8_0",
+      "language": "unknown",
+      "sizeLines": 208,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/8f84049584afe2be_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/902666253323e4d9_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9097d470cae7a6ef_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/90f33308bed79ff5_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/91686fa0a74bb675_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9446b2b5baa9fdba_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/94b50ba81f3cffb1_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/95e6f08d69dce003_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/95ec0d746f5231b4_0",
+      "language": "unknown",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/96c904436fe82911_0",
+      "language": "unknown",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/979a0afbf40d1917_0",
+      "language": "unknown",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/97fed973142b94f8_0",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/98223158f64ad9b7_0",
+      "language": "unknown",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/98493c9a4c52ef94_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/99a80d92c3c2ebb2_0",
+      "language": "unknown",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9ab555c5d3611983_0",
+      "language": "unknown",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9b7a46e5578c6a89_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9cc2b86e8edb5c64_0",
+      "language": "unknown",
+      "sizeLines": 1045,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9d00c999ced46aed_0",
+      "language": "unknown",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9d2521b1f5886b17_0",
+      "language": "unknown",
+      "sizeLines": 620,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9d5f7da5d5a03595_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9d96aa7baa37a6eb_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9e5e91835d5981c5_0",
+      "language": "unknown",
+      "sizeLines": 543,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9f647f621501489c_0",
+      "language": "unknown",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9f6ee12799eb7917_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9fb73072ec1e49ab_0",
+      "language": "unknown",
+      "sizeLines": 378,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/9fdf2dd80fddf6aa_0",
+      "language": "unknown",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a04d05a240840b7d_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a0d668d5cd5883c3_0",
+      "language": "unknown",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a1c73b61b78ca869_0",
+      "language": "unknown",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a2df9ce05f7b5926_0",
+      "language": "unknown",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a5bb17d9302e21b0_0",
+      "language": "unknown",
+      "sizeLines": 354,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a615c56bb127c840_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a6284f1a4d934dc9_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a7f9d7d99a97166c_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a854e0dc8e9d740a_0",
+      "language": "unknown",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a8f5800195b799a2_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a925a688052bd08e_0",
+      "language": "unknown",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a95e80c391144277_0",
+      "language": "unknown",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/a9bcc1d1e303f235_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/aa70fd5a7002e5c8_0",
+      "language": "unknown",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/abc3c1f1cd37da0b_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/adc127a141ec4bf0_0",
+      "language": "unknown",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ae06d330cafdfd16_0",
+      "language": "unknown",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/af0a31de456f3b0f_0",
+      "language": "unknown",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/af902de83b274586_0",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/af902de83b274586_0 2",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/af902de83b274586_0 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/af902de83b274586_0 4",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/af902de83b274586_0 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b0d2b896cacb4bb8_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b12086236ac47f50_0",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b152b914ac6b5357_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b20ad606138117a3_0",
+      "language": "unknown",
+      "sizeLines": 441,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b3aaf73a981d702e_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b4518f776c0ff18b_0",
+      "language": "unknown",
+      "sizeLines": 435,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b47763f54c1f4797_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b58091180c6247f6_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b5f4b0991b0f5253_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b645d0063510c6fd_0",
+      "language": "unknown",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b752b257816c842d_0",
+      "language": "unknown",
+      "sizeLines": 2328,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b860a33fa61de297_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b8a9d3b359f7204b_0",
+      "language": "unknown",
+      "sizeLines": 620,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/b9ad76ac02050a1f_0",
+      "language": "unknown",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ba3c1d1b3042dcef_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ba5078fef2b1f9a2_0",
+      "language": "unknown",
+      "sizeLines": 2328,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ba678a2fbd8c358c_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ba78b4b570179903_0",
+      "language": "unknown",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/bae10756c826a63d_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/bb19b1f7d0386e6e_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/beeb0c56c1a8ad64_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/bf9864ee20351bf6_0",
+      "language": "unknown",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/bfbd4f4a175ad9f5_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c04fbdfa289cc68c_0",
+      "language": "unknown",
+      "sizeLines": 921,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c09c905723333813_0",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c1019973a42e2b1c_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c11f8cfd67866aea_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c15c13b973409afc_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c1cc3851a3f36b8b_0",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c1fcbd345c6be88d_0",
+      "language": "unknown",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c2170cc76cf41b13_0",
+      "language": "unknown",
+      "sizeLines": 111,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c2961157d8e5c4fe_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c30caf92a97ae983_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c5215baab451133e_0",
+      "language": "unknown",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c5b0aef0db03753b_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c7654f961a99fd93_0",
+      "language": "unknown",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c8ac4d95f06802d1_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/c9c87a6e3804b78c_0",
+      "language": "unknown",
+      "sizeLines": 7221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ca82d52fd9c54ae6_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/caf568f1f8b64950_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cb141885c96acbde_0",
+      "language": "unknown",
+      "sizeLines": 1121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cb9342cc404aa6ee_0",
+      "language": "unknown",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cbc6ad6af86e042f_0",
+      "language": "unknown",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cc118741eae0095b_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cc7f2d738b88cc84_0",
+      "language": "unknown",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cd9faedb193296d3_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cf52e571513e201f_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cf99d7c831973660_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cfa63bfa56aedb71_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/cfdb387c42434908_0",
+      "language": "unknown",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d130836e60685b83_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d157a456ddb4dea4_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d1f7cd89395ee4c0_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d236bae45fb25684_0",
+      "language": "unknown",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d2838da2a872cc38_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d28c4caf6be5d09d_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d2a26ab1091f0d52_0",
+      "language": "unknown",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d34c8922b7a2df09_0",
+      "language": "unknown",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d37005950ea74fe0_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d371591842b818a5_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d3bf26649a54154d_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d45b94120128742e_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d5350d572151e926_0",
+      "language": "unknown",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d5a848008ea2e0a3_0",
+      "language": "unknown",
+      "sizeLines": 620,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d5b525438ceecc15_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d695a9a7d64b9544_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d6cda617651637af_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d8c46fea842d06ec_0",
+      "language": "unknown",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d8e9809b504e5c50_0",
+      "language": "unknown",
+      "sizeLines": 2329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/d9f9ead200e0b3e3_0",
+      "language": "unknown",
+      "sizeLines": 339,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/daa9e9cbdba3f055_0",
+      "language": "unknown",
+      "sizeLines": 913,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/db3fdd1dd1c95b29_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/db62758d5bc171e6_0",
+      "language": "unknown",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/dc2317749379276e_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/dc3ef68fcfa7c2c5_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/dcae845f274aa075_0",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/dce77f9faef5f070_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/dcf7e15669d3de45_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/de36af9ce78e3041_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/dedca38801c36fe1_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/defc7af8d8f7ae84_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e27d8733bca81fb0_0",
+      "language": "unknown",
+      "sizeLines": 436,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e2d5cb40add299b0_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e34d5dbf9bb48662_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e3670402ebe7e3ff_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e36acedcaa3dcaca_0",
+      "language": "unknown",
+      "sizeLines": 1174,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e3f5c4343592dc4c_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e41e3f2a9e76f8ce_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e45502ac92ebd842_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e555fb6600b77f09_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e5cdd85a19073628_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e63b1c7c1cb69b70_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e670938fe77caf38_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e71331ce7151a55e_0",
+      "language": "unknown",
+      "sizeLines": 4619,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e734293fd71ffbc8_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e7ebfeb2ce5dd036_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e89f52dfe776f42e_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e9b4809b9dbfeb8c_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/e9b9167051e96433_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ea6fa78e25b7550a_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/eb45aa08cf4f1be9_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ebe5fcf7c9bdbfae_0",
+      "language": "unknown",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ec135a46f1e2027a_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ed3ee1ea4a3b2f26_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/eef58a6efaa6bcc9_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f0da9c39a357dea2_0",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f0dbf3227ecd191d_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f10aa0a8127f6eec_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f204a3bcbd08e2e8_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f2648e408a2cb8fc_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f2e9cb1ec4bedfd3_0",
+      "language": "unknown",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f4c47c7bf5254230_0",
+      "language": "unknown",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f6ac80f65b93bcc0_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f6dbc169fcf18bd4_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f6ed242841a70585_0",
+      "language": "unknown",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f8fac0c574593071_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/f99d4a1b741bf48c_0",
+      "language": "unknown",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/fa7b38a02faa497b_0",
+      "language": "unknown",
+      "sizeLines": 681,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/fb0375f5bfbdcec3_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/fb9b08b9399c07a5_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/fc1e8e1a506ddcc7_0",
+      "language": "unknown",
+      "sizeLines": 176,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/fc862d830b5bd6e1_0",
+      "language": "unknown",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/fcfc9cb19868b51e_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/fe4b175f285634fc_0",
+      "language": "unknown",
+      "sizeLines": 188,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/ff9a3beea480038a_0",
+      "language": "unknown",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/index-dir/the-real-index",
+      "language": "unknown",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/js/index-dir/the-real-index 2",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/wasm/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index 8",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOG 8",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/commerce_subscription_db/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Cookies",
+      "language": "unknown",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Cookies-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnGraphiteCache/data_0",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnGraphiteCache/data_1",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnGraphiteCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnGraphiteCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnGraphiteCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnWebGPUCache/data_0",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnWebGPUCache/data_1",
+      "language": "unknown",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnWebGPUCache/data_2",
+      "language": "unknown",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnWebGPUCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DawnWebGPUCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DIPS",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DIPS-wal",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DIPS-wal 2",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DIPS-wal 3",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DIPS-wal 4",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DIPS-wal 5",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/DIPS-wal 6",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discount_infos_db/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discount_infos_db/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discount_infos_db/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discount_infos_db/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discount_infos_db/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discount_infos_db/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discount_infos_db/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discount_infos_db/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discount_infos_db/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discounts_db/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discounts_db/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discounts_db/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discounts_db/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discounts_db/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discounts_db/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discounts_db/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discounts_db/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/discounts_db/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/engine_allowlist.bf",
+      "language": "bf",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Rules/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Rules/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Rules/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Rules/LOG.old",
+      "language": "old",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Rules/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Scripts/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Scripts/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Scripts/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Scripts/LOG.old",
+      "language": "old",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension Scripts/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOG 2",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOG 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOG 4",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOG 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOG 6",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOG 7",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOG 8",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Extension State/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Favicons",
+      "language": "unknown",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Favicons-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/AvailabilityDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/EventDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/EventDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/EventDB/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/EventDB/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/EventDB/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/EventDB/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/EventDB/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/EventDB/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Feature Engagement Tracker/EventDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/LOG 2",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/LOG 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/LOG 4",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/LOG 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/LOG 6",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/LOG 7",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GCM Store/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GPUCache/data_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GPUCache/data_1",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GPUCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GPUCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/GPUCache/index",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/heavy_ad_intervention_opt_out.db",
+      "language": "db",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/heavy_ad_intervention_opt_out.db-journal",
+      "language": "db-journal",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/History",
+      "language": "unknown",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/History-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/000005.ldb",
+      "language": "ldb",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG 2",
+      "language": "unknown",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG 2.old",
+      "language": "old",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG 3.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG 4",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG 6",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG 7",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG 8",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/LOG 2",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/LOG 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/LOG 4",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/LOG 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/LOG 6",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/LOG 7",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Local Storage/leveldb/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Login Data",
+      "language": "unknown",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Login Data For Account",
+      "language": "unknown",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Login Data For Account-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Login Data-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/MediaDeviceSalts",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/MediaDeviceSalts-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Network Action Predictor",
+      "language": "unknown",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Network Action Predictor-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Network Persistent State",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOG 8",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/parcel_tracking_db/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOG 8",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PersistentOriginTrials/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Preferences",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/PreferredApps",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/README",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Reporting and NEL",
+      "language": "unknown",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Reporting and NEL-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Safe Browsing Cookies",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Safe Browsing Cookies-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Secure Preferences",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SegmentInfoDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalDB/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalDB/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalDB/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalDB/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalDB/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalDB/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG 7",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ServerCertificate",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/ServerCertificate-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Service Worker/Database/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Service Worker/Database/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Service Worker/Database/LOG",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Service Worker/Database/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0",
+      "language": "unknown",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Service Worker/ScriptCache/4cb013792b196a35_0",
+      "language": "unknown",
+      "sizeLines": 298,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Service Worker/ScriptCache/4cb013792b196a35_1",
+      "language": "unknown",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Service Worker/ScriptCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Service Worker/ScriptCache/index-dir/the-real-index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOG 2",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOG 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOG 4",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOG 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOG 6",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOG 7",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOG 8",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Session Storage/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sessions/Session_13426168257139232",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sessions/Session_13426168462639778",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sessions/Session_13426774816166713",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sessions/Session_13426774818664691",
+      "language": "unknown",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sessions/Tabs_13426168257794414",
+      "language": "unknown",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sessions/Tabs_13426168464584611",
+      "language": "unknown",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sessions/Tabs_13426774818075777",
+      "language": "unknown",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Shared Dictionary/db",
+      "language": "unknown",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Shared Dictionary/db-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOG 2",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOG 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOG 4",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOG 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOG 6",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOG 7",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOG 8",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOG 2",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOG 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOG 4",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOG 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOG 6",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOG 7",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOG 8",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/shared_proto_db/metadata/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/SharedStorage",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Shortcuts",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Shortcuts-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/LOG 2",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/LOG 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/LOG 4",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/LOG 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/LOG 6",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/LOG 7",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Site Characteristics Database/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/LOG 2",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/LOG 3",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/LOG 4",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/LOG 5",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/LOG 6",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/LOG 7",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Sync Data/LevelDB/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Top Sites",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Top Sites-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/TransportSecurity",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Trust Tokens",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Trust Tokens-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/trusted_vault.pb",
+      "language": "pb",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/VideoDecodeStats/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/VideoDecodeStats/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/VideoDecodeStats/LOG 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/VideoDecodeStats/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Web Data",
+      "language": "unknown",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/Web Data-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/WebStorage/QuotaManager",
+      "language": "unknown",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Default/WebStorage/QuotaManager-journal",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/extensions_crx_cache/metadata.json",
+      "language": "json",
+      "sizeLines": 0,
+      "fileCategory": "config"
+    },
+    {
+      "path": "chrome-profile/first_party_sets.db",
+      "language": "db",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/first_party_sets.db-journal",
+      "language": "db-journal",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GPUPersistentCache/GPUCache/OGO7FKQ6G4E7W7EAA7WM4NMYQ5QUST2I/cache.db",
+      "language": "db",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GPUPersistentCache/GPUCache/OGO7FKQ6G4E7W7EAA7WM4NMYQ5QUST2I/cache.db-wal",
+      "language": "db-wal",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GPUPersistentCache/GPUCache/OGO7FKQ6G4E7W7EAA7WM4NMYQ5QUST2I/cache.journal",
+      "language": "journal",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GPUPersistentCache/GPUCache/WWYBSFTD444ECNIZTC3BRQAEKAT3YUOI/cache.db-wal",
+      "language": "db-wal",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GPUPersistentCache/GPUCache/WWYBSFTD444ECNIZTC3BRQAEKAT3YUOI/cache.journal",
+      "language": "journal",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/data_0",
+      "language": "unknown",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/data_1",
+      "language": "unknown",
+      "sizeLines": 791,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/data_2",
+      "language": "unknown",
+      "sizeLines": 3721,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/data_3",
+      "language": "unknown",
+      "sizeLines": 31243,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_000001",
+      "language": "unknown",
+      "sizeLines": 413,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_000002",
+      "language": "unknown",
+      "sizeLines": 418,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_000003",
+      "language": "unknown",
+      "sizeLines": 419,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_000004",
+      "language": "unknown",
+      "sizeLines": 505,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_000005",
+      "language": "unknown",
+      "sizeLines": 408,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_000006",
+      "language": "unknown",
+      "sizeLines": 408,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_000007",
+      "language": "unknown",
+      "sizeLines": 418,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_000008",
+      "language": "unknown",
+      "sizeLines": 413,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_000009",
+      "language": "unknown",
+      "sizeLines": 424,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_00000a",
+      "language": "unknown",
+      "sizeLines": 414,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_00000b",
+      "language": "unknown",
+      "sizeLines": 418,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_00000c",
+      "language": "unknown",
+      "sizeLines": 419,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_00000d",
+      "language": "unknown",
+      "sizeLines": 505,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_00000e",
+      "language": "unknown",
+      "sizeLines": 408,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/f_00000f",
+      "language": "unknown",
+      "sizeLines": 413,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GraphiteDawnCache/index",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GrShaderCache/data_0",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GrShaderCache/data_1",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GrShaderCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GrShaderCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/GrShaderCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Last Version",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Local State",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/segmentation_platform/ukm_db",
+      "language": "unknown",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/segmentation_platform/ukm_db-wal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/segmentation_platform/ukm_db-wal 2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/segmentation_platform/ukm_db-wal 3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/segmentation_platform/ukm_db-wal 4",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/segmentation_platform/ukm_db-wal 5",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/segmentation_platform/ukm_db-wal 6",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/ShaderCache/data_0",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/ShaderCache/data_1",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/ShaderCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/ShaderCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/ShaderCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chrome-profile/Variations",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "CLEANUP_DELIVERABLE_REPORT.md",
+      "language": "markdown",
+      "sizeLines": 48,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "DEPLOYMENT_COMMANDS.md",
+      "language": "markdown",
+      "sizeLines": 74,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "DEPLOYMENT_STAGING.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/EXECUTION_LIFECYCLE.md",
+      "language": "markdown",
+      "sizeLines": 45,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "e2e/example.spec.js",
+      "language": "javascript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "e2e/workflow.spec.js",
+      "language": "javascript",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "ecosystem.config.js",
+      "language": "javascript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphify-out/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphify-out/.graphify_labels.json",
+      "language": "json",
+      "sizeLines": 116,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/.graphify_python",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphify-out/.graphify_root",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphify-out/.graphify_semantic_marker",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphify-out/2026-06-23/.graphify_analysis.json",
+      "language": "json",
+      "sizeLines": 1039,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-23/.graphify_labels.json",
+      "language": "json",
+      "sizeLines": 0,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-23/.graphify_semantic_marker",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphify-out/2026-06-23/cost.json",
+      "language": "json",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-23/GRAPH_REPORT.md",
+      "language": "markdown",
+      "sizeLines": 244,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "graphify-out/2026-06-23/graph.json",
+      "language": "json",
+      "sizeLines": 16267,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-23/manifest.json",
+      "language": "json",
+      "sizeLines": 601,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-24/.graphify_labels.json",
+      "language": "json",
+      "sizeLines": 0,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-24/.graphify_semantic_marker",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphify-out/2026-06-24/cost.json",
+      "language": "json",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-24/GRAPH_REPORT.md",
+      "language": "markdown",
+      "sizeLines": 248,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "graphify-out/2026-06-24/graph.json",
+      "language": "json",
+      "sizeLines": 16768,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-24/manifest.json",
+      "language": "json",
+      "sizeLines": 616,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-25/.graphify_labels.json",
+      "language": "json",
+      "sizeLines": 121,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-25/.graphify_semantic_marker",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphify-out/2026-06-25/cost.json",
+      "language": "json",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-25/GRAPH_REPORT.md",
+      "language": "markdown",
+      "sizeLines": 328,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "graphify-out/2026-06-25/graph.json",
+      "language": "json",
+      "sizeLines": 24607,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-25/manifest.json",
+      "language": "json",
+      "sizeLines": 1201,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-26/.graphify_labels.json",
+      "language": "json",
+      "sizeLines": 113,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-26/.graphify_semantic_marker",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "graphify-out/2026-06-26/cost.json",
+      "language": "json",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-26/GRAPH_REPORT.md",
+      "language": "markdown",
+      "sizeLines": 330,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "graphify-out/2026-06-26/graph.json",
+      "language": "json",
+      "sizeLines": 24514,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/2026-06-26/manifest.json",
+      "language": "json",
+      "sizeLines": 1086,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/cost.json",
+      "language": "json",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/GRAPH_REPORT.md",
+      "language": "markdown",
+      "sizeLines": 337,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "graphify-out/GRAPH_TREE.html",
+      "language": "html",
+      "sizeLines": 363,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "graphify-out/graph.html",
+      "language": "html",
+      "sizeLines": 306,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "graphify-out/graph.json",
+      "language": "json",
+      "sizeLines": 24684,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/manifest.json",
+      "language": "json",
+      "sizeLines": 1091,
+      "fileCategory": "config"
+    },
+    {
+      "path": "graphify-out/n8n-callflow.html",
+      "language": "html",
+      "sizeLines": 4536,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "healthcheck.sh",
+      "language": "shell",
+      "sizeLines": 19,
+      "fileCategory": "script"
+    },
+    {
+      "path": "install.sh",
+      "language": "shell",
+      "sizeLines": 54,
+      "fileCategory": "script"
+    },
+    {
+      "path": "jobs.sqlite",
+      "language": "sqlite",
+      "sizeLines": 12124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "jobs.sqlite-shm",
+      "language": "sqlite-shm",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "jobs.sqlite-wal",
+      "language": "sqlite-wal",
+      "sizeLines": 15800,
+      "fileCategory": "code"
+    },
+    {
+      "path": "logs/page_dump.html",
+      "language": "html",
+      "sizeLines": 737,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "n8n.sqlite",
+      "language": "sqlite",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "sizeLines": 28,
+      "fileCategory": "config"
+    },
+    {
+      "path": "PRODUCTION_LAUNCH_CHECKLIST.md",
+      "language": "markdown",
+      "sizeLines": 48,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "progress.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "prompts/input.txt",
+      "language": "txt",
+      "sizeLines": 48,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 131,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "restart.sh",
+      "language": "shell",
+      "sizeLines": 4,
+      "fileCategory": "script"
+    },
+    {
+      "path": "restore.sh",
+      "language": "shell",
+      "sizeLines": 43,
+      "fileCategory": "script"
+    },
+    {
+      "path": "schema.sql",
+      "language": "sql",
+      "sizeLines": 219,
+      "fileCategory": "data"
+    },
+    {
+      "path": "scripts/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/add_job.js",
+      "language": "javascript",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/autonomous_run.js",
+      "language": "javascript",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/check_config.js",
+      "language": "javascript",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Code Cache/js/318988935d62b3af_0",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Code Cache/js/9a6d9580c063da50_0",
+      "language": "unknown",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Code Cache/js/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Code Cache/js/index-dir/the-real-index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Code Cache/wasm/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Code Cache/wasm/index-dir/the-real-index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Cookies",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Cookies-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnGraphiteCache/data_0",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnGraphiteCache/data_1",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnGraphiteCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnGraphiteCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnGraphiteCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnWebGPUCache/data_0",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnWebGPUCache/data_1",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnWebGPUCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnWebGPUCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DawnWebGPUCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/DIPS",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/GPUCache/data_0",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/GPUCache/data_1",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/GPUCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/GPUCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/GPUCache/index",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Local Storage/leveldb/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Local Storage/leveldb/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Local Storage/leveldb/LOG",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Local Storage/leveldb/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/PersistentOriginTrials/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/PersistentOriginTrials/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Session Storage/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Session Storage/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Session Storage/LOG",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Session Storage/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Shared Dictionary/db",
+      "language": "unknown",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/Shared Dictionary/db-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/shared_proto_db/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/shared_proto_db/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/shared_proto_db/LOG",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/shared_proto_db/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/shared_proto_db/metadata/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/shared_proto_db/metadata/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/shared_proto_db/metadata/LOG",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/shared_proto_db/metadata/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/VideoDecodeStats/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/chrome-profile/Default/VideoDecodeStats/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/claude.js",
+      "language": "javascript",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/debug_claude_v2.js",
+      "language": "javascript",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/debug_claude.js",
+      "language": "javascript",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/inspect_chat.js",
+      "language": "javascript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/inspect_dom.js",
+      "language": "javascript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/inspect_full.js",
+      "language": "javascript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/inspect_parent.js",
+      "language": "javascript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/legacy_server.js",
+      "language": "javascript",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/test_clipboard.js",
+      "language": "javascript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/test_input_selectors.js",
+      "language": "javascript",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/test_selectors_headless.js",
+      "language": "javascript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/test_selectors.js",
+      "language": "javascript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/test_whitespace.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "SOAK_TEST_PLAN.md",
+      "language": "markdown",
+      "sizeLines": 35,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "src/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/auditRoutes.js",
+      "language": "javascript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/jobRoutes.js",
+      "language": "javascript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/projectRoutes.js",
+      "language": "javascript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/publishingRoutes.js",
+      "language": "javascript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/rewriteRoutes.js",
+      "language": "javascript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/siteRoutes.js",
+      "language": "javascript",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/statusRoutes.js",
+      "language": "javascript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/wordpressRoutes.js",
+      "language": "javascript",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/bootstrap/BootstrapManager.js",
+      "language": "javascript",
+      "sizeLines": 486,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/bootstrap/PreFlightValidator.js",
+      "language": "javascript",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/browser/BrowserRecovery.js",
+      "language": "javascript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/config.js",
+      "language": "javascript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/security.js",
+      "language": "javascript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/db/database.js",
+      "language": "javascript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/db/migrations.js",
+      "language": "javascript",
+      "sizeLines": 396,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/db/n8n.sqlite",
+      "language": "sqlite",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/errors/ClaudeErrors.js",
+      "language": "javascript",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/index.js",
+      "language": "javascript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/middleware/auth.js",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/middleware/rateLimiter.js",
+      "language": "javascript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/middleware/secureHeaders.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/middleware/validation.js",
+      "language": "javascript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/models/ContentProject.js",
+      "language": "javascript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/models/Site.js",
+      "language": "javascript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/models/WorkerState.js",
+      "language": "javascript",
+      "sizeLines": 111,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/monitor/RecoveryManager.js",
+      "language": "javascript",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/monitor/SessionMonitor.js",
+      "language": "javascript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/monitor/StateMachine.js",
+      "language": "javascript",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/repositories/JobRepository.js",
+      "language": "javascript",
+      "sizeLines": 206,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/repositories/LogRepository.js",
+      "language": "javascript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/repositories/ProjectRepository.js",
+      "language": "javascript",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/repositories/PublishingRepository.js",
+      "language": "javascript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/repositories/SiteRepository.js",
+      "language": "javascript",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/repositories/WordPressRepository.js",
+      "language": "javascript",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/routes/health.js",
+      "language": "javascript",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/routes/queue.js",
+      "language": "javascript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/routes/rewrite.js",
+      "language": "javascript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/routes/status.js",
+      "language": "javascript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/server.js",
+      "language": "javascript",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/BrowserManager.js",
+      "language": "javascript",
+      "sizeLines": 413,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/ClaudeManager.js",
+      "language": "javascript",
+      "sizeLines": 1017,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/DashboardService.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/JobService.js",
+      "language": "javascript",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/MetricsService.js",
+      "language": "javascript",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/ProjectService.js",
+      "language": "javascript",
+      "sizeLines": 201,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/PublishingService.js",
+      "language": "javascript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/QueueService.js",
+      "language": "javascript",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/SiteService.js",
+      "language": "javascript",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/SyncService.js",
+      "language": "javascript",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/services/WordPressClient.js",
+      "language": "javascript",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/session/ClaudeHealthCheck.js",
+      "language": "javascript",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/session/SessionDetector.js",
+      "language": "javascript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/session/SessionRecovery.js",
+      "language": "javascript",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/AuditParser.js",
+      "language": "javascript",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/AuditPromptBuilder.js",
+      "language": "javascript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/DiffTracker.js",
+      "language": "javascript",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/encryption.js",
+      "language": "javascript",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/FailureClassifier.js",
+      "language": "javascript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/logger.js",
+      "language": "javascript",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/RewritePromptBuilder.js",
+      "language": "javascript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/workers/ClaudeWorker.js",
+      "language": "javascript",
+      "sizeLines": 419,
+      "fileCategory": "code"
+    },
+    {
+      "path": "start.sh",
+      "language": "shell",
+      "sizeLines": 5,
+      "fileCategory": "script"
+    },
+    {
+      "path": "stop.sh",
+      "language": "shell",
+      "sizeLines": 4,
+      "fileCategory": "script"
+    },
+    {
+      "path": "SYSTEM_DESIGN_AND_EVASION.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "temp-chrome-data/ChromeFeatureState",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Account Web Data",
+      "language": "unknown",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Account Web Data-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Affiliation Database",
+      "language": "unknown",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Affiliation Database-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/AutofillAiModelCache/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/AutofillAiModelCache/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/AutofillAiModelCache/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/AutofillStrikeDatabase/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/AutofillStrikeDatabase/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/AutofillStrikeDatabase/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/BookmarkMergedSurfaceOrdering",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/BudgetDatabase/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/BudgetDatabase/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/BudgetDatabase/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Cache/Cache_Data/7e0f8c4ddb5a9a1e_0",
+      "language": "unknown",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Cache/Cache_Data/93d81321f8c35eab_0",
+      "language": "unknown",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Cache/Cache_Data/ed1d96029ec69c88_0",
+      "language": "unknown",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Cache/Cache_Data/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Cache/Cache_Data/index-dir/the-real-index",
+      "language": "unknown",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Cache/No_Vary_Search/journal.baj",
+      "language": "baj",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Cache/No_Vary_Search/snapshot.baf",
+      "language": "baf",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/ClientCertificates/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/ClientCertificates/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/ClientCertificates/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Code Cache/js/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Code Cache/js/index-dir/the-real-index",
+      "language": "unknown",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Code Cache/wasm/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Code Cache/wasm/index-dir/the-real-index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Cookies",
+      "language": "unknown",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Cookies-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnGraphiteCache/data_0",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnGraphiteCache/data_1",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnGraphiteCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnGraphiteCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnGraphiteCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnWebGPUCache/data_0",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnWebGPUCache/data_1",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnWebGPUCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnWebGPUCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DawnWebGPUCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/DIPS",
+      "language": "unknown",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension Rules/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension Rules/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension Rules/LOG",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension Rules/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension Scripts/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension Scripts/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension Scripts/LOG",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension Scripts/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension State/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension State/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension State/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension State/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Extension State/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Favicons",
+      "language": "unknown",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Favicons-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Feature Engagement Tracker/AvailabilityDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Feature Engagement Tracker/AvailabilityDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Feature Engagement Tracker/EventDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Feature Engagement Tracker/EventDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Feature Engagement Tracker/EventDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/GCM Store/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/GCM Store/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/GCM Store/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/GCM Store/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/GPUCache/data_0",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/GPUCache/data_1",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/GPUCache/data_2",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/GPUCache/data_3",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/GPUCache/index",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/History",
+      "language": "unknown",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/History-journal",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/LOG.old",
+      "language": "old",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Local Storage/leveldb/000005.ldb",
+      "language": "ldb",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Local Storage/leveldb/CURRENT",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Local Storage/leveldb/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Local Storage/leveldb/LOG",
+      "language": "unknown",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Local Storage/leveldb/LOG.old",
+      "language": "old",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Local Storage/leveldb/MANIFEST-000001",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Login Data",
+      "language": "unknown",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Login Data For Account",
+      "language": "unknown",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Login Data For Account-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Login Data-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/MediaDeviceSalts",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/MediaDeviceSalts-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Network Action Predictor",
+      "language": "unknown",
+      "sizeLines": 180,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Network Action Predictor-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Network Persistent State",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/PersistentOriginTrials/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/PersistentOriginTrials/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/PersistentOriginTrials/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Preferences",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/PreferredApps",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/README",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Reporting and NEL",
+      "language": "unknown",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Reporting and NEL-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Safe Browsing Cookies",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Safe Browsing Cookies-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Secure Preferences",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Segmentation Platform/SegmentInfoDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Segmentation Platform/SegmentInfoDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Segmentation Platform/SegmentInfoDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Segmentation Platform/SignalDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Segmentation Platform/SignalDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Segmentation Platform/SignalDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Segmentation Platform/SignalStorageConfigDB/LOCK",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Segmentation Platform/SignalStorageConfigDB/LOG",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/Segmentation Platform/SignalStorageConfigDB/LOG.old",
+      "language": "old",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/ServerCertificate",
+      "language": "unknown",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "temp-chrome-data/Default/ServerCertificate-journal",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/stabilization.test.js",
+      "language": "javascript",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/validation.test.js",
+      "language": "javascript",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "update.sh",
+      "language": "shell",
+      "sizeLines": 20,
+      "fileCategory": "script"
+    },
+    {
+      "path": "wordpress-agent-plugin/.DS_Store",
+      "language": "unknown",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/admin/AdminModule.php",
+      "language": "php",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/admin/Menu.php",
+      "language": "php",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/admin/Notices.php",
+      "language": "php",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/admin/SettingsPage.php",
+      "language": "php",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/api/BackendClient.php",
+      "language": "php",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/api/HttpClient.php",
+      "language": "php",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/assets/css/admin.css",
+      "language": "css",
+      "sizeLines": 3,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "wordpress-agent-plugin/assets/js/admin.js",
+      "language": "javascript",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/bootstrap/CronManager.php",
+      "language": "php",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/bootstrap/Loader.php",
+      "language": "php",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/bootstrap/ModuleInterface.php",
+      "language": "php",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/bootstrap/Plugin.php",
+      "language": "php",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
+      "language": "php",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/config/Constants.php",
+      "language": "php",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/BackendIdentity.php",
+      "language": "php",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/ConnectionResult.php",
+      "language": "php",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/ConnectionStatus.php",
+      "language": "php",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/HandshakeResult.php",
+      "language": "php",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/HeartbeatResult.php",
+      "language": "php",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/PluginIdentity.php",
+      "language": "php",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/PluginMetadata.php",
+      "language": "php",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/PresenceStatus.php",
+      "language": "php",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/ProtocolVersion.php",
+      "language": "php",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/RegistrationData.php",
+      "language": "php",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/RegistrationResult.php",
+      "language": "php",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/models/RegistrationStatus.php",
+      "language": "php",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/readme.txt",
+      "language": "txt",
+      "sizeLines": 8,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "wordpress-agent-plugin/repository/SettingsRepository.php",
+      "language": "php",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/security/Nonce.php",
+      "language": "php",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/security/Permissions.php",
+      "language": "php",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/security/SecretStoreInterface.php",
+      "language": "php",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/security/WordPressSecretStore.php",
+      "language": "php",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/seo-optimization-platform.php",
+      "language": "php",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/services/CompatibilityService.php",
+      "language": "php",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/services/ConfigService.php",
+      "language": "php",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/services/ConnectionService.php",
+      "language": "php",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/services/DiagnosticsService.php",
+      "language": "php",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/services/HealthService.php",
+      "language": "php",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/services/HeartbeatService.php",
+      "language": "php",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/services/RegistrationService.php",
+      "language": "php",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/uninstall.php",
+      "language": "php",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/utils/LoggerInterface.php",
+      "language": "php",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "wordpress-agent-plugin/utils/NullLogger.php",
+      "language": "php",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    }
+  ],
+  "totalFiles": 1164,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "very-large",
+  "stats": {
+    "filesScanned": 1164,
+    "byCategory": {
+      "code": 1103,
+      "docs": 20,
+      "infra": 1,
+      "markup": 7,
+      "script": 8,
+      "config": 24,
+      "data": 1
+    },
+    "byLanguage": {
+      "unknown": 913,
+      "markdown": 18,
+      "yaml": 1,
+      "html": 6,
+      "shell": 8,
+      "p7mhyy": 1,
+      "pma": 3,
+      "json": 24,
+      "old": 44,
+      "bf": 1,
+      "db": 3,
+      "db-journal": 2,
+      "ldb": 2,
+      "pb": 1,
+      "db-wal": 2,
+      "journal": 2,
+      "javascript": 82,
+      "sqlite": 3,
+      "sqlite-shm": 1,
+      "sqlite-wal": 1,
+      "txt": 2,
+      "sql": 1,
+      "baj": 1,
+      "baf": 1,
+      "php": 40,
+      "css": 1
+    }
+  }
+}

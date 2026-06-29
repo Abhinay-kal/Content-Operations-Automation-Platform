@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/index.js",
+      "type": "file",
+      "name": "src/index.js",
+      "summary": "Main entry point for the Claude Worker Foundation.",
+      "tags": ["entry-point", "core"],
+      "filePath": "src/index.js",
+      "language": "javascript"
+    },
+    {
+      "id": "file:README.md",
+      "type": "document",
+      "name": "README.md",
+      "summary": "Project documentation and setup guide.",
+      "tags": ["docs"],
+      "filePath": "README.md",
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:README.md",
+      "target": "file:src/index.js",
+      "type": "documents"
+    }
+  ]
+}

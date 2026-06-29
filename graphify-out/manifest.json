@@ -45,8 +45,8 @@
     "semantic_hash": "9cdcbcc1543fa2c074416ed3d48c386f"
   },
   "package.json": {
-    "mtime": 1782296447.410818,
-    "ast_hash": "d9e975aa85019d442dea0d73fdeb7a46",
+    "mtime": 1782463477.1494942,
+    "ast_hash": "910d1e2f5ae15bbbd20f0f304fe891e3",
     "semantic_hash": ""
   },
   "restart.sh": {
@@ -1082,6 +1082,11 @@
   "src/workers/ClaudeWorker.js": {
     "mtime": 1782285877.4018276,
     "ast_hash": "3cc8c998b4ff7cc1e2d8df9dd9127166",
+    "semantic_hash": ""
+  },
+  "CLEANUP_DELIVERABLE_REPORT.md": {
+    "mtime": 1782457280.340713,
+    "ast_hash": "ebc5b6373b0429e32345deff8d3f771b",
     "semantic_hash": ""
   }
 }

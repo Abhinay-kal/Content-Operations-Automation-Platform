@@ -180,8 +180,8 @@
     "semantic_hash": "da47d4a21d7de3faab0b84c42520c1c0"
   },
   "src/bootstrap/BootstrapManager.js": {
-    "mtime": 1782300416.1159832,
-    "ast_hash": "215d8a736c09173754e10f5234960319",
+    "mtime": 1782457235.06875,
+    "ast_hash": "3fbae0ea77016ac6505b1926cbf11e34",
     "semantic_hash": ""
   },
   "src/bootstrap/PreFlightValidator.js": {
@@ -1077,6 +1077,11 @@
   "AUDIT_REPORT.md": {
     "mtime": 1782456965.58953,
     "ast_hash": "44840e71580d646d1bba12473c25571c",
+    "semantic_hash": ""
+  },
+  "src/workers/ClaudeWorker.js": {
+    "mtime": 1782285877.4018276,
+    "ast_hash": "3cc8c998b4ff7cc1e2d8df9dd9127166",
     "semantic_hash": ""
   }
 }

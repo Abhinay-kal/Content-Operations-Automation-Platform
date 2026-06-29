@@ -1,5 +1,5 @@
-2026/06/25-16:55:02.639 2ce5878 Reusing MANIFEST /Users/abhinaykalkhanday/Desktop/n8n/temp-chrome-data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/25-16:55:02.648 2ce5878 Recovering log #25
-2026/06/25-16:55:02.649 2ce5878 Level-0 table #28: started
-2026/06/25-16:55:02.657 2ce5878 Level-0 table #28: 19020 bytes OK
-2026/06/25-16:55:02.664 2ce5878 Delete type=0 #25
+2026/06/28-14:49:25.466 329c9df Reusing MANIFEST /Users/abhinaykalkhanday/Desktop/n8n/temp-chrome-data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/28-14:49:25.468 329c9df Recovering log #31
+2026/06/28-14:49:25.469 329c9df Reusing old log /Users/abhinaykalkhanday/Desktop/n8n/temp-chrome-data/Default/Local Storage/leveldb/000031.log 
+2026/06/28-14:49:50.170 329c9e2 Level-0 table #36: started
+2026/06/28-14:49:50.172 329c9e2 Level-0 table #36: 18649 bytes OK

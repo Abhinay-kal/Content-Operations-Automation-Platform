@@ -1,0 +1,14 @@
+[
+  {
+    "id": "layer:core",
+    "name": "Core System",
+    "description": "Core application entry point.",
+    "nodeIds": ["file:src/index.js"]
+  },
+  {
+    "id": "layer:documentation",
+    "name": "Documentation",
+    "description": "Project documentation.",
+    "nodeIds": ["file:README.md"]
+  }
+]

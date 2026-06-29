@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "claude-worker-foundation",
+    "languages": ["javascript", "markdown"],
+    "frameworks": ["express", "playwright"],
+    "description": "A reliable, scalable Playwright + Express worker designed for automating the Claude Web UI.",
+    "analyzedAt": "2026-06-27T17:48:00Z",
+    "gitCommitHash": "d1f4fab125b6e199791feebcd273f24eb91c9aa7"
+  },
+  "nodes": [
+    {
+      "id": "file:src/index.js",
+      "type": "file",
+      "name": "src/index.js",
+      "summary": "Main entry point for the Claude Worker Foundation.",
+      "tags": ["entry-point", "core"],
+      "filePath": "src/index.js",
+      "language": "javascript",
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:README.md",
+      "type": "document",
+      "name": "README.md",
+      "summary": "Project documentation and setup guide.",
+      "tags": ["docs"],
+      "filePath": "README.md",
+      "language": "markdown",
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:README.md",
+      "target": "file:src/index.js",
+      "type": "documents"
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:core",
+      "name": "Core System",
+      "description": "Core application entry point.",
+      "nodeIds": ["file:src/index.js"]
+    },
+    {
+      "id": "layer:documentation",
+      "name": "Documentation",
+      "description": "Project documentation.",
+      "nodeIds": ["file:README.md"]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Project Overview",
+      "description": "Read the README to understand the project architecture.",
+      "nodeIds": ["file:README.md"]
+    },
+    {
+      "order": 2,
+      "title": "Application Entry Point",
+      "description": "The main entry point for the application.",
+      "nodeIds": ["file:src/index.js"]
+    }
+  ]
+}
