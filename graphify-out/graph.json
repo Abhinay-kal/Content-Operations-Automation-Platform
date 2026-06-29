@@ -61,104 +61,124 @@
   },
   "nodes": [
     {
-      "label": "setup_p5.js",
+      "label": "setup_p6.js",
       "file_type": "code",
-      "source_file": "setup_p5.js",
+      "source_file": "setup_p6.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_p5",
-      "community": 120,
-      "norm_label": "setup_p5.js"
+      "id": "setup_p6",
+      "community": 68,
+      "norm_label": "setup_p6.js"
     },
     {
       "label": "fs",
       "file_type": "code",
-      "source_file": "setup_p5.js",
+      "source_file": "setup_p6.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "setup_p5_fs",
-      "community": 120,
+      "id": "setup_p6_fs",
+      "community": 68,
       "norm_label": "fs"
     },
     {
       "label": "path",
       "file_type": "code",
-      "source_file": "setup_p5.js",
+      "source_file": "setup_p6.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "setup_p5_path",
-      "community": 120,
+      "id": "setup_p6_path",
+      "community": 68,
       "norm_label": "path"
     },
     {
       "label": "mkdirp()",
       "file_type": "code",
-      "source_file": "setup_p5.js",
+      "source_file": "setup_p6.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "setup_p5_mkdirp",
-      "community": 120,
+      "id": "setup_p6_mkdirp",
+      "community": 68,
       "norm_label": "mkdirp()"
     },
     {
-      "label": "pluginRepoPath",
+      "label": "schemaPath",
       "file_type": "code",
-      "source_file": "setup_p5.js",
-      "source_location": "L188",
+      "source_file": "setup_p6.js",
+      "source_location": "L195",
       "_origin": "ast",
-      "id": "setup_p5_pluginrepopath",
-      "community": 120,
-      "norm_label": "pluginrepopath"
+      "id": "setup_p6_schemapath",
+      "community": 68,
+      "norm_label": "schemapath"
     },
     {
-      "label": "pluginRepoCode",
+      "label": "schemaContent",
       "file_type": "code",
-      "source_file": "setup_p5.js",
-      "source_location": "L189",
+      "source_file": "setup_p6.js",
+      "source_location": "L196",
       "_origin": "ast",
-      "id": "setup_p5_pluginrepocode",
-      "community": 120,
-      "norm_label": "pluginrepocode"
-    },
-    {
-      "label": "projectRepoPath",
-      "file_type": "code",
-      "source_file": "setup_p5.js",
-      "source_location": "L198",
-      "_origin": "ast",
-      "id": "setup_p5_projectrepopath",
-      "community": 120,
-      "norm_label": "projectrepopath"
-    },
-    {
-      "label": "projectRepoCode",
-      "file_type": "code",
-      "source_file": "setup_p5.js",
-      "source_location": "L199",
-      "_origin": "ast",
-      "id": "setup_p5_projectrepocode",
-      "community": 120,
-      "norm_label": "projectrepocode"
+      "id": "setup_p6_schemacontent",
+      "community": 68,
+      "norm_label": "schemacontent"
     },
     {
       "label": "bootstrapPath",
       "file_type": "code",
-      "source_file": "setup_p5.js",
-      "source_location": "L210",
+      "source_file": "setup_p6.js",
+      "source_location": "L203",
       "_origin": "ast",
-      "id": "setup_p5_bootstrappath",
-      "community": 120,
+      "id": "setup_p6_bootstrappath",
+      "community": 68,
       "norm_label": "bootstrappath"
     },
     {
       "label": "bootstrap",
       "file_type": "code",
-      "source_file": "setup_p5.js",
-      "source_location": "L211",
+      "source_file": "setup_p6.js",
+      "source_location": "L204",
       "_origin": "ast",
-      "id": "setup_p5_bootstrap",
-      "community": 120,
+      "id": "setup_p6_bootstrap",
+      "community": 68,
       "norm_label": "bootstrap"
+    },
+    {
+      "label": "postEventHandlerPath",
+      "file_type": "code",
+      "source_file": "setup_p6.js",
+      "source_location": "L249",
+      "_origin": "ast",
+      "id": "setup_p6_posteventhandlerpath",
+      "community": 68,
+      "norm_label": "posteventhandlerpath"
+    },
+    {
+      "label": "postEventHandler",
+      "file_type": "code",
+      "source_file": "setup_p6.js",
+      "source_location": "L250",
+      "_origin": "ast",
+      "id": "setup_p6_posteventhandler",
+      "community": 68,
+      "norm_label": "posteventhandler"
+    },
+    {
+      "label": "consumerPath",
+      "file_type": "code",
+      "source_file": "setup_p6.js",
+      "source_location": "L282",
+      "_origin": "ast",
+      "id": "setup_p6_consumerpath",
+      "community": 68,
+      "norm_label": "consumerpath"
+    },
+    {
+      "label": "consumer",
+      "file_type": "code",
+      "source_file": "setup_p6.js",
+      "source_location": "L283",
+      "_origin": "ast",
+      "id": "setup_p6_consumer",
+      "community": 68,
+      "norm_label": "consumer"
     },
     {
       "label": "BootstrapManager.js",
@@ -321,10 +341,40 @@
       "norm_label": "{ pluginservice }"
     },
     {
+      "label": "{ WorkflowPolicyEngine }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_workflowpolicyengine",
+      "community": 5,
+      "norm_label": "{ workflowpolicyengine }"
+    },
+    {
+      "label": "{ WorkflowScheduler }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_workflowscheduler",
+      "community": 5,
+      "norm_label": "{ workflowscheduler }"
+    },
+    {
+      "label": "{ WorkflowOrchestrator }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_workfloworchestrator",
+      "community": 5,
+      "norm_label": "{ workfloworchestrator }"
+    },
+    {
       "label": "{ EventConsumerService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_eventconsumerservice",
       "community": 5,
@@ -334,7 +384,7 @@
       "label": "{ PostEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_posteventhandler",
       "community": 5,
@@ -344,7 +394,7 @@
       "label": "{ TaxonomyEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_taxonomyeventhandler",
       "community": 5,
@@ -354,7 +404,7 @@
       "label": "{ AuthorEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_authoreventhandler",
       "community": 5,
@@ -364,7 +414,7 @@
       "label": "{ MediaEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_mediaeventhandler",
       "community": 5,
@@ -374,7 +424,7 @@
       "label": "{ SiteEventHandler }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_siteeventhandler",
       "community": 5,
@@ -384,7 +434,7 @@
       "label": "JobService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L23",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_jobservice",
       "community": 5,
@@ -394,7 +444,7 @@
       "label": "{ SiteService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_siteservice",
       "community": 5,
@@ -404,7 +454,7 @@
       "label": "{ ProjectService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L25",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_projectservice",
       "community": 5,
@@ -414,7 +464,7 @@
       "label": "SyncService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L26",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_syncservice",
       "community": 5,
@@ -424,7 +474,7 @@
       "label": "PublishingService",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L27",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_publishingservice",
       "community": 5,
@@ -434,7 +484,7 @@
       "label": "{ StateMachine }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L30",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_statemachine",
       "community": 5,
@@ -444,7 +494,7 @@
       "label": "{ BrowserManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L31",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_browsermanager",
       "community": 5,
@@ -454,7 +504,7 @@
       "label": "{ ClaudeManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L32",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudemanager",
       "community": 5,
@@ -464,7 +514,7 @@
       "label": "{ MetricsService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L33",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_metricsservice",
       "community": 5,
@@ -474,7 +524,7 @@
       "label": "{ QueueService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L34",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_queueservice",
       "community": 5,
@@ -484,7 +534,7 @@
       "label": "{ ClaudeWorker }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L35",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudeworker",
       "community": 5,
@@ -494,7 +544,7 @@
       "label": "{ SessionMonitor }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L36",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessionmonitor",
       "community": 5,
@@ -504,7 +554,7 @@
       "label": "{ RecoveryManager }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L37",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_recoverymanager",
       "community": 5,
@@ -514,7 +564,7 @@
       "label": "{ SessionDetector }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L38",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessiondetector",
       "community": 5,
@@ -524,7 +574,7 @@
       "label": "{ SessionRecovery }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L39",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_sessionrecovery",
       "community": 5,
@@ -534,7 +584,7 @@
       "label": "{ ClaudeHealthCheck }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L40",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_claudehealthcheck",
       "community": 5,
@@ -544,7 +594,7 @@
       "label": "{ BrowserRecovery }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L41",
+      "source_location": "L45",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_browserrecovery",
       "community": 5,
@@ -554,7 +604,7 @@
       "label": "{ DashboardService }",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L42",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_dashboardservice",
       "community": 5,
@@ -564,411 +614,111 @@
       "label": "BootstrapManager",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L44",
+      "source_location": "L48",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "community": 119,
+      "community": 2,
       "norm_label": "bootstrapmanager"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L45",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor",
-      "community": 117,
+      "community": 2,
       "norm_label": ".constructor()"
     },
     {
       "label": ".run()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L64",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_run",
-      "community": 119,
+      "community": 2,
       "norm_label": ".run()"
     },
     {
       "label": "._runPhase1()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L91",
+      "source_location": "L95",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
-      "community": 119,
+      "community": 2,
       "norm_label": "._runphase1()"
     },
     {
       "label": "._runPhase2()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L123",
+      "source_location": "L127",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2",
-      "community": 119,
+      "community": 2,
       "norm_label": "._runphase2()"
     },
     {
       "label": "._runPhase3()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L247",
+      "source_location": "L267",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3",
-      "community": 119,
+      "community": 2,
       "norm_label": "._runphase3()"
     },
     {
       "label": "._runPhase3_5()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L346",
+      "source_location": "L366",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5",
-      "community": 119,
+      "community": 2,
       "norm_label": "._runphase3_5()"
     },
     {
       "label": "._runPhase4()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L441",
+      "source_location": "L461",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
-      "community": 119,
+      "community": 2,
       "norm_label": "._runphase4()"
     },
     {
       "label": "._verifyReadiness()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L461",
+      "source_location": "L481",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness",
-      "community": 119,
+      "community": 2,
       "norm_label": "._verifyreadiness()"
     },
     {
       "label": "._printHeader()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L505",
+      "source_location": "L525",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader",
-      "community": 119,
+      "community": 2,
       "norm_label": "._printheader()"
     },
     {
       "label": "._reportFailures()",
       "file_type": "code",
       "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L512",
+      "source_location": "L532",
       "_origin": "ast",
       "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures",
-      "community": 119,
+      "community": 2,
       "norm_label": "._reportfailures()"
-    },
-    {
-      "label": "PluginRepository.js",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository",
-      "community": 90,
-      "norm_label": "pluginrepository.js"
-    },
-    {
-      "label": "PluginRepository",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository",
-      "community": 90,
-      "norm_label": "pluginrepository"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_constructor",
-      "community": 90,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".createInstallation()",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_createinstallation",
-      "community": 90,
-      "norm_label": ".createinstallation()"
-    },
-    {
-      "label": ".updateInstallation()",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_updateinstallation",
-      "community": 90,
-      "norm_label": ".updateinstallation()"
-    },
-    {
-      "label": ".findByUuid()",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_findbyuuid",
-      "community": 90,
-      "norm_label": ".findbyuuid()"
-    },
-    {
-      "label": ".findByInstallationId()",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L36",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_findbyinstallationid",
-      "community": 90,
-      "norm_label": ".findbyinstallationid()"
-    },
-    {
-      "label": ".findByToken()",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L40",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_findbytoken",
-      "community": 90,
-      "norm_label": ".findbytoken()"
-    },
-    {
-      "label": ".updateHeartbeat()",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L44",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_updateheartbeat",
-      "community": 90,
-      "norm_label": ".updateheartbeat()"
-    },
-    {
-      "label": ".updateCapabilities()",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L53",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_updatecapabilities",
-      "community": 90,
-      "norm_label": ".updatecapabilities()"
-    },
-    {
-      "label": ".updatePresence()",
-      "file_type": "code",
-      "source_file": "src/repositories/PluginRepository.js",
-      "source_location": "L58",
-      "_origin": "ast",
-      "id": "repositories_pluginrepository_pluginrepository_updatepresence",
-      "community": 90,
-      "norm_label": ".updatepresence()"
-    },
-    {
-      "label": "ProjectRepository.js",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "repositories_projectrepository",
-      "community": 82,
-      "norm_label": "projectrepository.js"
-    },
-    {
-      "label": "{ ContentProject, PROJECT_STATUSES }",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_contentproject_project_statuses",
-      "community": 82,
-      "norm_label": "{ contentproject, project_statuses }"
-    },
-    {
-      "label": "ProjectRepository",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository",
-      "community": 11,
-      "norm_label": "projectrepository"
-    },
-    {
-      "label": ".findByWpPostId()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_findbywppostid",
-      "community": 11,
-      "norm_label": ".findbywppostid()"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_constructor",
-      "community": 11,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".getProjectsByStatus()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_getprojectsbystatus",
-      "community": 11,
-      "norm_label": ".getprojectsbystatus()"
-    },
-    {
-      "label": ".createProject()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_createproject",
-      "community": 11,
-      "norm_label": ".createproject()"
-    },
-    {
-      "label": ".getProjectById()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_getprojectbyid",
-      "community": 11,
-      "norm_label": ".getprojectbyid()"
-    },
-    {
-      "label": ".getProjectByWpPostId()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L40",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_getprojectbywppostid",
-      "community": 11,
-      "norm_label": ".getprojectbywppostid()"
-    },
-    {
-      "label": ".createVersion()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L45",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_createversion",
-      "community": 11,
-      "norm_label": ".createversion()"
-    },
-    {
-      "label": ".getLatestVersion()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L56",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_getlatestversion",
-      "community": 11,
-      "norm_label": ".getlatestversion()"
-    },
-    {
-      "label": ".getVersionsByProjectId()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L65",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_getversionsbyprojectid",
-      "community": 11,
-      "norm_label": ".getversionsbyprojectid()"
-    },
-    {
-      "label": ".getAuditsByProjectId()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L70",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_getauditsbyprojectid",
-      "community": 11,
-      "norm_label": ".getauditsbyprojectid()"
-    },
-    {
-      "label": ".createAudit()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L83",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_createaudit",
-      "community": 11,
-      "norm_label": ".createaudit()"
-    },
-    {
-      "label": ".getAuditById()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L94",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_getauditbyid",
-      "community": 11,
-      "norm_label": ".getauditbyid()"
-    },
-    {
-      "label": ".getRewritesByProjectId()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L104",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_getrewritesbyprojectid",
-      "community": 11,
-      "norm_label": ".getrewritesbyprojectid()"
-    },
-    {
-      "label": ".createRewrite()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L117",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_createrewrite",
-      "community": 11,
-      "norm_label": ".createrewrite()"
-    },
-    {
-      "label": ".getRewriteById()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L128",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_getrewritebyid",
-      "community": 11,
-      "norm_label": ".getrewritebyid()"
-    },
-    {
-      "label": ".updateStatus()",
-      "file_type": "code",
-      "source_file": "src/repositories/ProjectRepository.js",
-      "source_location": "L138",
-      "_origin": "ast",
-      "id": "repositories_projectrepository_projectrepository_updatestatus",
-      "community": 11,
-      "norm_label": ".updatestatus()"
     },
     {
       "label": "EventConsumerService.js",
@@ -1004,7 +754,7 @@
       "label": ".processPendingEvents()",
       "file_type": "code",
       "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "services_eventconsumerservice_eventconsumerservice_processpendingevents",
       "community": 122,
@@ -1014,7 +764,7 @@
       "label": ".processEvent()",
       "file_type": "code",
       "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L30",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "services_eventconsumerservice_eventconsumerservice_processevent",
       "community": 122,
@@ -1024,91 +774,11 @@
       "label": ".replayEvent()",
       "file_type": "code",
       "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L45",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "services_eventconsumerservice_eventconsumerservice_replayevent",
       "community": 122,
       "norm_label": ".replayevent()"
-    },
-    {
-      "label": "AuthorEventHandler.js",
-      "file_type": "code",
-      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "eventhandlers_authoreventhandler",
-      "community": 125,
-      "norm_label": "authoreventhandler.js"
-    },
-    {
-      "label": "AuthorEventHandler",
-      "file_type": "code",
-      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "eventhandlers_authoreventhandler_authoreventhandler",
-      "community": 125,
-      "norm_label": "authoreventhandler"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "eventhandlers_authoreventhandler_authoreventhandler_constructor",
-      "community": 125,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".handle()",
-      "file_type": "code",
-      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "eventhandlers_authoreventhandler_authoreventhandler_handle",
-      "community": 125,
-      "norm_label": ".handle()"
-    },
-    {
-      "label": "MediaEventHandler.js",
-      "file_type": "code",
-      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "eventhandlers_mediaeventhandler",
-      "community": 126,
-      "norm_label": "mediaeventhandler.js"
-    },
-    {
-      "label": "MediaEventHandler",
-      "file_type": "code",
-      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "eventhandlers_mediaeventhandler_mediaeventhandler",
-      "community": 126,
-      "norm_label": "mediaeventhandler"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "eventhandlers_mediaeventhandler_mediaeventhandler_constructor",
-      "community": 126,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".handle()",
-      "file_type": "code",
-      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "eventhandlers_mediaeventhandler_mediaeventhandler_handle",
-      "community": 126,
-      "norm_label": ".handle()"
     },
     {
       "label": "PostEventHandler.js",
@@ -1144,11 +814,571 @@
       "label": ".handle()",
       "file_type": "code",
       "source_file": "src/services/eventHandlers/PostEventHandler.js",
-      "source_location": "L7",
+      "source_location": "L8",
       "_origin": "ast",
       "id": "eventhandlers_posteventhandler_posteventhandler_handle",
       "community": 127,
       "norm_label": ".handle()"
+    },
+    {
+      "label": "WorkflowOrchestrator.js",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workflow_workfloworchestrator",
+      "community": 101,
+      "norm_label": "workfloworchestrator.js"
+    },
+    {
+      "label": "WorkflowOrchestrator",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workflow_workfloworchestrator_workfloworchestrator",
+      "community": 101,
+      "norm_label": "workfloworchestrator"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_constructor",
+      "community": 101,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".evaluateProject()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
+      "community": 101,
+      "norm_label": ".evaluateproject()"
+    },
+    {
+      "label": ".updateWorkflowState()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate",
+      "community": 101,
+      "norm_label": ".updateworkflowstate()"
+    },
+    {
+      "label": ".logEvent()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_logevent",
+      "community": 101,
+      "norm_label": ".logevent()"
+    },
+    {
+      "label": ".reconcile()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "workflow_workfloworchestrator_workfloworchestrator_reconcile",
+      "community": 101,
+      "norm_label": ".reconcile()"
+    },
+    {
+      "label": "WorkflowPolicyEngine.js",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workflow_workflowpolicyengine",
+      "community": 117,
+      "norm_label": "workflowpolicyengine.js"
+    },
+    {
+      "label": "WorkflowPolicyEngine",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workflow_workflowpolicyengine_workflowpolicyengine",
+      "community": 117,
+      "norm_label": "workflowpolicyengine"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "workflow_workflowpolicyengine_workflowpolicyengine_constructor",
+      "community": 117,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".getSiteSettings()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "workflow_workflowpolicyengine_workflowpolicyengine_getsitesettings",
+      "community": 117,
+      "norm_label": ".getsitesettings()"
+    },
+    {
+      "label": ".evaluate()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "workflow_workflowpolicyengine_workflowpolicyengine_evaluate",
+      "community": 117,
+      "norm_label": ".evaluate()"
+    },
+    {
+      "label": "WorkflowRules.js",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowRules.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workflow_workflowrules",
+      "community": 120,
+      "norm_label": "workflowrules.js"
+    },
+    {
+      "label": "WorkflowRules",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowRules.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workflow_workflowrules_workflowrules",
+      "community": 120,
+      "norm_label": "workflowrules"
+    },
+    {
+      "label": "WorkflowScheduler.js",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workflow_workflowscheduler",
+      "community": 119,
+      "norm_label": "workflowscheduler.js"
+    },
+    {
+      "label": "WorkflowScheduler",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workflow_workflowscheduler_workflowscheduler",
+      "community": 119,
+      "norm_label": "workflowscheduler"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "workflow_workflowscheduler_workflowscheduler_constructor",
+      "community": 119,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".scheduleJob()",
+      "file_type": "code",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "workflow_workflowscheduler_workflowscheduler_schedulejob",
+      "community": 119,
+      "norm_label": ".schedulejob()"
+    },
+    {
+      "label": "PluginRepository.js",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": "pluginrepository.js",
+      "id": "repositories_pluginrepository"
+    },
+    {
+      "label": "PluginRepository",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": "pluginrepository",
+      "id": "repositories_pluginrepository_pluginrepository"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": ".constructor()",
+      "id": "repositories_pluginrepository_pluginrepository_constructor"
+    },
+    {
+      "label": ".createInstallation()",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": ".createinstallation()",
+      "id": "repositories_pluginrepository_pluginrepository_createinstallation"
+    },
+    {
+      "label": ".updateInstallation()",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": ".updateinstallation()",
+      "id": "repositories_pluginrepository_pluginrepository_updateinstallation"
+    },
+    {
+      "label": ".findByUuid()",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L32",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": ".findbyuuid()",
+      "id": "repositories_pluginrepository_pluginrepository_findbyuuid"
+    },
+    {
+      "label": ".findByInstallationId()",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L36",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": ".findbyinstallationid()",
+      "id": "repositories_pluginrepository_pluginrepository_findbyinstallationid"
+    },
+    {
+      "label": ".findByToken()",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L40",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": ".findbytoken()",
+      "id": "repositories_pluginrepository_pluginrepository_findbytoken"
+    },
+    {
+      "label": ".updateHeartbeat()",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L44",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": ".updateheartbeat()",
+      "id": "repositories_pluginrepository_pluginrepository_updateheartbeat"
+    },
+    {
+      "label": ".updateCapabilities()",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L53",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": ".updatecapabilities()",
+      "id": "repositories_pluginrepository_pluginrepository_updatecapabilities"
+    },
+    {
+      "label": ".updatePresence()",
+      "file_type": "code",
+      "source_file": "src/repositories/PluginRepository.js",
+      "source_location": "L58",
+      "_origin": "ast",
+      "community": 90,
+      "norm_label": ".updatepresence()",
+      "id": "repositories_pluginrepository_pluginrepository_updatepresence"
+    },
+    {
+      "label": "ProjectRepository.js",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 82,
+      "norm_label": "projectrepository.js",
+      "id": "repositories_projectrepository"
+    },
+    {
+      "label": "{ ContentProject, PROJECT_STATUSES }",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 82,
+      "norm_label": "{ contentproject, project_statuses }",
+      "id": "repositories_projectrepository_contentproject_project_statuses"
+    },
+    {
+      "label": "ProjectRepository",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": "projectrepository",
+      "id": "repositories_projectrepository_projectrepository"
+    },
+    {
+      "label": ".findByWpPostId()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".findbywppostid()",
+      "id": "repositories_projectrepository_projectrepository_findbywppostid"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".constructor()",
+      "id": "repositories_projectrepository_projectrepository_constructor"
+    },
+    {
+      "label": ".getProjectsByStatus()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".getprojectsbystatus()",
+      "id": "repositories_projectrepository_projectrepository_getprojectsbystatus"
+    },
+    {
+      "label": ".createProject()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".createproject()",
+      "id": "repositories_projectrepository_projectrepository_createproject"
+    },
+    {
+      "label": ".getProjectById()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".getprojectbyid()",
+      "id": "repositories_projectrepository_projectrepository_getprojectbyid"
+    },
+    {
+      "label": ".getProjectByWpPostId()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L40",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".getprojectbywppostid()",
+      "id": "repositories_projectrepository_projectrepository_getprojectbywppostid"
+    },
+    {
+      "label": ".createVersion()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L45",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".createversion()",
+      "id": "repositories_projectrepository_projectrepository_createversion"
+    },
+    {
+      "label": ".getLatestVersion()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L56",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".getlatestversion()",
+      "id": "repositories_projectrepository_projectrepository_getlatestversion"
+    },
+    {
+      "label": ".getVersionsByProjectId()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L65",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".getversionsbyprojectid()",
+      "id": "repositories_projectrepository_projectrepository_getversionsbyprojectid"
+    },
+    {
+      "label": ".getAuditsByProjectId()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L70",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".getauditsbyprojectid()",
+      "id": "repositories_projectrepository_projectrepository_getauditsbyprojectid"
+    },
+    {
+      "label": ".createAudit()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L83",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".createaudit()",
+      "id": "repositories_projectrepository_projectrepository_createaudit"
+    },
+    {
+      "label": ".getAuditById()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L94",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".getauditbyid()",
+      "id": "repositories_projectrepository_projectrepository_getauditbyid"
+    },
+    {
+      "label": ".getRewritesByProjectId()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L104",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".getrewritesbyprojectid()",
+      "id": "repositories_projectrepository_projectrepository_getrewritesbyprojectid"
+    },
+    {
+      "label": ".createRewrite()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L117",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".createrewrite()",
+      "id": "repositories_projectrepository_projectrepository_createrewrite"
+    },
+    {
+      "label": ".getRewriteById()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L128",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".getrewritebyid()",
+      "id": "repositories_projectrepository_projectrepository_getrewritebyid"
+    },
+    {
+      "label": ".updateStatus()",
+      "file_type": "code",
+      "source_file": "src/repositories/ProjectRepository.js",
+      "source_location": "L138",
+      "_origin": "ast",
+      "community": 11,
+      "norm_label": ".updatestatus()",
+      "id": "repositories_projectrepository_projectrepository_updatestatus"
+    },
+    {
+      "label": "AuthorEventHandler.js",
+      "file_type": "code",
+      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 125,
+      "norm_label": "authoreventhandler.js",
+      "id": "eventhandlers_authoreventhandler"
+    },
+    {
+      "label": "AuthorEventHandler",
+      "file_type": "code",
+      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 125,
+      "norm_label": "authoreventhandler",
+      "id": "eventhandlers_authoreventhandler_authoreventhandler"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 125,
+      "norm_label": ".constructor()",
+      "id": "eventhandlers_authoreventhandler_authoreventhandler_constructor"
+    },
+    {
+      "label": ".handle()",
+      "file_type": "code",
+      "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 125,
+      "norm_label": ".handle()",
+      "id": "eventhandlers_authoreventhandler_authoreventhandler_handle"
+    },
+    {
+      "label": "MediaEventHandler.js",
+      "file_type": "code",
+      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 126,
+      "norm_label": "mediaeventhandler.js",
+      "id": "eventhandlers_mediaeventhandler"
+    },
+    {
+      "label": "MediaEventHandler",
+      "file_type": "code",
+      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 126,
+      "norm_label": "mediaeventhandler",
+      "id": "eventhandlers_mediaeventhandler_mediaeventhandler"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 126,
+      "norm_label": ".constructor()",
+      "id": "eventhandlers_mediaeventhandler_mediaeventhandler_constructor"
+    },
+    {
+      "label": ".handle()",
+      "file_type": "code",
+      "source_file": "src/services/eventHandlers/MediaEventHandler.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 126,
+      "norm_label": ".handle()",
+      "id": "eventhandlers_mediaeventhandler_mediaeventhandler_handle"
     },
     {
       "label": "SiteEventHandler.js",
@@ -1156,9 +1386,9 @@
       "source_file": "src/services/eventHandlers/SiteEventHandler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "eventhandlers_siteeventhandler",
       "community": 128,
-      "norm_label": "siteeventhandler.js"
+      "norm_label": "siteeventhandler.js",
+      "id": "eventhandlers_siteeventhandler"
     },
     {
       "label": "SiteEventHandler",
@@ -1166,9 +1396,9 @@
       "source_file": "src/services/eventHandlers/SiteEventHandler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "eventhandlers_siteeventhandler_siteeventhandler",
       "community": 128,
-      "norm_label": "siteeventhandler"
+      "norm_label": "siteeventhandler",
+      "id": "eventhandlers_siteeventhandler_siteeventhandler"
     },
     {
       "label": ".constructor()",
@@ -1176,9 +1406,9 @@
       "source_file": "src/services/eventHandlers/SiteEventHandler.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "eventhandlers_siteeventhandler_siteeventhandler_constructor",
       "community": 128,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "eventhandlers_siteeventhandler_siteeventhandler_constructor"
     },
     {
       "label": ".handle()",
@@ -1186,9 +1416,9 @@
       "source_file": "src/services/eventHandlers/SiteEventHandler.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "eventhandlers_siteeventhandler_siteeventhandler_handle",
       "community": 128,
-      "norm_label": ".handle()"
+      "norm_label": ".handle()",
+      "id": "eventhandlers_siteeventhandler_siteeventhandler_handle"
     },
     {
       "label": "TaxonomyEventHandler.js",
@@ -1196,9 +1426,9 @@
       "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "eventhandlers_taxonomyeventhandler",
       "community": 129,
-      "norm_label": "taxonomyeventhandler.js"
+      "norm_label": "taxonomyeventhandler.js",
+      "id": "eventhandlers_taxonomyeventhandler"
     },
     {
       "label": "TaxonomyEventHandler",
@@ -1206,9 +1436,9 @@
       "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler",
       "community": 129,
-      "norm_label": "taxonomyeventhandler"
+      "norm_label": "taxonomyeventhandler",
+      "id": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler"
     },
     {
       "label": ".constructor()",
@@ -1216,9 +1446,9 @@
       "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_constructor",
       "community": 129,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_constructor"
     },
     {
       "label": ".handle()",
@@ -1226,9 +1456,9 @@
       "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_handle",
       "community": 129,
-      "norm_label": ".handle()"
+      "norm_label": ".handle()",
+      "id": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_handle"
     },
     {
       "label": "pluginRoutes.js",
@@ -2536,7 +2766,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "claudeworker.js",
       "id": "workers_claudeworker"
     },
@@ -2546,7 +2776,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "fs",
       "id": "workers_claudeworker_fs"
     },
@@ -2556,7 +2786,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "path",
       "id": "workers_claudeworker_path"
     },
@@ -2566,7 +2796,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "{ worker_states }",
       "id": "workers_claudeworker_worker_states"
     },
@@ -2576,7 +2806,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "{ project_statuses }",
       "id": "workers_claudeworker_project_statuses"
     },
@@ -2586,7 +2816,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "{ failureclassifier }",
       "id": "workers_claudeworker_failureclassifier"
     },
@@ -2596,7 +2826,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "auditpromptbuilder",
       "id": "workers_claudeworker_auditpromptbuilder"
     },
@@ -2606,7 +2836,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "rewritepromptbuilder",
       "id": "workers_claudeworker_rewritepromptbuilder"
     },
@@ -2616,7 +2846,7 @@
       "source_file": "src/workers/ClaudeWorker.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "{ contentunavailableerror, invalidprojectcontenterror }",
       "id": "workers_claudeworker_contentunavailableerror_invalidprojectcontenterror"
     },
@@ -3516,7 +3746,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": "cronmanager.php",
       "id": "bootstrap_cronmanager"
     },
@@ -3526,7 +3756,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": "cronmanager",
       "id": "bootstrap_cronmanager_cronmanager"
     },
@@ -3536,7 +3766,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".registerhooks()",
       "id": "bootstrap_cronmanager_cronmanager_registerhooks"
     },
@@ -3546,7 +3776,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": "loader",
       "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_loader"
     },
@@ -3556,7 +3786,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": "heartbeatservice",
       "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_heartbeatservice"
     },
@@ -3566,7 +3796,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".addcustomschedules()",
       "id": "bootstrap_cronmanager_cronmanager_addcustomschedules"
     },
@@ -3576,7 +3806,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".scheduleevents()",
       "id": "bootstrap_cronmanager_cronmanager_scheduleevents"
     },
@@ -3586,7 +3816,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".clearevents()",
       "id": "bootstrap_cronmanager_cronmanager_clearevents"
     },
@@ -3606,7 +3836,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": "plugin",
       "id": "bootstrap_plugin_plugin"
     },
@@ -3616,7 +3846,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".__construct()",
       "id": "bootstrap_plugin_plugin_construct"
     },
@@ -3626,7 +3856,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L23",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".initializeconstants()",
       "id": "bootstrap_plugin_plugin_initializeconstants"
     },
@@ -3636,7 +3866,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".sethooks()",
       "id": "bootstrap_plugin_plugin_sethooks"
     },
@@ -3646,7 +3876,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".activate()",
       "id": "bootstrap_plugin_plugin_activate"
     },
@@ -3656,7 +3886,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L70",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".deactivate()",
       "id": "bootstrap_plugin_plugin_deactivate"
     },
@@ -3666,7 +3896,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L75",
       "_origin": "ast",
-      "community": 27,
+      "community": 57,
       "norm_label": ".run()",
       "id": "bootstrap_plugin_plugin_run"
     },
@@ -6256,7 +6486,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "claude.js",
       "id": "scripts_claude"
     },
@@ -6266,7 +6496,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "{ loadconfig }",
       "id": "scripts_claude_loadconfig"
     },
@@ -6276,7 +6506,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "{ createlogger }",
       "id": "scripts_claude_createlogger"
     },
@@ -6286,7 +6516,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "{ persistentworkerstate: workerstate }",
       "id": "scripts_claude_persistentworkerstate_workerstate"
     },
@@ -6296,7 +6526,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "{ browsermanager }",
       "id": "scripts_claude_browsermanager"
     },
@@ -6306,7 +6536,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "{ sessionmonitor }",
       "id": "scripts_claude_sessionmonitor"
     },
@@ -6316,7 +6546,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "{ claudeworker }",
       "id": "scripts_claude_claudeworker"
     },
@@ -6326,7 +6556,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "getsingletonworker()",
       "id": "scripts_claude_getsingletonworker"
     },
@@ -6336,7 +6566,7 @@
       "source_file": "scripts/claude.js",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "runclaude()",
       "id": "scripts_claude_runclaude"
     },
@@ -7466,7 +7696,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "claudeerrors.js",
       "id": "errors_claudeerrors"
     },
@@ -7476,7 +7706,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "claudeerror",
       "id": "errors_claudeerrors_claudeerror"
     },
@@ -7486,7 +7716,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_claudeerror_constructor"
     },
@@ -7496,7 +7726,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "browsererror",
       "id": "errors_claudeerrors_browsererror"
     },
@@ -7506,7 +7736,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_browsererror_constructor"
     },
@@ -7516,7 +7746,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "profilelockerror",
       "id": "errors_claudeerrors_profilelockerror"
     },
@@ -7526,7 +7756,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_profilelockerror_constructor"
     },
@@ -7536,7 +7766,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "validationerror",
       "id": "errors_claudeerrors_validationerror"
     },
@@ -7546,7 +7776,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_validationerror_constructor"
     },
@@ -7556,7 +7786,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": "contentunavailableerror",
       "id": "errors_claudeerrors_contentunavailableerror"
     },
@@ -7566,7 +7796,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 118,
+      "community": 81,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_contentunavailableerror_constructor"
     },
@@ -7576,7 +7806,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 57,
+      "community": 81,
       "norm_label": "invalidprojectcontenterror",
       "id": "errors_claudeerrors_invalidprojectcontenterror"
     },
@@ -7586,7 +7816,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 57,
+      "community": 81,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidprojectcontenterror_constructor"
     },
@@ -7596,7 +7826,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "invalidresponsequalityerror",
       "id": "errors_claudeerrors_invalidresponsequalityerror"
     },
@@ -7606,7 +7836,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_invalidresponsequalityerror_constructor"
     },
@@ -7616,7 +7846,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "recoveryreport",
       "id": "errors_claudeerrors_recoveryreport"
     },
@@ -7626,7 +7856,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "errors_claudeerrors_recoveryreport_constructor"
     },
@@ -7646,7 +7876,7 @@
       "source_file": "src/errors/ClaudeErrors.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "normalizeerror()",
       "id": "errors_claudeerrors_normalizeerror"
     },
@@ -7886,7 +8116,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 101,
+      "community": 81,
       "norm_label": "workerstate.js",
       "id": "models_workerstate"
     },
@@ -7896,7 +8126,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 101,
+      "community": 81,
       "norm_label": "worker_states",
       "id": "models_workerstate_worker_states"
     },
@@ -7906,7 +8136,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 121,
+      "community": 2,
       "norm_label": "persistentworkerstate",
       "id": "models_workerstate_persistentworkerstate"
     },
@@ -7916,7 +8146,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 121,
+      "community": 2,
       "norm_label": ".constructor()",
       "id": "models_workerstate_persistentworkerstate_constructor"
     },
@@ -7926,7 +8156,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 121,
+      "community": 2,
       "norm_label": "._loadinitialstate()",
       "id": "models_workerstate_persistentworkerstate_loadinitialstate"
     },
@@ -7936,7 +8166,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 121,
+      "community": 2,
       "norm_label": ".setstate()",
       "id": "models_workerstate_persistentworkerstate_setstate"
     },
@@ -7946,7 +8176,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 121,
+      "community": 2,
       "norm_label": ".getstate()",
       "id": "models_workerstate_persistentworkerstate_getstate"
     },
@@ -7956,7 +8186,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 121,
+      "community": 2,
       "norm_label": ".incrementrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_incrementrecoveryattempts"
     },
@@ -7966,7 +8196,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 121,
+      "community": 2,
       "norm_label": ".resetrecoveryattempts()",
       "id": "models_workerstate_persistentworkerstate_resetrecoveryattempts"
     },
@@ -7976,7 +8206,7 @@
       "source_file": "src/models/WorkerState.js",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 121,
+      "community": 2,
       "norm_label": ".getsnapshot()",
       "id": "models_workerstate_persistentworkerstate_getsnapshot"
     },
@@ -8996,7 +9226,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "browsermanager.js",
       "id": "services_browsermanager"
     },
@@ -9006,7 +9236,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "{ chromium }",
       "id": "services_browsermanager_chromium"
     },
@@ -9016,7 +9246,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "stealth",
       "id": "services_browsermanager_stealth"
     },
@@ -9026,7 +9256,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "{ spawnsync }",
       "id": "services_browsermanager_spawnsync"
     },
@@ -9036,7 +9266,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "{ worker_states }",
       "id": "services_browsermanager_worker_states"
     },
@@ -9046,7 +9276,7 @@
       "source_file": "src/services/BrowserManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 101,
+      "community": 4,
       "norm_label": "{ browsererror, profilelockerror }",
       "id": "services_browsermanager_browsererror_profilelockerror"
     },
@@ -9226,7 +9456,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "claudemanager.js",
       "id": "services_claudemanager"
     },
@@ -9236,7 +9466,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "fs",
       "id": "services_claudemanager_fs"
     },
@@ -9246,7 +9476,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "path",
       "id": "services_claudemanager_path"
     },
@@ -9256,7 +9486,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "{ \n    validationerror, \n    recoveryreport, \n    invalidprojectcontenterror, \n    invalidresponsequalityerror, \n    createclaudeerror, \n    normalizeerror \n}",
       "id": "services_claudemanager_validationerror_recoveryreport_invalidprojectcontenterror_invalidresponsequalityerror_createclaudeerror_normalizeerror"
     },
@@ -9266,7 +9496,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "{ worker_states }",
       "id": "services_claudemanager_worker_states"
     },
@@ -9276,7 +9506,7 @@
       "source_file": "src/services/ClaudeManager.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "selectors",
       "id": "services_claudemanager_selectors"
     },
@@ -9596,7 +9826,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "claudeworker.js",
       "id": "services_claudeworker"
     },
@@ -9606,7 +9836,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "fs",
       "id": "services_claudeworker_fs"
     },
@@ -9616,7 +9846,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "path",
       "id": "services_claudeworker_path"
     },
@@ -9626,7 +9856,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "{ worker_states }",
       "id": "services_claudeworker_worker_states"
     },
@@ -9636,7 +9866,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "{ project_statuses }",
       "id": "services_claudeworker_project_statuses"
     },
@@ -9646,7 +9876,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "{ failureclassifier }",
       "id": "services_claudeworker_failureclassifier"
     },
@@ -9656,7 +9886,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "auditpromptbuilder",
       "id": "services_claudeworker_auditpromptbuilder"
     },
@@ -9666,7 +9896,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "rewritepromptbuilder",
       "id": "services_claudeworker_rewritepromptbuilder"
     },
@@ -9676,7 +9906,7 @@
       "source_file": "src/services/ClaudeWorker.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "{ contentunavailableerror, invalidprojectcontenterror }",
       "id": "services_claudeworker_contentunavailableerror_invalidprojectcontenterror"
     },
@@ -10346,7 +10576,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 82,
       "norm_label": "publishingservice.js",
       "id": "services_publishingservice"
     },
@@ -10356,7 +10586,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 82,
       "norm_label": "{ project_statuses }",
       "id": "services_publishingservice_project_statuses"
     },
@@ -10366,7 +10596,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 7,
+      "community": 82,
       "norm_label": "wordpressclient",
       "id": "services_publishingservice_wordpressclient"
     },
@@ -10376,7 +10606,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 7,
+      "community": 118,
       "norm_label": "publishingservice",
       "id": "services_publishingservice_publishingservice"
     },
@@ -10386,7 +10616,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 7,
+      "community": 118,
       "norm_label": ".constructor()",
       "id": "services_publishingservice_publishingservice_constructor"
     },
@@ -10396,7 +10626,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 7,
+      "community": 118,
       "norm_label": ".publishtowordpress()",
       "id": "services_publishingservice_publishingservice_publishtowordpress"
     },
@@ -10406,7 +10636,7 @@
       "source_file": "src/services/PublishingService.js",
       "source_location": "L82",
       "_origin": "ast",
-      "community": 7,
+      "community": 118,
       "norm_label": ".getpublishinghistory()",
       "id": "services_publishingservice_publishingservice_getpublishinghistory"
     },
@@ -11036,7 +11266,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 130,
+      "community": 81,
       "norm_label": "auditpromptbuilder.js",
       "id": "utils_auditpromptbuilder"
     },
@@ -11046,7 +11276,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 130,
+      "community": 81,
       "norm_label": "auditpromptbuilder",
       "id": "utils_auditpromptbuilder_auditpromptbuilder"
     },
@@ -11056,7 +11286,7 @@
       "source_file": "src/utils/AuditPromptBuilder.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 130,
+      "community": 81,
       "norm_label": ".build()",
       "id": "utils_auditpromptbuilder_auditpromptbuilder_build"
     },
@@ -11106,7 +11336,7 @@
       "source_file": "src/utils/FailureClassifier.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "failureclassifier.js",
       "id": "utils_failureclassifier"
     },
@@ -11116,7 +11346,7 @@
       "source_file": "src/utils/FailureClassifier.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "failure_categories",
       "id": "utils_failureclassifier_failure_categories"
     },
@@ -11126,7 +11356,7 @@
       "source_file": "src/utils/FailureClassifier.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": "failureclassifier",
       "id": "utils_failureclassifier_failureclassifier"
     },
@@ -11136,7 +11366,7 @@
       "source_file": "src/utils/FailureClassifier.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 68,
+      "community": 81,
       "norm_label": ".classify()",
       "id": "utils_failureclassifier_failureclassifier_classify"
     },
@@ -11146,7 +11376,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 131,
+      "community": 81,
       "norm_label": "rewritepromptbuilder.js",
       "id": "utils_rewritepromptbuilder"
     },
@@ -11156,7 +11386,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 131,
+      "community": 81,
       "norm_label": "rewritepromptbuilder",
       "id": "utils_rewritepromptbuilder_rewritepromptbuilder"
     },
@@ -11166,7 +11396,7 @@
       "source_file": "src/utils/RewritePromptBuilder.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 131,
+      "community": 81,
       "norm_label": ".build()",
       "id": "utils_rewritepromptbuilder_rewritepromptbuilder_build"
     },
@@ -11236,7 +11466,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 123,
+      "community": 2,
       "norm_label": "logger.js",
       "id": "utils_logger"
     },
@@ -11246,7 +11476,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 123,
+      "community": 2,
       "norm_label": "sensitive_keys",
       "id": "utils_logger_sensitive_keys"
     },
@@ -11256,7 +11486,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 123,
+      "community": 2,
       "norm_label": "redact()",
       "id": "utils_logger_redact"
     },
@@ -11266,7 +11496,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 123,
+      "community": 2,
       "norm_label": "normalizepayload()",
       "id": "utils_logger_normalizepayload"
     },
@@ -11276,7 +11506,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 123,
+      "community": 2,
       "norm_label": "write()",
       "id": "utils_logger_write"
     },
@@ -11286,7 +11516,7 @@
       "source_file": "src/utils/logger.js",
       "source_location": "L62",
       "_origin": "ast",
-      "community": 117,
+      "community": 2,
       "norm_label": "createlogger()",
       "id": "utils_logger_createlogger"
     },
@@ -11462,7 +11692,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "validation.test.js",
       "id": "tests_validation_test"
     },
@@ -11472,7 +11702,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "{ claudemanager }",
       "id": "tests_validation_test_claudemanager"
     },
@@ -11482,7 +11712,7 @@
       "source_file": "tests/validation.test.js",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 57,
+      "community": 4,
       "norm_label": "{ validationerror }",
       "id": "tests_validation_test_validationerror"
     },
@@ -12222,91 +12452,111 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p5.js",
-      "source_location": "L211",
+      "source_file": "setup_p6.js",
+      "source_location": "L204",
       "weight": 1.0,
-      "source": "setup_p5",
-      "target": "setup_p5_bootstrap",
+      "source": "setup_p6",
+      "target": "setup_p6_bootstrap",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p5.js",
-      "source_location": "L210",
+      "source_file": "setup_p6.js",
+      "source_location": "L203",
       "weight": 1.0,
-      "source": "setup_p5",
-      "target": "setup_p5_bootstrappath",
+      "source": "setup_p6",
+      "target": "setup_p6_bootstrappath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p5.js",
+      "source_file": "setup_p6.js",
+      "source_location": "L283",
+      "weight": 1.0,
+      "source": "setup_p6",
+      "target": "setup_p6_consumer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p6.js",
+      "source_location": "L282",
+      "weight": 1.0,
+      "source": "setup_p6",
+      "target": "setup_p6_consumerpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup_p6.js",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "setup_p5",
-      "target": "setup_p5_fs",
+      "source": "setup_p6",
+      "target": "setup_p6_fs",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p5.js",
+      "source_file": "setup_p6.js",
       "source_location": "L6",
       "weight": 1.0,
-      "source": "setup_p5",
-      "target": "setup_p5_mkdirp",
+      "source": "setup_p6",
+      "target": "setup_p6_mkdirp",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p5.js",
+      "source_file": "setup_p6.js",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "setup_p5",
-      "target": "setup_p5_path",
+      "source": "setup_p6",
+      "target": "setup_p6_path",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p5.js",
-      "source_location": "L189",
+      "source_file": "setup_p6.js",
+      "source_location": "L250",
       "weight": 1.0,
-      "source": "setup_p5",
-      "target": "setup_p5_pluginrepocode",
+      "source": "setup_p6",
+      "target": "setup_p6_posteventhandler",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p5.js",
-      "source_location": "L188",
+      "source_file": "setup_p6.js",
+      "source_location": "L249",
       "weight": 1.0,
-      "source": "setup_p5",
-      "target": "setup_p5_pluginrepopath",
+      "source": "setup_p6",
+      "target": "setup_p6_posteventhandlerpath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p5.js",
-      "source_location": "L199",
+      "source_file": "setup_p6.js",
+      "source_location": "L196",
       "weight": 1.0,
-      "source": "setup_p5",
-      "target": "setup_p5_projectrepocode",
+      "source": "setup_p6",
+      "target": "setup_p6_schemacontent",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "setup_p5.js",
-      "source_location": "L198",
+      "source_file": "setup_p6.js",
+      "source_location": "L195",
       "weight": 1.0,
-      "source": "setup_p5",
-      "target": "setup_p5_projectrepopath",
+      "source": "setup_p6",
+      "target": "setup_p6_schemapath",
       "confidence_score": 1.0
     },
     {
@@ -12315,9 +12565,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_authoreventhandler",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_authoreventhandler"
     },
     {
       "relation": "contains",
@@ -12425,9 +12675,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_eventconsumerservice",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_eventconsumerservice"
     },
     {
       "relation": "contains",
@@ -12475,9 +12725,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_mediaeventhandler",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_mediaeventhandler"
     },
     {
       "relation": "contains",
@@ -12525,9 +12775,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_posteventhandler",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_posteventhandler"
     },
     {
       "relation": "contains",
@@ -12635,9 +12885,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_siteeventhandler",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_siteeventhandler"
     },
     {
       "relation": "contains",
@@ -12685,9 +12935,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_taxonomyeventhandler",
-      "confidence_score": 1.0
+      "target": "bootstrap_bootstrapmanager_taxonomyeventhandler"
     },
     {
       "relation": "contains",
@@ -12708,6 +12958,36 @@
       "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
       "target": "bootstrap_bootstrapmanager_wordpressrepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_workfloworchestrator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_workflowpolicyengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_workflowscheduler",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -12804,9 +13084,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_authoreventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_authoreventhandler"
     },
     {
       "relation": "imports",
@@ -12815,9 +13095,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_authoreventhandler_authoreventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_authoreventhandler_authoreventhandler"
     },
     {
       "relation": "imports_from",
@@ -12826,9 +13106,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_mediaeventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_mediaeventhandler"
     },
     {
       "relation": "imports",
@@ -12837,9 +13117,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_mediaeventhandler_mediaeventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_mediaeventhandler_mediaeventhandler"
     },
     {
       "relation": "imports_from",
@@ -12848,9 +13128,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_posteventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_posteventhandler"
     },
     {
       "relation": "imports",
@@ -12859,9 +13139,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_posteventhandler_posteventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_posteventhandler_posteventhandler"
     },
     {
       "relation": "imports_from",
@@ -12870,9 +13150,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_siteeventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_siteeventhandler"
     },
     {
       "relation": "imports",
@@ -12881,9 +13161,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_siteeventhandler_siteeventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_siteeventhandler_siteeventhandler"
     },
     {
       "relation": "imports_from",
@@ -12892,9 +13172,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_taxonomyeventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_taxonomyeventhandler"
     },
     {
       "relation": "imports",
@@ -12903,9 +13183,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler"
     },
     {
       "relation": "imports_from",
@@ -13035,9 +13315,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_pluginrepository",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository"
     },
     {
       "relation": "imports",
@@ -13244,9 +13524,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "services_eventconsumerservice",
-      "confidence_score": 1.0
+      "target": "services_eventconsumerservice"
     },
     {
       "relation": "imports",
@@ -13255,9 +13535,9 @@
       "source_file": "src/bootstrap/BootstrapManager.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_bootstrapmanager",
-      "target": "services_eventconsumerservice_eventconsumerservice",
-      "confidence_score": 1.0
+      "target": "services_eventconsumerservice_eventconsumerservice"
     },
     {
       "relation": "imports_from",
@@ -13516,6 +13796,72 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workfloworchestrator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workfloworchestrator_workfloworchestrator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workflowpolicyengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workflowscheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workflowscheduler_workflowscheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/index.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -13747,6 +14093,292 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice_processevent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice_processpendingevents"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice",
+      "target": "services_eventconsumerservice_eventconsumerservice_replayevent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice_processpendingevents",
+      "target": "services_eventconsumerservice_eventconsumerservice_processevent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/EventConsumerService.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_eventconsumerservice_eventconsumerservice_replayevent",
+      "target": "services_eventconsumerservice_eventconsumerservice_processevent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/PostEventHandler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_posteventhandler",
+      "target": "eventhandlers_posteventhandler_posteventhandler"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/PostEventHandler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_posteventhandler_posteventhandler",
+      "target": "eventhandlers_posteventhandler_posteventhandler_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/eventHandlers/PostEventHandler.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "eventhandlers_posteventhandler_posteventhandler",
+      "target": "eventhandlers_posteventhandler_posteventhandler_handle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "workflow_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_logevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_reconcile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_logevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator_evaluateproject",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowOrchestrator.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "workflow_workfloworchestrator_workfloworchestrator_reconcile",
+      "target": "workflow_workfloworchestrator_workfloworchestrator_updateworkflowstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "workflow_workflowpolicyengine",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "workflow_workflowpolicyengine_workflowpolicyengine",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "workflow_workflowpolicyengine_workflowpolicyengine",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "workflow_workflowpolicyengine_workflowpolicyengine",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine_getsitesettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowPolicyEngine.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "workflow_workflowpolicyengine_workflowpolicyengine_evaluate",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine_getsitesettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowRules.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "workflow_workflowrules",
+      "target": "workflow_workflowrules_workflowrules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "workflow_workflowscheduler",
+      "target": "workflow_workflowscheduler_workflowscheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "workflow_workflowscheduler_workflowscheduler",
+      "target": "workflow_workflowscheduler_workflowscheduler_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/workflow/WorkflowScheduler.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "workflow_workflowscheduler_workflowscheduler",
+      "target": "workflow_workflowscheduler_workflowscheduler_schedulejob",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -13780,9 +14412,9 @@
       "source_file": "src/repositories/PluginRepository.js",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_pluginrepository_pluginrepository",
-      "target": "repositories_pluginrepository_pluginrepository_findbyinstallationid",
-      "confidence_score": 1.0
+      "target": "repositories_pluginrepository_pluginrepository_findbyinstallationid"
     },
     {
       "relation": "method",
@@ -13964,9 +14596,9 @@
       "source_file": "src/repositories/ProjectRepository.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repositories_projectrepository_projectrepository",
-      "target": "repositories_projectrepository_projectrepository_findbywppostid",
-      "confidence_score": 1.0
+      "target": "repositories_projectrepository_projectrepository_findbywppostid"
     },
     {
       "relation": "method",
@@ -14137,84 +14769,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "services_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice_processevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice_processpendingevents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L45",
-      "weight": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice",
-      "target": "services_eventconsumerservice_eventconsumerservice_replayevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice_processpendingevents",
-      "target": "services_eventconsumerservice_eventconsumerservice_processevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/EventConsumerService.js",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "services_eventconsumerservice_eventconsumerservice_replayevent",
-      "target": "services_eventconsumerservice_eventconsumerservice_processevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_authoreventhandler",
-      "target": "eventhandlers_authoreventhandler_authoreventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_authoreventhandler_authoreventhandler"
     },
     {
       "relation": "method",
@@ -14222,9 +14782,9 @@
       "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_authoreventhandler_authoreventhandler",
-      "target": "eventhandlers_authoreventhandler_authoreventhandler_constructor",
-      "confidence_score": 1.0
+      "target": "eventhandlers_authoreventhandler_authoreventhandler_constructor"
     },
     {
       "relation": "method",
@@ -14232,9 +14792,9 @@
       "source_file": "src/services/eventHandlers/AuthorEventHandler.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_authoreventhandler_authoreventhandler",
-      "target": "eventhandlers_authoreventhandler_authoreventhandler_handle",
-      "confidence_score": 1.0
+      "target": "eventhandlers_authoreventhandler_authoreventhandler_handle"
     },
     {
       "relation": "contains",
@@ -14242,9 +14802,9 @@
       "source_file": "src/services/eventHandlers/MediaEventHandler.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_mediaeventhandler",
-      "target": "eventhandlers_mediaeventhandler_mediaeventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_mediaeventhandler_mediaeventhandler"
     },
     {
       "relation": "method",
@@ -14252,9 +14812,9 @@
       "source_file": "src/services/eventHandlers/MediaEventHandler.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_mediaeventhandler_mediaeventhandler",
-      "target": "eventhandlers_mediaeventhandler_mediaeventhandler_constructor",
-      "confidence_score": 1.0
+      "target": "eventhandlers_mediaeventhandler_mediaeventhandler_constructor"
     },
     {
       "relation": "method",
@@ -14262,39 +14822,9 @@
       "source_file": "src/services/eventHandlers/MediaEventHandler.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_mediaeventhandler_mediaeventhandler",
-      "target": "eventhandlers_mediaeventhandler_mediaeventhandler_handle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/PostEventHandler.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "eventhandlers_posteventhandler",
-      "target": "eventhandlers_posteventhandler_posteventhandler",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/PostEventHandler.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "eventhandlers_posteventhandler_posteventhandler",
-      "target": "eventhandlers_posteventhandler_posteventhandler_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/eventHandlers/PostEventHandler.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "eventhandlers_posteventhandler_posteventhandler",
-      "target": "eventhandlers_posteventhandler_posteventhandler_handle",
-      "confidence_score": 1.0
+      "target": "eventhandlers_mediaeventhandler_mediaeventhandler_handle"
     },
     {
       "relation": "contains",
@@ -14302,9 +14832,9 @@
       "source_file": "src/services/eventHandlers/SiteEventHandler.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_siteeventhandler",
-      "target": "eventhandlers_siteeventhandler_siteeventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_siteeventhandler_siteeventhandler"
     },
     {
       "relation": "method",
@@ -14312,9 +14842,9 @@
       "source_file": "src/services/eventHandlers/SiteEventHandler.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_siteeventhandler_siteeventhandler",
-      "target": "eventhandlers_siteeventhandler_siteeventhandler_constructor",
-      "confidence_score": 1.0
+      "target": "eventhandlers_siteeventhandler_siteeventhandler_constructor"
     },
     {
       "relation": "method",
@@ -14322,9 +14852,9 @@
       "source_file": "src/services/eventHandlers/SiteEventHandler.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_siteeventhandler_siteeventhandler",
-      "target": "eventhandlers_siteeventhandler_siteeventhandler_handle",
-      "confidence_score": 1.0
+      "target": "eventhandlers_siteeventhandler_siteeventhandler_handle"
     },
     {
       "relation": "contains",
@@ -14332,9 +14862,9 @@
       "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_taxonomyeventhandler",
-      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler",
-      "confidence_score": 1.0
+      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler"
     },
     {
       "relation": "method",
@@ -14342,9 +14872,9 @@
       "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler",
-      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_constructor",
-      "confidence_score": 1.0
+      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_constructor"
     },
     {
       "relation": "method",
@@ -14352,9 +14882,9 @@
       "source_file": "src/services/eventHandlers/TaxonomyEventHandler.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler",
-      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_handle",
-      "confidence_score": 1.0
+      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler_handle"
     },
     {
       "relation": "contains",
@@ -27573,5 +28103,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "930d8e79ae398701e3f99dfc5955004972adda2b"
+  "built_at_commit": "0a0203df60580673c96890a3fe681bc10ed50c88"
 }

@@ -110,7 +110,8 @@ function createApp(services) {
         logger: logger.server
     }));
 
-    // Plugin Routes\n    app.use('/', statusLimiter, createPluginRoutes({\n        pluginService: services.pluginService,\n        logger: logger.server\n    }));\n\n    // WordPress & Content Routes (Requires Auth)
+    // Plugin Routes\n    app.use('/', statusLimiter, createPluginRoutes({\n        pluginService: services.pluginService,
+        wpOpService: services.wpOpService,\n        logger: logger.server\n    }));\n\n    // WordPress & Content Routes (Requires Auth)
     app.use('/', authMiddleware, rewriteLimiter, createWordPressRoutes({
         syncService: services.syncService,
         wordpressRepository: services.wordpressRepository,

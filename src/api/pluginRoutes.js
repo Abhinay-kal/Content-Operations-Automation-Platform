@@ -1,6 +1,6 @@
 const express = require('express');
 
-function createPluginRoutes({ pluginService, logger }) {
+function createPluginRoutes({ pluginService, wpOpService, logger }) {
     const router = express.Router();
 
     const authenticate = (req, res, next) => {
@@ -38,6 +38,21 @@ function createPluginRoutes({ pluginService, logger }) {
     router.post('/plugin/heartbeat', authenticate, (req, res) => {
         try {
             const result = pluginService.heartbeat(req.pluginToken, req.body);
+            const installation = pluginService.pluginRepository.findByToken(req.pluginToken);
+            if (wpOpService && installation) {
+                const ops = wpOpService.getPendingOperations(installation.id, 10);
+                if (ops.length > 0) {
+                    wpOpService.markDelivered(ops.map(o => o.id));
+                    result.operations = ops.map(o => ({
+                        uuid: o.operation_uuid,
+                        type: o.operation_type,
+                        payload: JSON.parse(o.payload || '{}'),
+                        priority: o.priority
+                    }));
+                } else {
+                    result.operations = [];
+                }
+            }
             res.json({ success: true, data: result });
         } catch (err) {
             logger.error('Heartbeat error', { error: err.message });
@@ -110,7 +125,44 @@ function createPluginRoutes({ pluginService, logger }) {
             res.status(400).json({ success: false, error: err.message });
         }
     });
-\n    return router;
+\n    
+    router.get('/plugin/operations', authenticate, (req, res) => {
+        try {
+            const installation = pluginService.pluginRepository.findByToken(req.pluginToken);
+            const ops = wpOpService.getPendingOperations(installation.id, 20);
+            
+            if (ops.length > 0) {
+                wpOpService.markDelivered(ops.map(o => o.id));
+            }
+            
+            res.json({ success: true, operations: ops.map(o => ({
+                uuid: o.operation_uuid,
+                type: o.operation_type,
+                payload: JSON.parse(o.payload || '{}'),
+                priority: o.priority
+            }))});
+        } catch (err) {
+            if(logger) logger.error('Get operations error', { error: err.message });
+            res.status(400).json({ success: false, error: err.message });
+        }
+    });
+
+    router.post('/plugin/operations/ack', authenticate, (req, res) => {
+        try {
+            const { operations } = req.body;
+            if (operations && Array.isArray(operations)) {
+                for (const op of operations) {
+                    wpOpService.acknowledge(op.uuid, op.status, op.error);
+                }
+            }
+            res.json({ success: true });
+        } catch (err) {
+            if(logger) logger.error('Ack operations error', { error: err.message });
+            res.status(400).json({ success: false, error: err.message });
+        }
+    });
+
+    return router;
 }
 
 module.exports = { createPluginRoutes };

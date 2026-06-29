@@ -267,3 +267,22 @@ CREATE TABLE site_workflow_settings (
     updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY(site_id) REFERENCES sites(id) ON DELETE CASCADE
 );
+
+CREATE TABLE wordpress_operations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    site_id INTEGER NOT NULL,
+    installation_id INTEGER NOT NULL,
+    operation_uuid TEXT NOT NULL,
+    operation_type TEXT NOT NULL,
+    payload TEXT,
+    priority TEXT DEFAULT 'NORMAL',
+    status TEXT DEFAULT 'PENDING',
+    attempt_count INTEGER DEFAULT 0,
+    max_attempts INTEGER DEFAULT 5,
+    scheduled_at DATETIME,
+    started_at DATETIME,
+    completed_at DATETIME,
+    last_error TEXT,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
