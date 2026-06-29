@@ -7,6 +7,7 @@ const { createAuditRoutes } = require('./api/auditRoutes'); // Import audit rout
 const { createRewriteRoutes } = require('./api/rewriteRoutes'); // Import rewrite routes
 const { createPublishingRoutes } = require('./api/publishingRoutes'); // Import publishing routes
 const { createWordPressRoutes } = require('./api/wordpressRoutes'); // Import WordPress routes\nconst { createPluginRoutes } = require('./api/pluginRoutes');
+const { createDashboardRoutes } = require('./api/dashboardRoutes');
 const createQueueRouter = require('./routes/queue');
 const { loadSecurityConfig } = require('./config/security');
 const { createAuthMiddleware } = require('./middleware/auth');
@@ -101,6 +102,13 @@ function createApp(services) {
     // Publishing Routes (Requires Auth)
     app.use('/', authMiddleware, statusLimiter, createPublishingRoutes({
         publishingService: services.publishingService,
+        logger: logger.server
+    }));
+
+    
+    // Dashboard Read APIs (Requires Auth but mounted under dashboard space)
+    app.use('/', authMiddleware, statusLimiter, createDashboardRoutes({
+        dashboardReadService: services.dashboardReadService,
         logger: logger.server
     }));
 

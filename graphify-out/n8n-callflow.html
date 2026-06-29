@@ -60,7 +60,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>n8n — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 1232 nodes, 1511 edges, 128 communities. Commit: 0a0203d</p>
+<p class="subtitle">Generated from graphify knowledge graph: 1255 nodes, 1532 edges, 133 communities. Commit: 36483dc</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
@@ -90,19 +90,19 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 flowchart LR
     BUILD_GRAPH_321CBB04("Graph Build<br/><small>24 nodes</small>")
     class BUILD_GRAPH_321CBB04 module;
-    ANALYSIS_CLUSTERING_C79796DA("Analysis &amp; Clustering<br/><small>48 nodes</small>")
+    ANALYSIS_CLUSTERING_C79796DA("Analysis &amp; Clustering<br/><small>56 nodes</small>")
     class ANALYSIS_CLUSTERING_C79796DA module;
     OUTPUTS_DOCS_ED82387C("Outputs &amp; Docs<br/><small>15 nodes</small>")
     class OUTPUTS_DOCS_ED82387C module;
-    CLI_SKILLS_9964CBB8("CLI &amp; Skill Installers<br/><small>406 nodes</small>")
+    CLI_SKILLS_9964CBB8("CLI &amp; Skill Installers<br/><small>420 nodes</small>")
     class CLI_SKILLS_9964CBB8 module;
     INGEST_CACHE_UPDATE_FF457338("Ingestion &amp; Updates<br/><small>2 nodes</small>")
     class INGEST_CACHE_UPDATE_FF457338 module;
     SERVE_API_35EC8E86("Serving API<br/><small>63 nodes</small>")
     class SERVE_API_35EC8E86 module;
-    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>121 nodes</small>")
+    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>125 nodes</small>")
     class TESTS_FIXTURES_B84B1DCC module;
-    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA("Bootstrapmanager Components<br/><small>43 nodes</small>")
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA("Bootstrapmanager Components<br/><small>44 nodes</small>")
     class BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA module;
     SYNCSERVICE_COMPONENTS_651B7EA4("Syncservice Components<br/><small>22 nodes</small>")
     class SYNCSERVICE_COMPONENTS_651B7EA4 module;
@@ -116,19 +116,19 @@ flowchart LR
     class PROJECTREPOSITORY_COMPONENTS_6F11DF41 module;
     BROWSERMANAGER_COMPONENTS_2A3C6015("Browsermanager Components<br/><small>17 nodes</small>")
     class BROWSERMANAGER_COMPONENTS_2A3C6015 module;
-    OTHER_D0941E68("Other<br/><small>399 nodes</small>")
+    OTHER_D0941E68("Other<br/><small>395 nodes</small>")
     class OTHER_D0941E68 module;
-    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x60| OTHER_D0941E68
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x62| OTHER_D0941E68
     OTHER_D0941E68 -->|imports x8| TESTS_FIXTURES_B84B1DCC
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x5| CLI_SKILLS_9964CBB8
-    ANALYSIS_CLUSTERING_C79796DA -->|imports x5| TESTS_FIXTURES_B84B1DCC
+    TESTS_FIXTURES_B84B1DCC -->|imports x5| ANALYSIS_CLUSTERING_C79796DA
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x3| TESTS_FIXTURES_B84B1DCC
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x3| ANALYSIS_CLUSTERING_C79796DA
     SERVE_API_35EC8E86 -->|imports x3| CLI_SKILLS_9964CBB8
-    TESTS_FIXTURES_B84B1DCC -->|contains x3| ANALYSIS_CLUSTERING_C79796DA
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| JOBREPOSITORY_COMPONENTS_A6220750
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| SITE_COMPONENTS_CE1F1570
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| SITESERVICE_COMPONENTS_C9C2CB72
+    ANALYSIS_CLUSTERING_C79796DA -->|imports x2| TESTS_FIXTURES_B84B1DCC
     ANALYSIS_CLUSTERING_C79796DA -->|imports x2| OTHER_D0941E68
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
@@ -146,19 +146,19 @@ flowchart LR
     <h4>Architecture Layers</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>Layer</th><th>Nodes</th><th>Communities</th></tr>
-      <tr><td>Graph Build</td><td>24</td><td><code>6</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>48</td><td><code>81</code></td></tr><tr><td>Outputs &amp; Docs</td><td>15</td><td><code>12, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>406</td><td><code>2, 39, 27, 34, 15, 93, 97, 57, 40, 85, 87, 59, 55, 107, 108, 98, 110, 62, 102, 111, 114, 35, 70, 71, 74, 103, 112, 113, 41, 75, 115, 77, 78, 104, 105, 106, 61, 95, 109</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>63</td><td><code>0, 100, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>121</td><td><code>4, 33, 3, 37, 44, 45, 46, 47</code></td></tr><tr><td>Bootstrapmanager Components</td><td>43</td><td><code>5</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Siteservice Components</td><td>18</td><td><code>9</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Projectrepository Components</td><td>17</td><td><code>11</code></td></tr><tr><td>Browsermanager Components</td><td>17</td><td><code>13</code></td></tr><tr><td>Other</td><td>399</td><td><code>14, 80, 16, 82, 17, 68, 18, 19, 20, 90, 1, 21, 22, 58, 23, 24, 83, 96, 116, 25, 84, 99, 101, 26, 86, 122, 28, 29, 30, 31, 32, 117, 124, 36, 89, 94, 118, 119, 125, 126, 127, 128, 129, 38, 42, 43, 48, 49, 88, 50, 52, 53, 54, 120, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
+      <tr><td>Graph Build</td><td>24</td><td><code>6</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>56</td><td><code>81, 80</code></td></tr><tr><td>Outputs &amp; Docs</td><td>15</td><td><code>12, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>420</td><td><code>2, 39, 27, 34, 15, 93, 97, 57, 40, 85, 87, 59, 55, 107, 108, 98, 110, 62, 102, 111, 114, 123, 35, 70, 71, 74, 103, 112, 113, 41, 75, 115, 130, 131, 132, 77, 78, 104, 105, 106, 61, 95, 109</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>63</td><td><code>0, 100, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>125</td><td><code>4, 33, 3, 37, 44, 45, 46, 47</code></td></tr><tr><td>Bootstrapmanager Components</td><td>44</td><td><code>5</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Siteservice Components</td><td>18</td><td><code>9</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Projectrepository Components</td><td>17</td><td><code>11</code></td></tr><tr><td>Browsermanager Components</td><td>17</td><td><code>13</code></td></tr><tr><td>Other</td><td>395</td><td><code>14, 68, 16, 82, 17, 18, 19, 20, 90, 1, 21, 22, 58, 23, 24, 83, 96, 116, 121, 25, 84, 99, 101, 26, 86, 122, 28, 29, 30, 31, 32, 117, 124, 36, 89, 94, 118, 119, 125, 126, 127, 128, 129, 38, 42, 43, 48, 49, 88, 50, 52, 53, 54, 120, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Core Flow</h4>
-    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Tests &amp; Fixtures -&gt; Browsermanager Components -&gt; Outputs &amp; Docs -&gt; CLI &amp; Skill Installers -&gt; Serving API</div>
+    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Tests &amp; Fixtures -&gt; CLI &amp; Skill Installers -&gt; Serving API -&gt; Outputs &amp; Docs -&gt; Ingestion &amp; Updates</div>
   </div>
 </div>
 <div class="grid">
   <div class="card">
     <h4>Graph Report Highlights</h4>
     <ul>
-      <li>1232 nodes · 1511 edges · 128 communities (45 shown, 83 thin omitted)</li>
+      <li>1255 nodes · 1532 edges · 133 communities (45 shown, 88 thin omitted)</li>
       <li>Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)</li>
       <li>Token cost: 0 input · 0 output</li>
       <li>1. `ClaudeManager` - 33 edges</li>
@@ -462,69 +462,69 @@ flowchart LR
 
 <!-- ====== 3. Analysis & Clustering ====== -->
 <h2 id="analysis-clustering">3. Analysis &amp; Clustering</h2>
-<p>Analysis &amp; Clustering groups implementation around claudeworkerjs, workers, utils, services, mostly in src/workers/ClaudeWorker.js, src/services/ClaudeWorker.js, src/errors/ClaudeErrors.js. This section covers 48 nodes and 54 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Analysis &amp; Clustering groups implementation around claudeworkerjs, services, setup, p7js, mostly in src/services/ClaudeWorker.js, setup_p7.js, src/workers/ClaudeWorker.js. This section covers 56 nodes and 58 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Analysis &amp; Clustering (48 nodes, 54 edges)
-    subgraph analysis_clustering_src_workers_ClaudeWorker_js_5b0bd546["src/workers/ClaudeWorker.js"]
-        workers_claudeworker_claudeworker_059ee0ad("ClaudeWorker<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_d6c37514("ClaudeWorker.js")
-        workers_claudeworker_claudeworker_constructor_7a72a9db("constructor()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_executejob_b308bfb8("executeJob()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_getqueuesize_dbd4147f("getQueueSize()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_getstatussnaps_d7f48959("getStatusSnapshot()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_initialize_48fb9c89("initialize()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_ishealthy_28d1e3a1("isHealthy()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_processpending_d90b0e14("_processPendingJobs()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_recordjobchat_8ac494e5("_recordJobChat()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_resetworkersta_42db8229("_resetWorkerState()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_rewrite_33b41255("rewrite()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_saveresponse_0bbb63ae("_saveResponse()<br/><small>src/workers/ClaudeWorker.js</small>")
-        workers_claudeworker_claudeworker_startprocessin_7287b1b1("startProcessing()<br/><small>src/workers/ClaudeWorker.js</small>")
+    %% Section: Analysis &amp; Clustering (56 nodes, 58 edges)
+    subgraph analysis_clustering_src_services_ClaudeWorker_js_597844e9["src/services/ClaudeWorker.js"]
+        services_claudeworker_claudeworker_c12a2e46("ClaudeWorker<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_af4db479("ClaudeWorker.js")
+        services_claudeworker_claudeworker_constructor_b11e226f("constructor()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_executejob_0ea92bbc("executeJob()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_getqueuesize_95ae4018("getQueueSize()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_getstatussnap_0c1dbc05("getStatusSnapshot()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_initialize_df41eb31("initialize()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_ishealthy_7d41ae97("isHealthy()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_processpendin_0a95349b("_processPendingJobs()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_recordjobchat_e6fde756("_recordJobChat()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_resetworkerst_e3d08213("_resetWorkerState()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_rewrite_e02c3939("rewrite()<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_claudeworker_saveresponse_1dff735b("_saveResponse()<br/><small>src/services/ClaudeWorker.js</small>")
     end
     subgraph analysis_clustering_src_errors_ClaudeErrors_js_27f08e0d["src/errors/ClaudeErrors.js"]
         errors_claudeerrors_contentunavailableerror_2d6d6134("ContentUnavailableError<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_invalidprojectcontenterror_144aa5b9("InvalidProjectContentError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_contentunavailableerror_cons_abe8ed75("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
     end
-    models_workerstate_e0f47c12("WorkerState.js")
     utils_auditpromptbuilder_auditpromptbuilder_ce6ae882("AuditPromptBuilder<br/><small>src/utils/AuditPromptBuilder.js</small>")
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_constructor_7a72a9db
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_executejob_b308bfb8
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_getqueuesize_dbd4147f
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_getstatussnaps_d7f48959
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_initialize_48fb9c89
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_ishealthy_28d1e3a1
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_processpending_d90b0e14
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_recordjobchat_8ac494e5
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_resetworkersta_42db8229
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_rewrite_33b41255
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_saveresponse_0bbb63ae
-    workers_claudeworker_claudeworker_059ee0ad -->|method| workers_claudeworker_claudeworker_startprocessin_7287b1b1
-    workers_claudeworker_claudeworker_processpending_d90b0e14 -->|calls| workers_claudeworker_claudeworker_executejob_b308bfb8
-    workers_claudeworker_claudeworker_executejob_b308bfb8 -->|calls| workers_claudeworker_claudeworker_rewrite_33b41255
+    utils_rewritepromptbuilder_rewritepromptbuilder_a8808043("RewritePromptBuilder<br/><small>src/utils/RewritePromptBuilder.js</small>")
+    workers_claudeworker_d6c37514("ClaudeWorker.js")
+    errors_claudeerrors_contentunavailableerror_2d6d6134 -->|method| errors_claudeerrors_contentunavailableerror_cons_abe8ed75
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_constructor_b11e226f
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_executejob_0ea92bbc
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_getqueuesize_95ae4018
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_getstatussnap_0c1dbc05
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_initialize_df41eb31
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_ishealthy_7d41ae97
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_processpendin_0a95349b
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_recordjobchat_e6fde756
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_resetworkerst_e3d08213
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_rewrite_e02c3939
+    services_claudeworker_claudeworker_c12a2e46 -->|method| services_claudeworker_claudeworker_saveresponse_1dff735b
+    services_claudeworker_claudeworker_processpendin_0a95349b -->|calls| services_claudeworker_claudeworker_executejob_0ea92bbc
+    services_claudeworker_claudeworker_executejob_0ea92bbc -->|calls| services_claudeworker_claudeworker_rewrite_e02c3939
     workers_claudeworker_d6c37514 -->|imports| errors_claudeerrors_contentunavailableerror_2d6d6134
-    workers_claudeworker_d6c37514 -->|imports| errors_claudeerrors_invalidprojectcontenterror_144aa5b9
-    %% Omitted for readability: 30 nodes, 0 edges
-    class workers_claudeworker_claudeworker_059ee0ad klass;
-    class workers_claudeworker_d6c37514 klass;
-    class workers_claudeworker_claudeworker_constructor_7a72a9db function;
-    class workers_claudeworker_claudeworker_executejob_b308bfb8 function;
-    class workers_claudeworker_claudeworker_getqueuesize_dbd4147f function;
-    class workers_claudeworker_claudeworker_getstatussnaps_d7f48959 function;
-    class workers_claudeworker_claudeworker_initialize_48fb9c89 function;
-    class workers_claudeworker_claudeworker_ishealthy_28d1e3a1 function;
-    class workers_claudeworker_claudeworker_processpending_d90b0e14 function;
-    class workers_claudeworker_claudeworker_recordjobchat_8ac494e5 function;
-    class workers_claudeworker_claudeworker_resetworkersta_42db8229 function;
-    class workers_claudeworker_claudeworker_rewrite_33b41255 function;
-    class workers_claudeworker_claudeworker_saveresponse_0bbb63ae function;
-    class workers_claudeworker_claudeworker_startprocessin_7287b1b1 function;
+    errors_claudeerrors_contentunavailableerror_2d6d6134 -->|imports| services_claudeworker_af4db479
+    %% Omitted for readability: 38 nodes, 0 edges
+    class services_claudeworker_claudeworker_c12a2e46 klass;
+    class services_claudeworker_af4db479 klass;
+    class services_claudeworker_claudeworker_constructor_b11e226f function;
+    class services_claudeworker_claudeworker_executejob_0ea92bbc function;
+    class services_claudeworker_claudeworker_getqueuesize_95ae4018 function;
+    class services_claudeworker_claudeworker_getstatussnap_0c1dbc05 function;
+    class services_claudeworker_claudeworker_initialize_df41eb31 function;
+    class services_claudeworker_claudeworker_ishealthy_7d41ae97 function;
+    class services_claudeworker_claudeworker_processpendin_0a95349b function;
+    class services_claudeworker_claudeworker_recordjobchat_e6fde756 function;
+    class services_claudeworker_claudeworker_resetworkerst_e3d08213 function;
+    class services_claudeworker_claudeworker_rewrite_e02c3939 function;
+    class services_claudeworker_claudeworker_saveresponse_1dff735b function;
     class errors_claudeerrors_contentunavailableerror_2d6d6134 klass;
-    class errors_claudeerrors_invalidprojectcontenterror_144aa5b9 klass;
-    class models_workerstate_e0f47c12 klass;
+    class errors_claudeerrors_contentunavailableerror_cons_abe8ed75 function;
     class utils_auditpromptbuilder_auditpromptbuilder_ce6ae882 klass;
+    class utils_rewritepromptbuilder_rewritepromptbuilder_a8808043 klass;
+    class workers_claudeworker_d6c37514 klass;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -551,7 +551,7 @@ flowchart LR
   <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>FailureClassifier</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small><br><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+1 more</td>
+  <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>FailureClassifier</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small></td>
   <td>ClaudeWorker.js node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
@@ -620,118 +620,6 @@ flowchart LR
 </tr>
 <tr>
   <td>10</td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br><code>_recordJobChat()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br><code>_resetWorkerState()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br>+10 more</td>
-  <td>ClaudeWorker node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.constructor() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>.initialize()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.initialize() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>.startProcessing()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.startProcessing() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>.stopProcessing()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.stopProcessing() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>15</td>
-  <td><code>._processPendingJobs()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><code>executeJob()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>._processPendingJobs() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>16</td>
-  <td><code>.executeJob()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><code>rewrite()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>.executeJob() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>17</td>
-  <td><code>._recordJobChat()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>Supports retrieval-augmented Q&amp;A or streaming chat.</td>
-</tr>
-<tr>
-  <td>18</td>
-  <td><code>._saveResponse()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>._saveResponse() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td><code>._resetWorkerState()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>._resetWorkerState() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td><code>.getQueueSize()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getQueueSize() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>21</td>
-  <td><code>.isHealthy()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.isHealthy() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>22</td>
-  <td><code>.getStatusSnapshot()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.getStatusSnapshot() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>23</td>
-  <td><code>.rewrite()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br><code>executeJob()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.rewrite() node in src/workers/ClaudeWorker.js.</td>
-</tr>
-<tr>
-  <td>24</td>
   <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
@@ -739,7 +627,7 @@ flowchart LR
   <td>ContentUnavailableError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>25</td>
+  <td>11</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -747,44 +635,156 @@ flowchart LR
   <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>26</td>
-  <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>12</td>
+  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
-  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td>InvalidProjectContentError node in src/errors/ClaudeErrors.js.</td>
+  <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><code>AuditPromptBuilder.js</code><br><small style="color:var(--muted)">src/utils/AuditPromptBuilder.js</small><br><code>FailureClassifier</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small><br><code>FailureClassifier.js</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small><br>+1 more</td>
+  <td>ClaudeWorker.js node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>fs</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>fs node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>14</td>
+  <td><code>path</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>path node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>15</td>
+  <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ WORKER_STATES } node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>16</td>
+  <td><code>{ PROJECT_STATUSES }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ PROJECT_STATUSES } node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>{ FailureClassifier }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ FailureClassifier } node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>AuditPromptBuilder</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Builds structured prompts for model calls.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>RewritePromptBuilder</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Builds structured prompts for model calls.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>{ ContentUnavailableError, InvalidProjectContentError }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ ContentUnavailableError, InvalidProjectContentError } node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>_recordJobChat()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>_resetWorkerState()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br>+10 more</td>
+  <td>ClaudeWorker node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>.initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.initialize() node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td><code>.startProcessing()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.startProcessing() node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td><code>.stopProcessing()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.stopProcessing() node in src/services/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td><code>._processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>._processPendingJobs() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>27</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><code>.executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
+  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>rewrite()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>.executeJob() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>28</td>
-  <td><code>WorkerState.js</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td>WorkerState.js node in src/models/WorkerState.js.</td>
+  <td><code>._recordJobChat()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>Supports retrieval-augmented Q&amp;A or streaming chat.</td>
 </tr>
 <tr>
   <td>29</td>
-  <td><code>WORKER_STATES</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
-  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td>WORKER_STATES node in src/models/WorkerState.js.</td>
+  <td><code>._saveResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._saveResponse() node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>30</td>
-  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>WORKER_STATES</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small><br>+1 more</td>
-  <td><code>AuditPromptBuilder.js</code><br><small style="color:var(--muted)">src/utils/AuditPromptBuilder.js</small><br><code>FailureClassifier</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small><br><code>FailureClassifier.js</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small><br>+1 more</td>
-  <td>ClaudeWorker.js node in src/services/ClaudeWorker.js.</td>
+  <td><code>._resetWorkerState()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._resetWorkerState() node in src/services/ClaudeWorker.js.</td>
 </tr>
 </table>
 
@@ -793,18 +793,18 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>src/workers/ClaudeWorker.js</code></td><td>23 nodes</td></tr>
-<tr><td><code>src/services/ClaudeWorker.js</code></td><td>9 nodes</td></tr>
-<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>4 nodes</td></tr>
+      <tr><td><code>src/services/ClaudeWorker.js</code></td><td>23 nodes</td></tr>
+<tr><td><code>setup_p7.js</code></td><td>12 nodes</td></tr>
+<tr><td><code>src/workers/ClaudeWorker.js</code></td><td>9 nodes</td></tr>
 <tr><td><code>src/utils/FailureClassifier.js</code></td><td>4 nodes</td></tr>
 <tr><td><code>src/utils/AuditPromptBuilder.js</code></td><td>3 nodes</td></tr>
 <tr><td><code>src/utils/RewritePromptBuilder.js</code></td><td>3 nodes</td></tr>
-<tr><td><code>src/models/WorkerState.js</code></td><td>2 nodes</td></tr>
+<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>2 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x22, method x18, imports x8, imports x4. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x32, method x17, imports x4, imports x3. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -1025,12 +1025,12 @@ flowchart LR
 
 <!-- ====== 5. CLI & Skill Installers ====== -->
 <h2 id="cli-skills">5. CLI &amp; Skill Installers</h2>
-<p>CLI &amp; Skill Installers groups implementation around agent, plugin, wordpress, models, mostly in wordpress-agent-plugin/services/ConfigService.php, wordpress-agent-plugin/models/PluginIdentity.php, wordpress-agent-plugin/admin/SettingsPage.php. This section covers 406 nodes and 472 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>CLI &amp; Skill Installers groups implementation around agent, plugin, wordpress, models, mostly in wordpress-agent-plugin/services/ConfigService.php, wordpress-agent-plugin/models/PluginIdentity.php, wordpress-agent-plugin/admin/SettingsPage.php. This section covers 420 nodes and 483 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: CLI &amp; Skill Installers (406 nodes, 472 edges)
+    %% Section: CLI &amp; Skill Installers (420 nodes, 483 edges)
     subgraph cli_skills_src_bootstrap_BootstrapManager_js_c0def98e["src/bootstrap/BootstrapManager.js"]
         bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3("BootstrapManager<br/><small>src/bootstrap/BootstrapManager.js</small>")
         bootstrap_bootstrapmanager_bootstrapmanager_cons_7e8cd264("constructor()<br/><small>src/bootstrap/BootstrapManager.js</small>")
@@ -1071,7 +1071,7 @@ flowchart LR
     bootstrap_bootstrapmanager_bootstrapmanager_runp_f1af04e7 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_repo_c4bfd4df
     bootstrap_bootstrapmanager_bootstrapmanager_runp_f1af04e7 -->|calls| config_config_loadconfig_a426fd18
     bootstrap_bootstrapmanager_bootstrapmanager_runp_41817228 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_veri_1e505071
-    %% Omitted for readability: 388 nodes, 0 edges
+    %% Omitted for readability: 402 nodes, 0 edges
     class bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 klass;
     class bootstrap_bootstrapmanager_bootstrapmanager_cons_7e8cd264 function;
     class bootstrap_bootstrapmanager_bootstrapmanager_prin_d0884815 function;
@@ -1370,7 +1370,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: method x219, contains x81, references x58, calls x51. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: method x225, contains x85, references x58, calls x52. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -1804,12 +1804,12 @@ flowchart LR
 
 <!-- ====== 8. Tests & Fixtures ====== -->
 <h2 id="tests-fixtures">8. Tests &amp; Fixtures</h2>
-<p>Tests &amp; Fixtures groups implementation around services, claudemanagerjs, test, scripts, mostly in src/services/ClaudeManager.js, README.md, src/errors/ClaudeErrors.js. This section covers 121 nodes and 167 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Tests &amp; Fixtures groups implementation around services, claudemanagerjs, test, scripts, mostly in src/services/ClaudeManager.js, src/errors/ClaudeErrors.js, README.md. This section covers 125 nodes and 175 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Tests &amp; Fixtures (121 nodes, 167 edges)
+    %% Section: Tests &amp; Fixtures (125 nodes, 175 edges)
     subgraph tests_fixtures_src_errors_ClaudeErrors_js_5b59ac58["src/errors/ClaudeErrors.js"]
         errors_claudeerrors_createclaudeerror_07bee0f5("createClaudeError()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_e454675d("ClaudeErrors.js")
@@ -1822,27 +1822,25 @@ flowchart LR
         errors_claudeerrors_profilelockerror_6b4635a4("ProfileLockError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_profilelockerror_constructor_24bfd4e1("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_validationerror_constructor_3ea3ecd2("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_invalidprojectcontenterror_144aa5b9("InvalidProjectContentError<br/><small>src/errors/ClaudeErrors.js</small>")
+        errors_claudeerrors_invalidprojectcontenterror_c_111f0234("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_invalidresponsequalityerror_909acd1a("InvalidResponseQualityError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_invalidresponsequalityerror_e49849a7("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_recoveryreport_416bd925("RecoveryReport<br/><small>src/errors/ClaudeErrors.js</small>")
-        errors_claudeerrors_recoveryreport_constructor_17cc09da("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
     end
     subgraph tests_fixtures_src_services_ClaudeManager_js_ac9c43dd["src/services/ClaudeManager.js"]
         services_claudemanager_claudemanager_82714a68("ClaudeManager<br/><small>src/services/ClaudeManager.js</small>")
         services_claudemanager_claudemanager_sendprompto_d381983d("_sendPromptOnce()<br/><small>src/services/ClaudeManager.js</small>")
-        services_claudemanager_claudemanager_detecterror_29c63e39("detectErrors()<br/><small>src/services/ClaudeManager.js</small>")
     end
     errors_claudeerrors_claudeerror_a5dc4ebb -->|method| errors_claudeerrors_claudeerror_constructor_0d940856
     errors_claudeerrors_browsererror_9738120d -->|method| errors_claudeerrors_browsererror_constructor_5ded3364
     errors_claudeerrors_profilelockerror_6b4635a4 -->|method| errors_claudeerrors_profilelockerror_constructor_24bfd4e1
     errors_claudeerrors_validationerror_f7e8533c -->|method| errors_claudeerrors_validationerror_constructor_3ea3ecd2
+    errors_claudeerrors_invalidprojectcontenterror_144aa5b9 -->|method| errors_claudeerrors_invalidprojectcontenterror_c_111f0234
     errors_claudeerrors_invalidresponsequalityerror_909acd1a -->|method| errors_claudeerrors_invalidresponsequalityerror_e49849a7
-    errors_claudeerrors_recoveryreport_416bd925 -->|method| errors_claudeerrors_recoveryreport_constructor_17cc09da
-    errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_detecterror_29c63e39
     errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_sendprompto_d381983d
-    services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_detecterror_29c63e39
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_sendprompto_d381983d
-    %% Omitted for readability: 103 nodes, 0 edges
+    %% Omitted for readability: 107 nodes, 0 edges
     class errors_claudeerrors_createclaudeerror_07bee0f5 function;
     class errors_claudeerrors_e454675d klass;
     class errors_claudeerrors_normalizeerror_68f137ec function;
@@ -1854,13 +1852,13 @@ flowchart LR
     class errors_claudeerrors_profilelockerror_6b4635a4 klass;
     class errors_claudeerrors_profilelockerror_constructor_24bfd4e1 function;
     class errors_claudeerrors_validationerror_constructor_3ea3ecd2 function;
+    class errors_claudeerrors_invalidprojectcontenterror_144aa5b9 klass;
+    class errors_claudeerrors_invalidprojectcontenterror_c_111f0234 function;
     class errors_claudeerrors_invalidresponsequalityerror_909acd1a klass;
     class errors_claudeerrors_invalidresponsequalityerror_e49849a7 function;
     class errors_claudeerrors_recoveryreport_416bd925 klass;
-    class errors_claudeerrors_recoveryreport_constructor_17cc09da function;
     class services_claudemanager_claudemanager_82714a68 klass;
     class services_claudemanager_claudemanager_sendprompto_d381983d function;
-    class services_claudemanager_claudemanager_detecterror_29c63e39 function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -1956,6 +1954,22 @@ flowchart LR
 </tr>
 <tr>
   <td>10</td>
+  <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>InvalidProjectContentError node in src/errors/ClaudeErrors.js.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
+</tr>
+<tr>
+  <td>12</td>
   <td><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1963,7 +1977,7 @@ flowchart LR
   <td>InvalidResponseQualityError node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>11</td>
+  <td>13</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -1971,7 +1985,7 @@ flowchart LR
   <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>12</td>
+  <td>14</td>
   <td><code>RecoveryReport</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1979,7 +1993,7 @@ flowchart LR
   <td>RecoveryReport node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>13</td>
+  <td>15</td>
   <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>RecoveryReport</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -1987,7 +2001,7 @@ flowchart LR
   <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>14</td>
+  <td>16</td>
   <td><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -1995,7 +2009,7 @@ flowchart LR
   <td>createClaudeError() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>15</td>
+  <td>17</td>
   <td><code>normalizeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2003,15 +2017,31 @@ flowchart LR
   <td>normalizeError() node in src/errors/ClaudeErrors.js.</td>
 </tr>
 <tr>
-  <td>16</td>
+  <td>18</td>
+  <td><code>WorkerState.js</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>WorkerState.js node in src/models/WorkerState.js.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>WORKER_STATES</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small><br><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
+  <td>WORKER_STATES node in src/models/WorkerState.js.</td>
+</tr>
+<tr>
+  <td>20</td>
   <td><code>BrowserManager.js</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
-  <td><code>BrowserError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ProfileLockError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><code>BrowserError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>ProfileLockError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+2 more</td>
   <td>No direct outbound edge</td>
   <td>BrowserManager.js node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
-  <td>17</td>
+  <td>21</td>
   <td><code>{ chromium }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2019,7 +2049,7 @@ flowchart LR
   <td>{ chromium } node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
-  <td>18</td>
+  <td>22</td>
   <td><code>stealth</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2027,7 +2057,7 @@ flowchart LR
   <td>stealth node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
-  <td>19</td>
+  <td>23</td>
   <td><code>{ spawnSync }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2035,7 +2065,7 @@ flowchart LR
   <td>{ spawnSync } node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
-  <td>20</td>
+  <td>24</td>
   <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2043,7 +2073,7 @@ flowchart LR
   <td>{ WORKER_STATES } node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
-  <td>21</td>
+  <td>25</td>
   <td><code>{ BrowserError, ProfileLockError }</code><br><small style="color:var(--muted)">src/services/BrowserManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2051,15 +2081,15 @@ flowchart LR
   <td>{ BrowserError, ProfileLockError } node in src/services/BrowserManager.js.</td>
 </tr>
 <tr>
-  <td>22</td>
+  <td>26</td>
   <td><code>ClaudeManager.js</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
-  <td><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>InvalidResponseQualityError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+3 more</td>
+  <td><code>ClaudeErrors.js</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>createClaudeError()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br><code>InvalidProjectContentError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small><br>+6 more</td>
   <td><code>validation.test.js</code><br><small style="color:var(--muted)">tests/validation.test.js</small></td>
   <td>ClaudeManager.js node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>23</td>
+  <td>27</td>
   <td><code>fs</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2067,7 +2097,7 @@ flowchart LR
   <td>fs node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>24</td>
+  <td>28</td>
   <td><code>path</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2075,7 +2105,7 @@ flowchart LR
   <td>path node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>25</td>
+  <td>29</td>
   <td><code>{ 
     ValidationError, 
     RecoveryReport, 
@@ -2097,44 +2127,12 @@ flowchart LR
 } node in src/services/ClaudeManager.js.</td>
 </tr>
 <tr>
-  <td>26</td>
+  <td>30</td>
   <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
   <td>{ WORKER_STATES } node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>27</td>
-  <td><code>SELECTORS</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>SELECTORS node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>28</td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>_attemptSubmit()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_captureDiagnostics()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>_containsMeaningfulContent()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br>+28 more</td>
-  <td>ClaudeManager node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>29</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>No direct outbound edge</td>
-  <td>.constructor() node in src/services/ClaudeManager.js.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>.initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeManager</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td><code>_ensureClaudeHome()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small><br><code>detectErrors()</code><br><small style="color:var(--muted)">src/services/ClaudeManager.js</small></td>
-  <td>.initialize() node in src/services/ClaudeManager.js.</td>
 </tr>
 </table>
 
@@ -2144,8 +2142,8 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>src/services/ClaudeManager.js</code></td><td>37 nodes</td></tr>
+<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>17 nodes</td></tr>
 <tr><td><code>README.md</code></td><td>16 nodes</td></tr>
-<tr><td><code>src/errors/ClaudeErrors.js</code></td><td>15 nodes</td></tr>
 <tr><td><code>tests/stabilization.test.js</code></td><td>11 nodes</td></tr>
 <tr><td><code>SOAK_TEST_PLAN.md</code></td><td>7 nodes</td></tr>
 <tr><td><code>src/services/BrowserManager.js</code></td><td>6 nodes</td></tr>
@@ -2155,19 +2153,19 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x72, calls x44, method x36, imports x9. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x74, calls x44, method x37, imports x12. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
 <!-- ====== 9. Bootstrapmanager Components ====== -->
 <h2 id="bootstrapmanager-components">9. Bootstrapmanager Components</h2>
-<p>Bootstrapmanager Components groups implementation around bootstrapmanagerjs, bootstrap, preflightvalidator, loadconfig, mostly in src/bootstrap/BootstrapManager.js. This section covers 43 nodes and 42 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Bootstrapmanager Components groups implementation around bootstrapmanagerjs, bootstrap, preflightvalidator, loadconfig, mostly in src/bootstrap/BootstrapManager.js. This section covers 44 nodes and 43 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Bootstrapmanager Components (43 nodes, 42 edges)
+    %% Section: Bootstrapmanager Components (44 nodes, 43 edges)
     bootstrap_bootstrapmanager_0be3dc2e("BootstrapManager.js")
     bootstrap_bootstrapmanager_authoreventhandler_0ba3e659("AuthorEventHandler<br/><small>src/bootstrap/BootstrapManager.js</small>")
     bootstrap_bootstrapmanager_browsermanager_3cd4570d("BrowserManager<br/><small>src/bootstrap/BootstrapManager.js</small>")
@@ -2203,7 +2201,7 @@ flowchart LR
     bootstrap_bootstrapmanager_0be3dc2e -->|contains| bootstrap_bootstrapmanager_logrepository_eventre_81fa0561
     bootstrap_bootstrapmanager_0be3dc2e -->|contains| bootstrap_bootstrapmanager_mediaeventhandler_0e7ff8c9
     bootstrap_bootstrapmanager_0be3dc2e -->|contains| bootstrap_bootstrapmanager_metricsservice_09c09d78
-    %% Omitted for readability: 25 nodes, 0 edges
+    %% Omitted for readability: 26 nodes, 0 edges
     class bootstrap_bootstrapmanager_0be3dc2e klass;
     class bootstrap_bootstrapmanager_authoreventhandler_0ba3e659 function;
     class bootstrap_bootstrapmanager_browsermanager_3cd4570d function;
@@ -2373,6 +2371,14 @@ flowchart LR
 </tr>
 <tr>
   <td>17</td>
+  <td><code>{ WordPressOperationService }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ WordPressOperationService } node in src/bootstrap/BootstrapManager.js.</td>
+</tr>
+<tr>
+  <td>18</td>
   <td><code>{ WorkflowPolicyEngine }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2380,7 +2386,7 @@ flowchart LR
   <td>{ WorkflowPolicyEngine } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>18</td>
+  <td>19</td>
   <td><code>{ WorkflowScheduler }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2388,7 +2394,7 @@ flowchart LR
   <td>{ WorkflowScheduler } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>19</td>
+  <td>20</td>
   <td><code>{ WorkflowOrchestrator }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2396,7 +2402,7 @@ flowchart LR
   <td>{ WorkflowOrchestrator } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>20</td>
+  <td>21</td>
   <td><code>{ EventConsumerService }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2404,7 +2410,7 @@ flowchart LR
   <td>{ EventConsumerService } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>21</td>
+  <td>22</td>
   <td><code>{ PostEventHandler }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2412,7 +2418,7 @@ flowchart LR
   <td>{ PostEventHandler } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>22</td>
+  <td>23</td>
   <td><code>{ TaxonomyEventHandler }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2420,7 +2426,7 @@ flowchart LR
   <td>{ TaxonomyEventHandler } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>23</td>
+  <td>24</td>
   <td><code>{ AuthorEventHandler }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2428,7 +2434,7 @@ flowchart LR
   <td>{ AuthorEventHandler } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>24</td>
+  <td>25</td>
   <td><code>{ MediaEventHandler }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2436,7 +2442,7 @@ flowchart LR
   <td>{ MediaEventHandler } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>25</td>
+  <td>26</td>
   <td><code>{ SiteEventHandler }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2444,7 +2450,7 @@ flowchart LR
   <td>{ SiteEventHandler } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>26</td>
+  <td>27</td>
   <td><code>JobService</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -2452,7 +2458,7 @@ flowchart LR
   <td>JobService node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>27</td>
+  <td>28</td>
   <td><code>{ SiteService }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2460,7 +2466,7 @@ flowchart LR
   <td>{ SiteService } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>28</td>
+  <td>29</td>
   <td><code>{ ProjectService }</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -2468,20 +2474,12 @@ flowchart LR
   <td>{ ProjectService } node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
-  <td>29</td>
+  <td>30</td>
   <td><code>SyncService</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
   <td>SyncService node in src/bootstrap/BootstrapManager.js.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>PublishingService</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>PublishingService node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 </table>
 
@@ -2490,12 +2488,12 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>src/bootstrap/BootstrapManager.js</code></td><td>43 nodes</td></tr>
+      <tr><td><code>src/bootstrap/BootstrapManager.js</code></td><td>44 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x42. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x43. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4019,12 +4017,20 @@ flowchart LR
 
 <!-- ====== 16. Other ====== -->
 <h2 id="other">16. Other</h2>
-<p>Other groups implementation around services, repositories, constructor, scripts, mostly in src/services/JobService.js, src/services/ProjectService.js, src/repositories/WordPressRepository.js. This section covers 399 nodes and 386 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Other groups implementation around services, repositories, constructor, scripts, mostly in src/services/JobService.js, src/services/ProjectService.js, src/repositories/WordPressRepository.js. This section covers 395 nodes and 382 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Other (399 nodes, 386 edges)
+    %% Section: Other (395 nodes, 382 edges)
+    subgraph other_src_services_WordPressOperationService_js_737f14ca["src/services/WordPressOperationService.js"]
+        services_wordpressoperationservice_wordpressoper_5c466860("WordPressOperationService<br/><small>src/services/WordPressOperationService.js</small>")
+        services_wordpressoperationservice_wordpressoper_4e73c9a6("acknowledge()<br/><small>src/services/WordPressOperationService.js</small>")
+        services_wordpressoperationservice_wordpressoper_a7052661("constructor()<br/><small>src/services/WordPressOperationService.js</small>")
+        services_wordpressoperationservice_wordpressoper_fde85c35("createOperation()<br/><small>src/services/WordPressOperationService.js</small>")
+        services_wordpressoperationservice_wordpressoper_447f40f6("getPendingOperations()<br/><small>src/services/WordPressOperationService.js</small>")
+        services_wordpressoperationservice_wordpressoper_72a04bc1("markDelivered()<br/><small>src/services/WordPressOperationService.js</small>")
+    end
     subgraph other_src_services_EventConsumerService_js_9bc11355["src/services/EventConsumerService.js"]
         services_eventconsumerservice_eventconsumerservi_8a6236a3("EventConsumerService<br/><small>src/services/EventConsumerService.js</small>")
         services_eventconsumerservice_eventconsumerservi_6c6b5f13("constructor()<br/><small>src/services/EventConsumerService.js</small>")
@@ -4032,54 +4038,43 @@ flowchart LR
         services_eventconsumerservice_eventconsumerservi_7181fe55("processPendingEvents()<br/><small>src/services/EventConsumerService.js</small>")
         services_eventconsumerservice_eventconsumerservi_f9fb3bfc("replayEvent()<br/><small>src/services/EventConsumerService.js</small>")
     end
-    subgraph other_services_workflow_WorkflowOrchestrator_js_3f204c0b["services/workflow/WorkflowOrchestrator.js"]
-        workflow_workfloworchestrator_workfloworchestrat_d6eac8ad("WorkflowOrchestrator<br/><small>services/workflow/WorkflowOrchestrator.js</small>")
-        workflow_workfloworchestrator_workfloworchestrat_263fc3e5("constructor()<br/><small>services/workflow/WorkflowOrchestrator.js</small>")
-        workflow_workfloworchestrator_workfloworchestrat_8090eb34("evaluateProject()<br/><small>services/workflow/WorkflowOrchestrator.js</small>")
-        workflow_workfloworchestrator_workfloworchestrat_3bbe607a("logEvent()<br/><small>services/workflow/WorkflowOrchestrator.js</small>")
-    end
-    subgraph other_services_eventHandlers_PostEventHandler_js_da72133e["services/eventHandlers/PostEventHandler.js"]
-        eventhandlers_posteventhandler_posteventhandler_7bf46c94("PostEventHandler<br/><small>services/eventHandlers/PostEventHandler.js</small>")
-        eventhandlers_posteventhandler_posteventhandler_39a98040("constructor()<br/><small>services/eventHandlers/PostEventHandler.js</small>")
-        eventhandlers_posteventhandler_posteventhandler_9298a732("handle()<br/><small>services/eventHandlers/PostEventHandler.js</small>")
-    end
+    eventhandlers_posteventhandler_posteventhandler_7bf46c94("PostEventHandler<br/><small>services/eventHandlers/PostEventHandler.js</small>")
     repositories_pluginrepository_pluginrepository_bf8a60f2("PluginRepository<br/><small>src/repositories/PluginRepository.js</small>")
     repositories_wordpressrepository_wordpressreposi_138aa21c("WordPressRepository<br/><small>src/repositories/WordPressRepository.js</small>")
-    services_claudeworker_claudeworker_c12a2e46("ClaudeWorker<br/><small>src/services/ClaudeWorker.js</small>")
     services_jobservice_jobservice_a9bacbfb("JobService<br/><small>src/services/JobService.js</small>")
     services_metricsservice_metricsservice_efffe9e2("MetricsService<br/><small>src/services/MetricsService.js</small>")
     services_projectservice_projectservice_9a982c56("ProjectService<br/><small>src/services/ProjectService.js</small>")
+    workers_claudeworker_claudeworker_059ee0ad("ClaudeWorker<br/><small>src/workers/ClaudeWorker.js</small>")
+    services_wordpressoperationservice_wordpressoper_5c466860 -->|method| services_wordpressoperationservice_wordpressoper_4e73c9a6
+    services_wordpressoperationservice_wordpressoper_5c466860 -->|method| services_wordpressoperationservice_wordpressoper_a7052661
+    services_wordpressoperationservice_wordpressoper_5c466860 -->|method| services_wordpressoperationservice_wordpressoper_fde85c35
+    services_wordpressoperationservice_wordpressoper_5c466860 -->|method| services_wordpressoperationservice_wordpressoper_447f40f6
+    services_wordpressoperationservice_wordpressoper_5c466860 -->|method| services_wordpressoperationservice_wordpressoper_72a04bc1
     services_eventconsumerservice_eventconsumerservi_8a6236a3 -->|method| services_eventconsumerservice_eventconsumerservi_6c6b5f13
     services_eventconsumerservice_eventconsumerservi_8a6236a3 -->|method| services_eventconsumerservice_eventconsumerservi_c19529c9
     services_eventconsumerservice_eventconsumerservi_8a6236a3 -->|method| services_eventconsumerservice_eventconsumerservi_7181fe55
     services_eventconsumerservice_eventconsumerservi_8a6236a3 -->|method| services_eventconsumerservice_eventconsumerservi_f9fb3bfc
     services_eventconsumerservice_eventconsumerservi_7181fe55 -->|calls| services_eventconsumerservice_eventconsumerservi_c19529c9
     services_eventconsumerservice_eventconsumerservi_c19529c9 -->|calls| services_eventconsumerservice_eventconsumerservi_f9fb3bfc
-    eventhandlers_posteventhandler_posteventhandler_7bf46c94 -->|method| eventhandlers_posteventhandler_posteventhandler_39a98040
-    eventhandlers_posteventhandler_posteventhandler_7bf46c94 -->|method| eventhandlers_posteventhandler_posteventhandler_9298a732
-    workflow_workfloworchestrator_workfloworchestrat_d6eac8ad -->|method| workflow_workfloworchestrator_workfloworchestrat_263fc3e5
-    workflow_workfloworchestrator_workfloworchestrat_d6eac8ad -->|method| workflow_workfloworchestrator_workfloworchestrat_8090eb34
-    workflow_workfloworchestrator_workfloworchestrat_d6eac8ad -->|method| workflow_workfloworchestrator_workfloworchestrat_3bbe607a
-    workflow_workfloworchestrator_workfloworchestrat_8090eb34 -->|calls| workflow_workfloworchestrator_workfloworchestrat_3bbe607a
-    %% Omitted for readability: 381 nodes, 0 edges
+    %% Omitted for readability: 377 nodes, 0 edges
+    class services_wordpressoperationservice_wordpressoper_5c466860 klass;
+    class services_wordpressoperationservice_wordpressoper_4e73c9a6 function;
+    class services_wordpressoperationservice_wordpressoper_a7052661 function;
+    class services_wordpressoperationservice_wordpressoper_fde85c35 function;
+    class services_wordpressoperationservice_wordpressoper_447f40f6 function;
+    class services_wordpressoperationservice_wordpressoper_72a04bc1 function;
     class services_eventconsumerservice_eventconsumerservi_8a6236a3 klass;
     class services_eventconsumerservice_eventconsumerservi_6c6b5f13 function;
     class services_eventconsumerservice_eventconsumerservi_c19529c9 async;
     class services_eventconsumerservice_eventconsumerservi_7181fe55 function;
     class services_eventconsumerservice_eventconsumerservi_f9fb3bfc function;
-    class workflow_workfloworchestrator_workfloworchestrat_d6eac8ad klass;
-    class workflow_workfloworchestrator_workfloworchestrat_263fc3e5 function;
-    class workflow_workfloworchestrator_workfloworchestrat_8090eb34 function;
-    class workflow_workfloworchestrator_workfloworchestrat_3bbe607a function;
     class eventhandlers_posteventhandler_posteventhandler_7bf46c94 klass;
-    class eventhandlers_posteventhandler_posteventhandler_39a98040 function;
-    class eventhandlers_posteventhandler_posteventhandler_9298a732 function;
     class repositories_pluginrepository_pluginrepository_bf8a60f2 klass;
     class repositories_wordpressrepository_wordpressreposi_138aa21c klass;
-    class services_claudeworker_claudeworker_c12a2e46 klass;
     class services_jobservice_jobservice_a9bacbfb klass;
     class services_metricsservice_metricsservice_efffe9e2 async;
     class services_projectservice_projectservice_9a982c56 klass;
+    class workers_claudeworker_claudeworker_059ee0ad klass;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -4215,115 +4210,115 @@ flowchart LR
 </tr>
 <tr>
   <td>15</td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>_recordJobChat()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>_resetWorkerState()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br>+10 more</td>
-  <td>ClaudeWorker node in src/services/ClaudeWorker.js.</td>
+  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br><code>_recordJobChat()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br><code>_resetWorkerState()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br>+10 more</td>
+  <td>ClaudeWorker node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>16</td>
-  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.constructor() node in src/services/ClaudeWorker.js.</td>
+  <td>.constructor() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>17</td>
-  <td><code>.initialize()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.initialize()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.initialize() node in src/services/ClaudeWorker.js.</td>
+  <td>.initialize() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>18</td>
-  <td><code>.startProcessing()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.startProcessing()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.startProcessing() node in src/services/ClaudeWorker.js.</td>
+  <td>.startProcessing() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>19</td>
-  <td><code>.stopProcessing()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.stopProcessing()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.stopProcessing() node in src/services/ClaudeWorker.js.</td>
+  <td>.stopProcessing() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>20</td>
-  <td><code>._processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>._processPendingJobs()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td><code>executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td>._processPendingJobs() node in src/services/ClaudeWorker.js.</td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td><code>executeJob()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td>._processPendingJobs() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>21</td>
-  <td><code>.executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.executeJob()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td><code>rewrite()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
-  <td>.executeJob() node in src/services/ClaudeWorker.js.</td>
+  <td><code>_processPendingJobs()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td><code>rewrite()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td>.executeJob() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>22</td>
-  <td><code>._recordJobChat()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>._recordJobChat()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
   <td>Supports retrieval-augmented Q&amp;A or streaming chat.</td>
 </tr>
 <tr>
   <td>23</td>
-  <td><code>._saveResponse()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>._saveResponse()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>._saveResponse() node in src/services/ClaudeWorker.js.</td>
+  <td>._saveResponse() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>24</td>
-  <td><code>._resetWorkerState()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>._resetWorkerState()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>._resetWorkerState() node in src/services/ClaudeWorker.js.</td>
+  <td>._resetWorkerState() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>25</td>
-  <td><code>.getQueueSize()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.getQueueSize()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.getQueueSize() node in src/services/ClaudeWorker.js.</td>
+  <td>.getQueueSize() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>26</td>
-  <td><code>.isHealthy()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.isHealthy()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.isHealthy() node in src/services/ClaudeWorker.js.</td>
+  <td>.isHealthy() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>27</td>
-  <td><code>.getStatusSnapshot()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.getStatusSnapshot()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.getStatusSnapshot() node in src/services/ClaudeWorker.js.</td>
+  <td>.getStatusSnapshot() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>28</td>
-  <td><code>.rewrite()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>.rewrite()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>executeJob()</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small><br><code>executeJob()</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.rewrite() node in src/services/ClaudeWorker.js.</td>
+  <td>.rewrite() node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
   <td>29</td>
@@ -4351,16 +4346,16 @@ flowchart LR
       <tr><td><code>src/services/JobService.js</code></td><td>15 nodes</td></tr>
 <tr><td><code>src/services/ProjectService.js</code></td><td>15 nodes</td></tr>
 <tr><td><code>src/repositories/WordPressRepository.js</code></td><td>14 nodes</td></tr>
-<tr><td><code>src/services/ClaudeWorker.js</code></td><td>14 nodes</td></tr>
-<tr><td><code>setup_p6.js</code></td><td>12 nodes</td></tr>
+<tr><td><code>src/workers/ClaudeWorker.js</code></td><td>14 nodes</td></tr>
 <tr><td><code>src/services/MetricsService.js</code></td><td>12 nodes</td></tr>
 <tr><td><code>src/bootstrap/PreFlightValidator.js</code></td><td>11 nodes</td></tr>
 <tr><td><code>src/monitor/StateMachine.js</code></td><td>11 nodes</td></tr>
+<tr><td><code>src/repositories/PluginRepository.js</code></td><td>11 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: method x183, contains x149, calls x43, imports x6. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: method x188, contains x140, calls x43, imports x6. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4414,17 +4409,17 @@ flowchart LR
   <div class="card">
     <h4>Graph</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>Nodes</td><td>1232</td></tr>
-      <tr><td>Edges</td><td>1511</td></tr>
+      <tr><td>Nodes</td><td>1255</td></tr>
+      <tr><td>Edges</td><td>1532</td></tr>
       <tr><td>Hyperedges</td><td>4</td></tr>
-      <tr><td>Communities</td><td>128</td></tr>
+      <tr><td>Communities</td><td>133</td></tr>
       <tr><td>Documented Sections</td><td>15</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Edge Confidence</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>EXTRACTED</td><td>1506</td></tr>
+      <tr><td>EXTRACTED</td><td>1527</td></tr>
       <tr><td>INFERRED</td><td>5</td></tr>
       <tr><td>AMBIGUOUS</td><td>0</td></tr>
     </table>
@@ -4433,7 +4428,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>n8n — Architecture Documentation</p>
-  <p>Generated: 2026-06-29 05:05 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-06-29 05:16 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->

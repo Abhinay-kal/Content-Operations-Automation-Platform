@@ -14,6 +14,7 @@ const { TokenService } = require('../services/TokenService');
 const { CompatibilityService } = require('../services/CompatibilityService');
 const { PluginService } = require('../services/PluginService');
 const { WordPressOperationService } = require('../services/WordPressOperationService');
+const { DashboardReadService } = require('../services/DashboardReadService');
 
 const { WorkflowPolicyEngine } = require('../services/workflow/WorkflowPolicyEngine');
 const { WorkflowScheduler } = require('../services/workflow/WorkflowScheduler');
@@ -147,6 +148,7 @@ class BootstrapManager {
             const pluginRepository = new PluginRepository(this.db);
             const tokenService = new TokenService();
             const compatibilityService = new CompatibilityService();
+            const dashboardReadService = new DashboardReadService({ db: this.db });
             const wpOpService = new WordPressOperationService({ db: this.db, logger: this.logger.db });
             const pluginService = new PluginService({ pluginRepository, tokenService, compatibilityService, logger: this.logger.db });
             const postEventHandler = new PostEventHandler({ projectRepository, workflowOrchestrator, logger: this.logger.db });
@@ -209,6 +211,7 @@ class BootstrapManager {
                 compatibilityService,
                 pluginService,
                 wpOpService,
+                dashboardReadService,
                 eventConsumerService,
                 workflowOrchestrator,
                 eventRepository,

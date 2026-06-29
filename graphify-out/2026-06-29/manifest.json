@@ -180,8 +180,8 @@
     "semantic_hash": "da47d4a21d7de3faab0b84c42520c1c0"
   },
   "src/bootstrap/BootstrapManager.js": {
-    "mtime": 1782708376.9995027,
-    "ast_hash": "d7881c260bfb8e49378abc49a1220ff6",
+    "mtime": 1782709501.9284577,
+    "ast_hash": "df15ae4941464bc9b0215802b58d2332",
     "semantic_hash": ""
   },
   "src/bootstrap/PreFlightValidator.js": {
@@ -845,8 +845,8 @@
     "semantic_hash": ""
   },
   "schema.sql": {
-    "mtime": 1782705647.7749104,
-    "ast_hash": "51f805121f15869c38f65fdf16f0ba3e",
+    "mtime": 1782709501.9252057,
+    "ast_hash": "a2539c34166b5f99d5ca238dfb96a3b5",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/admin/Menu.php": {
@@ -1224,14 +1224,9 @@
     "ast_hash": "e0b67a11eb8f3092bb45b3e96011af89",
     "semantic_hash": ""
   },
-  "setup_p5.js": {
-    "mtime": 1782708370.3104818,
-    "ast_hash": "ff66bca176beafe5ba20d9d00f06dc8e",
-    "semantic_hash": ""
-  },
   "src/services/EventConsumerService.js": {
-    "mtime": 1782708376.990129,
-    "ast_hash": "7436d341a75ebdf6d973a35a48466b3f",
+    "mtime": 1782709501.9294817,
+    "ast_hash": "7a17795e6537c92f94251eeab5845dd4",
     "semantic_hash": ""
   },
   "src/services/eventHandlers/AuthorEventHandler.js": {
@@ -1245,8 +1240,8 @@
     "semantic_hash": ""
   },
   "src/services/eventHandlers/PostEventHandler.js": {
-    "mtime": 1782708376.988568,
-    "ast_hash": "3e7dcd2bb3b459e04adfb76832f5d795",
+    "mtime": 1782709501.9279902,
+    "ast_hash": "a6428ce3600625b09351cdc0106ce7bc",
     "semantic_hash": ""
   },
   "src/services/eventHandlers/SiteEventHandler.js": {
@@ -1257,6 +1252,31 @@
   "src/services/eventHandlers/TaxonomyEventHandler.js": {
     "mtime": 1782708376.9888604,
     "ast_hash": "632e22fb43e5672f4007fd5897863c6e",
+    "semantic_hash": ""
+  },
+  "setup_p6.js": {
+    "mtime": 1782709496.9644072,
+    "ast_hash": "82fe5134ae82ff3c7e8a10d3e77da5eb",
+    "semantic_hash": ""
+  },
+  "src/services/workflow/WorkflowOrchestrator.js": {
+    "mtime": 1782709501.923917,
+    "ast_hash": "8986b1d103b183b48df85f60b69bf828",
+    "semantic_hash": ""
+  },
+  "src/services/workflow/WorkflowPolicyEngine.js": {
+    "mtime": 1782709501.9235344,
+    "ast_hash": "5989b79f35c26c29c279d6e170f14f1b",
+    "semantic_hash": ""
+  },
+  "src/services/workflow/WorkflowRules.js": {
+    "mtime": 1782709501.9228785,
+    "ast_hash": "9d04065846bd20b3a3a2b39142588af0",
+    "semantic_hash": ""
+  },
+  "src/services/workflow/WorkflowScheduler.js": {
+    "mtime": 1782709501.923757,
+    "ast_hash": "c3b8e23b2a6191100383cb10d7585863",
     "semantic_hash": ""
   }
 }
