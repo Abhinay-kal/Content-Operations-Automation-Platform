@@ -77,18 +77,60 @@ class DashboardReadService {
         return { data, total };
     }
 
-    getProjects(pagination) {
-        const rows = this.db.prepare(`
-            SELECT * FROM content_projects 
-            ORDER BY ${pagination.sort} ${pagination.direction}
-            LIMIT ? OFFSET ?
-        `).all(pagination.limit, pagination.offset);
+    getProjects(pagination, filters = {}) {
+        let query = 'SELECT * FROM content_projects WHERE 1=1';
+        let countQuery = 'SELECT COUNT(*) as c FROM content_projects WHERE 1=1';
+        const params = [];
         
-        const total = this.db.prepare('SELECT COUNT(*) as c FROM content_projects').get().c;
+        if (filters.siteId) {
+            query += ' AND site_id = ?';
+            countQuery += ' AND site_id = ?';
+            params.push(filters.siteId);
+        }
+        if (filters.contentState) {
+            query += ' AND status = ?';
+            countQuery += ' AND status = ?';
+            params.push(filters.contentState);
+        }
+        if (filters.search) {
+            query += ' AND (id LIKE ? OR wp_post_id LIKE ?)';
+            countQuery += ' AND (id LIKE ? OR wp_post_id LIKE ?)';
+            params.push(`%${filters.search}%`, `%${filters.search}%`);
+        }
+        
+        // workflowState is tricky because it's inside JSON, SQLite json_extract can be used
+        if (filters.workflowState) {
+            query += " AND json_extract(metadata, '$.workflow_state') = ?";
+            countQuery += " AND json_extract(metadata, '$.workflow_state') = ?";
+            params.push(filters.workflowState);
+        }
+
+        query += ` ORDER BY ${pagination.sort} ${pagination.direction} LIMIT ? OFFSET ?`;
+        
+        const rows = this.db.prepare(query).all(...params, pagination.limit, pagination.offset);
+        const total = this.db.prepare(countQuery).get(...params).c;
 
         const data = rows.map(r => this.mapProjectDto(r));
 
         return { data, total };
+    }
+
+    
+    getProjectHistory(projectId, pagination) {
+        // We look at project_events or event_ingestion. Let's assume project_events.
+        try {
+            const rows = this.db.prepare(`
+                SELECT * FROM project_events 
+                WHERE project_id = ?
+                ORDER BY ${pagination.sort} ${pagination.direction}
+                LIMIT ? OFFSET ?
+            `).all(projectId, pagination.limit, pagination.offset);
+            const total = this.db.prepare('SELECT COUNT(*) as c FROM project_events WHERE project_id = ?').get(projectId).c;
+            return { data: rows, total };
+        } catch(e) {
+            // fallback if table does not exist
+            return { data: [], total: 0 };
+        }
     }
 
     getProjectById(id) {

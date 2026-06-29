@@ -112,3 +112,19 @@ export interface OperationDto {
     attempt_count: number;
     created_at: string;
 }
+
+export interface ProjectHistoryDto {
+    id: number;
+    project_id: number;
+    event_type: string;
+    message: string;
+    metadata: string;
+    created_at: string;
+}
+
+export interface ProjectFilters {
+    siteId?: string;
+    contentState?: string;
+    workflowState?: string;
+    search?: string;
+}

@@ -27,7 +27,8 @@ function createDashboardRoutes({ dashboardReadService, logger }) {
     router.get('/dashboard/projects', (req, res) => {
         try {
             const p = parsePagination(req);
-            const { data, total } = dashboardReadService.getProjects(p);
+            const filters = { siteId: req.query.siteId, contentState: req.query.contentState, workflowState: req.query.workflowState, search: req.query.search };
+            const { data, total } = dashboardReadService.getProjects(p, filters);
             return sendSuccess(res, data, { ...p, total, pages: Math.ceil(total / p.limit) });
         } catch(e) {
             return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
@@ -41,6 +42,17 @@ function createDashboardRoutes({ dashboardReadService, logger }) {
                 return sendError(res, new ApiError(ErrorCodes.PROJECT_NOT_FOUND, 'Project does not exist.', 404));
             }
             return sendSuccess(res, data);
+        } catch(e) {
+            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
+        }
+    });
+
+    
+    router.get('/dashboard/projects/:id/history', (req, res) => {
+        try {
+            const p = parsePagination(req);
+            const { data, total } = dashboardReadService.getProjectHistory(req.params.id, p);
+            return sendSuccess(res, data, { ...p, total, pages: Math.ceil(total / p.limit) });
         } catch(e) {
             return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
         }
