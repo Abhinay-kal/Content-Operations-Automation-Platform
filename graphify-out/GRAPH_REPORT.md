@@ -1,16 +1,16 @@
 # Graph Report - n8n  (2026-06-29)
 
 ## Corpus Check
-- 195 files · ~124,601 words
+- 219 files · ~126,457 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1277 nodes · 1563 edges · 153 communities (52 shown, 101 thin omitted)
+- 1396 nodes · 1693 edges · 161 communities (56 shown, 105 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a88a0ca8`
+- Built from commit: `849b222c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -161,6 +161,13 @@
 - [[_COMMUNITY_Community 150|Community 150]]
 - [[_COMMUNITY_Community 151|Community 151]]
 - [[_COMMUNITY_Community 152|Community 152]]
+- [[_COMMUNITY_Community 153|Community 153]]
+- [[_COMMUNITY_Community 154|Community 154]]
+- [[_COMMUNITY_Community 155|Community 155]]
+- [[_COMMUNITY_Community 156|Community 156]]
+- [[_COMMUNITY_Community 157|Community 157]]
+- [[_COMMUNITY_Community 158|Community 158]]
+- [[_COMMUNITY_Community 159|Community 159]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `ClaudeManager` - 33 edges
@@ -170,17 +177,17 @@
 5. `ProjectRepository` - 19 edges
 6. `BrowserManager` - 19 edges
 7. `createApp()` - 17 edges
-8. `ClaudeWorker` - 16 edges
-9. `EventListenerService` - 15 edges
-10. `ClaudeWorker` - 15 edges
+8. `compilerOptions` - 16 edges
+9. `ClaudeWorker` - 16 edges
+10. `EventListenerService` - 15 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `getSingletonWorker()` --calls--> `loadConfig()`  [EXTRACTED]
-  scripts/claude.js → src/config/config.js
 - `Staging Deployment Design` --references--> `Claude Worker Foundation`  [EXTRACTED]
   DEPLOYMENT_STAGING.md → README.md
 - `14-Day Soak Test Plan` --references--> `Claude Worker Foundation`  [EXTRACTED]
   SOAK_TEST_PLAN.md → README.md
+- `getSingletonWorker()` --calls--> `loadConfig()`  [EXTRACTED]
+  scripts/claude.js → src/config/config.js
 - `getSingletonWorker()` --calls--> `createLogger()`  [EXTRACTED]
   scripts/claude.js → src/utils/logger.js
 - `createApp()` --calls--> `createDashboardRoutes()`  [EXTRACTED]
@@ -195,7 +202,7 @@
 - **Junior vs Senior Engineer Differences** — failure_junior_engineer, failure_senior_engineer, failure_scope_of_thinking, failure_handling_ambiguity, failure_impact_vs_output [EXTRACTED 0.75]
 - **Junior vs Senior Comparison** — failure1780489233782_junior_engineer, failure1780489233782_senior_engineer, failure1780489233782_scope_of_thinking [EXTRACTED 1.00]
 
-## Communities (153 total, 101 thin omitted)
+## Communities (161 total, 105 thin omitted)
 
 ### Community 0 - "Auditroutes Components"
 Cohesion: 0.11
@@ -206,12 +213,16 @@ Cohesion: 0.20
 Nodes (9): 1. Cloudflare Turnstile Evasion (Passive CDP Monitoring), 2. Stealth Plugin Initialization Fix, 3. Chromium Launch Argument Hardening, 🛡️ Anti-Bot & Evasion Techniques, Decoupled Job Queue (SQLite), Finite State Machine (FSM) Recovery, Stateful, Persistent Workers, System Design & Anti-Bot Evasion Strategy (+1 more)
 
 ### Community 2 - "Bootstrapmanager Components"
-Cohesion: 0.23
-Nodes (9): fs, loadConfig(), parseBoolean(), parseInteger(), path, loadSecurityConfig(), { parseInteger }, config (+1 more)
+Cohesion: 0.06
+Nodes (23): BootstrapManager, fs, loadConfig(), parseBoolean(), parseInteger(), path, loadSecurityConfig(), { parseInteger } (+15 more)
 
 ### Community 3 - "Migrations Components"
 Cohesion: 0.18
 Nodes (10): DatabaseConnection, fs, { JobRepository }, JobService, Migrations, path, { PROJECT_STATUSES }, { ProjectRepository } (+2 more)
+
+### Community 4 - "Createclaudeerror Components"
+Cohesion: 0.06
+Nodes (23): BrowserError, ClaudeError, createClaudeError(), InvalidProjectContentError, InvalidResponseQualityError, normalizeError(), ProfileLockError, RecoveryReport (+15 more)
 
 ### Community 5 - "Bootstrapmanager Components"
 Cohesion: 0.04
@@ -302,12 +313,12 @@ Cohesion: 0.31
 Nodes (7): AdminModule, ModuleInterface, ConfigService, HeartbeatService, Loader, Notices, RegistrationService
 
 ### Community 80 - "Community 80"
-Cohesion: 0.13
-Nodes (13): ClaudeError, InvalidProjectContentError, InvalidResponseQualityError, normalizeError(), RecoveryReport, ValidationError, fs, path (+5 more)
+Cohesion: 0.06
+Nodes (30): dependencies, @base-ui/react, class-variance-authority, clsx, lucide-react, next, react, react-dom (+22 more)
 
 ### Community 81 - "Community 81"
-Cohesion: 0.11
-Nodes (12): AuditPromptBuilder, { ContentUnavailableError, InvalidProjectContentError }, { FailureClassifier }, fs, path, { PROJECT_STATUSES }, RewritePromptBuilder, { WORKER_STATES } (+4 more)
+Cohesion: 0.17
+Nodes (10): AuditPromptBuilder, { ContentUnavailableError, InvalidProjectContentError }, { FailureClassifier }, fs, path, { PROJECT_STATUSES }, RewritePromptBuilder, { WORKER_STATES } (+2 more)
 
 ### Community 82 - "Community 82"
 Cohesion: 0.27
@@ -354,12 +365,12 @@ Cohesion: 0.22
 Nodes (9): { ApiError, ErrorCodes }, createDashboardRoutes(), express, { sendSuccess, sendError, parsePagination }, ApiError, ErrorCodes, parsePagination(), sendError() (+1 more)
 
 ### Community 135 - "Community 135"
-Cohesion: 0.18
-Nodes (8): BrowserError, ProfileLockError, WORKER_STATES, { BrowserError, ProfileLockError }, { chromium }, { spawnSync }, stealth, { WORKER_STATES }
+Cohesion: 0.16
+Nodes (10): apiClient(), ApiError, ApiErrorResponse, ApiResponse, JobDto, OverviewDto, ProjectDto, SiteDto (+2 more)
 
 ### Community 136 - "Community 136"
-Cohesion: 0.22
-Nodes (9): { BrowserManager }, { ClaudeWorker }, { createLogger }, getSingletonWorker(), { loadConfig }, { PersistentWorkerState: WorkerState }, runClaude(), { SessionMonitor } (+1 more)
+Cohesion: 0.09
+Nodes (21): aliases, components, hooks, lib, ui, utils, iconLibrary, menuAccent (+13 more)
 
 ### Community 137 - "Community 137"
 Cohesion: 0.18
@@ -369,33 +380,41 @@ Nodes (9): ContentUnavailableError, AuditPromptBuilder, { ContentUnavailableErro
 Cohesion: 0.22
 Nodes (8): createAuditRoutes(), express, { BootstrapManager }, { createApp }, main(), createApp(), createQueueRouter, express
 
+### Community 140 - "Community 140"
+Cohesion: 0.10
+Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModules, jsx, lib, module (+11 more)
+
+### Community 141 - "Community 141"
+Cohesion: 0.27
+Nodes (5): inter, metadata, Providers(), Sidebar(), TopNav()
+
 ### Community 142 - "Community 142"
-Cohesion: 0.25
-Nodes (6): bootstrap, bootstrapPath, fs, path, serverContent, serverPath
+Cohesion: 0.70
+Nodes (3): cn(), Button(), buttonVariants
 
 ### Community 143 - "Community 143"
 Cohesion: 0.50
-Nodes (3): normalizePayload(), redact(), SENSITIVE_KEYS
+Nodes (3): Deploy on Vercel, Getting Started, Learn More
 
 ## Knowledge Gaps
-- **298 isolated node(s):** `fs`, `path`, `serverPath`, `serverContent`, `bootstrapPath` (+293 more)
+- **366 isolated node(s):** `This is NOT the Next.js you know`, `Getting Started`, `Learn More`, `Deploy on Vercel`, `inter` (+361 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **101 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **105 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `ClaudeManager` connect `Createclaudeerror Components` to `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **Why does `ClaudeWorker` connect `Script Components` to `Community 137`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
-- **Why does `WordPressRepository` connect `Wordpressrepository Components` to `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
-- **What connects `fs`, `path`, `serverPath` to the rest of the system?**
-  _298 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **Why does `BrowserManager` connect `Browsermanager Components` to `Bootstrapmanager Components`, `Createclaudeerror Components`, `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+- **What connects `This is NOT the Next.js you know`, `Getting Started`, `Learn More` to the rest of the system?**
+  _366 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Auditroutes Components` be split into smaller, more focused modules?**
   _Cohesion score 0.10952380952380952 - nodes in this community are weakly interconnected._
-- **Should `Createclaudeerror Components` be split into smaller, more focused modules?**
-  _Cohesion score 0.14516129032258066 - nodes in this community are weakly interconnected._
 - **Should `Bootstrapmanager Components` be split into smaller, more focused modules?**
-  _Cohesion score 0.044444444444444446 - nodes in this community are weakly interconnected._
-- **Should `Package Components` be split into smaller, more focused modules?**
-  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06086956521739131 - nodes in this community are weakly interconnected._
+- **Should `Createclaudeerror Components` be split into smaller, more focused modules?**
+  _Cohesion score 0.058653846153846154 - nodes in this community are weakly interconnected._

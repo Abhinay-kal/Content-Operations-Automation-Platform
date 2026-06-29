@@ -8,6 +8,7 @@ export function useSites(page: number = 1) {
         queryFn: async () => {
             const res = await apiClient<SiteDto[]>(`/dashboard/sites?page=${page}`);
             return res;
-        }
+        },
+        refetchInterval: 60000,
     });
 }
