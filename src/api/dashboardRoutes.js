@@ -221,12 +221,6 @@ function createDashboardRoutes({ dashboardReadService, logger }) {
             return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
         }
     });
-    
-    
-        } catch(e) {
-            return sendError(res, { code: ErrorCodes.INTERNAL_ERROR, message: e.message });
-        }
-    });
 
     
     router.get('/dashboard/sites/:id', (req, res) => {
