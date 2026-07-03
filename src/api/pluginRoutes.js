@@ -125,7 +125,7 @@ function createPluginRoutes({ pluginService, wpOpService, logger }) {
             res.status(400).json({ success: false, error: err.message });
         }
     });
-\n    
+
     router.get('/plugin/operations', authenticate, (req, res) => {
         try {
             const installation = pluginService.pluginRepository.findByToken(req.pluginToken);
