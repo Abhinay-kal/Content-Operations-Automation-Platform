@@ -6,7 +6,8 @@ const { createJobRoutes } = require('./api/jobRoutes'); // Import job routes
 const { createAuditRoutes } = require('./api/auditRoutes'); // Import audit routes
 const { createRewriteRoutes } = require('./api/rewriteRoutes'); // Import rewrite routes
 const { createPublishingRoutes } = require('./api/publishingRoutes'); // Import publishing routes
-const { createWordPressRoutes } = require('./api/wordpressRoutes'); // Import WordPress routes\nconst { createPluginRoutes } = require('./api/pluginRoutes');
+const { createWordPressRoutes } = require('./api/wordpressRoutes'); // Import WordPress routes
+const { createPluginRoutes } = require('./api/pluginRoutes');
 const { createDashboardRoutes } = require('./api/dashboardRoutes');
 const createQueueRouter = require('./routes/queue');
 const { loadSecurityConfig } = require('./config/security');
@@ -118,8 +119,14 @@ function createApp(services) {
         logger: logger.server
     }));
 
-    // Plugin Routes\n    app.use('/', statusLimiter, createPluginRoutes({\n        pluginService: services.pluginService,
-        wpOpService: services.wpOpService,\n        logger: logger.server\n    }));\n\n    // WordPress & Content Routes (Requires Auth)
+    // Plugin Routes
+    app.use('/', statusLimiter, createPluginRoutes({
+        pluginService: services.pluginService,
+        wpOpService: services.wpOpService,
+        logger: logger.server
+    }));
+
+    // WordPress & Content Routes (Requires Auth)
     app.use('/', authMiddleware, rewriteLimiter, createWordPressRoutes({
         syncService: services.syncService,
         wordpressRepository: services.wordpressRepository,
