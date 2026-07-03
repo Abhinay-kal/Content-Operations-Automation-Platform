@@ -35,7 +35,8 @@ class BackendClient {
 
         $headers = [
             'Content-Type' => 'application/json',
-            'Accept' => 'application/json'
+            'Accept' => 'application/json',
+            'ngrok-skip-browser-warning' => 'true'
         ];
 
         if (!empty($apiKey)) {
@@ -47,4 +48,4 @@ class BackendClient {
 
         return $this->httpClient->request($method, $fullUrl, $headers, $body);
     }
-}\n
+}
