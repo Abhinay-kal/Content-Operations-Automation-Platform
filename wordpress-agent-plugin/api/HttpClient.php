@@ -47,7 +47,18 @@ class HttpClient {
         $data = json_decode($bodyRaw, true) ?: [];
 
         if ($statusCode >= 400) {
-            $message = $data['error'] ?? 'Unknown HTTP Error';
+            $defaultMessages = [
+                400 => 'Bad Request',
+                401 => 'Unauthorized - Check API Key',
+                403 => 'Forbidden',
+                404 => 'Not Found - Check your Backend URL',
+                405 => 'Method Not Allowed',
+                500 => 'Internal Server Error',
+                502 => 'Bad Gateway - Is n8n running?',
+                503 => 'Service Unavailable',
+                504 => 'Gateway Timeout'
+            ];
+            $message = $data['error'] ?? ($defaultMessages[$statusCode] ?? 'Unknown HTTP Error (Status: ' . $statusCode . ')');
             return [
                 'success' => false,
                 'error_code' => 'http_error_' . $statusCode,
@@ -62,4 +73,4 @@ class HttpClient {
             'status' => $statusCode
         ];
     }
-}\n
+}
