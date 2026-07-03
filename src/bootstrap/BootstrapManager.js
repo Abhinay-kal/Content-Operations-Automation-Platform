@@ -151,16 +151,6 @@ class BootstrapManager {
             const dashboardReadService = new DashboardReadService({ db: this.db });
             const wpOpService = new WordPressOperationService({ db: this.db, logger: this.logger.db });
             const pluginService = new PluginService({ pluginRepository, tokenService, compatibilityService, logger: this.logger.db });
-            const postEventHandler = new PostEventHandler({ projectRepository, workflowOrchestrator, logger: this.logger.db });
-            const eventHandlers = {
-                'PostChangedEvent': postEventHandler,
-                'CategoryChangedEvent': new TaxonomyEventHandler({ logger: this.logger.db }),
-                'TagChangedEvent': new TaxonomyEventHandler({ logger: this.logger.db }),
-                'AuthorChangedEvent': new AuthorEventHandler({ logger: this.logger.db }),
-                'MediaChangedEvent': new MediaEventHandler({ logger: this.logger.db }),
-                'SiteChangedEvent': new SiteEventHandler({ logger: this.logger.db }),
-            };
-            
             const workflowPolicyEngine = new WorkflowPolicyEngine({ db: this.db, logger: this.logger.db });
             const workflowScheduler = new WorkflowScheduler({ jobRepository, db: this.db, logger: this.logger.db });
             const workflowOrchestrator = new WorkflowOrchestrator({
@@ -170,6 +160,16 @@ class BootstrapManager {
                 eventRepository,
                 logger: this.logger.db
             });
+
+            const postEventHandler = new PostEventHandler({ projectRepository, workflowOrchestrator, logger: this.logger.db });
+            const eventHandlers = {
+                'PostChangedEvent': postEventHandler,
+                'CategoryChangedEvent': new TaxonomyEventHandler({ logger: this.logger.db }),
+                'TagChangedEvent': new TaxonomyEventHandler({ logger: this.logger.db }),
+                'AuthorChangedEvent': new AuthorEventHandler({ logger: this.logger.db }),
+                'MediaChangedEvent': new MediaEventHandler({ logger: this.logger.db }),
+                'SiteChangedEvent': new SiteEventHandler({ logger: this.logger.db }),
+            };
             
             // Reconcile stuck workflows on boot
             workflowOrchestrator.reconcile();
