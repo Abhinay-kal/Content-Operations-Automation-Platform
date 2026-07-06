@@ -29,7 +29,7 @@ The root directory contains a massive amount of experimental and test scripts th
 Currently, most application logic resides inside `src/`. However, to meet the target structural architecture, we need to enforce module boundaries:
 * **Missing Directories:** `api/`, `repositories/`, `workers/`, `utils/`, `middleware/`, `config/` need to be established (some exist, but logic needs to be migrated).
 * **Mixed Responsibilities:** `src/services/` contains managers and workers that should be properly segregated into `workers/` and `services/`.
-* **Data Storage:** SQLite files (`jobs.sqlite`, `n8n.sqlite`, `test_audit.sqlite`) are sitting at the root. They should be moved to a dedicated `data/` or `db/` directory, and added to `.gitignore`.
+* **Data Storage:** SQLite files (`jobs.sqlite`, `test_audit.sqlite`) are sitting at the root. They should be moved to a dedicated `data/` or `db/` directory, and added to `.gitignore`.
 
 ## 3. Dependency Check
 * `package.json` relies on `express`, `playwright`, `playwright-extra`, `puppeteer-extra-plugin-stealth`, and `better-sqlite3`.

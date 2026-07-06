@@ -54,7 +54,7 @@ class HttpClient {
                 404 => 'Not Found - Check your Backend URL',
                 405 => 'Method Not Allowed',
                 500 => 'Internal Server Error',
-                502 => 'Bad Gateway - Is n8n running?',
+                502 => 'Bad Gateway - Is the backend server running?',
                 503 => 'Service Unavailable',
                 504 => 'Gateway Timeout'
             ];

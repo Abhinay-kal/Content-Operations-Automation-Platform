@@ -202,3 +202,106 @@
 {"timestamp":"2026-06-29T03:52:46.186Z","scope":"Server","level":"info","message":"listening","port":3000}
 {"timestamp":"2026-06-29T03:52:46.187Z","scope":"Server","level":"info","message":"dashboard_skipped","reason":"not_a_tty"}
 {"timestamp":"2026-06-29T03:52:47.133Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"READY","to":"HEALTHY","reason":"state_update"}
+{"timestamp":"2026-06-29T13:16:03.021Z","scope":"SessionMonitor","level":"warn","event":"HEALTH_ISSUE_DETECTED","issue":{"issue":"NETWORK","severity":"MEDIUM"}}
+{"timestamp":"2026-06-29T13:16:03.040Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"HEALTHY","to":"DEGRADED","reason":"recovering_from_network"}
+{"timestamp":"2026-06-29T13:16:03.058Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_BACKOFF_DELAY","delayMs":30000,"attempt":1}
+{"timestamp":"2026-06-29T13:16:33.063Z","scope":"SessionMonitor","level":"warn","event":"RECOVERY_INITIATED","issue":"NETWORK","attempt":1}
+{"timestamp":"2026-06-29T13:16:33.076Z","scope":"SessionMonitor","level":"info","event":"RECOVERING_NETWORK"}
+{"timestamp":"2026-06-29T13:16:38.649Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_SUCCESSFUL","issue":"NETWORK"}
+{"timestamp":"2026-06-29T13:16:38.652Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"DEGRADED","to":"HEALTHY","reason":"recovery_successful"}
+{"timestamp":"2026-06-29T14:23:22.262Z","scope":"SessionMonitor","level":"warn","event":"HEALTH_ISSUE_DETECTED","issue":{"issue":"NETWORK","severity":"MEDIUM"}}
+{"timestamp":"2026-06-29T14:23:22.264Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"HEALTHY","to":"DEGRADED","reason":"recovering_from_network"}
+{"timestamp":"2026-06-29T14:23:22.265Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_BACKOFF_DELAY","delayMs":30000,"attempt":1}
+{"timestamp":"2026-06-29T14:23:52.267Z","scope":"SessionMonitor","level":"warn","event":"RECOVERY_INITIATED","issue":"NETWORK","attempt":1}
+{"timestamp":"2026-06-29T14:23:52.270Z","scope":"SessionMonitor","level":"info","event":"RECOVERING_NETWORK"}
+{"timestamp":"2026-06-29T14:23:57.667Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_SUCCESSFUL","issue":"NETWORK"}
+{"timestamp":"2026-06-29T14:23:57.674Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"DEGRADED","to":"HEALTHY","reason":"recovery_successful"}
+{"timestamp":"2026-06-29T17:46:20.955Z","scope":"BrowserManager","level":"warn","event":"PAGE_CLOSED"}
+{"timestamp":"2026-06-29T17:46:21.513Z","scope":"BrowserManager","level":"warn","event":"CONTEXT_CLOSED"}
+{"timestamp":"2026-06-29T17:47:00.037Z","scope":"SessionMonitor","level":"warn","event":"HEALTH_ISSUE_DETECTED","issue":{"issue":"BROWSER_CRASH","severity":"CRITICAL"}}
+{"timestamp":"2026-06-29T17:47:00.059Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"HEALTHY","to":"DEGRADED","reason":"recovering_from_browser_crash"}
+{"timestamp":"2026-06-29T17:47:00.071Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_BACKOFF_DELAY","delayMs":30000,"attempt":1}
+{"timestamp":"2026-06-29T17:47:30.076Z","scope":"SessionMonitor","level":"warn","event":"RECOVERY_INITIATED","issue":"BROWSER_CRASH","attempt":1}
+{"timestamp":"2026-06-29T17:47:30.081Z","scope":"SessionMonitor","level":"info","event":"BROWSER_RECOVERY_START"}
+{"timestamp":"2026-06-29T17:47:30.083Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"DEGRADED","to":"RECOVERING","reason":"browser_crash_recovery"}
+{"timestamp":"2026-06-29T17:47:30.083Z","scope":"BrowserManager","level":"warn","event":"RECOVERY_START","reason":"browser_crash_recovery"}
+{"timestamp":"2026-06-29T17:47:30.084Z","scope":"BrowserManager","level":"info","event":"BROWSER_CLOSE_START"}
+{"timestamp":"2026-06-29T17:47:30.086Z","scope":"BrowserManager","level":"info","event":"BROWSER_CLOSE_COMPLETE"}
+{"timestamp":"2026-06-29T17:47:30.086Z","scope":"BrowserManager","level":"info","event":"STARTUP","profilePath":"/Users/abhinaykalkhanday/Desktop/n8n/temp-chrome-data","channel":"chrome","headless":false}
+{"timestamp":"2026-06-29T17:47:30.086Z","scope":"WorkerState","level":"warn","event":"INVALID_STATE_TRANSITION","from":"RECOVERING","to":"STARTING","reason":"browser initialization"}
+{"timestamp":"2026-06-29T17:47:30.132Z","scope":"BrowserManager","level":"info","event":"PRE_LAUNCH_CLEANUP","profile":"/Users/abhinaykalkhanday/Desktop/n8n/temp-chrome-data","attempt":1}
+{"timestamp":"2026-06-29T17:47:30.133Z","scope":"BrowserManager","level":"info","event":"BROWSER_LAUNCH","profilePath":"/Users/abhinaykalkhanday/Desktop/n8n/temp-chrome-data","channel":"chrome","attempt":1}
+{"timestamp":"2026-06-29T17:47:30.142Z","scope":"BrowserManager","level":"error","event":"UNCAUGHT_EXCEPTION","error":"write EPIPE","stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:966:11)\n    at Socket._write (node:net:978:8)\n    at writeOrBuffer (node:internal/streams/writable:570:12)\n    at _write (node:internal/streams/writable:499:10)\n    at Writable.write (node:internal/streams/writable:508:10)\n    at console.value (node:internal/console/constructor:313:16)\n    at console.warn (node:internal/console/constructor:437:26)\n    at write (/Users/abhinaykalkhanday/Desktop/n8n/src/utils/logger.js:55:17)"}
+{"timestamp":"2026-07-03T11:00:26.024Z","scope":"BrowserManager","level":"info","event":"STARTUP","profilePath":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","channel":"chrome","headless":false}
+{"timestamp":"2026-07-03T11:00:26.055Z","scope":"BrowserManager","level":"info","event":"PRE_LAUNCH_CLEANUP","profile":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","attempt":1}
+{"timestamp":"2026-07-03T11:00:26.055Z","scope":"BrowserManager","level":"info","event":"BROWSER_LAUNCH","profilePath":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","channel":"chrome","attempt":1}
+{"timestamp":"2026-07-03T11:00:28.494Z","scope":"BrowserManager","level":"warn","event":"NEW_PAGE_CALLED","stack":"Error\n    at context.newPage (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:205:73)\n    at BrowserManager._attachSinglePage (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:286:46)\n    at async BrowserManager._initializeInternal (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:150:13)\n    at async BrowserManager.initialize (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:125:20)\n    at async BootstrapManager._runPhase3 (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/bootstrap/BootstrapManager.js:300:13)\n    at async BootstrapManager.run (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/bootstrap/BootstrapManager.js:80:9)\n    at async main (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/index.js:8:46)"}
+{"timestamp":"2026-07-03T11:00:28.913Z","scope":"BrowserManager","level":"warn","event":"PAGE_OPENED","url":"about:blank","allPages":["about:blank"]}
+{"timestamp":"2026-07-03T11:00:29.040Z","scope":"BrowserManager","level":"info","event":"PAGE_CREATED"}
+{"timestamp":"2026-07-03T11:00:29.046Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"STARTING","to":"READY","reason":"browser initialized"}
+{"timestamp":"2026-07-03T11:00:29.048Z","scope":"ClaudeWorker","level":"info","event":"INIT_START"}
+{"timestamp":"2026-07-03T11:00:29.048Z","scope":"WorkerState","level":"warn","event":"INVALID_STATE_TRANSITION","from":"READY","to":"STARTING","reason":"claude manager init"}
+{"timestamp":"2026-07-03T11:00:29.049Z","scope":"ClaudeWorker","level":"info","event":"NAVIGATION_DEBUG","currentUrl":"about:blank","forceNavigation":true,"isClaude":false,"destination":"https://claude.ai"}
+{"timestamp":"2026-07-03T11:00:29.050Z","scope":"ClaudeWorker","level":"info","event":"NAVIGATING_TO_CLAUDE","url":"https://claude.ai"}
+{"timestamp":"2026-07-03T11:00:29.050Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"starting_goto"}
+{"timestamp":"2026-07-03T11:00:30.674Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_goto"}
+{"timestamp":"2026-07-03T11:00:30.674Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_human_emulation"}
+{"timestamp":"2026-07-03T11:00:30.674Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"starting_url_check"}
+{"timestamp":"2026-07-03T11:00:45.682Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_url_check","url":"https://claude.ai/new"}
+{"timestamp":"2026-07-03T11:00:48.695Z","scope":"ClaudeWorker","level":"error","event":"FIND_FIRST_AVAILABLE_ERROR","error":"All promises were rejected"}
+{"timestamp":"2026-07-03T11:00:48.696Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_promise_race"}
+{"timestamp":"2026-07-03T11:00:49.705Z","scope":"ClaudeWorker","level":"info","event":"INIT_COMPLETE"}
+{"timestamp":"2026-07-03T11:00:49.707Z","scope":"ClaudeWorker","level":"info","event":"WORKER_INITIALIZING"}
+{"timestamp":"2026-07-03T11:00:49.707Z","scope":"ClaudeWorker","level":"info","event":"WORKER_PROCESSING_START"}
+{"timestamp":"2026-07-03T11:00:49.708Z","scope":"SessionMonitor","level":"info","event":"SESSION_MONITOR_START"}
+{"timestamp":"2026-07-03T11:00:49.746Z","scope":"Server","level":"info","message":"listening","port":3000}
+{"timestamp":"2026-07-03T11:00:49.994Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"READY","to":"HEALTHY","reason":"state_update"}
+{"timestamp":"2026-07-03T13:19:54.891Z","scope":"BrowserManager","level":"warn","event":"PAGE_OPENED","url":"http://127.0.0.1:5500/index.html","allPages":["https://claude.ai/new","http://127.0.0.1:5500/index.html"]}
+{"timestamp":"2026-07-03T13:31:56.188Z","scope":"SessionMonitor","level":"warn","event":"HEALTH_ISSUE_DETECTED","issue":{"issue":"NETWORK","severity":"MEDIUM"}}
+{"timestamp":"2026-07-03T13:31:56.193Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"HEALTHY","to":"DEGRADED","reason":"recovering_from_network"}
+{"timestamp":"2026-07-03T13:31:56.196Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_BACKOFF_DELAY","delayMs":30000,"attempt":1}
+{"timestamp":"2026-07-03T13:32:26.200Z","scope":"SessionMonitor","level":"warn","event":"RECOVERY_INITIATED","issue":"NETWORK","attempt":1}
+{"timestamp":"2026-07-03T13:32:26.204Z","scope":"SessionMonitor","level":"info","event":"RECOVERING_NETWORK"}
+{"timestamp":"2026-07-03T13:32:31.339Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_SUCCESSFUL","issue":"NETWORK"}
+{"timestamp":"2026-07-03T13:32:31.340Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"DEGRADED","to":"HEALTHY","reason":"recovery_successful"}
+{"timestamp":"2026-07-03T13:34:19.303Z","scope":"SessionMonitor","level":"warn","event":"HEALTH_ISSUE_DETECTED","issue":{"issue":"NETWORK","severity":"MEDIUM"}}
+{"timestamp":"2026-07-03T13:34:19.304Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"HEALTHY","to":"DEGRADED","reason":"recovering_from_network"}
+{"timestamp":"2026-07-03T13:34:19.305Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_BACKOFF_DELAY","delayMs":30000,"attempt":1}
+{"timestamp":"2026-07-03T13:34:49.306Z","scope":"SessionMonitor","level":"warn","event":"RECOVERY_INITIATED","issue":"NETWORK","attempt":1}
+{"timestamp":"2026-07-03T13:34:49.310Z","scope":"SessionMonitor","level":"info","event":"RECOVERING_NETWORK"}
+{"timestamp":"2026-07-03T13:34:56.406Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_SUCCESSFUL","issue":"NETWORK"}
+{"timestamp":"2026-07-03T13:34:56.410Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"DEGRADED","to":"HEALTHY","reason":"recovery_successful"}
+{"timestamp":"2026-07-03T15:59:43.425Z","scope":"SessionMonitor","level":"warn","event":"HEALTH_ISSUE_DETECTED","issue":{"issue":"NETWORK","severity":"MEDIUM"}}
+{"timestamp":"2026-07-03T15:59:43.430Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"HEALTHY","to":"DEGRADED","reason":"recovering_from_network"}
+{"timestamp":"2026-07-03T15:59:43.431Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_BACKOFF_DELAY","delayMs":30000,"attempt":1}
+{"timestamp":"2026-07-03T16:00:13.433Z","scope":"SessionMonitor","level":"warn","event":"RECOVERY_INITIATED","issue":"NETWORK","attempt":1}
+{"timestamp":"2026-07-03T16:00:13.438Z","scope":"SessionMonitor","level":"info","event":"RECOVERING_NETWORK"}
+{"timestamp":"2026-07-03T16:00:19.367Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_SUCCESSFUL","issue":"NETWORK"}
+{"timestamp":"2026-07-03T16:00:19.368Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"DEGRADED","to":"HEALTHY","reason":"recovery_successful"}
+{"timestamp":"2026-07-04T06:21:53.272Z","scope":"BrowserManager","level":"warn","event":"PAGE_OPENED","url":"chrome://new-tab-page/","allPages":["https://claude.ai/new","http://127.0.0.1:5500/index.html","chrome://new-tab-page/"]}
+{"timestamp":"2026-07-04T06:35:52.309Z","scope":"BrowserManager","level":"warn","event":"PAGE_OPENED","url":"chrome://new-tab-page/","allPages":["https://claude.ai/new","http://127.0.0.1:5500/index.html","http://localhost:5173/","chrome://new-tab-page/"]}
+{"timestamp":"2026-07-04T06:36:07.205Z","scope":"BrowserManager","level":"warn","event":"PAGE_CLOSED"}
+{"timestamp":"2026-07-04T06:36:11.055Z","scope":"BrowserManager","level":"warn","event":"CONTEXT_CLOSED"}
+{"timestamp":"2026-07-04T06:36:55.967Z","scope":"SessionMonitor","level":"warn","event":"HEALTH_ISSUE_DETECTED","issue":{"issue":"BROWSER_CRASH","severity":"CRITICAL"}}
+{"timestamp":"2026-07-04T06:36:55.971Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"HEALTHY","to":"DEGRADED","reason":"recovering_from_browser_crash"}
+{"timestamp":"2026-07-04T06:36:55.974Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_BACKOFF_DELAY","delayMs":30000,"attempt":1}
+{"timestamp":"2026-07-04T06:37:25.977Z","scope":"SessionMonitor","level":"warn","event":"RECOVERY_INITIATED","issue":"BROWSER_CRASH","attempt":1}
+{"timestamp":"2026-07-04T06:37:25.979Z","scope":"SessionMonitor","level":"info","event":"BROWSER_RECOVERY_START"}
+{"timestamp":"2026-07-04T06:37:25.980Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"DEGRADED","to":"RECOVERING","reason":"browser_crash_recovery"}
+{"timestamp":"2026-07-04T06:37:25.981Z","scope":"BrowserManager","level":"warn","event":"RECOVERY_START","reason":"browser_crash_recovery"}
+{"timestamp":"2026-07-04T06:37:25.981Z","scope":"BrowserManager","level":"info","event":"BROWSER_CLOSE_START"}
+{"timestamp":"2026-07-04T06:37:25.982Z","scope":"BrowserManager","level":"info","event":"BROWSER_CLOSE_COMPLETE"}
+{"timestamp":"2026-07-04T06:37:25.982Z","scope":"BrowserManager","level":"info","event":"STARTUP","profilePath":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","channel":"chrome","headless":false}
+{"timestamp":"2026-07-04T06:37:25.983Z","scope":"WorkerState","level":"warn","event":"INVALID_STATE_TRANSITION","from":"RECOVERING","to":"STARTING","reason":"browser initialization"}
+{"timestamp":"2026-07-04T06:37:26.027Z","scope":"BrowserManager","level":"info","event":"PRE_LAUNCH_CLEANUP","profile":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","attempt":1}
+{"timestamp":"2026-07-04T06:37:26.027Z","scope":"BrowserManager","level":"info","event":"BROWSER_LAUNCH","profilePath":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","channel":"chrome","attempt":1}
+{"timestamp":"2026-07-04T06:37:28.826Z","scope":"BrowserManager","level":"warn","event":"NEW_PAGE_CALLED","stack":"Error\n    at context.newPage (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:205:73)\n    at BrowserManager._attachSinglePage (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:286:46)\n    at async BrowserManager._initializeInternal (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:150:13)\n    at async BrowserManager._restartInternal (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:373:9)\n    at async BrowserManager.restart (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:362:20)\n    at async BrowserRecovery.recover (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/browser/BrowserRecovery.js:20:13)\n    at async RecoveryManager.executeRecovery (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/monitor/RecoveryManager.js:69:31)\n    at async SessionMonitor.runHealthCheck (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/monitor/SessionMonitor.js:78:17)\n    at async Timeout._onTimeout (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/monitor/SessionMonitor.js:30:13)"}
+{"timestamp":"2026-07-04T06:37:29.353Z","scope":"BrowserManager","level":"warn","event":"PAGE_OPENED","url":"about:blank","allPages":["about:blank"]}
+{"timestamp":"2026-07-04T06:37:29.535Z","scope":"BrowserManager","level":"info","event":"PAGE_CREATED"}
+{"timestamp":"2026-07-04T06:37:29.550Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"RECOVERING","to":"READY","reason":"browser initialized"}
+{"timestamp":"2026-07-04T06:37:29.552Z","scope":"BrowserManager","level":"info","event":"RECOVERY_COMPLETE","state":"READY"}
+{"timestamp":"2026-07-04T06:37:30.711Z","scope":"SessionMonitor","level":"info","event":"BROWSER_RECOVERY_SUCCESS"}
+{"timestamp":"2026-07-04T06:37:30.712Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_SUCCESSFUL","issue":"BROWSER_CRASH"}
+{"timestamp":"2026-07-04T06:37:30.712Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"READY","to":"HEALTHY","reason":"recovery_successful"}
+{"timestamp":"2026-07-04T15:30:23.875Z","scope":"BrowserManager","level":"warn","event":"PAGE_CLOSED"}
+{"timestamp":"2026-07-04T15:30:24.000Z","scope":"BrowserManager","level":"warn","event":"CONTEXT_CLOSED"}

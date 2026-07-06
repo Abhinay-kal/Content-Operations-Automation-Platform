@@ -236,9 +236,9 @@
       "source_file": "wordpress-agent-plugin/config/Constants.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "config_constants",
       "community": 78,
-      "norm_label": "constants.php"
+      "norm_label": "constants.php",
+      "id": "config_constants"
     },
     {
       "label": "Constants",
@@ -246,9 +246,9 @@
       "source_file": "wordpress-agent-plugin/config/Constants.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "config_constants_constants",
       "community": 78,
-      "norm_label": "constants"
+      "norm_label": "constants",
+      "id": "config_constants_constants"
     },
     {
       "label": ".__construct()",
@@ -256,9 +256,9 @@
       "source_file": "wordpress-agent-plugin/config/Constants.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "config_constants_constants_construct",
       "community": 78,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "config_constants_constants_construct"
     },
     {
       "label": "seo-optimization-platform.php",
@@ -266,9 +266,9 @@
       "source_file": "wordpress-agent-plugin/seo-optimization-platform.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_seo_optimization_platform",
       "community": 105,
-      "norm_label": "seo-optimization-platform.php"
+      "norm_label": "seo-optimization-platform.php",
+      "id": "wordpress_agent_plugin_seo_optimization_platform"
     },
     {
       "label": "run_seo_opt_agent()",
@@ -276,9 +276,9 @@
       "source_file": "wordpress-agent-plugin/seo-optimization-platform.php",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_seo_optimization_platform_run_seo_opt_agent",
       "community": 105,
-      "norm_label": "run_seo_opt_agent()"
+      "norm_label": "run_seo_opt_agent()",
+      "id": "wordpress_agent_plugin_seo_optimization_platform_run_seo_opt_agent"
     },
     {
       "label": "admin.js",
@@ -36059,5 +36059,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "21abbbbcc6ac34bc0863e9b7f1efa3cec158251a"
+  "built_at_commit": "aa9d6496c7c088d354ee818766637a98e95965f3"
 }
