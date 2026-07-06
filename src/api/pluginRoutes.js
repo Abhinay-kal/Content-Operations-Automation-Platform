@@ -22,12 +22,12 @@ function createPluginRoutes({ pluginService, wpOpService, logger }) {
         }
     });
 
-    router.post('/plugin/register', (req, res) => {
+    router.post('/plugin/register', async (req, res) => {
         try {
-            if (!req.body.site_id || !req.body.plugin_uuid || !req.body.installation_uuid) {
-                return res.status(400).json({ success: false, error: 'Missing required parameters' });
+            if (!req.body.site_url || !req.body.plugin_uuid || !req.body.installation_uuid) {
+                return res.status(400).json({ success: false, error: 'Missing required parameters (need site_url, plugin_uuid, installation_uuid)' });
             }
-            const result = pluginService.register({ ...req.body, ip: req.ip, user_agent: req.headers['user-agent'] });
+            const result = await pluginService.register({ ...req.body, ip: req.ip, user_agent: req.headers['user-agent'] });
             res.json({ success: true, data: result });
         } catch (err) {
             logger.error('Register error', { error: err.message });

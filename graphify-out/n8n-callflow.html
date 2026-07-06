@@ -60,7 +60,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>Content-Operations-Automation — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 1558 nodes, 1977 edges, 169 communities. Commit: 7372806</p>
+<p class="subtitle">Generated from graphify knowledge graph: 1558 nodes, 1977 edges, 169 communities. Commit: cb7e6f7</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
@@ -123,13 +123,13 @@ flowchart LR
     SERVE_API_35EC8E86 -->|imports x13| OTHER_D0941E68
     OTHER_D0941E68 -->|imports x10| SERVE_API_35EC8E86
     OTHER_D0941E68 -->|imports x9| TESTS_FIXTURES_B84B1DCC
-    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x5| CLI_SKILLS_9964CBB8
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x6| CLI_SKILLS_9964CBB8
     ANALYSIS_CLUSTERING_C79796DA -->|contains x5| OTHER_D0941E68
     TESTS_FIXTURES_B84B1DCC -->|imports x5| ANALYSIS_CLUSTERING_C79796DA
-    AUDITROUTES_COMPONENTS_7DD59280 -->|imports x3| OTHER_D0941E68
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x3| TESTS_FIXTURES_B84B1DCC
-    AUDITROUTES_COMPONENTS_7DD59280 -->|imports x2| CLI_SKILLS_9964CBB8
-    COMMUNITY_138_B63E6FD2 -->|imports x2| BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA
+    AUDITROUTES_COMPONENTS_7DD59280 -->|imports x3| OTHER_D0941E68
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| JOBREPOSITORY_COMPONENTS_A6220750
+    BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x2| SITE_COMPONENTS_CE1F1570
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -151,7 +151,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Core Flow</h4>
-    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Other -&gt; Serving API -&gt; CLI &amp; Skill Installers -&gt; Bootstrapmanager Components -&gt; Tests &amp; Fixtures</div>
+    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Other -&gt; Serving API -&gt; CLI &amp; Skill Installers -&gt; Outputs &amp; Docs -&gt; Ingestion &amp; Updates</div>
   </div>
 </div>
 <div class="grid">
@@ -1143,53 +1143,61 @@ flowchart LR
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
     %% Section: CLI &amp; Skill Installers (437 nodes, 508 edges)
-    subgraph cli_skills_wordpress_agent_plugin_admin_Menu_php_f99517da["wordpress-agent-plugin/admin/Menu.php"]
-        admin_menu_menu_20d686fc("Menu<br/><small>wordpress-agent-plugin/admin/Menu.php</small>")
-        admin_menu_menu_construct_6a9a5d13("__construct()<br/><small>wordpress-agent-plugin/admin/Menu.php</small>")
-        admin_menu_menu_register_c60912a2("register()<br/><small>wordpress-agent-plugin/admin/Menu.php</small>")
-        admin_menu_menu_renderdiagnostics_46945cca("renderDiagnostics()<br/><small>wordpress-agent-plugin/admin/Menu.php</small>")
+    subgraph cli_skills_src_bootstrap_BootstrapManager_js_c0def98e["src/bootstrap/BootstrapManager.js"]
+        bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3("BootstrapManager<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_cons_7e8cd264("constructor()<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_prin_d0884815("_printHeader()<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_repo_c4bfd4df("_reportFailures()<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_run_f51145d5("run()<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_runp_f1af04e7("_runPhase1()<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_runp_c7e19855("_runPhase2()<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_runp_45c81341("_runPhase3()<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_runp_8ea2cbf9("_runPhase3_5()<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_runp_41817228("_runPhase4()<br/><small>src/bootstrap/BootstrapManager.js</small>")
+        bootstrap_bootstrapmanager_bootstrapmanager_veri_1e505071("_verifyReadiness()<br/><small>src/bootstrap/BootstrapManager.js</small>")
     end
-    subgraph cli_skills_wordpress_agent_plugin_admin_Overview_d2648b84["wordpress-agent-plugin/admin/OverviewPage.php"]
-        admin_overviewpage_overviewpage_80f9c75c("OverviewPage<br/><small>wordpress-agent-plugin/admin/OverviewPage.php</small>")
-        admin_overviewpage_overviewpage_construct_caeb883c("__construct()<br/><small>wordpress-agent-plugin/admin/OverviewPage.php</small>")
-        admin_overviewpage_overviewpage_handlegetqueuest_f0a9947b("handleGetQueueStats()<br/><small>wordpress-agent-plugin/admin/OverviewPage.php</small>")
-        admin_overviewpage_overviewpage_renderpage_3a98f1f6("renderPage()<br/><small>wordpress-agent-plugin/admin/OverviewPage.php</small>")
-    end
-    subgraph cli_skills_wordpress_agent_plugin_admin_AdminMod_36993acf["wordpress-agent-plugin/admin/AdminModule.php"]
-        admin_adminmodule_adminmodule_fcceb49d("AdminModule<br/><small>wordpress-agent-plugin/admin/AdminModule.php</small>")
-        admin_adminmodule_adminmodule_construct_d3bf1e00("__construct()<br/><small>wordpress-agent-plugin/admin/AdminModule.php</small>")
-        admin_adminmodule_adminmodule_register_7435bbf2("register()<br/><small>wordpress-agent-plugin/admin/AdminModule.php</small>")
-    end
-    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3("BootstrapManager<br/><small>src/bootstrap/BootstrapManager.js</small>")
+    config_config_loadconfig_a426fd18("loadConfig()<br/><small>src/config/config.js</small>")
+    utils_logger_createlogger_6a50b674("createLogger()<br/><small>src/utils/logger.js</small>")
     admin_settingspage_settingspage_a51b19d4("SettingsPage<br/><small>wordpress-agent-plugin/admin/SettingsPage.php</small>")
-    bootstrap_cronmanager_cronmanager_f65c7728("CronManager<br/><small>wordpress-agent-plugin/bootstrap/CronManager.php</small>")
     models_pluginidentity_pluginidentity_d5969ed5("PluginIdentity<br/><small>wordpress-agent-plugin/models/PluginIdentity.php</small>")
     models_pluginmetadata_pluginmetadata_68a98509("PluginMetadata<br/><small>wordpress-agent-plugin/models/PluginMetadata.php</small>")
     services_configservice_configservice_f0e37e08("ConfigService<br/><small>wordpress-agent-plugin/services/ConfigService.php</small>")
     services_eventlistenerservice_eventlistenerservi_c2d8cefb("EventListenerService<br/><small>wordpress-agent-plugin/services/EventListenerService.php</small>")
-    admin_adminmodule_adminmodule_fcceb49d -->|method| admin_adminmodule_adminmodule_construct_d3bf1e00
-    admin_adminmodule_adminmodule_fcceb49d -->|method| admin_adminmodule_adminmodule_register_7435bbf2
-    admin_menu_menu_20d686fc -->|method| admin_menu_menu_construct_6a9a5d13
-    admin_menu_menu_20d686fc -->|method| admin_menu_menu_register_c60912a2
-    admin_menu_menu_20d686fc -->|method| admin_menu_menu_renderdiagnostics_46945cca
-    admin_overviewpage_overviewpage_80f9c75c -->|method| admin_overviewpage_overviewpage_construct_caeb883c
-    admin_overviewpage_overviewpage_80f9c75c -->|method| admin_overviewpage_overviewpage_handlegetqueuest_f0a9947b
-    admin_overviewpage_overviewpage_80f9c75c -->|method| admin_overviewpage_overviewpage_renderpage_3a98f1f6
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_cons_7e8cd264
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_prin_d0884815
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_repo_c4bfd4df
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_run_f51145d5
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_runp_f1af04e7
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_runp_c7e19855
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_runp_45c81341
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_runp_8ea2cbf9
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_runp_41817228
+    bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 -->|method| bootstrap_bootstrapmanager_bootstrapmanager_veri_1e505071
+    bootstrap_bootstrapmanager_bootstrapmanager_cons_7e8cd264 -->|calls| utils_logger_createlogger_6a50b674
+    bootstrap_bootstrapmanager_bootstrapmanager_run_f51145d5 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_prin_d0884815
+    bootstrap_bootstrapmanager_bootstrapmanager_run_f51145d5 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_runp_f1af04e7
+    bootstrap_bootstrapmanager_bootstrapmanager_run_f51145d5 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_runp_c7e19855
+    bootstrap_bootstrapmanager_bootstrapmanager_run_f51145d5 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_runp_45c81341
+    bootstrap_bootstrapmanager_bootstrapmanager_run_f51145d5 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_runp_8ea2cbf9
+    bootstrap_bootstrapmanager_bootstrapmanager_run_f51145d5 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_runp_41817228
+    bootstrap_bootstrapmanager_bootstrapmanager_runp_f1af04e7 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_repo_c4bfd4df
+    bootstrap_bootstrapmanager_bootstrapmanager_runp_f1af04e7 -->|calls| config_config_loadconfig_a426fd18
+    bootstrap_bootstrapmanager_bootstrapmanager_runp_41817228 -->|calls| bootstrap_bootstrapmanager_bootstrapmanager_veri_1e505071
     %% Omitted for readability: 419 nodes, 0 edges
-    class admin_menu_menu_20d686fc klass;
-    class admin_menu_menu_construct_6a9a5d13 function;
-    class admin_menu_menu_register_c60912a2 function;
-    class admin_menu_menu_renderdiagnostics_46945cca function;
-    class admin_overviewpage_overviewpage_80f9c75c klass;
-    class admin_overviewpage_overviewpage_construct_caeb883c function;
-    class admin_overviewpage_overviewpage_handlegetqueuest_f0a9947b function;
-    class admin_overviewpage_overviewpage_renderpage_3a98f1f6 function;
-    class admin_adminmodule_adminmodule_fcceb49d klass;
-    class admin_adminmodule_adminmodule_construct_d3bf1e00 function;
-    class admin_adminmodule_adminmodule_register_7435bbf2 function;
     class bootstrap_bootstrapmanager_bootstrapmanager_26ccb5b3 klass;
+    class bootstrap_bootstrapmanager_bootstrapmanager_cons_7e8cd264 function;
+    class bootstrap_bootstrapmanager_bootstrapmanager_prin_d0884815 function;
+    class bootstrap_bootstrapmanager_bootstrapmanager_repo_c4bfd4df function;
+    class bootstrap_bootstrapmanager_bootstrapmanager_run_f51145d5 function;
+    class bootstrap_bootstrapmanager_bootstrapmanager_runp_f1af04e7 function;
+    class bootstrap_bootstrapmanager_bootstrapmanager_runp_c7e19855 function;
+    class bootstrap_bootstrapmanager_bootstrapmanager_runp_45c81341 function;
+    class bootstrap_bootstrapmanager_bootstrapmanager_runp_8ea2cbf9 function;
+    class bootstrap_bootstrapmanager_bootstrapmanager_runp_41817228 function;
+    class bootstrap_bootstrapmanager_bootstrapmanager_veri_1e505071 function;
+    class config_config_loadconfig_a426fd18 function;
+    class utils_logger_createlogger_6a50b674 function;
     class admin_settingspage_settingspage_a51b19d4 klass;
-    class bootstrap_cronmanager_cronmanager_f65c7728 klass;
     class models_pluginidentity_pluginidentity_d5969ed5 klass;
     class models_pluginmetadata_pluginmetadata_68a98509 klass;
     class services_configservice_configservice_f0e37e08 klass;
@@ -4658,7 +4666,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>Content-Operations-Automation — Architecture Documentation</p>
-  <p>Generated: 2026-07-06 09:30 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-07-06 09:40 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->

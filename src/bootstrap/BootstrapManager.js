@@ -150,7 +150,7 @@ class BootstrapManager {
             const compatibilityService = new CompatibilityService();
             const dashboardReadService = new DashboardReadService({ db: this.db });
             const wpOpService = new WordPressOperationService({ db: this.db, logger: this.logger.db });
-            const pluginService = new PluginService({ pluginRepository, tokenService, compatibilityService, logger: this.logger.db });
+            const pluginService = new PluginService({ pluginRepository, siteRepository, tokenService, compatibilityService, logger: this.logger.db });
             const workflowPolicyEngine = new WorkflowPolicyEngine({ db: this.db, logger: this.logger.db });
             const workflowScheduler = new WorkflowScheduler({ jobRepository, db: this.db, logger: this.logger.db });
             const workflowOrchestrator = new WorkflowOrchestrator({

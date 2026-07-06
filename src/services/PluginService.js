@@ -1,6 +1,7 @@
 class PluginService {
-    constructor({ pluginRepository, tokenService, compatibilityService, logger }) {
+    constructor({ pluginRepository, siteRepository, tokenService, compatibilityService, logger }) {
         this.pluginRepository = pluginRepository;
+        this.siteRepository = siteRepository;
         this.tokenService = tokenService;
         this.compatibilityService = compatibilityService;
         this.logger = logger;
@@ -16,17 +17,31 @@ class PluginService {
         };
     }
 
-    register(data) {
+    async register(data) {
         const compatibility = this.compatibilityService.compare(data.plugin_version, data.protocol_version, data.capabilities);
         if (compatibility === 'UNSUPPORTED') {
             throw new Error('Unsupported protocol version');
+        }
+
+        let siteId = data.site_id;
+        if (!siteId && data.site_url) {
+            let domain = data.site_url.replace(/^https?:\/\//, '').replace(/\/$/, '');
+            let site = await this.siteRepository.getSiteByDomain(domain);
+            if (!site) {
+                site = await this.siteRepository.createSite({
+                    name: data.site_name || domain,
+                    domain: domain,
+                    wpUrl: data.site_url
+                });
+            }
+            siteId = site.id;
         }
 
         const token = this.tokenService.generateToken();
         const now = new Date().toISOString();
 
         const installData = {
-            site_id: data.site_id,
+            site_id: siteId,
             plugin_uuid: data.plugin_uuid,
             installation_uuid: data.installation_uuid,
             registration_token: token,

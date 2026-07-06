@@ -1,16 +1,16 @@
 # Graph Report - Content-Operations-Automation  (2026-07-06)
 
 ## Corpus Check
-- 263 files · ~135,635 words
+- 265 files · ~135,975 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1566 nodes · 1986 edges · 168 communities (64 shown, 104 thin omitted)
+- 1558 nodes · 1977 edges · 169 communities (64 shown, 105 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `05dddd8b`
+- Built from commit: `73728060`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -119,13 +119,13 @@
 - [[_COMMUNITY_Community 103|Community 103]]
 - [[_COMMUNITY_Community 107|Community 107]]
 - [[_COMMUNITY_Community 108|Community 108]]
+- [[_COMMUNITY_Community 110|Community 110]]
 - [[_COMMUNITY_Community 111|Community 111]]
 - [[_COMMUNITY_Community 112|Community 112]]
 - [[_COMMUNITY_Community 114|Community 114]]
 - [[_COMMUNITY_Community 115|Community 115]]
 - [[_COMMUNITY_Community 116|Community 116]]
 - [[_COMMUNITY_Community 117|Community 117]]
-- [[_COMMUNITY_Community 118|Community 118]]
 - [[_COMMUNITY_Community 119|Community 119]]
 - [[_COMMUNITY_Community 120|Community 120]]
 - [[_COMMUNITY_Community 121|Community 121]]
@@ -209,7 +209,7 @@
 - **Junior vs Senior Engineer Differences** — failure_junior_engineer, failure_senior_engineer, failure_scope_of_thinking, failure_handling_ambiguity, failure_impact_vs_output [EXTRACTED 0.75]
 - **Junior vs Senior Comparison** — failure1780489233782_junior_engineer, failure1780489233782_senior_engineer, failure1780489233782_scope_of_thinking [EXTRACTED 1.00]
 
-## Communities (168 total, 104 thin omitted)
+## Communities (169 total, 105 thin omitted)
 
 ### Community 0 - "Auditroutes Components"
 Cohesion: 0.10
@@ -237,7 +237,7 @@ Nodes (44): { AuthorEventHandler }, { BrowserManager }, { BrowserRecovery }, { C
 
 ### Community 6 - "Package Components"
 Cohesion: 0.08
-Nodes (23): author, dependencies, better-sqlite3, dotenv, express, playwright, playwright-extra, puppeteer-extra-plugin-stealth (+15 more)
+Nodes (25): author, dependencies, better-sqlite3, dotenv, express, php-parser, playwright, playwright-extra (+17 more)
 
 ### Community 7 - "Syncservice Components"
 Cohesion: 0.14
@@ -363,10 +363,6 @@ Nodes (4): Agent Rules, Auto-Commit Rule, Continuous Documentation Rule, Mandato
 Cohesion: 0.25
 Nodes (7): 🚧 Blockers & Issues, 📊 Current Status, 🎯 Immediate To-Do (Next Up), 📅 Progress Log, [Project Name] - Progress Tracker, [YYYY-MM-DD], [YYYY-MM-DD]
 
-### Community 118 - "Community 118"
-Cohesion: 0.14
-Nodes (12): apiTypesCode, apiTypesPath, frontendDir, fs, path, readServiceCode, readServicePath, routesCode (+4 more)
-
 ### Community 134 - "Community 134"
 Cohesion: 0.22
 Nodes (9): { ApiError, ErrorCodes }, createDashboardRoutes(), express, { sendSuccess, sendError, parsePagination }, ApiError, ErrorCodes, parsePagination(), sendError() (+1 more)
@@ -436,21 +432,21 @@ Cohesion: 0.25
 Nodes (7): 1. Validation Report, 2. Defect Register, 3. Recovery Evidence, 4. Benchmark Results, 5. Security Audit, 6. Final Production Readiness Report, System Readiness & Validation Report (Phase 15.9)
 
 ## Knowledge Gaps
-- **396 isolated node(s):** `Notices`, `Loader`, `Loader`, `Loader`, `ConfigService` (+391 more)
+- **387 isolated node(s):** `1. Directory Structure & Orphaned Files`, `2. Architecture & Structural Improvements`, `3. Dependency Check`, `4. Security & Configuration`, `name` (+382 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **104 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **105 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `JobRepository` connect `Jobrepository Components` to `Migrations Components`, `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **Why does `DashboardReadService` connect `Community 138` to `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **Why does `ProjectService` connect `Projectservice Components` to `Migrations Components`, `Community 84`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **Why does `BrowserManager` connect `Browsermanager Components` to `Bootstrapmanager Components`, `Createclaudeerror Components`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
-- **What connects `Notices`, `Loader`, `Loader` to the rest of the system?**
-  _396 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **Why does `ProjectRepository` connect `Projectrepository Components` to `Community 82`, `Migrations Components`, `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **What connects `1. Directory Structure & Orphaned Files`, `2. Architecture & Structural Improvements`, `3. Dependency Check` to the rest of the system?**
+  _387 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Auditroutes Components` be split into smaller, more focused modules?**
   _Cohesion score 0.1038961038961039 - nodes in this community are weakly interconnected._
 - **Should `Bootstrapmanager Components` be split into smaller, more focused modules?**

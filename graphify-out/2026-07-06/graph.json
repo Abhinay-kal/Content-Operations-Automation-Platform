@@ -61,14 +61,404 @@
   },
   "nodes": [
     {
+      "label": "AUDIT_REPORT.md",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "audit_report",
+      "community": 51,
+      "norm_label": "audit_report.md"
+    },
+    {
+      "label": "Phase 1: Repository Audit Report",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "audit_report_phase_1_repository_audit_report",
+      "community": 51,
+      "norm_label": "phase 1: repository audit report"
+    },
+    {
+      "label": "1. Directory Structure & Orphaned Files",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "audit_report_1_directory_structure_orphaned_files",
+      "community": 51,
+      "norm_label": "1. directory structure & orphaned files"
+    },
+    {
+      "label": "2. Architecture & Structural Improvements",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "audit_report_2_architecture_structural_improvements",
+      "community": 51,
+      "norm_label": "2. architecture & structural improvements"
+    },
+    {
+      "label": "3. Dependency Check",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "audit_report_3_dependency_check",
+      "community": 51,
+      "norm_label": "3. dependency check"
+    },
+    {
+      "label": "4. Security & Configuration",
+      "file_type": "document",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "audit_report_4_security_configuration",
+      "community": 51,
+      "norm_label": "4. security & configuration"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 6,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 6,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 6,
+      "norm_label": "version"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_description",
+      "community": 6,
+      "norm_label": "description"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_main",
+      "community": 6,
+      "norm_label": "main"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 6,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 6,
+      "norm_label": "start"
+    },
+    {
+      "label": "legacy-start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_legacy_start",
+      "community": 6,
+      "norm_label": "legacy-start"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_test",
+      "community": 6,
+      "norm_label": "test"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_keywords",
+      "community": 6,
+      "norm_label": "keywords"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_author",
+      "community": 6,
+      "norm_label": "author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_license",
+      "community": 6,
+      "norm_label": "license"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 6,
+      "norm_label": "type"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 6,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@playwright/test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_devdependencies_playwright_test",
+      "community": 6,
+      "norm_label": "@playwright/test"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_node",
+      "community": 6,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "jest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "package_devdependencies_jest",
+      "community": 6,
+      "norm_label": "jest"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 6,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "better-sqlite3",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_dependencies_better_sqlite3",
+      "community": 6,
+      "norm_label": "better-sqlite3"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "package_dependencies_dotenv",
+      "community": 6,
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "package_dependencies_express",
+      "community": 6,
+      "norm_label": "express"
+    },
+    {
+      "label": "php-parser",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "package_dependencies_php_parser",
+      "community": 6,
+      "norm_label": "php-parser"
+    },
+    {
+      "label": "playwright",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "package_dependencies_playwright",
+      "community": 6,
+      "norm_label": "playwright"
+    },
+    {
+      "label": "playwright-extra",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "package_dependencies_playwright_extra",
+      "community": 6,
+      "norm_label": "playwright-extra"
+    },
+    {
+      "label": "puppeteer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "package_dependencies_puppeteer",
+      "community": 6,
+      "norm_label": "puppeteer"
+    },
+    {
+      "label": "puppeteer-extra-plugin-stealth",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "package_dependencies_puppeteer_extra_plugin_stealth",
+      "community": 6,
+      "norm_label": "puppeteer-extra-plugin-stealth"
+    },
+    {
+      "label": "test-plugin.js",
+      "file_type": "code",
+      "source_file": "test-plugin.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "test_plugin_js_test_plugin",
+      "community": 110,
+      "norm_label": "test-plugin.js"
+    },
+    {
+      "label": "puppeteer",
+      "file_type": "code",
+      "source_file": "test-plugin.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "test_plugin_puppeteer",
+      "community": 110,
+      "norm_label": "puppeteer"
+    },
+    {
+      "label": "test_plugin.php",
+      "file_type": "code",
+      "source_file": "test_plugin.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "test_plugin_php_test_plugin",
+      "community": 118,
+      "norm_label": "test_plugin.php"
+    },
+    {
+      "label": "plugin_dir_path()",
+      "file_type": "code",
+      "source_file": "test_plugin.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "test_plugin_plugin_dir_path",
+      "community": 118,
+      "norm_label": "plugin_dir_path()"
+    },
+    {
+      "label": "HttpClient.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_httpclient",
+      "community": 76,
+      "norm_label": "httpclient.php"
+    },
+    {
+      "label": "HttpClient",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "api_httpclient_httpclient",
+      "community": 76,
+      "norm_label": "httpclient"
+    },
+    {
+      "label": ".request()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "api_httpclient_httpclient_request",
+      "community": 76,
+      "norm_label": ".request()"
+    },
+    {
       "label": "AdminModule.php",
       "file_type": "code",
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "admin_adminmodule",
       "community": 59,
-      "norm_label": "adminmodule.php"
+      "norm_label": "adminmodule.php",
+      "id": "admin_adminmodule"
     },
     {
       "label": "AdminModule",
@@ -76,9 +466,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "admin_adminmodule_adminmodule",
       "community": 59,
-      "norm_label": "adminmodule"
+      "norm_label": "adminmodule",
+      "id": "admin_adminmodule_adminmodule"
     },
     {
       "label": "ModuleInterface",
@@ -86,9 +476,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "moduleinterface",
       "community": 59,
-      "norm_label": "moduleinterface"
+      "norm_label": "moduleinterface",
+      "id": "moduleinterface"
     },
     {
       "label": ".__construct()",
@@ -96,9 +486,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "admin_adminmodule_adminmodule_construct",
       "community": 59,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "admin_adminmodule_adminmodule_construct"
     },
     {
       "label": "ConfigService",
@@ -106,9 +496,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_adminmodule_php_configservice",
       "community": 59,
-      "norm_label": "configservice"
+      "norm_label": "configservice",
+      "id": "wordpress_agent_plugin_admin_adminmodule_php_configservice"
     },
     {
       "label": "RegistrationService",
@@ -116,9 +506,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_adminmodule_php_registrationservice",
       "community": 59,
-      "norm_label": "registrationservice"
+      "norm_label": "registrationservice",
+      "id": "wordpress_agent_plugin_admin_adminmodule_php_registrationservice"
     },
     {
       "label": "HeartbeatService",
@@ -126,9 +516,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_adminmodule_php_heartbeatservice",
       "community": 59,
-      "norm_label": "heartbeatservice"
+      "norm_label": "heartbeatservice",
+      "id": "wordpress_agent_plugin_admin_adminmodule_php_heartbeatservice"
     },
     {
       "label": "Notices",
@@ -136,9 +526,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "notices",
       "community": 34,
-      "norm_label": "notices"
+      "norm_label": "notices",
+      "id": "notices"
     },
     {
       "label": "BackendClient",
@@ -146,9 +536,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_adminmodule_php_backendclient",
       "community": 59,
-      "norm_label": "backendclient"
+      "norm_label": "backendclient",
+      "id": "wordpress_agent_plugin_admin_adminmodule_php_backendclient"
     },
     {
       "label": ".register()",
@@ -156,9 +546,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "admin_adminmodule_adminmodule_register",
       "community": 59,
-      "norm_label": ".register()"
+      "norm_label": ".register()",
+      "id": "admin_adminmodule_adminmodule_register"
     },
     {
       "label": "Loader",
@@ -166,9 +556,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_adminmodule_php_loader",
       "community": 59,
-      "norm_label": "loader"
+      "norm_label": "loader",
+      "id": "wordpress_agent_plugin_admin_adminmodule_php_loader"
     },
     {
       "label": "Menu.php",
@@ -176,9 +566,9 @@
       "source_file": "wordpress-agent-plugin/admin/Menu.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "admin_menu",
       "community": 34,
-      "norm_label": "menu.php"
+      "norm_label": "menu.php",
+      "id": "admin_menu"
     },
     {
       "label": "Menu",
@@ -186,9 +576,9 @@
       "source_file": "wordpress-agent-plugin/admin/Menu.php",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "admin_menu_menu",
       "community": 34,
-      "norm_label": "menu"
+      "norm_label": "menu",
+      "id": "admin_menu_menu"
     },
     {
       "label": ".__construct()",
@@ -196,9 +586,9 @@
       "source_file": "wordpress-agent-plugin/admin/Menu.php",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "admin_menu_menu_construct",
       "community": 34,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "admin_menu_menu_construct"
     },
     {
       "label": ".register()",
@@ -206,9 +596,9 @@
       "source_file": "wordpress-agent-plugin/admin/Menu.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "admin_menu_menu_register",
       "community": 34,
-      "norm_label": ".register()"
+      "norm_label": ".register()",
+      "id": "admin_menu_menu_register"
     },
     {
       "label": ".renderDiagnostics()",
@@ -216,9 +606,9 @@
       "source_file": "wordpress-agent-plugin/admin/Menu.php",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "admin_menu_menu_renderdiagnostics",
       "community": 34,
-      "norm_label": ".renderdiagnostics()"
+      "norm_label": ".renderdiagnostics()",
+      "id": "admin_menu_menu_renderdiagnostics"
     },
     {
       "label": "Notices.php",
@@ -226,9 +616,9 @@
       "source_file": "wordpress-agent-plugin/admin/Notices.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "admin_notices",
       "community": 95,
-      "norm_label": "notices.php"
+      "norm_label": "notices.php",
+      "id": "admin_notices"
     },
     {
       "label": "Notices",
@@ -236,9 +626,9 @@
       "source_file": "wordpress-agent-plugin/admin/Notices.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "admin_notices_notices",
       "community": 95,
-      "norm_label": "notices"
+      "norm_label": "notices",
+      "id": "admin_notices_notices"
     },
     {
       "label": "OverviewPage.php",
@@ -246,9 +636,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "admin_overviewpage",
       "community": 34,
-      "norm_label": "overviewpage.php"
+      "norm_label": "overviewpage.php",
+      "id": "admin_overviewpage"
     },
     {
       "label": "OverviewPage",
@@ -256,9 +646,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "admin_overviewpage_overviewpage",
       "community": 34,
-      "norm_label": "overviewpage"
+      "norm_label": "overviewpage",
+      "id": "admin_overviewpage_overviewpage"
     },
     {
       "label": ".__construct()",
@@ -266,9 +656,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "admin_overviewpage_overviewpage_construct",
       "community": 34,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "admin_overviewpage_overviewpage_construct"
     },
     {
       "label": "ConfigService",
@@ -276,9 +666,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_overviewpage_php_configservice",
       "community": 34,
-      "norm_label": "configservice"
+      "norm_label": "configservice",
+      "id": "wordpress_agent_plugin_admin_overviewpage_php_configservice"
     },
     {
       "label": "BackendClient",
@@ -286,9 +676,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_overviewpage_php_backendclient",
       "community": 34,
-      "norm_label": "backendclient"
+      "norm_label": "backendclient",
+      "id": "wordpress_agent_plugin_admin_overviewpage_php_backendclient"
     },
     {
       "label": ".renderPage()",
@@ -296,9 +686,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "admin_overviewpage_overviewpage_renderpage",
       "community": 34,
-      "norm_label": ".renderpage()"
+      "norm_label": ".renderpage()",
+      "id": "admin_overviewpage_overviewpage_renderpage"
     },
     {
       "label": ".handleGetQueueStats()",
@@ -306,9 +696,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L96",
       "_origin": "ast",
-      "id": "admin_overviewpage_overviewpage_handlegetqueuestats",
       "community": 34,
-      "norm_label": ".handlegetqueuestats()"
+      "norm_label": ".handlegetqueuestats()",
+      "id": "admin_overviewpage_overviewpage_handlegetqueuestats"
     },
     {
       "label": "CronManager.php",
@@ -316,9 +706,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bootstrap_cronmanager",
       "community": 150,
-      "norm_label": "cronmanager.php"
+      "norm_label": "cronmanager.php",
+      "id": "bootstrap_cronmanager"
     },
     {
       "label": "CronManager",
@@ -326,9 +716,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "bootstrap_cronmanager_cronmanager",
       "community": 150,
-      "norm_label": "cronmanager"
+      "norm_label": "cronmanager",
+      "id": "bootstrap_cronmanager_cronmanager"
     },
     {
       "label": ".registerHooks()",
@@ -336,9 +726,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "bootstrap_cronmanager_cronmanager_registerhooks",
       "community": 150,
-      "norm_label": ".registerhooks()"
+      "norm_label": ".registerhooks()",
+      "id": "bootstrap_cronmanager_cronmanager_registerhooks"
     },
     {
       "label": "Loader",
@@ -346,9 +736,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_loader",
       "community": 150,
-      "norm_label": "loader"
+      "norm_label": "loader",
+      "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_loader"
     },
     {
       "label": "HeartbeatService",
@@ -356,9 +746,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_heartbeatservice",
       "community": 150,
-      "norm_label": "heartbeatservice"
+      "norm_label": "heartbeatservice",
+      "id": "wordpress_agent_plugin_bootstrap_cronmanager_php_heartbeatservice"
     },
     {
       "label": ".addCustomSchedules()",
@@ -366,9 +756,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "bootstrap_cronmanager_cronmanager_addcustomschedules",
       "community": 150,
-      "norm_label": ".addcustomschedules()"
+      "norm_label": ".addcustomschedules()",
+      "id": "bootstrap_cronmanager_cronmanager_addcustomschedules"
     },
     {
       "label": ".scheduleEvents()",
@@ -376,9 +766,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "bootstrap_cronmanager_cronmanager_scheduleevents",
       "community": 150,
-      "norm_label": ".scheduleevents()"
+      "norm_label": ".scheduleevents()",
+      "id": "bootstrap_cronmanager_cronmanager_scheduleevents"
     },
     {
       "label": ".clearEvents()",
@@ -386,9 +776,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/CronManager.php",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "bootstrap_cronmanager_cronmanager_clearevents",
       "community": 150,
-      "norm_label": ".clearevents()"
+      "norm_label": ".clearevents()",
+      "id": "bootstrap_cronmanager_cronmanager_clearevents"
     },
     {
       "label": "Loader.php",
@@ -396,9 +786,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Loader.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bootstrap_loader",
       "community": 70,
-      "norm_label": "loader.php"
+      "norm_label": "loader.php",
+      "id": "bootstrap_loader"
     },
     {
       "label": "Loader",
@@ -406,9 +796,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Loader.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "bootstrap_loader_loader",
       "community": 70,
-      "norm_label": "loader"
+      "norm_label": "loader",
+      "id": "bootstrap_loader_loader"
     },
     {
       "label": ".addAction()",
@@ -416,9 +806,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Loader.php",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "bootstrap_loader_loader_addaction",
       "community": 70,
-      "norm_label": ".addaction()"
+      "norm_label": ".addaction()",
+      "id": "bootstrap_loader_loader_addaction"
     },
     {
       "label": ".addFilter()",
@@ -426,9 +816,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Loader.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "bootstrap_loader_loader_addfilter",
       "community": 70,
-      "norm_label": ".addfilter()"
+      "norm_label": ".addfilter()",
+      "id": "bootstrap_loader_loader_addfilter"
     },
     {
       "label": ".run()",
@@ -436,9 +826,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Loader.php",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "bootstrap_loader_loader_run",
       "community": 70,
-      "norm_label": ".run()"
+      "norm_label": ".run()",
+      "id": "bootstrap_loader_loader_run"
     },
     {
       "label": "ModuleInterface.php",
@@ -446,9 +836,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ModuleInterface.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bootstrap_moduleinterface",
       "community": 77,
-      "norm_label": "moduleinterface.php"
+      "norm_label": "moduleinterface.php",
+      "id": "bootstrap_moduleinterface"
     },
     {
       "label": "register()",
@@ -456,9 +846,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ModuleInterface.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "bootstrap_moduleinterface_register",
       "community": 77,
-      "norm_label": "register()"
+      "norm_label": "register()",
+      "id": "bootstrap_moduleinterface_register"
     },
     {
       "label": "Loader",
@@ -466,9 +856,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ModuleInterface.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_bootstrap_moduleinterface_php_loader",
       "community": 77,
-      "norm_label": "loader"
+      "norm_label": "loader",
+      "id": "wordpress_agent_plugin_bootstrap_moduleinterface_php_loader"
     },
     {
       "label": "Plugin.php",
@@ -476,9 +866,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bootstrap_plugin",
       "community": 27,
-      "norm_label": "plugin.php"
+      "norm_label": "plugin.php",
+      "id": "bootstrap_plugin"
     },
     {
       "label": "Plugin",
@@ -486,9 +876,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "bootstrap_plugin_plugin",
       "community": 150,
-      "norm_label": "plugin"
+      "norm_label": "plugin",
+      "id": "bootstrap_plugin_plugin"
     },
     {
       "label": ".__construct()",
@@ -496,9 +886,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "bootstrap_plugin_plugin_construct",
       "community": 150,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "bootstrap_plugin_plugin_construct"
     },
     {
       "label": ".initializeConstants()",
@@ -506,9 +896,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "bootstrap_plugin_plugin_initializeconstants",
       "community": 150,
-      "norm_label": ".initializeconstants()"
+      "norm_label": ".initializeconstants()",
+      "id": "bootstrap_plugin_plugin_initializeconstants"
     },
     {
       "label": ".setHooks()",
@@ -516,9 +906,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "bootstrap_plugin_plugin_sethooks",
       "community": 150,
-      "norm_label": ".sethooks()"
+      "norm_label": ".sethooks()",
+      "id": "bootstrap_plugin_plugin_sethooks"
     },
     {
       "label": ".activate()",
@@ -526,9 +916,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "bootstrap_plugin_plugin_activate",
       "community": 150,
-      "norm_label": ".activate()"
+      "norm_label": ".activate()",
+      "id": "bootstrap_plugin_plugin_activate"
     },
     {
       "label": ".deactivate()",
@@ -536,9 +926,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L70",
       "_origin": "ast",
-      "id": "bootstrap_plugin_plugin_deactivate",
       "community": 150,
-      "norm_label": ".deactivate()"
+      "norm_label": ".deactivate()",
+      "id": "bootstrap_plugin_plugin_deactivate"
     },
     {
       "label": ".run()",
@@ -546,9 +936,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L75",
       "_origin": "ast",
-      "id": "bootstrap_plugin_plugin_run",
       "community": 150,
-      "norm_label": ".run()"
+      "norm_label": ".run()",
+      "id": "bootstrap_plugin_plugin_run"
     },
     {
       "label": "ServiceContainer.php",
@@ -556,9 +946,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "bootstrap_servicecontainer",
       "community": 34,
-      "norm_label": "servicecontainer.php"
+      "norm_label": "servicecontainer.php",
+      "id": "bootstrap_servicecontainer"
     },
     {
       "label": "ServiceContainer",
@@ -566,9 +956,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "bootstrap_servicecontainer_servicecontainer",
       "community": 34,
-      "norm_label": "servicecontainer"
+      "norm_label": "servicecontainer",
+      "id": "bootstrap_servicecontainer_servicecontainer"
     },
     {
       "label": ".registerServices()",
@@ -576,9 +966,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "bootstrap_servicecontainer_servicecontainer_registerservices",
       "community": 34,
-      "norm_label": ".registerservices()"
+      "norm_label": ".registerservices()",
+      "id": "bootstrap_servicecontainer_servicecontainer_registerservices"
     },
     {
       "label": "Loader",
@@ -586,9 +976,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_bootstrap_servicecontainer_php_loader",
       "community": 34,
-      "norm_label": "loader"
+      "norm_label": "loader",
+      "id": "wordpress_agent_plugin_bootstrap_servicecontainer_php_loader"
     },
     {
       "label": "BackendIdentity.php",
@@ -596,9 +986,9 @@
       "source_file": "wordpress-agent-plugin/models/BackendIdentity.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_backendidentity",
       "community": 108,
-      "norm_label": "backendidentity.php"
+      "norm_label": "backendidentity.php",
+      "id": "models_backendidentity"
     },
     {
       "label": "BackendIdentity",
@@ -606,9 +996,9 @@
       "source_file": "wordpress-agent-plugin/models/BackendIdentity.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_backendidentity_backendidentity",
       "community": 108,
-      "norm_label": "backendidentity"
+      "norm_label": "backendidentity",
+      "id": "models_backendidentity_backendidentity"
     },
     {
       "label": ".__construct()",
@@ -616,9 +1006,9 @@
       "source_file": "wordpress-agent-plugin/models/BackendIdentity.php",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "models_backendidentity_backendidentity_construct",
       "community": 108,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_backendidentity_backendidentity_construct"
     },
     {
       "label": ".toArray()",
@@ -626,9 +1016,9 @@
       "source_file": "wordpress-agent-plugin/models/BackendIdentity.php",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "models_backendidentity_backendidentity_toarray",
       "community": 108,
-      "norm_label": ".toarray()"
+      "norm_label": ".toarray()",
+      "id": "models_backendidentity_backendidentity_toarray"
     },
     {
       "label": ".getBackendVersion()",
@@ -636,9 +1026,9 @@
       "source_file": "wordpress-agent-plugin/models/BackendIdentity.php",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "models_backendidentity_backendidentity_getbackendversion",
       "community": 108,
-      "norm_label": ".getbackendversion()"
+      "norm_label": ".getbackendversion()",
+      "id": "models_backendidentity_backendidentity_getbackendversion"
     },
     {
       "label": ".getApiVersion()",
@@ -646,9 +1036,9 @@
       "source_file": "wordpress-agent-plugin/models/BackendIdentity.php",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "models_backendidentity_backendidentity_getapiversion",
       "community": 108,
-      "norm_label": ".getapiversion()"
+      "norm_label": ".getapiversion()",
+      "id": "models_backendidentity_backendidentity_getapiversion"
     },
     {
       "label": ".getProtocolVersion()",
@@ -656,9 +1046,9 @@
       "source_file": "wordpress-agent-plugin/models/BackendIdentity.php",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "models_backendidentity_backendidentity_getprotocolversion",
       "community": 108,
-      "norm_label": ".getprotocolversion()"
+      "norm_label": ".getprotocolversion()",
+      "id": "models_backendidentity_backendidentity_getprotocolversion"
     },
     {
       "label": ".getCapabilities()",
@@ -666,9 +1056,9 @@
       "source_file": "wordpress-agent-plugin/models/BackendIdentity.php",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "models_backendidentity_backendidentity_getcapabilities",
       "community": 108,
-      "norm_label": ".getcapabilities()"
+      "norm_label": ".getcapabilities()",
+      "id": "models_backendidentity_backendidentity_getcapabilities"
     },
     {
       "label": "ConnectionResult.php",
@@ -676,9 +1066,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionResult.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_connectionresult",
       "community": 62,
-      "norm_label": "connectionresult.php"
+      "norm_label": "connectionresult.php",
+      "id": "models_connectionresult"
     },
     {
       "label": "ConnectionResult",
@@ -686,9 +1076,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionResult.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_connectionresult_connectionresult",
       "community": 62,
-      "norm_label": "connectionresult"
+      "norm_label": "connectionresult",
+      "id": "models_connectionresult_connectionresult"
     },
     {
       "label": ".__construct()",
@@ -696,9 +1086,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionResult.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "models_connectionresult_connectionresult_construct",
       "community": 62,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_connectionresult_connectionresult_construct"
     },
     {
       "label": "ConnectionStatus",
@@ -706,9 +1096,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionResult.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_models_connectionresult_php_connectionstatus",
       "community": 62,
-      "norm_label": "connectionstatus"
+      "norm_label": "connectionstatus",
+      "id": "wordpress_agent_plugin_models_connectionresult_php_connectionstatus"
     },
     {
       "label": ".isSuccess()",
@@ -716,9 +1106,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionResult.php",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "models_connectionresult_connectionresult_issuccess",
       "community": 62,
-      "norm_label": ".issuccess()"
+      "norm_label": ".issuccess()",
+      "id": "models_connectionresult_connectionresult_issuccess"
     },
     {
       "label": ".getMessage()",
@@ -726,9 +1116,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionResult.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "models_connectionresult_connectionresult_getmessage",
       "community": 62,
-      "norm_label": ".getmessage()"
+      "norm_label": ".getmessage()",
+      "id": "models_connectionresult_connectionresult_getmessage"
     },
     {
       "label": ".getStatus()",
@@ -736,9 +1126,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionResult.php",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "models_connectionresult_connectionresult_getstatus",
       "community": 62,
-      "norm_label": ".getstatus()"
+      "norm_label": ".getstatus()",
+      "id": "models_connectionresult_connectionresult_getstatus"
     },
     {
       "label": "ConnectionStatus.php",
@@ -746,9 +1136,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionStatus.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_connectionstatus",
       "community": 71,
-      "norm_label": "connectionstatus.php"
+      "norm_label": "connectionstatus.php",
+      "id": "models_connectionstatus"
     },
     {
       "label": "ConnectionStatus",
@@ -756,9 +1146,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionStatus.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_connectionstatus_connectionstatus",
       "community": 71,
-      "norm_label": "connectionstatus"
+      "norm_label": "connectionstatus",
+      "id": "models_connectionstatus_connectionstatus"
     },
     {
       "label": ".__construct()",
@@ -766,9 +1156,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionStatus.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "models_connectionstatus_connectionstatus_construct",
       "community": 71,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_connectionstatus_connectionstatus_construct"
     },
     {
       "label": ".getValue()",
@@ -776,9 +1166,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionStatus.php",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "models_connectionstatus_connectionstatus_getvalue",
       "community": 71,
-      "norm_label": ".getvalue()"
+      "norm_label": ".getvalue()",
+      "id": "models_connectionstatus_connectionstatus_getvalue"
     },
     {
       "label": ".getLabel()",
@@ -786,9 +1176,9 @@
       "source_file": "wordpress-agent-plugin/models/ConnectionStatus.php",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "models_connectionstatus_connectionstatus_getlabel",
       "community": 71,
-      "norm_label": ".getlabel()"
+      "norm_label": ".getlabel()",
+      "id": "models_connectionstatus_connectionstatus_getlabel"
     },
     {
       "label": "HandshakeResult.php",
@@ -796,9 +1186,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_handshakeresult",
       "community": 85,
-      "norm_label": "handshakeresult.php"
+      "norm_label": "handshakeresult.php",
+      "id": "models_handshakeresult"
     },
     {
       "label": "HandshakeResult",
@@ -806,9 +1196,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_handshakeresult_handshakeresult",
       "community": 85,
-      "norm_label": "handshakeresult"
+      "norm_label": "handshakeresult",
+      "id": "models_handshakeresult_handshakeresult"
     },
     {
       "label": ".__construct()",
@@ -816,9 +1206,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "models_handshakeresult_handshakeresult_construct",
       "community": 85,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_handshakeresult_handshakeresult_construct"
     },
     {
       "label": "ConnectionStatus",
@@ -826,9 +1216,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_models_handshakeresult_php_connectionstatus",
       "community": 85,
-      "norm_label": "connectionstatus"
+      "norm_label": "connectionstatus",
+      "id": "wordpress_agent_plugin_models_handshakeresult_php_connectionstatus"
     },
     {
       "label": "RegistrationStatus",
@@ -836,9 +1226,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_models_handshakeresult_php_registrationstatus",
       "community": 85,
-      "norm_label": "registrationstatus"
+      "norm_label": "registrationstatus",
+      "id": "wordpress_agent_plugin_models_handshakeresult_php_registrationstatus"
     },
     {
       "label": ".isSuccess()",
@@ -846,9 +1236,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "models_handshakeresult_handshakeresult_issuccess",
       "community": 85,
-      "norm_label": ".issuccess()"
+      "norm_label": ".issuccess()",
+      "id": "models_handshakeresult_handshakeresult_issuccess"
     },
     {
       "label": ".getMessage()",
@@ -856,9 +1246,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "models_handshakeresult_handshakeresult_getmessage",
       "community": 85,
-      "norm_label": ".getmessage()"
+      "norm_label": ".getmessage()",
+      "id": "models_handshakeresult_handshakeresult_getmessage"
     },
     {
       "label": ".getConnectionStatus()",
@@ -866,9 +1256,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "models_handshakeresult_handshakeresult_getconnectionstatus",
       "community": 85,
-      "norm_label": ".getconnectionstatus()"
+      "norm_label": ".getconnectionstatus()",
+      "id": "models_handshakeresult_handshakeresult_getconnectionstatus"
     },
     {
       "label": ".getRegistrationStatus()",
@@ -876,9 +1266,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "models_handshakeresult_handshakeresult_getregistrationstatus",
       "community": 85,
-      "norm_label": ".getregistrationstatus()"
+      "norm_label": ".getregistrationstatus()",
+      "id": "models_handshakeresult_handshakeresult_getregistrationstatus"
     },
     {
       "label": ".getMetadata()",
@@ -886,9 +1276,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "models_handshakeresult_handshakeresult_getmetadata",
       "community": 85,
-      "norm_label": ".getmetadata()"
+      "norm_label": ".getmetadata()",
+      "id": "models_handshakeresult_handshakeresult_getmetadata"
     },
     {
       "label": ".getErrorCode()",
@@ -896,9 +1286,9 @@
       "source_file": "wordpress-agent-plugin/models/HandshakeResult.php",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "models_handshakeresult_handshakeresult_geterrorcode",
       "community": 85,
-      "norm_label": ".geterrorcode()"
+      "norm_label": ".geterrorcode()",
+      "id": "models_handshakeresult_handshakeresult_geterrorcode"
     },
     {
       "label": "HeartbeatResult.php",
@@ -906,9 +1296,9 @@
       "source_file": "wordpress-agent-plugin/models/HeartbeatResult.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_heartbeatresult",
       "community": 107,
-      "norm_label": "heartbeatresult.php"
+      "norm_label": "heartbeatresult.php",
+      "id": "models_heartbeatresult"
     },
     {
       "label": "HeartbeatResult",
@@ -916,9 +1306,9 @@
       "source_file": "wordpress-agent-plugin/models/HeartbeatResult.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_heartbeatresult_heartbeatresult",
       "community": 107,
-      "norm_label": "heartbeatresult"
+      "norm_label": "heartbeatresult",
+      "id": "models_heartbeatresult_heartbeatresult"
     },
     {
       "label": ".__construct()",
@@ -926,9 +1316,9 @@
       "source_file": "wordpress-agent-plugin/models/HeartbeatResult.php",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "models_heartbeatresult_heartbeatresult_construct",
       "community": 107,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_heartbeatresult_heartbeatresult_construct"
     },
     {
       "label": "PresenceStatus",
@@ -936,9 +1326,9 @@
       "source_file": "wordpress-agent-plugin/models/HeartbeatResult.php",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_models_heartbeatresult_php_presencestatus",
       "community": 107,
-      "norm_label": "presencestatus"
+      "norm_label": "presencestatus",
+      "id": "wordpress_agent_plugin_models_heartbeatresult_php_presencestatus"
     },
     {
       "label": ".isSuccess()",
@@ -946,9 +1336,9 @@
       "source_file": "wordpress-agent-plugin/models/HeartbeatResult.php",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "models_heartbeatresult_heartbeatresult_issuccess",
       "community": 107,
-      "norm_label": ".issuccess()"
+      "norm_label": ".issuccess()",
+      "id": "models_heartbeatresult_heartbeatresult_issuccess"
     },
     {
       "label": ".getMessage()",
@@ -956,9 +1346,9 @@
       "source_file": "wordpress-agent-plugin/models/HeartbeatResult.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "models_heartbeatresult_heartbeatresult_getmessage",
       "community": 107,
-      "norm_label": ".getmessage()"
+      "norm_label": ".getmessage()",
+      "id": "models_heartbeatresult_heartbeatresult_getmessage"
     },
     {
       "label": ".getPresenceStatus()",
@@ -966,9 +1356,9 @@
       "source_file": "wordpress-agent-plugin/models/HeartbeatResult.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "models_heartbeatresult_heartbeatresult_getpresencestatus",
       "community": 107,
-      "norm_label": ".getpresencestatus()"
+      "norm_label": ".getpresencestatus()",
+      "id": "models_heartbeatresult_heartbeatresult_getpresencestatus"
     },
     {
       "label": ".getLatencyMs()",
@@ -976,9 +1366,9 @@
       "source_file": "wordpress-agent-plugin/models/HeartbeatResult.php",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "models_heartbeatresult_heartbeatresult_getlatencyms",
       "community": 107,
-      "norm_label": ".getlatencyms()"
+      "norm_label": ".getlatencyms()",
+      "id": "models_heartbeatresult_heartbeatresult_getlatencyms"
     },
     {
       "label": "PluginIdentity.php",
@@ -986,9 +1376,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_pluginidentity",
       "community": 15,
-      "norm_label": "pluginidentity.php"
+      "norm_label": "pluginidentity.php",
+      "id": "models_pluginidentity"
     },
     {
       "label": "PluginIdentity",
@@ -996,9 +1386,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity",
       "community": 15,
-      "norm_label": "pluginidentity"
+      "norm_label": "pluginidentity",
+      "id": "models_pluginidentity_pluginidentity"
     },
     {
       "label": ".__construct()",
@@ -1006,9 +1396,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_construct",
       "community": 15,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_pluginidentity_pluginidentity_construct"
     },
     {
       "label": ".toArray()",
@@ -1016,9 +1406,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_toarray",
       "community": 15,
-      "norm_label": ".toarray()"
+      "norm_label": ".toarray()",
+      "id": "models_pluginidentity_pluginidentity_toarray"
     },
     {
       "label": ".getPluginUuid()",
@@ -1026,9 +1416,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_getpluginuuid",
       "community": 15,
-      "norm_label": ".getpluginuuid()"
+      "norm_label": ".getpluginuuid()",
+      "id": "models_pluginidentity_pluginidentity_getpluginuuid"
     },
     {
       "label": ".getInstallationUuid()",
@@ -1036,9 +1426,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L52",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_getinstallationuuid",
       "community": 15,
-      "norm_label": ".getinstallationuuid()"
+      "norm_label": ".getinstallationuuid()",
+      "id": "models_pluginidentity_pluginidentity_getinstallationuuid"
     },
     {
       "label": ".getPluginVersion()",
@@ -1046,9 +1436,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L53",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_getpluginversion",
       "community": 15,
-      "norm_label": ".getpluginversion()"
+      "norm_label": ".getpluginversion()",
+      "id": "models_pluginidentity_pluginidentity_getpluginversion"
     },
     {
       "label": ".getWpVersion()",
@@ -1056,9 +1446,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_getwpversion",
       "community": 15,
-      "norm_label": ".getwpversion()"
+      "norm_label": ".getwpversion()",
+      "id": "models_pluginidentity_pluginidentity_getwpversion"
     },
     {
       "label": ".getPhpVersion()",
@@ -1066,9 +1456,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L55",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_getphpversion",
       "community": 15,
-      "norm_label": ".getphpversion()"
+      "norm_label": ".getphpversion()",
+      "id": "models_pluginidentity_pluginidentity_getphpversion"
     },
     {
       "label": ".getSiteUrl()",
@@ -1076,9 +1466,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L56",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_getsiteurl",
       "community": 15,
-      "norm_label": ".getsiteurl()"
+      "norm_label": ".getsiteurl()",
+      "id": "models_pluginidentity_pluginidentity_getsiteurl"
     },
     {
       "label": ".getHomeUrl()",
@@ -1086,9 +1476,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_gethomeurl",
       "community": 15,
-      "norm_label": ".gethomeurl()"
+      "norm_label": ".gethomeurl()",
+      "id": "models_pluginidentity_pluginidentity_gethomeurl"
     },
     {
       "label": ".getSiteName()",
@@ -1096,9 +1486,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_getsitename",
       "community": 15,
-      "norm_label": ".getsitename()"
+      "norm_label": ".getsitename()",
+      "id": "models_pluginidentity_pluginidentity_getsitename"
     },
     {
       "label": ".getGeneratedAt()",
@@ -1106,9 +1496,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L59",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_getgeneratedat",
       "community": 15,
-      "norm_label": ".getgeneratedat()"
+      "norm_label": ".getgeneratedat()",
+      "id": "models_pluginidentity_pluginidentity_getgeneratedat"
     },
     {
       "label": ".setInstallationUuid()",
@@ -1116,9 +1506,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setinstallationuuid",
       "community": 15,
-      "norm_label": ".setinstallationuuid()"
+      "norm_label": ".setinstallationuuid()",
+      "id": "models_pluginidentity_pluginidentity_setinstallationuuid"
     },
     {
       "label": ".setPluginUuid()",
@@ -1126,9 +1516,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setpluginuuid",
       "community": 15,
-      "norm_label": ".setpluginuuid()"
+      "norm_label": ".setpluginuuid()",
+      "id": "models_pluginidentity_pluginidentity_setpluginuuid"
     },
     {
       "label": ".setPluginVersion()",
@@ -1136,9 +1526,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L63",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setpluginversion",
       "community": 15,
-      "norm_label": ".setpluginversion()"
+      "norm_label": ".setpluginversion()",
+      "id": "models_pluginidentity_pluginidentity_setpluginversion"
     },
     {
       "label": ".setWpVersion()",
@@ -1146,9 +1536,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L64",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setwpversion",
       "community": 15,
-      "norm_label": ".setwpversion()"
+      "norm_label": ".setwpversion()",
+      "id": "models_pluginidentity_pluginidentity_setwpversion"
     },
     {
       "label": ".setPhpVersion()",
@@ -1156,9 +1546,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L65",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setphpversion",
       "community": 15,
-      "norm_label": ".setphpversion()"
+      "norm_label": ".setphpversion()",
+      "id": "models_pluginidentity_pluginidentity_setphpversion"
     },
     {
       "label": ".setSiteUrl()",
@@ -1166,9 +1556,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L66",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setsiteurl",
       "community": 15,
-      "norm_label": ".setsiteurl()"
+      "norm_label": ".setsiteurl()",
+      "id": "models_pluginidentity_pluginidentity_setsiteurl"
     },
     {
       "label": ".setHomeUrl()",
@@ -1176,9 +1566,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L67",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_sethomeurl",
       "community": 15,
-      "norm_label": ".sethomeurl()"
+      "norm_label": ".sethomeurl()",
+      "id": "models_pluginidentity_pluginidentity_sethomeurl"
     },
     {
       "label": ".setSiteName()",
@@ -1186,9 +1576,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setsitename",
       "community": 15,
-      "norm_label": ".setsitename()"
+      "norm_label": ".setsitename()",
+      "id": "models_pluginidentity_pluginidentity_setsitename"
     },
     {
       "label": ".setTimezone()",
@@ -1196,9 +1586,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L69",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_settimezone",
       "community": 15,
-      "norm_label": ".settimezone()"
+      "norm_label": ".settimezone()",
+      "id": "models_pluginidentity_pluginidentity_settimezone"
     },
     {
       "label": ".setLanguage()",
@@ -1206,9 +1596,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L70",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setlanguage",
       "community": 15,
-      "norm_label": ".setlanguage()"
+      "norm_label": ".setlanguage()",
+      "id": "models_pluginidentity_pluginidentity_setlanguage"
     },
     {
       "label": ".setEnvironment()",
@@ -1216,9 +1606,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L71",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setenvironment",
       "community": 15,
-      "norm_label": ".setenvironment()"
+      "norm_label": ".setenvironment()",
+      "id": "models_pluginidentity_pluginidentity_setenvironment"
     },
     {
       "label": ".setGeneratedAt()",
@@ -1226,9 +1616,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginIdentity.php",
       "source_location": "L72",
       "_origin": "ast",
-      "id": "models_pluginidentity_pluginidentity_setgeneratedat",
       "community": 15,
-      "norm_label": ".setgeneratedat()"
+      "norm_label": ".setgeneratedat()",
+      "id": "models_pluginidentity_pluginidentity_setgeneratedat"
     },
     {
       "label": "PluginMetadata.php",
@@ -1236,9 +1626,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_pluginmetadata",
       "community": 40,
-      "norm_label": "pluginmetadata.php"
+      "norm_label": "pluginmetadata.php",
+      "id": "models_pluginmetadata"
     },
     {
       "label": "PluginMetadata",
@@ -1246,9 +1636,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata",
       "community": 40,
-      "norm_label": "pluginmetadata"
+      "norm_label": "pluginmetadata",
+      "id": "models_pluginmetadata_pluginmetadata"
     },
     {
       "label": ".__construct()",
@@ -1256,9 +1646,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_construct",
       "community": 40,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_pluginmetadata_pluginmetadata_construct"
     },
     {
       "label": ".toArray()",
@@ -1266,9 +1656,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_toarray",
       "community": 40,
-      "norm_label": ".toarray()"
+      "norm_label": ".toarray()",
+      "id": "models_pluginmetadata_pluginmetadata_toarray"
     },
     {
       "label": ".getUuid()",
@@ -1276,9 +1666,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_getuuid",
       "community": 40,
-      "norm_label": ".getuuid()"
+      "norm_label": ".getuuid()",
+      "id": "models_pluginmetadata_pluginmetadata_getuuid"
     },
     {
       "label": ".getPluginVersion()",
@@ -1286,9 +1676,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_getpluginversion",
       "community": 40,
-      "norm_label": ".getpluginversion()"
+      "norm_label": ".getpluginversion()",
+      "id": "models_pluginmetadata_pluginmetadata_getpluginversion"
     },
     {
       "label": ".getWpVersion()",
@@ -1296,9 +1686,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_getwpversion",
       "community": 40,
-      "norm_label": ".getwpversion()"
+      "norm_label": ".getwpversion()",
+      "id": "models_pluginmetadata_pluginmetadata_getwpversion"
     },
     {
       "label": ".getPhpVersion()",
@@ -1306,9 +1696,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_getphpversion",
       "community": 40,
-      "norm_label": ".getphpversion()"
+      "norm_label": ".getphpversion()",
+      "id": "models_pluginmetadata_pluginmetadata_getphpversion"
     },
     {
       "label": ".getInstalledAt()",
@@ -1316,9 +1706,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_getinstalledat",
       "community": 40,
-      "norm_label": ".getinstalledat()"
+      "norm_label": ".getinstalledat()",
+      "id": "models_pluginmetadata_pluginmetadata_getinstalledat"
     },
     {
       "label": ".setUuid()",
@@ -1326,9 +1716,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_setuuid",
       "community": 40,
-      "norm_label": ".setuuid()"
+      "norm_label": ".setuuid()",
+      "id": "models_pluginmetadata_pluginmetadata_setuuid"
     },
     {
       "label": ".setPluginVersion()",
@@ -1336,9 +1726,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_setpluginversion",
       "community": 40,
-      "norm_label": ".setpluginversion()"
+      "norm_label": ".setpluginversion()",
+      "id": "models_pluginmetadata_pluginmetadata_setpluginversion"
     },
     {
       "label": ".setWpVersion()",
@@ -1346,9 +1736,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_setwpversion",
       "community": 40,
-      "norm_label": ".setwpversion()"
+      "norm_label": ".setwpversion()",
+      "id": "models_pluginmetadata_pluginmetadata_setwpversion"
     },
     {
       "label": ".setPhpVersion()",
@@ -1356,9 +1746,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_setphpversion",
       "community": 40,
-      "norm_label": ".setphpversion()"
+      "norm_label": ".setphpversion()",
+      "id": "models_pluginmetadata_pluginmetadata_setphpversion"
     },
     {
       "label": ".setInstalledAt()",
@@ -1366,9 +1756,9 @@
       "source_file": "wordpress-agent-plugin/models/PluginMetadata.php",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "models_pluginmetadata_pluginmetadata_setinstalledat",
       "community": 40,
-      "norm_label": ".setinstalledat()"
+      "norm_label": ".setinstalledat()",
+      "id": "models_pluginmetadata_pluginmetadata_setinstalledat"
     },
     {
       "label": "PresenceStatus.php",
@@ -1376,9 +1766,9 @@
       "source_file": "wordpress-agent-plugin/models/PresenceStatus.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_presencestatus",
       "community": 114,
-      "norm_label": "presencestatus.php"
+      "norm_label": "presencestatus.php",
+      "id": "models_presencestatus"
     },
     {
       "label": "PresenceStatus",
@@ -1386,9 +1776,9 @@
       "source_file": "wordpress-agent-plugin/models/PresenceStatus.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_presencestatus_presencestatus",
       "community": 114,
-      "norm_label": "presencestatus"
+      "norm_label": "presencestatus",
+      "id": "models_presencestatus_presencestatus"
     },
     {
       "label": ".__construct()",
@@ -1396,9 +1786,9 @@
       "source_file": "wordpress-agent-plugin/models/PresenceStatus.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "models_presencestatus_presencestatus_construct",
       "community": 114,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_presencestatus_presencestatus_construct"
     },
     {
       "label": ".getValue()",
@@ -1406,9 +1796,9 @@
       "source_file": "wordpress-agent-plugin/models/PresenceStatus.php",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "models_presencestatus_presencestatus_getvalue",
       "community": 114,
-      "norm_label": ".getvalue()"
+      "norm_label": ".getvalue()",
+      "id": "models_presencestatus_presencestatus_getvalue"
     },
     {
       "label": ".getLabel()",
@@ -1416,9 +1806,9 @@
       "source_file": "wordpress-agent-plugin/models/PresenceStatus.php",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "models_presencestatus_presencestatus_getlabel",
       "community": 114,
-      "norm_label": ".getlabel()"
+      "norm_label": ".getlabel()",
+      "id": "models_presencestatus_presencestatus_getlabel"
     },
     {
       "label": "ProtocolVersion.php",
@@ -1426,9 +1816,9 @@
       "source_file": "wordpress-agent-plugin/models/ProtocolVersion.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_protocolversion",
       "community": 112,
-      "norm_label": "protocolversion.php"
+      "norm_label": "protocolversion.php",
+      "id": "models_protocolversion"
     },
     {
       "label": "ProtocolVersion",
@@ -1436,9 +1826,9 @@
       "source_file": "wordpress-agent-plugin/models/ProtocolVersion.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_protocolversion_protocolversion",
       "community": 112,
-      "norm_label": "protocolversion"
+      "norm_label": "protocolversion",
+      "id": "models_protocolversion_protocolversion"
     },
     {
       "label": ".__construct()",
@@ -1446,9 +1836,9 @@
       "source_file": "wordpress-agent-plugin/models/ProtocolVersion.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "models_protocolversion_protocolversion_construct",
       "community": 112,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_protocolversion_protocolversion_construct"
     },
     {
       "label": ".getValue()",
@@ -1456,9 +1846,9 @@
       "source_file": "wordpress-agent-plugin/models/ProtocolVersion.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "models_protocolversion_protocolversion_getvalue",
       "community": 112,
-      "norm_label": ".getvalue()"
+      "norm_label": ".getvalue()",
+      "id": "models_protocolversion_protocolversion_getvalue"
     },
     {
       "label": "RegistrationData.php",
@@ -1466,9 +1856,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationData.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_registrationdata",
       "community": 55,
-      "norm_label": "registrationdata.php"
+      "norm_label": "registrationdata.php",
+      "id": "models_registrationdata"
     },
     {
       "label": "RegistrationData",
@@ -1476,9 +1866,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationData.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_registrationdata_registrationdata",
       "community": 55,
-      "norm_label": "registrationdata"
+      "norm_label": "registrationdata",
+      "id": "models_registrationdata_registrationdata"
     },
     {
       "label": ".__construct()",
@@ -1486,9 +1876,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationData.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "models_registrationdata_registrationdata_construct",
       "community": 55,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_registrationdata_registrationdata_construct"
     },
     {
       "label": ".toArray()",
@@ -1496,9 +1886,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationData.php",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "models_registrationdata_registrationdata_toarray",
       "community": 55,
-      "norm_label": ".toarray()"
+      "norm_label": ".toarray()",
+      "id": "models_registrationdata_registrationdata_toarray"
     },
     {
       "label": ".getRegistrationToken()",
@@ -1506,9 +1896,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationData.php",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "models_registrationdata_registrationdata_getregistrationtoken",
       "community": 55,
-      "norm_label": ".getregistrationtoken()"
+      "norm_label": ".getregistrationtoken()",
+      "id": "models_registrationdata_registrationdata_getregistrationtoken"
     },
     {
       "label": ".getSiteId()",
@@ -1516,9 +1906,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationData.php",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "models_registrationdata_registrationdata_getsiteid",
       "community": 55,
-      "norm_label": ".getsiteid()"
+      "norm_label": ".getsiteid()",
+      "id": "models_registrationdata_registrationdata_getsiteid"
     },
     {
       "label": ".getBackendVersion()",
@@ -1526,9 +1916,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationData.php",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "models_registrationdata_registrationdata_getbackendversion",
       "community": 55,
-      "norm_label": ".getbackendversion()"
+      "norm_label": ".getbackendversion()",
+      "id": "models_registrationdata_registrationdata_getbackendversion"
     },
     {
       "label": ".getApiVersion()",
@@ -1536,9 +1926,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationData.php",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "models_registrationdata_registrationdata_getapiversion",
       "community": 55,
-      "norm_label": ".getapiversion()"
+      "norm_label": ".getapiversion()",
+      "id": "models_registrationdata_registrationdata_getapiversion"
     },
     {
       "label": ".getCapabilities()",
@@ -1546,9 +1936,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationData.php",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "models_registrationdata_registrationdata_getcapabilities",
       "community": 55,
-      "norm_label": ".getcapabilities()"
+      "norm_label": ".getcapabilities()",
+      "id": "models_registrationdata_registrationdata_getcapabilities"
     },
     {
       "label": "RegistrationResult.php",
@@ -1556,9 +1946,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_registrationresult",
       "community": 87,
-      "norm_label": "registrationresult.php"
+      "norm_label": "registrationresult.php",
+      "id": "models_registrationresult"
     },
     {
       "label": "RegistrationResult",
@@ -1566,9 +1956,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_registrationresult_registrationresult",
       "community": 87,
-      "norm_label": "registrationresult"
+      "norm_label": "registrationresult",
+      "id": "models_registrationresult_registrationresult"
     },
     {
       "label": ".__construct()",
@@ -1576,9 +1966,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "models_registrationresult_registrationresult_construct",
       "community": 87,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_registrationresult_registrationresult_construct"
     },
     {
       "label": "ConnectionStatus",
@@ -1586,9 +1976,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_models_registrationresult_php_connectionstatus",
       "community": 87,
-      "norm_label": "connectionstatus"
+      "norm_label": "connectionstatus",
+      "id": "wordpress_agent_plugin_models_registrationresult_php_connectionstatus"
     },
     {
       "label": "RegistrationStatus",
@@ -1596,9 +1986,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_models_registrationresult_php_registrationstatus",
       "community": 87,
-      "norm_label": "registrationstatus"
+      "norm_label": "registrationstatus",
+      "id": "wordpress_agent_plugin_models_registrationresult_php_registrationstatus"
     },
     {
       "label": ".isSuccess()",
@@ -1606,9 +1996,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "models_registrationresult_registrationresult_issuccess",
       "community": 87,
-      "norm_label": ".issuccess()"
+      "norm_label": ".issuccess()",
+      "id": "models_registrationresult_registrationresult_issuccess"
     },
     {
       "label": ".getMessage()",
@@ -1616,9 +2006,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "models_registrationresult_registrationresult_getmessage",
       "community": 87,
-      "norm_label": ".getmessage()"
+      "norm_label": ".getmessage()",
+      "id": "models_registrationresult_registrationresult_getmessage"
     },
     {
       "label": ".getConnectionStatus()",
@@ -1626,9 +2016,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "models_registrationresult_registrationresult_getconnectionstatus",
       "community": 87,
-      "norm_label": ".getconnectionstatus()"
+      "norm_label": ".getconnectionstatus()",
+      "id": "models_registrationresult_registrationresult_getconnectionstatus"
     },
     {
       "label": ".getRegistrationStatus()",
@@ -1636,9 +2026,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "models_registrationresult_registrationresult_getregistrationstatus",
       "community": 87,
-      "norm_label": ".getregistrationstatus()"
+      "norm_label": ".getregistrationstatus()",
+      "id": "models_registrationresult_registrationresult_getregistrationstatus"
     },
     {
       "label": ".getMetadata()",
@@ -1646,9 +2036,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "models_registrationresult_registrationresult_getmetadata",
       "community": 87,
-      "norm_label": ".getmetadata()"
+      "norm_label": ".getmetadata()",
+      "id": "models_registrationresult_registrationresult_getmetadata"
     },
     {
       "label": ".getErrorCode()",
@@ -1656,9 +2046,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationResult.php",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "models_registrationresult_registrationresult_geterrorcode",
       "community": 87,
-      "norm_label": ".geterrorcode()"
+      "norm_label": ".geterrorcode()",
+      "id": "models_registrationresult_registrationresult_geterrorcode"
     },
     {
       "label": "RegistrationStatus.php",
@@ -1666,9 +2056,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationStatus.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "models_registrationstatus",
       "community": 111,
-      "norm_label": "registrationstatus.php"
+      "norm_label": "registrationstatus.php",
+      "id": "models_registrationstatus"
     },
     {
       "label": "RegistrationStatus",
@@ -1676,9 +2066,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationStatus.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "models_registrationstatus_registrationstatus",
       "community": 111,
-      "norm_label": "registrationstatus"
+      "norm_label": "registrationstatus",
+      "id": "models_registrationstatus_registrationstatus"
     },
     {
       "label": ".__construct()",
@@ -1686,9 +2076,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationStatus.php",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "models_registrationstatus_registrationstatus_construct",
       "community": 111,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "models_registrationstatus_registrationstatus_construct"
     },
     {
       "label": ".getValue()",
@@ -1696,9 +2086,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationStatus.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "models_registrationstatus_registrationstatus_getvalue",
       "community": 111,
-      "norm_label": ".getvalue()"
+      "norm_label": ".getvalue()",
+      "id": "models_registrationstatus_registrationstatus_getvalue"
     },
     {
       "label": ".getLabel()",
@@ -1706,9 +2096,9 @@
       "source_file": "wordpress-agent-plugin/models/RegistrationStatus.php",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "models_registrationstatus_registrationstatus_getlabel",
       "community": 111,
-      "norm_label": ".getlabel()"
+      "norm_label": ".getlabel()",
+      "id": "models_registrationstatus_registrationstatus_getlabel"
     },
     {
       "label": "SettingsRepository.php",
@@ -1716,9 +2106,9 @@
       "source_file": "wordpress-agent-plugin/repository/SettingsRepository.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "repository_settingsrepository",
       "community": 74,
-      "norm_label": "settingsrepository.php"
+      "norm_label": "settingsrepository.php",
+      "id": "repository_settingsrepository"
     },
     {
       "label": "SettingsRepository",
@@ -1726,9 +2116,9 @@
       "source_file": "wordpress-agent-plugin/repository/SettingsRepository.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "repository_settingsrepository_settingsrepository",
       "community": 74,
-      "norm_label": "settingsrepository"
+      "norm_label": "settingsrepository",
+      "id": "repository_settingsrepository_settingsrepository"
     },
     {
       "label": ".getSettings()",
@@ -1736,9 +2126,9 @@
       "source_file": "wordpress-agent-plugin/repository/SettingsRepository.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "repository_settingsrepository_settingsrepository_getsettings",
       "community": 74,
-      "norm_label": ".getsettings()"
+      "norm_label": ".getsettings()",
+      "id": "repository_settingsrepository_settingsrepository_getsettings"
     },
     {
       "label": ".saveSettings()",
@@ -1746,9 +2136,9 @@
       "source_file": "wordpress-agent-plugin/repository/SettingsRepository.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "repository_settingsrepository_settingsrepository_savesettings",
       "community": 74,
-      "norm_label": ".savesettings()"
+      "norm_label": ".savesettings()",
+      "id": "repository_settingsrepository_settingsrepository_savesettings"
     },
     {
       "label": ".deleteSettings()",
@@ -1756,9 +2146,9 @@
       "source_file": "wordpress-agent-plugin/repository/SettingsRepository.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "repository_settingsrepository_settingsrepository_deletesettings",
       "community": 74,
-      "norm_label": ".deletesettings()"
+      "norm_label": ".deletesettings()",
+      "id": "repository_settingsrepository_settingsrepository_deletesettings"
     },
     {
       "label": "Nonce.php",
@@ -1766,9 +2156,9 @@
       "source_file": "wordpress-agent-plugin/security/Nonce.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "security_nonce",
       "community": 34,
-      "norm_label": "nonce.php"
+      "norm_label": "nonce.php",
+      "id": "security_nonce"
     },
     {
       "label": "Nonce",
@@ -1776,9 +2166,9 @@
       "source_file": "wordpress-agent-plugin/security/Nonce.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "security_nonce_nonce",
       "community": 34,
-      "norm_label": "nonce"
+      "norm_label": "nonce",
+      "id": "security_nonce_nonce"
     },
     {
       "label": ".create()",
@@ -1786,9 +2176,9 @@
       "source_file": "wordpress-agent-plugin/security/Nonce.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "security_nonce_nonce_create",
       "community": 34,
-      "norm_label": ".create()"
+      "norm_label": ".create()",
+      "id": "security_nonce_nonce_create"
     },
     {
       "label": ".verify()",
@@ -1796,9 +2186,9 @@
       "source_file": "wordpress-agent-plugin/security/Nonce.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "security_nonce_nonce_verify",
       "community": 34,
-      "norm_label": ".verify()"
+      "norm_label": ".verify()",
+      "id": "security_nonce_nonce_verify"
     },
     {
       "label": "Permissions.php",
@@ -1806,9 +2196,9 @@
       "source_file": "wordpress-agent-plugin/security/Permissions.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "security_permissions",
       "community": 34,
-      "norm_label": "permissions.php"
+      "norm_label": "permissions.php",
+      "id": "security_permissions"
     },
     {
       "label": "Permissions",
@@ -1816,9 +2206,9 @@
       "source_file": "wordpress-agent-plugin/security/Permissions.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "security_permissions_permissions",
       "community": 34,
-      "norm_label": "permissions"
+      "norm_label": "permissions",
+      "id": "security_permissions_permissions"
     },
     {
       "label": ".canManageSettings()",
@@ -1826,9 +2216,9 @@
       "source_file": "wordpress-agent-plugin/security/Permissions.php",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "security_permissions_permissions_canmanagesettings",
       "community": 34,
-      "norm_label": ".canmanagesettings()"
+      "norm_label": ".canmanagesettings()",
+      "id": "security_permissions_permissions_canmanagesettings"
     },
     {
       "label": "SecretStoreInterface.php",
@@ -1836,9 +2226,9 @@
       "source_file": "wordpress-agent-plugin/security/SecretStoreInterface.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "security_secretstoreinterface",
       "community": 113,
-      "norm_label": "secretstoreinterface.php"
+      "norm_label": "secretstoreinterface.php",
+      "id": "security_secretstoreinterface"
     },
     {
       "label": "getSecret()",
@@ -1846,9 +2236,9 @@
       "source_file": "wordpress-agent-plugin/security/SecretStoreInterface.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "security_secretstoreinterface_getsecret",
       "community": 113,
-      "norm_label": "getsecret()"
+      "norm_label": "getsecret()",
+      "id": "security_secretstoreinterface_getsecret"
     },
     {
       "label": "setSecret()",
@@ -1856,9 +2246,9 @@
       "source_file": "wordpress-agent-plugin/security/SecretStoreInterface.php",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "security_secretstoreinterface_setsecret",
       "community": 113,
-      "norm_label": "setsecret()"
+      "norm_label": "setsecret()",
+      "id": "security_secretstoreinterface_setsecret"
     },
     {
       "label": "deleteSecret()",
@@ -1866,9 +2256,9 @@
       "source_file": "wordpress-agent-plugin/security/SecretStoreInterface.php",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "security_secretstoreinterface_deletesecret",
       "community": 113,
-      "norm_label": "deletesecret()"
+      "norm_label": "deletesecret()",
+      "id": "security_secretstoreinterface_deletesecret"
     },
     {
       "label": "WordPressSecretStore.php",
@@ -1876,9 +2266,9 @@
       "source_file": "wordpress-agent-plugin/security/WordPressSecretStore.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "security_wordpresssecretstore",
       "community": 27,
-      "norm_label": "wordpresssecretstore.php"
+      "norm_label": "wordpresssecretstore.php",
+      "id": "security_wordpresssecretstore"
     },
     {
       "label": "WordPressSecretStore",
@@ -1886,9 +2276,9 @@
       "source_file": "wordpress-agent-plugin/security/WordPressSecretStore.php",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "security_wordpresssecretstore_wordpresssecretstore",
       "community": 27,
-      "norm_label": "wordpresssecretstore"
+      "norm_label": "wordpresssecretstore",
+      "id": "security_wordpresssecretstore_wordpresssecretstore"
     },
     {
       "label": ".__construct()",
@@ -1896,9 +2286,9 @@
       "source_file": "wordpress-agent-plugin/security/WordPressSecretStore.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "security_wordpresssecretstore_wordpresssecretstore_construct",
       "community": 27,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "security_wordpresssecretstore_wordpresssecretstore_construct"
     },
     {
       "label": "SettingsRepository",
@@ -1906,9 +2296,9 @@
       "source_file": "wordpress-agent-plugin/security/WordPressSecretStore.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_security_wordpresssecretstore_php_settingsrepository",
       "community": 27,
-      "norm_label": "settingsrepository"
+      "norm_label": "settingsrepository",
+      "id": "wordpress_agent_plugin_security_wordpresssecretstore_php_settingsrepository"
     },
     {
       "label": ".getSecret()",
@@ -1916,9 +2306,9 @@
       "source_file": "wordpress-agent-plugin/security/WordPressSecretStore.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "security_wordpresssecretstore_wordpresssecretstore_getsecret",
       "community": 27,
-      "norm_label": ".getsecret()"
+      "norm_label": ".getsecret()",
+      "id": "security_wordpresssecretstore_wordpresssecretstore_getsecret"
     },
     {
       "label": ".setSecret()",
@@ -1926,9 +2316,9 @@
       "source_file": "wordpress-agent-plugin/security/WordPressSecretStore.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "security_wordpresssecretstore_wordpresssecretstore_setsecret",
       "community": 27,
-      "norm_label": ".setsecret()"
+      "norm_label": ".setsecret()",
+      "id": "security_wordpresssecretstore_wordpresssecretstore_setsecret"
     },
     {
       "label": ".deleteSecret()",
@@ -1936,9 +2326,9 @@
       "source_file": "wordpress-agent-plugin/security/WordPressSecretStore.php",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "security_wordpresssecretstore_wordpresssecretstore_deletesecret",
       "community": 27,
-      "norm_label": ".deletesecret()"
+      "norm_label": ".deletesecret()",
+      "id": "security_wordpresssecretstore_wordpresssecretstore_deletesecret"
     },
     {
       "label": "CompatibilityService.php",
@@ -1946,9 +2336,9 @@
       "source_file": "wordpress-agent-plugin/services/CompatibilityService.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_compatibilityservice",
       "community": 124,
-      "norm_label": "compatibilityservice.php"
+      "norm_label": "compatibilityservice.php",
+      "id": "services_compatibilityservice"
     },
     {
       "label": "CompatibilityService",
@@ -1956,9 +2346,9 @@
       "source_file": "wordpress-agent-plugin/services/CompatibilityService.php",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "services_compatibilityservice_compatibilityservice",
       "community": 124,
-      "norm_label": "compatibilityservice"
+      "norm_label": "compatibilityservice",
+      "id": "services_compatibilityservice_compatibilityservice"
     },
     {
       "label": ".evaluateCompatibility()",
@@ -1966,9 +2356,9 @@
       "source_file": "wordpress-agent-plugin/services/CompatibilityService.php",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "services_compatibilityservice_compatibilityservice_evaluatecompatibility",
       "community": 124,
-      "norm_label": ".evaluatecompatibility()"
+      "norm_label": ".evaluatecompatibility()",
+      "id": "services_compatibilityservice_compatibilityservice_evaluatecompatibility"
     },
     {
       "label": "ConfigService.php",
@@ -1976,9 +2366,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_configservice",
       "community": 27,
-      "norm_label": "configservice.php"
+      "norm_label": "configservice.php",
+      "id": "services_configservice"
     },
     {
       "label": "ConfigService",
@@ -1986,9 +2376,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "services_configservice_configservice",
       "community": 27,
-      "norm_label": "configservice"
+      "norm_label": "configservice",
+      "id": "services_configservice_configservice"
     },
     {
       "label": ".__construct()",
@@ -1996,9 +2386,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "services_configservice_configservice_construct",
       "community": 27,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "services_configservice_configservice_construct"
     },
     {
       "label": "SettingsRepository",
@@ -2006,9 +2396,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_configservice_php_settingsrepository",
       "community": 27,
-      "norm_label": "settingsrepository"
+      "norm_label": "settingsrepository",
+      "id": "wordpress_agent_plugin_services_configservice_php_settingsrepository"
     },
     {
       "label": "SecretStoreInterface",
@@ -2016,9 +2406,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_configservice_php_secretstoreinterface",
       "community": 27,
-      "norm_label": "secretstoreinterface"
+      "norm_label": "secretstoreinterface",
+      "id": "wordpress_agent_plugin_services_configservice_php_secretstoreinterface"
     },
     {
       "label": ".getAll()",
@@ -2026,9 +2416,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getall",
       "community": 27,
-      "norm_label": ".getall()"
+      "norm_label": ".getall()",
+      "id": "services_configservice_configservice_getall"
     },
     {
       "label": ".save()",
@@ -2036,9 +2426,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "services_configservice_configservice_save",
       "community": 27,
-      "norm_label": ".save()"
+      "norm_label": ".save()",
+      "id": "services_configservice_configservice_save"
     },
     {
       "label": ".getBackendUrl()",
@@ -2046,9 +2436,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getbackendurl",
       "community": 27,
-      "norm_label": ".getbackendurl()"
+      "norm_label": ".getbackendurl()",
+      "id": "services_configservice_configservice_getbackendurl"
     },
     {
       "label": ".getApiKey()",
@@ -2056,9 +2446,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getapikey",
       "community": 27,
-      "norm_label": ".getapikey()"
+      "norm_label": ".getapikey()",
+      "id": "services_configservice_configservice_getapikey"
     },
     {
       "label": ".setApiKey()",
@@ -2066,9 +2456,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "services_configservice_configservice_setapikey",
       "community": 27,
-      "norm_label": ".setapikey()"
+      "norm_label": ".setapikey()",
+      "id": "services_configservice_configservice_setapikey"
     },
     {
       "label": ".getRegistrationToken()",
@@ -2076,9 +2466,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getregistrationtoken",
       "community": 27,
-      "norm_label": ".getregistrationtoken()"
+      "norm_label": ".getregistrationtoken()",
+      "id": "services_configservice_configservice_getregistrationtoken"
     },
     {
       "label": ".setRegistrationToken()",
@@ -2086,9 +2476,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "services_configservice_configservice_setregistrationtoken",
       "community": 27,
-      "norm_label": ".setregistrationtoken()"
+      "norm_label": ".setregistrationtoken()",
+      "id": "services_configservice_configservice_setregistrationtoken"
     },
     {
       "label": ".clearRegistrationToken()",
@@ -2096,9 +2486,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L52",
       "_origin": "ast",
-      "id": "services_configservice_configservice_clearregistrationtoken",
       "community": 27,
-      "norm_label": ".clearregistrationtoken()"
+      "norm_label": ".clearregistrationtoken()",
+      "id": "services_configservice_configservice_clearregistrationtoken"
     },
     {
       "label": ".getConnectionStatus()",
@@ -2106,9 +2496,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L56",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getconnectionstatus",
       "community": 27,
-      "norm_label": ".getconnectionstatus()"
+      "norm_label": ".getconnectionstatus()",
+      "id": "services_configservice_configservice_getconnectionstatus"
     },
     {
       "label": "ConnectionStatus",
@@ -2116,9 +2506,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L56",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_configservice_php_connectionstatus",
       "community": 27,
-      "norm_label": "connectionstatus"
+      "norm_label": "connectionstatus",
+      "id": "wordpress_agent_plugin_services_configservice_php_connectionstatus"
     },
     {
       "label": ".setConnectionStatus()",
@@ -2126,9 +2516,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L60",
       "_origin": "ast",
-      "id": "services_configservice_configservice_setconnectionstatus",
       "community": 27,
-      "norm_label": ".setconnectionstatus()"
+      "norm_label": ".setconnectionstatus()",
+      "id": "services_configservice_configservice_setconnectionstatus"
     },
     {
       "label": ".getRegistrationStatus()",
@@ -2136,9 +2526,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L64",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getregistrationstatus",
       "community": 27,
-      "norm_label": ".getregistrationstatus()"
+      "norm_label": ".getregistrationstatus()",
+      "id": "services_configservice_configservice_getregistrationstatus"
     },
     {
       "label": "RegistrationStatus",
@@ -2146,9 +2536,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L64",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_configservice_php_registrationstatus",
       "community": 27,
-      "norm_label": "registrationstatus"
+      "norm_label": "registrationstatus",
+      "id": "wordpress_agent_plugin_services_configservice_php_registrationstatus"
     },
     {
       "label": ".setRegistrationStatus()",
@@ -2156,9 +2546,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "services_configservice_configservice_setregistrationstatus",
       "community": 27,
-      "norm_label": ".setregistrationstatus()"
+      "norm_label": ".setregistrationstatus()",
+      "id": "services_configservice_configservice_setregistrationstatus"
     },
     {
       "label": ".getPresenceStatus()",
@@ -2166,9 +2556,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L72",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getpresencestatus",
       "community": 27,
-      "norm_label": ".getpresencestatus()"
+      "norm_label": ".getpresencestatus()",
+      "id": "services_configservice_configservice_getpresencestatus"
     },
     {
       "label": "PresenceStatus",
@@ -2176,9 +2566,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L72",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_configservice_php_presencestatus",
       "community": 27,
-      "norm_label": "presencestatus"
+      "norm_label": "presencestatus",
+      "id": "wordpress_agent_plugin_services_configservice_php_presencestatus"
     },
     {
       "label": ".setPresenceStatus()",
@@ -2186,9 +2576,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L76",
       "_origin": "ast",
-      "id": "services_configservice_configservice_setpresencestatus",
       "community": 27,
-      "norm_label": ".setpresencestatus()"
+      "norm_label": ".setpresencestatus()",
+      "id": "services_configservice_configservice_setpresencestatus"
     },
     {
       "label": ".getLastHeartbeatTime()",
@@ -2196,9 +2586,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L80",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getlastheartbeattime",
       "community": 27,
-      "norm_label": ".getlastheartbeattime()"
+      "norm_label": ".getlastheartbeattime()",
+      "id": "services_configservice_configservice_getlastheartbeattime"
     },
     {
       "label": ".setLastHeartbeatTime()",
@@ -2206,9 +2596,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L84",
       "_origin": "ast",
-      "id": "services_configservice_configservice_setlastheartbeattime",
       "community": 27,
-      "norm_label": ".setlastheartbeattime()"
+      "norm_label": ".setlastheartbeattime()",
+      "id": "services_configservice_configservice_setlastheartbeattime"
     },
     {
       "label": ".getLastHeartbeatLatency()",
@@ -2216,9 +2606,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L88",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getlastheartbeatlatency",
       "community": 27,
-      "norm_label": ".getlastheartbeatlatency()"
+      "norm_label": ".getlastheartbeatlatency()",
+      "id": "services_configservice_configservice_getlastheartbeatlatency"
     },
     {
       "label": ".setLastHeartbeatLatency()",
@@ -2226,9 +2616,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L92",
       "_origin": "ast",
-      "id": "services_configservice_configservice_setlastheartbeatlatency",
       "community": 27,
-      "norm_label": ".setlastheartbeatlatency()"
+      "norm_label": ".setlastheartbeatlatency()",
+      "id": "services_configservice_configservice_setlastheartbeatlatency"
     },
     {
       "label": ".getConsecutiveHeartbeatFailures()",
@@ -2236,9 +2626,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L96",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getconsecutiveheartbeatfailures",
       "community": 27,
-      "norm_label": ".getconsecutiveheartbeatfailures()"
+      "norm_label": ".getconsecutiveheartbeatfailures()",
+      "id": "services_configservice_configservice_getconsecutiveheartbeatfailures"
     },
     {
       "label": ".setConsecutiveHeartbeatFailures()",
@@ -2246,9 +2636,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L100",
       "_origin": "ast",
-      "id": "services_configservice_configservice_setconsecutiveheartbeatfailures",
       "community": 27,
-      "norm_label": ".setconsecutiveheartbeatfailures()"
+      "norm_label": ".setconsecutiveheartbeatfailures()",
+      "id": "services_configservice_configservice_setconsecutiveheartbeatfailures"
     },
     {
       "label": ".getLastConnectionError()",
@@ -2256,9 +2646,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L104",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getlastconnectionerror",
       "community": 27,
-      "norm_label": ".getlastconnectionerror()"
+      "norm_label": ".getlastconnectionerror()",
+      "id": "services_configservice_configservice_getlastconnectionerror"
     },
     {
       "label": ".setLastConnectionError()",
@@ -2266,9 +2656,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L108",
       "_origin": "ast",
-      "id": "services_configservice_configservice_setlastconnectionerror",
       "community": 27,
-      "norm_label": ".setlastconnectionerror()"
+      "norm_label": ".setlastconnectionerror()",
+      "id": "services_configservice_configservice_setlastconnectionerror"
     },
     {
       "label": ".getIdentity()",
@@ -2276,9 +2666,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L112",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getidentity",
       "community": 27,
-      "norm_label": ".getidentity()"
+      "norm_label": ".getidentity()",
+      "id": "services_configservice_configservice_getidentity"
     },
     {
       "label": "PluginIdentity",
@@ -2286,9 +2676,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L112",
       "_origin": "ast",
-      "id": "pluginidentity",
       "community": 27,
-      "norm_label": "pluginidentity"
+      "norm_label": "pluginidentity",
+      "id": "pluginidentity"
     },
     {
       "label": ".updateIdentity()",
@@ -2296,9 +2686,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L116",
       "_origin": "ast",
-      "id": "services_configservice_configservice_updateidentity",
       "community": 27,
-      "norm_label": ".updateidentity()"
+      "norm_label": ".updateidentity()",
+      "id": "services_configservice_configservice_updateidentity"
     },
     {
       "label": ".getBackendIdentity()",
@@ -2306,9 +2696,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L133",
       "_origin": "ast",
-      "id": "services_configservice_configservice_getbackendidentity",
       "community": 27,
-      "norm_label": ".getbackendidentity()"
+      "norm_label": ".getbackendidentity()",
+      "id": "services_configservice_configservice_getbackendidentity"
     },
     {
       "label": "BackendIdentity",
@@ -2316,9 +2706,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L133",
       "_origin": "ast",
-      "id": "backendidentity",
       "community": 27,
-      "norm_label": "backendidentity"
+      "norm_label": "backendidentity",
+      "id": "backendidentity"
     },
     {
       "label": ".updateBackendIdentity()",
@@ -2326,9 +2716,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L137",
       "_origin": "ast",
-      "id": "services_configservice_configservice_updatebackendidentity",
       "community": 27,
-      "norm_label": ".updatebackendidentity()"
+      "norm_label": ".updatebackendidentity()",
+      "id": "services_configservice_configservice_updatebackendidentity"
     },
     {
       "label": "ConnectionService.php",
@@ -2336,9 +2726,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_connectionservice",
       "community": 39,
-      "norm_label": "connectionservice.php"
+      "norm_label": "connectionservice.php",
+      "id": "services_connectionservice"
     },
     {
       "label": "ConnectionService",
@@ -2346,9 +2736,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "services_connectionservice_connectionservice",
       "community": 39,
-      "norm_label": "connectionservice"
+      "norm_label": "connectionservice",
+      "id": "services_connectionservice_connectionservice"
     },
     {
       "label": ".__construct()",
@@ -2356,9 +2746,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "services_connectionservice_connectionservice_construct",
       "community": 39,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "services_connectionservice_connectionservice_construct"
     },
     {
       "label": "BackendClient",
@@ -2366,9 +2756,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_connectionservice_php_backendclient",
       "community": 39,
-      "norm_label": "backendclient"
+      "norm_label": "backendclient",
+      "id": "wordpress_agent_plugin_services_connectionservice_php_backendclient"
     },
     {
       "label": "ConfigService",
@@ -2376,9 +2766,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_connectionservice_php_configservice",
       "community": 39,
-      "norm_label": "configservice"
+      "norm_label": "configservice",
+      "id": "wordpress_agent_plugin_services_connectionservice_php_configservice"
     },
     {
       "label": "HealthService",
@@ -2386,9 +2776,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "healthservice",
       "community": 39,
-      "norm_label": "healthservice"
+      "norm_label": "healthservice",
+      "id": "healthservice"
     },
     {
       "label": "LoggerInterface",
@@ -2396,9 +2786,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_connectionservice_php_loggerinterface",
       "community": 39,
-      "norm_label": "loggerinterface"
+      "norm_label": "loggerinterface",
+      "id": "wordpress_agent_plugin_services_connectionservice_php_loggerinterface"
     },
     {
       "label": ".testConnection()",
@@ -2406,9 +2796,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "services_connectionservice_connectionservice_testconnection",
       "community": 39,
-      "norm_label": ".testconnection()"
+      "norm_label": ".testconnection()",
+      "id": "services_connectionservice_connectionservice_testconnection"
     },
     {
       "label": "ConnectionResult",
@@ -2416,9 +2806,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "connectionresult",
       "community": 39,
-      "norm_label": "connectionresult"
+      "norm_label": "connectionresult",
+      "id": "connectionresult"
     },
     {
       "label": "DiagnosticsService.php",
@@ -2426,9 +2816,9 @@
       "source_file": "wordpress-agent-plugin/services/DiagnosticsService.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_diagnosticsservice",
       "community": 115,
-      "norm_label": "diagnosticsservice.php"
+      "norm_label": "diagnosticsservice.php",
+      "id": "services_diagnosticsservice"
     },
     {
       "label": "DiagnosticsService",
@@ -2436,9 +2826,9 @@
       "source_file": "wordpress-agent-plugin/services/DiagnosticsService.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "services_diagnosticsservice_diagnosticsservice",
       "community": 115,
-      "norm_label": "diagnosticsservice"
+      "norm_label": "diagnosticsservice",
+      "id": "services_diagnosticsservice_diagnosticsservice"
     },
     {
       "label": ".collect()",
@@ -2446,9 +2836,9 @@
       "source_file": "wordpress-agent-plugin/services/DiagnosticsService.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "services_diagnosticsservice_diagnosticsservice_collect",
       "community": 115,
-      "norm_label": ".collect()"
+      "norm_label": ".collect()",
+      "id": "services_diagnosticsservice_diagnosticsservice_collect"
     },
     {
       "label": "HealthService.php",
@@ -2456,9 +2846,9 @@
       "source_file": "wordpress-agent-plugin/services/HealthService.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_healthservice",
       "community": 75,
-      "norm_label": "healthservice.php"
+      "norm_label": "healthservice.php",
+      "id": "services_healthservice"
     },
     {
       "label": "HealthService",
@@ -2466,9 +2856,9 @@
       "source_file": "wordpress-agent-plugin/services/HealthService.php",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "services_healthservice_healthservice",
       "community": 75,
-      "norm_label": "healthservice"
+      "norm_label": "healthservice",
+      "id": "services_healthservice_healthservice"
     },
     {
       "label": ".determineErrorStatus()",
@@ -2476,9 +2866,9 @@
       "source_file": "wordpress-agent-plugin/services/HealthService.php",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "services_healthservice_healthservice_determineerrorstatus",
       "community": 75,
-      "norm_label": ".determineerrorstatus()"
+      "norm_label": ".determineerrorstatus()",
+      "id": "services_healthservice_healthservice_determineerrorstatus"
     },
     {
       "label": "ConnectionStatus",
@@ -2486,9 +2876,9 @@
       "source_file": "wordpress-agent-plugin/services/HealthService.php",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_healthservice_php_connectionstatus",
       "community": 75,
-      "norm_label": "connectionstatus"
+      "norm_label": "connectionstatus",
+      "id": "wordpress_agent_plugin_services_healthservice_php_connectionstatus"
     },
     {
       "label": "HeartbeatService.php",
@@ -2496,9 +2886,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_heartbeatservice",
       "community": 39,
-      "norm_label": "heartbeatservice.php"
+      "norm_label": "heartbeatservice.php",
+      "id": "services_heartbeatservice"
     },
     {
       "label": "HeartbeatService",
@@ -2506,9 +2896,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "services_heartbeatservice_heartbeatservice",
       "community": 39,
-      "norm_label": "heartbeatservice"
+      "norm_label": "heartbeatservice",
+      "id": "services_heartbeatservice_heartbeatservice"
     },
     {
       "label": ".__construct()",
@@ -2516,9 +2906,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "services_heartbeatservice_heartbeatservice_construct",
       "community": 39,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "services_heartbeatservice_heartbeatservice_construct"
     },
     {
       "label": "BackendClient",
@@ -2526,9 +2916,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_heartbeatservice_php_backendclient",
       "community": 39,
-      "norm_label": "backendclient"
+      "norm_label": "backendclient",
+      "id": "wordpress_agent_plugin_services_heartbeatservice_php_backendclient"
     },
     {
       "label": "ConfigService",
@@ -2536,9 +2926,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_heartbeatservice_php_configservice",
       "community": 39,
-      "norm_label": "configservice"
+      "norm_label": "configservice",
+      "id": "wordpress_agent_plugin_services_heartbeatservice_php_configservice"
     },
     {
       "label": "DiagnosticsService",
@@ -2546,9 +2936,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "diagnosticsservice",
       "community": 39,
-      "norm_label": "diagnosticsservice"
+      "norm_label": "diagnosticsservice",
+      "id": "diagnosticsservice"
     },
     {
       "label": "RegistrationService",
@@ -2556,9 +2946,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_heartbeatservice_php_registrationservice",
       "community": 39,
-      "norm_label": "registrationservice"
+      "norm_label": "registrationservice",
+      "id": "wordpress_agent_plugin_services_heartbeatservice_php_registrationservice"
     },
     {
       "label": "LoggerInterface",
@@ -2566,9 +2956,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_heartbeatservice_php_loggerinterface",
       "community": 39,
-      "norm_label": "loggerinterface"
+      "norm_label": "loggerinterface",
+      "id": "wordpress_agent_plugin_services_heartbeatservice_php_loggerinterface"
     },
     {
       "label": ".runHeartbeat()",
@@ -2576,9 +2966,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "services_heartbeatservice_heartbeatservice_runheartbeat",
       "community": 39,
-      "norm_label": ".runheartbeat()"
+      "norm_label": ".runheartbeat()",
+      "id": "services_heartbeatservice_heartbeatservice_runheartbeat"
     },
     {
       "label": "HeartbeatResult",
@@ -2586,9 +2976,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "heartbeatresult",
       "community": 39,
-      "norm_label": "heartbeatresult"
+      "norm_label": "heartbeatresult",
+      "id": "heartbeatresult"
     },
     {
       "label": ".sendPayload()",
@@ -2596,9 +2986,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L74",
       "_origin": "ast",
-      "id": "services_heartbeatservice_heartbeatservice_sendpayload",
       "community": 39,
-      "norm_label": ".sendpayload()"
+      "norm_label": ".sendpayload()",
+      "id": "services_heartbeatservice_heartbeatservice_sendpayload"
     },
     {
       "label": "RegistrationService.php",
@@ -2606,9 +2996,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "services_registrationservice",
       "community": 39,
-      "norm_label": "registrationservice.php"
+      "norm_label": "registrationservice.php",
+      "id": "services_registrationservice"
     },
     {
       "label": "RegistrationService",
@@ -2616,9 +3006,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "services_registrationservice_registrationservice",
       "community": 39,
-      "norm_label": "registrationservice"
+      "norm_label": "registrationservice",
+      "id": "services_registrationservice_registrationservice"
     },
     {
       "label": ".__construct()",
@@ -2626,9 +3016,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "services_registrationservice_registrationservice_construct",
       "community": 39,
-      "norm_label": ".__construct()"
+      "norm_label": ".__construct()",
+      "id": "services_registrationservice_registrationservice_construct"
     },
     {
       "label": "BackendClient",
@@ -2636,9 +3026,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_registrationservice_php_backendclient",
       "community": 39,
-      "norm_label": "backendclient"
+      "norm_label": "backendclient",
+      "id": "wordpress_agent_plugin_services_registrationservice_php_backendclient"
     },
     {
       "label": "ConfigService",
@@ -2646,9 +3036,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_registrationservice_php_configservice",
       "community": 39,
-      "norm_label": "configservice"
+      "norm_label": "configservice",
+      "id": "wordpress_agent_plugin_services_registrationservice_php_configservice"
     },
     {
       "label": "LoggerInterface",
@@ -2656,9 +3046,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_services_registrationservice_php_loggerinterface",
       "community": 39,
-      "norm_label": "loggerinterface"
+      "norm_label": "loggerinterface",
+      "id": "wordpress_agent_plugin_services_registrationservice_php_loggerinterface"
     },
     {
       "label": "CompatibilityService",
@@ -2666,9 +3056,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "compatibilityservice",
       "community": 39,
-      "norm_label": "compatibilityservice"
+      "norm_label": "compatibilityservice",
+      "id": "compatibilityservice"
     },
     {
       "label": ".handshake()",
@@ -2676,9 +3066,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "services_registrationservice_registrationservice_handshake",
       "community": 39,
-      "norm_label": ".handshake()"
+      "norm_label": ".handshake()",
+      "id": "services_registrationservice_registrationservice_handshake"
     },
     {
       "label": "HandshakeResult",
@@ -2686,9 +3076,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "handshakeresult",
       "community": 39,
-      "norm_label": "handshakeresult"
+      "norm_label": "handshakeresult",
+      "id": "handshakeresult"
     },
     {
       "label": ".register()",
@@ -2696,9 +3086,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L90",
       "_origin": "ast",
-      "id": "services_registrationservice_registrationservice_register",
       "community": 39,
-      "norm_label": ".register()"
+      "norm_label": ".register()",
+      "id": "services_registrationservice_registrationservice_register"
     },
     {
       "label": "RegistrationResult",
@@ -2706,9 +3096,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L90",
       "_origin": "ast",
-      "id": "registrationresult",
       "community": 39,
-      "norm_label": "registrationresult"
+      "norm_label": "registrationresult",
+      "id": "registrationresult"
     },
     {
       "label": ".disconnect()",
@@ -2716,9 +3106,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L126",
       "_origin": "ast",
-      "id": "services_registrationservice_registrationservice_disconnect",
       "community": 39,
-      "norm_label": ".disconnect()"
+      "norm_label": ".disconnect()",
+      "id": "services_registrationservice_registrationservice_disconnect"
     },
     {
       "label": ".handleHandshakeFailure()",
@@ -2726,9 +3116,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L144",
       "_origin": "ast",
-      "id": "services_registrationservice_registrationservice_handlehandshakefailure",
       "community": 39,
-      "norm_label": ".handlehandshakefailure()"
+      "norm_label": ".handlehandshakefailure()",
+      "id": "services_registrationservice_registrationservice_handlehandshakefailure"
     },
     {
       "label": ".handleRegistrationFailure()",
@@ -2736,9 +3126,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L149",
       "_origin": "ast",
-      "id": "services_registrationservice_registrationservice_handleregistrationfailure",
       "community": 39,
-      "norm_label": ".handleregistrationfailure()"
+      "norm_label": ".handleregistrationfailure()",
+      "id": "services_registrationservice_registrationservice_handleregistrationfailure"
     },
     {
       "label": ".determineFailureState()",
@@ -2746,9 +3136,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L154",
       "_origin": "ast",
-      "id": "services_registrationservice_registrationservice_determinefailurestate",
       "community": 39,
-      "norm_label": ".determinefailurestate()"
+      "norm_label": ".determinefailurestate()",
+      "id": "services_registrationservice_registrationservice_determinefailurestate"
     },
     {
       "label": "uninstall.php",
@@ -2756,9 +3146,9 @@
       "source_file": "wordpress-agent-plugin/uninstall.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_uninstall",
       "community": 109,
-      "norm_label": "uninstall.php"
+      "norm_label": "uninstall.php",
+      "id": "wordpress_agent_plugin_uninstall"
     },
     {
       "label": "LoggerInterface.php",
@@ -2766,9 +3156,9 @@
       "source_file": "wordpress-agent-plugin/utils/LoggerInterface.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "utils_loggerinterface",
       "community": 104,
-      "norm_label": "loggerinterface.php"
+      "norm_label": "loggerinterface.php",
+      "id": "utils_loggerinterface"
     },
     {
       "label": "log()",
@@ -2776,9 +3166,9 @@
       "source_file": "wordpress-agent-plugin/utils/LoggerInterface.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "utils_loggerinterface_log",
       "community": 104,
-      "norm_label": "log()"
+      "norm_label": "log()",
+      "id": "utils_loggerinterface_log"
     },
     {
       "label": "NullLogger.php",
@@ -2786,9 +3176,9 @@
       "source_file": "wordpress-agent-plugin/utils/NullLogger.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "utils_nulllogger",
       "community": 39,
-      "norm_label": "nulllogger.php"
+      "norm_label": "nulllogger.php",
+      "id": "utils_nulllogger"
     },
     {
       "label": "NullLogger",
@@ -2796,9 +3186,9 @@
       "source_file": "wordpress-agent-plugin/utils/NullLogger.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "utils_nulllogger_nulllogger",
       "community": 39,
-      "norm_label": "nulllogger"
+      "norm_label": "nulllogger",
+      "id": "utils_nulllogger_nulllogger"
     },
     {
       "label": "LoggerInterface",
@@ -2806,9 +3196,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "loggerinterface",
       "community": 39,
-      "norm_label": "loggerinterface"
+      "norm_label": "loggerinterface",
+      "id": "loggerinterface"
     },
     {
       "label": ".log()",
@@ -2816,9 +3206,9 @@
       "source_file": "wordpress-agent-plugin/utils/NullLogger.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "utils_nulllogger_nulllogger_log",
       "community": 39,
-      "norm_label": ".log()"
+      "norm_label": ".log()",
+      "id": "utils_nulllogger_nulllogger_log"
     },
     {
       "label": "server.js",
@@ -3769,146 +4159,6 @@
       "community": 153,
       "norm_label": "reviewdetaildto",
       "id": "api_types_reviewdetaildto"
-    },
-    {
-      "label": "setup_d7.js",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "setup_d7.js",
-      "id": "setup_d7"
-    },
-    {
-      "label": "fs",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "fs",
-      "id": "setup_d7_fs"
-    },
-    {
-      "label": "path",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "path",
-      "id": "setup_d7_path"
-    },
-    {
-      "label": "frontendDir",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "frontenddir",
-      "id": "setup_d7_frontenddir"
-    },
-    {
-      "label": "mkdirp()",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "mkdirp()",
-      "id": "setup_d7_mkdirp"
-    },
-    {
-      "label": "schemaPath",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "schemapath",
-      "id": "setup_d7_schemapath"
-    },
-    {
-      "label": "schemaContent",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "schemacontent",
-      "id": "setup_d7_schemacontent"
-    },
-    {
-      "label": "readServicePath",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L41",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "readservicepath",
-      "id": "setup_d7_readservicepath"
-    },
-    {
-      "label": "readServiceCode",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L42",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "readservicecode",
-      "id": "setup_d7_readservicecode"
-    },
-    {
-      "label": "routesPath",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L144",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "routespath",
-      "id": "setup_d7_routespath"
-    },
-    {
-      "label": "routesCode",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L145",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "routescode",
-      "id": "setup_d7_routescode"
-    },
-    {
-      "label": "apiTypesPath",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L248",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "apitypespath",
-      "id": "setup_d7_apitypespath"
-    },
-    {
-      "label": "apiTypesCode",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L249",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "apitypescode",
-      "id": "setup_d7_apitypescode"
-    },
-    {
-      "label": "useReviewsCode",
-      "file_type": "code",
-      "source_file": "setup_d7.js",
-      "source_location": "L288",
-      "_origin": "ast",
-      "community": 118,
-      "norm_label": "usereviewscode",
-      "id": "setup_d7_usereviewscode"
     },
     {
       "label": "dashboardRoutes.js",
@@ -8721,246 +8971,6 @@
       "id": "cleanup_deliverable_report_repository_health_score"
     },
     {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "package.json",
-      "id": "package"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "name",
-      "id": "package_name"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "version",
-      "id": "package_version"
-    },
-    {
-      "label": "description",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "description",
-      "id": "package_description"
-    },
-    {
-      "label": "main",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "main",
-      "id": "package_main"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "scripts",
-      "id": "package_scripts"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "start",
-      "id": "package_scripts_start"
-    },
-    {
-      "label": "legacy-start",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "legacy-start",
-      "id": "package_scripts_legacy_start"
-    },
-    {
-      "label": "test",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "test",
-      "id": "package_scripts_test"
-    },
-    {
-      "label": "keywords",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "keywords",
-      "id": "package_keywords"
-    },
-    {
-      "label": "author",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "author",
-      "id": "package_author"
-    },
-    {
-      "label": "license",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "license",
-      "id": "package_license"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "type",
-      "id": "package_type"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "devdependencies",
-      "id": "package_devdependencies"
-    },
-    {
-      "label": "@playwright/test",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "@playwright/test",
-      "id": "package_devdependencies_playwright_test"
-    },
-    {
-      "label": "@types/node",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "@types/node",
-      "id": "package_devdependencies_types_node"
-    },
-    {
-      "label": "jest",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "jest",
-      "id": "package_devdependencies_jest"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "dependencies",
-      "id": "package_dependencies"
-    },
-    {
-      "label": "better-sqlite3",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "better-sqlite3",
-      "id": "package_dependencies_better_sqlite3"
-    },
-    {
-      "label": "dotenv",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "dotenv",
-      "id": "package_dependencies_dotenv"
-    },
-    {
-      "label": "express",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "express",
-      "id": "package_dependencies_express"
-    },
-    {
-      "label": "playwright",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "playwright",
-      "id": "package_dependencies_playwright"
-    },
-    {
-      "label": "playwright-extra",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "playwright-extra",
-      "id": "package_dependencies_playwright_extra"
-    },
-    {
-      "label": "puppeteer-extra-plugin-stealth",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "puppeteer-extra-plugin-stealth",
-      "id": "package_dependencies_puppeteer_extra_plugin_stealth"
-    },
-    {
       "label": "ClaudeWorker.js",
       "file_type": "code",
       "source_file": "src/workers/ClaudeWorker.js",
@@ -9189,66 +9199,6 @@
       "community": 68,
       "norm_label": ".rewrite()",
       "id": "workers_claudeworker_claudeworker_rewrite"
-    },
-    {
-      "label": "AUDIT_REPORT.md",
-      "file_type": "document",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 51,
-      "norm_label": "audit_report.md",
-      "id": "audit_report"
-    },
-    {
-      "label": "Phase 1: Repository Audit Report",
-      "file_type": "document",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 51,
-      "norm_label": "phase 1: repository audit report",
-      "id": "audit_report_phase_1_repository_audit_report"
-    },
-    {
-      "label": "1. Directory Structure & Orphaned Files",
-      "file_type": "document",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 51,
-      "norm_label": "1. directory structure & orphaned files",
-      "id": "audit_report_1_directory_structure_orphaned_files"
-    },
-    {
-      "label": "2. Architecture & Structural Improvements",
-      "file_type": "document",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "community": 51,
-      "norm_label": "2. architecture & structural improvements",
-      "id": "audit_report_2_architecture_structural_improvements"
-    },
-    {
-      "label": "3. Dependency Check",
-      "file_type": "document",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 51,
-      "norm_label": "3. dependency check",
-      "id": "audit_report_3_dependency_check"
-    },
-    {
-      "label": "4. Security & Configuration",
-      "file_type": "document",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L38",
-      "_origin": "ast",
-      "community": 51,
-      "norm_label": "4. security & configuration",
-      "id": "audit_report_4_security_configuration"
     },
     {
       "label": "README.md",
@@ -9719,36 +9669,6 @@
       "community": 34,
       "norm_label": ".request()",
       "id": "api_backendclient_backendclient_request"
-    },
-    {
-      "label": "HttpClient.php",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 76,
-      "norm_label": "httpclient.php",
-      "id": "api_httpclient"
-    },
-    {
-      "label": "HttpClient",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 76,
-      "norm_label": "httpclient",
-      "id": "api_httpclient_httpclient"
-    },
-    {
-      "label": ".request()",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 76,
-      "norm_label": ".request()",
-      "id": "api_httpclient_httpclient_request"
     },
     {
       "label": "graphify.md",
@@ -15792,6 +15712,346 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "audit_report",
+      "target": "audit_report_phase_1_repository_audit_report"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "audit_report_phase_1_repository_audit_report",
+      "target": "audit_report_1_directory_structure_orphaned_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "audit_report_phase_1_repository_audit_report",
+      "target": "audit_report_2_architecture_structural_improvements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "audit_report_phase_1_repository_audit_report",
+      "target": "audit_report_3_dependency_check"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AUDIT_REPORT.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "audit_report_phase_1_repository_audit_report",
+      "target": "audit_report_4_security_configuration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_author"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_description"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_keywords"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_license"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_legacy_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_jest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_playwright_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_better_sqlite3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_dotenv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_express"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_php_parser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_playwright"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_playwright_extra"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_puppeteer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_puppeteer_extra_plugin_stealth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test-plugin.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "test_plugin_js_test_plugin",
+      "target": "test_plugin_puppeteer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test_plugin.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "test_plugin_php_test_plugin",
+      "target": "test_plugin_plugin_dir_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_httpclient",
+      "target": "api_httpclient_httpclient"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "api_httpclient_httpclient",
+      "target": "api_httpclient_httpclient_request"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L9",
       "weight": 1.0,
@@ -15817,9 +16077,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_adminmodule",
-      "target": "wordpress_agent_plugin_admin_adminmodule_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_admin_adminmodule_php_backendclient"
     },
     {
       "relation": "imports",
@@ -15902,9 +16162,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "admin_adminmodule_adminmodule_construct",
-      "target": "notices",
-      "confidence_score": 1.0
+      "target": "notices"
     },
     {
       "relation": "references",
@@ -15913,9 +16173,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "admin_adminmodule_adminmodule_construct",
-      "target": "wordpress_agent_plugin_admin_adminmodule_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_admin_adminmodule_php_backendclient"
     },
     {
       "relation": "references",
@@ -15968,9 +16228,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_servicecontainer",
-      "target": "notices",
-      "confidence_score": 1.0
+      "target": "notices"
     },
     {
       "relation": "references",
@@ -16050,9 +16310,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_overviewpage",
-      "target": "admin_overviewpage_overviewpage",
-      "confidence_score": 1.0
+      "target": "admin_overviewpage_overviewpage"
     },
     {
       "relation": "imports",
@@ -16061,9 +16321,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_overviewpage",
-      "target": "wordpress_agent_plugin_admin_overviewpage_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_admin_overviewpage_php_backendclient"
     },
     {
       "relation": "imports",
@@ -16072,9 +16332,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_overviewpage",
-      "target": "wordpress_agent_plugin_admin_overviewpage_php_configservice",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_admin_overviewpage_php_configservice"
     },
     {
       "relation": "method",
@@ -16082,9 +16342,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_overviewpage_overviewpage",
-      "target": "admin_overviewpage_overviewpage_construct",
-      "confidence_score": 1.0
+      "target": "admin_overviewpage_overviewpage_construct"
     },
     {
       "relation": "method",
@@ -16092,9 +16352,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_overviewpage_overviewpage",
-      "target": "admin_overviewpage_overviewpage_handlegetqueuestats",
-      "confidence_score": 1.0
+      "target": "admin_overviewpage_overviewpage_handlegetqueuestats"
     },
     {
       "relation": "method",
@@ -16102,9 +16362,9 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_overviewpage_overviewpage",
-      "target": "admin_overviewpage_overviewpage_renderpage",
-      "confidence_score": 1.0
+      "target": "admin_overviewpage_overviewpage_renderpage"
     },
     {
       "relation": "references",
@@ -16113,9 +16373,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "admin_overviewpage_overviewpage_construct",
-      "target": "wordpress_agent_plugin_admin_overviewpage_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_admin_overviewpage_php_backendclient"
     },
     {
       "relation": "references",
@@ -16124,9 +16384,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "admin_overviewpage_overviewpage_construct",
-      "target": "wordpress_agent_plugin_admin_overviewpage_php_configservice",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_admin_overviewpage_php_configservice"
     },
     {
       "relation": "calls",
@@ -16333,9 +16593,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_plugin",
-      "target": "configservice",
-      "confidence_score": 1.0
+      "target": "configservice"
     },
     {
       "relation": "imports",
@@ -16458,9 +16718,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_servicecontainer",
-      "target": "configservice",
-      "confidence_score": 1.0
+      "target": "configservice"
     },
     {
       "relation": "imports",
@@ -16491,9 +16751,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_servicecontainer",
-      "target": "heartbeatservice",
-      "confidence_score": 1.0
+      "target": "heartbeatservice"
     },
     {
       "relation": "imports",
@@ -16513,9 +16773,9 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bootstrap_servicecontainer",
-      "target": "registrationservice",
-      "confidence_score": 1.0
+      "target": "registrationservice"
     },
     {
       "relation": "method",
@@ -17819,9 +18079,9 @@
       "source_file": "wordpress-agent-plugin/security/WordPressSecretStore.php",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "security_wordpresssecretstore_wordpresssecretstore",
-      "target": "wordpress_agent_plugin_services_configservice_php_secretstoreinterface",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_configservice_php_secretstoreinterface"
     },
     {
       "relation": "references",
@@ -17924,9 +18184,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_configservice",
-      "target": "wordpress_agent_plugin_services_configservice_php_connectionstatus",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_configservice_php_connectionstatus"
     },
     {
       "relation": "imports",
@@ -17946,9 +18206,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_configservice",
-      "target": "wordpress_agent_plugin_services_configservice_php_registrationstatus",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_configservice_php_registrationstatus"
     },
     {
       "relation": "imports",
@@ -17957,9 +18217,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_configservice",
-      "target": "wordpress_agent_plugin_services_configservice_php_secretstoreinterface",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_configservice_php_secretstoreinterface"
     },
     {
       "relation": "imports",
@@ -17968,9 +18228,9 @@
       "source_file": "wordpress-agent-plugin/services/ConfigService.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_configservice",
-      "target": "wordpress_agent_plugin_services_configservice_php_settingsrepository",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_configservice_php_settingsrepository"
     },
     {
       "relation": "method",
@@ -18249,9 +18509,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "services_configservice_configservice_construct",
-      "target": "wordpress_agent_plugin_services_configservice_php_secretstoreinterface",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_configservice_php_secretstoreinterface"
     },
     {
       "relation": "references",
@@ -18260,9 +18520,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "services_configservice_configservice_construct",
-      "target": "wordpress_agent_plugin_services_configservice_php_settingsrepository",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_configservice_php_settingsrepository"
     },
     {
       "relation": "calls",
@@ -18381,9 +18641,9 @@
       "source_location": "L60",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "services_configservice_configservice_setconnectionstatus",
-      "target": "wordpress_agent_plugin_services_configservice_php_connectionstatus",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_configservice_php_connectionstatus"
     },
     {
       "relation": "references_constant",
@@ -18403,9 +18663,9 @@
       "source_location": "L68",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "services_configservice_configservice_setregistrationstatus",
-      "target": "wordpress_agent_plugin_services_configservice_php_registrationstatus",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_configservice_php_registrationstatus"
     },
     {
       "relation": "references_constant",
@@ -18502,9 +18762,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_connectionservice",
-      "target": "connectionresult",
-      "confidence_score": 1.0
+      "target": "connectionresult"
     },
     {
       "relation": "contains",
@@ -18523,9 +18783,9 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_connectionservice",
-      "target": "wordpress_agent_plugin_services_connectionservice_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_connectionservice_php_backendclient"
     },
     {
       "relation": "imports",
@@ -18576,9 +18836,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "services_connectionservice_connectionservice_construct",
-      "target": "wordpress_agent_plugin_services_connectionservice_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_connectionservice_php_backendclient"
     },
     {
       "relation": "references",
@@ -18619,9 +18879,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "services_connectionservice_connectionservice_testconnection",
-      "target": "connectionresult",
-      "confidence_score": 1.0
+      "target": "connectionresult"
     },
     {
       "relation": "contains",
@@ -18724,9 +18984,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_heartbeatservice",
-      "target": "wordpress_agent_plugin_services_heartbeatservice_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_heartbeatservice_php_backendclient"
     },
     {
       "relation": "imports",
@@ -18735,9 +18995,9 @@
       "source_file": "wordpress-agent-plugin/services/HeartbeatService.php",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_heartbeatservice",
-      "target": "wordpress_agent_plugin_services_heartbeatservice_php_loggerinterface",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_heartbeatservice_php_loggerinterface"
     },
     {
       "relation": "method",
@@ -18798,9 +19058,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "services_heartbeatservice_heartbeatservice_construct",
-      "target": "wordpress_agent_plugin_services_heartbeatservice_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_heartbeatservice_php_backendclient"
     },
     {
       "relation": "references",
@@ -18820,9 +19080,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "services_heartbeatservice_heartbeatservice_construct",
-      "target": "wordpress_agent_plugin_services_heartbeatservice_php_loggerinterface",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_heartbeatservice_php_loggerinterface"
     },
     {
       "relation": "references",
@@ -18907,9 +19167,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_registrationservice",
-      "target": "wordpress_agent_plugin_services_registrationservice_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_registrationservice_php_backendclient"
     },
     {
       "relation": "imports",
@@ -18918,9 +19178,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_registrationservice",
-      "target": "wordpress_agent_plugin_services_registrationservice_php_loggerinterface",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_registrationservice_php_loggerinterface"
     },
     {
       "relation": "method",
@@ -19021,9 +19281,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "services_registrationservice_registrationservice_construct",
-      "target": "wordpress_agent_plugin_services_registrationservice_php_backendclient",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_registrationservice_php_backendclient"
     },
     {
       "relation": "references",
@@ -19043,9 +19303,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "services_registrationservice_registrationservice_construct",
-      "target": "wordpress_agent_plugin_services_registrationservice_php_loggerinterface",
-      "confidence_score": 1.0
+      "target": "wordpress_agent_plugin_services_registrationservice_php_loggerinterface"
     },
     {
       "relation": "references",
@@ -19172,9 +19432,9 @@
       "source_file": "wordpress-agent-plugin/utils/NullLogger.php",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_nulllogger_nulllogger",
-      "target": "loggerinterface",
-      "confidence_score": 1.0
+      "target": "loggerinterface"
     },
     {
       "relation": "method",
@@ -21396,136 +21656,6 @@
       "confidence_score": 1.0,
       "source": "hooks_userewrites",
       "target": "api_types_versiondto"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L249",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_apitypescode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L248",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_apitypespath"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_frontenddir"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_fs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_mkdirp"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_path"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_readservicecode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_readservicepath"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L145",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_routescode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L144",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_routespath"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_schemacontent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_schemapath"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "setup_d7.js",
-      "source_location": "L288",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "setup_d7",
-      "target": "setup_d7_usereviewscode"
     },
     {
       "relation": "contains",
@@ -28189,236 +28319,6 @@
       "target": "cleanup_deliverable_report_repository_health_score"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_author"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_dependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_description"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_devdependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_keywords"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_license"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_main"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_name"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_scripts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_type"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package",
-      "target": "package_version"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_legacy_start"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_start"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_test"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_jest"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_playwright_test"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_types_node"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_better_sqlite3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_dotenv"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_express"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_playwright"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_playwright_extra"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_puppeteer_extra_plugin_stealth"
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -28714,56 +28614,6 @@
       "confidence_score": 1.0,
       "source": "workers_claudeworker_claudeworker_rewrite",
       "target": "workers_claudeworker_claudeworker_executejob"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "audit_report",
-      "target": "audit_report_phase_1_repository_audit_report"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "audit_report_phase_1_repository_audit_report",
-      "target": "audit_report_1_directory_structure_orphaned_files"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "audit_report_phase_1_repository_audit_report",
-      "target": "audit_report_2_architecture_structural_improvements"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "audit_report_phase_1_repository_audit_report",
-      "target": "audit_report_3_dependency_check"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "AUDIT_REPORT.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "audit_report_phase_1_repository_audit_report",
-      "target": "audit_report_4_security_configuration"
     },
     {
       "relation": "contains",
@@ -29239,26 +29089,6 @@
       "confidence_score": 1.0,
       "source": "api_backendclient_backendclient_post",
       "target": "api_backendclient_backendclient_request"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "api_httpclient",
-      "target": "api_httpclient_httpclient"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/api/HttpClient.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "api_httpclient_httpclient",
-      "target": "api_httpclient_httpclient_request"
     },
     {
       "relation": "contains",
@@ -36415,5 +36245,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "05dddd8b357380b3b90f1afa5920ffae0b662f83"
+  "built_at_commit": "737280601dffaf38b034f4777885930af08a2b57"
 }

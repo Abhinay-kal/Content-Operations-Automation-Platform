@@ -93,7 +93,11 @@ class RegistrationService {
         
         $identity = $this->config->getIdentity();
         $response = $this->client->post('/plugin/register', [
-            'installationUuid' => $identity->getInstallationUuid()
+            'installation_uuid' => $identity->getInstallationUuid(),
+            'plugin_uuid' => $identity->getPluginUuid(),
+            'plugin_version' => $identity->getPluginVersion(),
+            'site_url' => $identity->getSiteUrl(),
+            'site_name' => $identity->getSiteName()
         ]);
 
         if (!$response['success']) {
