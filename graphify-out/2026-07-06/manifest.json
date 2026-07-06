@@ -180,8 +180,8 @@
     "semantic_hash": "da47d4a21d7de3faab0b84c42520c1c0"
   },
   "src/bootstrap/BootstrapManager.js": {
-    "mtime": 1783330810.094883,
-    "ast_hash": "efa49757ae202e102ee3740739bf9a78",
+    "mtime": 1783331361.9836733,
+    "ast_hash": "9d25899a031d3e75ce6a47bbc3727e3e",
     "semantic_hash": ""
   },
   "src/bootstrap/PreFlightValidator.js": {
@@ -995,8 +995,8 @@
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/services/RegistrationService.php": {
-    "mtime": 1782729317.877458,
-    "ast_hash": "feb507d9e7f3bd2ea05ea3e172f39456",
+    "mtime": 1783331340.6098967,
+    "ast_hash": "ff997de3257dcf5adf02ac23cb536a5b",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/models/BackendIdentity.php": {
@@ -1145,8 +1145,8 @@
     "semantic_hash": ""
   },
   "src/api/pluginRoutes.js": {
-    "mtime": 1783075463.7908494,
-    "ast_hash": "0de026f5864a52ba6631f671886e9315",
+    "mtime": 1783331393.269437,
+    "ast_hash": "ae4dae6e8d1f872aa0c9f8a1b9f5184d",
     "semantic_hash": ""
   },
   "src/repositories/PluginRepository.js": {
@@ -1160,8 +1160,8 @@
     "semantic_hash": ""
   },
   "src/services/PluginService.js": {
-    "mtime": 1782704900.7309682,
-    "ast_hash": "5fe3b653c9d4159ed162ec6e824fc379",
+    "mtime": 1783331384.0498827,
+    "ast_hash": "3fd8e46e57a24309f6b65f9c7559661a",
     "semantic_hash": ""
   },
   "src/services/TokenService.js": {

@@ -123,6 +123,7 @@ function createApp(services) {
     app.use('/', statusLimiter, createPluginRoutes({
         pluginService: services.pluginService,
         wpOpService: services.wpOpService,
+        jobService: services.jobService,
         logger: logger.server
     }));
 

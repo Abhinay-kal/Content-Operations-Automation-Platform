@@ -1,16 +1,16 @@
 # Graph Report - Content-Operations-Automation  (2026-07-06)
 
 ## Corpus Check
-- 265 files · ~135,985 words
+- 265 files · ~136,050 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1558 nodes · 1977 edges · 169 communities (64 shown, 105 thin omitted)
+- 1556 nodes · 1976 edges · 169 communities (64 shown, 105 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cb7e6f7e`
+- Built from commit: `7c2a6870`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -284,8 +284,8 @@ Cohesion: 0.07
 Nodes (25): Filesystem Layout, Infrastructure, PM2 Configuration (`ecosystem.config.js`), Staging Deployment Design, 1. Cloudflare Turnstile Evasion (Passive CDP Monitoring), 2. Stealth Plugin Initialization Fix, 3. Chromium Launch Argument Hardening, 🛡️ Anti-Bot & Evasion Techniques (+17 more)
 
 ### Community 34 - "Engineer Components"
-Cohesion: 0.06
-Nodes (16): Menu, OverviewPage, SettingsPage, BackendClient, ServiceContainer, ConfigService, HeartbeatService, HttpClient (+8 more)
+Cohesion: 0.10
+Nodes (6): Menu, OverviewPage, Nonce, Permissions, BackendClient, ConfigService
 
 ### Community 35 - "V2 Components"
 Cohesion: 0.40
@@ -300,8 +300,8 @@ Cohesion: 0.40
 Nodes (3): { chromium }, fs, path
 
 ### Community 39 - "Claude Components"
-Cohesion: 0.08
-Nodes (22): CompatibilityService, ConnectionResult, DiagnosticsService, HandshakeResult, HealthService, HeartbeatResult, LoggerInterface, RegistrationResult (+14 more)
+Cohesion: 0.05
+Nodes (30): SettingsPage, BackendClient, BackendClient, ServiceContainer, CompatibilityService, ConfigService, ConnectionResult, DiagnosticsService (+22 more)
 
 ### Community 51 - "Eeat Components"
 Cohesion: 0.33
@@ -432,21 +432,21 @@ Cohesion: 0.25
 Nodes (7): 1. Validation Report, 2. Defect Register, 3. Recovery Evidence, 4. Benchmark Results, 5. Security Audit, 6. Final Production Readiness Report, System Readiness & Validation Report (Phase 15.9)
 
 ## Knowledge Gaps
-- **387 isolated node(s):** `{ PreFlightValidator }`, `{ loadConfig }`, `{ createLogger }`, `DatabaseConnection`, `Migrations` (+382 more)
+- **386 isolated node(s):** `express`, `{ PreFlightValidator }`, `{ loadConfig }`, `{ createLogger }`, `DatabaseConnection` (+381 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **105 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `PluginRepository` connect `Community 90` to `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+- **Why does `BrowserManager` connect `Browsermanager Components` to `Bootstrapmanager Components`, `Createclaudeerror Components`, `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **Why does `JobRepository` connect `Jobrepository Components` to `Migrations Components`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **Why does `ProjectRepository` connect `Projectrepository Components` to `Community 82`, `Migrations Components`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **Why does `DashboardReadService` connect `Community 138` to `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **What connects `{ PreFlightValidator }`, `{ loadConfig }`, `{ createLogger }` to the rest of the system?**
-  _387 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+- **What connects `express`, `{ PreFlightValidator }`, `{ loadConfig }` to the rest of the system?**
+  _386 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Auditroutes Components` be split into smaller, more focused modules?**
   _Cohesion score 0.1038961038961039 - nodes in this community are weakly interconnected._
 - **Should `Bootstrapmanager Components` be split into smaller, more focused modules?**

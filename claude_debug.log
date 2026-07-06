@@ -384,3 +384,56 @@
 {"timestamp":"2026-07-06T09:54:48.873Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
 {"timestamp":"2026-07-06T09:54:52.551Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/register"}
 {"timestamp":"2026-07-06T09:54:52.557Z","scope":"Server","level":"error","message":"Register error","error":"Unsupported protocol version"}
+{"timestamp":"2026-07-06T09:58:41.550Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T09:58:44.605Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/register"}
+{"timestamp":"2026-07-06T09:58:44.629Z","scope":"Server","level":"error","message":"Register error","error":"no such table: plugin_installations"}
+{"timestamp":"2026-07-06T10:01:13.874Z","scope":"BrowserManager","level":"info","event":"STARTUP","profilePath":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","channel":"chrome","headless":false}
+{"timestamp":"2026-07-06T10:01:13.911Z","scope":"BrowserManager","level":"info","event":"PRE_LAUNCH_CLEANUP","profile":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","attempt":1}
+{"timestamp":"2026-07-06T10:01:13.911Z","scope":"BrowserManager","level":"info","event":"BROWSER_LAUNCH","profilePath":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","channel":"chrome","attempt":1}
+{"timestamp":"2026-07-06T10:01:16.061Z","scope":"BrowserManager","level":"warn","event":"NEW_PAGE_CALLED","stack":"Error\n    at context.newPage (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:205:73)\n    at BrowserManager._attachSinglePage (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:286:46)\n    at async BrowserManager._initializeInternal (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:150:13)\n    at async BrowserManager.initialize (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:125:20)\n    at async BootstrapManager._runPhase3 (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/bootstrap/BootstrapManager.js:310:13)\n    at async BootstrapManager.run (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/bootstrap/BootstrapManager.js:80:9)\n    at async main (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/index.js:8:46)"}
+{"timestamp":"2026-07-06T10:01:16.447Z","scope":"BrowserManager","level":"warn","event":"PAGE_OPENED","url":"about:blank","allPages":["about:blank"]}
+{"timestamp":"2026-07-06T10:01:16.653Z","scope":"BrowserManager","level":"info","event":"PAGE_CREATED"}
+{"timestamp":"2026-07-06T10:01:16.685Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"STARTING","to":"READY","reason":"browser initialized"}
+{"timestamp":"2026-07-06T10:01:16.687Z","scope":"ClaudeWorker","level":"info","event":"INIT_START"}
+{"timestamp":"2026-07-06T10:01:16.688Z","scope":"WorkerState","level":"warn","event":"INVALID_STATE_TRANSITION","from":"READY","to":"STARTING","reason":"claude manager init"}
+{"timestamp":"2026-07-06T10:01:16.691Z","scope":"ClaudeWorker","level":"info","event":"NAVIGATION_DEBUG","currentUrl":"about:blank","forceNavigation":true,"isClaude":false,"destination":"https://claude.ai"}
+{"timestamp":"2026-07-06T10:01:16.697Z","scope":"ClaudeWorker","level":"info","event":"NAVIGATING_TO_CLAUDE","url":"https://claude.ai"}
+{"timestamp":"2026-07-06T10:01:16.699Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"starting_goto"}
+{"timestamp":"2026-07-06T10:01:17.945Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_goto"}
+{"timestamp":"2026-07-06T10:01:17.946Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_human_emulation"}
+{"timestamp":"2026-07-06T10:01:17.947Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"starting_url_check"}
+{"timestamp":"2026-07-06T10:01:32.958Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_url_check","url":"https://claude.ai/new"}
+{"timestamp":"2026-07-06T10:01:35.969Z","scope":"ClaudeWorker","level":"error","event":"FIND_FIRST_AVAILABLE_ERROR","error":"All promises were rejected"}
+{"timestamp":"2026-07-06T10:01:35.970Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_promise_race"}
+{"timestamp":"2026-07-06T10:01:36.985Z","scope":"ClaudeWorker","level":"info","event":"INIT_COMPLETE"}
+{"timestamp":"2026-07-06T10:01:36.986Z","scope":"ClaudeWorker","level":"info","event":"WORKER_INITIALIZING"}
+{"timestamp":"2026-07-06T10:01:36.987Z","scope":"ClaudeWorker","level":"info","event":"WORKER_PROCESSING_START"}
+{"timestamp":"2026-07-06T10:01:36.987Z","scope":"SessionMonitor","level":"info","event":"SESSION_MONITOR_START"}
+{"timestamp":"2026-07-06T10:01:37.019Z","scope":"Server","level":"info","message":"listening","port":3000}
+{"timestamp":"2026-07-06T10:01:37.191Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"READY","to":"HEALTHY","reason":"state_update"}
+{"timestamp":"2026-07-06T10:02:41.991Z","scope":"SessionMonitor","level":"warn","event":"HEALTH_ISSUE_DETECTED","issue":{"issue":"NETWORK","severity":"MEDIUM"}}
+{"timestamp":"2026-07-06T10:02:41.994Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"HEALTHY","to":"DEGRADED","reason":"recovering_from_network"}
+{"timestamp":"2026-07-06T10:02:42.014Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_BACKOFF_DELAY","delayMs":30000,"attempt":1}
+{"timestamp":"2026-07-06T10:03:12.017Z","scope":"SessionMonitor","level":"warn","event":"RECOVERY_INITIATED","issue":"NETWORK","attempt":1}
+{"timestamp":"2026-07-06T10:03:12.022Z","scope":"SessionMonitor","level":"info","event":"RECOVERING_NETWORK"}
+{"timestamp":"2026-07-06T10:03:17.603Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_SUCCESSFUL","issue":"NETWORK"}
+{"timestamp":"2026-07-06T10:03:17.605Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"DEGRADED","to":"HEALTHY","reason":"recovery_successful"}
+{"timestamp":"2026-07-06T10:05:10.859Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T10:05:10.863Z","scope":"Server","level":"warn","message":"Authentication failed: invalid key"}
+{"timestamp":"2026-07-06T10:05:39.890Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T10:05:39.891Z","scope":"Server","level":"warn","message":"Authentication failed: invalid key"}
+{"timestamp":"2026-07-06T10:09:41.355Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/register"}
+{"timestamp":"2026-07-06T10:09:41.374Z","scope":"Server","level":"error","message":"Register error","error":"no such table: plugin_installations"}
+{"timestamp":"2026-07-06T10:09:58.393Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T10:10:18.422Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/register"}
+{"timestamp":"2026-07-06T10:10:18.425Z","scope":"Server","level":"error","message":"Register error","error":"no such table: plugin_installations"}
+{"timestamp":"2026-07-06T10:14:52.693Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T10:14:55.243Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/register"}
+{"timestamp":"2026-07-06T10:15:24.625Z","scope":"Server","level":"info","message":"request","method":"GET","path":"/api/seo-opt/stats"}
+{"timestamp":"2026-07-06T11:02:42.115Z","scope":"SessionMonitor","level":"warn","event":"HEALTH_ISSUE_DETECTED","issue":{"issue":"NETWORK","severity":"MEDIUM"}}
+{"timestamp":"2026-07-06T11:02:42.126Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"HEALTHY","to":"DEGRADED","reason":"recovering_from_network"}
+{"timestamp":"2026-07-06T11:02:42.131Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_BACKOFF_DELAY","delayMs":30000,"attempt":1}
+{"timestamp":"2026-07-06T11:03:12.134Z","scope":"SessionMonitor","level":"warn","event":"RECOVERY_INITIATED","issue":"NETWORK","attempt":1}
+{"timestamp":"2026-07-06T11:03:12.140Z","scope":"SessionMonitor","level":"info","event":"RECOVERING_NETWORK"}
+{"timestamp":"2026-07-06T11:03:18.470Z","scope":"SessionMonitor","level":"info","event":"RECOVERY_SUCCESSFUL","issue":"NETWORK"}
+{"timestamp":"2026-07-06T11:03:18.474Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"DEGRADED","to":"HEALTHY","reason":"recovery_successful"}
