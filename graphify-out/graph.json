@@ -61,343 +61,13 @@
   },
   "nodes": [
     {
-      "label": "pluginRoutes.js",
-      "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "api_pluginroutes",
-      "community": 100,
-      "norm_label": "pluginroutes.js"
-    },
-    {
-      "label": "express",
-      "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "api_pluginroutes_express",
-      "community": 100,
-      "norm_label": "express"
-    },
-    {
-      "label": "createPluginRoutes()",
-      "file_type": "code",
-      "source_file": "src/api/pluginRoutes.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "api_pluginroutes_createpluginroutes",
-      "community": 100,
-      "norm_label": "createpluginroutes()"
-    },
-    {
-      "label": "server.js",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_server",
-      "community": 0,
-      "norm_label": "server.js"
-    },
-    {
-      "label": "express",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_server_express",
-      "community": 139,
-      "norm_label": "express"
-    },
-    {
-      "label": "{ createStatusRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "src_server_createstatusroutes",
-      "community": 0,
-      "norm_label": "{ createstatusroutes }"
-    },
-    {
-      "label": "{ createSiteRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "src_server_createsiteroutes",
-      "community": 0,
-      "norm_label": "{ createsiteroutes }"
-    },
-    {
-      "label": "{ createProjectRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "src_server_createprojectroutes",
-      "community": 0,
-      "norm_label": "{ createprojectroutes }"
-    },
-    {
-      "label": "{ createJobRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "src_server_createjobroutes",
-      "community": 0,
-      "norm_label": "{ createjobroutes }"
-    },
-    {
-      "label": "{ createAuditRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "src_server_createauditroutes",
-      "community": 0,
-      "norm_label": "{ createauditroutes }"
-    },
-    {
-      "label": "{ createRewriteRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "src_server_createrewriteroutes",
-      "community": 0,
-      "norm_label": "{ createrewriteroutes }"
-    },
-    {
-      "label": "{ createPublishingRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "src_server_createpublishingroutes",
-      "community": 0,
-      "norm_label": "{ createpublishingroutes }"
-    },
-    {
-      "label": "{ createWordPressRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "src_server_createwordpressroutes",
-      "community": 0,
-      "norm_label": "{ createwordpressroutes }"
-    },
-    {
-      "label": "{ createPluginRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "src_server_createpluginroutes",
-      "community": 0,
-      "norm_label": "{ createpluginroutes }"
-    },
-    {
-      "label": "{ createDashboardRoutes }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "src_server_createdashboardroutes",
-      "community": 0,
-      "norm_label": "{ createdashboardroutes }"
-    },
-    {
-      "label": "createQueueRouter",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "src_server_createqueuerouter",
-      "community": 139,
-      "norm_label": "createqueuerouter"
-    },
-    {
-      "label": "{ loadSecurityConfig }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "src_server_loadsecurityconfig",
-      "community": 0,
-      "norm_label": "{ loadsecurityconfig }"
-    },
-    {
-      "label": "{ createAuthMiddleware }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "src_server_createauthmiddleware",
-      "community": 0,
-      "norm_label": "{ createauthmiddleware }"
-    },
-    {
-      "label": "{ createRateLimiter }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "src_server_createratelimiter",
-      "community": 0,
-      "norm_label": "{ createratelimiter }"
-    },
-    {
-      "label": "{ validateRewriteRequest }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "src_server_validaterewriterequest",
-      "community": 0,
-      "norm_label": "{ validaterewriterequest }"
-    },
-    {
-      "label": "{ secureHeaders }",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "src_server_secureheaders",
-      "community": 0,
-      "norm_label": "{ secureheaders }"
-    },
-    {
-      "label": "createApp()",
-      "file_type": "code",
-      "source_file": "src/server.js",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "src_server_createapp",
-      "community": 139,
-      "norm_label": "createapp()"
-    },
-    {
-      "label": "AdminModule.php",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "admin_adminmodule",
-      "community": 39,
-      "norm_label": "adminmodule.php"
-    },
-    {
-      "label": "AdminModule",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "admin_adminmodule_adminmodule",
-      "community": 39,
-      "norm_label": "adminmodule"
-    },
-    {
-      "label": "ModuleInterface",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "moduleinterface",
-      "community": 39,
-      "norm_label": "moduleinterface"
-    },
-    {
-      "label": ".__construct()",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "admin_adminmodule_adminmodule_construct",
-      "community": 39,
-      "norm_label": ".__construct()"
-    },
-    {
-      "label": "ConfigService",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_adminmodule_php_configservice",
-      "community": 39,
-      "norm_label": "configservice"
-    },
-    {
-      "label": "RegistrationService",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "registrationservice",
-      "community": 39,
-      "norm_label": "registrationservice"
-    },
-    {
-      "label": "HeartbeatService",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "heartbeatservice",
-      "community": 39,
-      "norm_label": "heartbeatservice"
-    },
-    {
-      "label": "Notices",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "notices",
-      "community": 39,
-      "norm_label": "notices"
-    },
-    {
-      "label": "BackendClient",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_adminmodule_php_backendclient",
-      "community": 39,
-      "norm_label": "backendclient"
-    },
-    {
-      "label": ".register()",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "admin_adminmodule_adminmodule_register",
-      "community": 39,
-      "norm_label": ".register()"
-    },
-    {
-      "label": "Loader",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "loader",
-      "community": 39,
-      "norm_label": "loader"
-    },
-    {
       "label": "OverviewPage.php",
       "file_type": "code",
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L1",
       "_origin": "ast",
       "id": "admin_overviewpage",
-      "community": 34,
+      "community": 169,
       "norm_label": "overviewpage.php"
     },
     {
@@ -407,7 +77,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "admin_overviewpage_overviewpage",
-      "community": 34,
+      "community": 169,
       "norm_label": "overviewpage"
     },
     {
@@ -417,7 +87,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "admin_overviewpage_overviewpage_construct",
-      "community": 34,
+      "community": 169,
       "norm_label": ".__construct()"
     },
     {
@@ -426,8 +96,8 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_overviewpage_php_configservice",
-      "community": 34,
+      "id": "configservice",
+      "community": 169,
       "norm_label": "configservice"
     },
     {
@@ -436,8 +106,8 @@
       "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "wordpress_agent_plugin_admin_overviewpage_php_backendclient",
-      "community": 34,
+      "id": "backendclient",
+      "community": 169,
       "norm_label": "backendclient"
     },
     {
@@ -447,7 +117,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "admin_overviewpage_overviewpage_renderpage",
-      "community": 34,
+      "community": 169,
       "norm_label": ".renderpage()"
     },
     {
@@ -457,7 +127,7 @@
       "source_location": "L173",
       "_origin": "ast",
       "id": "admin_overviewpage_overviewpage_handlegetqueuestats",
-      "community": 34,
+      "community": 169,
       "norm_label": ".handlegetqueuestats()"
     },
     {
@@ -467,8 +137,338 @@
       "source_location": "L195",
       "_origin": "ast",
       "id": "admin_overviewpage_overviewpage_handleschedulejob",
-      "community": 34,
+      "community": 169,
       "norm_label": ".handleschedulejob()"
+    },
+    {
+      "label": "pluginRoutes.js",
+      "file_type": "code",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 100,
+      "norm_label": "pluginroutes.js",
+      "id": "api_pluginroutes"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 100,
+      "norm_label": "express",
+      "id": "api_pluginroutes_express"
+    },
+    {
+      "label": "createPluginRoutes()",
+      "file_type": "code",
+      "source_file": "src/api/pluginRoutes.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 100,
+      "norm_label": "createpluginroutes()",
+      "id": "api_pluginroutes_createpluginroutes"
+    },
+    {
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "server.js",
+      "id": "src_server"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 139,
+      "norm_label": "express",
+      "id": "src_server_express"
+    },
+    {
+      "label": "{ createStatusRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createstatusroutes }",
+      "id": "src_server_createstatusroutes"
+    },
+    {
+      "label": "{ createSiteRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createsiteroutes }",
+      "id": "src_server_createsiteroutes"
+    },
+    {
+      "label": "{ createProjectRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createprojectroutes }",
+      "id": "src_server_createprojectroutes"
+    },
+    {
+      "label": "{ createJobRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createjobroutes }",
+      "id": "src_server_createjobroutes"
+    },
+    {
+      "label": "{ createAuditRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createauditroutes }",
+      "id": "src_server_createauditroutes"
+    },
+    {
+      "label": "{ createRewriteRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createrewriteroutes }",
+      "id": "src_server_createrewriteroutes"
+    },
+    {
+      "label": "{ createPublishingRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createpublishingroutes }",
+      "id": "src_server_createpublishingroutes"
+    },
+    {
+      "label": "{ createWordPressRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createwordpressroutes }",
+      "id": "src_server_createwordpressroutes"
+    },
+    {
+      "label": "{ createPluginRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createpluginroutes }",
+      "id": "src_server_createpluginroutes"
+    },
+    {
+      "label": "{ createDashboardRoutes }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createdashboardroutes }",
+      "id": "src_server_createdashboardroutes"
+    },
+    {
+      "label": "createQueueRouter",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 139,
+      "norm_label": "createqueuerouter",
+      "id": "src_server_createqueuerouter"
+    },
+    {
+      "label": "{ loadSecurityConfig }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ loadsecurityconfig }",
+      "id": "src_server_loadsecurityconfig"
+    },
+    {
+      "label": "{ createAuthMiddleware }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createauthmiddleware }",
+      "id": "src_server_createauthmiddleware"
+    },
+    {
+      "label": "{ createRateLimiter }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ createratelimiter }",
+      "id": "src_server_createratelimiter"
+    },
+    {
+      "label": "{ validateRewriteRequest }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ validaterewriterequest }",
+      "id": "src_server_validaterewriterequest"
+    },
+    {
+      "label": "{ secureHeaders }",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "{ secureheaders }",
+      "id": "src_server_secureheaders"
+    },
+    {
+      "label": "createApp()",
+      "file_type": "code",
+      "source_file": "src/server.js",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 139,
+      "norm_label": "createapp()",
+      "id": "src_server_createapp"
+    },
+    {
+      "label": "AdminModule.php",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": "adminmodule.php",
+      "id": "admin_adminmodule"
+    },
+    {
+      "label": "AdminModule",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": "adminmodule",
+      "id": "admin_adminmodule_adminmodule"
+    },
+    {
+      "label": "ModuleInterface",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": "moduleinterface",
+      "id": "moduleinterface"
+    },
+    {
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": ".__construct()",
+      "id": "admin_adminmodule_adminmodule_construct"
+    },
+    {
+      "label": "ConfigService",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": "configservice",
+      "id": "wordpress_agent_plugin_admin_adminmodule_php_configservice"
+    },
+    {
+      "label": "RegistrationService",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": "registrationservice",
+      "id": "registrationservice"
+    },
+    {
+      "label": "HeartbeatService",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": "heartbeatservice",
+      "id": "heartbeatservice"
+    },
+    {
+      "label": "Notices",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": "notices",
+      "id": "notices"
+    },
+    {
+      "label": "BackendClient",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": "backendclient",
+      "id": "wordpress_agent_plugin_admin_adminmodule_php_backendclient"
+    },
+    {
+      "label": ".register()",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": ".register()",
+      "id": "admin_adminmodule_adminmodule_register"
+    },
+    {
+      "label": "Loader",
+      "file_type": "code",
+      "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 167,
+      "norm_label": "loader",
+      "id": "loader"
     },
     {
       "label": "RegistrationService.php",
@@ -476,7 +476,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": "registrationservice.php",
       "id": "services_registrationservice"
     },
@@ -486,7 +486,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": "registrationservice",
       "id": "services_registrationservice_registrationservice"
     },
@@ -496,29 +496,9 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 39,
+      "community": 169,
       "norm_label": ".__construct()",
       "id": "services_registrationservice_registrationservice_construct"
-    },
-    {
-      "label": "BackendClient",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 39,
-      "norm_label": "backendclient",
-      "id": "backendclient"
-    },
-    {
-      "label": "ConfigService",
-      "file_type": "code",
-      "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 39,
-      "norm_label": "configservice",
-      "id": "configservice"
     },
     {
       "label": "LoggerInterface",
@@ -536,7 +516,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 39,
+      "community": 169,
       "norm_label": "compatibilityservice",
       "id": "compatibilityservice"
     },
@@ -546,7 +526,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": ".handshake()",
       "id": "services_registrationservice_registrationservice_handshake"
     },
@@ -556,7 +536,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": "handshakeresult",
       "id": "handshakeresult"
     },
@@ -566,7 +546,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L90",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": ".register()",
       "id": "services_registrationservice_registrationservice_register"
     },
@@ -576,7 +556,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L90",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": "registrationresult",
       "id": "registrationresult"
     },
@@ -586,7 +566,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L132",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": ".disconnect()",
       "id": "services_registrationservice_registrationservice_disconnect"
     },
@@ -596,7 +576,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L150",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": ".handlehandshakefailure()",
       "id": "services_registrationservice_registrationservice_handlehandshakefailure"
     },
@@ -606,7 +586,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L155",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": ".handleregistrationfailure()",
       "id": "services_registrationservice_registrationservice_handleregistrationfailure"
     },
@@ -616,7 +596,7 @@
       "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
       "source_location": "L160",
       "_origin": "ast",
-      "community": 39,
+      "community": 171,
       "norm_label": ".determinefailurestate()",
       "id": "services_registrationservice_registrationservice_determinefailurestate"
     },
@@ -1976,7 +1956,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 39,
+      "community": 167,
       "norm_label": "servicecontainer.php",
       "id": "bootstrap_servicecontainer"
     },
@@ -1986,7 +1966,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 39,
+      "community": 175,
       "norm_label": "servicecontainer",
       "id": "bootstrap_servicecontainer_servicecontainer"
     },
@@ -1996,7 +1976,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 39,
+      "community": 175,
       "norm_label": ".registerservices()",
       "id": "bootstrap_servicecontainer_servicecontainer_registerservices"
     },
@@ -2006,7 +1986,7 @@
       "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 39,
+      "community": 175,
       "norm_label": "loader",
       "id": "wordpress_agent_plugin_bootstrap_servicecontainer_php_loader"
     },
@@ -3186,7 +3166,7 @@
       "source_file": "wordpress-agent-plugin/security/Nonce.php",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 34,
+      "community": 174,
       "norm_label": "nonce.php",
       "id": "security_nonce"
     },
@@ -3196,7 +3176,7 @@
       "source_file": "wordpress-agent-plugin/security/Nonce.php",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 34,
+      "community": 174,
       "norm_label": "nonce",
       "id": "security_nonce_nonce"
     },
@@ -3206,7 +3186,7 @@
       "source_file": "wordpress-agent-plugin/security/Nonce.php",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 34,
+      "community": 174,
       "norm_label": ".create()",
       "id": "security_nonce_nonce_create"
     },
@@ -3216,7 +3196,7 @@
       "source_file": "wordpress-agent-plugin/security/Nonce.php",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 34,
+      "community": 174,
       "norm_label": ".verify()",
       "id": "security_nonce_nonce_verify"
     },
@@ -3756,7 +3736,7 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 39,
+      "community": 173,
       "norm_label": "connectionservice.php",
       "id": "services_connectionservice"
     },
@@ -3766,7 +3746,7 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 39,
+      "community": 173,
       "norm_label": "connectionservice",
       "id": "services_connectionservice_connectionservice"
     },
@@ -3776,7 +3756,7 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 39,
+      "community": 173,
       "norm_label": ".__construct()",
       "id": "services_connectionservice_connectionservice_construct"
     },
@@ -3786,7 +3766,7 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 39,
+      "community": 173,
       "norm_label": "backendclient",
       "id": "wordpress_agent_plugin_services_connectionservice_php_backendclient"
     },
@@ -3796,7 +3776,7 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 39,
+      "community": 173,
       "norm_label": "configservice",
       "id": "wordpress_agent_plugin_services_connectionservice_php_configservice"
     },
@@ -3806,7 +3786,7 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 39,
+      "community": 173,
       "norm_label": "healthservice",
       "id": "healthservice"
     },
@@ -3816,7 +3796,7 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 39,
+      "community": 173,
       "norm_label": "loggerinterface",
       "id": "wordpress_agent_plugin_services_connectionservice_php_loggerinterface"
     },
@@ -3826,7 +3806,7 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 39,
+      "community": 173,
       "norm_label": ".testconnection()",
       "id": "services_connectionservice_connectionservice_testconnection"
     },
@@ -3836,7 +3816,7 @@
       "source_file": "wordpress-agent-plugin/services/ConnectionService.php",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 39,
+      "community": 173,
       "norm_label": "connectionresult",
       "id": "connectionresult"
     },
@@ -4086,7 +4066,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 39,
+      "community": 167,
       "norm_label": "settingspage.php",
       "id": "admin_settingspage"
     },
@@ -4096,7 +4076,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 39,
+      "community": 172,
       "norm_label": "settingspage",
       "id": "admin_settingspage_settingspage"
     },
@@ -4106,7 +4086,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 39,
+      "community": 167,
       "norm_label": ".__construct()",
       "id": "admin_settingspage_settingspage_construct"
     },
@@ -4116,7 +4096,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 39,
+      "community": 172,
       "norm_label": ".registersettings()",
       "id": "admin_settingspage_settingspage_registersettings"
     },
@@ -4126,7 +4106,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 39,
+      "community": 172,
       "norm_label": ".sanitizesettings()",
       "id": "admin_settingspage_settingspage_sanitizesettings"
     },
@@ -4136,7 +4116,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L48",
       "_origin": "ast",
-      "community": 34,
+      "community": 174,
       "norm_label": ".enqueueassets()",
       "id": "admin_settingspage_settingspage_enqueueassets"
     },
@@ -4156,7 +4136,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L145",
       "_origin": "ast",
-      "community": 39,
+      "community": 172,
       "norm_label": ".verifyajax()",
       "id": "admin_settingspage_settingspage_verifyajax"
     },
@@ -4166,7 +4146,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L154",
       "_origin": "ast",
-      "community": 39,
+      "community": 172,
       "norm_label": ".handlehandshake()",
       "id": "admin_settingspage_settingspage_handlehandshake"
     },
@@ -4176,7 +4156,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L160",
       "_origin": "ast",
-      "community": 39,
+      "community": 172,
       "norm_label": ".handleregister()",
       "id": "admin_settingspage_settingspage_handleregister"
     },
@@ -4186,7 +4166,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L166",
       "_origin": "ast",
-      "community": 39,
+      "community": 172,
       "norm_label": ".handledisconnect()",
       "id": "admin_settingspage_settingspage_handledisconnect"
     },
@@ -4196,7 +4176,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L172",
       "_origin": "ast",
-      "community": 39,
+      "community": 172,
       "norm_label": ".handleheartbeat()",
       "id": "admin_settingspage_settingspage_handleheartbeat"
     },
@@ -4206,7 +4186,7 @@
       "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
       "source_location": "L191",
       "_origin": "ast",
-      "community": 39,
+      "community": 172,
       "norm_label": ".respondwithresult()",
       "id": "admin_settingspage_settingspage_respondwithresult"
     },
@@ -4556,7 +4536,7 @@
       "source_file": "dashboard/hooks/useReviews.ts",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 135,
+      "community": 164,
       "norm_label": "usereviews()",
       "id": "hooks_usereviews_usereviews"
     },
@@ -4676,7 +4656,7 @@
       "source_file": "dashboard/lib/api/types.ts",
       "source_location": "L71",
       "_origin": "ast",
-      "community": 135,
+      "community": 153,
       "norm_label": "overviewdto",
       "id": "api_types_overviewdto"
     },
@@ -5856,7 +5836,7 @@
       "source_file": "dashboard/components/dashboard/EventFeed.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 167,
+      "community": 135,
       "norm_label": "eventfeed.tsx",
       "id": "dashboard_eventfeed"
     },
@@ -5866,7 +5846,7 @@
       "source_file": "dashboard/components/dashboard/EventFeed.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 167,
+      "community": 135,
       "norm_label": "eventfeed()",
       "id": "dashboard_eventfeed_eventfeed"
     },
@@ -5946,7 +5926,7 @@
       "source_file": "dashboard/components/dashboard/ReviewWidget.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 164,
       "norm_label": "reviewwidget.tsx",
       "id": "dashboard_reviewwidget"
     },
@@ -5956,7 +5936,7 @@
       "source_file": "dashboard/components/dashboard/ReviewWidget.tsx",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 135,
+      "community": 164,
       "norm_label": "reviewwidget()",
       "id": "dashboard_reviewwidget_reviewwidget"
     },
@@ -6006,7 +5986,7 @@
       "source_file": "dashboard/hooks/useEvents.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 167,
+      "community": 135,
       "norm_label": "useevents.ts",
       "id": "hooks_useevents"
     },
@@ -6016,7 +5996,7 @@
       "source_file": "dashboard/hooks/useEvents.ts",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 167,
+      "community": 135,
       "norm_label": "eventdto",
       "id": "hooks_useevents_eventdto"
     },
@@ -6026,7 +6006,7 @@
       "source_file": "dashboard/hooks/useEvents.ts",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 167,
+      "community": 135,
       "norm_label": "useevents()",
       "id": "hooks_useevents_useevents"
     },
@@ -6506,7 +6486,7 @@
       "source_file": "dashboard/hooks/useJobs.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 135,
+      "community": 153,
       "norm_label": "usejobs()",
       "id": "hooks_usejobs_usejobs"
     },
@@ -6516,7 +6496,7 @@
       "source_file": "dashboard/hooks/useOverview.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 135,
+      "community": 153,
       "norm_label": "useoverview.ts",
       "id": "hooks_useoverview"
     },
@@ -6546,7 +6526,7 @@
       "source_file": "dashboard/lib/api/client.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 167,
+      "community": 153,
       "norm_label": "apiclient()",
       "id": "api_client_apiclient"
     },
@@ -15682,6 +15662,199 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "admin_overviewpage",
+      "target": "admin_overviewpage_overviewpage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "admin_overviewpage",
+      "target": "backendclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "admin_overviewpage",
+      "target": "configservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "admin_overviewpage_overviewpage",
+      "target": "admin_overviewpage_overviewpage_construct"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "admin_overviewpage_overviewpage",
+      "target": "admin_overviewpage_overviewpage_handlegetqueuestats"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L195",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "admin_overviewpage_overviewpage",
+      "target": "admin_overviewpage_overviewpage_handleschedulejob"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "admin_overviewpage_overviewpage",
+      "target": "admin_overviewpage_overviewpage_renderpage"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "admin_overviewpage_overviewpage_construct",
+      "target": "backendclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "admin_overviewpage_overviewpage_construct",
+      "target": "configservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "admin_settingspage",
+      "target": "configservice"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "admin_settingspage_settingspage_construct",
+      "target": "configservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_plugin",
+      "target": "configservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_servicecontainer",
+      "target": "configservice"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "services_registrationservice_registrationservice_construct",
+      "target": "configservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_registrationservice",
+      "target": "backendclient"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "services_registrationservice_registrationservice_construct",
+      "target": "backendclient"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "admin_overviewpage_overviewpage_handlegetqueuestats",
+      "target": "security_nonce_nonce"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "admin_overviewpage_overviewpage_handlegetqueuestats",
+      "target": "security_permissions_permissions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/api/pluginRoutes.js",
       "source_location": "L3",
       "weight": 1.0,
@@ -15706,9 +15879,9 @@
       "source_file": "src/server.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server",
-      "target": "api_pluginroutes",
-      "confidence_score": 1.0
+      "target": "api_pluginroutes"
     },
     {
       "relation": "imports",
@@ -16435,9 +16608,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_adminmodule",
-      "target": "heartbeatservice",
-      "confidence_score": 1.0
+      "target": "heartbeatservice"
     },
     {
       "relation": "imports",
@@ -16446,9 +16619,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_adminmodule",
-      "target": "loader",
-      "confidence_score": 1.0
+      "target": "loader"
     },
     {
       "relation": "imports",
@@ -16468,9 +16641,9 @@
       "source_file": "wordpress-agent-plugin/admin/AdminModule.php",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "admin_adminmodule",
-      "target": "registrationservice",
-      "confidence_score": 1.0
+      "target": "registrationservice"
     },
     {
       "relation": "imports",
@@ -16531,9 +16704,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "admin_adminmodule_adminmodule_construct",
-      "target": "heartbeatservice",
-      "confidence_score": 1.0
+      "target": "heartbeatservice"
     },
     {
       "relation": "references",
@@ -16553,9 +16726,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "admin_adminmodule_adminmodule_construct",
-      "target": "registrationservice",
-      "confidence_score": 1.0
+      "target": "registrationservice"
     },
     {
       "relation": "references",
@@ -16674,136 +16847,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "admin_adminmodule_adminmodule_register",
-      "target": "loader",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "admin_overviewpage",
-      "target": "admin_overviewpage_overviewpage"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "admin_overviewpage",
-      "target": "wordpress_agent_plugin_admin_overviewpage_php_backendclient"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "admin_overviewpage",
-      "target": "wordpress_agent_plugin_admin_overviewpage_php_configservice"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "admin_overviewpage_overviewpage",
-      "target": "admin_overviewpage_overviewpage_construct"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L96",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "admin_overviewpage_overviewpage",
-      "target": "admin_overviewpage_overviewpage_handlegetqueuestats"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L195",
-      "weight": 1.0,
-      "source": "admin_overviewpage_overviewpage",
-      "target": "admin_overviewpage_overviewpage_handleschedulejob",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "admin_overviewpage_overviewpage",
-      "target": "admin_overviewpage_overviewpage_renderpage"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L13",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "confidence_score": 1.0,
-      "source": "admin_overviewpage_overviewpage_construct",
-      "target": "wordpress_agent_plugin_admin_overviewpage_php_backendclient"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L13",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "confidence_score": 1.0,
-      "source": "admin_overviewpage_overviewpage_construct",
-      "target": "wordpress_agent_plugin_admin_overviewpage_php_configservice"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L97",
-      "weight": 1.0,
-      "source": "admin_overviewpage_overviewpage_handlegetqueuestats",
-      "target": "security_nonce_nonce"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "wordpress-agent-plugin/admin/OverviewPage.php",
-      "source_location": "L100",
-      "weight": 1.0,
-      "source": "admin_overviewpage_overviewpage_handlegetqueuestats",
-      "target": "security_permissions_permissions"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "services_registrationservice",
-      "target": "backendclient"
+      "target": "loader"
     },
     {
       "relation": "imports",
@@ -16938,29 +16984,7 @@
       "context": "parameter_type",
       "confidence_score": 1.0,
       "source": "services_registrationservice_registrationservice_construct",
-      "target": "backendclient"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
-      "source_location": "L19",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "confidence_score": 1.0,
-      "source": "services_registrationservice_registrationservice_construct",
       "target": "compatibilityservice"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/services/RegistrationService.php",
-      "source_location": "L19",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "confidence_score": 1.0,
-      "source": "services_registrationservice_registrationservice_construct",
-      "target": "configservice"
     },
     {
       "relation": "references",
@@ -16972,50 +16996,6 @@
       "confidence_score": 1.0,
       "source": "services_registrationservice_registrationservice_construct",
       "target": "loggerinterface"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "admin_settingspage",
-      "target": "configservice"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/admin/SettingsPage.php",
-      "source_location": "L17",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "confidence_score": 1.0,
-      "source": "admin_settingspage_settingspage_construct",
-      "target": "configservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/bootstrap/Plugin.php",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_plugin",
-      "target": "configservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "wordpress-agent-plugin/bootstrap/ServiceContainer.php",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_servicecontainer",
-      "target": "configservice"
     },
     {
       "relation": "imports",
@@ -36236,5 +36216,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "b7d73445f0d2e118ad0c31c8e9508da7eab6428c"
+  "built_at_commit": "1e31b1e9ae66d66f85c1921746c8adb9e2cdd28a"
 }

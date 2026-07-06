@@ -60,7 +60,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>Content-Operations-Automation — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 1555 nodes, 1979 edges, 170 communities. Commit: b7d7344</p>
+<p class="subtitle">Generated from graphify knowledge graph: 1553 nodes, 1979 edges, 176 communities. Commit: 1e31b1e</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
@@ -94,11 +94,11 @@ flowchart LR
     class ANALYSIS_CLUSTERING_C79796DA module;
     OUTPUTS_DOCS_ED82387C("Outputs &amp; Docs<br/><small>23 nodes</small>")
     class OUTPUTS_DOCS_ED82387C module;
-    CLI_SKILLS_9964CBB8("CLI &amp; Skill Installers<br/><small>426 nodes</small>")
+    CLI_SKILLS_9964CBB8("CLI &amp; Skill Installers<br/><small>424 nodes</small>")
     class CLI_SKILLS_9964CBB8 module;
     INGEST_CACHE_UPDATE_FF457338("Ingestion &amp; Updates<br/><small>2 nodes</small>")
     class INGEST_CACHE_UPDATE_FF457338 module;
-    SERVE_API_35EC8E86("Serving API<br/><small>137 nodes</small>")
+    SERVE_API_35EC8E86("Serving API<br/><small>144 nodes</small>")
     class SERVE_API_35EC8E86 module;
     TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>129 nodes</small>")
     class TESTS_FIXTURES_B84B1DCC module;
@@ -116,11 +116,12 @@ flowchart LR
     class SITESERVICE_COMPONENTS_C9C2CB72 module;
     SITE_COMPONENTS_CE1F1570("Site Components<br/><small>17 nodes</small>")
     class SITE_COMPONENTS_CE1F1570 module;
-    OTHER_D0941E68("Other<br/><small>534 nodes</small>")
+    OTHER_D0941E68("Other<br/><small>527 nodes</small>")
     class OTHER_D0941E68 module;
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x65| OTHER_D0941E68
-    SERVE_API_35EC8E86 -->|imports x23| OTHER_D0941E68
     AUDITROUTES_COMPONENTS_7DD59280 -->|imports x22| SERVE_API_35EC8E86
+    SERVE_API_35EC8E86 -->|imports x13| OTHER_D0941E68
+    OTHER_D0941E68 -->|imports x10| SERVE_API_35EC8E86
     OTHER_D0941E68 -->|imports x9| TESTS_FIXTURES_B84B1DCC
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x6| CLI_SKILLS_9964CBB8
     ANALYSIS_CLUSTERING_C79796DA -->|contains x5| OTHER_D0941E68
@@ -128,7 +129,6 @@ flowchart LR
     SERVE_API_35EC8E86 -->|imports x3| AUDITROUTES_COMPONENTS_7DD59280
     AUDITROUTES_COMPONENTS_7DD59280 -->|imports x3| OTHER_D0941E68
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA -->|imports x3| TESTS_FIXTURES_B84B1DCC
-    OTHER_D0941E68 -->|imports x3| SERVE_API_35EC8E86
     AUDITROUTES_COMPONENTS_7DD59280 -->|imports x2| CLI_SKILLS_9964CBB8
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
@@ -146,19 +146,19 @@ flowchart LR
     <h4>Architecture Layers</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>Layer</th><th>Nodes</th><th>Communities</th></tr>
-      <tr><td>Graph Build</td><td>99</td><td><code>80, 6, 136, 140</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>29</td><td><code>81, 137, 154</code></td></tr><tr><td>Outputs &amp; Docs</td><td>23</td><td><code>12, 168, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>426</td><td><code>39, 2, 27, 15, 34, 93, 97, 150, 40, 85, 87, 55, 107, 108, 98, 62, 102, 111, 114, 123, 124, 35, 70, 71, 74, 103, 112, 113, 41, 75, 115, 130, 131, 132, 77, 78, 104, 105, 106, 61, 95, 109, 160</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>137</td><td><code>164, 153, 57, 134, 139, 59, 100, 144, 145, 146, 147, 148, 149, 170, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>129</td><td><code>4, 33, 3, 37, 44, 45, 46, 47, 110, 118</code></td></tr><tr><td>Bootstrapmanager Components</td><td>45</td><td><code>5</code></td></tr><tr><td>Community 138</td><td>32</td><td><code>138</code></td></tr><tr><td>Auditroutes Components</td><td>22</td><td><code>0</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Siteservice Components</td><td>18</td><td><code>9</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Other</td><td>534</td><td><code>11, 13, 135, 155, 133, 14, 68, 16, 82, 17, 18, 19, 20, 90, 1, 141, 162, 21, 22, 58, 163, 23, 24, 83, 96, 116, 121, 25, 84, 99, 101, 26, 86, 122, 167, 28, 29, 30, 31, 32, 117, 142, 36, 89, 94, 119, 125, 126, 127, 128, 129, 143, 161, 38, 42, 43, 48, 49, 88, 151, 152, 165, 166, 50, 52, 53, 54, 120, 156, 157, 158, 159, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
+      <tr><td>Graph Build</td><td>99</td><td><code>80, 6, 136, 140</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>29</td><td><code>81, 137, 154</code></td></tr><tr><td>Outputs &amp; Docs</td><td>23</td><td><code>12, 168, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>424</td><td><code>2, 27, 15, 93, 97, 150, 39, 167, 40, 85, 87, 169, 171, 172, 173, 34, 55, 107, 108, 98, 62, 102, 111, 114, 123, 124, 174, 35, 70, 71, 74, 103, 112, 113, 41, 75, 115, 130, 131, 132, 175, 77, 78, 104, 105, 106, 61, 95, 109, 160</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>144</td><td><code>164, 153, 57, 134, 139, 59, 100, 144, 145, 146, 147, 148, 149, 170, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>129</td><td><code>4, 33, 3, 37, 44, 45, 46, 47, 110, 118</code></td></tr><tr><td>Bootstrapmanager Components</td><td>45</td><td><code>5</code></td></tr><tr><td>Community 138</td><td>32</td><td><code>138</code></td></tr><tr><td>Auditroutes Components</td><td>22</td><td><code>0</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Siteservice Components</td><td>18</td><td><code>9</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Other</td><td>527</td><td><code>11, 13, 155, 135, 133, 14, 68, 16, 82, 17, 18, 19, 20, 90, 1, 141, 162, 21, 22, 58, 163, 23, 24, 83, 96, 116, 121, 25, 84, 99, 101, 26, 86, 122, 28, 29, 30, 31, 32, 117, 142, 36, 89, 94, 119, 125, 126, 127, 128, 129, 143, 161, 38, 42, 43, 48, 49, 88, 151, 152, 165, 166, 50, 52, 53, 54, 120, 156, 157, 158, 159, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Core Flow</h4>
-    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Other -&gt; Tests &amp; Fixtures -&gt; CLI &amp; Skill Installers -&gt; Serving API -&gt; Auditroutes Components</div>
+    <div class="arrow-chain">Graph Build -&gt; Analysis &amp; Clustering -&gt; Other -&gt; Serving API -&gt; Auditroutes Components -&gt; CLI &amp; Skill Installers -&gt; Outputs &amp; Docs</div>
   </div>
 </div>
 <div class="grid">
   <div class="card">
     <h4>Graph Report Highlights</h4>
     <ul>
-      <li>1555 nodes · 1979 edges · 170 communities (65 shown, 105 thin omitted)</li>
+      <li>1553 nodes · 1979 edges · 176 communities (67 shown, 109 thin omitted)</li>
       <li>Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.8)</li>
       <li>Token cost: 0 input · 0 output</li>
       <li>1. `ClaudeManager` - 33 edges</li>
@@ -1137,12 +1137,12 @@ flowchart LR
 
 <!-- ====== 5. CLI & Skill Installers ====== -->
 <h2 id="cli-skills">5. CLI &amp; Skill Installers</h2>
-<p>CLI &amp; Skill Installers groups implementation around agent, plugin, wordpress, models, mostly in wordpress-agent-plugin/services/ConfigService.php, wordpress-agent-plugin/models/PluginIdentity.php, wordpress-agent-plugin/services/EventListenerService.php. This section covers 426 nodes and 496 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>CLI &amp; Skill Installers groups implementation around agent, plugin, wordpress, models, mostly in wordpress-agent-plugin/services/ConfigService.php, wordpress-agent-plugin/models/PluginIdentity.php, wordpress-agent-plugin/services/EventListenerService.php. This section covers 424 nodes and 496 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: CLI &amp; Skill Installers (426 nodes, 496 edges)
+    %% Section: CLI &amp; Skill Installers (424 nodes, 496 edges)
     subgraph cli_skills_wordpress_agent_plugin_admin_Overview_d2648b84["wordpress-agent-plugin/admin/OverviewPage.php"]
         admin_overviewpage_overviewpage_80f9c75c("OverviewPage<br/><small>wordpress-agent-plugin/admin/OverviewPage.php</small>")
         admin_overviewpage_overviewpage_construct_caeb883c("__construct()<br/><small>wordpress-agent-plugin/admin/OverviewPage.php</small>")
@@ -1167,16 +1167,16 @@ flowchart LR
     models_pluginmetadata_pluginmetadata_68a98509("PluginMetadata<br/><small>wordpress-agent-plugin/models/PluginMetadata.php</small>")
     services_configservice_configservice_f0e37e08("ConfigService<br/><small>wordpress-agent-plugin/services/ConfigService.php</small>")
     services_eventlistenerservice_eventlistenerservi_c2d8cefb("EventListenerService<br/><small>wordpress-agent-plugin/services/EventListenerService.php</small>")
-    admin_adminmodule_adminmodule_fcceb49d -->|method| admin_adminmodule_adminmodule_construct_d3bf1e00
-    admin_adminmodule_adminmodule_fcceb49d -->|method| admin_adminmodule_adminmodule_register_7435bbf2
     admin_overviewpage_overviewpage_80f9c75c -->|method| admin_overviewpage_overviewpage_construct_caeb883c
     admin_overviewpage_overviewpage_80f9c75c -->|method| admin_overviewpage_overviewpage_handlegetqueuest_f0a9947b
     admin_overviewpage_overviewpage_80f9c75c -->|method| admin_overviewpage_overviewpage_handleschedulejo_78161772
     admin_overviewpage_overviewpage_80f9c75c -->|method| admin_overviewpage_overviewpage_renderpage_3a98f1f6
+    admin_adminmodule_adminmodule_fcceb49d -->|method| admin_adminmodule_adminmodule_construct_d3bf1e00
+    admin_adminmodule_adminmodule_fcceb49d -->|method| admin_adminmodule_adminmodule_register_7435bbf2
     services_registrationservice_registrationservice_491a6e9a -->|method| services_registrationservice_registrationservice_a09591d2
     services_registrationservice_registrationservice_491a6e9a -->|method| services_registrationservice_registrationservice_ff2541fa
     services_registrationservice_registrationservice_491a6e9a -->|method| services_registrationservice_registrationservice_ea9fa9f7
-    %% Omitted for readability: 408 nodes, 0 edges
+    %% Omitted for readability: 406 nodes, 0 edges
     class admin_overviewpage_overviewpage_80f9c75c klass;
     class admin_overviewpage_overviewpage_construct_caeb883c function;
     class admin_overviewpage_overviewpage_handlegetqueuest_f0a9947b function;
@@ -1218,243 +1218,243 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>AdminModule.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>BackendClient</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small><br><code>ConfigService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small><br><code>HeartbeatService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small><br>+3 more</td>
-  <td>AdminModule.php node in wordpress-agent-plugin/admin/AdminModule.php.</td>
+  <td><code>_printHeader()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>_reportFailures()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>_runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br>+7 more</td>
+  <td>BootstrapManager node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><code>AdminModule</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>__construct()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small><br><code>register()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td>AdminModule node in wordpress-agent-plugin/admin/AdminModule.php.</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><code>createLogger()</code><br><small style="color:var(--muted)">src/utils/logger.js</small></td>
+  <td>.constructor() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><code>ModuleInterface</code><br><small style="color:var(--muted)"></small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>AdminModule.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>ModuleInterface node in project.</td>
+  <td><code>.run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><code>_printHeader()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>_runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>_runPhase2()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br>+3 more</td>
+  <td>.run() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><code>.__construct()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
+  <td><code>._runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>AdminModule</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>.__construct() node in wordpress-agent-plugin/admin/AdminModule.php.</td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><code>_reportFailures()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td>._runPhase1() node in src/bootstrap/BootstrapManager.js.</td>
 </tr>
 <tr>
   <td>5</td>
-  <td><code>ConfigService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>AdminModule.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
+  <td><code>._runPhase2()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._runPhase2() node in src/bootstrap/BootstrapManager.js.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><code>._runPhase3()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._runPhase3() node in src/bootstrap/BootstrapManager.js.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><code>._runPhase3_5()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._runPhase3_5() node in src/bootstrap/BootstrapManager.js.</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><code>._runPhase4()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><code>_verifyReadiness()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>._runPhase4() node in src/bootstrap/BootstrapManager.js.</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code>._verifyReadiness()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>_runPhase4()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._verifyReadiness() node in src/bootstrap/BootstrapManager.js.</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><code>._printHeader()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>run()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._printHeader() node in src/bootstrap/BootstrapManager.js.</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code>._reportFailures()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>_runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>BootstrapManager</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>._reportFailures() node in src/bootstrap/BootstrapManager.js.</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td><code>check_config.js</code><br><small style="color:var(--muted)">scripts/check_config.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td>Reads, resolves, or persists project configuration.</td>
+</tr>
+<tr>
+  <td>13</td>
+  <td><code>{ loadConfig }</code><br><small style="color:var(--muted)">scripts/check_config.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
   <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
-  <td>6</td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>AdminModule.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small><br><code>SettingsPage.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/SettingsPage.php</small></td>
-  <td>RegistrationService node in wordpress-agent-plugin/admin/AdminModule.php.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>HeartbeatService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>AdminModule.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small><br><code>SettingsPage.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/SettingsPage.php</small></td>
-  <td>HeartbeatService node in wordpress-agent-plugin/admin/AdminModule.php.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>Notices</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td>Notices node in wordpress-agent-plugin/admin/AdminModule.php.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>BackendClient</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><span class="tag tag-cmd">Entry</span></td>
-  <td><code>AdminModule.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>BackendClient node in wordpress-agent-plugin/admin/AdminModule.php.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>.register()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>AdminModule</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>.register() node in wordpress-agent-plugin/admin/AdminModule.php.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>Loader</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>AdminModule.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>Loader node in wordpress-agent-plugin/admin/AdminModule.php.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>BackendClient</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>BackendIdentity</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/ConfigService.php</small><br><code>HandshakeResult</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br>+2 more</td>
-  <td>RegistrationService.php node in wordpress-agent-plugin/services/RegistrationService.php.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
-  <td><code>__construct()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>determineFailureState()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>disconnect()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br>+4 more</td>
-  <td>RegistrationService node in wordpress-agent-plugin/services/RegistrationService.php.</td>
-</tr>
-<tr>
   <td>14</td>
-  <td><code>.__construct()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>config</code><br><small style="color:var(--muted)">scripts/check_config.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>.__construct() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
   <td>15</td>
-  <td><code>BackendClient</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-cmd">Entry</span></td>
-  <td><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>BackendClient node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td><code>claude.js</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>createLogger()</code><br><small style="color:var(--muted)">src/utils/logger.js</small><br><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small><br><code>PersistentWorkerState</code><br><small style="color:var(--muted)">src/models/WorkerState.js</small></td>
+  <td>claude.js node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>16</td>
-  <td><code>ConfigService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>{ loadConfig }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>Plugin.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/Plugin.php</small><br><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small><br><code>SettingsPage.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/SettingsPage.php</small></td>
+  <td>No direct outbound edge</td>
   <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
   <td>17</td>
-  <td><code>LoggerInterface</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><code>HeartbeatService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small></td>
-  <td>LoggerInterface node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td><code>{ createLogger }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ createLogger } node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>18</td>
-  <td><code>CompatibilityService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>{ PersistentWorkerState: WorkerState }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td>CompatibilityService node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>No direct outbound edge</td>
+  <td>{ PersistentWorkerState: WorkerState } node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>19</td>
-  <td><code>.handshake()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>{ BrowserManager }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><code>handleHandshakeFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>.handshake() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ BrowserManager } node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>20</td>
-  <td><code>HandshakeResult</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>{ SessionMonitor }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>HandshakeResult node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>{ SessionMonitor } node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>21</td>
-  <td><code>.register()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>{ ClaudeWorker }</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><code>handleRegistrationFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>.register() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ ClaudeWorker } node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>22</td>
-  <td><code>RegistrationResult</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>RegistrationService.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>No direct outbound edge</td>
-  <td>RegistrationResult node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td><code>getSingletonWorker()</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>createLogger()</code><br><small style="color:var(--muted)">src/utils/logger.js</small><br><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small><br><code>runClaude()</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
+  <td>getSingletonWorker() node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>23</td>
-  <td><code>.disconnect()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>runClaude()</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>getSingletonWorker()</code><br><small style="color:var(--muted)">scripts/claude.js</small></td>
   <td>No direct outbound edge</td>
-  <td>.disconnect() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>runClaude() node in scripts/claude.js.</td>
 </tr>
 <tr>
   <td>24</td>
-  <td><code>.handleHandshakeFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td><code>handshake()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><code>determineFailureState()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>.handleHandshakeFailure() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td><code>config.js</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>security.js</code><br><small style="color:var(--muted)">src/config/security.js</small></td>
+  <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
   <td>25</td>
-  <td><code>.handleRegistrationFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>fs</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>register()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td><code>determineFailureState()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
-  <td>.handleRegistrationFailure() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>fs node in src/config/config.js.</td>
 </tr>
 <tr>
   <td>26</td>
-  <td><code>.determineFailureState()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td><code>path</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>handleHandshakeFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>handleRegistrationFailure()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>RegistrationService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small></td>
+  <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
-  <td>.determineFailureState() node in wordpress-agent-plugin/services/RegistrationService.php.</td>
+  <td>path node in src/config/config.js.</td>
 </tr>
 <tr>
   <td>27</td>
-  <td><code>ServiceContainer.php</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td><code>CompatibilityService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>ConfigService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/RegistrationService.php</small><br><code>HeartbeatService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/admin/AdminModule.php</small><br>+2 more</td>
-  <td><code>DiagnosticsService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/HeartbeatService.php</small><br><code>HealthService</code><br><small style="color:var(--muted)">wordpress-agent-plugin/services/ConnectionService.php</small></td>
-  <td>ServiceContainer.php node in wordpress-agent-plugin/bootstrap/ServiceContainer.php.</td>
+  <td><code>parseInteger()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small><br><code>loadSecurityConfig()</code><br><small style="color:var(--muted)">src/config/security.js</small><br><code>security.js</code><br><small style="color:var(--muted)">src/config/security.js</small></td>
+  <td>parseInteger() node in src/config/config.js.</td>
 </tr>
 <tr>
   <td>28</td>
-  <td><code>ServiceContainer</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
+  <td><code>parseBoolean()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
-  <td><code>registerServices()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td>ServiceContainer node in wordpress-agent-plugin/bootstrap/ServiceContainer.php.</td>
+  <td><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
+  <td>parseBoolean() node in src/config/config.js.</td>
 </tr>
 <tr>
   <td>29</td>
-  <td><code>.registerServices()</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
+  <td><code>loadConfig()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
-  <td><code>ServiceContainer</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
+  <td><code>_runPhase1()</code><br><small style="color:var(--muted)">src/bootstrap/BootstrapManager.js</small><br><code>check_config.js</code><br><small style="color:var(--muted)">scripts/check_config.js</small><br><code>claude.js</code><br><small style="color:var(--muted)">scripts/claude.js</small><br>+3 more</td>
   <td>No direct outbound edge</td>
-  <td>.registerServices() node in wordpress-agent-plugin/bootstrap/ServiceContainer.php.</td>
+  <td>Reads, resolves, or persists project configuration.</td>
 </tr>
 <tr>
   <td>30</td>
-  <td><code>Loader</code><br><small style="color:var(--muted)">wordpress-agent-plugin/bootstrap/ServiceContainer.php</small></td>
-  <td><span class="tag tag-class">Class</span></td>
-  <td>External entry / no inbound edge</td>
+  <td><code>security.js</code><br><small style="color:var(--muted)">src/config/security.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td><code>config.js</code><br><small style="color:var(--muted)">src/config/config.js</small><br><code>parseInteger()</code><br><small style="color:var(--muted)">src/config/config.js</small></td>
   <td>No direct outbound edge</td>
-  <td>Loader node in wordpress-agent-plugin/bootstrap/ServiceContainer.php.</td>
+  <td>security.js node in src/config/security.js.</td>
 </tr>
 </table>
 
@@ -1466,9 +1466,9 @@ flowchart LR
       <tr><td><code>wordpress-agent-plugin/services/ConfigService.php</code></td><td>36 nodes</td></tr>
 <tr><td><code>wordpress-agent-plugin/models/PluginIdentity.php</code></td><td>25 nodes</td></tr>
 <tr><td><code>wordpress-agent-plugin/services/EventListenerService.php</code></td><td>17 nodes</td></tr>
-<tr><td><code>wordpress-agent-plugin/services/RegistrationService.php</code></td><td>15 nodes</td></tr>
 <tr><td><code>wordpress-agent-plugin/models/PluginMetadata.php</code></td><td>14 nodes</td></tr>
 <tr><td><code>wordpress-agent-plugin/admin/SettingsPage.php</code></td><td>13 nodes</td></tr>
+<tr><td><code>wordpress-agent-plugin/services/RegistrationService.php</code></td><td>13 nodes</td></tr>
 <tr><td><code>src/bootstrap/BootstrapManager.js</code></td><td>11 nodes</td></tr>
 <tr><td><code>wordpress-agent-plugin/models/HandshakeResult.php</code></td><td>11 nodes</td></tr>
     </table>
@@ -1549,12 +1549,12 @@ flowchart LR
 
 <!-- ====== 7. Serving API ====== -->
 <h2 id="serve-api">7. Serving API</h2>
-<p>Serving API groups implementation around dashboard, api, components, pagetsx, mostly in lib/api/types.ts, wordpress-agent-plugin/api/BackendClient.php, dashboard/hooks/useReviews.ts. This section covers 137 nodes and 210 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Serving API groups implementation around dashboard, api, components, hooks, mostly in lib/api/types.ts, dashboard/hooks/useReviews.ts, wordpress-agent-plugin/api/BackendClient.php. This section covers 144 nodes and 227 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Serving API (137 nodes, 210 edges)
+    %% Section: Serving API (144 nodes, 227 edges)
     subgraph serve_api_src_server_js_e66fcfd5["src/server.js"]
         src_server_createapp_01c7056f("createApp()<br/><small>src/server.js</small>")
         src_server_express_b55b655b("express<br/><small>src/server.js</small>")
@@ -1591,7 +1591,7 @@ flowchart LR
     src_server_createapp_01c7056f -->|calls| api_rewriteroutes_createrewriteroutes_3b789aec
     src_server_createapp_01c7056f -->|calls| api_siteroutes_createsiteroutes_bd71ba7a
     src_server_createapp_01c7056f -->|calls| api_statusroutes_createstatusroutes_f6c6fcdf
-    %% Omitted for readability: 119 nodes, 0 edges
+    %% Omitted for readability: 126 nodes, 0 edges
     class src_server_createapp_01c7056f function;
     class src_server_express_b55b655b function;
     class src_server_createqueuerouter_c5394ad3 api;
@@ -1732,7 +1732,7 @@ flowchart LR
   <td><code>useReviews.ts</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">app/reviews/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">reviews/[reviewId]/page.tsx</small><br><code>ReviewActions.tsx</code><br><small style="color:var(--muted)">components/reviews/ReviewActions.tsx</small><br>+1 more</td>
-  <td>No direct outbound edge</td>
+  <td><code>apiClient()</code><br><small style="color:var(--muted)">lib/api/client.ts</small><br><code>ReviewWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
   <td>Module file in dashboard/hooks/useReviews.ts.</td>
 </tr>
 <tr>
@@ -1745,6 +1745,14 @@ flowchart LR
 </tr>
 <tr>
   <td>15</td>
+  <td><code>useReviews()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
+  <td><span class="tag tag-hook">UI</span></td>
+  <td>External entry / no inbound edge</td>
+  <td><code>ReviewWidget()</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small><br><code>ReviewWidget.tsx</code><br><small style="color:var(--muted)">components/dashboard/ReviewWidget.tsx</small></td>
+  <td>useReviews() node in dashboard/hooks/useReviews.ts.</td>
+</tr>
+<tr>
+  <td>16</td>
   <td><code>ReviewFilters</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1752,7 +1760,7 @@ flowchart LR
   <td>ReviewFilters node in dashboard/hooks/useReviews.ts.</td>
 </tr>
 <tr>
-  <td>16</td>
+  <td>17</td>
   <td><code>useReviewQueue()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">app/reviews/page.tsx</small><br><code>ReviewQueue()</code><br><small style="color:var(--muted)">app/reviews/page.tsx</small></td>
@@ -1760,7 +1768,7 @@ flowchart LR
   <td>useReviewQueue() node in dashboard/hooks/useReviews.ts.</td>
 </tr>
 <tr>
-  <td>17</td>
+  <td>18</td>
   <td><code>useReviewDetails()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">reviews/[reviewId]/page.tsx</small><br><code>ReviewDetail()</code><br><small style="color:var(--muted)">reviews/[reviewId]/page.tsx</small></td>
@@ -1768,7 +1776,7 @@ flowchart LR
   <td>useReviewDetails() node in dashboard/hooks/useReviews.ts.</td>
 </tr>
 <tr>
-  <td>18</td>
+  <td>19</td>
   <td><code>useReviewAction()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>ReviewActions()</code><br><small style="color:var(--muted)">components/reviews/ReviewActions.tsx</small><br><code>ReviewActions.tsx</code><br><small style="color:var(--muted)">components/reviews/ReviewActions.tsx</small></td>
@@ -1776,7 +1784,7 @@ flowchart LR
   <td>useReviewAction() node in dashboard/hooks/useReviews.ts.</td>
 </tr>
 <tr>
-  <td>19</td>
+  <td>20</td>
   <td><code>useReviewAssign()</code><br><small style="color:var(--muted)">dashboard/hooks/useReviews.ts</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>ReviewAssignment()</code><br><small style="color:var(--muted)">components/reviews/ReviewAssignment.tsx</small><br><code>ReviewAssignment.tsx</code><br><small style="color:var(--muted)">components/reviews/ReviewAssignment.tsx</small></td>
@@ -1784,7 +1792,7 @@ flowchart LR
   <td>useReviewAssign() node in dashboard/hooks/useReviews.ts.</td>
 </tr>
 <tr>
-  <td>20</td>
+  <td>21</td>
   <td><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1792,7 +1800,7 @@ flowchart LR
   <td>RewriteDto node in lib/api/types.ts.</td>
 </tr>
 <tr>
-  <td>21</td>
+  <td>22</td>
   <td><code>VersionDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -1800,7 +1808,7 @@ flowchart LR
   <td>VersionDto node in lib/api/types.ts.</td>
 </tr>
 <tr>
-  <td>22</td>
+  <td>23</td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
@@ -1808,7 +1816,7 @@ flowchart LR
   <td>Module file in rewrites/[rewriteId]/page.tsx.</td>
 </tr>
 <tr>
-  <td>23</td>
+  <td>24</td>
   <td><code>RewriteDetail()</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
@@ -1816,7 +1824,7 @@ flowchart LR
   <td>RewriteDetail() node in rewrites/[rewriteId]/page.tsx.</td>
 </tr>
 <tr>
-  <td>24</td>
+  <td>25</td>
   <td><code>DiffViewer.tsx</code><br><small style="color:var(--muted)">components/rewrites/DiffViewer.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small><br><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
@@ -1824,7 +1832,7 @@ flowchart LR
   <td>Module file in components/rewrites/DiffViewer.tsx.</td>
 </tr>
 <tr>
-  <td>25</td>
+  <td>26</td>
   <td><code>DiffViewer()</code><br><small style="color:var(--muted)">components/rewrites/DiffViewer.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small><br><code>page.tsx</code><br><small style="color:var(--muted)">reviews/[reviewId]/page.tsx</small></td>
@@ -1832,7 +1840,7 @@ flowchart LR
   <td>DiffViewer() node in components/rewrites/DiffViewer.tsx.</td>
 </tr>
 <tr>
-  <td>26</td>
+  <td>27</td>
   <td><code>RewriteHeader.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteHeader.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small><br><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>types.ts</code><br><small style="color:var(--muted)">lib/api/types.ts</small></td>
@@ -1840,7 +1848,7 @@ flowchart LR
   <td>Module file in components/rewrites/RewriteHeader.tsx.</td>
 </tr>
 <tr>
-  <td>27</td>
+  <td>28</td>
   <td><code>RewriteHeader()</code><br><small style="color:var(--muted)">components/rewrites/RewriteHeader.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small></td>
@@ -1848,7 +1856,7 @@ flowchart LR
   <td>RewriteHeader() node in components/rewrites/RewriteHeader.tsx.</td>
 </tr>
 <tr>
-  <td>28</td>
+  <td>29</td>
   <td><code>RewriteHealthBadge.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteHealthBadge.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td>External entry / no inbound edge</td>
@@ -1856,20 +1864,12 @@ flowchart LR
   <td>Module file in components/rewrites/RewriteHealthBadge.tsx.</td>
 </tr>
 <tr>
-  <td>29</td>
+  <td>30</td>
   <td><code>RewriteHealthBadge()</code><br><small style="color:var(--muted)">components/rewrites/RewriteHealthBadge.tsx</small></td>
   <td><span class="tag tag-hook">UI</span></td>
   <td><code>page.tsx</code><br><small style="color:var(--muted)">app/reviews/page.tsx</small></td>
   <td><code>RewriteMetrics.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteMetrics.tsx</small></td>
   <td>RewriteHealthBadge() node in components/rewrites/RewriteHealthBadge.tsx.</td>
-</tr>
-<tr>
-  <td>30</td>
-  <td><code>RewriteMetrics.tsx</code><br><small style="color:var(--muted)">components/rewrites/RewriteMetrics.tsx</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td><code>page.tsx</code><br><small style="color:var(--muted)">rewrites/[rewriteId]/page.tsx</small><br><code>RewriteDto</code><br><small style="color:var(--muted)">lib/api/types.ts</small><br><code>RewriteHealthBadge()</code><br><small style="color:var(--muted)">components/rewrites/RewriteHealthBadge.tsx</small><br>+2 more</td>
-  <td>No direct outbound edge</td>
-  <td>Module file in components/rewrites/RewriteMetrics.tsx.</td>
 </tr>
 </table>
 
@@ -1878,9 +1878,9 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>lib/api/types.ts</code></td><td>16 nodes</td></tr>
+      <tr><td><code>lib/api/types.ts</code></td><td>17 nodes</td></tr>
+<tr><td><code>dashboard/hooks/useReviews.ts</code></td><td>8 nodes</td></tr>
 <tr><td><code>wordpress-agent-plugin/api/BackendClient.php</code></td><td>8 nodes</td></tr>
-<tr><td><code>dashboard/hooks/useReviews.ts</code></td><td>7 nodes</td></tr>
 <tr><td><code>dashboard/hooks/useSiteDetails.ts</code></td><td>7 nodes</td></tr>
 <tr><td><code>src/api/dashboardRoutes.js</code></td><td>5 nodes</td></tr>
 <tr><td><code>dashboard/hooks/useRewrites.ts</code></td><td>4 nodes</td></tr>
@@ -1890,7 +1890,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x83, imports x52, imports x37, calls x29. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x88, imports x60, imports x40, calls x30. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4248,12 +4248,12 @@ flowchart LR
 
 <!-- ====== 16. Other ====== -->
 <h2 id="other">16. Other</h2>
-<p>Other groups implementation around services, dashboard, repositories, constructor, mostly in src/repositories/ProjectRepository.js, src/services/BrowserManager.js, src/services/JobService.js. This section covers 534 nodes and 573 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Other groups implementation around services, dashboard, repositories, constructor, mostly in src/repositories/ProjectRepository.js, src/services/BrowserManager.js, src/services/JobService.js. This section covers 527 nodes and 559 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Other (534 nodes, 573 edges)
+    %% Section: Other (527 nodes, 559 edges)
     subgraph other_src_services_PluginService_js_effd0063["src/services/PluginService.js"]
         services_pluginservice_pluginservice_61f6b1e8("PluginService<br/><small>src/services/PluginService.js</small>")
         services_pluginservice_pluginservice_constructor_a73bc27a("constructor()<br/><small>src/services/PluginService.js</small>")
@@ -4264,13 +4264,17 @@ flowchart LR
         services_pluginservice_pluginservice_renew_3bafdcfc("renew()<br/><small>src/services/PluginService.js</small>")
         services_pluginservice_pluginservice_validate_44a39ce6("validate()<br/><small>src/services/PluginService.js</small>")
     end
-    auditid_page_861c009a("page.tsx")
-    dashboard_reviewwidget_reviewwidget_ade56da5("ReviewWidget()<br/><small>components/dashboard/ReviewWidget.tsx</small>")
-    app_page_c77e992c("page.tsx")
-    hooks_useprojectdetails_useproject_5a7ecd42("useProject()<br/><small>dashboard/hooks/useProjectDetails.ts</small>")
-    hooks_usereviews_usereviews_92a3bfb1("useReviews()<br/><small>dashboard/hooks/useReviews.ts</small>")
+    subgraph other_audits_auditId_page_tsx_39854d3f["audits/[auditId]/page.tsx"]
+        auditid_page_861c009a("page.tsx")
+        auditid_page_auditdetail_49a0e6bd("AuditDetail()<br/><small>audits/[auditId]/page.tsx</small>")
+    end
+    subgraph other_dashboard_hooks_useProjectDetails_ts_cc313b12["dashboard/hooks/useProjectDetails.ts"]
+        hooks_useprojectdetails_useproject_5a7ecd42("useProject()<br/><small>dashboard/hooks/useProjectDetails.ts</small>")
+        hooks_useprojectdetails_useprojecthistory_f4bf56a1("useProjectHistory()<br/><small>dashboard/hooks/useProjectDetails.ts</small>")
+    end
     projectid_page_projectdetail_196cd6d8("ProjectDetail()<br/><small>projects/[projectId]/page.tsx</small>")
     repositories_projectrepository_projectrepository_4051a2da("ProjectRepository<br/><small>src/repositories/ProjectRepository.js</small>")
+    repositories_wordpressrepository_wordpressreposi_138aa21c("WordPressRepository<br/><small>src/repositories/WordPressRepository.js</small>")
     services_browsermanager_browsermanager_212dcea7("BrowserManager<br/><small>src/services/BrowserManager.js</small>")
     services_claudeworker_claudeworker_c12a2e46("ClaudeWorker<br/><small>src/services/ClaudeWorker.js</small>")
     workers_claudeworker_claudeworker_059ee0ad("ClaudeWorker<br/><small>src/workers/ClaudeWorker.js</small>")
@@ -4281,10 +4285,9 @@ flowchart LR
     services_pluginservice_pluginservice_61f6b1e8 -->|method| services_pluginservice_pluginservice_register_15256435
     services_pluginservice_pluginservice_61f6b1e8 -->|method| services_pluginservice_pluginservice_renew_3bafdcfc
     services_pluginservice_pluginservice_61f6b1e8 -->|method| services_pluginservice_pluginservice_validate_44a39ce6
-    hooks_usereviews_usereviews_92a3bfb1 -->|calls| dashboard_reviewwidget_reviewwidget_ade56da5
     projectid_page_projectdetail_196cd6d8 -->|calls| hooks_useprojectdetails_useproject_5a7ecd42
-    app_page_c77e992c -->|imports| dashboard_reviewwidget_reviewwidget_ade56da5
-    %% Omitted for readability: 516 nodes, 0 edges
+    projectid_page_projectdetail_196cd6d8 -->|calls| hooks_useprojectdetails_useprojecthistory_f4bf56a1
+    %% Omitted for readability: 509 nodes, 0 edges
     class services_pluginservice_pluginservice_61f6b1e8 klass;
     class services_pluginservice_pluginservice_constructor_a73bc27a function;
     class services_pluginservice_pluginservice_disconnect_0daf33e5 function;
@@ -4294,12 +4297,12 @@ flowchart LR
     class services_pluginservice_pluginservice_renew_3bafdcfc function;
     class services_pluginservice_pluginservice_validate_44a39ce6 function;
     class auditid_page_861c009a ui;
-    class dashboard_reviewwidget_reviewwidget_ade56da5 ui;
-    class app_page_c77e992c ui;
+    class auditid_page_auditdetail_49a0e6bd ui;
     class hooks_useprojectdetails_useproject_5a7ecd42 ui;
-    class hooks_usereviews_usereviews_92a3bfb1 ui;
+    class hooks_useprojectdetails_useprojecthistory_f4bf56a1 ui;
     class projectid_page_projectdetail_196cd6d8 ui;
     class repositories_projectrepository_projectrepository_4051a2da klass;
+    class repositories_wordpressrepository_wordpressreposi_138aa21c klass;
     class services_browsermanager_browsermanager_212dcea7 klass;
     class services_claudeworker_claudeworker_c12a2e46 klass;
     class workers_claudeworker_claudeworker_059ee0ad klass;
@@ -4583,7 +4586,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: method x232, contains x190, calls x75, imports x47. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: method x232, contains x188, calls x74, imports x38. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4637,10 +4640,10 @@ flowchart LR
   <div class="card">
     <h4>Graph</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>Nodes</td><td>1555</td></tr>
+      <tr><td>Nodes</td><td>1553</td></tr>
       <tr><td>Edges</td><td>1979</td></tr>
       <tr><td>Hyperedges</td><td>4</td></tr>
-      <tr><td>Communities</td><td>170</td></tr>
+      <tr><td>Communities</td><td>176</td></tr>
       <tr><td>Documented Sections</td><td>15</td></tr>
     </table>
   </div>
@@ -4656,7 +4659,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>Content-Operations-Automation — Architecture Documentation</p>
-  <p>Generated: 2026-07-06 11:06 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-07-06 12:20 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->

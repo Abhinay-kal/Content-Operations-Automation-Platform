@@ -207,20 +207,32 @@ function createPluginRoutes({ pluginService, wpOpService, jobService, logger }) 
                 return res.status(500).json({ success: false, error: 'Job service not available' });
             }
 
-            const { wp_post_id, type, priority, prompt } = req.body;
-            if (!wp_post_id) {
-                return res.status(400).json({ success: false, error: 'Missing wp_post_id' });
+            const { wp_post_id, wp_post_ids, type, priority, prompt } = req.body;
+            let postIds = [];
+            
+            if (wp_post_ids && Array.isArray(wp_post_ids)) {
+                postIds = wp_post_ids;
+            } else if (wp_post_id) {
+                postIds = [wp_post_id];
+            }
+            
+            if (postIds.length === 0) {
+                return res.status(400).json({ success: false, error: 'Missing wp_post_id or wp_post_ids' });
             }
 
-            const job = await jobService.createJob({
-                siteId: installation.site_id,
-                wpPostId: wp_post_id,
-                prompt: prompt || null,
-                type: type || 'REWRITE',
-                priority: priority || 'NORMAL'
-            });
+            const jobs = [];
+            for (const pid of postIds) {
+                const job = await jobService.createJob({
+                    siteId: installation.site_id,
+                    wpPostId: pid,
+                    prompt: prompt || null,
+                    type: type || 'REWRITE',
+                    priority: priority || 'NORMAL'
+                });
+                jobs.push(job);
+            }
 
-            res.json({ success: true, data: job });
+            res.json({ success: true, data: jobs });
         } catch (err) {
             if(logger) logger.error('Create job error', { error: err.message });
             res.status(400).json({ success: false, error: err.message });

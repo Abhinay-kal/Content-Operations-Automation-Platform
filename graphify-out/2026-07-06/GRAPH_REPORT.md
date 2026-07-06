@@ -1,16 +1,16 @@
 # Graph Report - Content-Operations-Automation  (2026-07-06)
 
 ## Corpus Check
-- 265 files · ~136,057 words
+- 265 files · ~136,565 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1556 nodes · 1976 edges · 169 communities (64 shown, 105 thin omitted)
+- 1555 nodes · 1979 edges · 170 communities (65 shown, 105 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `183d52a3`
+- Built from commit: `b7d73445`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -173,6 +173,7 @@
 - [[_COMMUNITY_Community 164|Community 164]]
 - [[_COMMUNITY_Community 165|Community 165]]
 - [[_COMMUNITY_Community 166|Community 166]]
+- [[_COMMUNITY_Community 167|Community 167]]
 - [[_COMMUNITY_Community 168|Community 168]]
 - [[_COMMUNITY_Community 170|Community 170]]
 
@@ -184,7 +185,7 @@
 5. `JobRepository` - 20 edges
 6. `ProjectRepository` - 19 edges
 7. `BrowserManager` - 19 edges
-8. `createApp()` - 17 edges
+8. `createApp()` - 18 edges
 9. `compilerOptions` - 16 edges
 10. `ClaudeWorker` - 16 edges
 
@@ -197,8 +198,8 @@
   scripts/claude.js → src/config/config.js
 - `getSingletonWorker()` --calls--> `createLogger()`  [EXTRACTED]
   scripts/claude.js → src/utils/logger.js
-- `main()` --calls--> `createApp()`  [EXTRACTED]
-  src/index.js → src/server.js
+- `createApp()` --calls--> `createPluginRoutes()`  [EXTRACTED]
+  src/server.js → src/api/pluginRoutes.js
 
 ## Import Cycles
 - None detected.
@@ -209,7 +210,7 @@
 - **Junior vs Senior Engineer Differences** — failure_junior_engineer, failure_senior_engineer, failure_scope_of_thinking, failure_handling_ambiguity, failure_impact_vs_output [EXTRACTED 0.75]
 - **Junior vs Senior Comparison** — failure1780489233782_junior_engineer, failure1780489233782_senior_engineer, failure1780489233782_scope_of_thinking [EXTRACTED 1.00]
 
-## Communities (169 total, 105 thin omitted)
+## Communities (170 total, 105 thin omitted)
 
 ### Community 0 - "Auditroutes Components"
 Cohesion: 0.10
@@ -301,7 +302,7 @@ Nodes (3): { chromium }, fs, path
 
 ### Community 39 - "Claude Components"
 Cohesion: 0.05
-Nodes (30): SettingsPage, BackendClient, BackendClient, ServiceContainer, CompatibilityService, ConfigService, ConnectionResult, DiagnosticsService (+22 more)
+Nodes (32): AdminModule, SettingsPage, BackendClient, ServiceContainer, CompatibilityService, ConfigService, ConnectionResult, DiagnosticsService (+24 more)
 
 ### Community 51 - "Eeat Components"
 Cohesion: 0.33
@@ -316,8 +317,8 @@ Cohesion: 0.20
 Nodes (9): 1. Fresh Installation, 2. Update Deployment, 3. Lifecycle Management, 4. Backup & Restore, 5. Rollback, 6. Manual Headed Login (Recovery), Backup, Deployment Commands Reference (+1 more)
 
 ### Community 59 - "Engineer Components"
-Cohesion: 0.33
-Nodes (7): AdminModule, ModuleInterface, BackendClient, ConfigService, HeartbeatService, Loader, RegistrationService
+Cohesion: 0.36
+Nodes (3): BackendClient, HttpClient, ConfigService
 
 ### Community 80 - "Community 80"
 Cohesion: 0.06
@@ -368,8 +369,8 @@ Cohesion: 0.22
 Nodes (9): { ApiError, ErrorCodes }, createDashboardRoutes(), express, { sendSuccess, sendError, parsePagination }, ApiError, ErrorCodes, parsePagination(), sendError() (+1 more)
 
 ### Community 135 - "Community 135"
-Cohesion: 0.21
-Nodes (9): Dashboard(), EventFeed(), KPICard(), KPICardProps, KPIGrid(), QueueWidget(), EventDto, useEvents() (+1 more)
+Cohesion: 0.19
+Nodes (10): OverviewDto, Dashboard(), KPICard(), KPICardProps, KPIGrid(), QueueWidget(), ReviewWidget(), useJobs() (+2 more)
 
 ### Community 136 - "Community 136"
 Cohesion: 0.09
@@ -404,8 +405,8 @@ Cohesion: 0.17
 Nodes (4): CronManager, Plugin, HeartbeatService, Loader
 
 ### Community 153 - "Community 153"
-Cohesion: 0.14
-Nodes (16): apiClient(), ApiError, ApiErrorResponse, ApiResponse, AuditIssue, JobDto, OverviewDto, ProjectDto (+8 more)
+Cohesion: 0.15
+Nodes (13): ApiError, ApiErrorResponse, ApiResponse, AuditIssue, JobDto, ProjectDto, ProjectFilters, ReviewDetailDto (+5 more)
 
 ### Community 154 - "Community 154"
 Cohesion: 0.40
@@ -425,27 +426,31 @@ Nodes (4): SiteDto, SiteCard(), SiteHealthGrid(), useSites()
 
 ### Community 164 - "Community 164"
 Cohesion: 0.09
-Nodes (27): RewriteDto, VersionDto, ReviewWidget(), ReviewDto, ReviewFilters, useReviewAction(), useReviewAssign(), useReviewDetails() (+19 more)
+Nodes (25): RewriteDto, VersionDto, ReviewDto, ReviewFilters, useReviewAction(), useReviewAssign(), useReviewDetails(), useReviewQueue() (+17 more)
+
+### Community 167 - "Community 167"
+Cohesion: 0.47
+Nodes (4): apiClient(), EventFeed(), EventDto, useEvents()
 
 ### Community 168 - "Community 168"
 Cohesion: 0.25
 Nodes (7): 1. Validation Report, 2. Defect Register, 3. Recovery Evidence, 4. Benchmark Results, 5. Security Audit, 6. Final Production Readiness Report, System Readiness & Validation Report (Phase 15.9)
 
 ## Knowledge Gaps
-- **386 isolated node(s):** `express`, `{ PreFlightValidator }`, `{ loadConfig }`, `{ createLogger }`, `DatabaseConnection` (+381 more)
+- **386 isolated node(s):** `express`, `{ createStatusRoutes }`, `{ createSiteRoutes }`, `{ createProjectRoutes }`, `{ createJobRoutes }` (+381 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **105 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `PluginRepository` connect `Community 90` to `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+- **Why does `ClaudeManager` connect `Createclaudeerror Components` to `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **Why does `BrowserManager` connect `Browsermanager Components` to `Bootstrapmanager Components`, `Createclaudeerror Components`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
 - **Why does `JobRepository` connect `Jobrepository Components` to `Migrations Components`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
-- **What connects `express`, `{ PreFlightValidator }`, `{ loadConfig }` to the rest of the system?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+- **What connects `express`, `{ createStatusRoutes }`, `{ createSiteRoutes }` to the rest of the system?**
   _386 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Auditroutes Components` be split into smaller, more focused modules?**
   _Cohesion score 0.1038961038961039 - nodes in this community are weakly interconnected._

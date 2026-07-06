@@ -467,3 +467,9 @@
 {"timestamp":"2026-07-06T12:15:58.139Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/register"}
 {"timestamp":"2026-07-06T12:16:07.119Z","scope":"Server","level":"info","message":"request","method":"GET","path":"/api/seo-opt/stats"}
 {"timestamp":"2026-07-06T12:16:21.588Z","scope":"Server","level":"info","message":"request","method":"GET","path":"/api/seo-opt/stats"}
+{"timestamp":"2026-07-06T12:22:46.516Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T12:22:46.543Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T12:27:47.295Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T12:27:49.893Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/register"}
+{"timestamp":"2026-07-06T12:27:56.519Z","scope":"Server","level":"info","message":"request","method":"GET","path":"/plugin/stats"}
+{"timestamp":"2026-07-06T12:27:56.521Z","scope":"Server","level":"error","message":"unhandled error","error":"Cannot read properties of undefined (reading 'token')"}

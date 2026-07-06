@@ -78,8 +78,33 @@ class OverviewPage {
                         </div>
                         
                         <div style="margin-bottom:15px;">
-                            <label for="seo-opt-wp-post-id" style="display:block; font-weight:bold; margin-bottom:5px;">WordPress Post ID</label>
-                            <input type="number" id="seo-opt-wp-post-id" name="wp_post_id" style="width:100%;" required />
+                            <label style="display:block; font-weight:bold; margin-bottom:5px;">Select Posts</label>
+                            <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ccd0d4; padding: 10px; border-radius: 4px;">
+                                <?php
+                                $recent_posts = get_posts([
+                                    'post_type' => 'post',
+                                    'post_status' => 'publish',
+                                    'posts_per_page' => 100,
+                                    'orderby' => 'post_date',
+                                    'order' => 'DESC'
+                                ]);
+                                if (empty($recent_posts)) {
+                                    echo '<p>No posts found.</p>';
+                                } else {
+                                    foreach ($recent_posts as $p) {
+                                        $thumb = get_the_post_thumbnail_url($p->ID, 'thumbnail');
+                                        $imgTag = $thumb ? "<img src='".esc_url($thumb)."' style='width:30px;height:30px;object-fit:cover;margin-right:10px;vertical-align:middle;border-radius:2px;' />" : "<div style='width:30px;height:30px;background:#eee;margin-right:10px;display:inline-block;vertical-align:middle;border-radius:2px;'></div>";
+                                        ?>
+                                        <label style="display:block; margin-bottom:10px; cursor:pointer;">
+                                            <input type="checkbox" name="wp_post_ids[]" value="<?php echo esc_attr($p->ID); ?>" style="margin-right:10px;" />
+                                            <?php echo $imgTag; ?>
+                                            <span style="vertical-align:middle;"><?php echo esc_html($p->post_title); ?> (ID: <?php echo esc_html($p->ID); ?>)</span>
+                                        </label>
+                                        <?php
+                                    }
+                                }
+                                ?>
+                            </div>
                         </div>
                         
                         <div style="margin-bottom:15px;">
@@ -139,13 +164,24 @@ class OverviewPage {
                     e.preventDefault();
                     
                     var submitBtn = $(this).find('button[type="submit"]');
+                    
+                    var postIds = [];
+                    $('input[name="wp_post_ids[]"]:checked').each(function() {
+                        postIds.push($(this).val());
+                    });
+                    
+                    if (postIds.length === 0) {
+                        alert('Please select at least one post.');
+                        return;
+                    }
+                    
                     submitBtn.prop('disabled', true).text('Scheduling...');
 
                     $.post(ajaxurl, {
                         action: 'seo_opt_schedule_job',
                         nonce: seoOptAgentObj.nonce,
                         type: $('#seo-opt-job-type').val(),
-                        wp_post_id: $('#seo-opt-wp-post-id').val(),
+                        wp_post_ids: postIds,
                         priority: $('#seo-opt-priority').val(),
                         prompt: $('#seo-opt-prompt').val()
                     }, function(response) {
@@ -205,21 +241,21 @@ class OverviewPage {
             }
 
             $type = isset($_POST['type']) ? sanitize_text_field($_POST['type']) : 'REWRITE';
-            $wp_post_id = isset($_POST['wp_post_id']) ? intval($_POST['wp_post_id']) : 0;
+            $wp_post_ids = isset($_POST['wp_post_ids']) && is_array($_POST['wp_post_ids']) ? array_map('intval', $_POST['wp_post_ids']) : [];
             $priority = isset($_POST['priority']) ? sanitize_text_field($_POST['priority']) : 'NORMAL';
             $prompt = isset($_POST['prompt']) ? sanitize_textarea_field($_POST['prompt']) : '';
 
-            error_log("Validating payload: type=$type, wp_post_id=$wp_post_id, priority=$priority");
+            error_log("Validating payload: type=$type, wp_post_ids=".implode(',', $wp_post_ids).", priority=$priority");
 
-            if (!$wp_post_id) {
-                error_log("Missing post ID");
-                wp_send_json_error(['message' => 'WordPress Post ID is required.']);
+            if (empty($wp_post_ids)) {
+                error_log("Missing post IDs");
+                wp_send_json_error(['message' => 'Please select at least one WordPress Post.']);
             }
 
             error_log("Calling backend...");
             $response = $this->backendClient->post('/plugin/jobs/create', [
                 'type' => $type,
-                'wp_post_id' => $wp_post_id,
+                'wp_post_ids' => $wp_post_ids,
                 'priority' => $priority,
                 'prompt' => $prompt
             ]);
