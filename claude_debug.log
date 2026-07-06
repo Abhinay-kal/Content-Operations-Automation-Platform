@@ -305,3 +305,29 @@
 {"timestamp":"2026-07-04T06:37:30.712Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"READY","to":"HEALTHY","reason":"recovery_successful"}
 {"timestamp":"2026-07-04T15:30:23.875Z","scope":"BrowserManager","level":"warn","event":"PAGE_CLOSED"}
 {"timestamp":"2026-07-04T15:30:24.000Z","scope":"BrowserManager","level":"warn","event":"CONTEXT_CLOSED"}
+{"timestamp":"2026-07-06T09:33:25.886Z","scope":"BrowserManager","level":"info","event":"STARTUP","profilePath":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","channel":"chrome","headless":false}
+{"timestamp":"2026-07-06T09:33:25.958Z","scope":"BrowserManager","level":"info","event":"PRE_LAUNCH_CLEANUP","profile":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","attempt":1}
+{"timestamp":"2026-07-06T09:33:25.959Z","scope":"BrowserManager","level":"info","event":"BROWSER_LAUNCH","profilePath":"/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/temp-chrome-data","channel":"chrome","attempt":1}
+{"timestamp":"2026-07-06T09:33:30.012Z","scope":"BrowserManager","level":"warn","event":"NEW_PAGE_CALLED","stack":"Error\n    at context.newPage (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:205:73)\n    at BrowserManager._attachSinglePage (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:286:46)\n    at async BrowserManager._initializeInternal (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:150:13)\n    at async BrowserManager.initialize (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/services/BrowserManager.js:125:20)\n    at async BootstrapManager._runPhase3 (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/bootstrap/BootstrapManager.js:300:13)\n    at async BootstrapManager.run (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/bootstrap/BootstrapManager.js:80:9)\n    at async main (/Users/abhinaykalkhanday/Desktop/Content-Operations-Automation/src/index.js:8:46)"}
+{"timestamp":"2026-07-06T09:33:30.492Z","scope":"BrowserManager","level":"warn","event":"PAGE_OPENED","url":"about:blank","allPages":["about:blank"]}
+{"timestamp":"2026-07-06T09:33:30.678Z","scope":"BrowserManager","level":"info","event":"PAGE_CREATED"}
+{"timestamp":"2026-07-06T09:33:30.702Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"STARTING","to":"READY","reason":"browser initialized"}
+{"timestamp":"2026-07-06T09:33:30.705Z","scope":"ClaudeWorker","level":"info","event":"INIT_START"}
+{"timestamp":"2026-07-06T09:33:30.706Z","scope":"WorkerState","level":"warn","event":"INVALID_STATE_TRANSITION","from":"READY","to":"STARTING","reason":"claude manager init"}
+{"timestamp":"2026-07-06T09:33:30.708Z","scope":"ClaudeWorker","level":"info","event":"NAVIGATION_DEBUG","currentUrl":"about:blank","forceNavigation":true,"isClaude":false,"destination":"https://claude.ai"}
+{"timestamp":"2026-07-06T09:33:30.708Z","scope":"ClaudeWorker","level":"info","event":"NAVIGATING_TO_CLAUDE","url":"https://claude.ai"}
+{"timestamp":"2026-07-06T09:33:30.709Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"starting_goto"}
+{"timestamp":"2026-07-06T09:33:31.820Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_goto"}
+{"timestamp":"2026-07-06T09:33:31.821Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_human_emulation"}
+{"timestamp":"2026-07-06T09:33:31.821Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"starting_url_check"}
+{"timestamp":"2026-07-06T09:33:46.830Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_url_check","url":"https://claude.ai/new"}
+{"timestamp":"2026-07-06T09:33:49.842Z","scope":"ClaudeWorker","level":"error","event":"FIND_FIRST_AVAILABLE_ERROR","error":"All promises were rejected"}
+{"timestamp":"2026-07-06T09:33:49.843Z","scope":"ClaudeWorker","level":"info","event":"DEBUG_STEP","step":"finished_promise_race"}
+{"timestamp":"2026-07-06T09:33:50.875Z","scope":"ClaudeWorker","level":"info","event":"INIT_COMPLETE"}
+{"timestamp":"2026-07-06T09:33:50.878Z","scope":"ClaudeWorker","level":"info","event":"WORKER_INITIALIZING"}
+{"timestamp":"2026-07-06T09:33:50.880Z","scope":"ClaudeWorker","level":"info","event":"WORKER_PROCESSING_START"}
+{"timestamp":"2026-07-06T09:33:50.881Z","scope":"SessionMonitor","level":"info","event":"SESSION_MONITOR_START"}
+{"timestamp":"2026-07-06T09:33:50.990Z","scope":"Server","level":"info","message":"listening","port":3000}
+{"timestamp":"2026-07-06T09:33:51.353Z","scope":"WorkerState","level":"info","event":"STATE_TRANSITION","from":"READY","to":"HEALTHY","reason":"state_update"}
+{"timestamp":"2026-07-06T09:38:01.341Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T09:38:01.354Z","scope":"Server","level":"error","message":"Handshake error","error":"Cannot read properties of undefined (reading 'handshake')"}

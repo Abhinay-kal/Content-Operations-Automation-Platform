@@ -850,8 +850,8 @@
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/admin/Menu.php": {
-    "mtime": 1782729317.0785134,
-    "ast_hash": "eb1673d096e4ad4329e513d80378b12e",
+    "mtime": 1783327322.598922,
+    "ast_hash": "c19786439ae97cfe83ded4b059ce9ee8",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/admin/Notices.php": {
@@ -885,8 +885,8 @@
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/bootstrap/ServiceContainer.php": {
-    "mtime": 1782729316.7014492,
-    "ast_hash": "8716df49f2f12fc664d0b8d04b559187",
+    "mtime": 1783327295.3313046,
+    "ast_hash": "d89466e8793423b303976726100b0daf",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/config/Constants.php": {
@@ -945,8 +945,8 @@
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/admin/AdminModule.php": {
-    "mtime": 1782729317.0880816,
-    "ast_hash": "5990b76f686d8efd46cd0f4a291b9aaf",
+    "mtime": 1783327295.3538885,
+    "ast_hash": "0817e9e21ffbad7126a653730999c443",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/api/HttpClient.php": {
@@ -1682,6 +1682,11 @@
   "wordpress-agent-plugin/.wp-env.json": {
     "mtime": 1782737109.7727218,
     "ast_hash": "e1bae4a96e68dc149a2aa054deca75e2",
+    "semantic_hash": ""
+  },
+  "wordpress-agent-plugin/admin/OverviewPage.php": {
+    "mtime": 1783327322.4608858,
+    "ast_hash": "d0756d1010919016d6dc2408e4a6001a",
     "semantic_hash": ""
   }
 }

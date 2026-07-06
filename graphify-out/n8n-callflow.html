@@ -60,7 +60,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 <div class="container">
 
 <h1>Content-Operations-Automation — Complete Call Flow &amp; Architecture Documentation</h1>
-<p class="subtitle">Generated from graphify knowledge graph: 1566 nodes, 1986 edges, 168 communities. Commit: 05dddd8</p>
+<p class="subtitle">Generated from graphify knowledge graph: 1558 nodes, 1977 edges, 169 communities. Commit: 7372806</p>
 
 <div class="nav">
     <a href="#overview">Architecture Overview</a>
@@ -88,9 +88,9 @@ hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
 
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    BUILD_GRAPH_321CBB04("Graph Build<br/><small>97 nodes</small>")
+    BUILD_GRAPH_321CBB04("Graph Build<br/><small>99 nodes</small>")
     class BUILD_GRAPH_321CBB04 module;
-    ANALYSIS_CLUSTERING_C79796DA("Analysis &amp; Clustering<br/><small>43 nodes</small>")
+    ANALYSIS_CLUSTERING_C79796DA("Analysis &amp; Clustering<br/><small>29 nodes</small>")
     class ANALYSIS_CLUSTERING_C79796DA module;
     OUTPUTS_DOCS_ED82387C("Outputs &amp; Docs<br/><small>23 nodes</small>")
     class OUTPUTS_DOCS_ED82387C module;
@@ -100,7 +100,7 @@ flowchart LR
     class INGEST_CACHE_UPDATE_FF457338 module;
     SERVE_API_35EC8E86("Serving API<br/><small>136 nodes</small>")
     class SERVE_API_35EC8E86 module;
-    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>125 nodes</small>")
+    TESTS_FIXTURES_B84B1DCC("Tests &amp; Fixtures<br/><small>129 nodes</small>")
     class TESTS_FIXTURES_B84B1DCC module;
     BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA("Bootstrapmanager Components<br/><small>45 nodes</small>")
     class BOOTSTRAPMANAGER_COMPONENTS_3FAAE0DA module;
@@ -146,7 +146,7 @@ flowchart LR
     <h4>Architecture Layers</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>Layer</th><th>Nodes</th><th>Communities</th></tr>
-      <tr><td>Graph Build</td><td>97</td><td><code>80, 6, 136, 140</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>43</td><td><code>118, 81, 137, 154</code></td></tr><tr><td>Outputs &amp; Docs</td><td>23</td><td><code>12, 168, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>437</td><td><code>34, 2, 27, 39, 15, 93, 97, 150, 40, 85, 87, 59, 55, 107, 108, 98, 62, 102, 111, 114, 123, 124, 35, 70, 71, 74, 103, 112, 113, 41, 75, 115, 130, 131, 132, 77, 78, 104, 105, 106, 61, 95, 109, 160</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>136</td><td><code>164, 153, 57, 134, 139, 100, 144, 145, 146, 147, 148, 149, 170, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>125</td><td><code>4, 33, 3, 37, 44, 45, 46, 47</code></td></tr><tr><td>Bootstrapmanager Components</td><td>45</td><td><code>5</code></td></tr><tr><td>Community 138</td><td>32</td><td><code>138</code></td></tr><tr><td>Auditroutes Components</td><td>22</td><td><code>0</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Siteservice Components</td><td>18</td><td><code>9</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Other</td><td>527</td><td><code>11, 13, 155, 135, 133, 14, 68, 16, 82, 17, 18, 19, 20, 90, 1, 141, 162, 21, 22, 58, 163, 23, 24, 83, 96, 116, 121, 25, 84, 99, 101, 26, 86, 122, 28, 29, 30, 31, 32, 117, 142, 36, 89, 94, 119, 125, 126, 127, 128, 129, 143, 161, 38, 42, 43, 48, 49, 88, 151, 152, 165, 166, 50, 52, 53, 54, 120, 156, 157, 158, 159, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
+      <tr><td>Graph Build</td><td>99</td><td><code>80, 6, 136, 140</code></td></tr><tr><td>Analysis &amp; Clustering</td><td>29</td><td><code>81, 137, 154</code></td></tr><tr><td>Outputs &amp; Docs</td><td>23</td><td><code>12, 168, 51</code></td></tr><tr><td>CLI &amp; Skill Installers</td><td>437</td><td><code>34, 2, 27, 39, 15, 93, 97, 150, 40, 85, 87, 59, 55, 107, 108, 98, 62, 102, 111, 114, 123, 124, 35, 70, 71, 74, 103, 112, 113, 41, 75, 115, 130, 131, 132, 77, 78, 104, 105, 106, 61, 95, 109, 160</code></td></tr><tr><td>Ingestion &amp; Updates</td><td>2</td><td><code>69</code></td></tr><tr><td>Serving API</td><td>136</td><td><code>164, 153, 57, 134, 139, 100, 144, 145, 146, 147, 148, 149, 170, 76</code></td></tr><tr><td>Tests &amp; Fixtures</td><td>129</td><td><code>4, 33, 3, 37, 44, 45, 46, 47, 110, 118</code></td></tr><tr><td>Bootstrapmanager Components</td><td>45</td><td><code>5</code></td></tr><tr><td>Community 138</td><td>32</td><td><code>138</code></td></tr><tr><td>Auditroutes Components</td><td>22</td><td><code>0</code></td></tr><tr><td>Syncservice Components</td><td>22</td><td><code>7</code></td></tr><tr><td>Jobrepository Components</td><td>20</td><td><code>8</code></td></tr><tr><td>Siteservice Components</td><td>18</td><td><code>9</code></td></tr><tr><td>Site Components</td><td>17</td><td><code>10</code></td></tr><tr><td>Other</td><td>527</td><td><code>11, 13, 155, 135, 133, 14, 68, 16, 82, 17, 18, 19, 20, 90, 1, 141, 162, 21, 22, 58, 163, 23, 24, 83, 96, 116, 121, 25, 84, 99, 101, 26, 86, 122, 28, 29, 30, 31, 32, 117, 142, 36, 89, 94, 119, 125, 126, 127, 128, 129, 143, 161, 38, 42, 43, 48, 49, 88, 151, 152, 165, 166, 50, 52, 53, 54, 120, 156, 157, 158, 159, 56, 60, 63, 64, 65, 66, 67, 91, 92, 72, 73, 79</code></td></tr>
     </table>
   </div>
   <div class="card">
@@ -158,7 +158,7 @@ flowchart LR
   <div class="card">
     <h4>Graph Report Highlights</h4>
     <ul>
-      <li>1566 nodes · 1986 edges · 168 communities (64 shown, 104 thin omitted)</li>
+      <li>1558 nodes · 1977 edges · 169 communities (64 shown, 105 thin omitted)</li>
       <li>Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.8)</li>
       <li>Token cost: 0 input · 0 output</li>
       <li>1. `ClaudeManager` - 33 edges</li>
@@ -170,67 +170,66 @@ flowchart LR
 <hr>
 <!-- ====== 2. Graph Build ====== -->
 <h2 id="build-graph">2. Graph Build</h2>
-<p>Graph Build groups implementation around dashboard, packagejson, componentsjson, tsconfigjson, mostly in dashboard/package.json, package.json, dashboard/components.json. This section covers 97 nodes and 93 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Graph Build groups implementation around dashboard, packagejson, componentsjson, tsconfigjson, mostly in dashboard/package.json, package.json, dashboard/components.json. This section covers 99 nodes and 95 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Graph Build (97 nodes, 93 edges)
-    subgraph build_graph_dashboard_components_json_bf2f6700["dashboard/components.json"]
-        dashboard_components_09503d46("components.json")
-        dashboard_components_aliases_f6e761a0("aliases<br/><small>dashboard/components.json</small>")
-        dashboard_components_iconlibrary_6efd280a("iconLibrary<br/><small>dashboard/components.json</small>")
-        dashboard_components_menuaccent_8663daac("menuAccent<br/><small>dashboard/components.json</small>")
-        dashboard_components_menucolor_c0538726("menuColor<br/><small>dashboard/components.json</small>")
-        dashboard_components_registries_ab6969ea("registries<br/><small>dashboard/components.json</small>")
-        dashboard_components_rsc_a463bbf6("rsc<br/><small>dashboard/components.json</small>")
-        dashboard_components_rtl_09f5dc1a("rtl<br/><small>dashboard/components.json</small>")
-        dashboard_components_schema_b2c9de7a("$schema<br/><small>dashboard/components.json</small>")
-        dashboard_components_style_f126a2c1("style<br/><small>dashboard/components.json</small>")
-        dashboard_components_tailwind_99ee5541("tailwind<br/><small>dashboard/components.json</small>")
-        dashboard_components_tsx_78d44394("tsx<br/><small>dashboard/components.json</small>")
-        dashboard_components_tailwind_basecolor_b02c9bfc("baseColor<br/><small>dashboard/components.json</small>")
+    %% Section: Graph Build (99 nodes, 95 edges)
+    subgraph build_graph_package_json_4e40bfbd["package.json"]
+        package_582681c2("package.json")
+        package_dependencies_c512ca5e("dependencies<br/><small>package.json</small>")
+        package_author_4fa6ee59("author<br/><small>package.json</small>")
+        package_description_1bccacf3("description<br/><small>package.json</small>")
+        package_devdependencies_ff8711cc("devDependencies<br/><small>package.json</small>")
+        package_keywords_cbe22ea7("keywords<br/><small>package.json</small>")
+        package_license_16117eed("license<br/><small>package.json</small>")
+        package_main_4e9b6a0e("main<br/><small>package.json</small>")
+        package_name_b23e1232("name<br/><small>package.json</small>")
+        package_scripts_25cfc1ca("scripts<br/><small>package.json</small>")
+        package_type_7bb9ccc5("type<br/><small>package.json</small>")
+        package_version_a7f3cb7e("version<br/><small>package.json</small>")
+        package_scripts_legacy_start_111ac6ce("legacy-start<br/><small>package.json</small>")
+        package_scripts_start_e2cf302c("start<br/><small>package.json</small>")
     end
     subgraph build_graph_dashboard_package_json_19b2dc33["dashboard/package.json"]
         dashboard_package_dependencies_523ec474("dependencies<br/><small>dashboard/package.json</small>")
         dashboard_package_devdependencies_069b9617("devDependencies<br/><small>dashboard/package.json</small>")
-        dashboard_package_cb8dfa56("package.json")
     end
+    dashboard_components_09503d46("components.json")
     dashboard_tsconfig_compileroptions_9366b5c8("compilerOptions<br/><small>dashboard/tsconfig.json</small>")
-    package_582681c2("package.json")
-    dashboard_components_09503d46 -->|contains| dashboard_components_aliases_f6e761a0
-    dashboard_components_09503d46 -->|contains| dashboard_components_iconlibrary_6efd280a
-    dashboard_components_09503d46 -->|contains| dashboard_components_menuaccent_8663daac
-    dashboard_components_09503d46 -->|contains| dashboard_components_menucolor_c0538726
-    dashboard_components_09503d46 -->|contains| dashboard_components_registries_ab6969ea
-    dashboard_components_09503d46 -->|contains| dashboard_components_rsc_a463bbf6
-    dashboard_components_09503d46 -->|contains| dashboard_components_rtl_09f5dc1a
-    dashboard_components_09503d46 -->|contains| dashboard_components_schema_b2c9de7a
-    dashboard_components_09503d46 -->|contains| dashboard_components_style_f126a2c1
-    dashboard_components_09503d46 -->|contains| dashboard_components_tailwind_99ee5541
-    dashboard_components_09503d46 -->|contains| dashboard_components_tsx_78d44394
-    dashboard_components_tailwind_99ee5541 -->|contains| dashboard_components_tailwind_basecolor_b02c9bfc
-    dashboard_package_cb8dfa56 -->|contains| dashboard_package_dependencies_523ec474
-    dashboard_package_cb8dfa56 -->|contains| dashboard_package_devdependencies_069b9617
-    %% Omitted for readability: 79 nodes, 0 edges
-    class dashboard_components_09503d46 ui;
-    class dashboard_components_aliases_f6e761a0 function;
-    class dashboard_components_iconlibrary_6efd280a function;
-    class dashboard_components_menuaccent_8663daac function;
-    class dashboard_components_menucolor_c0538726 function;
-    class dashboard_components_registries_ab6969ea function;
-    class dashboard_components_rsc_a463bbf6 function;
-    class dashboard_components_rtl_09f5dc1a function;
-    class dashboard_components_schema_b2c9de7a function;
-    class dashboard_components_style_f126a2c1 function;
-    class dashboard_components_tailwind_99ee5541 function;
-    class dashboard_components_tsx_78d44394 function;
-    class dashboard_components_tailwind_basecolor_b02c9bfc function;
+    package_582681c2 -->|contains| package_author_4fa6ee59
+    package_582681c2 -->|contains| package_dependencies_c512ca5e
+    package_582681c2 -->|contains| package_description_1bccacf3
+    package_582681c2 -->|contains| package_devdependencies_ff8711cc
+    package_582681c2 -->|contains| package_keywords_cbe22ea7
+    package_582681c2 -->|contains| package_license_16117eed
+    package_582681c2 -->|contains| package_main_4e9b6a0e
+    package_582681c2 -->|contains| package_name_b23e1232
+    package_582681c2 -->|contains| package_scripts_25cfc1ca
+    package_582681c2 -->|contains| package_type_7bb9ccc5
+    package_582681c2 -->|contains| package_version_a7f3cb7e
+    package_scripts_25cfc1ca -->|contains| package_scripts_legacy_start_111ac6ce
+    package_scripts_25cfc1ca -->|contains| package_scripts_start_e2cf302c
+    %% Omitted for readability: 81 nodes, 0 edges
+    class package_582681c2 function;
+    class package_dependencies_c512ca5e function;
+    class package_author_4fa6ee59 function;
+    class package_description_1bccacf3 function;
+    class package_devdependencies_ff8711cc function;
+    class package_keywords_cbe22ea7 function;
+    class package_license_16117eed function;
+    class package_main_4e9b6a0e function;
+    class package_name_b23e1232 function;
+    class package_scripts_25cfc1ca function;
+    class package_type_7bb9ccc5 function;
+    class package_version_a7f3cb7e function;
+    class package_scripts_legacy_start_111ac6ce function;
+    class package_scripts_start_e2cf302c function;
     class dashboard_package_dependencies_523ec474 function;
     class dashboard_package_devdependencies_069b9617 function;
-    class dashboard_package_cb8dfa56 function;
+    class dashboard_components_09503d46 ui;
     class dashboard_tsconfig_compileroptions_9366b5c8 function;
-    class package_582681c2 function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -500,50 +499,52 @@ flowchart LR
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
       <tr><td><code>dashboard/package.json</code></td><td>31 nodes</td></tr>
-<tr><td><code>package.json</code></td><td>24 nodes</td></tr>
+<tr><td><code>package.json</code></td><td>26 nodes</td></tr>
 <tr><td><code>dashboard/components.json</code></td><td>22 nodes</td></tr>
 <tr><td><code>dashboard/tsconfig.json</code></td><td>20 nodes</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x93. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x95. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
 
 <!-- ====== 3. Analysis & Clustering ====== -->
 <h2 id="analysis-clustering">3. Analysis &amp; Clustering</h2>
-<p>Analysis &amp; Clustering groups implementation around claudeworkerjs, setup, d7js, services, mostly in setup_d7.js, src/services/ClaudeWorker.js, src/workers/ClaudeWorker.js. This section covers 43 nodes and 42 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Analysis &amp; Clustering groups implementation around claudeworkerjs, services, workers, validate, mostly in src/services/ClaudeWorker.js, src/workers/ClaudeWorker.js, validate_15_9.js. This section covers 29 nodes and 29 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Analysis &amp; Clustering (43 nodes, 42 edges)
-    subgraph analysis_clustering_setup_d7_js_38d07e6b["setup_d7.js"]
-        setup_d7_apitypescode_d3496383("apiTypesCode<br/><small>setup_d7.js</small>")
-        setup_d7_apitypespath_9bf836c6("apiTypesPath<br/><small>setup_d7.js</small>")
-        setup_d7_frontenddir_bd37f703("frontendDir<br/><small>setup_d7.js</small>")
-        setup_d7_fs_0fb87c19("fs<br/><small>setup_d7.js</small>")
-        setup_d7_mkdirp_b7a9daab("mkdirp()<br/><small>setup_d7.js</small>")
-        setup_d7_path_c851879b("path<br/><small>setup_d7.js</small>")
-        setup_d7_readservicecode_20921344("readServiceCode<br/><small>setup_d7.js</small>")
-        setup_d7_readservicepath_717776d6("readServicePath<br/><small>setup_d7.js</small>")
-        setup_d7_routescode_afbd9eab("routesCode<br/><small>setup_d7.js</small>")
-        setup_d7_routespath_7f64770e("routesPath<br/><small>setup_d7.js</small>")
-        setup_d7_schemacontent_d6325b59("schemaContent<br/><small>setup_d7.js</small>")
+    %% Section: Analysis &amp; Clustering (29 nodes, 29 edges)
+    subgraph analysis_clustering_src_services_ClaudeWorker_js_597844e9["src/services/ClaudeWorker.js"]
+        services_claudeworker_af4db479("ClaudeWorker.js")
+        services_claudeworker_auditpromptbuilder_b7897e64("AuditPromptBuilder<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_rewritepromptbuilder_6682a470("RewritePromptBuilder<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_fs_6cbf307f("fs<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_path_55d22836("path<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_contentunavailableerror_in_65eba542("ContentUnavailableError, InvalidProje...<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_failureclassifier_a22e06cf("FailureClassifier<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_project_statuses_c5f724b7("PROJECT_STATUSES<br/><small>src/services/ClaudeWorker.js</small>")
+        services_claudeworker_worker_states_2451e3f7("WORKER_STATES<br/><small>src/services/ClaudeWorker.js</small>")
     end
     subgraph analysis_clustering_src_utils_FailureClassifier_be25a163["src/utils/FailureClassifier.js"]
         utils_failureclassifier_failureclassifier_fc5e4bd5("FailureClassifier<br/><small>src/utils/FailureClassifier.js</small>")
         utils_failureclassifier_failureclassifier_classi_32bc0d87("classify()<br/><small>src/utils/FailureClassifier.js</small>")
         utils_failureclassifier_3812990c("FailureClassifier.js")
+        utils_failureclassifier_failure_categories_19dcbf37("FAILURE_CATEGORIES<br/><small>src/utils/FailureClassifier.js</small>")
+    end
+    subgraph analysis_clustering_src_workers_ClaudeWorker_js_5b0bd546["src/workers/ClaudeWorker.js"]
+        workers_claudeworker_d6c37514("ClaudeWorker.js")
+        workers_claudeworker_auditpromptbuilder_5ebe9817("AuditPromptBuilder<br/><small>src/workers/ClaudeWorker.js</small>")
+        workers_claudeworker_rewritepromptbuilder_23bd95b7("RewritePromptBuilder<br/><small>src/workers/ClaudeWorker.js</small>")
     end
     subgraph analysis_clustering_src_errors_ClaudeErrors_js_27f08e0d["src/errors/ClaudeErrors.js"]
         errors_claudeerrors_contentunavailableerror_2d6d6134("ContentUnavailableError<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_contentunavailableerror_cons_abe8ed75("constructor()<br/><small>src/errors/ClaudeErrors.js</small>")
     end
-    services_claudeworker_af4db479("ClaudeWorker.js")
-    workers_claudeworker_d6c37514("ClaudeWorker.js")
     errors_claudeerrors_contentunavailableerror_2d6d6134 -->|method| errors_claudeerrors_contentunavailableerror_cons_abe8ed75
     utils_failureclassifier_failureclassifier_fc5e4bd5 -->|method| utils_failureclassifier_failureclassifier_classi_32bc0d87
     workers_claudeworker_d6c37514 -->|imports| errors_claudeerrors_contentunavailableerror_2d6d6134
@@ -551,25 +552,25 @@ flowchart LR
     errors_claudeerrors_contentunavailableerror_2d6d6134 -->|imports| services_claudeworker_af4db479
     services_claudeworker_af4db479 -->|imports| utils_failureclassifier_3812990c
     services_claudeworker_af4db479 -->|imports| utils_failureclassifier_failureclassifier_fc5e4bd5
-    %% Omitted for readability: 25 nodes, 0 edges
-    class setup_d7_apitypescode_d3496383 api;
-    class setup_d7_apitypespath_9bf836c6 api;
-    class setup_d7_frontenddir_bd37f703 function;
-    class setup_d7_fs_0fb87c19 function;
-    class setup_d7_mkdirp_b7a9daab function;
-    class setup_d7_path_c851879b function;
-    class setup_d7_readservicecode_20921344 function;
-    class setup_d7_readservicepath_717776d6 function;
-    class setup_d7_routescode_afbd9eab api;
-    class setup_d7_routespath_7f64770e api;
-    class setup_d7_schemacontent_d6325b59 function;
+    %% Omitted for readability: 11 nodes, 0 edges
+    class services_claudeworker_af4db479 klass;
+    class services_claudeworker_auditpromptbuilder_b7897e64 klass;
+    class services_claudeworker_rewritepromptbuilder_6682a470 klass;
+    class services_claudeworker_fs_6cbf307f function;
+    class services_claudeworker_path_55d22836 function;
+    class services_claudeworker_contentunavailableerror_in_65eba542 function;
+    class services_claudeworker_failureclassifier_a22e06cf function;
+    class services_claudeworker_project_statuses_c5f724b7 function;
+    class services_claudeworker_worker_states_2451e3f7 function;
     class utils_failureclassifier_failureclassifier_fc5e4bd5 klass;
     class utils_failureclassifier_failureclassifier_classi_32bc0d87 function;
     class utils_failureclassifier_3812990c klass;
+    class utils_failureclassifier_failure_categories_19dcbf37 klass;
+    class workers_claudeworker_d6c37514 klass;
+    class workers_claudeworker_auditpromptbuilder_5ebe9817 klass;
+    class workers_claudeworker_rewritepromptbuilder_23bd95b7 klass;
     class errors_claudeerrors_contentunavailableerror_2d6d6134 klass;
     class errors_claudeerrors_contentunavailableerror_cons_abe8ed75 function;
-    class services_claudeworker_af4db479 klass;
-    class workers_claudeworker_d6c37514 klass;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
     classDef async fill:#2e1065,stroke:#a78bfa,color:#ede9fe,stroke-width:1px;
@@ -593,118 +594,6 @@ flowchart LR
 </tr>
 <tr>
   <td>1</td>
-  <td><code>setup_d7.js</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-class">Module</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>setup_d7.js node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td><code>fs</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>fs node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td><code>path</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>path node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td><code>frontendDir</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>frontendDir node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td><code>mkdirp()</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>mkdirp() node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>6</td>
-  <td><code>schemaPath</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>schemaPath node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>7</td>
-  <td><code>schemaContent</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>schemaContent node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>8</td>
-  <td><code>readServicePath</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>readServicePath node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>9</td>
-  <td><code>readServiceCode</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-func">Function</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>readServiceCode node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>10</td>
-  <td><code>routesPath</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>routesPath node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>11</td>
-  <td><code>routesCode</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>routesCode node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>12</td>
-  <td><code>apiTypesPath</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>apiTypesPath node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>13</td>
-  <td><code>apiTypesCode</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-endpoint">API</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>apiTypesCode node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>14</td>
-  <td><code>useReviewsCode</code><br><small style="color:var(--muted)">setup_d7.js</small></td>
-  <td><span class="tag tag-hook">UI</span></td>
-  <td>External entry / no inbound edge</td>
-  <td>No direct outbound edge</td>
-  <td>useReviewsCode node in setup_d7.js.</td>
-</tr>
-<tr>
-  <td>15</td>
   <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
@@ -712,7 +601,7 @@ flowchart LR
   <td>ClaudeWorker.js node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
-  <td>16</td>
+  <td>2</td>
   <td><code>fs</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -720,7 +609,7 @@ flowchart LR
   <td>fs node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
-  <td>17</td>
+  <td>3</td>
   <td><code>path</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -728,7 +617,7 @@ flowchart LR
   <td>path node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
-  <td>18</td>
+  <td>4</td>
   <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -736,7 +625,7 @@ flowchart LR
   <td>{ WORKER_STATES } node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
-  <td>19</td>
+  <td>5</td>
   <td><code>{ PROJECT_STATUSES }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -744,7 +633,7 @@ flowchart LR
   <td>{ PROJECT_STATUSES } node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
-  <td>20</td>
+  <td>6</td>
   <td><code>{ FailureClassifier }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -752,7 +641,7 @@ flowchart LR
   <td>{ FailureClassifier } node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
-  <td>21</td>
+  <td>7</td>
   <td><code>AuditPromptBuilder</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -760,7 +649,7 @@ flowchart LR
   <td>Builds structured prompts for model calls.</td>
 </tr>
 <tr>
-  <td>22</td>
+  <td>8</td>
   <td><code>RewritePromptBuilder</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -768,7 +657,7 @@ flowchart LR
   <td>Builds structured prompts for model calls.</td>
 </tr>
 <tr>
-  <td>23</td>
+  <td>9</td>
   <td><code>{ ContentUnavailableError, InvalidProjectContentError }</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -776,7 +665,7 @@ flowchart LR
   <td>{ ContentUnavailableError, InvalidProjectContentError } node in src/services/ClaudeWorker.js.</td>
 </tr>
 <tr>
-  <td>24</td>
+  <td>10</td>
   <td><code>FailureClassifier.js</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small></td>
@@ -784,7 +673,7 @@ flowchart LR
   <td>FailureClassifier.js node in src/utils/FailureClassifier.js.</td>
 </tr>
 <tr>
-  <td>25</td>
+  <td>11</td>
   <td><code>FAILURE_CATEGORIES</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -792,7 +681,7 @@ flowchart LR
   <td>FAILURE_CATEGORIES node in src/utils/FailureClassifier.js.</td>
 </tr>
 <tr>
-  <td>26</td>
+  <td>12</td>
   <td><code>FailureClassifier</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
@@ -800,7 +689,7 @@ flowchart LR
   <td>FailureClassifier node in src/utils/FailureClassifier.js.</td>
 </tr>
 <tr>
-  <td>27</td>
+  <td>13</td>
   <td><code>.classify()</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td><code>FailureClassifier</code><br><small style="color:var(--muted)">src/utils/FailureClassifier.js</small></td>
@@ -808,7 +697,7 @@ flowchart LR
   <td>.classify() node in src/utils/FailureClassifier.js.</td>
 </tr>
 <tr>
-  <td>28</td>
+  <td>14</td>
   <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-class">Class</span></td>
   <td>External entry / no inbound edge</td>
@@ -816,7 +705,7 @@ flowchart LR
   <td>ClaudeWorker.js node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
-  <td>29</td>
+  <td>15</td>
   <td><code>fs</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
@@ -824,12 +713,116 @@ flowchart LR
   <td>fs node in src/workers/ClaudeWorker.js.</td>
 </tr>
 <tr>
-  <td>30</td>
+  <td>16</td>
   <td><code>path</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
   <td><span class="tag tag-func">Function</span></td>
   <td>External entry / no inbound edge</td>
   <td>No direct outbound edge</td>
   <td>path node in src/workers/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>17</td>
+  <td><code>{ WORKER_STATES }</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ WORKER_STATES } node in src/workers/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>18</td>
+  <td><code>{ PROJECT_STATUSES }</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ PROJECT_STATUSES } node in src/workers/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>19</td>
+  <td><code>{ FailureClassifier }</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ FailureClassifier } node in src/workers/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>20</td>
+  <td><code>AuditPromptBuilder</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Builds structured prompts for model calls.</td>
+</tr>
+<tr>
+  <td>21</td>
+  <td><code>RewritePromptBuilder</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Builds structured prompts for model calls.</td>
+</tr>
+<tr>
+  <td>22</td>
+  <td><code>{ ContentUnavailableError, InvalidProjectContentError }</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>{ ContentUnavailableError, InvalidProjectContentError } node in src/workers/ClaudeWorker.js.</td>
+</tr>
+<tr>
+  <td>23</td>
+  <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/workers/ClaudeWorker.js</small></td>
+  <td><code>ClaudeWorker.js</code><br><small style="color:var(--muted)">src/services/ClaudeWorker.js</small><br><code>constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>ContentUnavailableError node in src/errors/ClaudeErrors.js.</td>
+</tr>
+<tr>
+  <td>24</td>
+  <td><code>.constructor()</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td><code>ContentUnavailableError</code><br><small style="color:var(--muted)">src/errors/ClaudeErrors.js</small></td>
+  <td>No direct outbound edge</td>
+  <td>.constructor() node in src/errors/ClaudeErrors.js.</td>
+</tr>
+<tr>
+  <td>25</td>
+  <td><code>validate_15_9.js</code><br><small style="color:var(--muted)">validate_15_9.js</small></td>
+  <td><span class="tag tag-class">Module</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>validate_15_9.js node in validate_15_9.js.</td>
+</tr>
+<tr>
+  <td>26</td>
+  <td><code>Database</code><br><small style="color:var(--muted)">validate_15_9.js</small></td>
+  <td><span class="tag tag-class">Class</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>Database node in validate_15_9.js.</td>
+</tr>
+<tr>
+  <td>27</td>
+  <td><code>path</code><br><small style="color:var(--muted)">validate_15_9.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>path node in validate_15_9.js.</td>
+</tr>
+<tr>
+  <td>28</td>
+  <td><code>dbPath</code><br><small style="color:var(--muted)">validate_15_9.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>dbPath node in validate_15_9.js.</td>
+</tr>
+<tr>
+  <td>29</td>
+  <td><code>db</code><br><small style="color:var(--muted)">validate_15_9.js</small></td>
+  <td><span class="tag tag-func">Function</span></td>
+  <td>External entry / no inbound edge</td>
+  <td>No direct outbound edge</td>
+  <td>db node in validate_15_9.js.</td>
 </tr>
 </table>
 
@@ -838,8 +831,7 @@ flowchart LR
     <h4>Key Files</h4>
     <table style="width:100%;font-size:0.85rem;">
       <tr><th>File</th><th>Coverage</th></tr>
-      <tr><td><code>setup_d7.js</code></td><td>14 nodes</td></tr>
-<tr><td><code>src/services/ClaudeWorker.js</code></td><td>9 nodes</td></tr>
+      <tr><td><code>src/services/ClaudeWorker.js</code></td><td>9 nodes</td></tr>
 <tr><td><code>src/workers/ClaudeWorker.js</code></td><td>9 nodes</td></tr>
 <tr><td><code>validate_15_9.js</code></td><td>5 nodes</td></tr>
 <tr><td><code>src/utils/FailureClassifier.js</code></td><td>4 nodes</td></tr>
@@ -848,7 +840,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x35, imports x4, method x2, imports x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x22, imports x4, method x2, imports x1. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -885,6 +877,11 @@ flowchart LR
         validation_report_15_9_ded9076e("VALIDATION_REPORT_15.9.md")
         validation_report_15_9_1_validation_report_25cf9013("1. Validation Report<br/><small>VALIDATION_REPORT_15.9.md</small>")
     end
+    audit_report_a8ff8528 -->|contains| audit_report_phase_1_repository_audit_report_0f9e25b9
+    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_1_directory_structure_orphaned_file_0c87dff8
+    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_2_architecture_structural_improveme_ebcba126
+    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_3_dependency_check_3a072378
+    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_4_security_configuration_0d3b263b
     validation_report_15_9_ded9076e -->|contains| validation_report_15_9_system_readiness_validati_c15934ce
     validation_report_15_9_system_readiness_validati_c15934ce -->|contains| validation_report_15_9_1_validation_report_25cf9013
     cleanup_deliverable_report_6f06f516 -->|contains| cleanup_deliverable_report_repository_cleanup_hy_d0573bf3
@@ -895,11 +892,6 @@ flowchart LR
     cleanup_deliverable_report_repository_cleanup_hy_d0573bf3 -->|contains| cleanup_deliverable_report_files_removed_e723bbaf
     cleanup_deliverable_report_repository_cleanup_hy_d0573bf3 -->|contains| cleanup_deliverable_report_remaining_technical_d_8e66b154
     cleanup_deliverable_report_repository_cleanup_hy_d0573bf3 -->|contains| cleanup_deliverable_report_repository_health_sco_fe6cfffc
-    audit_report_a8ff8528 -->|contains| audit_report_phase_1_repository_audit_report_0f9e25b9
-    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_1_directory_structure_orphaned_file_0c87dff8
-    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_2_architecture_structural_improveme_ebcba126
-    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_3_dependency_check_3a072378
-    audit_report_phase_1_repository_audit_report_0f9e25b9 -->|contains| audit_report_4_security_configuration_0d3b263b
     %% Omitted for readability: 5 nodes, 0 edges
     class cleanup_deliverable_report_repository_cleanup_hy_d0573bf3 concept;
     class cleanup_deliverable_report_6f06f516 concept;
@@ -1575,6 +1567,10 @@ flowchart LR
         api_dashboardroutes_5b37dfb1("dashboardRoutes.js")
         api_dashboardroutes_createdashboardroutes_29ec3134("createDashboardRoutes()<br/><small>src/api/dashboardRoutes.js</small>")
     end
+    subgraph serve_api_wordpress_agent_plugin_api_HttpClient_46d1bb78["wordpress-agent-plugin/api/HttpClient.php"]
+        api_httpclient_httpclient_6136c1e1("HttpClient<br/><small>wordpress-agent-plugin/api/HttpClient.php</small>")
+        api_httpclient_httpclient_request_2f705e2e("request()<br/><small>wordpress-agent-plugin/api/HttpClient.php</small>")
+    end
     reviewid_page_88fdcc74("page.tsx")
     rewriteid_page_309eb334("page.tsx")
     api_auditroutes_createauditroutes_5ab6232e("createAuditRoutes()<br/><small>src/api/auditRoutes.js</small>")
@@ -1583,9 +1579,8 @@ flowchart LR
     api_publishingroutes_createpublishingroutes_7f0ae22a("createPublishingRoutes()<br/><small>src/api/publishingRoutes.js</small>")
     api_rewriteroutes_createrewriteroutes_3b789aec("createRewriteRoutes()<br/><small>src/api/rewriteRoutes.js</small>")
     api_siteroutes_createsiteroutes_bd71ba7a("createSiteRoutes()<br/><small>src/api/siteRoutes.js</small>")
-    api_statusroutes_createstatusroutes_f6c6fcdf("createStatusRoutes()<br/><small>src/api/statusRoutes.js</small>")
-    api_wordpressroutes_createwordpressroutes_5d891f33("createWordPressRoutes()<br/><small>src/api/wordpressRoutes.js</small>")
     src_index_main_fa40efad("main()<br/><small>src/index.js</small>")
+    api_httpclient_httpclient_6136c1e1 -->|method| api_httpclient_httpclient_request_2f705e2e
     src_server_express_b55b655b -->|calls| src_server_createapp_01c7056f
     src_server_createqueuerouter_c5394ad3 -->|calls| src_server_createapp_01c7056f
     src_server_createapp_01c7056f -->|calls| src_index_main_fa40efad
@@ -1596,8 +1591,6 @@ flowchart LR
     src_server_createapp_01c7056f -->|calls| api_publishingroutes_createpublishingroutes_7f0ae22a
     src_server_createapp_01c7056f -->|calls| api_rewriteroutes_createrewriteroutes_3b789aec
     src_server_createapp_01c7056f -->|calls| api_siteroutes_createsiteroutes_bd71ba7a
-    src_server_createapp_01c7056f -->|calls| api_statusroutes_createstatusroutes_f6c6fcdf
-    src_server_createapp_01c7056f -->|calls| api_wordpressroutes_createwordpressroutes_5d891f33
     %% Omitted for readability: 118 nodes, 0 edges
     class src_server_createapp_01c7056f function;
     class src_server_express_b55b655b function;
@@ -1606,6 +1599,8 @@ flowchart LR
     class api_types_rewritedto_f690e4ab klass;
     class api_dashboardroutes_5b37dfb1 api;
     class api_dashboardroutes_createdashboardroutes_29ec3134 api;
+    class api_httpclient_httpclient_6136c1e1 entry;
+    class api_httpclient_httpclient_request_2f705e2e function;
     class reviewid_page_88fdcc74 ui;
     class rewriteid_page_309eb334 ui;
     class api_auditroutes_createauditroutes_5ab6232e api;
@@ -1614,8 +1609,6 @@ flowchart LR
     class api_publishingroutes_createpublishingroutes_7f0ae22a api;
     class api_rewriteroutes_createrewriteroutes_3b789aec api;
     class api_siteroutes_createsiteroutes_bd71ba7a api;
-    class api_statusroutes_createstatusroutes_f6c6fcdf api;
-    class api_wordpressroutes_createwordpressroutes_5d891f33 api;
     class src_index_main_fa40efad function;
     classDef entry fill:#422006,stroke:#fbbf24,color:#fde68a,stroke-width:1px;
     classDef api fill:#450a0a,stroke:#f87171,color:#fee2e2,stroke-width:1px;
@@ -1904,12 +1897,12 @@ flowchart LR
 
 <!-- ====== 8. Tests & Fixtures ====== -->
 <h2 id="tests-fixtures">8. Tests &amp; Fixtures</h2>
-<p>Tests &amp; Fixtures groups implementation around services, claudemanagerjs, test, scripts, mostly in src/services/ClaudeManager.js, src/errors/ClaudeErrors.js, README.md. This section covers 125 nodes and 175 internal edges; the diagram shows only representative relationships to stay readable.</p>
+<p>Tests &amp; Fixtures groups implementation around services, test, claudemanagerjs, scripts, mostly in src/services/ClaudeManager.js, src/errors/ClaudeErrors.js, README.md. This section covers 129 nodes and 177 internal edges; the diagram shows only representative relationships to stay readable.</p>
 
 <div class="mermaid">
 %%{init: {"theme": "dark", "themeVariables": {"fontSize": "15.0px", "fontFamily": "Segoe UI, system-ui, sans-serif", "primaryColor": "#1e293b", "primaryTextColor": "#e2e8f0", "primaryBorderColor": "#38bdf8", "secondaryColor": "#0f172a", "tertiaryColor": "#334155", "lineColor": "#64748b", "textColor": "#e2e8f0"}, "flowchart": {"htmlLabels": true, "curve": "basis", "nodeSpacing": 48, "rankSpacing": 64, "padding": 14, "diagramPadding": 10, "useMaxWidth": true}}}%%
 flowchart LR
-    %% Section: Tests &amp; Fixtures (125 nodes, 175 edges)
+    %% Section: Tests &amp; Fixtures (129 nodes, 177 edges)
     subgraph tests_fixtures_src_errors_ClaudeErrors_js_5b59ac58["src/errors/ClaudeErrors.js"]
         errors_claudeerrors_createclaudeerror_07bee0f5("createClaudeError()<br/><small>src/errors/ClaudeErrors.js</small>")
         errors_claudeerrors_e454675d("ClaudeErrors.js")
@@ -1940,7 +1933,7 @@ flowchart LR
     errors_claudeerrors_invalidresponsequalityerror_909acd1a -->|method| errors_claudeerrors_invalidresponsequalityerror_e49849a7
     errors_claudeerrors_createclaudeerror_07bee0f5 -->|calls| services_claudemanager_claudemanager_sendprompto_d381983d
     services_claudemanager_claudemanager_82714a68 -->|method| services_claudemanager_claudemanager_sendprompto_d381983d
-    %% Omitted for readability: 107 nodes, 0 edges
+    %% Omitted for readability: 111 nodes, 0 edges
     class errors_claudeerrors_createclaudeerror_07bee0f5 function;
     class errors_claudeerrors_e454675d klass;
     class errors_claudeerrors_normalizeerror_68f137ec function;
@@ -2253,7 +2246,7 @@ flowchart LR
   </div>
   <div class="card">
     <h4>Design Notes</h4>
-    <p>This section comes from graphify community clustering. Relationship summary: contains x74, calls x44, method x37, imports x12. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
+    <p>This section comes from graphify community clustering. Relationship summary: contains x76, calls x44, method x37, imports x12. The diagram prioritizes high-confidence calls or usage relationships; the table keeps the broader node inventory.</p>
   </div>
 </div>
 <hr>
@@ -4646,17 +4639,17 @@ flowchart LR
   <div class="card">
     <h4>Graph</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>Nodes</td><td>1566</td></tr>
-      <tr><td>Edges</td><td>1986</td></tr>
+      <tr><td>Nodes</td><td>1558</td></tr>
+      <tr><td>Edges</td><td>1977</td></tr>
       <tr><td>Hyperedges</td><td>4</td></tr>
-      <tr><td>Communities</td><td>168</td></tr>
+      <tr><td>Communities</td><td>169</td></tr>
       <tr><td>Documented Sections</td><td>15</td></tr>
     </table>
   </div>
   <div class="card">
     <h4>Edge Confidence</h4>
     <table style="width:100%;font-size:0.85rem;">
-      <tr><td>EXTRACTED</td><td>1979</td></tr>
+      <tr><td>EXTRACTED</td><td>1970</td></tr>
       <tr><td>INFERRED</td><td>7</td></tr>
       <tr><td>AMBIGUOUS</td><td>0</td></tr>
     </table>
@@ -4665,7 +4658,7 @@ flowchart LR
 
 <div style="text-align:center; padding:40px 0; color: var(--muted); font-size:0.9rem;">
   <p>Content-Operations-Automation — Architecture Documentation</p>
-  <p>Generated: 2026-07-06 08:42 UTC · graphify callflow-html</p>
+  <p>Generated: 2026-07-06 09:30 UTC · graphify callflow-html</p>
 </div>
 
 </div><!-- .container -->

@@ -45,8 +45,8 @@
     "semantic_hash": "9cdcbcc1543fa2c074416ed3d48c386f"
   },
   "package.json": {
-    "mtime": 1782463477.1494942,
-    "ast_hash": "910d1e2f5ae15bbbd20f0f304fe891e3",
+    "mtime": 1783329548.876736,
+    "ast_hash": "e06df182710e8cd9d2e27d7e81680c50",
     "semantic_hash": ""
   },
   "restart.sh": {
@@ -950,8 +950,8 @@
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/api/HttpClient.php": {
-    "mtime": 1783072335.5298615,
-    "ast_hash": "f057993f6c1a444703b19149eeff6a66",
+    "mtime": 1783330131.532521,
+    "ast_hash": "6957dfb10147a949dfd25f3f6cc991dd",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/bootstrap/ModuleInterface.php": {
@@ -1075,8 +1075,8 @@
     "semantic_hash": ""
   },
   "AUDIT_REPORT.md": {
-    "mtime": 1782456965.58953,
-    "ast_hash": "44840e71580d646d1bba12473c25571c",
+    "mtime": 1783330154.02957,
+    "ast_hash": "14045a5714d37340e3a480c664ff2739",
     "semantic_hash": ""
   },
   "src/workers/ClaudeWorker.js": {
@@ -1685,8 +1685,18 @@
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/admin/OverviewPage.php": {
-    "mtime": 1783327322.4608858,
-    "ast_hash": "d0756d1010919016d6dc2408e4a6001a",
+    "mtime": 1783329055.6700914,
+    "ast_hash": "eb2149f99eb278fab998e747216ea89b",
+    "semantic_hash": ""
+  },
+  "test-plugin.js": {
+    "mtime": 1783329549.004906,
+    "ast_hash": "cc7600424932444080d2bf422ae374ca",
+    "semantic_hash": ""
+  },
+  "test_plugin.php": {
+    "mtime": 1783328265.520672,
+    "ast_hash": "eeed8091851f16c7f7ee6ca1e78c9036",
     "semantic_hash": ""
   }
 }
