@@ -61,14 +61,574 @@
   },
   "nodes": [
     {
+      "label": "BootstrapManager.js",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager",
+      "community": 5,
+      "norm_label": "bootstrapmanager.js"
+    },
+    {
+      "label": "{ PreFlightValidator }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_preflightvalidator",
+      "community": 5,
+      "norm_label": "{ preflightvalidator }"
+    },
+    {
+      "label": "{ loadConfig }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_loadconfig",
+      "community": 5,
+      "norm_label": "{ loadconfig }"
+    },
+    {
+      "label": "{ createLogger }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_createlogger",
+      "community": 5,
+      "norm_label": "{ createlogger }"
+    },
+    {
+      "label": "DatabaseConnection",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_databaseconnection",
+      "community": 5,
+      "norm_label": "databaseconnection"
+    },
+    {
+      "label": "Migrations",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_migrations",
+      "community": 5,
+      "norm_label": "migrations"
+    },
+    {
+      "label": "{ JobRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_jobrepository",
+      "community": 5,
+      "norm_label": "{ jobrepository }"
+    },
+    {
+      "label": "{ SiteRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_siterepository",
+      "community": 5,
+      "norm_label": "{ siterepository }"
+    },
+    {
+      "label": "{ ProjectRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_projectrepository",
+      "community": 5,
+      "norm_label": "{ projectrepository }"
+    },
+    {
+      "label": "{ LogRepository, EventRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_logrepository_eventrepository",
+      "community": 5,
+      "norm_label": "{ logrepository, eventrepository }"
+    },
+    {
+      "label": "{ WordPressRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_wordpressrepository",
+      "community": 5,
+      "norm_label": "{ wordpressrepository }"
+    },
+    {
+      "label": "{ PublishingRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_publishingrepository",
+      "community": 5,
+      "norm_label": "{ publishingrepository }"
+    },
+    {
+      "label": "{ PluginRepository }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_pluginrepository",
+      "community": 5,
+      "norm_label": "{ pluginrepository }"
+    },
+    {
+      "label": "{ TokenService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_tokenservice",
+      "community": 5,
+      "norm_label": "{ tokenservice }"
+    },
+    {
+      "label": "{ CompatibilityService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_compatibilityservice",
+      "community": 5,
+      "norm_label": "{ compatibilityservice }"
+    },
+    {
+      "label": "{ PluginService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_pluginservice",
+      "community": 5,
+      "norm_label": "{ pluginservice }"
+    },
+    {
+      "label": "{ WordPressOperationService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_wordpressoperationservice",
+      "community": 5,
+      "norm_label": "{ wordpressoperationservice }"
+    },
+    {
+      "label": "{ DashboardReadService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_dashboardreadservice",
+      "community": 5,
+      "norm_label": "{ dashboardreadservice }"
+    },
+    {
+      "label": "{ WorkflowPolicyEngine }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_workflowpolicyengine",
+      "community": 5,
+      "norm_label": "{ workflowpolicyengine }"
+    },
+    {
+      "label": "{ WorkflowScheduler }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_workflowscheduler",
+      "community": 5,
+      "norm_label": "{ workflowscheduler }"
+    },
+    {
+      "label": "{ WorkflowOrchestrator }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_workfloworchestrator",
+      "community": 5,
+      "norm_label": "{ workfloworchestrator }"
+    },
+    {
+      "label": "{ EventConsumerService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_eventconsumerservice",
+      "community": 5,
+      "norm_label": "{ eventconsumerservice }"
+    },
+    {
+      "label": "{ PostEventHandler }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_posteventhandler",
+      "community": 5,
+      "norm_label": "{ posteventhandler }"
+    },
+    {
+      "label": "{ TaxonomyEventHandler }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_taxonomyeventhandler",
+      "community": 5,
+      "norm_label": "{ taxonomyeventhandler }"
+    },
+    {
+      "label": "{ AuthorEventHandler }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_authoreventhandler",
+      "community": 5,
+      "norm_label": "{ authoreventhandler }"
+    },
+    {
+      "label": "{ MediaEventHandler }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_mediaeventhandler",
+      "community": 5,
+      "norm_label": "{ mediaeventhandler }"
+    },
+    {
+      "label": "{ SiteEventHandler }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_siteeventhandler",
+      "community": 5,
+      "norm_label": "{ siteeventhandler }"
+    },
+    {
+      "label": "JobService",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_jobservice",
+      "community": 5,
+      "norm_label": "jobservice"
+    },
+    {
+      "label": "{ SiteService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_siteservice",
+      "community": 5,
+      "norm_label": "{ siteservice }"
+    },
+    {
+      "label": "{ ProjectService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_projectservice",
+      "community": 5,
+      "norm_label": "{ projectservice }"
+    },
+    {
+      "label": "SyncService",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_syncservice",
+      "community": 5,
+      "norm_label": "syncservice"
+    },
+    {
+      "label": "PublishingService",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_publishingservice",
+      "community": 5,
+      "norm_label": "publishingservice"
+    },
+    {
+      "label": "{ StateMachine }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_statemachine",
+      "community": 5,
+      "norm_label": "{ statemachine }"
+    },
+    {
+      "label": "{ BrowserManager }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_browsermanager",
+      "community": 5,
+      "norm_label": "{ browsermanager }"
+    },
+    {
+      "label": "{ ClaudeManager }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_claudemanager",
+      "community": 5,
+      "norm_label": "{ claudemanager }"
+    },
+    {
+      "label": "{ MetricsService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_metricsservice",
+      "community": 5,
+      "norm_label": "{ metricsservice }"
+    },
+    {
+      "label": "{ QueueService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_queueservice",
+      "community": 5,
+      "norm_label": "{ queueservice }"
+    },
+    {
+      "label": "{ ClaudeWorker }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_claudeworker",
+      "community": 5,
+      "norm_label": "{ claudeworker }"
+    },
+    {
+      "label": "{ SessionMonitor }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_sessionmonitor",
+      "community": 5,
+      "norm_label": "{ sessionmonitor }"
+    },
+    {
+      "label": "{ RecoveryManager }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_recoverymanager",
+      "community": 5,
+      "norm_label": "{ recoverymanager }"
+    },
+    {
+      "label": "{ SessionDetector }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_sessiondetector",
+      "community": 5,
+      "norm_label": "{ sessiondetector }"
+    },
+    {
+      "label": "{ SessionRecovery }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_sessionrecovery",
+      "community": 5,
+      "norm_label": "{ sessionrecovery }"
+    },
+    {
+      "label": "{ ClaudeHealthCheck }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_claudehealthcheck",
+      "community": 5,
+      "norm_label": "{ claudehealthcheck }"
+    },
+    {
+      "label": "{ BrowserRecovery }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_browserrecovery",
+      "community": 5,
+      "norm_label": "{ browserrecovery }"
+    },
+    {
+      "label": "{ DashboardService }",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_dashboardservice",
+      "community": 5,
+      "norm_label": "{ dashboardservice }"
+    },
+    {
+      "label": "BootstrapManager",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "community": 2,
+      "norm_label": "bootstrapmanager"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor",
+      "community": 2,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_run",
+      "community": 2,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "._runPhase1()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
+      "community": 2,
+      "norm_label": "._runphase1()"
+    },
+    {
+      "label": "._runPhase2()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L129",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2",
+      "community": 2,
+      "norm_label": "._runphase2()"
+    },
+    {
+      "label": "._runPhase3()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L283",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3",
+      "community": 2,
+      "norm_label": "._runphase3()"
+    },
+    {
+      "label": "._runPhase3_5()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L382",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5",
+      "community": 2,
+      "norm_label": "._runphase3_5()"
+    },
+    {
+      "label": "._runPhase4()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L477",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
+      "community": 2,
+      "norm_label": "._runphase4()"
+    },
+    {
+      "label": "._verifyReadiness()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L497",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness",
+      "community": 2,
+      "norm_label": "._verifyreadiness()"
+    },
+    {
+      "label": "._printHeader()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L541",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader",
+      "community": 2,
+      "norm_label": "._printheader()"
+    },
+    {
+      "label": "._reportFailures()",
+      "file_type": "code",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L548",
+      "_origin": "ast",
+      "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures",
+      "community": 2,
+      "norm_label": "._reportfailures()"
+    },
+    {
       "label": "AUDIT_REPORT.md",
       "file_type": "document",
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "audit_report",
       "community": 51,
-      "norm_label": "audit_report.md"
+      "norm_label": "audit_report.md",
+      "id": "audit_report"
     },
     {
       "label": "Phase 1: Repository Audit Report",
@@ -76,9 +636,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "audit_report_phase_1_repository_audit_report",
       "community": 51,
-      "norm_label": "phase 1: repository audit report"
+      "norm_label": "phase 1: repository audit report",
+      "id": "audit_report_phase_1_repository_audit_report"
     },
     {
       "label": "1. Directory Structure & Orphaned Files",
@@ -86,9 +646,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "audit_report_1_directory_structure_orphaned_files",
       "community": 51,
-      "norm_label": "1. directory structure & orphaned files"
+      "norm_label": "1. directory structure & orphaned files",
+      "id": "audit_report_1_directory_structure_orphaned_files"
     },
     {
       "label": "2. Architecture & Structural Improvements",
@@ -96,9 +656,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "audit_report_2_architecture_structural_improvements",
       "community": 51,
-      "norm_label": "2. architecture & structural improvements"
+      "norm_label": "2. architecture & structural improvements",
+      "id": "audit_report_2_architecture_structural_improvements"
     },
     {
       "label": "3. Dependency Check",
@@ -106,9 +666,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "audit_report_3_dependency_check",
       "community": 51,
-      "norm_label": "3. dependency check"
+      "norm_label": "3. dependency check",
+      "id": "audit_report_3_dependency_check"
     },
     {
       "label": "4. Security & Configuration",
@@ -116,9 +676,9 @@
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "audit_report_4_security_configuration",
       "community": 51,
-      "norm_label": "4. security & configuration"
+      "norm_label": "4. security & configuration",
+      "id": "audit_report_4_security_configuration"
     },
     {
       "label": "package.json",
@@ -126,9 +686,9 @@
       "source_file": "package.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "package",
       "community": 6,
-      "norm_label": "package.json"
+      "norm_label": "package.json",
+      "id": "package"
     },
     {
       "label": "name",
@@ -136,9 +696,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "package_name",
       "community": 6,
-      "norm_label": "name"
+      "norm_label": "name",
+      "id": "package_name"
     },
     {
       "label": "version",
@@ -146,9 +706,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "package_version",
       "community": 6,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "package_version"
     },
     {
       "label": "description",
@@ -156,9 +716,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "package_description",
       "community": 6,
-      "norm_label": "description"
+      "norm_label": "description",
+      "id": "package_description"
     },
     {
       "label": "main",
@@ -166,9 +726,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "package_main",
       "community": 6,
-      "norm_label": "main"
+      "norm_label": "main",
+      "id": "package_main"
     },
     {
       "label": "scripts",
@@ -176,9 +736,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "package_scripts",
       "community": 6,
-      "norm_label": "scripts"
+      "norm_label": "scripts",
+      "id": "package_scripts"
     },
     {
       "label": "start",
@@ -186,9 +746,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "package_scripts_start",
       "community": 6,
-      "norm_label": "start"
+      "norm_label": "start",
+      "id": "package_scripts_start"
     },
     {
       "label": "legacy-start",
@@ -196,9 +756,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "package_scripts_legacy_start",
       "community": 6,
-      "norm_label": "legacy-start"
+      "norm_label": "legacy-start",
+      "id": "package_scripts_legacy_start"
     },
     {
       "label": "test",
@@ -206,9 +766,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "package_scripts_test",
       "community": 6,
-      "norm_label": "test"
+      "norm_label": "test",
+      "id": "package_scripts_test"
     },
     {
       "label": "keywords",
@@ -216,9 +776,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "package_keywords",
       "community": 6,
-      "norm_label": "keywords"
+      "norm_label": "keywords",
+      "id": "package_keywords"
     },
     {
       "label": "author",
@@ -226,9 +786,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "package_author",
       "community": 6,
-      "norm_label": "author"
+      "norm_label": "author",
+      "id": "package_author"
     },
     {
       "label": "license",
@@ -236,9 +796,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "package_license",
       "community": 6,
-      "norm_label": "license"
+      "norm_label": "license",
+      "id": "package_license"
     },
     {
       "label": "type",
@@ -246,9 +806,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "package_type",
       "community": 6,
-      "norm_label": "type"
+      "norm_label": "type",
+      "id": "package_type"
     },
     {
       "label": "devDependencies",
@@ -256,9 +816,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "package_devdependencies",
       "community": 6,
-      "norm_label": "devdependencies"
+      "norm_label": "devdependencies",
+      "id": "package_devdependencies"
     },
     {
       "label": "@playwright/test",
@@ -266,9 +826,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "package_devdependencies_playwright_test",
       "community": 6,
-      "norm_label": "@playwright/test"
+      "norm_label": "@playwright/test",
+      "id": "package_devdependencies_playwright_test"
     },
     {
       "label": "@types/node",
@@ -276,9 +836,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "package_devdependencies_types_node",
       "community": 6,
-      "norm_label": "@types/node"
+      "norm_label": "@types/node",
+      "id": "package_devdependencies_types_node"
     },
     {
       "label": "jest",
@@ -286,9 +846,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "package_devdependencies_jest",
       "community": 6,
-      "norm_label": "jest"
+      "norm_label": "jest",
+      "id": "package_devdependencies_jest"
     },
     {
       "label": "dependencies",
@@ -296,9 +856,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "package_dependencies",
       "community": 6,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "package_dependencies"
     },
     {
       "label": "better-sqlite3",
@@ -306,9 +866,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "package_dependencies_better_sqlite3",
       "community": 6,
-      "norm_label": "better-sqlite3"
+      "norm_label": "better-sqlite3",
+      "id": "package_dependencies_better_sqlite3"
     },
     {
       "label": "dotenv",
@@ -316,9 +876,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "package_dependencies_dotenv",
       "community": 6,
-      "norm_label": "dotenv"
+      "norm_label": "dotenv",
+      "id": "package_dependencies_dotenv"
     },
     {
       "label": "express",
@@ -326,9 +886,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "package_dependencies_express",
       "community": 6,
-      "norm_label": "express"
+      "norm_label": "express",
+      "id": "package_dependencies_express"
     },
     {
       "label": "php-parser",
@@ -336,9 +896,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "package_dependencies_php_parser",
       "community": 6,
-      "norm_label": "php-parser"
+      "norm_label": "php-parser",
+      "id": "package_dependencies_php_parser"
     },
     {
       "label": "playwright",
@@ -346,9 +906,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "package_dependencies_playwright",
       "community": 6,
-      "norm_label": "playwright"
+      "norm_label": "playwright",
+      "id": "package_dependencies_playwright"
     },
     {
       "label": "playwright-extra",
@@ -356,9 +916,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "package_dependencies_playwright_extra",
       "community": 6,
-      "norm_label": "playwright-extra"
+      "norm_label": "playwright-extra",
+      "id": "package_dependencies_playwright_extra"
     },
     {
       "label": "puppeteer",
@@ -366,9 +926,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "package_dependencies_puppeteer",
       "community": 6,
-      "norm_label": "puppeteer"
+      "norm_label": "puppeteer",
+      "id": "package_dependencies_puppeteer"
     },
     {
       "label": "puppeteer-extra-plugin-stealth",
@@ -376,9 +936,9 @@
       "source_file": "package.json",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "package_dependencies_puppeteer_extra_plugin_stealth",
       "community": 6,
-      "norm_label": "puppeteer-extra-plugin-stealth"
+      "norm_label": "puppeteer-extra-plugin-stealth",
+      "id": "package_dependencies_puppeteer_extra_plugin_stealth"
     },
     {
       "label": "test-plugin.js",
@@ -386,9 +946,9 @@
       "source_file": "test-plugin.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "test_plugin_js_test_plugin",
       "community": 110,
-      "norm_label": "test-plugin.js"
+      "norm_label": "test-plugin.js",
+      "id": "test_plugin_js_test_plugin"
     },
     {
       "label": "puppeteer",
@@ -396,9 +956,9 @@
       "source_file": "test-plugin.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "test_plugin_puppeteer",
       "community": 110,
-      "norm_label": "puppeteer"
+      "norm_label": "puppeteer",
+      "id": "test_plugin_puppeteer"
     },
     {
       "label": "test_plugin.php",
@@ -406,9 +966,9 @@
       "source_file": "test_plugin.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "test_plugin_php_test_plugin",
       "community": 118,
-      "norm_label": "test_plugin.php"
+      "norm_label": "test_plugin.php",
+      "id": "test_plugin_php_test_plugin"
     },
     {
       "label": "plugin_dir_path()",
@@ -416,9 +976,9 @@
       "source_file": "test_plugin.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "test_plugin_plugin_dir_path",
       "community": 118,
-      "norm_label": "plugin_dir_path()"
+      "norm_label": "plugin_dir_path()",
+      "id": "test_plugin_plugin_dir_path"
     },
     {
       "label": "HttpClient.php",
@@ -426,9 +986,9 @@
       "source_file": "wordpress-agent-plugin/api/HttpClient.php",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "api_httpclient",
       "community": 76,
-      "norm_label": "httpclient.php"
+      "norm_label": "httpclient.php",
+      "id": "api_httpclient"
     },
     {
       "label": "HttpClient",
@@ -436,9 +996,9 @@
       "source_file": "wordpress-agent-plugin/api/HttpClient.php",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "api_httpclient_httpclient",
       "community": 76,
-      "norm_label": "httpclient"
+      "norm_label": "httpclient",
+      "id": "api_httpclient_httpclient"
     },
     {
       "label": ".request()",
@@ -446,9 +1006,9 @@
       "source_file": "wordpress-agent-plugin/api/HttpClient.php",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "api_httpclient_httpclient_request",
       "community": 76,
-      "norm_label": ".request()"
+      "norm_label": ".request()",
+      "id": "api_httpclient_httpclient_request"
     },
     {
       "label": "AdminModule.php",
@@ -6499,566 +7059,6 @@
       "community": 140,
       "norm_label": "exclude",
       "id": "dashboard_tsconfig_exclude"
-    },
-    {
-      "label": "BootstrapManager.js",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "bootstrapmanager.js",
-      "id": "bootstrap_bootstrapmanager"
-    },
-    {
-      "label": "{ PreFlightValidator }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ preflightvalidator }",
-      "id": "bootstrap_bootstrapmanager_preflightvalidator"
-    },
-    {
-      "label": "{ loadConfig }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ loadconfig }",
-      "id": "bootstrap_bootstrapmanager_loadconfig"
-    },
-    {
-      "label": "{ createLogger }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ createlogger }",
-      "id": "bootstrap_bootstrapmanager_createlogger"
-    },
-    {
-      "label": "DatabaseConnection",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "databaseconnection",
-      "id": "bootstrap_bootstrapmanager_databaseconnection"
-    },
-    {
-      "label": "Migrations",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "migrations",
-      "id": "bootstrap_bootstrapmanager_migrations"
-    },
-    {
-      "label": "{ JobRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ jobrepository }",
-      "id": "bootstrap_bootstrapmanager_jobrepository"
-    },
-    {
-      "label": "{ SiteRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ siterepository }",
-      "id": "bootstrap_bootstrapmanager_siterepository"
-    },
-    {
-      "label": "{ ProjectRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ projectrepository }",
-      "id": "bootstrap_bootstrapmanager_projectrepository"
-    },
-    {
-      "label": "{ LogRepository, EventRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ logrepository, eventrepository }",
-      "id": "bootstrap_bootstrapmanager_logrepository_eventrepository"
-    },
-    {
-      "label": "{ WordPressRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ wordpressrepository }",
-      "id": "bootstrap_bootstrapmanager_wordpressrepository"
-    },
-    {
-      "label": "{ PublishingRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ publishingrepository }",
-      "id": "bootstrap_bootstrapmanager_publishingrepository"
-    },
-    {
-      "label": "{ PluginRepository }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ pluginrepository }",
-      "id": "bootstrap_bootstrapmanager_pluginrepository"
-    },
-    {
-      "label": "{ TokenService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ tokenservice }",
-      "id": "bootstrap_bootstrapmanager_tokenservice"
-    },
-    {
-      "label": "{ CompatibilityService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ compatibilityservice }",
-      "id": "bootstrap_bootstrapmanager_compatibilityservice"
-    },
-    {
-      "label": "{ PluginService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ pluginservice }",
-      "id": "bootstrap_bootstrapmanager_pluginservice"
-    },
-    {
-      "label": "{ WordPressOperationService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ wordpressoperationservice }",
-      "id": "bootstrap_bootstrapmanager_wordpressoperationservice"
-    },
-    {
-      "label": "{ DashboardReadService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ dashboardreadservice }",
-      "id": "bootstrap_bootstrapmanager_dashboardreadservice"
-    },
-    {
-      "label": "{ WorkflowPolicyEngine }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ workflowpolicyengine }",
-      "id": "bootstrap_bootstrapmanager_workflowpolicyengine"
-    },
-    {
-      "label": "{ WorkflowScheduler }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ workflowscheduler }",
-      "id": "bootstrap_bootstrapmanager_workflowscheduler"
-    },
-    {
-      "label": "{ WorkflowOrchestrator }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ workfloworchestrator }",
-      "id": "bootstrap_bootstrapmanager_workfloworchestrator"
-    },
-    {
-      "label": "{ EventConsumerService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L22",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ eventconsumerservice }",
-      "id": "bootstrap_bootstrapmanager_eventconsumerservice"
-    },
-    {
-      "label": "{ PostEventHandler }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ posteventhandler }",
-      "id": "bootstrap_bootstrapmanager_posteventhandler"
-    },
-    {
-      "label": "{ TaxonomyEventHandler }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ taxonomyeventhandler }",
-      "id": "bootstrap_bootstrapmanager_taxonomyeventhandler"
-    },
-    {
-      "label": "{ AuthorEventHandler }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ authoreventhandler }",
-      "id": "bootstrap_bootstrapmanager_authoreventhandler"
-    },
-    {
-      "label": "{ MediaEventHandler }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L26",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ mediaeventhandler }",
-      "id": "bootstrap_bootstrapmanager_mediaeventhandler"
-    },
-    {
-      "label": "{ SiteEventHandler }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L27",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ siteeventhandler }",
-      "id": "bootstrap_bootstrapmanager_siteeventhandler"
-    },
-    {
-      "label": "JobService",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L29",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "jobservice",
-      "id": "bootstrap_bootstrapmanager_jobservice"
-    },
-    {
-      "label": "{ SiteService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L30",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ siteservice }",
-      "id": "bootstrap_bootstrapmanager_siteservice"
-    },
-    {
-      "label": "{ ProjectService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L31",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ projectservice }",
-      "id": "bootstrap_bootstrapmanager_projectservice"
-    },
-    {
-      "label": "SyncService",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L32",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "syncservice",
-      "id": "bootstrap_bootstrapmanager_syncservice"
-    },
-    {
-      "label": "PublishingService",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L33",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "publishingservice",
-      "id": "bootstrap_bootstrapmanager_publishingservice"
-    },
-    {
-      "label": "{ StateMachine }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L36",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ statemachine }",
-      "id": "bootstrap_bootstrapmanager_statemachine"
-    },
-    {
-      "label": "{ BrowserManager }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L37",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ browsermanager }",
-      "id": "bootstrap_bootstrapmanager_browsermanager"
-    },
-    {
-      "label": "{ ClaudeManager }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L38",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ claudemanager }",
-      "id": "bootstrap_bootstrapmanager_claudemanager"
-    },
-    {
-      "label": "{ MetricsService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L39",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ metricsservice }",
-      "id": "bootstrap_bootstrapmanager_metricsservice"
-    },
-    {
-      "label": "{ QueueService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L40",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ queueservice }",
-      "id": "bootstrap_bootstrapmanager_queueservice"
-    },
-    {
-      "label": "{ ClaudeWorker }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L41",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ claudeworker }",
-      "id": "bootstrap_bootstrapmanager_claudeworker"
-    },
-    {
-      "label": "{ SessionMonitor }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L42",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ sessionmonitor }",
-      "id": "bootstrap_bootstrapmanager_sessionmonitor"
-    },
-    {
-      "label": "{ RecoveryManager }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L43",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ recoverymanager }",
-      "id": "bootstrap_bootstrapmanager_recoverymanager"
-    },
-    {
-      "label": "{ SessionDetector }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L44",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ sessiondetector }",
-      "id": "bootstrap_bootstrapmanager_sessiondetector"
-    },
-    {
-      "label": "{ SessionRecovery }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L45",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ sessionrecovery }",
-      "id": "bootstrap_bootstrapmanager_sessionrecovery"
-    },
-    {
-      "label": "{ ClaudeHealthCheck }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L46",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ claudehealthcheck }",
-      "id": "bootstrap_bootstrapmanager_claudehealthcheck"
-    },
-    {
-      "label": "{ BrowserRecovery }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L47",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ browserrecovery }",
-      "id": "bootstrap_bootstrapmanager_browserrecovery"
-    },
-    {
-      "label": "{ DashboardService }",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L48",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "{ dashboardservice }",
-      "id": "bootstrap_bootstrapmanager_dashboardservice"
-    },
-    {
-      "label": "BootstrapManager",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L50",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "bootstrapmanager",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L51",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": ".constructor()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_constructor"
-    },
-    {
-      "label": ".run()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L70",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": ".run()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_run"
-    },
-    {
-      "label": "._runPhase1()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L97",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "._runphase1()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1"
-    },
-    {
-      "label": "._runPhase2()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L129",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "._runphase2()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2"
-    },
-    {
-      "label": "._runPhase3()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L273",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "._runphase3()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3"
-    },
-    {
-      "label": "._runPhase3_5()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L372",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "._runphase3_5()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5"
-    },
-    {
-      "label": "._runPhase4()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L467",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "._runphase4()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4"
-    },
-    {
-      "label": "._verifyReadiness()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L487",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "._verifyreadiness()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness"
-    },
-    {
-      "label": "._printHeader()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L531",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "._printheader()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_printheader"
-    },
-    {
-      "label": "._reportFailures()",
-      "file_type": "code",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L538",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "._reportfailures()",
-      "id": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures"
     },
     {
       "label": "errors.js",
@@ -15712,6 +15712,1601 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_authoreventhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_browsermanager"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_browserrecovery"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_claudehealthcheck"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_claudemanager"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_claudeworker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_compatibilityservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_createlogger"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_dashboardreadservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_dashboardservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_databaseconnection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_eventconsumerservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_jobrepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_jobservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_loadconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_logrepository_eventrepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_mediaeventhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_metricsservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_migrations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_pluginrepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_pluginservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_posteventhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_preflightvalidator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_projectrepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_projectservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_publishingrepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_publishingservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_queueservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_recoverymanager"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_sessiondetector"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_sessionmonitor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_sessionrecovery"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_siteeventhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_siterepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_siteservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_statemachine"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_syncservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_taxonomyeventhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_tokenservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_wordpressoperationservice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_wordpressrepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_workfloworchestrator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_workflowpolicyengine"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_workflowscheduler"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_preflightvalidator"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "bootstrap_preflightvalidator_preflightvalidator"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "browser_browserrecovery"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "browser_browserrecovery_browserrecovery"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "config_config"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "config_config_loadconfig"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "db_database"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "db_migrations"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_authoreventhandler"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_authoreventhandler_authoreventhandler"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_mediaeventhandler"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_mediaeventhandler_mediaeventhandler"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_posteventhandler"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_posteventhandler_posteventhandler"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_siteeventhandler"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_siteeventhandler_siteeventhandler"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_taxonomyeventhandler"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "monitor_recoverymanager"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "monitor_recoverymanager_recoverymanager"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "monitor_sessionmonitor"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "monitor_sessionmonitor_sessionmonitor"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "monitor_statemachine"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "monitor_statemachine_statemachine"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_jobrepository"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_jobrepository_jobrepository"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_logrepository"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_logrepository_eventrepository"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_logrepository_logrepository"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_pluginrepository"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_pluginrepository_pluginrepository"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_projectrepository"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_projectrepository_projectrepository"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_publishingrepository"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_publishingrepository_publishingrepository"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_siterepository"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_siterepository_siterepository"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_wordpressrepository"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "repositories_wordpressrepository_wordpressrepository"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_browsermanager"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_browsermanager_browsermanager"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_claudemanager"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_claudemanager_claudemanager"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_claudeworker"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_claudeworker_claudeworker"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_compatibilityservice_compatibilityservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_dashboardreadservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_dashboardreadservice_dashboardreadservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_dashboardservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_dashboardservice_dashboardservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_eventconsumerservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_eventconsumerservice_eventconsumerservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_jobservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_metricsservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_metricsservice_metricsservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_pluginservice_pluginservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_projectservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_projectservice_projectservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_publishingservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_queueservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_queueservice_queueservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_siteservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_siteservice_siteservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_syncservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_tokenservice_tokenservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_wordpressoperationservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "services_wordpressoperationservice_wordpressoperationservice"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "session_claudehealthcheck"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "session_claudehealthcheck_claudehealthcheck"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "session_sessiondetector"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "session_sessiondetector_sessiondetector"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "session_sessionrecovery"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "session_sessionrecovery_sessionrecovery"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "utils_logger"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "utils_logger_createlogger"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workers_claudeworker"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workers_claudeworker_claudeworker"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workfloworchestrator"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workfloworchestrator_workfloworchestrator"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workflowpolicyengine"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workflowpolicyengine_workflowpolicyengine"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workflowscheduler"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager",
+      "target": "workflow_workflowscheduler_workflowscheduler"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "bootstrap_bootstrapmanager"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L432",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_printheader"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L439",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_run"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L210",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L273",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L368",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L388",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_constructor",
+      "target": "utils_logger_createlogger"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_printheader"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
+      "target": "config_config_loadconfig"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bootstrap/BootstrapManager.js",
+      "source_location": "L372",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
+      "target": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "AUDIT_REPORT.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -15965,9 +17560,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_php_parser",
-      "confidence_score": 1.0
+      "target": "package_dependencies_php_parser"
     },
     {
       "relation": "contains",
@@ -15995,9 +17590,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_puppeteer",
-      "confidence_score": 1.0
+      "target": "package_dependencies_puppeteer"
     },
     {
       "relation": "contains",
@@ -16015,9 +17610,9 @@
       "source_file": "test-plugin.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "test_plugin_js_test_plugin",
-      "target": "test_plugin_puppeteer",
-      "confidence_score": 1.0
+      "target": "test_plugin_puppeteer"
     },
     {
       "relation": "contains",
@@ -16025,9 +17620,9 @@
       "source_file": "test_plugin.php",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "test_plugin_php_test_plugin",
-      "target": "test_plugin_plugin_dir_path",
-      "confidence_score": 1.0
+      "target": "test_plugin_plugin_dir_path"
     },
     {
       "relation": "contains",
@@ -18102,17 +19697,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "services_compatibilityservice",
-      "target": "services_compatibilityservice_compatibilityservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
       "target": "services_compatibilityservice_compatibilityservice"
     },
     {
@@ -21775,17 +23359,6 @@
       "target": "utils_response_sendsuccess"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_dashboardreadservice"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/services/DashboardReadService.js",
@@ -21793,17 +23366,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "services_dashboardreadservice",
-      "target": "services_dashboardreadservice_dashboardreadservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
       "target": "services_dashboardreadservice_dashboardreadservice"
     },
     {
@@ -24835,1568 +26397,6 @@
       "confidence_score": 1.0,
       "source": "dashboard_tsconfig_compileroptions_paths",
       "target": "dashboard_tsconfig_paths"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_authoreventhandler"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_browsermanager"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_browserrecovery"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_claudehealthcheck"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_claudemanager"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_claudeworker"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_compatibilityservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_createlogger"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_dashboardreadservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_dashboardservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_databaseconnection"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_eventconsumerservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_jobrepository"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_jobservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_loadconfig"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_logrepository_eventrepository"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_mediaeventhandler"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_metricsservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_migrations"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_pluginrepository"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_pluginservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_posteventhandler"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_preflightvalidator"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_projectrepository"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_projectservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_publishingrepository"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_publishingservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_queueservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_recoverymanager"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_sessiondetector"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_sessionmonitor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_sessionrecovery"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_siteeventhandler"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_siterepository"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_siteservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_statemachine"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_syncservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_taxonomyeventhandler"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_tokenservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_wordpressoperationservice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_wordpressrepository"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_workfloworchestrator"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_workflowpolicyengine"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_workflowscheduler"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_preflightvalidator"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "bootstrap_preflightvalidator_preflightvalidator"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "browser_browserrecovery"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "browser_browserrecovery_browserrecovery"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "config_config"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "config_config_loadconfig"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "db_database"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "db_migrations"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_authoreventhandler"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_authoreventhandler_authoreventhandler"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_mediaeventhandler"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_mediaeventhandler_mediaeventhandler"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_posteventhandler"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_posteventhandler_posteventhandler"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_siteeventhandler"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_siteeventhandler_siteeventhandler"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_taxonomyeventhandler"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "eventhandlers_taxonomyeventhandler_taxonomyeventhandler"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "monitor_recoverymanager"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "monitor_recoverymanager_recoverymanager"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "monitor_sessionmonitor"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "monitor_sessionmonitor_sessionmonitor"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "monitor_statemachine"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "monitor_statemachine_statemachine"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_jobrepository"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_jobrepository_jobrepository"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_logrepository"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_logrepository_eventrepository"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_logrepository_logrepository"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_pluginrepository"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_pluginrepository_pluginrepository"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_projectrepository"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_projectrepository_projectrepository"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_publishingrepository"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_publishingrepository_publishingrepository"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_siterepository"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_siterepository_siterepository"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_wordpressrepository"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "repositories_wordpressrepository_wordpressrepository"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_browsermanager"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_browsermanager_browsermanager"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_claudemanager"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_claudemanager_claudemanager"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_claudeworker"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_claudeworker_claudeworker"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_dashboardservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_dashboardservice_dashboardservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_eventconsumerservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_eventconsumerservice_eventconsumerservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_jobservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_metricsservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_metricsservice_metricsservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_pluginservice_pluginservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_projectservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_projectservice_projectservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_publishingservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_queueservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_queueservice_queueservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_siteservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_siteservice_siteservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_syncservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_tokenservice_tokenservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_wordpressoperationservice"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "services_wordpressoperationservice_wordpressoperationservice"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "session_claudehealthcheck"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "session_claudehealthcheck_claudehealthcheck"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "session_sessiondetector"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "session_sessiondetector_sessiondetector"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "session_sessionrecovery"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "session_sessionrecovery_sessionrecovery"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "utils_logger"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "utils_logger_createlogger"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "workers_claudeworker"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "workers_claudeworker_claudeworker"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workfloworchestrator"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workfloworchestrator_workfloworchestrator"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workflowpolicyengine"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workflowpolicyengine_workflowpolicyengine"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workflowscheduler"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager",
-      "target": "workflow_workflowscheduler_workflowscheduler"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_index",
-      "target": "bootstrap_bootstrapmanager"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L432",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_printheader"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L439",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L53",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_run"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L112",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L210",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L273",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L368",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L388",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_index",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_constructor",
-      "target": "utils_logger_createlogger"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L54",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_printheader"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L57",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L60",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase2"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L63",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase3_5"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_run",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L86",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_reportfailures"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L89",
-      "weight": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_runphase1",
-      "target": "config_config_loadconfig"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/bootstrap/BootstrapManager.js",
-      "source_location": "L372",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bootstrap_bootstrapmanager_bootstrapmanager_runphase4",
-      "target": "bootstrap_bootstrapmanager_bootstrapmanager_verifyreadiness"
     },
     {
       "relation": "contains",
@@ -36245,5 +36245,5 @@
       "source_file": "archive/failure-1780489233782.png"
     }
   ],
-  "built_at_commit": "737280601dffaf38b034f4777885930af08a2b57"
+  "built_at_commit": "cb7e6f7ec3ceab44b360f7b7af7da119bc56e7a0"
 }

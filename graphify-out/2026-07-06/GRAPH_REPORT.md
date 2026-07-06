@@ -1,7 +1,7 @@
 # Graph Report - Content-Operations-Automation  (2026-07-06)
 
 ## Corpus Check
-- 265 files · ~135,975 words
+- 265 files · ~135,985 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `73728060`
+- Built from commit: `cb7e6f7e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -432,7 +432,7 @@ Cohesion: 0.25
 Nodes (7): 1. Validation Report, 2. Defect Register, 3. Recovery Evidence, 4. Benchmark Results, 5. Security Audit, 6. Final Production Readiness Report, System Readiness & Validation Report (Phase 15.9)
 
 ## Knowledge Gaps
-- **387 isolated node(s):** `1. Directory Structure & Orphaned Files`, `2. Architecture & Structural Improvements`, `3. Dependency Check`, `4. Security & Configuration`, `name` (+382 more)
+- **387 isolated node(s):** `{ PreFlightValidator }`, `{ loadConfig }`, `{ createLogger }`, `DatabaseConnection`, `Migrations` (+382 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **105 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -441,11 +441,11 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `JobRepository` connect `Jobrepository Components` to `Migrations Components`, `Bootstrapmanager Components`?**
   _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **Why does `DashboardReadService` connect `Community 138` to `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **Why does `ProjectRepository` connect `Projectrepository Components` to `Community 82`, `Migrations Components`, `Bootstrapmanager Components`?**
   _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **What connects `1. Directory Structure & Orphaned Files`, `2. Architecture & Structural Improvements`, `3. Dependency Check` to the rest of the system?**
+- **Why does `DashboardReadService` connect `Community 138` to `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **What connects `{ PreFlightValidator }`, `{ loadConfig }`, `{ createLogger }` to the rest of the system?**
   _387 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Auditroutes Components` be split into smaller, more focused modules?**
   _Cohesion score 0.1038961038961039 - nodes in this community are weakly interconnected._

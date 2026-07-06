@@ -92,12 +92,14 @@ class RegistrationService {
         $this->config->setRegistrationStatus(new RegistrationStatus(RegistrationStatus::REGISTERING));
         
         $identity = $this->config->getIdentity();
+        $protocol = new ProtocolVersion();
         $response = $this->client->post('/plugin/register', [
             'installation_uuid' => $identity->getInstallationUuid(),
             'plugin_uuid' => $identity->getPluginUuid(),
             'plugin_version' => $identity->getPluginVersion(),
             'site_url' => $identity->getSiteUrl(),
-            'site_name' => $identity->getSiteName()
+            'site_name' => $identity->getSiteName(),
+            'protocol_version' => $protocol->getValue()
         ]);
 
         if (!$response['success']) {
