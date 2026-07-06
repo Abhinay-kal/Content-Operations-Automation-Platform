@@ -995,8 +995,8 @@
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/services/RegistrationService.php": {
-    "mtime": 1783331340.6098967,
-    "ast_hash": "ff997de3257dcf5adf02ac23cb536a5b",
+    "mtime": 1783331753.9270816,
+    "ast_hash": "b830b6982ec0436da6313f4007aa3bf2",
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/models/BackendIdentity.php": {

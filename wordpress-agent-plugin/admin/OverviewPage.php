@@ -157,8 +157,8 @@ class OverviewPage {
                         } else {
                             alert('Failed to schedule job: ' + (response.data && response.data.message ? response.data.message : 'Unknown error'));
                         }
-                    }).fail(function() {
-                        alert('Server request failed.');
+                    }).fail(function(jqXHR, textStatus, errorThrown) {
+                        alert('Server request failed. Status: ' + jqXHR.status + ' Error: ' + errorThrown);
                     }).always(function() {
                         submitBtn.prop('disabled', false).text('Schedule Job');
                     });
@@ -193,33 +193,50 @@ class OverviewPage {
     }
 
     public function handleScheduleJob() {
-        if (!Nonce::verify($_POST['nonce'], 'seo_opt_ajax_action')) {
-            wp_send_json_error(['message' => __('Invalid security token.', 'seo-opt-agent')]);
-        }
-        if (!Permissions::canManageSettings()) {
-            wp_send_json_error(['message' => __('Insufficient permissions.', 'seo-opt-agent')]);
-        }
+        error_log("handleScheduleJob started");
+        try {
+            if (!Nonce::verify($_POST['nonce'], 'seo_opt_ajax_action')) {
+                error_log("Nonce verification failed");
+                wp_send_json_error(['message' => __('Invalid security token.', 'seo-opt-agent')]);
+            }
+            if (!Permissions::canManageSettings()) {
+                error_log("Permission failed");
+                wp_send_json_error(['message' => __('Insufficient permissions.', 'seo-opt-agent')]);
+            }
 
-        $type = isset($_POST['type']) ? sanitize_text_field($_POST['type']) : 'REWRITE';
-        $wp_post_id = isset($_POST['wp_post_id']) ? intval($_POST['wp_post_id']) : 0;
-        $priority = isset($_POST['priority']) ? sanitize_text_field($_POST['priority']) : 'NORMAL';
-        $prompt = isset($_POST['prompt']) ? sanitize_textarea_field($_POST['prompt']) : '';
+            $type = isset($_POST['type']) ? sanitize_text_field($_POST['type']) : 'REWRITE';
+            $wp_post_id = isset($_POST['wp_post_id']) ? intval($_POST['wp_post_id']) : 0;
+            $priority = isset($_POST['priority']) ? sanitize_text_field($_POST['priority']) : 'NORMAL';
+            $prompt = isset($_POST['prompt']) ? sanitize_textarea_field($_POST['prompt']) : '';
 
-        if (!$wp_post_id) {
-            wp_send_json_error(['message' => 'WordPress Post ID is required.']);
-        }
+            error_log("Validating payload: type=$type, wp_post_id=$wp_post_id, priority=$priority");
 
-        $response = $this->backendClient->post('/plugin/jobs/create', [
-            'type' => $type,
-            'wp_post_id' => $wp_post_id,
-            'priority' => $priority,
-            'prompt' => $prompt
-        ]);
+            if (!$wp_post_id) {
+                error_log("Missing post ID");
+                wp_send_json_error(['message' => 'WordPress Post ID is required.']);
+            }
 
-        if ($response['success']) {
-            wp_send_json_success(['message' => 'Job created successfully', 'job' => $response['data'] ?? []]);
-        } else {
-            wp_send_json_error(['message' => $response['error'] ?? 'Backend rejected the job creation.']);
+            error_log("Calling backend...");
+            $response = $this->backendClient->post('/plugin/jobs/create', [
+                'type' => $type,
+                'wp_post_id' => $wp_post_id,
+                'priority' => $priority,
+                'prompt' => $prompt
+            ]);
+
+            error_log("Backend response: " . print_r($response, true));
+
+            if (!empty($response['success'])) {
+                wp_send_json_success(['message' => 'Job created successfully', 'job' => $response['data'] ?? []]);
+            } else {
+                wp_send_json_error(['message' => $response['error'] ?? $response['message'] ?? 'Backend rejected the job creation.']);
+            }
+        } catch (\Exception $e) {
+            error_log("Exception in handleScheduleJob: " . $e->getMessage());
+            wp_send_json_error(['message' => $e->getMessage()]);
+        } catch (\Error $e) {
+            error_log("Fatal Error in handleScheduleJob: " . $e->getMessage());
+            wp_send_json_error(['message' => 'Fatal Error: ' . $e->getMessage()]);
         }
     }
 }
