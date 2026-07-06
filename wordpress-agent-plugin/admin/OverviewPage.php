@@ -101,14 +101,14 @@ class OverviewPage {
             wp_send_json_error(['message' => __('Insufficient permissions.', 'seo-opt-agent')]);
         }
 
-        $response = $this->backendClient->get('/queue/stats');
+        $response = $this->backendClient->get('/api/seo-opt/stats');
         
         if ($response['success']) {
             wp_send_json_success([
-                'processing' => $response['processing'] ?? 0,
-                'queued' => $response['queued'] ?? 0,
-                'completed' => $response['completed'] ?? 0,
-                'failed' => $response['failed'] ?? 0
+                'processing' => $response['data']['processing'] ?? 0,
+                'queued' => $response['data']['queued'] ?? 0,
+                'completed' => $response['data']['completed'] ?? 0,
+                'failed' => $response['data']['failed'] ?? 0
             ]);
         } else {
             wp_send_json_error(['message' => 'Failed to fetch stats from backend.']);
