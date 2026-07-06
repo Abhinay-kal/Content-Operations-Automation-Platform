@@ -473,3 +473,8 @@
 {"timestamp":"2026-07-06T12:27:49.893Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/register"}
 {"timestamp":"2026-07-06T12:27:56.519Z","scope":"Server","level":"info","message":"request","method":"GET","path":"/plugin/stats"}
 {"timestamp":"2026-07-06T12:27:56.521Z","scope":"Server","level":"error","message":"unhandled error","error":"Cannot read properties of undefined (reading 'token')"}
+{"timestamp":"2026-07-06T12:32:51.894Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/handshake"}
+{"timestamp":"2026-07-06T12:32:54.797Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/register"}
+{"timestamp":"2026-07-06T12:33:04.705Z","scope":"Server","level":"info","message":"request","method":"GET","path":"/plugin/stats"}
+{"timestamp":"2026-07-06T12:33:04.708Z","scope":"Server","level":"error","message":"unhandled error","error":"Cannot read properties of undefined (reading 'token')"}
+{"timestamp":"2026-07-06T12:34:43.547Z","scope":"Server","level":"info","message":"request","method":"POST","path":"/plugin/jobs/create"}

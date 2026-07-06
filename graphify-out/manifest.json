@@ -1145,8 +1145,8 @@
     "semantic_hash": ""
   },
   "src/api/pluginRoutes.js": {
-    "mtime": 1783335972.903737,
-    "ast_hash": "58bd18fe0c1d267e4b4d55cc10dcd3a1",
+    "mtime": 1783341012.5466177,
+    "ast_hash": "6d09ce11344d326597b856ef0927b5bc",
     "semantic_hash": ""
   },
   "src/repositories/PluginRepository.js": {
@@ -1685,8 +1685,8 @@
     "semantic_hash": ""
   },
   "wordpress-agent-plugin/admin/OverviewPage.php": {
-    "mtime": 1783340413.0142348,
-    "ast_hash": "6564aab01e4e4d23e21254eb2f49ad72",
+    "mtime": 1783341052.56355,
+    "ast_hash": "9aa7c40d5684f1e88cc25dd0e2cac878",
     "semantic_hash": ""
   },
   "test-plugin.js": {

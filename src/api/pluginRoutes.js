@@ -4,7 +4,14 @@ function createPluginRoutes({ pluginService, wpOpService, jobService, logger }) 
     const router = express.Router();
 
     const authenticate = (req, res, next) => {
-        const token = req.headers['x-plugin-token'] || req.body.token;
+        let token = req.headers['x-plugin-token'] || (req.body && req.body.token);
+        if (!token && req.headers['authorization']) {
+            const parts = req.headers['authorization'].split(' ');
+            if (parts.length === 2 && parts[0] === 'Bearer') {
+                token = parts[1];
+            }
+        }
+
         if (!token || !pluginService.validate(token)) {
             return res.status(401).json({ success: false, error: 'Unauthorized' });
         }
