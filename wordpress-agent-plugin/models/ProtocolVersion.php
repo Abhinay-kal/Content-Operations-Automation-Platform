@@ -13,4 +13,4 @@ class ProtocolVersion {
     public function getValue(): string {
         return $this->version;
     }
-}\n
+}

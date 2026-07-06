@@ -7,11 +7,13 @@ class Menu {
     private $configService;
     private $registrationService;
     private $heartbeatService;
+    private $overviewPage;
 
-    public function __construct($configService, $registrationService, $heartbeatService) {
+    public function __construct($configService, $registrationService, $heartbeatService, $overviewPage) {
         $this->configService = $configService;
         $this->registrationService = $registrationService;
         $this->heartbeatService = $heartbeatService;
+        $this->overviewPage = $overviewPage;
     }
 
     public function register() {
@@ -24,7 +26,7 @@ class Menu {
             __('SEO Platform', 'seo-opt-agent'),
             Permissions::MANAGE_CAPABILITY,
             'seo-opt-agent',
-            [$this, 'renderOverview'],
+            [$this->overviewPage, 'renderPage'],
             'dashicons-chart-area',
             30
         );
@@ -35,7 +37,7 @@ class Menu {
             __('Overview', 'seo-opt-agent'),
             Permissions::MANAGE_CAPABILITY,
             'seo-opt-agent',
-            [$this, 'renderOverview']
+            [$this->overviewPage, 'renderPage']
         );
 
         add_submenu_page(
@@ -57,11 +59,7 @@ class Menu {
         );
     }
 
-    public function renderOverview() {
-        echo '<div class="wrap"><h1>' . esc_html__('SEO Platform Overview', 'seo-opt-agent') . '</h1><p>' . esc_html__('Welcome to the SEO Optimization Platform Agent.', 'seo-opt-agent') . '</p></div>';
-    }
-
     public function renderDiagnostics() {
         echo '<div class="wrap"><h1>' . esc_html__('Diagnostics', 'seo-opt-agent') . '</h1><p>' . esc_html__('Diagnostics tools will be available in future phases.', 'seo-opt-agent') . '</p></div>';
     }
-}\n
+}

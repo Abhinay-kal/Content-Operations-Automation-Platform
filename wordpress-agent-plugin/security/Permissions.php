@@ -7,4 +7,4 @@ class Permissions {
     public static function canManageSettings() {
         return current_user_can(self::MANAGE_CAPABILITY);
     }
-}\n
+}

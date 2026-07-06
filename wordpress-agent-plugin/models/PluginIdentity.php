@@ -70,4 +70,4 @@ class PluginIdentity {
     public function setLanguage($v) { $this->language = $v; }
     public function setEnvironment($v) { $this->environment = $v; }
     public function setGeneratedAt($v) { $this->generatedAt = $v; }
-}\n
+}

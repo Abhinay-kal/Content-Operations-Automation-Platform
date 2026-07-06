@@ -75,4 +75,4 @@ class Plugin {
     public function run() {
         $this->loader->run();
     }
-}\n
+}

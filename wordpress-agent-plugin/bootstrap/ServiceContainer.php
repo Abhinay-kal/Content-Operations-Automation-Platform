@@ -36,11 +36,11 @@ class ServiceContainer {
         $notices = new Notices();
 
         $modules = [
-            new AdminModule($configService, $registrationService, $heartbeatService, $notices)
+            new AdminModule($configService, $registrationService, $heartbeatService, $notices, $backendClient)
         ];
 
         foreach ($modules as $module) {
             $module->register($loader);
         }
     }
-}\n
+}

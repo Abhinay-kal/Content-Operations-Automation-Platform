@@ -13,4 +13,4 @@ class SettingsRepository {
     public function deleteSettings(): void {
         delete_option(SEO_OPT_AGENT_SETTINGS_KEY);
     }
-}\n
+}

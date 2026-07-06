@@ -30,4 +30,4 @@ class CompatibilityService {
             'message' => 'Fully compatible.'
         ];
     }
-}\n
+}

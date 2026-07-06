@@ -23,4 +23,4 @@ class ConnectionResult {
     public function getStatus(): ConnectionStatus {
         return $this->status;
     }
-}\n
+}

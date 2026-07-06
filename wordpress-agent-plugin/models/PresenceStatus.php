@@ -28,4 +28,4 @@ class PresenceStatus {
         ];
         return $map[$this->status] ?? 'Unknown';
     }
-}\n
+}

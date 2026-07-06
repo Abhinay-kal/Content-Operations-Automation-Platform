@@ -37,4 +37,4 @@ class RegistrationData {
     public function getBackendVersion() { return $this->backendVersion; }
     public function getApiVersion() { return $this->apiVersion; }
     public function getCapabilities() { return $this->capabilities; }
-}\n
+}

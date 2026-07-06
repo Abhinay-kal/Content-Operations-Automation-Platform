@@ -95,4 +95,4 @@ class HeartbeatService {
         
         return $this->client->post('/plugin/heartbeat', $payload);
     }
-}\n
+}

@@ -39,4 +39,4 @@ class BackendIdentity {
     public function getApiVersion() { return $this->apiVersion; }
     public function getProtocolVersion() { return $this->protocolVersion; }
     public function getCapabilities() { return $this->capabilities; }
-}\n
+}

@@ -16,4 +16,4 @@ class HealthService {
         }
         return new ConnectionStatus(ConnectionStatus::DISCONNECTED);
     }
-}\n
+}

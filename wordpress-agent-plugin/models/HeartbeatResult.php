@@ -18,4 +18,4 @@ class HeartbeatResult {
     public function getMessage(): string { return $this->message; }
     public function getPresenceStatus(): PresenceStatus { return $this->presenceStatus; }
     public function getLatencyMs(): int { return $this->latencyMs; }
-}\n
+}

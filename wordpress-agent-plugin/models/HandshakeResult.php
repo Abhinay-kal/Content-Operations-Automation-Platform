@@ -26,4 +26,4 @@ class HandshakeResult {
     public function getRegistrationStatus(): RegistrationStatus { return $this->registrationStatus; }
     public function getMetadata(): array { return $this->metadata; }
     public function getErrorCode(): string { return $this->errorCode; }
-}\n
+}

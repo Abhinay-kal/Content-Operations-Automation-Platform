@@ -32,4 +32,4 @@ class RegistrationStatus {
         ];
         return $map[$this->status] ?? 'Unknown';
     }
-}\n
+}

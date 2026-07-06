@@ -53,4 +53,4 @@ class ConnectionService {
         
         return new ConnectionResult(false, 'Invalid response format from backend', $status);
     }
-}\n
+}

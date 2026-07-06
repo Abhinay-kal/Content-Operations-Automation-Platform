@@ -26,4 +26,4 @@ class CronManager {
     public static function clearEvents() {
         wp_clear_scheduled_hook('seo_opt_agent_heartbeat');
     }
-}\n
+}

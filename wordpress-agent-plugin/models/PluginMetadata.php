@@ -39,4 +39,4 @@ class PluginMetadata {
     public function setWpVersion($v) { $this->wpVersion = $v; }
     public function setPhpVersion($v) { $this->phpVersion = $v; }
     public function setInstalledAt($v) { $this->installedAt = $v; }
-}\n
+}

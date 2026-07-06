@@ -181,4 +181,4 @@ class RegistrationService {
             'errorCode' => $errorCode
         ];
     }
-}\n
+}

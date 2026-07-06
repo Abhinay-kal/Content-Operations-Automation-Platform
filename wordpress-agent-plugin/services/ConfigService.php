@@ -137,4 +137,4 @@ class ConfigService {
     public function updateBackendIdentity(BackendIdentity $identity): void {
         $this->save('backend_identity', $identity->toArray());
     }
-}\n
+}

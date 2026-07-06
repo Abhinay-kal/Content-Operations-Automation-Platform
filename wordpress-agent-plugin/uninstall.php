@@ -18,4 +18,4 @@ delete_option( 'seo_opt_plugin_version' );
 delete_option( 'seo_opt_connection_status' );
 delete_option( 'seo_opt_last_success' );
 delete_option( 'seo_opt_last_error' );
-delete_option( 'seo_opt_installed_at' );\n
+delete_option( 'seo_opt_installed_at' );

@@ -31,4 +31,4 @@ class WordPressSecretStore implements SecretStoreInterface {
             $this->repo->saveSettings($settings);
         }
     }
-}\n
+}
