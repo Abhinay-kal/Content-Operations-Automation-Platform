@@ -11,10 +11,14 @@ function createPluginRoutes({ pluginService, wpOpService, jobService, logger }) 
                 token = parts[1];
             }
         }
+        
+        console.log(`[DEBUG] authenticate: path=${req.path} token=${token}`);
 
         if (!token || !pluginService.validate(token)) {
+            console.log(`[DEBUG] authenticate failed: token valid? ${pluginService.validate(token)}`);
             return res.status(401).json({ success: false, error: 'Unauthorized' });
         }
+        
         req.pluginToken = token;
         next();
     };
@@ -213,6 +217,7 @@ function createPluginRoutes({ pluginService, wpOpService, jobService, logger }) 
             if (!jobService) {
                 return res.status(500).json({ success: false, error: 'Job service not available' });
             }
+            if(logger) logger.info('Received job creation request', { body: req.body });
 
             const { wp_post_id, wp_post_ids, type, priority, prompt } = req.body;
             let postIds = [];

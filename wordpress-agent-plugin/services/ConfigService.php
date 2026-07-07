@@ -26,7 +26,9 @@ class ConfigService {
 
     public function save(string $key, $value): void {
         $this->cache[$key] = $value;
-        $this->repo->saveSettings($this->cache);
+        $latest = $this->repo->getSettings();
+        $latest[$key] = $value;
+        $this->repo->saveSettings($latest);
     }
 
     public function getBackendUrl(): string {

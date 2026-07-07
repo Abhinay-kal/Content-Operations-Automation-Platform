@@ -4,6 +4,11 @@ function createAuthMiddleware(apiKeys, logger) {
     const validKeys = apiKeys.map(k => Buffer.from(k));
 
     return (req, res, next) => {
+        // Plugin routes have their own token-based authentication
+        if (req.path.startsWith('/plugin/')) {
+            return next();
+        }
+
         // In production, if no keys are configured, deny all to be safe
         if (validKeys.length === 0) {
             logger.warn('Authentication failed: server has no API_KEYS configured');

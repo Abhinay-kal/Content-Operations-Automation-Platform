@@ -1145,8 +1145,8 @@
     "semantic_hash": ""
   },
   "src/api/pluginRoutes.js": {
-    "mtime": 1783341012.5466177,
-    "ast_hash": "6d09ce11344d326597b856ef0927b5bc",
+    "mtime": 1783341282.353532,
+    "ast_hash": "956c13a37b6cc7f10a367e653c2714cd",
     "semantic_hash": ""
   },
   "src/repositories/PluginRepository.js": {
