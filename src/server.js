@@ -51,116 +51,20 @@ function createApp(services) {
     const statusLimiter = createRateLimiter(securityConfig.rateLimits.status);
     const healthLimiter = createRateLimiter(securityConfig.rateLimits.health);
 
-    // Authentication Middleware
-    const authMiddleware = createAuthMiddleware(securityConfig.apiKeys, logger.server);
-
-    // Routes
-    app.use('/', statusLimiter, createStatusRoutes({
-        sessionMonitor: services.sessionMonitor,
-        queueService: services.queueService,
-        metricsService: services.metricsService,
-        logger: logger.status || logger.server,
-        stateMachine: services.stateMachine,
-        browserManager: services.browserManager,
-        claudeManager: services.claudeManager,
-        recoveryManager: services.recoveryManager
-    }));
-
-    // Site Routes (Requires Auth)
-    app.use('/', authMiddleware, rewriteLimiter, createSiteRoutes({
-        siteService: services.siteService,
-        jobService: services.jobService,
-        logger: logger.server
-    }));
-
-    // Project Routes (Requires Auth)
-    app.use('/', authMiddleware, statusLimiter, createProjectRoutes({
-        projectService: services.projectService,
-        logger: logger.server
-    }));
-
-    // Job Routes (Requires Auth)
-    app.use('/', authMiddleware, statusLimiter, createJobRoutes({
-        jobService: services.jobService,
-        logRepository: services.logRepository,
-        logger: logger.server
-    }));
-
-    // Audit Routes (Requires Auth)
-    app.use('/', authMiddleware, statusLimiter, createAuditRoutes({
-        projectService: services.projectService,
-        jobService: services.jobService,
-        logger: logger.server
-    }));
-
-    // Rewrite Routes (Requires Auth)
-    app.use('/', authMiddleware, statusLimiter, createRewriteRoutes({
-        projectService: services.projectService,
-        jobService: services.jobService,
-        logger: logger.server
-    }));
-
-    // Publishing Routes (Requires Auth)
-    app.use('/', authMiddleware, statusLimiter, createPublishingRoutes({
-        publishingService: services.publishingService,
-        logger: logger.server
-    }));
-
-    
-    // Dashboard Read APIs (Requires Auth but mounted under dashboard space)
-    app.use('/', authMiddleware, statusLimiter, createDashboardRoutes({
-        dashboardReadService: services.dashboardReadService,
-        logger: logger.server
-    }));
-
-    // Queue Routes (Requires Auth)
-    app.use('/', authMiddleware, statusLimiter, createQueueRouter({
-        jobService: services.jobService,
-        logger: logger.server
-    }));
-
-    // Plugin Routes
-    app.use('/', statusLimiter, createPluginRoutes({
-        pluginService: services.pluginService,
-        wpOpService: services.wpOpService,
-        jobService: services.jobService,
-        logger: logger.server
-    }));
-
-    // WordPress & Content Routes (Requires Auth)
-    app.use('/', authMiddleware, rewriteLimiter, createWordPressRoutes({
-        syncService: services.syncService,
-        wordpressRepository: services.wordpressRepository,
-        logger: logger.server
-    }));
-
     app.get('/health', healthLimiter, async (req, res) => {
         try {
             const status = services.sessionMonitor.getStatus();
             const state = status.state;
             
-            // In Phase 4, we define "healthy" as READY, HEALTHY, or BUSY.
-            // Any other state (STARTING, DEGRADED, BROKEN, RECOVERING) is considered unhealthy for traffic.
             if (state === 'HEALTHY' || state === 'READY' || state === 'BUSY') {
-                return res.json({ 
-                    status: 'healthy', 
-                    state: state,
-                    ready: true 
-                });
+                return res.json({ status: 'healthy', state: state, ready: true });
             }
 
             logger.health.warn('health degraded', { state: state });
-            return res.status(503).json({ 
-                status: 'unhealthy', 
-                state: state,
-                ready: false 
-            });
+            return res.status(503).json({ status: 'unhealthy', state: state, ready: false });
         } catch (error) {
             logger.health.error('health check failed', { error: error.message });
-            return res.status(503).json({ 
-                status: 'broken',
-                ready: false 
-            });
+            return res.status(503).json({ status: 'broken', ready: false });
         }
     });
 
@@ -173,6 +77,92 @@ function createApp(services) {
             return res.status(500).json({ error: 'internal_error' });
         }
     });
+
+    // Global Rate Limiter for all routes except those with specific limiters
+    app.use(statusLimiter);
+
+    // Authentication Middleware
+    const authMiddleware = createAuthMiddleware(securityConfig.apiKeys, logger.server);
+
+    // Routes
+    app.use('/', createStatusRoutes({
+        sessionMonitor: services.sessionMonitor,
+        queueService: services.queueService,
+        metricsService: services.metricsService,
+        logger: logger.status || logger.server,
+        stateMachine: services.stateMachine,
+        browserManager: services.browserManager,
+        claudeManager: services.claudeManager,
+        recoveryManager: services.recoveryManager
+    }));
+
+    // Site Routes (Requires Auth)
+    app.use('/', authMiddleware, createSiteRoutes({
+        siteService: services.siteService,
+        jobService: services.jobService,
+        logger: logger.server
+    }));
+
+    // Project Routes (Requires Auth)
+    app.use('/', authMiddleware, createProjectRoutes({
+        projectService: services.projectService,
+        logger: logger.server
+    }));
+
+    // Job Routes (Requires Auth)
+    app.use('/', authMiddleware, createJobRoutes({
+        jobService: services.jobService,
+        logRepository: services.logRepository,
+        logger: logger.server
+    }));
+
+    // Audit Routes (Requires Auth)
+    app.use('/', authMiddleware, createAuditRoutes({
+        projectService: services.projectService,
+        jobService: services.jobService,
+        logger: logger.server
+    }));
+
+    // Rewrite Routes (Requires Auth)
+    app.use('/', authMiddleware, createRewriteRoutes({
+        projectService: services.projectService,
+        jobService: services.jobService,
+        logger: logger.server
+    }));
+
+    // Publishing Routes (Requires Auth)
+    app.use('/', authMiddleware, createPublishingRoutes({
+        publishingService: services.publishingService,
+        logger: logger.server
+    }));
+
+    // Dashboard Read APIs (Requires Auth but mounted under dashboard space)
+    app.use('/', authMiddleware, createDashboardRoutes({
+        dashboardReadService: services.dashboardReadService,
+        logger: logger.server
+    }));
+
+    // Queue Routes (Requires Auth)
+    app.use('/', authMiddleware, createQueueRouter({
+        jobService: services.jobService,
+        logger: logger.server
+    }));
+
+    // Plugin Routes
+    app.use('/', createPluginRoutes({
+        pluginService: services.pluginService,
+        wpOpService: services.wpOpService,
+        jobService: services.jobService,
+        logger: logger.server
+    }));
+
+    // WordPress & Content Routes (Requires Auth)
+    app.use('/', authMiddleware, createWordPressRoutes({
+        syncService: services.syncService,
+        wordpressRepository: services.wordpressRepository,
+        logger: logger.server
+    }));
+
 
     app.post('/rewrite', 
         authMiddleware,
