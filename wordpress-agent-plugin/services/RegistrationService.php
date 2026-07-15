@@ -53,11 +53,11 @@ class RegistrationService {
             return $this->handleHandshakeFailure($response);
         }
 
-        $data = $response['data'];
+        $responseData = $response['data']['data'] ?? $response['data'];
         
-        $backendProtocol = $data['protocolVersion'] ?? '1.0';
-        $minSupported = $data['minimumSupported'] ?? '1.0';
-        $latestSupported = $data['latestSupported'] ?? '1.0';
+        $backendProtocol = $responseData['protocolVersion'] ?? '1.0';
+        $minSupported = $responseData['minimumSupported'] ?? '1.0';
+        $latestSupported = $responseData['latestSupported'] ?? '1.0';
         
         $compCheck = $this->compatibility->evaluateCompatibility($backendProtocol, $minSupported, $latestSupported);
         
@@ -73,10 +73,10 @@ class RegistrationService {
         // Store intermediate backend identity
         $bIdentity = $this->config->getBackendIdentity();
         $bArray = $bIdentity->toArray();
-        $bArray['backendVersion'] = $data['backendVersion'] ?? '';
-        $bArray['apiVersion'] = $data['apiVersion'] ?? '';
+        $bArray['backendVersion'] = $responseData['backendVersion'] ?? '';
+        $bArray['apiVersion'] = $responseData['apiVersion'] ?? '';
         $bArray['protocolVersion'] = $backendProtocol;
-        $bArray['capabilities'] = $data['capabilities'] ?? [];
+        $bArray['capabilities'] = $responseData['capabilities'] ?? [];
         $bArray['lastHandshake'] = time();
         $this->config->updateBackendIdentity(new BackendIdentity($bArray));
         
@@ -84,7 +84,7 @@ class RegistrationService {
         $this->config->setRegistrationStatus(new RegistrationStatus(RegistrationStatus::UNREGISTERED));
         $this->config->setLastConnectionError('');
         
-        return new HandshakeResult(true, 'Handshake successful.', new ConnectionStatus(ConnectionStatus::CONFIGURED), new RegistrationStatus(RegistrationStatus::UNREGISTERED), $data);
+        return new HandshakeResult(true, 'Handshake successful.', new ConnectionStatus(ConnectionStatus::CONFIGURED), new RegistrationStatus(RegistrationStatus::UNREGISTERED), $responseData);
     }
 
     public function register(): RegistrationResult {
@@ -106,19 +106,27 @@ class RegistrationService {
             return $this->handleRegistrationFailure($response);
         }
 
-        $data = $response['data'];
+        $responseData = $response['data']['data'] ?? $response['data'];
         
-        if (isset($data['registrationToken'])) {
-            $this->config->setRegistrationToken($data['registrationToken']);
+        if (isset($responseData['registrationToken'])) {
+            $tokenToSave = $responseData['registrationToken'];
+            error_log("[DEBUG_TRACE] Saving registrationToken: " . $tokenToSave);
+            $this->config->setRegistrationToken($tokenToSave);
+        } elseif (isset($responseData['token'])) {
+            $tokenToSave = $responseData['token'];
+            error_log("[DEBUG_TRACE] Saving token (fallback): " . $tokenToSave);
+            $this->config->setRegistrationToken($tokenToSave);
+        } else {
+            error_log("[DEBUG_TRACE] Neither registrationToken nor token found in responseData!");
         }
 
         $bIdentity = $this->config->getBackendIdentity();
         $bArray = $bIdentity->toArray();
-        $bArray['backendInstanceId'] = $data['backendInstanceId'] ?? '';
-        $bArray['registeredSiteId'] = $data['siteId'] ?? '';
+        $bArray['backendInstanceId'] = $responseData['backendInstanceId'] ?? '';
+        $bArray['registeredSiteId'] = $responseData['siteId'] ?? '';
         $bArray['registeredAt'] = time();
-        if (isset($data['capabilities'])) {
-            $bArray['capabilities'] = $data['capabilities'];
+        if (isset($responseData['capabilities'])) {
+            $bArray['capabilities'] = $responseData['capabilities'];
         }
 
         $this->config->updateBackendIdentity(new BackendIdentity($bArray));
@@ -126,7 +134,7 @@ class RegistrationService {
         $this->config->setRegistrationStatus(new RegistrationStatus(RegistrationStatus::REGISTERED));
         $this->config->setLastConnectionError('');
 
-        return new RegistrationResult(true, 'Registration successful.', new ConnectionStatus(ConnectionStatus::CONNECTED), new RegistrationStatus(RegistrationStatus::REGISTERED), $data);
+        return new RegistrationResult(true, 'Registration successful.', new ConnectionStatus(ConnectionStatus::CONNECTED), new RegistrationStatus(RegistrationStatus::REGISTERED), $responseData);
     }
 
     public function disconnect(): RegistrationResult {

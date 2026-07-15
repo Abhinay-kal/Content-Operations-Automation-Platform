@@ -44,10 +44,13 @@ class ConfigService {
     }
     
     public function getRegistrationToken(): string {
-        return $this->secretStore->getSecret('registration_token');
+        $token = $this->secretStore->getSecret('registration_token');
+        error_log("[DEBUG_TRACE] getRegistrationToken returning: " . (empty($token) ? "EMPTY" : "EXISTS_LENGTH_" . strlen($token)));
+        return $token;
     }
 
     public function setRegistrationToken(string $token): void {
+        error_log("[DEBUG_TRACE] setRegistrationToken called with length: " . strlen($token));
         $this->secretStore->setSecret('registration_token', $token);
     }
 

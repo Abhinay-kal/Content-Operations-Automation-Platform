@@ -12,10 +12,11 @@ function createPluginRoutes({ pluginService, wpOpService, jobService, logger }) 
             }
         }
         
-        logger.info(`[DEBUG] authenticate: path=${req.path} token=${token}`);
+        logger.info(`[DEBUG_TRACE] authenticate: path=${req.path}`);
+        logger.info(`[DEBUG_TRACE] Headers received: ${JSON.stringify(req.headers)}`);
 
         if (!token || !pluginService.validate(token)) {
-            logger.error(`[DEBUG] authenticate failed: token valid? ${pluginService.validate(token)} token=${token}`);
+            logger.error(`[DEBUG_TRACE] authenticate failed: token valid? ${pluginService.validate(token)} token=${token}`);
             return res.status(401).json({ success: false, error: 'Unauthorized' });
         }
         

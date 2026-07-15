@@ -47,6 +47,9 @@ class BackendClient {
             $headers['X-Plugin-Token'] = $token;
         }
 
+        error_log("[DEBUG_TRACE] Sending request to: $fullUrl");
+        error_log("[DEBUG_TRACE] Headers being sent: " . print_r($headers, true));
+
         return $this->httpClient->request($method, $fullUrl, $headers, $body);
     }
 }
