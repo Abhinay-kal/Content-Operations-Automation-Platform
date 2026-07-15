@@ -44,6 +44,7 @@ class BackendClient {
         }
         if (!empty($token)) {
             $headers['Authorization'] = 'Bearer ' . $token;
+            $headers['X-Plugin-Token'] = $token;
         }
 
         return $this->httpClient->request($method, $fullUrl, $headers, $body);
