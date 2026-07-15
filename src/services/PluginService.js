@@ -12,8 +12,12 @@ class PluginService {
         return {
             status: compatibility !== 'UNSUPPORTED' ? 'OK' : 'REJECTED',
             compatibility,
-            backend_version: '1.0.0',
-            required_protocol: '1.0.0'
+            backendVersion: '1.0.0',
+            apiVersion: '1.0',
+            protocolVersion: '1.0',
+            minimumSupported: '1.0',
+            latestSupported: '1.0',
+            capabilities: ['basic']
         };
     }
 
@@ -62,7 +66,7 @@ class PluginService {
         };
 
         const id = this.pluginRepository.createInstallation(installData);
-        return { installation_id: id, token, status: 'REGISTERED' };
+        return { installation_id: id, token, registrationToken: token, status: 'REGISTERED' };
     }
 
     renew(token) {
@@ -73,7 +77,7 @@ class PluginService {
 
         const newToken = this.tokenService.rotateToken(token);
         this.pluginRepository.updateInstallation(installation.id, { registration_token: newToken });
-        return { token: newToken };
+        return { token: newToken, registrationToken: newToken };
     }
 
     disconnect(token) {
