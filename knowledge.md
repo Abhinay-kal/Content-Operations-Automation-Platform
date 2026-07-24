@@ -15,44 +15,54 @@ graph TD
     %% Subtopics
     A1["**Evasion (Stealth Plugin)**"]
     A2[Playwright Contexts]
+    A3["**Headless vs Non-Headless Execution**"]
     B1["**Persistent Job Queues (SQLite)**"]
     B2["**API Design (Express)**"]
     C1["**Node.js Event Loop**"]
     C2["**Error Recovery & Retries**"]
     D1["**Package Scripts (npm start vs node)**"]
     D2["**Environment Variables (.env)**"]
+    D3["**Reverse Proxies (ngrok)**"]
     
     %% Relationships
     A --> A1
     A --> A2
+    A --> A3
     B --> B1
     B --> B2
     C --> C1
     C --> C2
     D --> D1
     D --> D2
+    D --> D3
     
     %% Styling for actively used/implemented subtopics
     style A1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+    style A3 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style B1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style B2 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style C1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style C2 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style D1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style D2 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+    style D3 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
 ```
 
 ## 🧠 Core Engineering Concepts Applied
 
-### 1. Node.js Environment & Tooling
-* **Concept**: Managing application startup and configuration.
-* **Applied Through**: `npm start` aliases and `.env` files.
-* **Learning Value**: Understanding that `npm start` is a wrapper script that delegates to `node src/index.js`, allowing teams to abstract complex startup commands. Also, using `.env` to securely manage `PORT` and `API_KEYS` across different deployment environments.
-
-### 2. Browser Automation & Evasion
+### 1. Browser Automation & Evasion
 * **Concept**: Automating web interactions while avoiding bot detection.
 * **Applied Through**: `puppeteer-extra-plugin-stealth` and Playwright contexts.
+* **Headless Execution**: Understanding `headless: false` (visible GUI, good for debugging) vs `headless: true` (invisible background process, good for production to save RAM/CPU).
 * **Learning Value**: Understanding how modern web applications detect automated traffic (e.g., navigator properties, WebGL fingerprinting, headless Chrome indicators) and how to mitigate them.
+
+### 2. Node.js Environment & Tooling
+* **Concept**: Managing application startup, configuration, and networking.
+* **Applied Through**: `npm start` aliases, `.env` files, and `ngrok`.
+* **Learning Value**: 
+    - **NPM Scripts**: Understanding that `npm start` is a wrapper script that delegates to `node src/index.js`.
+    - **Configuration**: Using `.env` to securely manage `PORT` and `API_KEYS`.
+    - **Networking**: Using `ngrok` as a reverse proxy to expose local ports (e.g., 3000) to the public internet so external clients (like a WordPress plugin) can communicate with local development servers.
 
 ### 3. Persistent Job Queues
 * **Concept**: Storing tasks reliably so they survive server restarts or crashes.
@@ -77,6 +87,7 @@ graph TD
 * **Express.js (Middleware pipelines)**
 * **Playwright & Puppeteer (Headless browsing)**
 * **SQLite (File-based relational databases)**
+* **ngrok (Reverse proxy/tunneling)**
 * **Jest (Unit/Integration testing)**
 
 ---
@@ -85,6 +96,8 @@ graph TD
 
 1. **"What is the difference between running `node index.js` and `npm start`?"**
 2. **"Why do we store database passwords and API keys in a `.env` file instead of hardcoding them?"**
-3. **"How would you design a scalable web scraper that avoids bot detection?"**
-4. **"Explain the difference between a persistent queue and an in-memory queue."**
-5. **"How does the Node.js event loop handle long-running background tasks?"**
+3. **"What is the difference between headless and non-headless browser automation?"**
+4. **"How would you expose a local development server to an external webhook or plugin?"** (Answer: reverse proxy like ngrok)
+5. **"How would you design a scalable web scraper that avoids bot detection?"**
+6. **"Explain the difference between a persistent queue and an in-memory queue."**
+7. **"How does the Node.js event loop handle long-running background tasks?"**
