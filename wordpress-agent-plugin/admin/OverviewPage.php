@@ -50,6 +50,24 @@ class OverviewPage {
                 </div>
             </div>
 
+            <div style="display: flex; gap: 20px; margin-top: 20px;">
+                <!-- Completed Audits Card -->
+                <div style="background: #fff; padding: 20px; border: 1px solid #ccd0d4; border-radius: 4px; flex: 1; box-shadow: 0 1px 1px rgba(0,0,0,.04);">
+                    <h3 style="margin-top: 0; text-align: center;"><?php esc_html_e('Completed Audits', 'seo-opt-agent'); ?> (<span id="seo-opt-completed-audits-count">0</span>)</h3>
+                    <ul id="seo-opt-completed-audits-list" style="max-height: 150px; overflow-y: auto; padding-left: 20px; margin-bottom: 0;">
+                        <?php echo $isConnected ? '<li>Loading...</li>' : '<li>N/A</li>'; ?>
+                    </ul>
+                </div>
+                
+                <!-- Completed Rewrites Card -->
+                <div style="background: #fff; padding: 20px; border: 1px solid #ccd0d4; border-radius: 4px; flex: 1; box-shadow: 0 1px 1px rgba(0,0,0,.04);">
+                    <h3 style="margin-top: 0; text-align: center;"><?php esc_html_e('Completed Rewrites', 'seo-opt-agent'); ?> (<span id="seo-opt-completed-rewrites-count">0</span>)</h3>
+                    <ul id="seo-opt-completed-rewrites-list" style="max-height: 150px; overflow-y: auto; padding-left: 20px; margin-bottom: 0;">
+                        <?php echo $isConnected ? '<li>Loading...</li>' : '<li>N/A</li>'; ?>
+                    </ul>
+                </div>
+            </div>
+
             <div style="margin-top: 30px;">
                 <h2><?php esc_html_e('Quick Actions', 'seo-opt-agent'); ?></h2>
                 <div style="background: #fff; padding: 20px; border: 1px solid #ccd0d4; border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,.04);">
@@ -129,6 +147,19 @@ class OverviewPage {
                 </div>
             </div>
 
+            <!-- Audit Modal -->
+            <div id="seo-opt-audit-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:9999;">
+                <div style="background:#fff; width:80%; max-width: 800px; margin:50px auto; padding:20px; border-radius:4px; box-shadow:0 4px 12px rgba(0,0,0,0.15); display: flex; flex-direction: column; max-height: 80vh;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #ccd0d4; padding-bottom: 10px; margin-bottom: 15px;">
+                        <h3 style="margin:0;">Audit Response</h3>
+                        <button type="button" class="button" id="seo-opt-audit-close">&times;</button>
+                    </div>
+                    <div id="seo-opt-audit-content" style="overflow-y: auto; flex-grow: 1; padding: 10px; background: #f0f0f1; font-family: monospace; white-space: pre-wrap;">
+                        Loading...
+                    </div>
+                </div>
+            </div>
+
             <?php if ($isConnected): ?>
             <script>
             jQuery(document).ready(function($) {
@@ -141,16 +172,82 @@ class OverviewPage {
                         if (response.success && response.data) {
                             $('#seo-opt-processing-jobs').text(response.data.processing || 0);
                             $('#seo-opt-scheduled-jobs').text(response.data.queued || 0);
+                            
+                            var audits = response.data.completed_details && response.data.completed_details.audits ? response.data.completed_details.audits : [];
+                            var rewrites = response.data.completed_details && response.data.completed_details.rewrites ? response.data.completed_details.rewrites : [];
+                            
+                            $('#seo-opt-completed-audits-count').text(audits.length);
+                            $('#seo-opt-completed-rewrites-count').text(rewrites.length);
+                            
+                            var auditsHtml = '';
+                            if (audits.length === 0) {
+                                auditsHtml = '<li>No completed audits yet.</li>';
+                            } else {
+                                audits.forEach(function(job) {
+                                    var title = job.post_title ? job.post_title : 'Post ID ' + job.wp_post_id;
+                                    auditsHtml += '<li style="margin-bottom: 5px;"><a href="post.php?post=' + job.wp_post_id + '&action=edit" target="_blank" style="margin-right: 10px;">' + title + '</a>';
+                                    if (job.project_id) {
+                                        auditsHtml += '<button type="button" class="button button-small view-audit-btn" data-project="' + job.project_id + '">View Audit</button>';
+                                    }
+                                    auditsHtml += '</li>';
+                                });
+                            }
+                            $('#seo-opt-completed-audits-list').html(auditsHtml);
+                            
+                            var rewritesHtml = '';
+                            if (rewrites.length === 0) {
+                                rewritesHtml = '<li>No completed rewrites yet.</li>';
+                            } else {
+                                rewrites.forEach(function(job) {
+                                    var title = job.post_title ? job.post_title : 'Post ID ' + job.wp_post_id;
+                                    rewritesHtml += '<li style="margin-bottom: 5px;"><a href="post.php?post=' + job.wp_post_id + '&action=edit" target="_blank" style="margin-right: 10px;">' + title + '</a>';
+                                    if (job.project_id) {
+                                        rewritesHtml += '<button type="button" class="button button-small view-audit-btn" data-project="' + job.project_id + '">View Audit</button>';
+                                    }
+                                    rewritesHtml += '</li>';
+                                });
+                            }
+                            $('#seo-opt-completed-rewrites-list').html(rewritesHtml);
+                            
+                            // Bind view audit buttons
+                            $('.view-audit-btn').on('click', function() {
+                                var projectId = $(this).data('project');
+                                $('#seo-opt-audit-content').text('Loading audit...');
+                                $('#seo-opt-audit-modal').fadeIn(200);
+                                
+                                $.post(ajaxurl, {
+                                    action: 'seo_opt_get_audit',
+                                    nonce: seoOptAgentObj.nonce,
+                                    project_id: projectId
+                                }, function(res) {
+                                    if (res.success && res.data && res.data.result) {
+                                        $('#seo-opt-audit-content').text(res.data.result);
+                                    } else {
+                                        $('#seo-opt-audit-content').text('Failed to load audit: ' + (res.data && res.data.message ? res.data.message : 'Unknown error'));
+                                    }
+                                }).fail(function() {
+                                    $('#seo-opt-audit-content').text('Network error loading audit.');
+                                });
+                            });
+                            
                         } else {
                             $('#seo-opt-processing-jobs').text('Error');
                             $('#seo-opt-scheduled-jobs').text('Error');
+                            $('#seo-opt-completed-audits-list').html('<li>Error loading stats</li>');
+                            $('#seo-opt-completed-rewrites-list').html('<li>Error loading stats</li>');
                         }
                     }).fail(function() {
                         $('#seo-opt-processing-jobs').text('Unavailable');
                         $('#seo-opt-scheduled-jobs').text('Unavailable');
+                        $('#seo-opt-completed-audits-list').html('<li>Unavailable</li>');
+                        $('#seo-opt-completed-rewrites-list').html('<li>Unavailable</li>');
                     });
                 }
                 loadStats();
+                
+                $('#seo-opt-audit-close').on('click', function() {
+                    $('#seo-opt-audit-modal').fadeOut(200);
+                });
                 
                 $('#seo-opt-schedule-job').on('click', function() {
                     $('#seo-opt-schedule-modal').fadeIn(200);
@@ -217,14 +314,38 @@ class OverviewPage {
         $response = $this->backendClient->get('/plugin/stats');
         
         if ($response['success']) {
+            $statsData = $response['data']['data'] ?? [];
             wp_send_json_success([
-                'processing' => $response['data']['processing'] ?? 0,
-                'queued' => $response['data']['queued'] ?? 0,
-                'completed' => $response['data']['completed'] ?? 0,
-                'failed' => $response['data']['failed'] ?? 0
+                'processing' => $statsData['processing'] ?? 0,
+                'queued' => $statsData['queued'] ?? 0,
+                'completed' => $statsData['completed'] ?? 0,
+                'failed' => $statsData['failed'] ?? 0,
+                'completed_details' => $statsData['completed_details'] ?? ['audits' => [], 'rewrites' => []]
             ]);
         } else {
             wp_send_json_error(['message' => 'Failed to fetch stats from backend.']);
+        }
+    }
+
+    public function handleGetAudit() {
+        if (!Nonce::verify($_POST['nonce'], 'seo_opt_ajax_action')) {
+            wp_send_json_error(['message' => __('Invalid security token.', 'seo-opt-agent')]);
+        }
+        if (!Permissions::canManageSettings()) {
+            wp_send_json_error(['message' => __('Insufficient permissions.', 'seo-opt-agent')]);
+        }
+        
+        $project_id = isset($_POST['project_id']) ? intval($_POST['project_id']) : 0;
+        if (!$project_id) {
+            wp_send_json_error(['message' => 'Missing project ID.']);
+        }
+        
+        $response = $this->backendClient->get('/plugin/projects/' . $project_id . '/audit');
+        
+        if ($response['success']) {
+            wp_send_json_success($response['data']['data'] ?? []);
+        } else {
+            wp_send_json_error(['message' => $response['message'] ?? 'Failed to fetch audit from backend.']);
         }
     }
 

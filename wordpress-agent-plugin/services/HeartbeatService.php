@@ -44,7 +44,7 @@ class HeartbeatService {
         $latency = round((microtime(true) - $startTime) * 1000);
         
         if ($result['success']) {
-            $data = $result['data'];
+            $data = $result['data']['data'] ?? $result['data'];
             // Process response
             if (isset($data['tokenStatus']) && $data['tokenStatus'] === 'REVOKED') {
                 $this->config->setRegistrationStatus(new RegistrationStatus(RegistrationStatus::REVOKED));

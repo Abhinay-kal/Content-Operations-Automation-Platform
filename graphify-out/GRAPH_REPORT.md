@@ -1,16 +1,16 @@
-# Graph Report - Content-Operations-Automation  (2026-07-06)
+# Graph Report - Content-Operations-Automation  (2026-07-24)
 
 ## Corpus Check
-- 265 files · ~136,791 words
+- 271 files · ~138,166 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1553 nodes · 1979 edges · 176 communities (67 shown, 109 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.8)
+- 1567 nodes · 1988 edges · 175 communities (73 shown, 102 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d4bd3eb6`
+- Built from commit: `88e27f32`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -126,6 +126,7 @@
 - [[_COMMUNITY_Community 115|Community 115]]
 - [[_COMMUNITY_Community 116|Community 116]]
 - [[_COMMUNITY_Community 117|Community 117]]
+- [[_COMMUNITY_Community 118|Community 118]]
 - [[_COMMUNITY_Community 119|Community 119]]
 - [[_COMMUNITY_Community 120|Community 120]]
 - [[_COMMUNITY_Community 121|Community 121]]
@@ -167,21 +168,16 @@
 - [[_COMMUNITY_Community 157|Community 157]]
 - [[_COMMUNITY_Community 158|Community 158]]
 - [[_COMMUNITY_Community 159|Community 159]]
+- [[_COMMUNITY_Community 160|Community 160]]
 - [[_COMMUNITY_Community 161|Community 161]]
 - [[_COMMUNITY_Community 162|Community 162]]
 - [[_COMMUNITY_Community 163|Community 163]]
 - [[_COMMUNITY_Community 164|Community 164]]
-- [[_COMMUNITY_Community 165|Community 165]]
-- [[_COMMUNITY_Community 166|Community 166]]
 - [[_COMMUNITY_Community 167|Community 167]]
-- [[_COMMUNITY_Community 168|Community 168]]
-- [[_COMMUNITY_Community 169|Community 169]]
 - [[_COMMUNITY_Community 170|Community 170]]
-- [[_COMMUNITY_Community 171|Community 171]]
-- [[_COMMUNITY_Community 172|Community 172]]
 - [[_COMMUNITY_Community 173|Community 173]]
-- [[_COMMUNITY_Community 174|Community 174]]
-- [[_COMMUNITY_Community 175|Community 175]]
+- [[_COMMUNITY_Community 178|Community 178]]
+- [[_COMMUNITY_Community 181|Community 181]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `ClaudeManager` - 33 edges
@@ -193,19 +189,19 @@
 7. `BrowserManager` - 19 edges
 8. `createApp()` - 18 edges
 9. `compilerOptions` - 16 edges
-10. `ClaudeWorker` - 16 edges
+10. `ClaudeWorker` - 15 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Staging Deployment Design` --references--> `Claude Worker Foundation`  [EXTRACTED]
-  DEPLOYMENT_STAGING.md → README.md
-- `14-Day Soak Test Plan` --references--> `Claude Worker Foundation`  [EXTRACTED]
-  SOAK_TEST_PLAN.md → README.md
 - `getSingletonWorker()` --calls--> `loadConfig()`  [EXTRACTED]
   scripts/claude.js → src/config/config.js
 - `getSingletonWorker()` --calls--> `createLogger()`  [EXTRACTED]
   scripts/claude.js → src/utils/logger.js
-- `createApp()` --calls--> `createPluginRoutes()`  [EXTRACTED]
-  src/server.js → src/api/pluginRoutes.js
+- `Dashboard()` --calls--> `useOverview()`  [EXTRACTED]
+  dashboard/app/page.tsx → dashboard/hooks/useOverview.ts
+- `ReviewDetail()` --calls--> `useRewrite()`  [EXTRACTED]
+  dashboard/app/reviews/[reviewId]/page.tsx → dashboard/hooks/useRewrites.ts
+- `RewriteDetail()` --calls--> `useRewrite()`  [EXTRACTED]
+  dashboard/app/rewrites/[rewriteId]/page.tsx → dashboard/hooks/useRewrites.ts
 
 ## Import Cycles
 - None detected.
@@ -216,15 +212,15 @@
 - **Junior vs Senior Engineer Differences** — failure_junior_engineer, failure_senior_engineer, failure_scope_of_thinking, failure_handling_ambiguity, failure_impact_vs_output [EXTRACTED 0.75]
 - **Junior vs Senior Comparison** — failure1780489233782_junior_engineer, failure1780489233782_senior_engineer, failure1780489233782_scope_of_thinking [EXTRACTED 1.00]
 
-## Communities (176 total, 109 thin omitted)
+## Communities (175 total, 102 thin omitted)
 
 ### Community 0 - "Auditroutes Components"
 Cohesion: 0.10
 Nodes (18): createRateLimiter(), secureHeaders(), validateRewriteRequest(), { createAuditRoutes }, { createAuthMiddleware }, { createDashboardRoutes }, { createJobRoutes }, { createPluginRoutes } (+10 more)
 
 ### Community 1 - "Claudeerrors Components"
-Cohesion: 0.20
-Nodes (9): 1. Cloudflare Turnstile Evasion (Passive CDP Monitoring), 2. Stealth Plugin Initialization Fix, 3. Chromium Launch Argument Hardening, 🛡️ Anti-Bot & Evasion Techniques, Decoupled Job Queue (SQLite), Finite State Machine (FSM) Recovery, Stateful, Persistent Workers, System Design & Anti-Bot Evasion Strategy (+1 more)
+Cohesion: 0.21
+Nodes (11): ReviewWidget(), ReviewDto, ReviewFilters, useReviewAction(), useReviewAssign(), useReviewDetails(), useReviews(), ReviewDetail() (+3 more)
 
 ### Community 2 - "Bootstrapmanager Components"
 Cohesion: 0.06
@@ -259,8 +255,8 @@ Cohesion: 0.15
 Nodes (3): Site, { Site }, SiteRepository
 
 ### Community 12 - "Script Components"
-Cohesion: 0.22
-Nodes (8): Architecture Improvements, Dependencies Removed, Files Modified, Files Moved, Files Removed, Remaining Technical Debt, Repository Cleanup & Hygiene Pass: Deliverables Report, Repository Health Score
+Cohesion: 0.12
+Nodes (15): 1. Cloudflare Turnstile Evasion (Passive CDP Monitoring), 2. Stealth Plugin Initialization Fix, 3. Chromium Launch Argument Hardening, 🛡️ Anti-Bot & Evasion Techniques, API Endpoints, 🏛 Architecture, Claude Worker Foundation, 🚀 Getting Started (+7 more)
 
 ### Community 18 - "Preflightvalidator Components"
 Cohesion: 0.18
@@ -287,8 +283,8 @@ Cohesion: 0.33
 Nodes (4): { chromium }, fs, path, SELECTORS
 
 ### Community 33 - "Commands Components"
-Cohesion: 0.07
-Nodes (25): Filesystem Layout, Infrastructure, PM2 Configuration (`ecosystem.config.js`), Staging Deployment Design, 1. Cloudflare Turnstile Evasion (Passive CDP Monitoring), 2. Stealth Plugin Initialization Fix, 3. Chromium Launch Argument Hardening, 🛡️ Anti-Bot & Evasion Techniques (+17 more)
+Cohesion: 0.29
+Nodes (8): AdminModule, ModuleInterface, BackendClient, ConfigService, HeartbeatService, Loader, Notices, RegistrationService
 
 ### Community 35 - "V2 Components"
 Cohesion: 0.40
@@ -303,8 +299,8 @@ Cohesion: 0.40
 Nodes (3): { chromium }, fs, path
 
 ### Community 39 - "Claude Components"
-Cohesion: 0.18
-Nodes (9): DiagnosticsService, HeartbeatResult, LoggerInterface, HeartbeatService, NullLogger, BackendClient, ConfigService, LoggerInterface (+1 more)
+Cohesion: 0.06
+Nodes (27): BackendClient, ServiceContainer, CompatibilityService, ConnectionResult, DiagnosticsService, HandshakeResult, HealthService, HeartbeatResult (+19 more)
 
 ### Community 51 - "Eeat Components"
 Cohesion: 0.33
@@ -319,16 +315,20 @@ Cohesion: 0.20
 Nodes (9): 1. Fresh Installation, 2. Update Deployment, 3. Lifecycle Management, 4. Backup & Restore, 5. Rollback, 6. Manual Headed Login (Recovery), Backup, Deployment Commands Reference (+1 more)
 
 ### Community 59 - "Engineer Components"
-Cohesion: 0.36
-Nodes (3): BackendClient, HttpClient, ConfigService
+Cohesion: 0.20
+Nodes (9): 1. Cloudflare Turnstile Evasion (Passive CDP Monitoring), 2. Stealth Plugin Initialization Fix, 3. Chromium Launch Argument Hardening, 🛡️ Anti-Bot & Evasion Techniques, Decoupled Job Queue (SQLite), Finite State Machine (FSM) Recovery, Stateful, Persistent Workers, System Design & Anti-Bot Evasion Strategy (+1 more)
+
+### Community 68 - "Script Components"
+Cohesion: 0.06
+Nodes (14): ContentUnavailableError, AuditPromptBuilder, FAILURE_CATEGORIES, FailureClassifier, RewritePromptBuilder, AuditPromptBuilder, ClaudeWorker, { ContentUnavailableError, InvalidProjectContentError } (+6 more)
 
 ### Community 80 - "Community 80"
 Cohesion: 0.06
 Nodes (30): dependencies, @base-ui/react, class-variance-authority, clsx, lucide-react, next, react, react-dom (+22 more)
 
 ### Community 81 - "Community 81"
-Cohesion: 0.17
-Nodes (10): AuditPromptBuilder, { ContentUnavailableError, InvalidProjectContentError }, { FailureClassifier }, fs, path, { PROJECT_STATUSES }, RewritePromptBuilder, { WORKER_STATES } (+2 more)
+Cohesion: 0.33
+Nodes (5): useReviewQueue(), ReviewQueue(), ReviewSLA(), RewriteHealthBadge(), RewriteMetrics()
 
 ### Community 82 - "Community 82"
 Cohesion: 0.21
@@ -336,7 +336,7 @@ Nodes (7): ContentProject, PROJECT_STATUSES, VALID_PROJECT_TRANSITIONS, { Conten
 
 ### Community 83 - "Community 83"
 Cohesion: 0.22
-Nodes (8): 1. Server Preparation, 2. Environment Configuration, 3. Proxy & Security, 4. Claude Authentication (Manual Initialization), 5. Startup & Readiness, 6. Monitoring & Verification, 7. Backups, Final Production Launch Checklist
+Nodes (8): Architecture Improvements, Dependencies Removed, Files Modified, Files Moved, Files Removed, Remaining Technical Debt, Repository Cleanup & Hygiene Pass: Deliverables Report, Repository Health Score
 
 ### Community 84 - "Community 84"
 Cohesion: 0.29
@@ -354,6 +354,10 @@ Nodes (6): 1. Project States, 2. Job States, 3. Execution Ownership, 4. Recovery
 Cohesion: 0.22
 Nodes (3): RegistrationResult, ConnectionStatus, RegistrationStatus
 
+### Community 88 - "Community 88"
+Cohesion: 0.22
+Nodes (8): 1. Server Preparation, 2. Environment Configuration, 3. Proxy & Security, 4. Claude Authentication (Manual Initialization), 5. Startup & Readiness, 6. Monitoring & Verification, 7. Backups, Final Production Launch Checklist
+
 ### Community 93 - "Community 93"
 Cohesion: 0.10
 Nodes (7): AuthorChangedEvent, BaseEvent, CategoryChangedEvent, MediaChangedEvent, PostChangedEvent, SiteChangedEvent, TagChangedEvent
@@ -366,21 +370,29 @@ Nodes (4): Agent Rules, Auto-Commit Rule, Continuous Documentation Rule, Mandato
 Cohesion: 0.25
 Nodes (7): 🚧 Blockers & Issues, 📊 Current Status, 🎯 Immediate To-Do (Next Up), 📅 Progress Log, [Project Name] - Progress Tracker, [YYYY-MM-DD], [YYYY-MM-DD]
 
+### Community 118 - "Community 118"
+Cohesion: 0.25
+Nodes (7): 1. Validation Report, 2. Defect Register, 3. Recovery Evidence, 4. Benchmark Results, 5. Security Audit, 6. Final Production Readiness Report, System Readiness & Validation Report (Phase 15.9)
+
+### Community 133 - "Community 133"
+Cohesion: 0.29
+Nodes (6): 14-Day Soak Test Plan, Duration & Cadence, Failure Injection Scenarios (To be executed on Day 1 & Day 7), Instrumented Metrics (via `/status` and Terminal Dashboard), Objective, Validation Thresholds & Pass Criteria
+
 ### Community 134 - "Community 134"
 Cohesion: 0.22
 Nodes (9): { ApiError, ErrorCodes }, createDashboardRoutes(), express, { sendSuccess, sendError, parsePagination }, ApiError, ErrorCodes, parsePagination(), sendError() (+1 more)
 
 ### Community 135 - "Community 135"
-Cohesion: 0.21
-Nodes (9): Dashboard(), EventFeed(), KPICard(), KPICardProps, KPIGrid(), QueueWidget(), EventDto, useEvents() (+1 more)
+Cohesion: 0.23
+Nodes (9): OverviewDto, Dashboard(), EventFeed(), KPICard(), KPICardProps, KPIGrid(), EventDto, useEvents() (+1 more)
 
 ### Community 136 - "Community 136"
 Cohesion: 0.09
 Nodes (21): aliases, components, hooks, lib, ui, utils, iconLibrary, menuAccent (+13 more)
 
 ### Community 137 - "Community 137"
-Cohesion: 0.18
-Nodes (9): ContentUnavailableError, AuditPromptBuilder, { ContentUnavailableError, InvalidProjectContentError }, { FailureClassifier }, fs, path, { PROJECT_STATUSES }, RewritePromptBuilder (+1 more)
+Cohesion: 0.40
+Nodes (4): Filesystem Layout, Infrastructure, PM2 Configuration (`ecosystem.config.js`), Staging Deployment Design
 
 ### Community 139 - "Community 139"
 Cohesion: 0.22
@@ -407,8 +419,8 @@ Cohesion: 0.17
 Nodes (4): CronManager, Plugin, HeartbeatService, Loader
 
 ### Community 153 - "Community 153"
-Cohesion: 0.14
-Nodes (16): apiClient(), ApiError, ApiErrorResponse, ApiResponse, AuditIssue, JobDto, OverviewDto, ProjectDto (+8 more)
+Cohesion: 0.13
+Nodes (17): apiClient(), ApiError, ApiErrorResponse, ApiResponse, AuditIssue, JobDto, ProjectDto, ProjectFilters (+9 more)
 
 ### Community 154 - "Community 154"
 Cohesion: 0.40
@@ -423,49 +435,45 @@ Cohesion: 0.31
 Nodes (7): ProjectHistoryDto, useProject(), useProjectHistory(), ProjectDetail(), STAGES, WorkflowStepper(), WorkflowStepperProps
 
 ### Community 163 - "Community 163"
-Cohesion: 0.33
-Nodes (4): SiteDto, SiteCard(), SiteHealthGrid(), useSites()
+Cohesion: 0.39
+Nodes (5): SiteDto, SiteCard(), SiteHealthGrid(), useSites(), SitesList()
 
 ### Community 164 - "Community 164"
-Cohesion: 0.09
-Nodes (27): RewriteDto, VersionDto, ReviewWidget(), ReviewDto, ReviewFilters, useReviewAction(), useReviewAssign(), useReviewDetails() (+19 more)
+Cohesion: 0.24
+Nodes (10): RewriteDto, useProjectRewrites(), useProjectVersions(), useRewrite(), RewriteDetail(), DiffViewer(), RewriteHeader(), RewriteSummary() (+2 more)
 
 ### Community 167 - "Community 167"
-Cohesion: 0.26
-Nodes (8): AdminModule, HeartbeatService, Loader, ModuleInterface, Notices, RegistrationService, BackendClient, ConfigService
-
-### Community 168 - "Community 168"
-Cohesion: 0.25
-Nodes (7): 1. Validation Report, 2. Defect Register, 3. Recovery Evidence, 4. Benchmark Results, 5. Security Audit, 6. Final Production Readiness Report, System Readiness & Validation Report (Phase 15.9)
-
-### Community 169 - "Community 169"
-Cohesion: 0.27
-Nodes (4): OverviewPage, BackendClient, CompatibilityService, ConfigService
-
-### Community 171 - "Community 171"
-Cohesion: 0.40
-Nodes (3): HandshakeResult, RegistrationResult, RegistrationService
+Cohesion: 0.08
+Nodes (11): Menu, OverviewPage, SettingsPage, Nonce, Permissions, BackendClient, ConfigService, ConfigService (+3 more)
 
 ### Community 173 - "Community 173"
-Cohesion: 0.31
-Nodes (6): ConnectionResult, HealthService, ConnectionService, BackendClient, ConfigService, LoggerInterface
+Cohesion: 0.18
+Nodes (10): 1. Node.js Environment & Tooling, 2. Browser Automation & Evasion, 3. Persistent Job Queues, 4. Concurrency & Worker Architecture, 5. Resilient Error Recovery, 🗺️ Conceptual Knowledge Graph, 🧠 Core Engineering Concepts Applied, Engineering Knowledge Base (+2 more)
+
+### Community 178 - "Community 178"
+Cohesion: 0.40
+Nodes (4): data, http, options, req
+
+### Community 181 - "Community 181"
+Cohesion: 0.40
+Nodes (4): Conversational Learning Capture, Interactive Interviewing, Knowledge Management Rules, Mermaid Knowledge Graph
 
 ## Knowledge Gaps
-- **386 isolated node(s):** `express`, `{ createStatusRoutes }`, `{ createSiteRoutes }`, `{ createProjectRoutes }`, `{ createJobRoutes }` (+381 more)
+- **396 isolated node(s):** `🗺️ Conceptual Knowledge Graph`, `1. Node.js Environment & Tooling`, `2. Browser Automation & Evasion`, `3. Persistent Job Queues`, `4. Concurrency & Worker Architecture` (+391 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **109 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **102 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ClaudeManager` connect `Createclaudeerror Components` to `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
-- **Why does `BrowserManager` connect `Browsermanager Components` to `Bootstrapmanager Components`, `Createclaudeerror Components`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
-- **Why does `JobRepository` connect `Jobrepository Components` to `Migrations Components`, `Bootstrapmanager Components`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
-- **What connects `express`, `{ createStatusRoutes }`, `{ createSiteRoutes }` to the rest of the system?**
-  _386 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+- **Why does `DashboardReadService` connect `Community 138` to `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+- **Why does `BootstrapManager` connect `Bootstrapmanager Components` to `Community 139`, `Bootstrapmanager Components`?**
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
+- **What connects `🗺️ Conceptual Knowledge Graph`, `1. Node.js Environment & Tooling`, `2. Browser Automation & Evasion` to the rest of the system?**
+  _396 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Auditroutes Components` be split into smaller, more focused modules?**
   _Cohesion score 0.1038961038961039 - nodes in this community are weakly interconnected._
 - **Should `Bootstrapmanager Components` be split into smaller, more focused modules?**

@@ -153,6 +153,7 @@ function createApp(services) {
         pluginService: services.pluginService,
         wpOpService: services.wpOpService,
         jobService: services.jobService,
+        projectService: services.projectService,
         logger: logger.server
     }));
 

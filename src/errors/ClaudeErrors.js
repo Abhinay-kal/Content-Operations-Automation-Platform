@@ -88,6 +88,7 @@ module.exports = {
     BrowserError,
     ProfileLockError,
     ValidationError,
+    ContentUnavailableError,
     InvalidProjectContentError,
     InvalidResponseQualityError,
     RecoveryReport,

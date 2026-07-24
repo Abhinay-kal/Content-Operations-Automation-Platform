@@ -1,6 +1,6 @@
 const express = require('express');
 
-function createPluginRoutes({ pluginService, wpOpService, jobService, logger }) {
+function createPluginRoutes({ pluginService, wpOpService, jobService, projectService, logger }) {
     const router = express.Router();
 
     const authenticate = (req, res, next) => {
@@ -185,12 +185,17 @@ function createPluginRoutes({ pluginService, wpOpService, jobService, logger }) 
             let queued = 0;
             let completed = 0;
             let failed = 0;
+            let completedAudits = [];
+            let completedRewrites = [];
             
             if (jobService) {
                 const queue = await jobService.getSiteQueue(installation.site_id);
                 processing = queue.processing.length;
                 queued = queue.pending.length;
                 completed = queue.completed.length;
+                
+                completedAudits = queue.completed.filter(j => j.type === 'AUDIT').map(j => ({ id: j.id, project_id: j.project_id, wp_post_id: j.wp_post_id, post_title: j.post_title, updated_at: j.updated_at }));
+                completedRewrites = queue.completed.filter(j => j.type === 'REWRITE').map(j => ({ id: j.id, project_id: j.project_id, wp_post_id: j.wp_post_id, post_title: j.post_title, updated_at: j.updated_at }));
             }
             
             res.json({ 
@@ -199,7 +204,11 @@ function createPluginRoutes({ pluginService, wpOpService, jobService, logger }) 
                     processing,
                     queued,
                     completed,
-                    failed
+                    failed,
+                    completed_details: {
+                        audits: completedAudits,
+                        rewrites: completedRewrites
+                    }
                 }
             });
         } catch (err) {
@@ -248,6 +257,22 @@ function createPluginRoutes({ pluginService, wpOpService, jobService, logger }) 
             res.json({ success: true, data: jobs });
         } catch (err) {
             if(logger) logger.error('Create job error', { error: err.message });
+            res.status(400).json({ success: false, error: err.message });
+        }
+    });
+
+    router.get('/plugin/projects/:project_id/audit', authenticate, async (req, res) => {
+        try {
+            if (!projectService) {
+                return res.status(500).json({ success: false, error: 'Project service not available' });
+            }
+            const audit = await projectService.getLatestAuditByProjectId(req.params.project_id);
+            if (!audit) {
+                return res.status(404).json({ success: false, error: 'Audit not found' });
+            }
+            res.json({ success: true, data: audit });
+        } catch (err) {
+            if(logger) logger.error('Get audit error', { error: err.message });
             res.status(400).json({ success: false, error: err.message });
         }
     });

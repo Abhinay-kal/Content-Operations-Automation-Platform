@@ -38,5 +38,6 @@ class AdminModule implements ModuleInterface {
         $loader->addAction('wp_ajax_seo_opt_heartbeat', $settingsPage, 'handleHeartbeat');
         $loader->addAction('wp_ajax_seo_opt_get_queue_stats', $overviewPage, 'handleGetQueueStats');
         $loader->addAction('wp_ajax_seo_opt_schedule_job', $overviewPage, 'handleScheduleJob');
+        $loader->addAction('wp_ajax_seo_opt_get_audit', $overviewPage, 'handleGetAudit');
     }
 }

@@ -126,10 +126,13 @@ class JobRepository {
 
     async getSiteQueue(siteId) {
         const stmt = this.db.prepare(`
-            SELECT * FROM jobs 
-            WHERE site_id = ? 
-            AND status IN ('PENDING', 'PROCESSING', 'COMPLETED')
-            ORDER BY updated_at DESC
+            SELECT jobs.*, cp.wp_post_id, p.title as post_title 
+            FROM jobs 
+            LEFT JOIN content_projects cp ON jobs.project_id = cp.id
+            LEFT JOIN posts p ON cp.wp_post_id = p.wp_post_id AND p.site_id = jobs.site_id
+            WHERE jobs.site_id = ? 
+            AND jobs.status IN ('PENDING', 'PROCESSING', 'COMPLETED')
+            ORDER BY jobs.updated_at DESC
         `);
         const rows = stmt.all(siteId);
         
