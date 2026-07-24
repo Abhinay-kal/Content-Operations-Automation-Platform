@@ -22,7 +22,8 @@ graph TD
     C2["**Error Recovery & Retries**"]
     D1["**Package Scripts (npm start vs node)**"]
     D2["**Environment Variables (.env)**"]
-    D3["**Reverse Proxies (ngrok)**"]
+    D3["**Reverse Proxy Tunneling (ngrok)**"]
+    D4["**NAT Traversal & Firewalls**"]
     
     %% Relationships
     A --> A1
@@ -35,6 +36,7 @@ graph TD
     D --> D1
     D --> D2
     D --> D3
+    D3 --> D4
     
     %% Styling for actively used/implemented subtopics
     style A1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
@@ -46,23 +48,25 @@ graph TD
     style D1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style D2 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style D3 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+    style D4 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
 ```
 
 ## 🧠 Core Engineering Concepts Applied
 
-### 1. Browser Automation & Evasion
+### 1. Node.js Environment & Tooling
+* **Concept**: Managing application startup, configuration, and networking.
+* **Applied Through**: `npm start` aliases, `.env` files, and `ngrok`.
+* **Reverse Proxy Tunneling (NAT Traversal)**: Because local laptops sit behind routers and firewalls (Network Address Translation - NAT) that block inbound traffic, we use tools like `ngrok`. Ngrok establishes an *outbound* connection from our machine to their cloud, and then forwards public traffic back through that established tunnel, bypassing firewall restrictions.
+* **Learning Value**: 
+    - **NPM Scripts**: Understanding that `npm start` is a wrapper script that delegates to `node src/index.js`.
+    - **Configuration**: Using `.env` to securely manage `PORT` and `API_KEYS`.
+    - **Networking**: Using `ngrok` as a reverse proxy to expose local ports to the public internet securely.
+
+### 2. Browser Automation & Evasion
 * **Concept**: Automating web interactions while avoiding bot detection.
 * **Applied Through**: `puppeteer-extra-plugin-stealth` and Playwright contexts.
 * **Headless Execution**: Understanding `headless: false` (visible GUI, good for debugging) vs `headless: true` (invisible background process, good for production to save RAM/CPU).
 * **Learning Value**: Understanding how modern web applications detect automated traffic (e.g., navigator properties, WebGL fingerprinting, headless Chrome indicators) and how to mitigate them.
-
-### 2. Node.js Environment & Tooling
-* **Concept**: Managing application startup, configuration, and networking.
-* **Applied Through**: `npm start` aliases, `.env` files, and `ngrok`.
-* **Learning Value**: 
-    - **NPM Scripts**: Understanding that `npm start` is a wrapper script that delegates to `node src/index.js`.
-    - **Configuration**: Using `.env` to securely manage `PORT` and `API_KEYS`.
-    - **Networking**: Using `ngrok` as a reverse proxy to expose local ports (e.g., 3000) to the public internet so external clients (like a WordPress plugin) can communicate with local development servers.
 
 ### 3. Persistent Job Queues
 * **Concept**: Storing tasks reliably so they survive server restarts or crashes.
@@ -87,7 +91,7 @@ graph TD
 * **Express.js (Middleware pipelines)**
 * **Playwright & Puppeteer (Headless browsing)**
 * **SQLite (File-based relational databases)**
-* **ngrok (Reverse proxy/tunneling)**
+* **ngrok (Reverse proxy/NAT Traversal)**
 * **Jest (Unit/Integration testing)**
 
 ---
@@ -97,7 +101,8 @@ graph TD
 1. **"What is the difference between running `node index.js` and `npm start`?"**
 2. **"Why do we store database passwords and API keys in a `.env` file instead of hardcoding them?"**
 3. **"What is the difference between headless and non-headless browser automation?"**
-4. **"How would you expose a local development server to an external webhook or plugin?"** (Answer: reverse proxy like ngrok)
-5. **"How would you design a scalable web scraper that avoids bot detection?"**
-6. **"Explain the difference between a persistent queue and an in-memory queue."**
-7. **"How does the Node.js event loop handle long-running background tasks?"**
+4. **"How would you expose a local development server to an external webhook or plugin?"**
+5. **"How does a tool like ngrok bypass local firewalls to expose your server?"** (Answer: NAT Traversal via outbound TCP connections).
+6. **"How would you design a scalable web scraper that avoids bot detection?"**
+7. **"Explain the difference between a persistent queue and an in-memory queue."**
+8. **"How does the Node.js event loop handle long-running background tasks?"**
