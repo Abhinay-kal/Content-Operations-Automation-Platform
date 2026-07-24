@@ -3,6 +3,9 @@
 ## Mermaid Knowledge Graph
 When maintaining or updating the `knowledge.md` file, you MUST include and continuously update a `mermaid` diagram that acts as a visual knowledge graph of the topics and concepts we have learned.
 
+## Conversational Learning Capture
+You MUST actively track any engineering concepts, explanations, or debugging techniques discussed during chat (e.g., explaining `npm start` vs `node src/index.js`, environment variables, networking basics). These conversational topics must be added to the `knowledge.md` conceptual graph and the tracked topics list, even if they didn't require writing any new code.
+
 **Graph Requirements:**
 1. The graph must map main engineering topics to their respective subtopics.
 2. For any subtopics that we actively used or implemented in the project, you must:

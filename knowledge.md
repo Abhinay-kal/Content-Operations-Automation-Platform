@@ -10,14 +10,17 @@ graph TD
     A[Browser Automation]
     B[Architecture & Persistence]
     C[Concurrency & Resiliency]
+    D[Node.js Environment & Tooling]
     
     %% Subtopics
     A1["**Evasion (Stealth Plugin)**"]
     A2[Playwright Contexts]
     B1["**Persistent Job Queues (SQLite)**"]
-    B2["API Design (Express)"]
+    B2["**API Design (Express)**"]
     C1["**Node.js Event Loop**"]
     C2["**Error Recovery & Retries**"]
+    D1["**Package Scripts (npm start vs node)**"]
+    D2["**Environment Variables (.env)**"]
     
     %% Relationships
     A --> A1
@@ -26,46 +29,51 @@ graph TD
     B --> B2
     C --> C1
     C --> C2
+    D --> D1
+    D --> D2
     
     %% Styling for actively used/implemented subtopics
     style A1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style B1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+    style B2 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style C1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
     style C2 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+    style D1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+    style D2 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
 ```
 
 ## 🧠 Core Engineering Concepts Applied
 
-### 1. Browser Automation & Evasion
+### 1. Node.js Environment & Tooling
+* **Concept**: Managing application startup and configuration.
+* **Applied Through**: `npm start` aliases and `.env` files.
+* **Learning Value**: Understanding that `npm start` is a wrapper script that delegates to `node src/index.js`, allowing teams to abstract complex startup commands. Also, using `.env` to securely manage `PORT` and `API_KEYS` across different deployment environments.
+
+### 2. Browser Automation & Evasion
 * **Concept**: Automating web interactions while avoiding bot detection.
 * **Applied Through**: `puppeteer-extra-plugin-stealth` and Playwright contexts.
 * **Learning Value**: Understanding how modern web applications detect automated traffic (e.g., navigator properties, WebGL fingerprinting, headless Chrome indicators) and how to mitigate them.
 
-### 2. Persistent Job Queues
+### 3. Persistent Job Queues
 * **Concept**: Storing tasks reliably so they survive server restarts or crashes.
 * **Applied Through**: SQLite (`better-sqlite3`) functioning as a local persistence layer for jobs.
 * **Learning Value**: Trade-offs between memory queues (fast, volatile) vs. persistent database queues (slower, reliable).
 
-### 3. Concurrency & Worker Architecture
+### 4. Concurrency & Worker Architecture
 * **Concept**: Managing multiple asynchronous tasks concurrently without blocking the main thread.
 * **Applied Through**: Node.js event loop, asynchronous job runners.
 * **Learning Value**: Handling race conditions, managing connection pools, and ensuring the application remains responsive under load.
 
-### 4. Resilient Error Recovery
+### 5. Resilient Error Recovery
 * **Concept**: Designing systems that expect failure and recover gracefully.
 * **Applied Through**: Express error boundaries, retry logic for failed Playwright actions, and transaction rollbacks.
 * **Learning Value**: Building robust scrapers that can handle unexpected DOM changes, network timeouts, or Claude UI rate limits.
-
-### 5. API Design & Routing
-* **Concept**: Structuring modular, maintainable web services.
-* **Applied Through**: Express routing structure (`src/routes`, `src/api`).
-* **Learning Value**: Separation of concerns (Controllers vs. Services vs. Repositories).
 
 ---
 
 ## 🛠️ Technology & Tools Mastery
 
-* **Node.js (Event-driven I/O)**
+* **Node.js (Event-driven I/O, Package Scripts)**
 * **Express.js (Middleware pipelines)**
 * **Playwright & Puppeteer (Headless browsing)**
 * **SQLite (File-based relational databases)**
@@ -74,11 +82,9 @@ graph TD
 ---
 
 ## 📚 Interview Topics Tracked
-*This section will grow as we tackle new features.*
 
-1. **"How would you design a scalable web scraper that avoids bot detection?"**
-2. **"Explain the difference between a persistent queue and an in-memory queue."**
-3. **"How does the Node.js event loop handle long-running background tasks?"**
-
----
-*Note: As we implement new features, algorithms (e.g. recursion, tree-traversal), or patterns, we will log them here and update the visual graph above to build a comprehensive map of your engineering growth.*
+1. **"What is the difference between running `node index.js` and `npm start`?"**
+2. **"Why do we store database passwords and API keys in a `.env` file instead of hardcoding them?"**
+3. **"How would you design a scalable web scraper that avoids bot detection?"**
+4. **"Explain the difference between a persistent queue and an in-memory queue."**
+5. **"How does the Node.js event loop handle long-running background tasks?"**
