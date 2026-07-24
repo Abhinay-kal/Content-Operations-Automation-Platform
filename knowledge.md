@@ -2,6 +2,38 @@
 
 This document serves as a living record of the engineering concepts, patterns, and technologies learned and applied in this repository. 
 
+## 🗺️ Conceptual Knowledge Graph
+
+```mermaid
+graph TD
+    %% Main Topics
+    A[Browser Automation]
+    B[Architecture & Persistence]
+    C[Concurrency & Resiliency]
+    
+    %% Subtopics
+    A1["**Evasion (Stealth Plugin)**"]
+    A2[Playwright Contexts]
+    B1["**Persistent Job Queues (SQLite)**"]
+    B2["API Design (Express)"]
+    C1["**Node.js Event Loop**"]
+    C2["**Error Recovery & Retries**"]
+    
+    %% Relationships
+    A --> A1
+    A --> A2
+    B --> B1
+    B --> B2
+    C --> C1
+    C --> C2
+    
+    %% Styling for actively used/implemented subtopics
+    style A1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+    style B1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+    style C1 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+    style C2 fill:#ffff00,stroke:#333,stroke-width:2px,color:#000;
+```
+
 ## 🧠 Core Engineering Concepts Applied
 
 ### 1. Browser Automation & Evasion
@@ -49,4 +81,4 @@ This document serves as a living record of the engineering concepts, patterns, a
 3. **"How does the Node.js event loop handle long-running background tasks?"**
 
 ---
-*Note: As we implement new features, algorithms (e.g. recursion, tree-traversal), or patterns, we will log them here to build a comprehensive map of your engineering growth.*
+*Note: As we implement new features, algorithms (e.g. recursion, tree-traversal), or patterns, we will log them here and update the visual graph above to build a comprehensive map of your engineering growth.*
