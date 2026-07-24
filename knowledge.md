@@ -1,47 +1,52 @@
-# Project Knowledge Base
+# Engineering Knowledge Base
 
-## Project Overview
-**Name**: `claude-worker-foundation` (Content-Operations-Automation)
-**Description**: A reliable, scalable Playwright + Express worker designed for automating the Claude Web UI. This project provides a robust foundation for executing serialized prompts, managing browser sessions, and handling persistent jobs with sophisticated error recovery.
+This document serves as a living record of the engineering concepts, patterns, and technologies learned and applied in this repository. 
 
-## Technology Stack
-- **Language**: JavaScript (Node.js)
-- **Web Framework**: Express
-- **Browser Automation**: Playwright, Puppeteer (with `puppeteer-extra-plugin-stealth` for evasion)
-- **Database**: SQLite (via `better-sqlite3`)
-- **Testing**: Jest, `@playwright/test`
-- **Environment**: dotenv
+## 🧠 Core Engineering Concepts Applied
 
-## Architecture Overview
-The application is a Node.js worker/server that exposes an API (Express) to receive automation jobs, stores them persistently (SQLite), and processes them using a stealthy browser automation engine (Playwright/Puppeteer) to interact with the Claude Web UI. 
+### 1. Browser Automation & Evasion
+* **Concept**: Automating web interactions while avoiding bot detection.
+* **Applied Through**: `puppeteer-extra-plugin-stealth` and Playwright contexts.
+* **Learning Value**: Understanding how modern web applications detect automated traffic (e.g., navigator properties, WebGL fingerprinting, headless Chrome indicators) and how to mitigate them.
 
-## Folder Structure (src/)
-- **api/**: API controllers/endpoints
-- **bootstrap/**: Application initialization and startup routines
-- **browser/**: Browser automation logic and context management
-- **config/**: Configuration and environment variables
-- **db/**: Database connection and schema definitions
-- **errors/**: Custom error handling and classes
-- **middleware/**: Express middleware (auth, logging, etc.)
-- **models/**: Data models
-- **monitor/**: System monitoring and health checks
-- **repositories/**: Database access layer for models
-- **routes/**: API route definitions
-- **services/**: Core business logic
-- **session/**: Claude session management
-- **utils/**: Utility functions and helpers
-- **workers/**: Background job processing logic
+### 2. Persistent Job Queues
+* **Concept**: Storing tasks reliably so they survive server restarts or crashes.
+* **Applied Through**: SQLite (`better-sqlite3`) functioning as a local persistence layer for jobs.
+* **Learning Value**: Trade-offs between memory queues (fast, volatile) vs. persistent database queues (slower, reliable).
 
-## Important Commands
-- `npm start`: Starts the main server (`node src/index.js`)
-- `npm run legacy-start`: Starts the legacy server (`node server.js`)
-- `npm test`: Runs the Jest test suite
+### 3. Concurrency & Worker Architecture
+* **Concept**: Managing multiple asynchronous tasks concurrently without blocking the main thread.
+* **Applied Through**: Node.js event loop, asynchronous job runners.
+* **Learning Value**: Handling race conditions, managing connection pools, and ensuring the application remains responsive under load.
 
-## Interview Topics Covered (In Progress)
-- Node.js architecture and event loop
-- Browser automation evasion techniques (stealth plugins)
-- SQLite persistent queues vs Redis/Memory
-- Handling browser sessions and cookies securely
-- Building reliable scraper/worker architecture
+### 4. Resilient Error Recovery
+* **Concept**: Designing systems that expect failure and recover gracefully.
+* **Applied Through**: Express error boundaries, retry logic for failed Playwright actions, and transaction rollbacks.
+* **Learning Value**: Building robust scrapers that can handle unexpected DOM changes, network timeouts, or Claude UI rate limits.
 
-*This file will be updated continuously as we implement new features and architectural changes.*
+### 5. API Design & Routing
+* **Concept**: Structuring modular, maintainable web services.
+* **Applied Through**: Express routing structure (`src/routes`, `src/api`).
+* **Learning Value**: Separation of concerns (Controllers vs. Services vs. Repositories).
+
+---
+
+## 🛠️ Technology & Tools Mastery
+
+* **Node.js (Event-driven I/O)**
+* **Express.js (Middleware pipelines)**
+* **Playwright & Puppeteer (Headless browsing)**
+* **SQLite (File-based relational databases)**
+* **Jest (Unit/Integration testing)**
+
+---
+
+## 📚 Interview Topics Tracked
+*This section will grow as we tackle new features.*
+
+1. **"How would you design a scalable web scraper that avoids bot detection?"**
+2. **"Explain the difference between a persistent queue and an in-memory queue."**
+3. **"How does the Node.js event loop handle long-running background tasks?"**
+
+---
+*Note: As we implement new features, algorithms (e.g. recursion, tree-traversal), or patterns, we will log them here to build a comprehensive map of your engineering growth.*
